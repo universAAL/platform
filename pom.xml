@@ -8,18 +8,55 @@
 	<name>The One POM</name>
 	<description>defining common building, reporting, repository location, etc.. rules for all universAAL projects</description>
 
+	<organization>
+		<name>universAAL Consortium</name>
+		<url>http://www.universAAL.org/</url>
+	</organization>
+	
 	<properties>
-	<!-- <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> -->
+
 <!-- 	Each project must specify the following property (example for middleware gforge project) : -->
 <!-- 	 	<gforge.project.name>middleware</gforge.project.name> -->
-		<svn.base>scm:svn:http://forge.universaal.org/svn/${gforge.project.name}/trunk</svn.base>
-		<gforge.project.url>http://forge.universaal.org/gf/project/${gforge.project.name}</gforge.project.url>
-		<svn.base.url>${gforge.project.url}/scmsvn/?path=%2Ftrunk%2F</svn.base.url>
 		<!-- Other variables that can be overridden -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compile.testSource>1.5</maven.compile.testSource>
 		<maven.compile.testTarget>1.5</maven.compile.testTarget>
+		<!-- Useful variables to use by projects -->
+		<svn.base>scm:svn:http://forge.universaal.org/svn/${gforge.project.name}/trunk</svn.base>
+		<svn.base.url>${gforge.project.url}/scmsvn/?path=%2Ftrunk%2F</svn.base.url>
+		<gforge.project.url>http://forge.universaal.org/gf/project/${gforge.project.name}</gforge.project.url>
 	</properties>
 
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	
+	<ciManagement>
+		<system>Hudson</system>
+		<url>http://depot.universaal.org/hudson/</url>
+		<notifiers>
+			<notifier>
+				<type>rss</type>
+				<address>http://depot.universaal.org/hudson/rssAll</address>
+			</notifier>
+		</notifiers>
+	</ciManagement>
+	
+	<url>
+		<![CDATA[${gforge.project.url}]]>
+	</url>
+
+	<issueManagement>
+		<system>GForge - Tracker</system>
+		<url>
+			<![CDATA[${gforge.project.url}/tracker/]]>
+		</url>
+	</issueManagement>
+	
 	<build>
 		<pluginManagement>
 			<plugins>
@@ -62,6 +99,14 @@
 					<configuration>
 						<downloadSources>true</downloadSources>
 						<downloadJavadocs>true</downloadJavadocs>
+<!-- 					<additionalConfig> -->
+<!-- 						<file> -->
+<!-- 							<name>.settings/org.eclipse.core.resources.prefs</name> -->
+<!-- 							<content> -->
+<!-- 								<![CDATA[eclipse.preferences.version=1${line.separator}encoding/<project>=${project.build.sourceEncoding}${line.separator}]]> -->
+<!-- 							</content> -->
+<!-- 						</file> -->
+<!-- 					</additionalConfig> -->
 					</configuration>
 				</plugin>
 				<plugin>
