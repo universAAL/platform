@@ -12,13 +12,14 @@
 		<name>universAAL Consortium</name>
 		<url>http://www.universAAL.org/</url>
 	</organization>
-	
+
 	<properties>
 
-<!-- 	Each project must specify the following property (example for middleware gforge project) : -->
-<!-- 	 	<gforge.project.name>middleware</gforge.project.name> -->
+		<!-- Each project must specify the following property (example for middleware 
+			gforge project) : -->
+		<!-- <gforge.project.name>middleware</gforge.project.name> -->
 		<!-- Other variables that can be overridden -->
-<!-- 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> -->
+		<project.build.sourceEncoding>Cp1252</project.build.sourceEncoding>
 		<maven.compile.testSource>1.5</maven.compile.testSource>
 		<maven.compile.testTarget>1.5</maven.compile.testTarget>
 		<!-- Useful variables to use by projects -->
@@ -34,7 +35,7 @@
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
-	
+
 	<ciManagement>
 		<system>Hudson</system>
 		<url>http://depot.universaal.org/hudson/</url>
@@ -45,7 +46,7 @@
 			</notifier>
 		</notifiers>
 	</ciManagement>
-	
+
 	<url>
 		<![CDATA[${gforge.project.url}]]>
 	</url>
@@ -56,7 +57,7 @@
 			<![CDATA[${gforge.project.url}/tracker/]]>
 		</url>
 	</issueManagement>
-	
+
 	<build>
 		<pluginManagement>
 			<plugins>
@@ -102,14 +103,14 @@
 					<configuration>
 						<downloadSources>true</downloadSources>
 						<downloadJavadocs>true</downloadJavadocs>
-<!-- 					<additionalConfig> -->
-<!-- 						<file> -->
-<!-- 							<name>.settings/org.eclipse.core.resources.prefs</name> -->
-<!-- 							<content> -->
-<!-- 								<![CDATA[eclipse.preferences.version=1${line.separator}encoding/<project>=${project.build.sourceEncoding}${line.separator}]]> -->
-<!-- 							</content> -->
-<!-- 						</file> -->
-<!-- 					</additionalConfig> -->
+						<additionalConfig>
+							<file>
+								<name>.settings/org.eclipse.core.resources.prefs</name>
+								<content>
+								<![CDATA[eclipse.preferences.version=1${line.separator}encoding/<project>=${project.build.sourceEncoding}${line.separator}]]>
+								</content>
+							</file>
+						</additionalConfig>
 					</configuration>
 				</plugin>
 				<plugin>
@@ -139,6 +140,45 @@
 						</execution>
 					</executions>
 				</plugin>
+				<!--This plugin's configuration is used to store Eclipse m2e settings 
+					only. It has no influence on the Maven build itself. -->
+				<plugin>
+					<groupId>org.eclipse.m2e</groupId>
+					<artifactId>lifecycle-mapping</artifactId>
+					<version>1.0.0</version>
+					<configuration>
+						<lifecycleMappingMetadata>
+							<pluginExecutions>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>org.apache.maven.plugins</groupId>
+										<artifactId>maven-antrun-plugin</artifactId>
+										<versionRange>[1.7,)</versionRange>
+										<goals>
+											<goal>run</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore></ignore>
+									</action>
+								</pluginExecution>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>org.universAAL.support</groupId>
+										<artifactId>uaal-maven-plugin</artifactId>
+										<versionRange>[0.1.0-SNAPSHOT,)</versionRange>
+										<goals>
+											<goal>composite</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore></ignore>
+									</action>
+								</pluginExecution>
+							</pluginExecutions>
+						</lifecycleMappingMetadata>
+					</configuration>
+				</plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
@@ -163,11 +203,11 @@
 				<artifactId>maven-pmd-plugin</artifactId>
 				<version>2.5</version>
 			</plugin>
-<!-- 			<plugin>  -->
-<!-- 				<groupId>org.codehaus.mojo</groupId>  -->
-<!-- 				<artifactId>cobertura-maven-plugin</artifactId>  -->
-<!-- 				<version>2.5.1</version>  -->
-<!-- 			</plugin>  -->
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>cobertura-maven-plugin</artifactId>
+				<version>2.5.1</version>
+			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jxr-plugin</artifactId>
@@ -314,19 +354,19 @@
 							<optimize>true</optimize>
 						</configuration>
 					</plugin>
-<!-- 					<plugin> -->
-<!-- 						<groupId>org.apache.maven.plugins</groupId> -->
-<!-- 						<artifactId>maven-source-plugin</artifactId> -->
-<!-- 						<version>2.1.2</version> -->
-<!-- 						<executions> -->
-<!-- 							<execution> -->
-<!-- 								<id>attach-sources</id> -->
-<!-- 								<goals> -->
-<!-- 									<goal>jar</goal> -->
-<!-- 								</goals> -->
-<!-- 							</execution> -->
-<!-- 						</executions> -->
-<!-- 					</plugin> -->
+					<!-- <plugin> -->
+					<!-- <groupId>org.apache.maven.plugins</groupId> -->
+					<!-- <artifactId>maven-source-plugin</artifactId> -->
+					<!-- <version>2.1.2</version> -->
+					<!-- <executions> -->
+					<!-- <execution> -->
+					<!-- <id>attach-sources</id> -->
+					<!-- <goals> -->
+					<!-- <goal>jar</goal> -->
+					<!-- </goals> -->
+					<!-- </execution> -->
+					<!-- </executions> -->
+					<!-- </plugin> -->
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-javadoc-plugin</artifactId>
