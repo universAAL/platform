@@ -175,6 +175,19 @@
 										<ignore></ignore>
 									</action>
 								</pluginExecution>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>org.universAAL.support</groupId>
+										<artifactId>uaal-maven-plugin</artifactId>
+										<versionRange>[0.1.0-SNAPSHOT,)</versionRange>
+										<goals>
+											<goal>test</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore></ignore>
+									</action>
+								</pluginExecution>
 							</pluginExecutions>
 						</lifecycleMappingMetadata>
 					</configuration>
