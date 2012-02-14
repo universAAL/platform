@@ -67,6 +67,7 @@
 					<version>2.2.2</version>
 					<configuration>
 						<tagNameFormat>@{project.version}/@{project.artifactId}</tagNameFormat>
+						<autoVersionSubmodules>true</autoVersionSubmodules>
 					</configuration>
 				</plugin>
 				<plugin>
