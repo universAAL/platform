@@ -369,14 +369,13 @@
 		<profile>
 			<id>release</id>
 			<activation>
-				<activeByDefault>false</activeByDefault>
+				<activeByDefault>true</activeByDefault>
 			</activation>
 			<build>
 				<plugins>
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-compiler-plugin</artifactId>
-						<version>2.3.2</version>
 						<inherited>true</inherited>
 						<configuration>
 							<showWarnings>true</showWarnings>
@@ -387,19 +386,19 @@
 							<optimize>true</optimize>
 						</configuration>
 					</plugin>
-					<!-- <plugin> -->
-					<!-- <groupId>org.apache.maven.plugins</groupId> -->
-					<!-- <artifactId>maven-source-plugin</artifactId> -->
-					<!-- <version>2.1.2</version> -->
-					<!-- <executions> -->
-					<!-- <execution> -->
-					<!-- <id>attach-sources</id> -->
-					<!-- <goals> -->
-					<!-- <goal>jar</goal> -->
-					<!-- </goals> -->
-					<!-- </execution> -->
-					<!-- </executions> -->
-					<!-- </plugin> -->
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-source-plugin</artifactId>
+						<version>2.1.2</version>
+						<executions>
+							<execution>
+								<id>attach-sources</id>
+								<goals>
+									<goal>jar</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-javadoc-plugin</artifactId>
