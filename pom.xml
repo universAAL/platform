@@ -69,6 +69,7 @@
 					<configuration>
 						<tagNameFormat>@{project.version}/@{project.artifactId}</tagNameFormat>
 						<autoVersionSubmodules>true</autoVersionSubmodules>
+						<releaseProfiles>release</releaseProfiles>
 					</configuration>
 				</plugin>
 				<plugin>
