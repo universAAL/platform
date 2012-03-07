@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.universAAL</groupId>
 	<artifactId>uAAL.pom</artifactId>
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 	<packaging>pom</packaging>
 	<name>The One POM</name>
 	<description>defining common building, reporting, repository location, etc.. rules for all universAAL projects</description>
@@ -407,6 +407,15 @@
 			<releases>
 				<updatePolicy>never</updatePolicy>
 			</releases>
+		</pluginRepository>
+		<pluginRepository>
+			<id>uaal</id>
+			<name>universAAL Repositories</name>
+			<url>http://depot.universaal.org/maven-repo/releases/</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<layout>default</layout>
 		</pluginRepository>
 	</pluginRepositories>
 
