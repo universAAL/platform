@@ -121,28 +121,6 @@
 					<artifactId>maven-site-plugin</artifactId>
 					<version>3.0</version>
 				</plugin>
-				<plugin>
-					<groupId>org.codehaus.mojo</groupId>
-					<artifactId>build-helper-maven-plugin</artifactId>
-					<version>1.7</version>
-					<executions>
-						<execution>
-							<id>attach-composite</id>
-							<phase>package</phase>
-							<goals>
-								<goal>attach-artifact</goal>
-							</goals>
-							<configuration>
-								<artifacts>
-									<artifact>
-										<file>artifact.composite</file>
-										<type>composite</type>
-									</artifact>
-								</artifacts>
-							</configuration>
-						</execution>
-					</executions>
-				</plugin>
 				<!--This plugin's configuration is used to store Eclipse m2e settings 
 					only. It has no influence on the Maven build itself. -->
 				<plugin>
@@ -236,6 +214,27 @@
 						</execution>
 					</executions>
 				</plugin>
+				<plugin>
+					<groupId>org.universAAL.support</groupId>
+					<artifactId>uaal-maven-plugin</artifactId>
+					<version>1.1.0</version>
+					<executions>
+						<execution>
+							<id>CompositeMojo</id>
+							<phase>generate-resources</phase>
+							<goals>
+								<goal>composite</goal>
+							</goals>
+						</execution>
+						<execution>
+							<id>TestMojo</id>
+							<phase>generate-resources</phase>
+							<goals>
+								<goal>test</goal>
+							</goals>
+						</execution>
+					</executions>
+				   </plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
