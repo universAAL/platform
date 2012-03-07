@@ -214,6 +214,28 @@
 						</lifecycleMappingMetadata>
 					</configuration>
 				</plugin>
+				<plugin>
+					<groupId>org.codehaus.mojo</groupId>
+					<artifactId>build-helper-maven-plugin</artifactId>
+					<version>1.7</version>
+					<executions>
+						<execution>
+							<id>attach-composite</id>
+							<phase>package</phase>
+							<goals>
+								<goal>attach-artifact</goal>
+							</goals>
+							<configuration>
+								<artifacts>
+									<artifact>
+										<file>target/artifact.composite</file>
+										<type>composite</type>
+									</artifact>
+								</artifacts>
+							</configuration>
+						</execution>
+					</executions>
+				</plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
