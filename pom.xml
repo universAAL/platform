@@ -283,6 +283,7 @@
 				<configuration>
 					<aggregate>true</aggregate>
 					<encoding>${project.build.sourceEncoding}</encoding>
+					<format>xml</format>
 				</configuration>
 			</plugin>
 			<plugin>
