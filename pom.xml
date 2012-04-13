@@ -449,6 +449,11 @@
 			</snapshots>
 			<layout>default</layout>
 		</pluginRepository>
+	    <pluginRepository>
+	      	<id>uaal-snapshots</id>
+	      	<name>universAAL Snapshot Repositories</name>
+	      	<url>http://depot.universaal.org/maven-repo/snapshots/</url>
+	    </pluginRepository>
 	</pluginRepositories>
 
 	<profiles>
