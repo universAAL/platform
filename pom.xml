@@ -387,6 +387,10 @@
 			<name>universAAL Snapshots</name>
 			<url>http://depot.universaal.org/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
+		<site>
+			<id>depot.universaal.org</id>
+			<url>ftp://depot.universaal.org/www/Resources/maven-site/${project.version}/${gforge.project.name}</url>
+		</site>
 	</distributionManagement>
 
 	<repositories>
