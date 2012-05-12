@@ -16,8 +16,8 @@
 	<properties>
 
 		<!-- Each project must specify the following property (example for middleware 
-			gforge project) : -->
-		<!-- <gforge.project.name>middleware</gforge.project.name> -->
+			gforge project) : middleware-->
+		<gforge.project.name></gforge.project.name>
 		<!-- Other variables that can be overridden -->
 		<project.build.sourceEncoding>Cp1252</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -277,6 +277,12 @@
 				</plugin>
 			</plugins>
 		</pluginManagement>
+		<extensions>
+			<extension>
+				<groupId>org.apache.maven.wagon</groupId>
+				<artifactId>wagon-ftp</artifactId>
+			</extension>
+		</extensions>
 	</build>
 
 	<reporting>
