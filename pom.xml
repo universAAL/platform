@@ -319,7 +319,10 @@
 				<configuration>
 					<aggregate>true</aggregate>
 					<encoding>${project.build.sourceEncoding}</encoding>
-					<format>xml</format>
+                    <formats>
+                        <format>xml</format>
+                        <format>html</format>
+                    </formats>
 				</configuration>
 			</plugin>
 			<plugin>
