@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.universAAL</groupId>
 	<artifactId>uAAL.pom</artifactId>
-	<version>1.1.0</version>
+	<version>1.1.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>The One POM</name>
 	<description>defining common building, reporting, repository location, etc.. rules for all universAAL projects</description>
@@ -101,9 +101,9 @@
 					<executions>
 						<execution>
 							<id>bundle-manifest</id>
-							<phase>process-classes</phase>
+							<phase>process-test-classes</phase>
 							<goals>
-								<goal>manifest</goal>
+								<goal>bundle</goal>
 							</goals>
 						</execution>
 					</executions>
@@ -227,7 +227,7 @@
 				<plugin>
 					<groupId>org.universAAL.support</groupId>
 					<artifactId>uaal-maven-plugin</artifactId>
-					<version>1.1.0</version>
+					<version>1.1.3-SNAPSHOT</version>
 					<executions>
 						<execution>
 							<id>CompositeMojo</id>
