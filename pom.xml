@@ -219,6 +219,10 @@
 										<file>target/artifact.composite</file>
 										<type>composite</type>
 									</artifact>
+									<artifact>
+										<file>target/artifact.deps</file>
+										<type>deps</type>
+									</artifact>									
 								</artifacts>
 							</configuration>
 						</execution>
