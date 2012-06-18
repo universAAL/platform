@@ -101,7 +101,7 @@
 					<executions>
 						<execution>
 							<id>bundle-manifest</id>
-							<phase>process-test-classes</phase>
+							<phase>process-classes</phase>
 							<goals>
 								<goal>bundle</goal>
 							</goals>
