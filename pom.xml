@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.universAAL</groupId>
 	<artifactId>uAAL.pom</artifactId>
-	<version>1.1.1-SNAPSHOT</version>
+	<version>1.2.0</version>
 	<packaging>pom</packaging>
 	<name>The One POM</name>
 	<description>defining common building, reporting, repository location, etc.. rules for all universAAL projects</description>
@@ -263,9 +263,7 @@
 							<link>http://jakarta.apache.org/commons/logging/apidocs/</link>
 							<link>http://jakarta.apache.org/commons/pool/apidocs/</link>
 							<link>http://junit.sourceforge.net/javadoc/</link>
-							<link>http://logging.apache.org/log4j/docs/api/</link>
 							<link>http://jakarta.apache.org/regexp/apidocs/</link>
-							<link>http://jakarta.apache.org/velocity/api/</link>
 							<link>http://www.osgi.org/javadoc/r4v42/</link>
 							<link>http://r-osgi.sourceforge.net/remote/apidocs/</link>
 							<link>http://www.bouncycastle.org/docs/docs1.3/</link>
@@ -274,8 +272,6 @@
 							<link>http://jena.apache.org/documentation/javadoc/jena/</link>
 							<link>http://httpunit.sourceforge.net/doc/api/</link>
 							<link>http://tomcat.apache.org/tomcat-5.5-doc/servletapi/</link>
-							<link></link>
-							<link></link>
 						</links>
 						<doclet>org.umlgraph.doclet.UmlGraphDoc</doclet>
 	
@@ -352,7 +348,6 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
-				<version>2.8</version>
 			</plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
@@ -533,7 +528,6 @@
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-javadoc-plugin</artifactId>
-						<version>2.8</version>
 						<executions>
 							<execution>
 								<id>attach-javadocs</id>
