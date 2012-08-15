@@ -23,6 +23,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<maven.compile.testSource>1.5</maven.compile.testSource>
 		<maven.compile.testTarget>1.5</maven.compile.testTarget>
+		<targetJdk>1.5</targetJdk> <!-- needed for pmd plugin to handle source >= 1.5 (i.e. annotations) -->
 		<!-- Useful variables to use by projects -->
 		<svn.base>scm:svn:http://forge.universaal.org/svn/${gforge.project.name}/trunk</svn.base>
 		<svn.base.url>${gforge.project.url}/scmsvn/?path=%2Ftrunk%2F</svn.base.url>
@@ -304,6 +305,28 @@
 				<configuration>
 					<aggregate>true</aggregate>
 				</configuration>
+				<!-- 
+				Note:
+				
+				when we don't restrict the report set, then both goals (report and report-only)
+				are called which means that the integration tests and composite generation are
+				run twice:
+				- one time for cobertura (which needs the tests to run)
+				- one time for site(?)
+				-> running takes much longer!
+				
+				When we restrict the report set to run only the goal report-only, then the parents
+				are fully built before the child modules are built which means that the javancss
+				plugin can not generate an aggregated report for the parents.
+				
+				<reportSets>
+					<reportSet>
+						<reports>
+							<report>report-only</report>
+						</reports>
+					</reportSet>
+				</reportSets>
+				 -->
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
