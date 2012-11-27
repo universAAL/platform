@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.universAAL</groupId>
 	<artifactId>uAAL.pom</artifactId>
-	<version>1.2.1-SNAPSHOT</version>
+	<version>1.3.0</version>
 	<packaging>pom</packaging>
 	<name>The One POM</name>
 	<description>defining common building, reporting, repository location, etc.. rules for all universAAL projects</description>
@@ -237,7 +237,7 @@
 				<plugin>
 					<groupId>org.universAAL.support</groupId>
 					<artifactId>uaal-maven-plugin</artifactId>
-					<version>1.2.1-SNAPSHOT</version>
+					<version>1.3.0</version>
 					<executions>
 						<execution>
 							<id>CompositeMojo</id>
