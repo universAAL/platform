@@ -1,0 +1,94 @@
+
+To make a full release, perform the steps below in the following order of projects: 
+
+1.  build locally (or deploy temporally) the release version of itests and uaal-maven-plugin (these are the only two that get to be "released" twice). This step has to be done manually.
+2.  uAAL.pom (remember to update the uaal-maven-plugin version)
+3.  Middleware (remember to update itest version)
+4.  Ontologies
+5.  Context
+6.  LDDI
+7.  Security
+8.  RI
+9.  UI
+10. Support (itests and uaal-maven-plugin get to be released again but with the updated parent)
+
+
+For each of these projects, perform the following steps:
+
+# clean SVN update
+svn cleanup ../
+svn revert -R ../
+svn update ../
+
+# run Directives Check
+mvn org.universAAL.support:uaalDirectives-maven-plugin:svnIgnore-check \
+org.universAAL.support:uaalDirectives-maven-plugin:svn-check \
+org.universAAL.support:uaalDirectives-maven-plugin:decouple-check \
+org.universAAL.support:uaalDirectives-maven-plugin:dependency-check \
+org.universAAL.support:uaalDirectives-maven-plugin:parent-check \
+org.universAAL.support:uaalDirectives-maven-plugin:name-check -fn -DfailOnMissMatch=true
+
+# Tag last SNAPSHOT
+mvn org.universAAL.support:uaalDirectives-maven-plugin:tag
+
+# Change ALL versions to nextReleaseVersion
+mvn org.universAAL.support:uaalDirectives-maven-plugin:change-version -DnewVersion=<NEW_VERSION>
+# use versions:update-children-modules to set the new parentPOM version
+mvn versions:update-child-modules versions:commit
+# Fix DependencyManagement
+mvn org.universAAL.support:uaalDirectives-maven-plugin:dependency-check -Ddirective.fix
+# update DependencyManagement imports to point to latest root pom, and Parent for latest uAAL.pom
+# and itest dependencyManagement (if proceeds)
+mvn org.universAAL.support:uaalDirectives-maven-plugin:update-roots -DnewVersion=<NEW_VERSION>
+
+#########
+# Check it installs correctly
+#########
+mvn clean install
+
+# Tag Working Copy
+mvn org.universAAL.support:uaalDirectives-maven-plugin:tag
+
+# Deploy
+mvn clean deploy -Prelease -DignoreLock
+
+# Increase ALL versions to development version
+mvn org.universAAL.support:uaalDirectives-maven-plugin:increase-version
+# use versions:update-children-modules to set parentPOM version
+mvn versions:update-child-modules versions:commit
+# Fix DependencyManagement
+mvn org.universAAL.support:uaalDirectives-maven-plugin:dependency-check -Ddirective.fix
+# update DependencyManagement imports to point to latest root pom, and Parent for latest uAAL.pom
+# and itest dependencyManagement (if proceeds)
+mvn org.universAAL.support:uaalDirectives-maven-plugin:update-roots -DnewVersion=<NEW_DEVELOPMENT_VERSION>
+
+#########
+# Check it installs correctly, again
+#########
+mvn clean install
+
+# commit new Development version
+svn commit ../ -m "New Development Version"
+
+
+
+
+The code is now fully released. Now, the documentation (with maven site) for this release has to be done.
+Go to the support/tags/<release-version>/uAAL.pom
+Add the following lines to this parent pom (DON'T commit, this is done only temporary and only locally and should be reverted when this process is done):
+  <modules>
+    <module>middleware/pom</module>
+    <module>ontologies/ont.pom</module>
+    <module>uaal_context/pom</module>
+    <module>lddi/lddi.pom</module>
+    <module>uaalsecurity/security.pom</module>
+    <module>rinterop/ri.pom</module>
+    <module>uaal_ui/pom</module>
+    <module>service/srvc.pom</module>
+    <module>support/pom</module>
+  </modules>
+Edit the file create+deploy_site.bat to adapt to the current version.
+Run create+deploy_site.bat
+Note: this batch file is not yet completed and should be tested/revised.
+
+
