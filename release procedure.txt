@@ -21,12 +21,7 @@ svn revert -R ../
 svn update ../
 
 # run Directives Check
-mvn org.universAAL.support:uaalDirectives-maven-plugin:svnIgnore-check \
-org.universAAL.support:uaalDirectives-maven-plugin:svn-check \
-org.universAAL.support:uaalDirectives-maven-plugin:decouple-check \
-org.universAAL.support:uaalDirectives-maven-plugin:dependency-check \
-org.universAAL.support:uaalDirectives-maven-plugin:parent-check \
-org.universAAL.support:uaalDirectives-maven-plugin:name-check -fn -DfailOnMissMatch=true
+mvn org.universAAL.support:uaalDirectives-maven-plugin:svnIgnore-check org.universAAL.support:uaalDirectives-maven-plugin:svn-check org.universAAL.support:uaalDirectives-maven-plugin:decouple-check org.universAAL.support:uaalDirectives-maven-plugin:dependency-check org.universAAL.support:uaalDirectives-maven-plugin:parent-check org.universAAL.support:uaalDirectives-maven-plugin:name-check -fn -DfailOnMissMatch=true
 
 # Tag last SNAPSHOT
 mvn org.universAAL.support:uaalDirectives-maven-plugin:tag
