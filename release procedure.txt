@@ -1,8 +1,8 @@
 
 To make a full release, perform the steps below in the following order of projects: 
 
-1.  build locally (or deploy temporally) the release version of itests and uaal-maven-plugin (these are the only two that get to be "released" twice). This step has to be done manually.
-2.  uAAL.pom (remember to update the uaal-maven-plugin version)
+1.  build locally (or deploy temporally) the release version of itests, uaal-maven-plugin, and uaalDirectives-maven-plugin (these are the only projects that get to be "released" twice). This step has to be done manually.
+2.  uAAL.pom (remember to update the uaal-maven-plugin version and uaalDirectives-maven-plugin version)
 3.  Middleware (remember to update itest version)
 4.  Ontologies
 5.  Context
