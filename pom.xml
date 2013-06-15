@@ -31,6 +31,7 @@
 		<svn.base>scm:svn:http://forge.universaal.org/svn/${gforge.project.name}/trunk</svn.base>
 		<svn.base.url>${gforge.project.url}/scmsvn/?path=%2Ftrunk%2F</svn.base.url>
 		<gforge.project.url>http://forge.universaal.org/gf/project/${gforge.project.name}</gforge.project.url>
+		<uaal.site.url>ftp://depot.universaal.org/www/Resources/maven-site/${project.version}/${gforge.project.name}</uaal.site.url>
 	</properties>
 
 	<licenses>
@@ -499,7 +500,7 @@
 		</snapshotRepository>
 		<site>
 			<id>depot.universaal.org</id>
-			<url>ftp://depot.universaal.org/www/Resources/maven-site/${project.version}/${gforge.project.name}</url>
+			<url>${uaal.site.url}</url>
 		</site>
 	</distributionManagement>
 
