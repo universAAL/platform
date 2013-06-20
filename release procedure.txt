@@ -13,6 +13,13 @@ To make a full release, perform the steps below in the following order of projec
 10. Support (itests and uaal-maven-plugin get to be released again but with the updated parent)
 
 
+Warning for step 1 when increasing the major version part (e.g. 1.3.xx to 2.0.0):
+itests uses its own manifest to create the manifests of bundles that are to be tested. So, you have to:
+- change dependencies in support.pom to the new version
+- install support.pom (with option "-N")
+
+
+
 For each of these projects, perform the following steps:
 
 # clean SVN update
