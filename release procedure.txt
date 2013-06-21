@@ -10,6 +10,7 @@ To make a full release, perform the steps below in the following order of projec
 7.  Security
 8.  RI
 9.  UI
+10. Service
 10. Support (itests and uaal-maven-plugin get to be released again but with the updated parent)
 
 
@@ -48,8 +49,11 @@ mvn org.universAAL.support:uaalDirectives-maven-plugin:update-roots -DnewVersion
 #########
 mvn clean install
 
-# Tag Working Copy
-mvn org.universAAL.support:uaalDirectives-maven-plugin:tag
+# (optional) commit
+svn commit ../ -m "Release Version"
+
+# Tag Working Copy (parameter "fn" is necessay because composites are included in a subfolder of an already tagged folder -> directives throws Exception)
+mvn org.universAAL.support:uaalDirectives-maven-plugin:tag -fn
 
 # Deploy
 mvn clean deploy -Prelease -DignoreLock
@@ -71,6 +75,9 @@ mvn clean install
 
 # commit new Development version
 svn commit ../ -m "New Development Version"
+
+# Deploy
+mvn deploy -Dmaven.test.skip=true
 
 
 
