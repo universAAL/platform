@@ -382,7 +382,7 @@
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>javancss-maven-plugin</artifactId>
-				<version>2.0-beta-2</version>
+				<version>2.0-beta-3</version>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -581,6 +581,11 @@
 	      	<id>uaal-snapshots</id>
 	      	<name>universAAL Snapshot Repositories</name>
 	      	<url>http://depot.universaal.org/maven-repo/snapshots/</url>
+	    </pluginRepository>
+	    <pluginRepository>
+	      	<id>uaal-thirdparty</id>
+	      	<name>universAAL thirdparty Repositories</name>
+	      	<url>http://depot.universaal.org/maven-repo/thirdparty/</url>
 	    </pluginRepository>
 	</pluginRepositories>
 
