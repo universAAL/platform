@@ -568,6 +568,15 @@
 				<updatePolicy>never</updatePolicy>
 			</releases>
 		</pluginRepository>
+	    	<pluginRepository>
+	    	  	<id>uaal-thirdparty</id>
+	      		<name>universAAL thirdparty Repositories</name>
+	      		<url>http://depot.universaal.org/maven-repo/thirdparty/</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<layout>default</layout>		
+	   	</pluginRepository>
 		<pluginRepository>
 			<id>uaal</id>
 			<name>universAAL Repositories</name>
@@ -581,11 +590,6 @@
 	      	<id>uaal-snapshots</id>
 	      	<name>universAAL Snapshot Repositories</name>
 	      	<url>http://depot.universaal.org/maven-repo/snapshots/</url>
-	    </pluginRepository>
-	    <pluginRepository>
-	      	<id>uaal-thirdparty</id>
-	      	<name>universAAL thirdparty Repositories</name>
-	      	<url>http://depot.universaal.org/maven-repo/thirdparty/</url>
 	    </pluginRepository>
 	</pluginRepositories>
 
