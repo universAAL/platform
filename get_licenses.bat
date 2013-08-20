@@ -4,11 +4,11 @@
 echo ---------------
 echo Script for getting the licenses of all dependencies (including transitive dependencies).
 echo The result is written in file "target\generated-sources\license\THIRD-PARTY.txt".
-echo
+echo.
 echo Make sure, that uAAL.pom:
 echo  - contains a module section (uncomment the module section that is included in uAAL.pom) and
 echo  - points to the right modules (call one of the create_repo_links_XX.bat)
-echo
+echo.
 echo Please press any key to continue.
 echo ---------------
 pause
