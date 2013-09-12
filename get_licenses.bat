@@ -8,6 +8,7 @@ echo.
 echo Make sure, that uAAL.pom:
 echo  - contains a module section (uncomment the module section that is included in uAAL.pom) and
 echo  - points to the right modules (call one of the create_repo_links_XX.bat)
+echo  - configuration for license-maven-plugin is not commented out
 echo.
 echo Please press any key to continue.
 echo ---------------
