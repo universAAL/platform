@@ -2,12 +2,12 @@
 <features name="universAAL-Prototype" xmlns="http://karaf.apache.org/xmlns/features/v1.0.0">
 
 	<!-- Change version of repository accordingly -->
-	<repository>mvn:org.universAAL.middleware/mw.karaf.feature/2.0.1-SNAPSHOT/xml/features</repository>
-	<repository>mvn:org.universAAL.ontology/ont.karaf.feature/2.0.1-SNAPSHOT/xml/features</repository>
-	<repository>mvn:org.universAAL.context/ctxt.karaf.feature/2.0.1-SNAPSHOT/xml/features</repository>
-	<repository>mvn:org.universAAL.security/security.karaf.feature/2.0.1-SNAPSHOT/xml/features</repository>
-	<repository>mvn:org.universAAL.ri/ri.karaf.feature/2.0.1-SNAPSHOT/xml/features</repository>
-	<repository>mvn:org.universAAL.ui/ui.karaf.feature/2.0.1-SNAPSHOT/xml/features</repository>
+	<repository>mvn:org.universAAL.middleware/mw.karaf.feature/${uaal.parent.version}/xml/features</repository>
+	<repository>mvn:org.universAAL.ontology/ont.karaf.feature/${uaal.parent.version}/xml/features</repository>
+	<repository>mvn:org.universAAL.context/ctxt.karaf.feature/${uaal.parent.version}/xml/features</repository>
+	<repository>mvn:org.universAAL.security/security.karaf.feature/${uaal.parent.version}/xml/features</repository>
+	<repository>mvn:org.universAAL.ri/ri.karaf.feature/${uaal.parent.version}/xml/features</repository>
+	<repository>mvn:org.universAAL.ui/ui.karaf.feature/${uaal.parent.version}/xml/features</repository>
 
 	<feature name="Proto-CoordManagers" description="Feature collection typical of coordinator node."
 		version="${pom.version}" resolver='(obr)'>
