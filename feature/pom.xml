@@ -2,16 +2,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+  <parent>
+    <groupId>org.universAAL</groupId>
+    <artifactId>uAAL.pom</artifactId>
+    <version>2.0.2-SNAPSHOT</version>
+  </parent>
+
   <artifactId>prototype.karaf.feature</artifactId>
   <groupId>org.universAAL.samples</groupId>
-  <version>2.0.3-SNAPSHOT</version>
+  <version>2.0.4-SNAPSHOT</version>
   <name>universAAL Karaf Feature Ontologies</name>
   <properties>
     <commons-beanutils-version>1.8.3</commons-beanutils-version>
     <commons-codec-version>1.4</commons-codec-version>
     <felix-version>2.0.1</felix-version>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
-    <uaal.parent.version>2.0.3-SNAPSHOT</uaal.parent.version>
+    <uaal.parent.version>2.0.4-SNAPSHOT</uaal.parent.version>
   </properties>
 
   <build>
@@ -57,6 +63,16 @@
                 </artifact>
               </artifacts>
             </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>build-helper-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>attach-composite</id>
+            <phase>none</phase>
           </execution>
         </executions>
       </plugin>
