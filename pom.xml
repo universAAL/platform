@@ -369,6 +369,7 @@
 						</docletArtifact>
 						<additionalparam>-views</additionalparam>
 						<useStandardDocletOptions>true</useStandardDocletOptions>
+						<docfilessubdirs>true</docfilessubdirs>
 					</configuration>
 				</plugin>
 				<plugin>
@@ -520,6 +521,7 @@
 					</docletArtifact>
 					<additionalparam>-views</additionalparam>
 					<useStandardDocletOptions>true</useStandardDocletOptions>
+					<docfilessubdirs>true</docfilessubdirs>
 				</configuration>
 				<reportSets>
 					<reportSet>
