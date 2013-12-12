@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<features name="universAAL-Prototype" xmlns="http://karaf.apache.org/xmlns/features/v1.0.0">
+<features name="universAAL-Feature" xmlns="http://karaf.apache.org/xmlns/features/v1.0.0">
 
 	<!-- Change version of repository accordingly -->
 	<repository>mvn:org.universAAL.middleware/mw.karaf.feature/${uaal.parent.version}/xml/features</repository>
@@ -8,13 +8,26 @@
 	<repository>mvn:org.universAAL.security/security.karaf.feature/${uaal.parent.version}/xml/features</repository>
 	<repository>mvn:org.universAAL.remote/ri.karaf.feature/${uaal.parent.version}/xml/features</repository>
 	<repository>mvn:org.universAAL.ui/ui.karaf.feature/${uaal.parent.version}/xml/features</repository>
-
-	<feature name="Proto-CoordManagers" description="Feature collection typical of coordinator node."
+	<repository>mvn:org.universAAL.lddi/lddi.karaf.feature/${uaal.parent.version}/xml/features</repository>
+	
+	<feature name="uAAL-Minimal.Coordinator" description="Feature collection of a coordinator node, containing the minimal number of components for the Space to be fully functional."
 		version="${pom.version}" resolver='(obr)'>
 		<feature>uAAL-ctxt.CHe</feature>
-		<feature>uAAL-ctxt.Profiling.Server</feature>
 		<feature>uAAL-UI.DM</feature>
+	</feature>
+	
+	<feature name="uAAL-Basic.Coordinator" description="Feature collection typical of a coordinator node."
+		version="${pom.version}" resolver='(obr)'>
+		<feature>uAAL-Minimal.Coordinator</feature>
+		<feature>uAAL-ctxt.Profiling.Server</feature>
 		<feature>uAAL-UI.handler.web.html</feature>
 		<feature>uAAL-UI.resource.server</feature>
 	</feature>
+	
+	<feature name="uAAL-SingleNode.AALSpace" description="Feature collection for an AALSpace with just one node, typical for development too."
+		version="${pom.version}" resolver='(obr)'>
+		<feature>uAAL-Basic.Coordinator</feature>
+		<feature>uAAL-UI.handler.gui.swing.BluesteelLAF</feature>
+	</feature>
+	
 </features>

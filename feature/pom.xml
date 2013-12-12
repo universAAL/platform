@@ -8,10 +8,9 @@
     <version>2.0.2-SNAPSHOT</version>
   </parent>
 
-  <artifactId>prototype.karaf.feature</artifactId>
-  <groupId>org.universAAL.samples</groupId>
+  <artifactId>uAAL.karaf.feature</artifactId>
   <version>2.0.4-SNAPSHOT</version>
-  <name>universAAL Karaf Feature Ontologies</name>
+  <name>universAAL Karaf aggregation Feature repository</name>
   <properties>
     <commons-beanutils-version>1.8.3</commons-beanutils-version>
     <commons-codec-version>1.4</commons-codec-version>
@@ -64,12 +63,6 @@
               </artifacts>
             </configuration>
           </execution>
-        </executions>
-      </plugin>
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>build-helper-maven-plugin</artifactId>
-        <executions>
           <execution>
             <id>attach-composite</id>
             <phase>none</phase>
