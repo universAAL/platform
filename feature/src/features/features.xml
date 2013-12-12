@@ -10,7 +10,7 @@
 	<repository>mvn:org.universAAL.ui/ui.karaf.feature/${uaal.parent.version}/xml/features</repository>
 <!-- 	<repository>mvn:org.universAAL.lddi/lddi.karaf.feature/${uaal.parent.version}/xml/features</repository> -->
 	<repository>mvn:org.universAAL.lddi/lddi.karaf.feature/2.0.5-SNAPSHOT/xml/features</repository>
-	<repository>mvn:org.universAAL.tools.ucc/ucc.karaf.feature/2.0.3-SNAPSHOT/xml/features</repository>
+	<repository>mvn:org.universAAL.tools.ucc/ucc.karaf.feature/2.0.4-SNAPSHOT/xml/features</repository>
 	
 	<feature name="uAAL-Minimal.Coordinator" description="Feature collection of a coordinator node, containing the minimal number of components for the Space to be fully functional."
 		version="${pom.version}" resolver='(obr)'>
