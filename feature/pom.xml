@@ -12,11 +12,8 @@
   <version>2.0.4-SNAPSHOT</version>
   <name>universAAL Karaf aggregation Feature repository</name>
   <properties>
-    <commons-beanutils-version>1.8.3</commons-beanutils-version>
-    <commons-codec-version>1.4</commons-codec-version>
-    <felix-version>2.0.1</felix-version>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
-    <uaal.parent.version>2.0.4-SNAPSHOT</uaal.parent.version>
+    <uaal.parent.version>${project.version}</uaal.parent.version>
   </properties>
 
   <build>
