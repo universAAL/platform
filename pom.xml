@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.universAAL</groupId>
 	<artifactId>uAAL.pom</artifactId>
-	<version>2.0.2-SNAPSHOT</version>
+	<version>3.0.0</version>
 	<packaging>pom</packaging>
 	<name>universAAL Super POM</name>
 	<description>
@@ -312,7 +312,7 @@
 				<plugin>
 					<groupId>org.universAAL.support</groupId>
 					<artifactId>uaal-maven-plugin</artifactId>
-					<version>2.0.2-SNAPSHOT</version>
+					<version>3.0.0</version>
 					<executions>
 						<execution>
 							<id>CompositeMojo</id>
@@ -333,7 +333,7 @@
 				<plugin>
 					<groupId>org.universAAL.support</groupId>
 					<artifactId>uaalDirectives-maven-plugin</artifactId>
-					<version>2.0.1-SNAPSHOT</version>
+					<version>3.0.0</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -375,7 +375,7 @@
 				<plugin>
 					<groupId>org.universAAL.support</groupId>
 					<artifactId>uaal-manifest-maven-plugin</artifactId>
-					<version>2.0.1-SNAPSHOT</version>
+					<version>3.0.0</version>
 					<configuration>
 						<inputs>
 							<input>uaal-manifest.xml</input>
@@ -586,7 +586,7 @@
 				<plugin>
 					<groupId>org.universAAL.support</groupId>
 					<artifactId>uaalDirectives-maven-plugin</artifactId>
-					<version>2.0.1-SNAPSHOT</version>
+					<version>3.0.0</version>
 				</plugin>
 		</plugins>
 	</reporting>
