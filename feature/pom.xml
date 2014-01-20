@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-
   <parent>
     <groupId>org.universAAL</groupId>
     <artifactId>uAAL.pom</artifactId>
-    <version>2.0.2-SNAPSHOT</version>
+    <version>3.0.0</version>
   </parent>
-
   <artifactId>uAAL.karaf.feature</artifactId>
-  <version>2.0.4-SNAPSHOT</version>
+  <version>3.0.0</version>
   <name>universAAL Karaf aggregation Feature repository</name>
   <properties>
-    <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <uaal.parent.version>${project.version}</uaal.parent.version>
+    <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
   </properties>
-
   <build>
     <plugins>
       <plugin>
