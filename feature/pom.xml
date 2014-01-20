@@ -5,10 +5,10 @@
   <parent>
     <groupId>org.universAAL</groupId>
     <artifactId>uAAL.pom</artifactId>
-    <version>3.0.0</version>
+    <version>3.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>uAAL.karaf.feature</artifactId>
-  <version>3.0.0</version>
+  <version>3.0.1-SNAPSHOT</version>
   <name>universAAL Karaf aggregation Feature repository</name>
   <properties>
     <uaal.parent.version>${project.version}</uaal.parent.version>
