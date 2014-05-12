@@ -8,9 +8,8 @@
 	<repository>mvn:org.universAAL.security/security.karaf.feature/${uaal.parent.version}/xml/features</repository>
 	<repository>mvn:org.universAAL.remote/ri.karaf.feature/${uaal.parent.version}/xml/features</repository>
 	<repository>mvn:org.universAAL.ui/ui.karaf.feature/${uaal.parent.version}/xml/features</repository>
-<!-- 	<repository>mvn:org.universAAL.lddi/lddi.karaf.feature/${uaal.parent.version}/xml/features</repository> -->
-	<repository>mvn:org.universAAL.lddi/lddi.karaf.feature/2.0.5-SNAPSHOT/xml/features</repository>
-	<repository>mvn:org.universAAL.tools.ucc/ucc.karaf.feature/3.0.0/xml/features</repository>
+<!-- 	<repository>mvn:org.universAAL.lddi/lddi.karaf.feature/${uaal.parent.version}/xml/features</repository> 
+	<repository>mvn:org.universAAL.tools.ucc/ucc.karaf.feature/3.0.0/xml/features</repository>-->
 	
 	<feature name="uAAL-Minimal.Coordinator" description="Feature collection of a coordinator node, containing the minimal number of components for the Space to be fully functional."
 		version="${pom.version}" resolver='(obr)'>
@@ -40,7 +39,7 @@
 		<feature>uAAL-UI.handler.gui.swing.BluesteelLAF</feature>
 	</feature>
 	
-	<feature name="uAAL-SingleNode.Development" description="Feature collection for development; WARNING this is a Highly unsecure configuration, use only under controlled environmnets"
+	<feature name="uAAL-SingleNode.Development" description="Feature collection for development; WARNING this is a Highly insecure configuration, use only under controlled environments"
 		version="${pom.version}" resolver='(obr)'>
 		<feature>uAAL-Minimal.Coordinator</feature>
 		<feature>uAAL-Platform.Servers</feature>
