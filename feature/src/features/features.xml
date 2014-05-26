@@ -30,7 +30,7 @@
 		<feature>uAAL-Minimal.Coordinator</feature>
 		<feature>uAAL-Platform.Servers</feature>
 		<feature>uAAL-Security.Authenticator.Profile</feature>
-		<feature>uAAL-uCC</feature>
+		<!-- <feature>uAAL-uCC</feature> -->
 	</feature>
 	
 	<feature name="uAAL-SingleNode.AALSpace" description="Feature collection for an AALSpace with just one node, typical for development too."
