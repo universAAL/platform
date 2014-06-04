@@ -1,25 +1,29 @@
 #!/bin/bash
-function checkAndDeploy{
+function checkAndDeploy ()
+{
 	mvn clean install
 	if [ $? -ne 0 ] ; then echo "failed install, exit"; exit -1 ; fi
 	mvn deploy -DskipTests -Prelease
 	if [ $? -ne 0 ] ; then echo "failed deploy, exit"; exit -1 ; fi
 }
 
-function updateToNewVersions{
+function updateToNewVersions ()
+{
 	mvn install -fn -DskipTests
 	mvn versions:update-child-modules versions:commit
 	mvn udir:dependency-check -Ddirective.fix
 	mvn udir:update-roots -DnewVersion=$1
 }
 
-function update_svn{
+function update_svn ()
+{
 	svn cleanup ../
 	svn up ../
 	if [ $? -ne 0 ] ; then echo "failed SVN update, exit"; exit -1 ; fi
 }
 
-function release_phase1{
+function release_phase1 ()
+{
 ##PHASE 1, Create release version
 ### 1: release version
 	checkAndDeploy
@@ -41,7 +45,8 @@ function release_phase1{
 	if [ $? -ne 0 ] ; then echo "failed release tag, exit. Try fixing manually then continue with phase2."; exit -1 ; fi
 }
 
-function release_phase2{
+function release_phase2 ()
+{
 ##PHASE 2, create new Development 
 ### 1: new Development version
 	NEW_DEV_VERSION = $1
@@ -58,7 +63,8 @@ function release_phase2{
 	#read -p "Press [Enter] to continue if above status is ok..."
 }
 
-function full_release{
+function full_release ()
+{
 ### 1: release version
 ### 2: new dev version
 	update_svn
@@ -66,7 +72,8 @@ function full_release{
 	release_phase2 $2
 }
 
-function batch_increase{
+function batch_increase ()
+{
 	update_svn
 	mvn udir:tag 
 	if [ $? -ne 0 ] ; then echo "failed tag, exit"; exit -1 ; fi
