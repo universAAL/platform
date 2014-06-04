@@ -55,7 +55,7 @@ function release_phase2 ()
 {
 ##PHASE 2, create new Development 
 ### 1: new Development version
-	NEW_DEV_VERSION = $1
+	NEW_DEV_VERSION=$1
 	mvn udir:increase-version
 	updateToNewVersions $NEW_DEV_VERSION
 
