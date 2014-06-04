@@ -7,7 +7,7 @@ RELEASE_SH="full_release $1 $2"
 
 MY_DIR=`dirname $0`
 
-$MY_DIR/release.sh
+. $MY_DIR/release.sh
 
 function execute_dir {
 	cd $1

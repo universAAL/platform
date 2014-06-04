@@ -22,6 +22,12 @@ function update_svn ()
 	if [ $? -ne 0 ] ; then echo "failed SVN update, exit"; exit -1 ; fi
 }
 
+function change-version()
+{
+	mvn udir:change-version -DnewVersion=$1
+	updateToNewVersions $1
+}
+
 function release_phase1 ()
 {
 ##PHASE 1, Create release version
