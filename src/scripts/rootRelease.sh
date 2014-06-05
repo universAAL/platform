@@ -47,3 +47,8 @@ execute_dir lddi/trunk/lddi.pom
 
 execute_dir support/trunk/pom
 
+
+#only for releases (no semi-releases ie: releases with whole version)
+cd support/trunk
+	svn copy http://forge.universaal.org/svn/support/trunk/resources/ http://forge.universaal.org/svn/support/tags/$1/resources/ -m "release of resources"
+cd -
