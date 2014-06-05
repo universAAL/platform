@@ -33,7 +33,7 @@ function release_phase1 ()
 ##PHASE 1, Create release version
 ### 1: release version
 	checkAndDeploy
-	mvn udir:tag 
+	mvn udir:tag -fn
 	if [ $? -ne 0 ] ; then echo "failed tag, exit"; exit -1 ; fi
 
 	mvn udir:change-version -DnewVersion=$1

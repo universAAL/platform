@@ -27,23 +27,23 @@ function pre_release ()
 svn st middleware/trunk/ ontologies/trunk/ uaal_context/trunk/ uaalsecurity/trunk/ rinterop/trunk/ uaal_ui/trunk/ lddi/trunk/
 read -p "Press [Enter] to continue if above status is ok..."
 
-pre_release support/trunk/itests-suite $1 $2
+#pre_release support/trunk/itests-suite $1 $2
 
-pre_release support/trunk/maven-plugin $1 $2
+#pre_release support/trunk/maven-plugin $1 $2
 
-execute_dir middleware/trunk/pom
+#execute_dir middleware/trunk/pom
 
-execute_dir ontologies/trunk/ont.pom
+#execute_dir ontologies/trunk/ont.pom
 
-execute_dir uaal_context/trunk/pom
+#execute_dir uaal_context/trunk/pom
 
-execute_dir uaalsecurity/trunk/security.pom
+#execute_dir uaalsecurity/trunk/security.pom
 
-execute_dir rinterop/trunk/ri.pom
+#execute_dir rinterop/trunk/ri.pom
 
-execute_dir uaal_ui/trunk/ui.pom
+#execute_dir uaal_ui/trunk/ui.pom
 
-execute_dir lddi/trunk/lddi.pom
+#execute_dir lddi/trunk/lddi.pom
 
 execute_dir support/trunk/pom
 
