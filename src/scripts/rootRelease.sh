@@ -9,15 +9,27 @@ MY_DIR=`dirname $0`
 
 . $MY_DIR/release.sh
 
-function execute_dir {
+function execute_dir ()
+{
 	cd $1
 	eval $RELEASE_SH
 	if [ $? -ne 0 ] ; then exit -1 ; fi
 	cd -
 }
 
+function pre_release ()
+{
+	cd $1
+	dry_release $2 $3
+	cd -
+}
+
 svn st middleware/trunk/ ontologies/trunk/ uaal_context/trunk/ uaalsecurity/trunk/ rinterop/trunk/ uaal_ui/trunk/ lddi/trunk/
 read -p "Press [Enter] to continue if above status is ok..."
+
+pre_release support/trunk/itests-suite $1 $2
+
+pre_release support/trunk/maven-plugin $1 $2
 
 execute_dir middleware/trunk/pom
 
