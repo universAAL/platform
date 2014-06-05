@@ -40,7 +40,8 @@ function release_phase1 ()
 	updateToNewVersions $1
 
 ##Check last step is donde correctly
-	find ../ -name "*.*" -print | xargs grep "SNAPSHOT"
+	mvn clean	
+	find ../ -name "*.*" -print | xargs grep "SNAPSHOT" 
 	read -p "Press [Enter] to continue if checked versions are ok... if not close [ctrl+c]"
 
 	checkAndDeploy
