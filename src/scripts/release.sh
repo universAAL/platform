@@ -95,11 +95,17 @@ function dry_release(){
 ### 2: new dev version
 
 	dry_phase1 $1
+	
+	# Check the validity of the change.
+	mvn clean	
+	find ../ -name "*.*" -print | xargs grep "SNAPSHOT" 
+	read -p "Press [Enter] to continue if checked versions are ok... if not close [ctrl+c]"
+	
 	#change version to new dev version
 	change-version-install $2
 
 	#undo changes
-	svn revert -R ../
+	#svn revert -R ../
 }
 function dry_phase1 () 
 {
