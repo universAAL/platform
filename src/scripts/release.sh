@@ -79,33 +79,36 @@ function full_release ()
 	release_phase2 $2
 }
 
+function change-version-install ()
+{
+	#change version to release version
+	change-version $1
+	
+	# install release version
+	mvn clean install
+	if [ $? -ne 0 ] ; then echo "failed install, exit"; exit -1 ; fi
+	
+}
+
 function dry_release(){
 ### 1: release version
 ### 2: new dev version
+
+	dry_phase1 $1
+	#change version to new dev version
+	change-version-install $2
+
+	#undo changes
+	svn revert -R ../
+}
+function dry_phase1 () 
+{
 	update_svn
 	#install current version
 	mvn clean install
 	if [ $? -ne 0 ] ; then echo "failed install, exit"; exit -1 ; fi
 
-	#change version to release version
-	mvn udir:change-version -DnewVersion=$1
-	updateToNewVersions $1
-	
-	# install release version
-	mvn clean install
-	if [ $? -ne 0 ] ; then echo "failed install, exit"; exit -1 ; fi
-
-
-	#change version to new dev version
-	mvn udir:change-version -DnewVersion=$2
-	updateToNewVersions $2
-	
-	# install new dev version
-	mvn clean install
-	if [ $? -ne 0 ] ; then echo "failed install, exit"; exit -1 ; fi
-
-	#undo changes
-	svn revert -R ../
+	change-version-install $1
 }
 
 function batch_increase ()

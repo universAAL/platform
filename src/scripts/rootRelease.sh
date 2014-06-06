@@ -27,9 +27,19 @@ function pre_release ()
 svn st middleware/trunk/ ontologies/trunk/ uaal_context/trunk/ uaalsecurity/trunk/ rinterop/trunk/ uaal_ui/trunk/ lddi/trunk/
 read -p "Press [Enter] to continue if above status is ok..."
 
+cd support/trunk/uAAL.pom
+mvn udir:change-version -DnewVersion=$1
+mvn clean install
+mvn udir:change-version -DnewVersion=$2
+mvn clean install
+svn revert pom.xml
+cd -
+
 pre_release support/trunk/itests-suite $1 $2
 
 pre_release support/trunk/maven-plugin $1 $2
+
+execute_dir support/trunk/uAAL.pom
 
 execute_dir middleware/trunk/pom
 
