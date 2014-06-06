@@ -1,7 +1,10 @@
 
-set version=1.3.0
-
 @echo off
+set version=%1
+IF "%version%"=="" (
+	ECHO no version defined.
+	EXIT
+)
 
 echo ---------------
 echo Script for creating site and performing site:deploy.

@@ -1,7 +1,10 @@
 
-set version=2.0.0
-
 @echo off
+set version=%1
+IF "%version%"=="" (
+	ECHO no version defined.
+	EXIT
+)
 
 echo ---------------
 echo Script for creating links to the source repositories in related expert groups.
