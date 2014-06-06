@@ -14,6 +14,11 @@
     <uaal.parent.version>${project.version}</uaal.parent.version>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
   </properties>
+  <scm>
+    <connection>${svn.base}/samples/karaf/${project.artifactId}</connection>
+    <developerConnection>${svn.base}/samples/karaf/${project.artifactId}</developerConnection>
+    <url>${svn.base.url}samples/karaf/${project.artifactId}</url>
+  </scm>
   <build>
     <plugins>
       <plugin>
