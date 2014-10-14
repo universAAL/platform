@@ -45,6 +45,9 @@ execute_dir middleware/trunk/pom
 
 execute_dir ontologies/trunk/ont.pom
 
+#temporaly
+execute_dir support/trunk/utilities/uAAL.utils
+
 execute_dir uaal_context/trunk/pom
 
 execute_dir uaalsecurity/trunk/security.pom
