@@ -17,6 +17,18 @@ function execute_dir ()
 	cd -
 }
 
+function execute_w_custom_url(){
+	cd $1
+	
+	update_svn
+	release_phase1 $1
+	mvn udir:tag -DbaseDir=$3
+	release_phase2 $2
+
+	if [ $? -ne 0 ] ; then exit -1 ; fi
+	cd -
+}
+
 function pre_release ()
 {
 	cd $1
@@ -39,7 +51,7 @@ pre_release support/trunk/itests-suite $1 $2
 
 pre_release support/trunk/maven-plugin $1 $2
 
-execute_dir support/trunk/uAAL.pom
+execute_w_custom_url support/trunk/uAAL.pom $1 $2 http://forge.universaal.org/svn/support/trunk/uAAL.pom
 
 execute_dir middleware/trunk/pom
 
