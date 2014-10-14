@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.universAAL</groupId>
   <artifactId>uAAL.pom</artifactId>
-  <version>3.1.1-SNAPSHOT</version>
+  <version>3.2.0</version>
   <packaging>pom</packaging>
   <name>universAAL Super POM</name>
   <description>The universAAL Super POM (from Maven: Project Object Model) defines common rules for all universAAL projects for,
@@ -339,7 +339,7 @@
         <plugin>
           <groupId>org.universAAL.support</groupId>
           <artifactId>uaal-maven-plugin</artifactId>
-          <version>3.1.1-SNAPSHOT</version>
+          <version>3.2.0</version>
           <executions>
             <execution>
               <id>CompositeMojo</id>
@@ -360,7 +360,7 @@
         <plugin>
           <groupId>org.universAAL.support</groupId>
           <artifactId>uaalDirectives-maven-plugin</artifactId>
-          <version>3.1.1-SNAPSHOT</version>
+          <version>3.2.0</version>
         </plugin>
         <plugin>
           <artifactId>maven-javadoc-plugin</artifactId>
@@ -380,7 +380,7 @@
         <plugin>
           <groupId>org.universAAL.support</groupId>
           <artifactId>uaal-manifest-maven-plugin</artifactId>
-          <version>3.1.1-SNAPSHOT</version>
+          <version>3.2.0</version>
           <executions>
             <execution>
               <id>generate-uaal-manifest</id>
@@ -398,11 +398,10 @@
             <output>target/uaal-manifest.mf</output>
           </configuration>
         </plugin>
-		<plugin>
-			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-resources-plugin</artifactId>
-			<version>2.6</version>
-		</plugin>
+        <plugin>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>2.6</version>
+        </plugin>
       </plugins>
     </pluginManagement>
     <plugins>
@@ -532,7 +531,7 @@
       <plugin>
         <groupId>org.universAAL.support</groupId>
         <artifactId>uaalDirectives-maven-plugin</artifactId>
-        <version>3.1.1-SNAPSHOT</version>
+        <version>3.2.0</version>
       </plugin>
     </plugins>
   </reporting>
