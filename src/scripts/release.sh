@@ -105,7 +105,7 @@ function dry_release(){
 	change-version-install $2
 
 	#undo changes
-	#svn revert -R ../
+	svn revert -R ../
 }
 function dry_phase1 () 
 {
