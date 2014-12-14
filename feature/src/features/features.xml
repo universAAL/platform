@@ -8,6 +8,7 @@
 	<repository>mvn:org.universAAL.security/security.karaf.feature/${uaal.parent.version}/xml/features</repository>
 	<repository>mvn:org.universAAL.remote/ri.karaf.feature/${uaal.parent.version}/xml/features</repository>
 	<repository>mvn:org.universAAL.ui/ui.karaf.feature/${uaal.parent.version}/xml/features</repository>
+	<repository>mvn:org.universAAL.service/srvc.karaf.feature/${uaal.parent.version}/xml/features</repository>
 <!-- 	<repository>mvn:org.universAAL.lddi/lddi.karaf.feature/${uaal.parent.version}/xml/features</repository> 
 	<repository>mvn:org.universAAL.tools.ucc/ucc.karaf.feature/3.0.0/xml/features</repository>-->
 	
