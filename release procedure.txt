@@ -88,11 +88,11 @@ Add the following lines to this parent pom (DON'T commit, this is done only temp
   <modules>
     <module>middleware/pom</module>
     <module>ontologies/ont.pom</module>
-    <module>uaal_context/pom</module>
+    <module>uaal_context/ctxt.pom</module>
     <module>lddi/lddi.pom</module>
     <module>uaalsecurity/security.pom</module>
     <module>rinterop/ri.pom</module>
-    <module>uaal_ui/pom</module>
+    <module>uaal_ui/ui.pom</module>
     <module>service/srvc.pom</module>
     <module>support/pom</module>
   </modules>
