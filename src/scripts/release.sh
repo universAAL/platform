@@ -33,7 +33,7 @@ function release_phase1 ()
 ##PHASE 1, Create release version
 ### 1: release version
 	checkAndDeploy
-	mvn udir:tag -fn
+	#mvn udir:tag -fn
 	if [ $? -ne 0 ] ; then echo "failed tag, exit"; exit -1 ; fi
 
 	mvn udir:change-version -DnewVersion=$1
@@ -48,7 +48,9 @@ function release_phase1 ()
 
 	svn ci ../ -m "Release Version."
 
-	mvn udir:tag -fn
+	#mvn udir:tag -fn
+	svn copy ../ ../../tags/$1 -m "Tag of Release Version."
+	
 	if [ $? -ne 0 ] ; then echo "failed release tag, exit. Try fixing manually then continue with phase2."; exit -1 ; fi
 }
 
@@ -120,7 +122,7 @@ function dry_phase1 ()
 function batch_increase ()
 {
 	update_svn
-	mvn udir:tag 
+	#mvn udir:tag 
 	if [ $? -ne 0 ] ; then echo "failed tag, exit"; exit -1 ; fi
 	release_phase2
 }
