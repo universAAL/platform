@@ -36,7 +36,7 @@ function pre_release ()
 	cd -
 }
 
-svn st middleware/trunk/ ontologies/trunk/ uaal_context/trunk/ uaalsecurity/trunk/ rinterop/trunk/ uaal_ui/trunk/ lddi/trunk/
+svn st middleware/trunk/ ontologies/trunk/ uaal_context/trunk/ uaalsecurity/trunk/ rinterop/trunk/ uaal_ui/trunk/ lddi/trunk/ service/trunk/ support/
 read -p "Press [Enter] to continue if above status is ok..."
 
 cd support/trunk/uAAL.pom
@@ -71,6 +71,8 @@ execute_dir uaal_ui/trunk/ui.pom
 execute_dir lddi/trunk/lddi.pom
 
 execute_dir support/trunk/pom
+
+execyte_dir service/trunk/srvc.pom
 
 
 #only for releases (no semi-releases ie: releases with whole version)
