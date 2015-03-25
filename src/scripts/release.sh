@@ -49,7 +49,8 @@ function release_phase1 ()
 	svn ci ../ -m "Release Version."
 
 	#mvn udir:tag -fn
-	svn copy ../ ../../tags/$1 -m "Tag of Release Version."
+	svn copy ../ ../../tags/$1 
+	svn commit ../../tags/$1 -m "Tag of Release Version."
 	
 	if [ $? -ne 0 ] ; then echo "failed release tag, exit. Try fixing manually then continue with phase2."; exit -1 ; fi
 }

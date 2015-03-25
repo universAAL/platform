@@ -36,22 +36,22 @@ function pre_release ()
 	cd -
 }
 
-svn st middleware/trunk/ ontologies/trunk/ uaal_context/trunk/ uaalsecurity/trunk/ rinterop/trunk/ uaal_ui/trunk/ lddi/trunk/ service/trunk/ support/
-read -p "Press [Enter] to continue if above status is ok..."
+#svn st middleware/trunk/ ontologies/trunk/ uaal_context/trunk/ uaalsecurity/trunk/ rinterop/trunk/ uaal_ui/trunk/ lddi/trunk/ service/trunk/ support/
+#read -p "Press [Enter] to continue if above status is ok..."
 
-cd support/trunk/uAAL.pom
-mvn udir:change-version -DnewVersion=$1
-mvn clean install
-mvn udir:change-version -DnewVersion=$2
-mvn clean install
-svn revert pom.xml
-cd -
+#cd support/trunk/uAAL.pom
+#mvn udir:change-version -DnewVersion=$1
+#mvn clean install
+#mvn udir:change-version -DnewVersion=$2
+#mvn clean install
+#svn revert pom.xml
+#cd -
 
-pre_release support/trunk/itests-suite $1 $2
+#pre_release support/trunk/itests-suite $1 $2
 
-pre_release support/trunk/maven-plugin $1 $2
+#pre_release support/trunk/maven-plugin $1 $2
 
-execute_w_custom_url support/trunk/uAAL.pom $1 $2 http://forge.universaal.org/svn/support/trunk/uAAL.pom
+#execute_w_custom_url support/trunk/uAAL.pom $1 $2 http://forge.universaal.org/svn/support/trunk/uAAL.pom
 
 execute_dir middleware/trunk/pom
 
