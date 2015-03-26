@@ -47,7 +47,9 @@ function release_phase1 ()
 	checkAndDeploy
 
 	svn ci ../ -m "Release Version."
+}
 
+function tagAll(){
 	#mvn udir:tag -fn
 	svn copy ../ ../../tags/$1 
 	svn commit ../../tags/$1 -m "Tag of Release Version."
@@ -79,6 +81,7 @@ function full_release ()
 ### 2: new dev version
 	update_svn
 	release_phase1 $1
+	tagAll $1
 	release_phase2 $2
 }
 

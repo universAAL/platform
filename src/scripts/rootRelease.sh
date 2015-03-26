@@ -17,13 +17,19 @@ function execute_dir ()
 	cd -
 }
 
-function execute_w_custom_url(){
+function execute_p1(){
 	cd $1
 	
-	update_svn
 	release_phase1 $1
-	mvn udir:tag -DbaseDir=$3
-	release_phase2 $2
+
+	if [ $? -ne 0 ] ; then exit -1 ; fi
+	cd -
+}
+
+function execute_p2(){
+	cd $1
+	
+	release_phase2 $1
 
 	if [ $? -ne 0 ] ; then exit -1 ; fi
 	cd -
@@ -47,11 +53,11 @@ function pre_release ()
 #svn revert pom.xml
 #cd -
 
-#pre_release support/trunk/itests-suite $1 $2
+pre_release support/trunk/itests-suite $1 $2
 
-#pre_release support/trunk/maven-plugin $1 $2
+pre_release support/trunk/maven-plugin $1 $2
 
-#execute_w_custom_url support/trunk/uAAL.pom $1 $2 http://forge.universaal.org/svn/support/trunk/uAAL.pom
+execute_p1 support/trunk/uAAL.pom $1
 
 execute_dir middleware/trunk/pom
 
@@ -70,12 +76,8 @@ execute_dir uaal_ui/trunk/ui.pom
 
 execute_dir lddi/trunk/lddi.pom
 
-execute_dir support/trunk/pom
-
 execute_dir service/trunk/srvc.pom
 
+execute_dir support/trunk/pom
 
-#only for releases (no semi-releases ie: releases with whole version)
-cd support/trunk
-	svn copy http://forge.universaal.org/svn/support/trunk/resources/ http://forge.universaal.org/svn/support/tags/$1/resources/ -m "release of resources"
-cd -
+execute_p2 support/trunk/uAAL.pom $2
