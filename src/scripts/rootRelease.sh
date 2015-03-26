@@ -72,7 +72,7 @@ execute_dir lddi/trunk/lddi.pom
 
 execute_dir support/trunk/pom
 
-execyte_dir service/trunk/srvc.pom
+execute_dir service/trunk/srvc.pom
 
 
 #only for releases (no semi-releases ie: releases with whole version)
