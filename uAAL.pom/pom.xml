@@ -22,6 +22,17 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
+  <modules>
+	<module>../middleware/pom</module>
+	<module>../ontology/ont.pom</module>
+	<module>../context/ctxt.pom</module>
+	<module>../lddi/lddi.pom</module>
+	<module>../security/security.pom</module>
+	<module>../remote/ri.pom</module>
+	<module>../service/srvc.pom</module>
+	<module>../ui/ui.pom</module>
+	<module>../support/pom</module>
+  </modules>
   <issueManagement>
     <system>GForge - Tracker</system>
     <url>${gforge.project.url}/tracker/</url>
