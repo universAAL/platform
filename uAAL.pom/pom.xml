@@ -10,7 +10,7 @@
   <description>The universAAL Super POM (from Maven: Project Object Model) defines common rules for all universAAL projects for,
 		e.g., building, reporting (e.g. Javadoc, unit test results), and repository location.
 		The export as Maven Site combines all reports for all universAAL projects in form of a website.</description>
-  <url>${gforge.project.url}</url>
+  <url>http://www.universaal.org/</url>
   <organization>
     <name>universAAL Consortium</name>
     <url>http://www.universAAL.org/</url>
@@ -35,7 +35,7 @@
   </modules>
   <issueManagement>
     <system>GForge - Tracker</system>
-    <url>${gforge.project.url}/tracker/</url>
+    <url>http://forge.universaal.org/gf/project/support/tracker/</url>
   </issueManagement>
   <ciManagement>
     <system>Hudson</system>
@@ -64,14 +64,10 @@
     </site>
   </distributionManagement>
   <properties>
-    <gforge.project.url>http://forge.universaal.org/gf/project/${gforge.project.name}</gforge.project.url>
-    <svn.base>scm:svn:http://forge.universaal.org/svn/${gforge.project.name}/trunk</svn.base>
-    <gforge.project.name></gforge.project.name>
     <maven.compile.testSource>1.5</maven.compile.testSource>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <svn.base.url>${gforge.project.url}/scmsvn/?path=%2Ftrunk%2F</svn.base.url>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <uaal.site.url>ftp://depot.universaal.org/www/Resources/maven-site/${project.version}/${gforge.project.name}</uaal.site.url>
+    <uaal.site.url>ftp://depot.universaal.org/www/Resources/maven-site/${project.version}</uaal.site.url>
     <targetJdk>1.5</targetJdk>
     <maven.compile.testTarget>1.5</maven.compile.testTarget>
   </properties>
