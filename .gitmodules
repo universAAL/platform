@@ -1,0 +1,27 @@
+[submodule "middleware"]
+	path = middleware
+	url = git@github.com:universAAL/middleware.git
+[submodule "ontology"]
+	path = ontology
+	url = git@github.com:universAAL/ontology.git
+[submodule "context"]
+	path = context
+	url = git@github.com:universAAL/context.git
+[submodule "remote"]
+	path = remote
+	url = git@github.com:universAAL/remote.git
+[submodule "ui"]
+	path = ui
+	url = git@github.com:universAAL/ui.git
+[submodule "lddi"]
+	path = lddi
+	url = git@github.com:universAAL/lddi.git
+[submodule "security"]
+	path = security
+	url = git@github.com:universAAL/security.git
+[submodule "service"]
+	path = service
+	url = git@github.com:universAAL/service
+[submodule "support"]
+	path = support
+	url = git@gitlab.com:universAAL/support.git
