@@ -22,6 +22,15 @@
 [submodule "service"]
 	path = service
 	url = git@github.com:universAAL/service
-[submodule "support"]
-	path = support
-	url = git@gitlab.com:universAAL/support.git
+[submodule "xtras/maven"]
+	path = xtras/maven
+	url = git@github.com:universAAL/maven.git
+[submodule "xtras/itest"]
+	path = xtras/itest
+	url = git@github.com:universAAL/itests.git
+[submodule "xtras/utilities"]
+	path = xtras/utilities
+	url = git@github.com:universAAL/utilities.git
+[submodule "xtras/samples"]
+	path = xtras/samples
+	url = git@github.com:universAAL/samples.git
