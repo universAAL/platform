@@ -31,7 +31,8 @@ function checkAndChangeVersion()
 function checkNoSNAPSHOTS()
 {
 	mvn clean	
-	find ../ -name "*.*" -print | xargs grep "SNAPSHOT" 
+	#find ../ -name "*.*" -print | xargs grep "SNAPSHOT" 
+	grep -R "SNAPSHOT" ../
 	read -p "Press [Enter] to continue if checked versions are ok... if not close [ctrl+c]"
 }
 
