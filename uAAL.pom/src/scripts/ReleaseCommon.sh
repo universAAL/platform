@@ -38,8 +38,8 @@ function checkNoSNAPSHOTS()
 
 function gitAll()
 {
-	git $1
 	git submodule foreach git $1
+	git $1
 }
 
 function gitCommit(){
