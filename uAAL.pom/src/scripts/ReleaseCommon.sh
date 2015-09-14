@@ -11,20 +11,20 @@ function updateToNewVersions ()
 {
 	mvn install -fn -DskipTests
 	mvn versions:update-child-modules versions:commit
-	mvn udir:dependency-check -Ddirective.fix
-	mvn udir:update-roots -DnewVersion=$1
+	mvn org.universAAL.support:uaalDirectives-maven-plugin:dependency-check -Ddirective.fix
+	mvn org.universAAL.support:uaalDirectives-maven-plugin:update-roots -DnewVersion=$1
 }
 
 function change-version()
 {
-	mvn udir:change-version -DnewVersion=$1
+	mvn org.universAAL.support:uaalDirectives-maven-plugin:change-version -DnewVersion=$1
 	updateToNewVersions $1
 }
 
 function checkAndChangeVersion()
 {
 	checkAndDeploy
-	mvn udir:change-version -DnewVersion=$1
+	mvn org.universAAL.support:uaalDirectives-maven-plugin:change-version -DnewVersion=$1
 	updateToNewVersions $1
 }
 
