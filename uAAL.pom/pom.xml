@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.universAAL</groupId>
   <artifactId>uAAL.pom</artifactId>
-  <version>3.3.1-SNAPSHOT</version>
+  <version>3.4.0</version>
   <packaging>pom</packaging>
   <name>universAAL Super POM</name>
   <description>The universAAL Super POM (from Maven: Project Object Model) defines common rules for all universAAL projects for,
@@ -23,19 +23,19 @@
     </license>
   </licenses>
   <modules>
-	<module>../xtras/maven/plugins</module>
-	<module>../xtras/itest</module>
-	<module>../middleware/pom</module>
-	<module>../xtras/utilities/uAAL.utils</module>
-	<module>../ontology/ont.pom</module>
-	<module>../context/ctxt.pom</module>
-	<module>../lddi/lddi.pom</module>
-	<module>../security/security.pom</module>
-	<module>../remote/ri.pom</module>
-	<module>../service/srvc.pom</module>
-	<module>../ui/ui.pom</module>
-	<module>feature</module>
-	<module>../xtras/samples/samples.pom</module>
+    <module>../xtras/maven/plugins</module>
+    <module>../xtras/itest</module>
+    <module>../middleware/pom</module>
+    <module>../xtras/utilities/uAAL.utils</module>
+    <module>../ontology/ont.pom</module>
+    <module>../context/ctxt.pom</module>
+    <module>../lddi/lddi.pom</module>
+    <module>../security/security.pom</module>
+    <module>../remote/ri.pom</module>
+    <module>../service/srvc.pom</module>
+    <module>../ui/ui.pom</module>
+    <module>feature</module>
+    <module>../xtras/samples/samples.pom</module>
   </modules>
   <issueManagement>
     <system>GForge - Tracker</system>
@@ -68,12 +68,12 @@
     </site>
   </distributionManagement>
   <properties>
-    <maven.compile.testSource>1.5</maven.compile.testSource>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <targetJdk>1.5</targetJdk>
+    <maven.compile.testSource>1.5</maven.compile.testSource>
+    <maven.compile.testTarget>1.5</maven.compile.testTarget>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <uaal.site.url>ftp://depot.universaal.org/www/Resources/maven-site/${project.version}</uaal.site.url>
-    <targetJdk>1.5</targetJdk>
-    <maven.compile.testTarget>1.5</maven.compile.testTarget>
   </properties>
   <repositories>
     <repository>
@@ -350,7 +350,7 @@
         <plugin>
           <groupId>org.universAAL.support</groupId>
           <artifactId>uaal-maven-plugin</artifactId>
-          <version>3.3.1-SNAPSHOT</version>
+          <version>3.4.0</version>
           <executions>
             <execution>
               <id>CompositeMojo</id>
@@ -371,7 +371,7 @@
         <plugin>
           <groupId>org.universAAL.support</groupId>
           <artifactId>uaalDirectives-maven-plugin</artifactId>
-          <version>3.3.1-SNAPSHOT</version>
+          <version>3.4.0</version>
         </plugin>
         <plugin>
           <artifactId>maven-javadoc-plugin</artifactId>
@@ -391,7 +391,7 @@
         <plugin>
           <groupId>org.universAAL.support</groupId>
           <artifactId>uaal-manifest-maven-plugin</artifactId>
-          <version>3.3.1-SNAPSHOT</version>
+          <version>3.4.0</version>
           <executions>
             <execution>
               <id>generate-uaal-manifest</id>
@@ -542,7 +542,7 @@
       <plugin>
         <groupId>org.universAAL.support</groupId>
         <artifactId>uaalDirectives-maven-plugin</artifactId>
-        <version>3.3.1-SNAPSHOT</version>
+        <version>3.4.0</version>
       </plugin>
     </plugins>
   </reporting>
