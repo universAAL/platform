@@ -43,5 +43,7 @@ function gitAll()
 }
 
 function gitCommit(){
-	gitAll commit -a -m $1
+	#gitAll commit -a -m $1
+	git submodule foreach git commit -a -m "$1"
+	git commit -a -m "$1"
 }
