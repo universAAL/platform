@@ -6,7 +6,7 @@ MY_DIR=`dirname $0`
 VERSION=$1
 #checkout prereleases
 gitAll checkout prerelease_$VERSION
-gitAll pull
+gitAll pull origin prerelease_$VERSION
 
 #Deploy all
 checkAndDeploy
