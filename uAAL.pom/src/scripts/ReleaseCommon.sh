@@ -1,7 +1,21 @@
 #!/bin/bash
-function checkAndDeploy ()
+
+function fullInstall()
 {
 	mvn clean install
+	if [ $? -ne 0 ] ; then echo "failed install, exit"; exit -1 ; fi
+}
+
+function checkAndDeploy ()
+{
+	fullInstall
+	mvn deploy -DskipTests -Prelease
+	if [ $? -ne 0 ] ; then echo "failed deploy, exit"; exit -1 ; fi
+}
+
+function quickCheckAndDeploy ()
+{
+	mvn install -DskipTests -Prelease
 	if [ $? -ne 0 ] ; then echo "failed install, exit"; exit -1 ; fi
 	mvn deploy -DskipTests -Prelease
 	if [ $? -ne 0 ] ; then echo "failed deploy, exit"; exit -1 ; fi

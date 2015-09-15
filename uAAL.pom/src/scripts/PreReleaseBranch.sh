@@ -14,6 +14,7 @@ gitAll branch prerelease_$1
 
 #WARNING: NO DEPLOY YET of Release version
 change-version $2
+quickCheckAndDeploy
 
 gitCommit "New development version."
 

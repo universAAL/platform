@@ -11,11 +11,12 @@ checkAndDeploy
 #Tag
 gitAll tag $VERSION
 
+#update local
+gitAll checkout master
+
 #delete prereleases
 gitAll branch -d prerelease_$VERSION
 
 #push tags and delete remote prereleases
 gitAll push --tags origin :prerelease_$VERSION
 
-#update local
-gitAll checkout master
