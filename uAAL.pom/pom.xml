@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.universAAL</groupId>
+  <artifactId>Super.pom</artifactId>
+  <version>x</version>
+  <packaging>pom</packaging>
+  <name>universAAL Super Super POM</name>
+  
+  <modules>
+    <module>../support/uAAL.pom</module>
+    <module>../support/pom</module>
+    <module>../middleware/pom</module>
+    <module>../ontology/ont.pom</module>
+    <module>../context/ctxt.pom</module>
+    <module>../lddi/lddi.pom</module>
+    <module>../security/security.pom</module>
+    <module>../remote/ri.pom</module>
+    <module>../service/srvc.pom</module>
+    <module>../ui/ui.pom</module>
+  </modules>
+</project>
