@@ -184,6 +184,7 @@
           <inherited>true</inherited>
           <configuration>
             <showWarnings>true</showWarnings>
+	    <compilerArgument>-Xlint:-options</compilerArgument>
             <testSource>${maven.compile.testSource}</testSource>
             <testTarget>${maven.compile.testTarget}</testTarget>
             <source>${maven.compile.source}</source>
