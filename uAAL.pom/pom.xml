@@ -74,7 +74,8 @@
     <maven.compile.testSource>1.5</maven.compile.testSource>
     <maven.compile.testTarget>1.5</maven.compile.testTarget>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <uaal.site.url>ftp://depot.universaal.org/www/Resources/maven-site/${project.version}</uaal.site.url>
+    <uaal.site.url.base>ftp://depot.universaal.org/www/Resources/maven-site/${project.version}</uaal.site.url.base>
+    <uaal.site.url>${uaal.site.url.base}/${project.artifactId}</uaal.site.url>
   </properties>
   <repositories>
     <repository>
@@ -386,6 +387,8 @@
               <version>5.1</version>
             </docletArtifact>
             <additionalparam>-views</additionalparam>
+            <additionalparam>-notimestamp</additionalparam>
+            <additionalparam>-Xdoclint:none</additionalparam>
             <useStandardDocletOptions>true</useStandardDocletOptions>
             <docfilessubdirs>true</docfilessubdirs>
           </configuration>
