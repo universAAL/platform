@@ -1,0 +1,16 @@
+<project xmlns="http://maven.apache.org/DECORATION/1.7.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/DECORATION/1.7.0 http://maven.apache.org/xsd/decoration-1.7.0.xsd"
+  name="universAAL">
+  <publishDate position="none"/>
+  <bannerLeft>
+    <name>universAAL</name>
+    <src>http://www.universaal.info/images/logo/cropped-3547/h200.png</src>
+    <href>http://www.universaal.info</href>
+  </bannerLeft>
+  <body>
+    <menu ref="parent" inherit="top"/>
+    <menu ref="modules" inherit="top"/>
+    <menu ref="reports" inherit="top"/>
+    <footer><![CDATA[<a href="http://www.universaal.info">universAAL IoT Consortium</a>]]></footer>
+  </body>
+</project>
