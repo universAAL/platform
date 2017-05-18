@@ -1,0 +1,29 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                      http://maven.apache.org/xsd/settings-1.0.0.xsd">
+  <servers>
+    <server>
+      <id>uaal-nightly</id>
+      <username>${env.NIGHTLY_USERNAME}</username>
+      <password>${env.NIGHTLY_PASSWORD}</password>
+    </server>
+  </servers>
+	<profiles>
+		<profile>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<repositories>
+				<repository>
+					<id>uaal-nightly</id>
+					<name>universAAL Nightly Build Repository</name>
+					<url>http://depot.universaal.org/maven-repo/nightly/</url>
+					<releases>
+						<enabled>false</enabled>
+					</releases>
+				</repository>
+			</repositories>
+		</profile>
+	</profiles>
+</settings>
