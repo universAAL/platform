@@ -43,14 +43,8 @@
     <url>http://forge.universaal.org/gf/project/support/tracker/</url>
   </issueManagement>
   <ciManagement>
-    <system>Hudson</system>
-    <url>http://depot.universaal.org/hudson/</url>
-    <notifiers>
-      <notifier>
-        <type>rss</type>
-        <address>http://depot.universaal.org/hudson/rssAll</address>
-      </notifier>
-    </notifiers>
+    <system>Travis CI</system>
+    <url>https://travis-ci.org/universAAL/</url>
   </ciManagement>
   <distributionManagement>
     <repository>
