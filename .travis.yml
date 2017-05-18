@@ -1,0 +1,63 @@
+language: java
+jdk: oraclejdk8
+sudo: true
+ 
+cache:
+  directories:
+    - ~/.m2
+
+branches: 
+ only:
+ - master
+
+env:
+  global:
+    secure: "DsS0Uz6BlmnYweibMVEYPCrL30mnouRZVwNVcaH+xZuGezp4F3/rZr0OVK1udx15A052qk4MEmaU5cBilGDJzoSl/ailTyP0sLD85x6JWfTJrxMPrPRmt3JbIjDhmgzNM6hP5H3e3Je096QIAevo6p7rVb9uxM2mnfLiJ1tANFs="
+
+addons:
+  apt:
+    packages:
+      - graphviz
+
+before_install:
+ - git submodule foreach git pull origin master
+ - cd uAAL.pom
+ - chmod +x src/scripts/push-to-gh-pages.sh
+# - chmod +x src/scripts/codecov.sh
+ - set -o pipefail
+ - cp src/scripts/settings.xml $HOME/.m2/settings.xml
+
+install:
+ -
+
+before_script:
+ - echo "MAVEN_OPTS='-Xmx3g'" > ~/.mavenrc
+
+script:
+ - free -m
+# - mvn clean install -DskipTests -Dorg.ops4j.pax.logging.DefaultServiceLog.level=WARN | grep -i "INFO] Build"
+ - mvn clean install -Dorg.ops4j.pax.logging.DefaultServiceLog.level=WARN | grep -i "INFO] Build"
+ - mvn javadoc:aggregate -fae | grep -i "INFO] Build"
+# - mvn cobertura:cobertura -Dcobertura.aggregate=true -Dcobertura.report.format=xml -fae | grep -i "INFO] Build"
+# - mvn cobertura:cobertura -Dcobertura.aggregate=true -Dcobertura.report.format=html -DskipTests -fae | grep -i "INFO] Build"
+ - mvn site:site -DskipTests -Dmaven.javadoc.skip=true -Duaal.report=ci-platform -fn -e
+# - mvn site:site -DskipTests -Dcobertura.skip  -Dmaven.javadoc.skip=true -Duaal.report=ci-platform -fn -e
+# - mvn site:stage -DstagingDirectory=$HOME/site/uAAL.pom -fn > /dev/null
+# - echo Delete all coverage reports except the aggregated one!
+# - mv target/site/cobertura/coverage.xml target/site/cobertura/coverage2.xml
+# - find .. -name "coverage.xml" -type f -delete
+# - mv target/site/cobertura/coverage2.xml target/site/cobertura/coverage.xml
+
+after_success:
+ - mvn deploy -N -DskipTests -DaltDeploymentRepository=uaal-nightly::default::http://depot.universaal.org/maven-repo/nightly/
+ - export OLD_DIR=`pwd`
+ - src/scripts/push-to-gh-pages.sh
+ - cd "$OLD_DIR"
+ - export GH_TOKEN="deleted"
+ - export NIGHTLY_PASSWORD="deleted"
+ - export NIGHTLY_USERNAME="deleted"
+# - mvn org.eluder.coveralls:coveralls-maven-plugin:4.3.0:report -e
+# - src/scripts/codecov.sh
+
+notifications:
+  email: false
