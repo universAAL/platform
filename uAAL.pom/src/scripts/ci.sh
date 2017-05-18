@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ "$TRAVIS_REPO_SLUG" != "cstockloew/$MY_REPO" ] || [ "$TRAVIS_PULL_REQUEST" != "false" ] || [ "$TRAVIS_BRANCH" != "master" ]; then
+if [ "$TRAVIS_REPO_SLUG" != "universAAL/$MY_REPO" ] || [ "$TRAVIS_PULL_REQUEST" != "false" ] || [ "$TRAVIS_BRANCH" != "master" ]; then
   exit 1
 fi
 
@@ -20,7 +20,7 @@ publish_site() {
   cd $HOME
   git config --global user.email "travis@travis-ci.org"
   git config --global user.name "travis-ci"
-  git clone --quiet --branch=gh-pages https://${GH_TOKEN}@github.com/cstockloew/${MY_REPO} gh-pages > /dev/null
+  git clone --quiet --branch=gh-pages https://${GH_TOKEN}@github.com/universAAL/${MY_REPO} gh-pages > /dev/null
 
   cd gh-pages
   git rm --ignore-unmatch -rf . > /dev/null
