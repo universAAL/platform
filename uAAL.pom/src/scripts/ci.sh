@@ -36,7 +36,8 @@ do_script() {
   echo -e "do_script"
   free -m
 #  echo "---------- 
-  mvn clean install -DskipTests -Dorg.ops4j.pax.logging.DefaultServiceLog.level=WARN -e | grep -i "INFO] Build"
+  mvn clean install -DskipTests -Dorg.ops4j.pax.logging.DefaultServiceLog.level=WARN -e
+#  | grep -i "INFO] Build"
 #  ((((mvn javadoc:javadoc -fae; echo $? >&3) | grep -i "INFO] Build" >&4) 3>&1) | (read xs; exit $xs)) 4>&1
 # - ((((mvn surefire-report:report -Dsurefire-report.aggregate=true -fae; echo $? >&3) | grep -i "INFO] Build" >&4) 3>&1) | (read xs; exit $xs)) 4>&1
   mvn javadoc:aggregate -fae -e | grep -i "INFO] Build"
