@@ -36,15 +36,15 @@ do_script() {
   echo -e "do_script"
   free -m
 #  echo "---------- 
-  mvn clean install -DskipTests -Dorg.ops4j.pax.logging.DefaultServiceLog.level=WARN  | grep -i "INFO] Build"
+  mvn clean install -DskipTests -Dorg.ops4j.pax.logging.DefaultServiceLog.level=WARN -e | grep -i "INFO] Build"
 #  ((((mvn javadoc:javadoc -fae; echo $? >&3) | grep -i "INFO] Build" >&4) 3>&1) | (read xs; exit $xs)) 4>&1
 # - ((((mvn surefire-report:report -Dsurefire-report.aggregate=true -fae; echo $? >&3) | grep -i "INFO] Build" >&4) 3>&1) | (read xs; exit $xs)) 4>&1
-  mvn javadoc:aggregate -fae | grep -i "INFO] Build"
-  mvn cobertura:cobertura -Dcobertura.aggregate=true -Dcobertura.report.format=xml -fae | grep -i "INFO] Build"
-  mvn cobertura:cobertura -Dcobertura.aggregate=true -Dcobertura.report.format=html -DskipTests -fae | grep -i "INFO] Build"
-  mvn surefire-report:report -Dsurefire-report.aggregate=true -fae | grep -i "INFO] Build"
+  mvn javadoc:aggregate -fae -e | grep -i "INFO] Build"
+  mvn cobertura:cobertura -Dcobertura.aggregate=true -Dcobertura.report.format=xml -fae -e | grep -i "INFO] Build"
+  mvn cobertura:cobertura -Dcobertura.aggregate=true -Dcobertura.report.format=html -DskipTests -fae -e | grep -i "INFO] Build"
+  mvn surefire-report:report -Dsurefire-report.aggregate=true -fae -e | grep -i "INFO] Build"
   mvn site:site -DskipTests -Dcobertura.skip -Dmaven.javadoc.skip=true -Duaal.report=ci-repo -fn -e | grep -i "INFO] Build"
-  mvn site:stage -DstagingDirectory=$HOME/site/main -fn | grep -i "INFO] Build"
+  mvn site:stage -DstagingDirectory=$HOME/site/main -fn -e | grep -i "INFO] Build"
   find $HOME/site/ -type f -name "*.html" -exec sed -i 's/uAAL.pom/platform/g' {} +
 }
 
