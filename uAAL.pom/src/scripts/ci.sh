@@ -15,8 +15,6 @@ set -o pipefail
 publish_site() {
   echo -e "Publishing...\n"
 
-#  cp -R "target/site" $HOME/site
-    
   cd $HOME
   git config --global user.email "travis@travis-ci.org"
   git config --global user.name "travis-ci"
@@ -24,7 +22,7 @@ publish_site() {
 
   cd gh-pages
   git rm --ignore-unmatch -rf . > /dev/null
-  cp -Rf $HOME/site/$MY_REPO/* .
+  cp -Rf $HOME/site/$XTRAS$MY_REPO/* .
   git add -f . > /dev/null
   git commit -m "Latest site on successful travis build $TRAVIS_BUILD_NUMBER auto-pushed to gh-pages"  > /dev/null
   git push -fq origin gh-pages > /dev/null
