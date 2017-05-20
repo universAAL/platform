@@ -40,10 +40,10 @@ script:
  - mvn javadoc:aggregate -fae | grep -i "INFO] Build"
 # - mvn cobertura:cobertura -Dcobertura.aggregate=true -Dcobertura.report.format=xml -fae | grep -i "INFO] Build"
 # - mvn cobertura:cobertura -Dcobertura.aggregate=true -Dcobertura.report.format=html -DskipTests -fae | grep -i "INFO] Build"
- - mvn site:site -DskipTests -Dmaven.javadoc.skip=true -Duaal.report=ci-platform -fn -e
+ - mvn site:site -DskipTests -Dmaven.javadoc.skip=true -Duaal.report=ci-platform -fn -e || true
  - find ./target/site -type f -print0 | xargs -0 sed -i 's/\/xtras\//\//g'
  - cd feature
- - mvn site:site -DskipTests -Dmaven.javadoc.skip=true -Duaal.report=ci-platform -fn -e
+ - mvn site:site -DskipTests -Dmaven.javadoc.skip=true -Duaal.report=ci-platform -fn -e || true
  - cd ..
  - find ./target/site -type f -print0 | xargs -0 sed -i 's/\.\.\/uAAL\.karaf\.feature\///g'
 # - mvn site:site -DskipTests -Dcobertura.skip  -Dmaven.javadoc.skip=true -Duaal.report=ci-platform -fn -e
