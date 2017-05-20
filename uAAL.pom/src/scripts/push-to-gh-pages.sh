@@ -6,6 +6,7 @@ if [ "$TRAVIS_REPO_SLUG" == "universAAL/platform" ] && [ "$TRAVIS_PULL_REQUEST" 
   set -x
 
   cp -R "target/site" $HOME/site
+  cp -R feature/target/site $HOME/site/uAAL.karaf.feature
     
   cd $HOME
   git config --global user.email "travis@travis-ci.org"
