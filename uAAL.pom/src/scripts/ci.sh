@@ -61,8 +61,10 @@ do_success() {
   export GH_TOKEN="deleted"
   export NIGHTLY_PASSWORD="deleted"
   export NIGHTLY_USERNAME="deleted"
-  mvn org.eluder.coveralls:coveralls-maven-plugin:4.3.0:report -e
+  mvn org.universAAL.support:cigraph-maven-plugin:3.4.1-SNAPSHOT:cigraph -Dtoken=$CI_TOKEN -N
+  export CI_TOKEN="deleted"
   bash <(curl -s https://codecov.io/bash)
+  mvn org.eluder.coveralls:coveralls-maven-plugin:4.3.0:report -e
 }
 
 echo -e "select $1"
