@@ -18,7 +18,7 @@
     catch(err) {
     }
 //-->
-var methods = {"i0":9,"i1":9,"i2":9,"i3":9,"i4":9,"i5":9};
+var methods = {"i0":9,"i1":9,"i2":9,"i3":9,"i4":9,"i5":9,"i6":9};
 var tabs = {65535:["t0","All Methods"],1:["t1","Static Methods"],8:["t4","Concrete Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -148,14 +148,6 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/datarep/SharedResources.html#factory">factory</a></span></code>&nbsp;</td>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Dictionary.html?is-external=true" title="class or interface in java.util">Dictionary</a></code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/datarep/SharedResources.html#helpOnMiddlewareProps">helpOnMiddlewareProps</a></span></code>&nbsp;</td>
-</tr>
-<tr class="rowColor">
-<td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Dictionary.html?is-external=true" title="class or interface in java.util">Dictionary</a></code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/datarep/SharedResources.html#middlewareProps">middlewareProps</a></span></code>&nbsp;</td>
-</tr>
-<tr class="altColor">
 <td class="colFirst"><code>static <a href="../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/datarep/SharedResources.html#moduleContext">moduleContext</a></span></code>&nbsp;</td>
 </tr>
@@ -216,9 +208,14 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 </tr>
 <tr id="i4" class="altColor">
 <td class="colFirst"><code>static void</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/datarep/SharedResources.html#unloadReasoningEngine--">unloadReasoningEngine</a></span>()</code>&nbsp;</td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/datarep/SharedResources.html#setMiddlewareProp-java.lang.String-java.lang.Object-">setMiddlewareProp</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;key,
+                 <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;value)</code>&nbsp;</td>
 </tr>
 <tr id="i5" class="rowColor">
+<td class="colFirst"><code>static void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/datarep/SharedResources.html#unloadReasoningEngine--">unloadReasoningEngine</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i6" class="altColor">
 <td class="colFirst"><code>static void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/datarep/SharedResources.html#updateProps-java.util.Dictionary-">updateProps</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/util/Dictionary.html?is-external=true" title="class or interface in java.util">Dictionary</a>&nbsp;newPropValues)</code>&nbsp;</td>
 </tr>
@@ -300,24 +297,6 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 </dl>
 </li>
 </ul>
-<a name="middlewareProps">
-<!--   -->
-</a>
-<ul class="blockList">
-<li class="blockList">
-<h4>middlewareProps</h4>
-<pre>public static final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/util/Dictionary.html?is-external=true" title="class or interface in java.util">Dictionary</a> middlewareProps</pre>
-</li>
-</ul>
-<a name="helpOnMiddlewareProps">
-<!--   -->
-</a>
-<ul class="blockList">
-<li class="blockList">
-<h4>helpOnMiddlewareProps</h4>
-<pre>public static final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/util/Dictionary.html?is-external=true" title="class or interface in java.util">Dictionary</a> helpOnMiddlewareProps</pre>
-</li>
-</ul>
 <a name="moduleContext">
 <!--   -->
 </a>
@@ -369,6 +348,16 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <li class="blockList">
 <h4>getMiddlewareProp</h4>
 <pre>public static&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;getMiddlewareProp(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;key)</pre>
+</li>
+</ul>
+<a name="setMiddlewareProp-java.lang.String-java.lang.Object-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setMiddlewareProp</h4>
+<pre>public static&nbsp;void&nbsp;setMiddlewareProp(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;key,
+                                     <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;value)</pre>
 </li>
 </ul>
 <a name="loadReasoningEngine--">
