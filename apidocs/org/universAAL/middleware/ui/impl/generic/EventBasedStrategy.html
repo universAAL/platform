@@ -142,25 +142,27 @@ extends <a href="../../../../../../org/universAAL/middleware/bus/model/BusStrate
 <div class="block">A set of methods to send messages. Main implementation for
  <a href="../../../../../../org/universAAL/middleware/ui/impl/generic/EventMessage.html" title="interface in org.universAAL.middleware.ui.impl.generic"><code>EventMessage</code></a> handling. <br>
  
- <center> <img style="background-color:lightgray;"
- src="doc-files/EventBasedStrategy.png" alt="UIStrategy messages"
- width="70%"/> </center>
+ <center> <img style="background-color:lightgray;" src=
+ "doc-files/EventBasedStrategy.png" alt="UIStrategy messages" width="70%"/>
+ </center>
  
  When a message who's content implements the <a href="../../../../../../org/universAAL/middleware/ui/impl/generic/EventMessage.html" title="interface in org.universAAL.middleware.ui.impl.generic"><code>EventMessage</code></a> Interface
  then the
  <a href="../../../../../../org/universAAL/middleware/ui/impl/generic/EventMessage.html#onReceived-Strategy-org.universAAL.middleware.bus.msg.BusMessage-java.lang.String-"><code>method</code></a> is called. For this the Message content has to be deserialized into a
- <a href="../../../../../../org/universAAL/middleware/rdf/Resource.html" title="class in org.universAAL.middleware.rdf"><code>Resource</code></a> that implements such method, thus an ontology is needed. <br>
+ <a href="../../../../../../org/universAAL/middleware/rdf/Resource.html" title="class in org.universAAL.middleware.rdf"><code>Resource</code></a> that implements such method, thus an ontology is needed.
+ <br>
  Overall when an event it sent, The <a href="../../../../../../org/universAAL/middleware/bus/msg/BusMessage.html" title="class in org.universAAL.middleware.bus.msg"><code>BusMessage</code></a> content has to be a
- <a href="../../../../../../org/universAAL/middleware/ui/impl/generic/EventMessage.html" title="interface in org.universAAL.middleware.ui.impl.generic"><code>EventMessage</code></a>. <center> <img style="background-color:lightgray;"
- src="doc-files/SDSend.png" alt="UIStrategy messages" width="70%"/> </center> <br>
+ <a href="../../../../../../org/universAAL/middleware/ui/impl/generic/EventMessage.html" title="interface in org.universAAL.middleware.ui.impl.generic"><code>EventMessage</code></a>. <center>
+ <img style="background-color:lightgray;" src="doc-files/SDSend.png" alt=
+ "UIStrategy messages" width="70%"/> </center> <br>
  So when received it is deserialized and the instance's
  <a href="../../../../../../org/universAAL/middleware/ui/impl/generic/EventMessage.html#onReceived-Strategy-org.universAAL.middleware.bus.msg.BusMessage-java.lang.String-"><code>callback</code></a> is called, being of the type of the sent message then the correct
- operation is perfomed <center> <img style="background-color:lightgray;"
- src="doc-files/SDReceive.png" alt="UIStrategy messages" width="70%"/>
- </center> <br>
- <center> <img style="background-color:lightgray;"
- src="doc-files/EventBasedStrategy-Sample.png" alt="UIStrategy messages"
- width="70%"/> </center></div>
+ operation is perfomed <center>
+ <img style="background-color:lightgray;" src="doc-files/SDReceive.png" alt=
+ "UIStrategy messages" width="70%"/> </center> <br>
+ <center> <img style="background-color:lightgray;" src=
+ "doc-files/EventBasedStrategy-Sample.png" alt="UIStrategy messages" width=
+ "70%"/> </center></div>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>
 <dd>amedrano</dd>

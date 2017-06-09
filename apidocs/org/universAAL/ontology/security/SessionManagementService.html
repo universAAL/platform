@@ -145,8 +145,8 @@ var activeTableTab = "activeTableTab";
 <br>
 <pre>public class <span class="typeNameLabel">SessionManagementService</span>
 extends <a href="../../../../org/universAAL/middleware/service/owl/Service.html" title="class in org.universAAL.middleware.service.owl">Service</a></pre>
-<div class="block">Service Description for checking validity of <a href="../../../../org/universAAL/ontology/security/Session.html" title="class in org.universAAL.ontology.security"><code>Session</code></a>s.
- only the session manager should implement profiles for this service.</div>
+<div class="block">Service Description for checking validity of <a href="../../../../org/universAAL/ontology/security/Session.html" title="class in org.universAAL.ontology.security"><code>Session</code></a>s. only the
+ session manager should implement profiles for this service.</div>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>
 <dd>amedrano</dd>
@@ -248,7 +248,8 @@ extends <a href="../../../../org/universAAL/middleware/service/owl/Service.html"
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/ontology/security/SessionManagementService.html#hasUserValidSession-org.universAAL.middleware.container.ModuleContext-org.universAAL.ontology.profile.User-org.universAAL.ontology.phThing.Device-">hasUserValidSession</a></span>(<a href="../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;mc,
                    <a href="../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;u,
                    <a href="../../../../org/universAAL/ontology/phThing/Device.html" title="class in org.universAAL.ontology.phThing">Device</a>&nbsp;d)</code>
-<div class="block">Check whether the given <a href="../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile"><code>User</code></a> has a valid session in the given <a href="../../../../org/universAAL/ontology/phThing/Device.html" title="class in org.universAAL.ontology.phThing"><code>Device</code></a>.</div>
+<div class="block">Check whether the given <a href="../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile"><code>User</code></a> has a valid session in the given
+ <a href="../../../../org/universAAL/ontology/phThing/Device.html" title="class in org.universAAL.ontology.phThing"><code>Device</code></a>.</div>
 </td>
 </tr>
 <tr id="i3" class="rowColor">
@@ -256,7 +257,8 @@ extends <a href="../../../../org/universAAL/middleware/service/owl/Service.html"
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/ontology/security/SessionManagementService.html#hasUserValidSession-org.universAAL.middleware.container.ModuleContext-org.universAAL.ontology.profile.User-org.universAAL.ontology.location.Location-">hasUserValidSession</a></span>(<a href="../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;mc,
                    <a href="../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;u,
                    <a href="../../../../org/universAAL/ontology/location/Location.html" title="class in org.universAAL.ontology.location">Location</a>&nbsp;l)</code>
-<div class="block">Check whether the given <a href="../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile"><code>User</code></a> has a valid session in the given <a href="../../../../org/universAAL/ontology/location/Location.html" title="class in org.universAAL.ontology.location"><code>Location</code></a>.</div>
+<div class="block">Check whether the given <a href="../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile"><code>User</code></a> has a valid session in the given
+ <a href="../../../../org/universAAL/ontology/location/Location.html" title="class in org.universAAL.ontology.location"><code>Location</code></a>.</div>
 </td>
 </tr>
 <tr id="i4" class="altColor">
@@ -430,15 +432,17 @@ extends <a href="../../../../org/universAAL/middleware/service/owl/Service.html"
 <pre>public static&nbsp;boolean&nbsp;hasUserValidSession(<a href="../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;mc,
                                           <a href="../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;u,
                                           <a href="../../../../org/universAAL/ontology/phThing/Device.html" title="class in org.universAAL.ontology.phThing">Device</a>&nbsp;d)</pre>
-<div class="block">Check whether the given <a href="../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile"><code>User</code></a> has a valid session in the given <a href="../../../../org/universAAL/ontology/phThing/Device.html" title="class in org.universAAL.ontology.phThing"><code>Device</code></a>.
- This check is only bound to the time it is call, session may not be valid in near future.</div>
+<div class="block">Check whether the given <a href="../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile"><code>User</code></a> has a valid session in the given
+ <a href="../../../../org/universAAL/ontology/phThing/Device.html" title="class in org.universAAL.ontology.phThing"><code>Device</code></a>. This check is only bound to the time it is call, session
+ may not be valid in near future.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>mc</code> - needed to make the Service call.</dd>
 <dd><code>u</code> - the user to be checked</dd>
 <dd><code>d</code> - the device where the user might have a session.</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>true if and only if the user should be considered to have a valid session (at the moment of the invocation).</dd>
+<dd>true if and only if the user should be considered to have a valid
+         session (at the moment of the invocation).</dd>
 </dl>
 </li>
 </ul>
@@ -451,15 +455,17 @@ extends <a href="../../../../org/universAAL/middleware/service/owl/Service.html"
 <pre>public static&nbsp;boolean&nbsp;hasUserValidSession(<a href="../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;mc,
                                           <a href="../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;u,
                                           <a href="../../../../org/universAAL/ontology/location/Location.html" title="class in org.universAAL.ontology.location">Location</a>&nbsp;l)</pre>
-<div class="block">Check whether the given <a href="../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile"><code>User</code></a> has a valid session in the given <a href="../../../../org/universAAL/ontology/location/Location.html" title="class in org.universAAL.ontology.location"><code>Location</code></a>.
- This check is only bound to the time it is call, session may not be valid in near future.</div>
+<div class="block">Check whether the given <a href="../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile"><code>User</code></a> has a valid session in the given
+ <a href="../../../../org/universAAL/ontology/location/Location.html" title="class in org.universAAL.ontology.location"><code>Location</code></a>. This check is only bound to the time it is call,
+ session may not be valid in near future.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>mc</code> - needed to make the Service call.</dd>
 <dd><code>u</code> - the user to be checked</dd>
 <dd><code>l</code> - the location where the user might have a session.</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>true if and only if the user should be considered to have a valid session (at the moment of the invocation).</dd>
+<dd>true if and only if the user should be considered to have a valid
+         session (at the moment of the invocation).</dd>
 </dl>
 </li>
 </ul>

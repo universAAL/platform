@@ -133,11 +133,12 @@ var activeTableTab = "activeTableTab";
 <pre>public abstract class <span class="typeNameLabel">PM_Store</span>
 extends <a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/DIM.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim">DIM</a>
 implements <a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/GET_Service.html" title="interface in org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim">GET_Service</a>, <a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/PM_Store_Events.html" title="interface in org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim">PM_Store_Events</a></pre>
-<div class="block">An instance of the PM-store class provides long-term storage capabilities for metric data. Data are stored in
-a variable number of PM-segment objects (see 6.3.8). The stored data of the PM-store object are requested
-from the agent by the manager using object access services (see 7.3). Anybody not familiar with the PMstore
-concept may wish to read Annex C for a conceptual overview prior to reading the following
-subclauses.</div>
+<div class="block">An instance of the PM-store class provides long-term storage capabilities for
+ metric data. Data are stored in a variable number of PM-segment objects (see
+ 6.3.8). The stored data of the PM-store object are requested from the agent
+ by the manager using object access services (see 7.3). Anybody not familiar
+ with the PMstore concept may wish to read Annex C for a conceptual overview
+ prior to reading the following subclauses.</div>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>
 <dd>lgigante</dd>
@@ -195,17 +196,17 @@ subclauses.</div>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>abstract void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/PM_Store.html#Clear_Segments-org.universAAL.lddi.lib.ieeex73std.x73.p20601.SegmSelection-">Clear_Segments</a></span>(<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/SegmSelection.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">SegmSelection</a>&nbsp;segsel)</code>
-<div class="block">Clear-Segments:
-                This method allows the manager to delete the data currently stored in one or more selected PMsegments.</div>
+<div class="block">Clear-Segments: This method allows the manager to delete the data
+ currently stored in one or more selected PMsegments.</div>
 </td>
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code>abstract <a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/SegmentInfoList.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">SegmentInfoList</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/PM_Store.html#Get_Segment_Info-org.universAAL.lddi.lib.ieeex73std.x73.p20601.SegmSelection-">Get_Segment_Info</a></span>(<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/SegmSelection.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">SegmSelection</a>&nbsp;segsel)</code>
-<div class="block">Get-Segment-Info:
-                This method allows the manager to retrieve PM-segment attributes of one or more PM-segments, with
-                the exception of the Fixed-Segment-Data attribute which contains the actual stored data and is
-                retrieved by using the Trig-Segment-Data-Xfer method.</div>
+<div class="block">Get-Segment-Info: This method allows the manager to retrieve PM-segment
+ attributes of one or more PM-segments, with the exception of the
+ Fixed-Segment-Data attribute which contains the actual stored data and is
+ retrieved by using the Trig-Segment-Data-Xfer method.</div>
 </td>
 </tr>
 <tr id="i2" class="altColor">
@@ -215,9 +216,8 @@ subclauses.</div>
 <tr id="i3" class="rowColor">
 <td class="colFirst"><code>abstract <a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/TrigSegmDataXferRsp.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">TrigSegmDataXferRsp</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/PM_Store.html#Trig_Segment_Data_Xfer-org.universAAL.lddi.lib.ieeex73std.x73.p20601.TrigSegmDataXferReq-">Trig_Segment_Data_Xfer</a></span>(<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/TrigSegmDataXferReq.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">TrigSegmDataXferReq</a>&nbsp;trigseg)</code>
-<div class="block">Trig-Segment-Data-Xfer:
-                This method allows the manager to start the transfer of the Fixed-Segment-Data attribute of a specified
-                PM-segment.</div>
+<div class="block">Trig-Segment-Data-Xfer: This method allows the manager to start the
+ transfer of the Fixed-Segment-Data attribute of a specified PM-segment.</div>
 </td>
 </tr>
 </table>
@@ -300,20 +300,24 @@ subclauses.</div>
 <li class="blockList">
 <h4>Clear_Segments</h4>
 <pre>public abstract&nbsp;void&nbsp;Clear_Segments(<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/SegmSelection.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">SegmSelection</a>&nbsp;segsel)</pre>
-<div class="block">Clear-Segments:
-                This method allows the manager to delete the data currently stored in one or more selected PMsegments.
-                All entries in the selected PM-segments are deleted. If the agent supports a variable number
-                of PM-segments, the agent may delete empty PM-segments. Additionally, the agent may clear PMsegments
-                without direction from the manager (e.g., the user of the agent could choose to delete data
-                stored on the agent); however, if doing so while in an Associated state, the Instance-Number shall
-                remain empty for the duration of the association. The Instance-Number of all other PM-segments shall
-                be unaffected by clearing a segment. If this method is invoked on a PM-segment that has the
-                Operational-State attribute set to enabled, the agent shall reply with a not-allowed-by-object error
-                (roer) with a return code of MDC_RET_CODE_OBJ_BUSY.
-                Note that the behavior of the Clear-Segments method is application specific. The method may remove
-                all entries from the specified PM-segment, leaving it empty, or it may remove the defined PM-segment
-                completely. This behavior is defined in the PM-Store-Capab attribute. For specific applications,
-                recommendations are defined in corresponding device specializations, making use of the PM-store.</div>
+<div class="block">Clear-Segments: This method allows the manager to delete the data
+ currently stored in one or more selected PMsegments. All entries in the
+ selected PM-segments are deleted. If the agent supports a variable number
+ of PM-segments, the agent may delete empty PM-segments. Additionally, the
+ agent may clear PMsegments without direction from the manager (e.g., the
+ user of the agent could choose to delete data stored on the agent);
+ however, if doing so while in an Associated state, the Instance-Number
+ shall remain empty for the duration of the association. The
+ Instance-Number of all other PM-segments shall be unaffected by clearing
+ a segment. If this method is invoked on a PM-segment that has the
+ Operational-State attribute set to enabled, the agent shall reply with a
+ not-allowed-by-object error (roer) with a return code of
+ MDC_RET_CODE_OBJ_BUSY. Note that the behavior of the Clear-Segments
+ method is application specific. The method may remove all entries from
+ the specified PM-segment, leaving it empty, or it may remove the defined
+ PM-segment completely. This behavior is defined in the PM-Store-Capab
+ attribute. For specific applications, recommendations are defined in
+ corresponding device specializations, making use of the PM-store.</div>
 </li>
 </ul>
 <a name="Get_Segment_Info-org.universAAL.lddi.lib.ieeex73std.x73.p20601.SegmSelection-">
@@ -323,12 +327,13 @@ subclauses.</div>
 <li class="blockList">
 <h4>Get_Segment_Info</h4>
 <pre>public abstract&nbsp;<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/SegmentInfoList.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">SegmentInfoList</a>&nbsp;Get_Segment_Info(<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/SegmSelection.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">SegmSelection</a>&nbsp;segsel)</pre>
-<div class="block">Get-Segment-Info:
-                This method allows the manager to retrieve PM-segment attributes of one or more PM-segments, with
-                the exception of the Fixed-Segment-Data attribute which contains the actual stored data and is
-                retrieved by using the Trig-Segment-Data-Xfer method. In particular, the Get-Segment-Info method
-                allows the manager to retrieve the Instance-Number attributes of the PM-segment object instances and
-                their data contents.</div>
+<div class="block">Get-Segment-Info: This method allows the manager to retrieve PM-segment
+ attributes of one or more PM-segments, with the exception of the
+ Fixed-Segment-Data attribute which contains the actual stored data and is
+ retrieved by using the Trig-Segment-Data-Xfer method. In particular, the
+ Get-Segment-Info method allows the manager to retrieve the
+ Instance-Number attributes of the PM-segment object instances and their
+ data contents.</div>
 </li>
 </ul>
 <a name="Trig_Segment_Data_Xfer-org.universAAL.lddi.lib.ieeex73std.x73.p20601.TrigSegmDataXferReq-">
@@ -338,12 +343,14 @@ subclauses.</div>
 <li class="blockList">
 <h4>Trig_Segment_Data_Xfer</h4>
 <pre>public abstract&nbsp;<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/TrigSegmDataXferRsp.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">TrigSegmDataXferRsp</a>&nbsp;Trig_Segment_Data_Xfer(<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/TrigSegmDataXferReq.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">TrigSegmDataXferReq</a>&nbsp;trigseg)</pre>
-<div class="block">Trig-Segment-Data-Xfer:
-                This method allows the manager to start the transfer of the Fixed-Segment-Data attribute of a specified
-                PM-segment. The agent indicates in the response if it accepts or denies this request. If the agent accepts
-                the request, the agent sends Segment-Data-Event messages as described in 6.3.7.5. If this method is
-                invoked on a PM-segment that has the Operational-State attribute set to enabled, the agent shall reply
-                with a not-allowed-by-object error (roer) with a return code of MDC_RET_CODE_OBJ_BUSY.</div>
+<div class="block">Trig-Segment-Data-Xfer: This method allows the manager to start the
+ transfer of the Fixed-Segment-Data attribute of a specified PM-segment.
+ The agent indicates in the response if it accepts or denies this request.
+ If the agent accepts the request, the agent sends Segment-Data-Event
+ messages as described in 6.3.7.5. If this method is invoked on a
+ PM-segment that has the Operational-State attribute set to enabled, the
+ agent shall reply with a not-allowed-by-object error (roer) with a return
+ code of MDC_RET_CODE_OBJ_BUSY.</div>
 </li>
 </ul>
 </li>

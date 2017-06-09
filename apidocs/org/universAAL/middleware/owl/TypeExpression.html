@@ -155,18 +155,14 @@ extends <a href="../../../../org/universAAL/middleware/rdf/Resource.html" title=
  sets of individuals) and <i>data ranges</i> (to describe sets of literals).
  The terminology is as follows:
  <ul>
- <li>
- class expression: represents a set of individuals; a special kind of a class
- expression is the direct definition of a class (with <a href="../../../../org/universAAL/middleware/owl/TypeURI.html" title="class in org.universAAL.middleware.owl"><code>TypeURI</code></a>) which
- corresponds to a class in OOP.
- <li>
- individual: instance of a class; corresponds to an instance of a class in
+ <li>class expression: represents a set of individuals; a special kind of a
+ class expression is the direct definition of a class (with <a href="../../../../org/universAAL/middleware/owl/TypeURI.html" title="class in org.universAAL.middleware.owl"><code>TypeURI</code></a>)
+ which corresponds to a class in OOP.
+ <li>individual: instance of a class; corresponds to an instance of a class in
  OOP.
- <li>
- data range: represents a set of literals; a special kind of a data range is
- the data type (with <a href="../../../../org/universAAL/middleware/owl/TypeURI.html" title="class in org.universAAL.middleware.owl"><code>TypeURI</code></a>), like int or string.
- <li>
- literal: instance of a data range, e.g. the literal '1' is an instance of
+ <li>data range: represents a set of literals; a special kind of a data range
+ is the data type (with <a href="../../../../org/universAAL/middleware/owl/TypeURI.html" title="class in org.universAAL.middleware.owl"><code>TypeURI</code></a>), like int or string.
+ <li>literal: instance of a data range, e.g. the literal '1' is an instance of
  int, and the literal "Hello World" is an instance of String.
  </ul>
 
@@ -196,21 +192,19 @@ extends <a href="../../../../org/universAAL/middleware/rdf/Resource.html" title=
  There are three different kinds of type expressions:
 
  <ul>
- <li>
- <a href="../../../../org/universAAL/middleware/owl/PropertyRestriction.html" title="class in org.universAAL.middleware.owl"><code>PropertyRestriction</code></a>: restricts the set of individuals by defining a
- restriction on a property of these individuals. Can be used only for class
+ <li><a href="../../../../org/universAAL/middleware/owl/PropertyRestriction.html" title="class in org.universAAL.middleware.owl"><code>PropertyRestriction</code></a>: restricts the set of individuals by defining
+ a restriction on a property of these individuals. Can be used only for class
  expressions.<br>
  See also: <a href="../../../../org/universAAL/middleware/owl/HasValueRestriction.html" title="class in org.universAAL.middleware.owl"><code>HasValueRestriction</code></a>, <a href="../../../../org/universAAL/middleware/owl/AllValuesFromRestriction.html" title="class in org.universAAL.middleware.owl"><code>AllValuesFromRestriction</code></a>,
  <a href="../../../../org/universAAL/middleware/owl/SomeValuesFromRestriction.html" title="class in org.universAAL.middleware.owl"><code>SomeValuesFromRestriction</code></a>, <br>
  <a href="../../../../org/universAAL/middleware/owl/MinCardinalityRestriction.html" title="class in org.universAAL.middleware.owl"><code>MinCardinalityRestriction</code></a>, <a href="../../../../org/universAAL/middleware/owl/ExactCardinalityRestriction.html" title="class in org.universAAL.middleware.owl"><code>ExactCardinalityRestriction</code></a>,
  <a href="../../../../org/universAAL/middleware/owl/MaxCardinalityRestriction.html" title="class in org.universAAL.middleware.owl"><code>MaxCardinalityRestriction</code></a>
- <li>
- Set-theoretic expressions: enumeration of individuals and all standard
- Boolean connectives. Can be used for class expressions and for data ranges.<br>
+ <li>Set-theoretic expressions: enumeration of individuals and all standard
+ Boolean connectives. Can be used for class expressions and for data
+ ranges.<br>
  See also: <a href="../../../../org/universAAL/middleware/owl/TypeURI.html" title="class in org.universAAL.middleware.owl"><code>TypeURI</code></a>, <a href="../../../../org/universAAL/middleware/owl/Enumeration.html" title="class in org.universAAL.middleware.owl"><code>Enumeration</code></a>,<br>
  <a href="../../../../org/universAAL/middleware/owl/Union.html" title="class in org.universAAL.middleware.owl"><code>Union</code></a>, <a href="../../../../org/universAAL/middleware/owl/Intersection.html" title="class in org.universAAL.middleware.owl"><code>Intersection</code></a>, <a href="../../../../org/universAAL/middleware/owl/Complement.html" title="class in org.universAAL.middleware.owl"><code>Complement</code></a>
- <li>
- <a href="../../../../org/universAAL/middleware/owl/TypeRestriction.html" title="class in org.universAAL.middleware.owl"><code>TypeRestriction</code></a>: restricts the set literals. Can be used only for
+ <li><a href="../../../../org/universAAL/middleware/owl/TypeRestriction.html" title="class in org.universAAL.middleware.owl"><code>TypeRestriction</code></a>: restricts the set literals. Can be used only for
  data ranges.<br>
  See also: <a href="../../../../org/universAAL/middleware/owl/BoundedValueRestriction.html" title="class in org.universAAL.middleware.owl"><code>BoundedValueRestriction</code></a>, <a href="../../../../org/universAAL/middleware/owl/LengthRestriction.html" title="class in org.universAAL.middleware.owl"><code>LengthRestriction</code></a>
  </ul>
@@ -218,23 +212,19 @@ extends <a href="../../../../org/universAAL/middleware/rdf/Resource.html" title=
  <p>
  There are three main methods to compare type expression:
  <ul>
- <li>
- hasMember: determines if the given object is a member of the class
+ <li>hasMember: determines if the given object is a member of the class
  represented by this type expression</li>
- <li>
- matches: determines if the given type expression is a subset of the class
+ <li>matches: determines if the given type expression is a subset of the class
  represented by this type expression</li>
- <li>
- isDisjointWith: determines if the given type expression has no member in
+ <li>isDisjointWith: determines if the given type expression has no member in
  common with the class represented by this type expression</li>
  </ul>
 
  <p>
  All three methods have three parameters in common:
  <ul>
- <li>
- context: context of the matchmaking. The <code>context</code> table maps the
- URIs of certain variables onto values currently assigned to them. The
+ <li>context: context of the matchmaking. The <code>context</code> table maps
+ the URIs of certain variables onto values currently assigned to them. The
  variables are either standard variables managed by the universAAL middleware
  or parameters of a specific service in whose context this method is called.
  If there is already a value assigned to such a referenced variable, it must
@@ -245,23 +235,21 @@ extends <a href="../../../../org/universAAL/middleware/rdf/Resource.html" title=
  <code>context</code> table to see if new conditions are added in. If the
  <code>context</code> map is null, the method does a global and unconditional
  check.</li>
- <li>
- ttl: time-to-live parameter. For each subsequent call to one of these methods
- the ttl parameter is decreased by one. If it reaches zero, an
+ <li>ttl: time-to-live parameter. For each subsequent call to one of these
+ methods the ttl parameter is decreased by one. If it reaches zero, an
  <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/IllegalArgumentException.html?is-external=true" title="class or interface in java.lang"><code>IllegalArgumentException</code></a> is thrown with the text provided in
  <a href="../../../../org/universAAL/middleware/owl/TypeExpression.html#EXCEPTION_TTL"><code>EXCEPTION_TTL</code></a>. This can be used to avoid cycles in the type
  expression.</li>
- <li>
- log: list that can be filled with log entries and that shows at which point
- the matchmaking failed. May be null.</li>
+ <li>log: list that can be filled with log entries and that shows at which
+ point the matchmaking failed. May be null.</li>
  </ul></div>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>
 <dd>mtazari - <a href="mailto:Saied.Tazari@igd.fraunhofer.de">Saied
          Tazari</a>, Carsten Stockloew</dd>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a
-      href="https://github.com/universAAL/middleware/wiki/Data-Representation#Type_expression">
+<dd><a href=
+      "https://github.com/universAAL/middleware/wiki/Data-Representation#Type_expression">
       Data Representation Wiki page</a></dd>
 </dl>
 </li>

@@ -271,11 +271,12 @@ implements <a href="../../../../../org/universAAL/lddi/knx/groupdevicecategory/I
 <h4>calculatePercentage</h4>
 <pre>public static&nbsp;float&nbsp;calculatePercentage(byte[]&nbsp;payload,
                                         int&nbsp;datapointTypeSubNumber)</pre>
-<div class="block">calculate percentage according to datapoint sub-type.
- 8-bit extra data byte; e.g. 80:b3; 80:33</div>
+<div class="block">calculate percentage according to datapoint sub-type. 8-bit extra data
+ byte; e.g. 80:b3; 80:33</div>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>-1 if there is no detailed specification of the given datapointTypeSubNumber in the KNX standard.</dd>
+<dd>-1 if there is no detailed specification of the given
+         datapointTypeSubNumber in the KNX standard.</dd>
 </dl>
 </li>
 </ul>
@@ -287,12 +288,13 @@ implements <a href="../../../../../org/universAAL/lddi/knx/groupdevicecategory/I
 <h4>createPayloadFromFloatValue</h4>
 <pre>public static&nbsp;byte[]&nbsp;createPayloadFromFloatValue(float&nbsp;value,
                                                  int&nbsp;datapointTypeSubNumber)</pre>
-<div class="block">calculate byte from float value according to datapoint sub-type.
- 8-bit extra data byte; e.g. 00:b3; 00:33</div>
+<div class="block">calculate byte from float value according to datapoint sub-type. 8-bit
+ extra data byte; e.g. 00:b3; 00:33</div>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>null if there is no detailed specification of the given datapointTypeSubNumber in the KNX standard,
- or the given datapointTypeSubNumber is not defined in the KNX standard.</dd>
+<dd>null if there is no detailed specification of the given
+         datapointTypeSubNumber in the KNX standard, or the given
+         datapointTypeSubNumber is not defined in the KNX standard.</dd>
 </dl>
 </li>
 </ul>

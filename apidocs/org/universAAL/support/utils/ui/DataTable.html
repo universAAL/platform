@@ -131,27 +131,30 @@ var activeTableTab = "activeTableTab";
 <pre>public class <span class="typeNameLabel">DataTable</span>
 extends <a href="../../../../../org/universAAL/support/utils/ui/Control.html" title="class in org.universAAL.support.utils.ui">Control</a>
 implements <a href="../../../../../org/universAAL/support/utils/ui/IContainer.html" title="interface in org.universAAL.support.utils.ui">IContainer</a></pre>
-<div class="block">Class representing a Data Table UI element. Data Tables show data from a repetitive
- data model composed by equally structured entries, whether it's a table, list
- of groups or any other way, depending on the UI renderer.
+<div class="block">Class representing a Data Table UI element. Data Tables show data from a
+ repetitive data model composed by equally structured entries, whether it's a
+ table, list of groups or any other way, depending on the UI renderer.
  <p>
- A Data Table is composed by the Data Model backing up the actual content and an
- Entry Model defining what is shown from each entry and how. The Entry Model
- is like a Group, any Control (except Submits or other Data Tables) can be added to it.
- Each Control added must reference a Path from the entries in Data Model, and
- must not have an initial value. The Entry Model will be repeated for each
- entry in the Data Model, and each of its Controls initialized with the data
- of that Entry found in the given reference Path of the Control.
+ A Data Table is composed by the Data Model backing up the actual content and
+ an Entry Model defining what is shown from each entry and how. The Entry
+ Model is like a Group, any Control (except Submits or other Data Tables) can
+ be added to it. Each Control added must reference a Path from the entries in
+ Data Model, and must not have an initial value. The Entry Model will be
+ repeated for each entry in the Data Model, and each of its Controls
+ initialized with the data of that Entry found in the given reference Path of
+ the Control.
  <p>
  <b>WARNING:</b> A Data Table is like a Group, it must be added to a
  SimpleUIRequest or a Group BEFORE any element can be added to its Entry
  Model. This is because the Tables�s Entry Model is not actually created until
- it's added. The Data Model however must be set BEFORE the Data Table is added,
- thus the order of operations is the following: 1) Create Data Table. 2) Set Data
- Model. 3) Add Data Table to parent. 4) Add Controls to Entry Model.
+ it's added. The Data Model however must be set BEFORE the Data Table is
+ added, thus the order of operations is the following: 1) Create Data Table.
+ 2) Set Data Model. 3) Add Data Table to parent. 4) Add Controls to Entry
+ Model.
  <p>
- There are two ways of constructing Data Tables: Inferring the Data Model entries
- from the parent's root resource or setting the Data Model entries explicitly.
+ There are two ways of constructing Data Tables: Inferring the Data Model
+ entries from the parent's root resource or setting the Data Model entries
+ explicitly.
  <p>
  Example render:
  <p>
@@ -268,7 +271,7 @@ implements <a href="../../../../../org/universAAL/support/utils/ui/IContainer.ht
 <tr id="i4" class="altColor">
 <td class="colFirst"><code><a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html?is-external=true" title="class or interface in java.lang">Boolean</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/support/utils/ui/DataTable.html#isDeletable--">isDeletable</a></span>()</code>
-<div class="block">Check if entries can  be removed by the user.</div>
+<div class="block">Check if entries can be removed by the user.</div>
 </td>
 </tr>
 <tr id="i5" class="rowColor">
@@ -286,7 +289,7 @@ implements <a href="../../../../../org/universAAL/support/utils/ui/IContainer.ht
 <tr id="i7" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/support/utils/ui/DataTable.html#setDeletable-java.lang.Boolean-">setDeletable</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html?is-external=true" title="class or interface in java.lang">Boolean</a>&nbsp;deletable)</code>
-<div class="block">Set if entries can  be removed by the user.</div>
+<div class="block">Set if entries can be removed by the user.</div>
 </td>
 </tr>
 <tr id="i8" class="altColor">
@@ -377,9 +380,9 @@ implements <a href="../../../../../org/universAAL/support/utils/ui/IContainer.ht
  take into account that the referenced property must allow cardinality > 1</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>ref</code> - The simple reference identifying the Table Data Model from
-            the parent root. Set to null to auto-generate and not use a
-            Data Model from the root.</dd>
+<dd><code>ref</code> - The simple reference identifying the Table Data Model from the
+            parent root. Set to null to auto-generate and not use a Data
+            Model from the root.</dd>
 </dl>
 </li>
 </ul>
@@ -414,9 +417,9 @@ implements <a href="../../../../../org/universAAL/support/utils/ui/IContainer.ht
  take into account that the referenced property must allow cardinality > 1</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>ref</code> - The simple reference identifying the Table Data Model from
-            the parent root. Set to null to auto-generate and not use a
-            Data Model from the root.</dd>
+<dd><code>ref</code> - The simple reference identifying the Table Data Model from the
+            parent root. Set to null to auto-generate and not use a Data
+            Model from the root.</dd>
 <dd><code>label</code> - The label text that identifies the Table to the user.</dd>
 </dl>
 </li>
@@ -527,10 +530,10 @@ implements <a href="../../../../../org/universAAL/support/utils/ui/IContainer.ht
 <li class="blockList">
 <h4>isDeletable</h4>
 <pre>public&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html?is-external=true" title="class or interface in java.lang">Boolean</a>&nbsp;isDeletable()</pre>
-<div class="block">Check if entries can  be removed by the user.</div>
+<div class="block">Check if entries can be removed by the user.</div>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>If entries can  be removed by the user.</dd>
+<dd>If entries can be removed by the user.</dd>
 </dl>
 </li>
 </ul>
@@ -541,10 +544,10 @@ implements <a href="../../../../../org/universAAL/support/utils/ui/IContainer.ht
 <li class="blockList">
 <h4>setDeletable</h4>
 <pre>public&nbsp;void&nbsp;setDeletable(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html?is-external=true" title="class or interface in java.lang">Boolean</a>&nbsp;deletable)</pre>
-<div class="block">Set if entries can  be removed by the user.</div>
+<div class="block">Set if entries can be removed by the user.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>deletable</code> - If entries can  be removed by the user.</dd>
+<dd><code>deletable</code> - If entries can be removed by the user.</dd>
 </dl>
 </li>
 </ul>

@@ -117,12 +117,12 @@ var activeTableTab = "activeTableTab";
 <br>
 <pre>public abstract class <span class="typeNameLabel">CommunicationGateway</span>
 extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></pre>
-<div class="block">A gateway providing a bridge to a network of external components making it for
- <a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction"><code>component integrators</code></a> possible to gain access to
- related <a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html" title="interface in org.universAAL.lddi.abstraction"><code>external datapoints</code></a>.
+<div class="block">A gateway providing a bridge to a network of external components making it
+ for <a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction"><code>component integrators</code></a> possible to gain access
+ to related <a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html" title="interface in org.universAAL.lddi.abstraction"><code>external datapoints</code></a>.
  
- For a better understanding, please refer to both the package documentation and the
- documentation of the methods further below.</div>
+ For a better understanding, please refer to both the package documentation
+ and the documentation of the methods further below.</div>
 </li>
 </ul>
 </div>
@@ -161,17 +161,17 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>abstract <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html#readValue-org.universAAL.lddi.abstraction.ExternalDatapoint-">readValue</a></span>(<a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html" title="interface in org.universAAL.lddi.abstraction">ExternalDatapoint</a>&nbsp;datapoint)</code>
-<div class="block"><a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction"><code>component integrators</code></a> can use this method to get the
- value of a given property of a given external component by specifying the related
- external datapoint.</div>
+<div class="block"><a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction"><code>component integrators</code></a> can use this method to
+ get the value of a given property of a given external component by
+ specifying the related external datapoint.</div>
 </td>
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code>abstract void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html#register-java.lang.String-org.universAAL.lddi.abstraction.ComponentIntegrator-">register</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;componentTypeURI,
         <a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction">ComponentIntegrator</a>&nbsp;integrator)</code>
-<div class="block">To be used by <a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction"><code>component integrators</code></a> to register to
- this gateway for external components of the given type.</div>
+<div class="block">To be used by <a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction"><code>component integrators</code></a> to
+ register to this gateway for external components of the given type.</div>
 </td>
 </tr>
 <tr id="i2" class="altColor">
@@ -179,8 +179,8 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html#startEventing-org.universAAL.lddi.abstraction.ComponentIntegrator-org.universAAL.lddi.abstraction.ExternalComponent-byte-">startEventing</a></span>(<a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction">ComponentIntegrator</a>&nbsp;integrator,
              <a href="../../../../org/universAAL/lddi/abstraction/ExternalComponent.html" title="class in org.universAAL.lddi.abstraction">ExternalComponent</a>&nbsp;component,
              byte&nbsp;intervalSeconds)</code>
-<div class="block">Serves as means for subscribing for events related to the changes of the value
- of any property of the given external component.</div>
+<div class="block">Serves as means for subscribing for events related to the changes of the
+ value of any property of the given external component.</div>
 </td>
 </tr>
 <tr id="i3" class="rowColor">
@@ -188,9 +188,10 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html#startEventing-org.universAAL.lddi.abstraction.ComponentIntegrator-org.universAAL.lddi.abstraction.ExternalDatapoint-byte-">startEventing</a></span>(<a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction">ComponentIntegrator</a>&nbsp;integrator,
              <a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html" title="interface in org.universAAL.lddi.abstraction">ExternalDatapoint</a>&nbsp;datapoint,
              byte&nbsp;intervalSeconds)</code>
-<div class="block">Serves as means for subscribing for events related to the changes of the value
- of a given property of a given external component by specifying the related
- external datapoint.</div>
+<div class="block">
+ Serves as means for subscribing for events related to the changes of the
+ value of a given property of a given external component by specifying the
+ related external datapoint.</div>
 </td>
 </tr>
 <tr id="i4" class="altColor">
@@ -201,25 +202,25 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
              byte&nbsp;intervalSeconds)</code>
 <div class="block">If the given property URI is not null, serves as means for subscribing
  for events related to the changes of the value of the given property of
- any external component of the given type; otherwise, with propURI == null,
- it can be used to subscribe for the changes of the value of any property
- of any external component of the given type.</div>
+ any external component of the given type; otherwise, with propURI ==
+ null, it can be used to subscribe for the changes of the value of any
+ property of any external component of the given type.</div>
 </td>
 </tr>
 <tr id="i5" class="rowColor">
 <td class="colFirst"><code>abstract void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html#stopEventing-int-">stopEventing</a></span>(int&nbsp;eventingID)</code>
-<div class="block"><a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction"><code>component integrators</code></a> can use this method to unsubscribe
- a subscription done previously.</div>
+<div class="block"><a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction"><code>component integrators</code></a> can use this method to
+ unsubscribe a subscription done previously.</div>
 </td>
 </tr>
 <tr id="i6" class="altColor">
 <td class="colFirst"><code>abstract void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html#writeValue-org.universAAL.lddi.abstraction.ExternalDatapoint-java.lang.Object-">writeValue</a></span>(<a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html" title="interface in org.universAAL.lddi.abstraction">ExternalDatapoint</a>&nbsp;datapoint,
           <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;value)</code>
-<div class="block"><a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction"><code>component integrators</code></a> can use this method to change the
- value of a given property of a given external component by specifying the related
- external datapoint and the new value.</div>
+<div class="block"><a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction"><code>component integrators</code></a> can use this method to
+ change the value of a given property of a given external component by
+ specifying the related external datapoint and the new value.</div>
 </td>
 </tr>
 </table>
@@ -269,13 +270,15 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <h4>register</h4>
 <pre>public abstract&nbsp;void&nbsp;register(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;componentTypeURI,
                               <a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction">ComponentIntegrator</a>&nbsp;integrator)</pre>
-<div class="block">To be used by <a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction"><code>component integrators</code></a> to register to
- this gateway for external components of the given type. The implementation must
- (1) add the given integrator to the list of integrators interested in the given
- type of components, and (2) call <a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html#processComponents-org.universAAL.lddi.abstraction.ExternalComponent:A-"><code>the related notification method</code></a> of the integrator with the
- list of components of the given type, both for those already known at the time
- of registration and at any time in future when new components of the same type
- are added to the external network.</div>
+<div class="block">To be used by <a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction"><code>component integrators</code></a> to
+ register to this gateway for external components of the given type. The
+ implementation must (1) add the given integrator to the list of
+ integrators interested in the given type of components, and (2) call
+ <a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html#processComponents-org.universAAL.lddi.abstraction.ExternalComponent:A-"><code>the
+ related notification method</code></a> of the integrator with the list of
+ components of the given type, both for those already known at the time of
+ registration and at any time in future when new components of the same
+ type are added to the external network.</div>
 </li>
 </ul>
 <a name="startEventing-org.universAAL.lddi.abstraction.ComponentIntegrator-org.universAAL.lddi.abstraction.ExternalDatapoint-byte-">
@@ -287,29 +290,37 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <pre>public abstract&nbsp;int&nbsp;startEventing(<a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction">ComponentIntegrator</a>&nbsp;integrator,
                                   <a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html" title="interface in org.universAAL.lddi.abstraction">ExternalDatapoint</a>&nbsp;datapoint,
                                   byte&nbsp;intervalSeconds)</pre>
-<div class="block"><p>Serves as means for subscribing for events related to the changes of the value
- of a given property of a given external component by specifying the related
- external datapoint. Note that this implies that the external components made
- known by gateways to integrators must include the property mapping to datapoints.</p>
+<div class="block"><p>
+ Serves as means for subscribing for events related to the changes of the
+ value of a given property of a given external component by specifying the
+ related external datapoint. Note that this implies that the external
+ components made known by gateways to integrators must include the
+ property mapping to datapoints.
+ </p>
  
- <p>To be used by <a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction"><code>component integrators</code></a> to inform this
- gateway about the interest to be notified as soon as the value of the given
- external datapoint changes. The implementation must (1) add the given integrator
- to the list of integrators interested in the same kind of events, and (2) call
- <a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html#processEvent-org.universAAL.lddi.abstraction.ExternalDatapoint-java.lang.Object-"><code>the related
- notification method</code></a> of the integrator both with the current value at the time
- of registration and at any time in future when the value changes.</p></div>
+ <p>
+ To be used by <a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction"><code>component integrators</code></a> to inform
+ this gateway about the interest to be notified as soon as the value of
+ the given external datapoint changes. The implementation must (1) add the
+ given integrator to the list of integrators interested in the same kind
+ of events, and (2) call
+ <a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html#processEvent-org.universAAL.lddi.abstraction.ExternalDatapoint-java.lang.Object-"><code>the
+ related notification method</code></a> of the integrator both with the current
+ value at the time of registration and at any time in future when the
+ value changes.
+ </p></div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>integrator</code> - the integrator registing for notification.</dd>
 <dd><code>datapoint</code> - the datapoint whose changes of values must fire events.</dd>
 <dd><code>intervalSeconds</code> - needed when the external communication protocol doesn't
- support "real-time" eventing and hence the gateway has to implement the eventing
- mechanism by pulling the value every n seconds and check if it has changed or not.
- In that case, this parameter indicates the related preference of the integrator.</dd>
+            support "real-time" eventing and hence the gateway has to
+            implement the eventing mechanism by pulling the value every n
+            seconds and check if it has changed or not. In that case, this
+            parameter indicates the related preference of the integrator.</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>An ID for this subscription so that integrators can unsubscribe later if
- need be.</dd>
+<dd>An ID for this subscription so that integrators can unsubscribe
+         later if need be.</dd>
 </dl>
 </li>
 </ul>
@@ -322,9 +333,11 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <pre>public abstract&nbsp;int&nbsp;startEventing(<a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction">ComponentIntegrator</a>&nbsp;integrator,
                                   <a href="../../../../org/universAAL/lddi/abstraction/ExternalComponent.html" title="class in org.universAAL.lddi.abstraction">ExternalComponent</a>&nbsp;component,
                                   byte&nbsp;intervalSeconds)</pre>
-<div class="block">Serves as means for subscribing for events related to the changes of the value
- of any property of the given external component. Compared to <a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html#startEventing-org.universAAL.lddi.abstraction.ComponentIntegrator-org.universAAL.lddi.abstraction.ExternalDatapoint-byte-"><code>startEventing(ComponentIntegrator, ExternalDatapoint, byte)</code></a>, it wildcards all
- datapoints within the scope of the given external component.</div>
+<div class="block">Serves as means for subscribing for events related to the changes of the
+ value of any property of the given external component. Compared to
+ <a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html#startEventing-org.universAAL.lddi.abstraction.ComponentIntegrator-org.universAAL.lddi.abstraction.ExternalDatapoint-byte-"><code>startEventing(ComponentIntegrator, ExternalDatapoint, byte)</code></a>, it
+ wildcards all datapoints within the scope of the given external
+ component.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
 <dd><a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html#startEventing-org.universAAL.lddi.abstraction.ComponentIntegrator-org.universAAL.lddi.abstraction.ExternalDatapoint-byte-"><code>startEventing(ComponentIntegrator, ExternalDatapoint, byte)</code></a></dd>
@@ -343,11 +356,13 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
                                   byte&nbsp;intervalSeconds)</pre>
 <div class="block">If the given property URI is not null, serves as means for subscribing
  for events related to the changes of the value of the given property of
- any external component of the given type; otherwise, with propURI == null,
- it can be used to subscribe for the changes of the value of any property
- of any external component of the given type. Compared to <a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html#startEventing-org.universAAL.lddi.abstraction.ComponentIntegrator-org.universAAL.lddi.abstraction.ExternalDatapoint-byte-"><code>startEventing(ComponentIntegrator, ExternalDatapoint, byte)</code></a>, it wildcards
- all datapoints within the scope of all external components of the given
- type, either by selecting those that correspond to a given property or not.</div>
+ any external component of the given type; otherwise, with propURI ==
+ null, it can be used to subscribe for the changes of the value of any
+ property of any external component of the given type. Compared to
+ <a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html#startEventing-org.universAAL.lddi.abstraction.ComponentIntegrator-org.universAAL.lddi.abstraction.ExternalDatapoint-byte-"><code>startEventing(ComponentIntegrator, ExternalDatapoint, byte)</code></a>, it
+ wildcards all datapoints within the scope of all external components of
+ the given type, either by selecting those that correspond to a given
+ property or not.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
 <dd><a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html#startEventing-org.universAAL.lddi.abstraction.ComponentIntegrator-org.universAAL.lddi.abstraction.ExternalDatapoint-byte-"><code>startEventing(ComponentIntegrator, ExternalDatapoint, byte)</code></a></dd>
@@ -361,13 +376,13 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <li class="blockList">
 <h4>stopEventing</h4>
 <pre>public abstract&nbsp;void&nbsp;stopEventing(int&nbsp;eventingID)</pre>
-<div class="block"><a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction"><code>component integrators</code></a> can use this method to unsubscribe
- a subscription done previously.</div>
+<div class="block"><a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction"><code>component integrators</code></a> can use this method to
+ unsubscribe a subscription done previously.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>eventingID</code> - the ID returned previously when calling <a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html#startEventing-org.universAAL.lddi.abstraction.ComponentIntegrator-org.universAAL.lddi.abstraction.ExternalDatapoint-byte-"><code>startEventing(
- ComponentIntegrator, ExternalDatapoint, byte)</code></a> or any of the wildcarding versions
- of it.</dd>
+<dd><code>eventingID</code> - the ID returned previously when calling
+            <a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html#startEventing-org.universAAL.lddi.abstraction.ComponentIntegrator-org.universAAL.lddi.abstraction.ExternalDatapoint-byte-"><code>startEventing( ComponentIntegrator, ExternalDatapoint, byte)</code></a>
+            or any of the wildcarding versions of it.</dd>
 </dl>
 </li>
 </ul>
@@ -378,10 +393,11 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <li class="blockList">
 <h4>readValue</h4>
 <pre>public abstract&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;readValue(<a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html" title="interface in org.universAAL.lddi.abstraction">ExternalDatapoint</a>&nbsp;datapoint)</pre>
-<div class="block"><a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction"><code>component integrators</code></a> can use this method to get the
- value of a given property of a given external component by specifying the related
- external datapoint. Note that this implies that the external components made
- known by gateways to integrators must include the property mapping to datapoints.</div>
+<div class="block"><a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction"><code>component integrators</code></a> can use this method to
+ get the value of a given property of a given external component by
+ specifying the related external datapoint. Note that this implies that
+ the external components made known by gateways to integrators must
+ include the property mapping to datapoints.</div>
 </li>
 </ul>
 <a name="writeValue-org.universAAL.lddi.abstraction.ExternalDatapoint-java.lang.Object-">
@@ -392,11 +408,11 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <h4>writeValue</h4>
 <pre>public abstract&nbsp;void&nbsp;writeValue(<a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html" title="interface in org.universAAL.lddi.abstraction">ExternalDatapoint</a>&nbsp;datapoint,
                                 <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;value)</pre>
-<div class="block"><a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction"><code>component integrators</code></a> can use this method to change the
- value of a given property of a given external component by specifying the related
- external datapoint and the new value. Note that this implies that the external
- components made known by gateways to integrators must include the property mapping
- to datapoints.</div>
+<div class="block"><a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction"><code>component integrators</code></a> can use this method to
+ change the value of a given property of a given external component by
+ specifying the related external datapoint and the new value. Note that
+ this implies that the external components made known by gateways to
+ integrators must include the property mapping to datapoints.</div>
 </li>
 </ul>
 </li>

@@ -195,10 +195,8 @@ var activeTableTab = "activeTableTab";
 <li class="blockList">
 <h4>install</h4>
 <pre>void&nbsp;install(<a href="../../../../../../../org/universAAL/ui/handler/gui/swing/Renderer.html" title="class in org.universAAL.ui.handler.gui.swing">Renderer</a>&nbsp;render)</pre>
-<div class="block">The procedure of installing the LAF.
- Any actions needed to use the LAF package should be done
- here.
- <br>
+<div class="block">The procedure of installing the LAF. Any actions needed to use the LAF
+ package should be done here. <br>
  For example initializing the UIManager.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -213,11 +211,9 @@ var activeTableTab = "activeTableTab";
 <li class="blockList">
 <h4>uninstall</h4>
 <pre>void&nbsp;uninstall()</pre>
-<div class="block">The procedure of uninstalling the LAF.
- Any actions needed to stop using the LAF package, and leave the 
- swing system as default should be done
- here.
- <br>
+<div class="block">The procedure of uninstalling the LAF. Any actions needed to stop using
+ the LAF package, and leave the swing system as default should be done
+ here. <br>
  For example reestablishing the UIManager.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -232,8 +228,8 @@ var activeTableTab = "activeTableTab";
 <li class="blockList">
 <h4>userLogIn</h4>
 <pre>void&nbsp;userLogIn(<a href="../../../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;usr)</pre>
-<div class="block">When a user logs in this method is called. This enables the LAF
- package to adapt colours and sizes to the user's specific impairments.</div>
+<div class="block">When a user logs in this method is called. This enables the LAF package
+ to adapt colours and sizes to the user's specific impairments.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>usr</code> - The user that just logged in.</dd>
@@ -247,8 +243,8 @@ var activeTableTab = "activeTableTab";
 <li class="blockList">
 <h4>userLogOff</h4>
 <pre>void&nbsp;userLogOff(<a href="../../../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;usr)</pre>
-<div class="block">When a user logs off this method is called. This enables the LAF
- package to re-adapt colours and sizes.</div>
+<div class="block">When a user logs off this method is called. This enables the LAF package
+ to re-adapt colours and sizes.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>usr</code> - The user that just logged in.</dd>
@@ -262,13 +258,13 @@ var activeTableTab = "activeTableTab";
 <li class="blockList">
 <h4>showLoginScreen</h4>
 <pre>void&nbsp;showLoginScreen()</pre>
-<div class="block">Show the Login dialog.
- this method then must call <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/Renderer.html#authenticate-java.lang.String-java.lang.String-"><code>Renderer.authenticate(String, String)</code></a> to
- complete the login process.
- NOTE: no need to self call <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/model/InitInterface.html#userLogIn-org.universAAL.ontology.profile.User-"><code>userLogIn(User)</code></a>, 
-        that is handled by <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/Renderer.html#authenticate-java.lang.String-java.lang.String-"><code>Renderer.authenticate(String, String)</code></a> 
- NOTE2: if <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/Renderer.html#authenticate-java.lang.String-java.lang.String-"><code>Renderer.authenticate(String, String)</code></a> fails no recall
-        this method is done, this method should manage failed attempts.</div>
+<div class="block">Show the Login dialog. this method then must call
+ <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/Renderer.html#authenticate-java.lang.String-java.lang.String-"><code>Renderer.authenticate(String, String)</code></a> to complete the login
+ process. NOTE: no need to self call
+ <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/model/InitInterface.html#userLogIn-org.universAAL.ontology.profile.User-"><code>userLogIn(User)</code></a>, that is handled by
+ <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/Renderer.html#authenticate-java.lang.String-java.lang.String-"><code>Renderer.authenticate(String, String)</code></a> NOTE2: if
+ <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/Renderer.html#authenticate-java.lang.String-java.lang.String-"><code>Renderer.authenticate(String, String)</code></a> fails no recall this method
+ is done, this method should manage failed attempts.</div>
 </li>
 </ul>
 </li>

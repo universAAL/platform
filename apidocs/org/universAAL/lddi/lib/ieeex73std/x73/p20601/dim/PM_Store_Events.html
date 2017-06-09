@@ -135,8 +135,8 @@ var activeTableTab = "activeTableTab";
 <tr id="i0" class="altColor">
 <td class="colFirst"><code><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/SegmentDataResult.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">SegmentDataResult</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/PM_Store_Events.html#Segment_Data_Event-org.universAAL.lddi.lib.ieeex73std.x73.p20601.SegmentDataEvent-">Segment_Data_Event</a></span>(<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/SegmentDataEvent.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">SegmentDataEvent</a>&nbsp;segdataev)</code>
-<div class="block">This event sends data stored in the Fixed-Segment-Data of a PM-segment from the agent to the
-                manager.</div>
+<div class="block">This event sends data stored in the Fixed-Segment-Data of a PM-segment
+ from the agent to the manager.</div>
 </td>
 </tr>
 </table>
@@ -161,14 +161,16 @@ var activeTableTab = "activeTableTab";
 <li class="blockList">
 <h4>Segment_Data_Event</h4>
 <pre><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/SegmentDataResult.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">SegmentDataResult</a>&nbsp;Segment_Data_Event(<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/SegmentDataEvent.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">SegmentDataEvent</a>&nbsp;segdataev)</pre>
-<div class="block">This event sends data stored in the Fixed-Segment-Data of a PM-segment from the agent to the
-                manager. The event is triggered by the manager by the Trig-Segment-Data-Xfer method. Once the data
-                transfer is triggered, the agent sends Segment-Data-Event messages until the complete Fixed-Segment-
-                Data is transferred or the transfer is aborted by the manager or agent. See Transfer PM-segment content
-                in 8.9.3.4.2 for a full description.
-                It is encouraged to place as many segment entries contained in a Segment-Data-Event as possible to
-                reduce the number of messages required for the transfer of the segment.
-                Support for the event by the agent is mandatory if the agent supports PM-store objects.</div>
+<div class="block">This event sends data stored in the Fixed-Segment-Data of a PM-segment
+ from the agent to the manager. The event is triggered by the manager by
+ the Trig-Segment-Data-Xfer method. Once the data transfer is triggered,
+ the agent sends Segment-Data-Event messages until the complete
+ Fixed-Segment- Data is transferred or the transfer is aborted by the
+ manager or agent. See Transfer PM-segment content in 8.9.3.4.2 for a full
+ description. It is encouraged to place as many segment entries contained
+ in a Segment-Data-Event as possible to reduce the number of messages
+ required for the transfer of the segment. Support for the event by the
+ agent is mandatory if the agent supports PM-store objects.</div>
 </li>
 </ul>
 </li>

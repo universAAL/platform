@@ -139,20 +139,27 @@ var activeTableTab = "activeTableTab";
 <br>
 <pre>public class <span class="typeNameLabel">DisplayTreatmentService</span>
 extends <a href="../../../../../../org/universAAL/middleware/service/owl/Service.html" title="class in org.universAAL.middleware.service.owl">Service</a></pre>
-<div class="block">Launch display of a treatment. 
- Involved User must be set, this user is the one behind the UI.
- Affected user will be the user for which health profile the operation is meant. <br>
+<div class="block">Launch display of a treatment. Involved User must be set, this user is the
+ one behind the UI. Affected user will be the user for which health profile
+ the operation is meant. <br>
  Typical profiles:
  <ul>
- <li> filterInput <a href="../../../../../../org/universAAL/ontology/health/owl/services/DisplayTreatmentService.html#PROP_AFFECTED_USER"><code>PROP_AFFECTED_USER</code></a>, addEffect <a href="../../../../../../org/universAAL/ontology/health/owl/services/DisplayTreatmentService.html#PROP_TREATMENT"><code>PROP_TREATMENT</code></a> 
-        <br> show the form for a new treatment for the affected user (form is shown to involveduser).
- <li> filterInput <a href="../../../../../../org/universAAL/ontology/health/owl/services/DisplayTreatmentService.html#PROP_AFFECTED_USER"><code>PROP_AFFECTED_USER</code></a>, changeEffect <a href="../../../../../../org/universAAL/ontology/health/owl/services/DisplayTreatmentService.html#PROP_TREATMENT"><code>PROP_TREATMENT</code></a>
- <br> show the form for editing treatment for the affected user (form is shown to involveduser).
- <li> filterInput <a href="../../../../../../org/universAAL/ontology/health/owl/services/DisplayTreatmentService.html#PROP_AFFECTED_USER"><code>PROP_AFFECTED_USER</code></a>, removeEffect <a href="../../../../../../org/universAAL/ontology/health/owl/services/DisplayTreatmentService.html#PROP_TREATMENT"><code>PROP_TREATMENT</code></a>
- <br> show the form before removing the treatment for the affected user (form is shown to involveduser). used as confirmation for deletion.
- <li> filterInput <a href="../../../../../../org/universAAL/ontology/health/owl/services/DisplayTreatmentService.html#PROP_AFFECTED_USER"><code>PROP_AFFECTED_USER</code></a>
- <br> show the form with the list of treatments for the affected User (form is shown to involveduser). health.ui.client should be the only 
- component implementing this profile.
+ <li>filterInput <a href="../../../../../../org/universAAL/ontology/health/owl/services/DisplayTreatmentService.html#PROP_AFFECTED_USER"><code>PROP_AFFECTED_USER</code></a>, addEffect
+ <a href="../../../../../../org/universAAL/ontology/health/owl/services/DisplayTreatmentService.html#PROP_TREATMENT"><code>PROP_TREATMENT</code></a> <br>
+ show the form for a new treatment for the affected user (form is shown to
+ involveduser).
+ <li>filterInput <a href="../../../../../../org/universAAL/ontology/health/owl/services/DisplayTreatmentService.html#PROP_AFFECTED_USER"><code>PROP_AFFECTED_USER</code></a>,
+ changeEffect <a href="../../../../../../org/universAAL/ontology/health/owl/services/DisplayTreatmentService.html#PROP_TREATMENT"><code>PROP_TREATMENT</code></a> <br>
+ show the form for editing treatment for the affected user (form is shown to
+ involveduser).
+ <li>filterInput <a href="../../../../../../org/universAAL/ontology/health/owl/services/DisplayTreatmentService.html#PROP_AFFECTED_USER"><code>PROP_AFFECTED_USER</code></a>,
+ removeEffect <a href="../../../../../../org/universAAL/ontology/health/owl/services/DisplayTreatmentService.html#PROP_TREATMENT"><code>PROP_TREATMENT</code></a> <br>
+ show the form before removing the treatment for the affected user (form is
+ shown to involveduser). used as confirmation for deletion.
+ <li>filterInput <a href="../../../../../../org/universAAL/ontology/health/owl/services/DisplayTreatmentService.html#PROP_AFFECTED_USER"><code>PROP_AFFECTED_USER</code></a> <br>
+ show the form with the list of treatments for the affected User (form is
+ shown to involveduser). health.ui.client should be the only component
+ implementing this profile.
  </ul></div>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>

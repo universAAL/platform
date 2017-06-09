@@ -208,12 +208,10 @@ extends <a href="../../../../../org/universAAL/middleware/managers/api/Manager.h
  The matching algorithm returns only the Peer of the space that match the
  following rules
  
- 
  For each key of the <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Map.html?is-external=true" title="class or interface in java.util"><code>Map</code></a> with <code>null</code> value, an
  attribute with any value must be available on the matching Peer
- 
- For each key of the <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Map.html?is-external=true" title="class or interface in java.util"><code>Map</code></a> with a not <code>null</code> value, an
- attribute with same value must be available on the matching Peer.</div>
+ For each key of the <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Map.html?is-external=true" title="class or interface in java.util"><code>Map</code></a> with a not <code>null</code> value,
+ an attribute with same value must be available on the matching Peer.</div>
 </td>
 </tr>
 <tr id="i5" class="rowColor">
@@ -449,14 +447,12 @@ extends <a href="../../../../../org/universAAL/middleware/managers/api/Manager.h
  The matching algorithm returns only the Peer of the space that match the
  following rules
  <ul>
- <li>
- For each key of the <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Map.html?is-external=true" title="class or interface in java.util"><code>Map</code></a> with <code>null</code> value, an
+ <li>For each key of the <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Map.html?is-external=true" title="class or interface in java.util"><code>Map</code></a> with <code>null</code> value, an
  attribute with any value must be available on the matching Peer</li>
- <li>
- For each key of the <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Map.html?is-external=true" title="class or interface in java.util"><code>Map</code></a> with a not <code>null</code> value, an
- attribute with same value must be available on the matching Peer. The
- <code>#equals(Object)</code> is used for checking if the value are the same</li>
- Please consider the following example:<br>
+ <li>For each key of the <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Map.html?is-external=true" title="class or interface in java.util"><code>Map</code></a> with a not <code>null</code> value,
+ an attribute with same value must be available on the matching Peer. The
+ <code>#equals(Object)</code> is used for checking if the value are the
+ same</li> Please consider the following example:<br>
  <ul>
  <li>The AAL space contains four peer: A, B, C, D, and E</li>
  <li>The attributes of the peer A are { container=Foo, tool=OSGi,
@@ -469,9 +465,8 @@ extends <a href="../../../../../org/universAAL/middleware/managers/api/Manager.h
  <li>The attributes of the peer E are { container=Karaf, tool=OSGi,
  version=2.5 }</li>
  <li>The <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Map.html?is-external=true" title="class or interface in java.util"><code>Map</code></a> filter is set to { container=Karaf, tool=OSGI,
- version=null }</li>
- The <a href="../../../../../org/universAAL/middleware/managers/api/MatchingResult.html" title="interface in org.universAAL.middleware.managers.api"><code>MatchingResult</code></a> will contain the peers C and E, while the
- other were discarded because
+ version=null }</li> The <a href="../../../../../org/universAAL/middleware/managers/api/MatchingResult.html" title="interface in org.universAAL.middleware.managers.api"><code>MatchingResult</code></a> will contain the peers C
+ and E, while the other were discarded because
  <ul>
  <li>peer A is skipped because container=Foo, but container=Karaf was
  searched</li>

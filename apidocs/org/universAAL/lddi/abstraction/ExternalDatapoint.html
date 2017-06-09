@@ -108,28 +108,42 @@ var activeTableTab = "activeTableTab";
 <hr>
 <br>
 <pre>public interface <span class="typeNameLabel">ExternalDatapoint</span></pre>
-<div class="block"><p>An ExternalDatapoint is a readable and / or writable datapoint outside the universAAL network.
- It is assumed that ontological properties of instances of <a href="../../../../org/universAAL/lddi/abstraction/ExternalComponent.html" title="class in org.universAAL.lddi.abstraction"><code>ExternalComponent</code></a> can be mapped
- to such datapoints. <a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html" title="class in org.universAAL.lddi.abstraction"><code>Communication gateways</code></a> may pack all the info
- (no matter if a simple address or a complex structure) needed for mapping ontological properties
- of reachable external components in objects that implement this interface and store / fetch it
- for their list of components using <a href="../../../../org/universAAL/lddi/abstraction/ExternalComponent.html#addPropMapping-java.lang.String-org.universAAL.lddi.abstraction.ExternalDatapoint-"><code>ExternalComponent.addPropMapping(String,
- ExternalDatapoint)</code></a> / <a href="../../../../org/universAAL/lddi/abstraction/ExternalComponent.html#getDatapoint-java.lang.String-"><code>ExternalComponent.getDatapoint(String)</code></a>.</p>
+<div class="block"><p>
+ An ExternalDatapoint is a readable and / or writable datapoint outside the
+ universAAL network. It is assumed that ontological properties of instances of
+ <a href="../../../../org/universAAL/lddi/abstraction/ExternalComponent.html" title="class in org.universAAL.lddi.abstraction"><code>ExternalComponent</code></a> can be mapped to such datapoints.
+ <a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html" title="class in org.universAAL.lddi.abstraction"><code>Communication gateways</code></a> may pack all the info (no
+ matter if a simple address or a complex structure) needed for mapping
+ ontological properties of reachable external components in objects that
+ implement this interface and store / fetch it for their list of components
+ using <a href="../../../../org/universAAL/lddi/abstraction/ExternalComponent.html#addPropMapping-java.lang.String-org.universAAL.lddi.abstraction.ExternalDatapoint-"><code>ExternalComponent.addPropMapping(String, ExternalDatapoint)</code></a> /
+ <a href="../../../../org/universAAL/lddi/abstraction/ExternalComponent.html#getDatapoint-java.lang.String-"><code>ExternalComponent.getDatapoint(String)</code></a>.
+ </p>
  
- <p>It is important that gateways map each ontological property of a distinct external component to
- a single instance of this class. Therefore, in cases that different addresses have to be used for
- reading and writing, gateways will have to encapsulate this complexity properly within objects that
- implement this interface. A way to do so, is to define the specific classes for implementing this
- interface the following way:</p>
+ <p>
+ It is important that gateways map each ontological property of a distinct
+ external component to a single instance of this class. Therefore, in cases
+ that different addresses have to be used for reading and writing, gateways
+ will have to encapsulate this complexity properly within objects that
+ implement this interface. A way to do so, is to define the specific classes
+ for implementing this interface the following way:
+ </p>
  
- <p><img src="./doc-files/dpHierarchy.png" width="600" height="450" alt="a possible hierarchy of classes implementing ExternalDatapoint"></p>
+ <p>
+ <img src="./doc-files/dpHierarchy.png" width="600" height="450" alt="a
+ possible hierarchy of classes implementing ExternalDatapoint">
+ </p>
  
- <p>Another important point is related to the info needed for realizing the read and write actions;
- in the above text, this was most of the times reduced only to the addressing aspect, but often also
- type info as well as hints for converting the external values to values compatible with the used
- ontological model have to be included. On the other hand, even the "addressing" aspect may not be
- resolved by just of an integer value. As a simple example, a modbus gateway needs in addition to
- an address also the size of each read or write access in bits / bytes / words.</p></div>
+ <p>
+ Another important point is related to the info needed for realizing the read
+ and write actions; in the above text, this was most of the times reduced only
+ to the addressing aspect, but often also type info as well as hints for
+ converting the external values to values compatible with the used ontological
+ model have to be included. On the other hand, even the "addressing" aspect
+ may not be resolved by just of an integer value. As a simple example, a
+ modbus gateway needs in addition to an address also the size of each read or
+ write access in bits / bytes / words.
+ </p></div>
 </li>
 </ul>
 </div>
@@ -151,7 +165,8 @@ var activeTableTab = "activeTableTab";
 <tr id="i0" class="altColor">
 <td class="colFirst"><code><a href="../../../../org/universAAL/lddi/abstraction/ExternalComponent.html" title="class in org.universAAL.lddi.abstraction">ExternalComponent</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html#getComponent--">getComponent</a></span>()</code>
-<div class="block">Returns the <a href="../../../../org/universAAL/lddi/abstraction/ExternalComponent.html" title="class in org.universAAL.lddi.abstraction"><code>external component</code></a> to which this datapoint belongs.</div>
+<div class="block">Returns the <a href="../../../../org/universAAL/lddi/abstraction/ExternalComponent.html" title="class in org.universAAL.lddi.abstraction"><code>external component</code></a> to which this
+ datapoint belongs.</div>
 </td>
 </tr>
 <tr id="i1" class="rowColor">
@@ -163,15 +178,15 @@ var activeTableTab = "activeTableTab";
 <tr id="i2" class="altColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html#isReadOnly--">isReadOnly</a></span>()</code>
-<div class="block">If this method returns true, it means that the status / value
- reachable at this address can be read but cannot be changed.</div>
+<div class="block">If this method returns true, it means that the status / value reachable
+ at this address can be read but cannot be changed.</div>
 </td>
 </tr>
 <tr id="i3" class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html#isWriteOnly--">isWriteOnly</a></span>()</code>
-<div class="block">If this method returns true, it means that the status / value
- reachable at this address can be changed but cannot be read.</div>
+<div class="block">If this method returns true, it means that the status / value reachable
+ at this address can be changed but cannot be read.</div>
 </td>
 </tr>
 </table>
@@ -196,17 +211,17 @@ var activeTableTab = "activeTableTab";
 <li class="blockList">
 <h4>isReadOnly</h4>
 <pre>boolean&nbsp;isReadOnly()</pre>
-<div class="block">If this method returns true, it means that the status / value
- reachable at this address can be read but cannot be changed. In
- that case, <a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html#isWriteOnly--"><code>isWriteOnly()</code></a> must return false.
+<div class="block">If this method returns true, it means that the status / value reachable
+ at this address can be read but cannot be changed. In that case,
+ <a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html#isWriteOnly--"><code>isWriteOnly()</code></a> must return false.
  
- If this method returns false, the interpretation will depend on
- the return value of <a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html#isWriteOnly--"><code>isWriteOnly()</code></a>: in case of true, the
- status / value reachable at this address cannot be read but can
- be changed. Otherwise, it is both read- and writable.
+ If this method returns false, the interpretation will depend on the
+ return value of <a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html#isWriteOnly--"><code>isWriteOnly()</code></a>: in case of true, the status /
+ value reachable at this address cannot be read but can be changed.
+ Otherwise, it is both read- and writable.
  
- No implementation of ExternalDatapoint may return for both this
- and the <a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html#isWriteOnly--"><code>isWriteOnly()</code></a> method simultaneously true!</div>
+ No implementation of ExternalDatapoint may return for both this and the
+ <a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html#isWriteOnly--"><code>isWriteOnly()</code></a> method simultaneously true!</div>
 </li>
 </ul>
 <a name="isWriteOnly--">
@@ -216,17 +231,17 @@ var activeTableTab = "activeTableTab";
 <li class="blockList">
 <h4>isWriteOnly</h4>
 <pre>boolean&nbsp;isWriteOnly()</pre>
-<div class="block">If this method returns true, it means that the status / value
- reachable at this address can be changed but cannot be read. In
- that case, <a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html#isReadOnly--"><code>isReadOnly()</code></a> must return false.
+<div class="block">If this method returns true, it means that the status / value reachable
+ at this address can be changed but cannot be read. In that case,
+ <a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html#isReadOnly--"><code>isReadOnly()</code></a> must return false.
  
- If this method returns false, the interpretation will depend on
- the return value of <a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html#isReadOnly--"><code>isReadOnly()</code></a>: in case of true, the
- status / value reachable at this address cannot be changed but
- can be read. Otherwise, it is both read- and writable.
+ If this method returns false, the interpretation will depend on the
+ return value of <a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html#isReadOnly--"><code>isReadOnly()</code></a>: in case of true, the status /
+ value reachable at this address cannot be changed but can be read.
+ Otherwise, it is both read- and writable.
  
- No implementation of ExternalDatapoint may return for both this
- and the <a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html#isReadOnly--"><code>isReadOnly()</code></a> method simultaneously true!</div>
+ No implementation of ExternalDatapoint may return for both this and the
+ <a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html#isReadOnly--"><code>isReadOnly()</code></a> method simultaneously true!</div>
 </li>
 </ul>
 <a name="getComponent--">
@@ -236,7 +251,8 @@ var activeTableTab = "activeTableTab";
 <li class="blockList">
 <h4>getComponent</h4>
 <pre><a href="../../../../org/universAAL/lddi/abstraction/ExternalComponent.html" title="class in org.universAAL.lddi.abstraction">ExternalComponent</a>&nbsp;getComponent()</pre>
-<div class="block">Returns the <a href="../../../../org/universAAL/lddi/abstraction/ExternalComponent.html" title="class in org.universAAL.lddi.abstraction"><code>external component</code></a> to which this datapoint belongs.</div>
+<div class="block">Returns the <a href="../../../../org/universAAL/lddi/abstraction/ExternalComponent.html" title="class in org.universAAL.lddi.abstraction"><code>external component</code></a> to which this
+ datapoint belongs.</div>
 </li>
 </ul>
 <a name="getProperty--">

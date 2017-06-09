@@ -422,9 +422,9 @@ extends org.openrdf.sail.helpers.NotifyingSailBase</pre>
 <h4>setForceSync</h4>
 <pre>public&nbsp;void&nbsp;setForceSync(boolean&nbsp;forceSync)</pre>
 <div class="block">Specifiec whether updates should be synced to disk forcefully, must be
- called before initialization. Enabling this feature may prevent corruption
- in case of events like power loss, but can have a severe impact on write
- performance. By default, this feature is disabled.</div>
+ called before initialization. Enabling this feature may prevent
+ corruption in case of events like power loss, but can have a severe
+ impact on write performance. By default, this feature is disabled.</div>
 </li>
 </ul>
 <a name="getForceSync--">
@@ -486,7 +486,7 @@ extends org.openrdf.sail.helpers.NotifyingSailBase</pre>
 <dd><code>initializeInternal</code>&nbsp;in class&nbsp;<code>org.openrdf.sail.helpers.SailBase</code></dd>
 <dt><span class="throwsLabel">Throws:</span></dt>
 <dd><code>org.openrdf.sail.SailException</code> - If this NativeStore could not be initialized using the
-            parameters that have been set.</dd>
+                parameters that have been set.</dd>
 </dl>
 </li>
 </ul>
@@ -626,13 +626,14 @@ extends org.openrdf.sail.helpers.NotifyingSailBase</pre>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>subj</code> - The subject of the pattern, or <tt>null</tt> to indicate a
-        wildcard.</dd>
+            wildcard.</dd>
 <dd><code>pred</code> - The predicate of the pattern, or <tt>null</tt> to indicate a
-        wildcard.</dd>
-<dd><code>obj</code> - The object of the pattern, or <tt>null</tt> to indicate a wildcard.</dd>
-<dd><code>contexts</code> - The context(s) of the pattern. Note that this parameter is a vararg
-        and as such is optional. If no contexts are supplied the method
-        operates on the entire repository.</dd>
+            wildcard.</dd>
+<dd><code>obj</code> - The object of the pattern, or <tt>null</tt> to indicate a
+            wildcard.</dd>
+<dd><code>contexts</code> - The context(s) of the pattern. Note that this parameter is a
+            vararg and as such is optional. If no contexts are supplied
+            the method operates on the entire repository.</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>A StatementIterator that can be used to iterate over the
          statements that match the specified pattern.</dd>

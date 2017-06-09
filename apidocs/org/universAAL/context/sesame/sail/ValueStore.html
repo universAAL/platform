@@ -325,7 +325,8 @@ extends org.openrdf.model.impl.ValueFactoryBase</pre>
 <tr id="i19" class="rowColor">
 <td class="colFirst"><code>int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/context/sesame/sail/ValueStore.html#storeValue-org.openrdf.model.Value-">storeValue</a></span>(org.openrdf.model.Value&nbsp;value)</code>
-<div class="block">Stores the supplied value and returns the ID that has been assigned to it.</div>
+<div class="block">Stores the supplied value and returns the ID that has been assigned to
+ it.</div>
 </td>
 </tr>
 <tr id="i20" class="altColor">
@@ -557,9 +558,9 @@ extends org.openrdf.model.impl.ValueFactoryBase</pre>
 <h4>storeValue</h4>
 <pre>public&nbsp;int&nbsp;storeValue(org.openrdf.model.Value&nbsp;value)
                throws <a href="http://docs.oracle.com/javase/8/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>
-<div class="block">Stores the supplied value and returns the ID that has been assigned to it.
- In case the value was already present, the value will not be stored again
- and the ID of the existing value is returned.</div>
+<div class="block">Stores the supplied value and returns the ID that has been assigned to
+ it. In case the value was already present, the value will not be stored
+ again and the ID of the existing value is returned.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>value</code> - The Value to store.</dd>
@@ -721,9 +722,10 @@ extends org.openrdf.model.impl.ValueFactoryBase</pre>
 <li class="blockList">
 <h4>getNativeURI</h4>
 <pre>public&nbsp;<a href="../../../../../org/universAAL/context/sesame/sail/model/NativeURI.html" title="class in org.universAAL.context.sesame.sail.model">NativeURI</a>&nbsp;getNativeURI(org.openrdf.model.URI&nbsp;uri)</pre>
-<div class="block">Creates a NativeURI that is equal to the supplied URI. This method returns
- the supplied URI itself if it is already a NativeURI that has been created
- by this ValueStore, which prevents unnecessary object creations.</div>
+<div class="block">Creates a NativeURI that is equal to the supplied URI. This method
+ returns the supplied URI itself if it is already a NativeURI that has
+ been created by this ValueStore, which prevents unnecessary object
+ creations.</div>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>A NativeURI for the specified URI.</dd>

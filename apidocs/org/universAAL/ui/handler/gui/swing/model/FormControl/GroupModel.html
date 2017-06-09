@@ -242,11 +242,11 @@ extends <a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/mod
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/model/FormControl/GroupModel.html#getNewComponent--">getNewComponent</a></span>()</code>
 <div class="block">The <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JComponent.html?is-external=true" title="class or interface in javax.swing"><code>JComponent</code></a> returned may be either
  
-  a <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JPanel.html?is-external=true" title="class or interface in javax.swing"><code>JPanel</code></a>
-  a <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JTabbedPane.html?is-external=true" title="class or interface in javax.swing"><code>JTabbedPane</code></a>
+ a <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JPanel.html?is-external=true" title="class or interface in javax.swing"><code>JPanel</code></a>
+ a <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JTabbedPane.html?is-external=true" title="class or interface in javax.swing"><code>JTabbedPane</code></a>
  
 
-  depending on the complexity (and other factors) of the group</div>
+ depending on the complexity (and other factors) of the group</div>
 </td>
 </tr>
 <tr id="i5" class="rowColor">
@@ -366,11 +366,11 @@ extends <a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/mod
 <pre>public abstract&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JComponent.html?is-external=true" title="class or interface in javax.swing">JComponent</a>&nbsp;getNewComponent()</pre>
 <div class="block">The <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JComponent.html?is-external=true" title="class or interface in javax.swing"><code>JComponent</code></a> returned may be either
  <ul>
- <li> a <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JPanel.html?is-external=true" title="class or interface in javax.swing"><code>JPanel</code></a>
- <li> a <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JTabbedPane.html?is-external=true" title="class or interface in javax.swing"><code>JTabbedPane</code></a>
+ <li>a <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JPanel.html?is-external=true" title="class or interface in javax.swing"><code>JPanel</code></a>
+ <li>a <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JTabbedPane.html?is-external=true" title="class or interface in javax.swing"><code>JTabbedPane</code></a>
  </ul>
 
-  depending on the complexity (and other factors) of the group</div>
+ depending on the complexity (and other factors) of the group</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code><a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/model/Model.html#getNewComponent--">getNewComponent</a></code>&nbsp;in class&nbsp;<code><a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/model/Model.html" title="class in org.universAAL.ui.handler.gui.swing.model">Model</a></code></dd>
@@ -460,13 +460,13 @@ extends <a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/mod
 <li class="blockList">
 <h4>getComponentFrom</h4>
 <pre>protected&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JComponent.html?is-external=true" title="class or interface in javax.swing">JComponent</a>&nbsp;getComponentFrom(<a href="../../../../../../../../org/universAAL/middleware/ui/rdf/FormControl.html" title="class in org.universAAL.middleware.ui.rdf">FormControl</a>&nbsp;fc)</pre>
-<div class="block">Access to the Model mapper.
- it will load the <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JComponent.html?is-external=true" title="class or interface in javax.swing"><code>JComponent</code></a> for a given <a href="../../../../../../../../org/universAAL/middleware/ui/rdf/FormControl.html" title="class in org.universAAL.middleware.ui.rdf"><code>FormControl</code></a>
- which is a child of the current group.
- Adds the located <a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/model/Model.html" title="class in org.universAAL.ui.handler.gui.swing.model"><code>Model</code></a> to the list of children.</div>
+<div class="block">Access to the Model mapper. it will load the <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JComponent.html?is-external=true" title="class or interface in javax.swing"><code>JComponent</code></a> for a
+ given <a href="../../../../../../../../org/universAAL/middleware/ui/rdf/FormControl.html" title="class in org.universAAL.middleware.ui.rdf"><code>FormControl</code></a> which is a child of the current group. Adds the
+ located <a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/model/Model.html" title="class in org.universAAL.ui.handler.gui.swing.model"><code>Model</code></a> to the list of children.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>fc</code> - the child from which to obtain it's model and <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JComponent.html?is-external=true" title="class or interface in javax.swing"><code>JComponent</code></a></dd>
+<dd><code>fc</code> - the child from which to obtain it's model and
+            <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JComponent.html?is-external=true" title="class or interface in javax.swing"><code>JComponent</code></a></dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>the <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JComponent.html?is-external=true" title="class or interface in javax.swing"><code>JComponent</code></a> build by the <a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/model/Model.html" title="class in org.universAAL.ui.handler.gui.swing.model"><code>Model</code></a> of the child</dd>
 </dl>
@@ -480,13 +480,14 @@ extends <a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/mod
 <h4>addComponentTo</h4>
 <pre>protected&nbsp;void&nbsp;addComponentTo(<a href="../../../../../../../../org/universAAL/middleware/ui/rdf/FormControl.html" title="class in org.universAAL.middleware.ui.rdf">FormControl</a>&nbsp;fc,
                               <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/Container.html?is-external=true" title="class or interface in java.awt">Container</a>&nbsp;c)</pre>
-<div class="block">Access to the Model mapper.
- it will load the <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JComponent.html?is-external=true" title="class or interface in javax.swing"><code>JComponent</code></a> for a given <a href="../../../../../../../../org/universAAL/middleware/ui/rdf/FormControl.html" title="class in org.universAAL.middleware.ui.rdf"><code>FormControl</code></a>
- which is a child of the current group, and add it to a <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/Container.html?is-external=true" title="class or interface in java.awt"><code>Container</code></a>.
- Adds the located <a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/model/Model.html" title="class in org.universAAL.ui.handler.gui.swing.model"><code>Model</code></a> to the list of children.</div>
+<div class="block">Access to the Model mapper. it will load the <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JComponent.html?is-external=true" title="class or interface in javax.swing"><code>JComponent</code></a> for a
+ given <a href="../../../../../../../../org/universAAL/middleware/ui/rdf/FormControl.html" title="class in org.universAAL.middleware.ui.rdf"><code>FormControl</code></a> which is a child of the current group, and add
+ it to a <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/Container.html?is-external=true" title="class or interface in java.awt"><code>Container</code></a>. Adds the located <a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/model/Model.html" title="class in org.universAAL.ui.handler.gui.swing.model"><code>Model</code></a> to the list of
+ children.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>fc</code> - the child from which to obtain it's model and <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JComponent.html?is-external=true" title="class or interface in javax.swing"><code>JComponent</code></a></dd>
+<dd><code>fc</code> - the child from which to obtain it's model and
+            <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JComponent.html?is-external=true" title="class or interface in javax.swing"><code>JComponent</code></a></dd>
 <dd><code>c</code> - the <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/Container.html?is-external=true" title="class or interface in java.awt"><code>Container</code></a> to which to add the <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JComponent.html?is-external=true" title="class or interface in javax.swing"><code>JComponent</code></a></dd>
 </dl>
 </li>

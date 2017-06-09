@@ -270,14 +270,12 @@ implements <a href="../../../../../org/universAAL/lddi/knx/groupdevicecategory/I
 <h4>calculateStepCode</h4>
 <pre>public static&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;calculateStepCode(byte&nbsp;payload,
                                        int&nbsp;datapointTypeSubNumber)</pre>
-<div class="block">Calculate step code from knx message payload.
- last 4-bit of data byte
- encoding |xxxx cSSS|
- c = {0,1} control
- SSS = [000b - 111b] Stepcode</div>
+<div class="block">Calculate step code from knx message payload. last 4-bit of data byte
+ encoding |xxxx cSSS| c = {0,1} control SSS = [000b - 111b] Stepcode</div>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>null if the datapoint type is not implemented. Now implemented: 3.007 and 3.008</dd>
+<dd>null if the datapoint type is not implemented. Now implemented:
+         3.007 and 3.008</dd>
 </dl>
 </li>
 </ul>
@@ -288,8 +286,7 @@ implements <a href="../../../../../org/universAAL/lddi/knx/groupdevicecategory/I
 <li class="blockList">
 <h4>calculateStepNumberOfInterval</h4>
 <pre>public static&nbsp;int&nbsp;calculateStepNumberOfInterval(byte&nbsp;payload)</pre>
-<div class="block">Calculate Step number of interval from stepcode.
- stepcode are bits 1-3
+<div class="block">Calculate Step number of interval from stepcode. stepcode are bits 1-3
  Step Number of intervals = 2^(stepcode-1); max. 64</div>
 </li>
 </ul>

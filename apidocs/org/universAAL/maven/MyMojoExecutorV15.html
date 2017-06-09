@@ -126,11 +126,9 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
  Here is an execution that invokes the dependency plugin:
  
  <pre>
- executeMojo(plugin(groupId(&quot;org.apache.maven.plugins&quot;),
-        artifactId(&quot;maven-dependency-plugin&quot;), version(&quot;2.0&quot;)),
-        goal(&quot;copy-dependencies&quot;), configuration(element(
-                name(&quot;outputDirectory&quot;), &quot;${project.build.directory}/foo&quot;)),
-        executionEnvironment(project, session, pluginManager));
+ executeMojo(plugin(groupId(&quot;org.apache.maven.plugins&quot;), artifactId(&quot;maven-dependency-plugin&quot;), version(&quot;2.0&quot;)),
+                goal(&quot;copy-dependencies&quot;), configuration(element(name(&quot;outputDirectory&quot;), &quot;${project.build.directory}/foo&quot;)),
+                executionEnvironment(project, session, pluginManager));
  </pre></div>
 </li>
 </ul>

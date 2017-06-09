@@ -85,8 +85,10 @@
 <tr class="altColor">
 <td class="colFirst"><a href="#org.universAAL.lddi.abstraction">org.universAAL.lddi.abstraction</a></td>
 <td class="colLast">
-<div class="block">This package assumes that there are external (meaning not readily connected to universAAL)
- networking-enabled HW/SW components to which we may need access in a universAAL network.</div>
+<div class="block">
+ This package assumes that there are external (meaning not readily connected
+ to universAAL) networking-enabled HW/SW components to which we may need
+ access in a universAAL network.</div>
 </td>
 </tr>
 </tbody>
@@ -109,8 +111,8 @@
 <td class="colFirst"><code>abstract void</code></td>
 <td class="colLast"><span class="typeNameLabel">CommunicationGateway.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html#register-java.lang.String-org.universAAL.lddi.abstraction.ComponentIntegrator-">register</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;componentTypeURI,
         <a href="../../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction">ComponentIntegrator</a>&nbsp;integrator)</code>
-<div class="block">To be used by <a href="../../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction"><code>component integrators</code></a> to register to
- this gateway for external components of the given type.</div>
+<div class="block">To be used by <a href="../../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction"><code>component integrators</code></a> to
+ register to this gateway for external components of the given type.</div>
 </td>
 </tr>
 <tr class="rowColor">
@@ -118,8 +120,8 @@
 <td class="colLast"><span class="typeNameLabel">CommunicationGateway.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html#startEventing-org.universAAL.lddi.abstraction.ComponentIntegrator-org.universAAL.lddi.abstraction.ExternalComponent-byte-">startEventing</a></span>(<a href="../../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction">ComponentIntegrator</a>&nbsp;integrator,
              <a href="../../../../../org/universAAL/lddi/abstraction/ExternalComponent.html" title="class in org.universAAL.lddi.abstraction">ExternalComponent</a>&nbsp;component,
              byte&nbsp;intervalSeconds)</code>
-<div class="block">Serves as means for subscribing for events related to the changes of the value
- of any property of the given external component.</div>
+<div class="block">Serves as means for subscribing for events related to the changes of the
+ value of any property of the given external component.</div>
 </td>
 </tr>
 <tr class="altColor">
@@ -127,9 +129,10 @@
 <td class="colLast"><span class="typeNameLabel">CommunicationGateway.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html#startEventing-org.universAAL.lddi.abstraction.ComponentIntegrator-org.universAAL.lddi.abstraction.ExternalDatapoint-byte-">startEventing</a></span>(<a href="../../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction">ComponentIntegrator</a>&nbsp;integrator,
              <a href="../../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html" title="interface in org.universAAL.lddi.abstraction">ExternalDatapoint</a>&nbsp;datapoint,
              byte&nbsp;intervalSeconds)</code>
-<div class="block">Serves as means for subscribing for events related to the changes of the value
- of a given property of a given external component by specifying the related
- external datapoint.</div>
+<div class="block">
+ Serves as means for subscribing for events related to the changes of the
+ value of a given property of a given external component by specifying the
+ related external datapoint.</div>
 </td>
 </tr>
 <tr class="rowColor">
@@ -140,9 +143,9 @@
              byte&nbsp;intervalSeconds)</code>
 <div class="block">If the given property URI is not null, serves as means for subscribing
  for events related to the changes of the value of the given property of
- any external component of the given type; otherwise, with propURI == null,
- it can be used to subscribe for the changes of the value of any property
- of any external component of the given type.</div>
+ any external component of the given type; otherwise, with propURI ==
+ null, it can be used to subscribe for the changes of the value of any
+ property of any external component of the given type.</div>
 </td>
 </tr>
 </tbody>

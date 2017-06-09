@@ -114,24 +114,19 @@
  
  Specification from KNX Datapoint Types v1.07.00 AS :
  
- Format: 2 octets: F16
-                                MSB                     LSB
- float value |-------- --------|
- encoding       MEEEEMMM MMMMMMMM
- FloatValue = (0,01*M)*2(E)
- E = [0 : 15]
- M = [-2 048 : 2 047], two's complement notation
- For all Datapoint Types 9.xxx, the encoded value 7FFFh shall always be used to denote invalid data.
- Possible values are from 0 - 255.
- Range: [-671 088,64 : 670 760,96]
- PDT: PDT_KNX_FLOAT
+ Format: 2 octets: F16 MSB LSB float value |-------- --------| encoding
+ MEEEEMMM MMMMMMMM FloatValue = (0,01*M)*2(E) E = [0 : 15] M = [-2 048 : 2
+ 047], two's complement notation For all Datapoint Types 9.xxx, the encoded
+ value 7FFFh shall always be used to denote invalid data. Possible values are
+ from 0 - 255. Range: [-671 088,64 : 670 760,96] PDT: PDT_KNX_FLOAT
  
  
- In general GroupDeviceCategories specify:
- - rules and interfaces needed for the communication between OSGi groupDevice service
- and driver service. Both of them (groupDevice and driver) implement this IF.
+ In general GroupDeviceCategories specify: - rules and interfaces needed for
+ the communication between OSGi groupDevice service and driver service. Both
+ of them (groupDevice and driver) implement this IF.
  
- - a set of service registration properties, their data types and semantics (mandatory or optional)
+ - a set of service registration properties, their data types and semantics
+ (mandatory or optional)
  
  - a range of match values</div>
 <dl>
@@ -207,8 +202,8 @@
 <tr class="altColor">
 <td class="colFirst"><code>static float</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/lddi/knx/groupdevicecategory/IKnxDpt9.html#RESOLUTION_9_001">RESOLUTION_9_001</a></span></code>
-<div class="block">9.001 - DPT_Value_Temp
- From -273&deg;C to +670760&deg;C - Resolution: 0,01&deg;C</div>
+<div class="block">9.001 - DPT_Value_Temp From -273&deg;C to +670760&deg;C - Resolution:
+ 0,01&deg;C</div>
 </td>
 </tr>
 <tr class="rowColor">
@@ -407,8 +402,8 @@
 <li class="blockList">
 <h4>RESOLUTION_9_001</h4>
 <pre>static final&nbsp;float RESOLUTION_9_001</pre>
-<div class="block">9.001 - DPT_Value_Temp
- From -273&deg;C to +670760&deg;C - Resolution: 0,01&deg;C</div>
+<div class="block">9.001 - DPT_Value_Temp From -273&deg;C to +670760&deg;C - Resolution:
+ 0,01&deg;C</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
 <dd><a href="../../../../../constant-values.html#org.universAAL.lddi.knx.groupdevicecategory.IKnxDpt9.RESOLUTION_9_001">Constant Field Values</a></dd>

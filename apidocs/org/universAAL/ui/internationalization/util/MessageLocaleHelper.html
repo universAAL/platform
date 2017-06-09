@@ -189,8 +189,8 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <td class="colFirst"><code><a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/internationalization/util/MessageLocaleHelper.html#getString-java.lang.String-java.lang.String:A-">getString</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;key,
          <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;substitutions)</code>
-<div class="block">Like <a href="../../../../../org/universAAL/ui/internationalization/util/MessageLocaleHelper.html#getString-java.lang.String-"><code>getString(String)</code></a>, This method will 
- get the internationalization string for a given key.</div>
+<div class="block">Like <a href="../../../../../org/universAAL/ui/internationalization/util/MessageLocaleHelper.html#getString-java.lang.String-"><code>getString(String)</code></a>, This method will get
+ the internationalization string for a given key.</div>
 </td>
 </tr>
 <tr id="i3" class="rowColor">
@@ -375,18 +375,20 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <h4>getString</h4>
 <pre>public&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;getString(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;key,
                         <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;substitutions)</pre>
-<div class="block">Like <a href="../../../../../org/universAAL/ui/internationalization/util/MessageLocaleHelper.html#getString-java.lang.String-"><code>getString(String)</code></a>, This method will 
- get the internationalization string for a given key.
- Aditionally it will subsitude the variables defined like "{n}" with the 
- String in the index n of the substitutions parameter.
- <br>
+<div class="block">Like <a href="../../../../../org/universAAL/ui/internationalization/util/MessageLocaleHelper.html#getString-java.lang.String-"><code>getString(String)</code></a>, This method will get
+ the internationalization string for a given key. Aditionally it will
+ subsitude the variables defined like "{n}" with the String in the index n
+ of the substitutions parameter. <br>
  Eg: for a properties file conaining: <br>
- <code>key=page \{0\} of \{1\} </code>
- <br>
+ <code>key=page \{0\} of \{1\} </code> <br>
  this code: <br>
- <pre><code> <a href="../../../../../org/universAAL/ui/internationalization/util/MessageLocaleHelper.html" title="class in org.universAAL.ui.internationalization.util"><code>MessageLocaleHelper</code></a> mlh = ...
+ 
+ <pre>
+ <code> <a href="../../../../../org/universAAL/ui/internationalization/util/MessageLocaleHelper.html" title="class in org.universAAL.ui.internationalization.util"><code>MessageLocaleHelper</code></a> mlh = ...
  mlh.getString("key",new String[]{"1","10"});
- </code></pre>
+ </code>
+ </pre>
+ 
  will return: <code>"page 1 of 10"<code></div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>

@@ -266,13 +266,9 @@ implements <a href="../../../../../org/universAAL/lddi/knx/groupdevicecategory/I
 <li class="blockList">
 <h4>calculateFloatValue</h4>
 <pre>public static&nbsp;float&nbsp;calculateFloatValue(byte[]&nbsp;payload)</pre>
-<div class="block">Calculate float value from knx message payload.
-                                MSB                     LSB
- float value |-------- --------|
- encoding       MEEEEMMM MMMMMMMM
- FloatValue = (0,01*M)*2(E)
- E = [0 : 15]
- M = [-2 048 : 2 047], two's complement notation</div>
+<div class="block">Calculate float value from knx message payload. MSB LSB float value
+ |-------- --------| encoding MEEEEMMM MMMMMMMM FloatValue = (0,01*M)*2(E)
+ E = [0 : 15] M = [-2 048 : 2 047], two's complement notation</div>
 </li>
 </ul>
 <a name="createPayloadFromFloatValue-float-">

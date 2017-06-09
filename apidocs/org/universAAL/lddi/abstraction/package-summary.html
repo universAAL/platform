@@ -84,8 +84,10 @@
 <!-- UML diagram added by UMLGraph version R5_6-24-gf6e263 (http://www.umlgraph.org/) -->
 <div align="center"><img src="org.universAAL.lddi.abstraction.png" alt="Package class diagram package org.universAAL.lddi.abstraction" usemap="#G" border=0/></div>
 <div class="docSummary">
-<div class="block">This package assumes that there are external (meaning not readily connected to universAAL)
- networking-enabled HW/SW components to which we may need access in a universAAL network.</div>
+<div class="block">
+ This package assumes that there are external (meaning not readily connected
+ to universAAL) networking-enabled HW/SW components to which we may need
+ access in a universAAL network.</div>
 </div>
 <p>See:&nbsp;<a href="#package.description">Description</a></p>
 </div>
@@ -105,15 +107,17 @@
 <div class="block">As a "specialist" for certain component types, it cooperates with all
  <a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html" title="class in org.universAAL.lddi.abstraction"><code>communication gateways</code></a> that have access to
  external components of those types in order to integrate such external
- components in the universAAL network by (1) publishing related events
- to the universAAL context bus and / or (2) registering related service
- profiles to the universAAL service bus.</div>
+ components in the universAAL network by (1) publishing related events to the
+ universAAL context bus and / or (2) registering related service profiles to
+ the universAAL service bus.</div>
 </td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html" title="interface in org.universAAL.lddi.abstraction">ExternalDatapoint</a></td>
 <td class="colLast">
-<div class="block">An ExternalDatapoint is a readable and / or writable datapoint outside the universAAL network.</div>
+<div class="block">
+ An ExternalDatapoint is a readable and / or writable datapoint outside the
+ universAAL network.</div>
 </td>
 </tr>
 </tbody>
@@ -130,16 +134,17 @@
 <tr class="altColor">
 <td class="colFirst"><a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html" title="class in org.universAAL.lddi.abstraction">CommunicationGateway</a></td>
 <td class="colLast">
-<div class="block">A gateway providing a bridge to a network of external components making it for
- <a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction"><code>component integrators</code></a> possible to gain access to
- related <a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html" title="interface in org.universAAL.lddi.abstraction"><code>external datapoints</code></a>.</div>
+<div class="block">A gateway providing a bridge to a network of external components making it
+ for <a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction"><code>component integrators</code></a> possible to gain access
+ to related <a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html" title="interface in org.universAAL.lddi.abstraction"><code>external datapoints</code></a>.</div>
 </td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><a href="../../../../org/universAAL/lddi/abstraction/ExternalComponent.html" title="class in org.universAAL.lddi.abstraction">ExternalComponent</a></td>
 <td class="colLast">
-<div class="block">An external component is a hard- or software component that is outside the universAAL network
- and can be reached via a <a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html" title="class in org.universAAL.lddi.abstraction"><code>gateway</code></a>.</div>
+<div class="block">
+ An external component is a hard- or software component that is outside the
+ universAAL network and can be reached via a <a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html" title="class in org.universAAL.lddi.abstraction"><code>gateway</code></a>.</div>
 </td>
 </tr>
 </tbody>
@@ -150,36 +155,59 @@
 <!--   -->
 </a>
 <h2 title="Package org.universAAL.lddi.abstraction Description">Package org.universAAL.lddi.abstraction Description</h2>
-<div class="block"><p>This package assumes that there are external (meaning not readily connected to universAAL)
- networking-enabled HW/SW components to which we may need access in a universAAL network.
- As an LLDI-based approach, this package refines the LDDI abstraction layer the following way
- based on the assumption that all component type specific models will be provided in term of
- ontologies on which the access and integration layers will rely:</p>
+<div class="block"><p>
+ This package assumes that there are external (meaning not readily connected
+ to universAAL) networking-enabled HW/SW components to which we may need
+ access in a universAAL network. As an LLDI-based approach, this package
+ refines the LDDI abstraction layer the following way based on the assumption
+ that all component type specific models will be provided in term of
+ ontologies on which the access and integration layers will rely:
+ </p>
  
- <p><img src="./doc-files/layers.png" width="600" alt="refinement of te LDDI abstraction layer"></p>
+ <p>
+ <img src="./doc-files/layers.png" width="600" alt="refinement of te LDDI
+ abstraction layer">
+ </p>
  
- <p>As can be seen in the above figure, the main elements in this framework are <a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html" title="class in org.universAAL.lddi.abstraction"><code>communication gateways</code></a>, <a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction"><code>component integrators</code></a>, <a href="../../../../org/universAAL/lddi/abstraction/ExternalComponent.html" title="class in org.universAAL.lddi.abstraction"><code>external components</code></a>, and component
- type specific ontologies (there are also <a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html" title="interface in org.universAAL.lddi.abstraction"><code>external datapoints</code></a> as an additional concept that is not included in this package info).</p> 
+ <p>
+ As can be seen in the above figure, the main elements in this framework are
+ <a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html" title="class in org.universAAL.lddi.abstraction"><code>communication
+ gateways</code></a>, <a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction"><code>component integrators</code></a>,
+ <a href="../../../../org/universAAL/lddi/abstraction/ExternalComponent.html" title="class in org.universAAL.lddi.abstraction"><code>external
+ components</code></a>, and component type specific ontologies (there are also
+ <a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html" title="interface in org.universAAL.lddi.abstraction"><code>external datapoints</code></a>
+ as an additional concept that is not included in this package info).
+ </p>
  
- <p>As indicated by the figure above, this package has a universAAL-specific view; in particular,
- the abstraction layer of LDDI exists in this package virtually in terms of a set of relevant
- ontologies that can be chosen to serve as the contract between the communication gateways and
- the component integrators with regard to whatever is component type specific.</p>
+ <p>
+ As indicated by the figure above, this package has a universAAL-specific
+ view; in particular, the abstraction layer of LDDI exists in this package
+ virtually in terms of a set of relevant ontologies that can be chosen to
+ serve as the contract between the communication gateways and the component
+ integrators with regard to whatever is component type specific.
+ </p>
  
- <p>As opposed to component integrators, the extent of dependency of communication gateways to
- universAAL can be limited to the usage of <a href="../../../../org/universAAL/middleware/container/Container.html" title="interface in org.universAAL.middleware.container"><code>universAAL containers</code></a>. This dependency is needed so that the implemented gateway can be shared
- within the container using  <a href="../../../../org/universAAL/middleware/container/Container.html#shareObject-org.universAAL.middleware.container.ModuleContext-java.lang.Object-java.lang.Object:A-"><code>the container's shareObject
- method</code></a>. On the other side, component integrators must fetch gateways already shared within the
- container using <a href="../../../../org/universAAL/middleware/container/Container.html#fetchSharedObject-org.universAAL.middleware.container.ModuleContext-java.lang.Object:A-org.universAAL.middleware.container.SharedObjectListener-"><code>Container.fetchSharedObject(
- org.universAAL.middleware.container.ModuleContext, Object[], 
- org.universAAL.middleware.container.SharedObjectListener)</code></a> so that in addition they are notified
- whenever new communication gateways are shared within the container. Component integrators are
- then expected to register the found gateways using <a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html#register-java.lang.String-org.universAAL.lddi.abstraction.ComponentIntegrator-"><code>the
- related method of the gateway</code></a>.</p>
+ <p>
+ As opposed to component integrators, the extent of dependency of
+ communication gateways to universAAL can be limited to the usage of
+ <a href="../../../../org/universAAL/middleware/container/Container.html" title="interface in org.universAAL.middleware.container"><code>universAAL containers</code></a>.
+ This dependency is needed so that the implemented gateway can be shared
+ within the container using
+ <a href="../../../../org/universAAL/middleware/container/Container.html#shareObject-org.universAAL.middleware.container.ModuleContext-java.lang.Object-java.lang.Object:A-"><code>the container's shareObject method</code></a>. On the other side, component integrators
+ must fetch gateways already shared within the container using
+ <a href="../../../../org/universAAL/middleware/container/Container.html#fetchSharedObject-org.universAAL.middleware.container.ModuleContext-java.lang.Object:A-org.universAAL.middleware.container.SharedObjectListener-"><code>Container.fetchSharedObject( org.universAAL.middleware.container.ModuleContext, Object[], org.universAAL.middleware.container.SharedObjectListener)</code></a>
+ so that in addition they are notified whenever new communication gateways are
+ shared within the container. Component integrators are then expected to
+ register the found gateways using
+ <a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html#register-java.lang.String-org.universAAL.lddi.abstraction.ComponentIntegrator-"><code>the related method of the gateway</code></a>.
+ </p>
  
- <p>Important note: the above implies that with this approach, the interplay of gateways and
- integrators will work only when they are deployed within the same universAAL container in order
- to be able to effectively integrate external components into a given universAAL network.</p></div>
+ <p>
+ Important note: the above implies that with this approach, the interplay of
+ gateways and integrators will work only when they are deployed within the
+ same universAAL container in order to be able to effectively integrate
+ external components into a given universAAL network.
+ </p></div>
 </div>
 <!-- ======= START OF BOTTOM NAVBAR ====== -->
 <div class="bottomNav"><a name="navbar.bottom">

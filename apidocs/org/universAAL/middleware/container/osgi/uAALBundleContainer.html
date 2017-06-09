@@ -295,10 +295,12 @@ implements <a href="../../../../../org/universAAL/middleware/container/Container
 <dd><code>fetchParams</code> - <ul>
             <li>min length = 1, max used length is 2 (elements @ index 2+
             are ignored)</li>
-            <li>type of both elements must be <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang"><code>String</code></a></li>
+            <li>type of both elements must be
+            <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang"><code>String</code></a></li>
             <li>if element @ index 0 is null, there must be a not-null
             String object @ index 1</li>
-            <li>if length = 1, then element @ index 0 must be not-null</li>
+            <li>if length = 1, then element @ index 0 must be
+            not-null</li>
             <li>if length = 1, then
             <code>BundleContext.getServiceReference(String)</code> will be used
             to fetch a service object</li>

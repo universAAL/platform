@@ -121,18 +121,16 @@ var activeTableTab = "activeTableTab";
 <pre>public class <span class="typeNameLabel">MotionSensor</span>
 extends <a href="../../../../../../org/universAAL/lddi/lib/activityhub/devicemodel/ActivityHubSensor.html" title="class in org.universAAL.lddi.lib.activityhub.devicemodel">ActivityHubSensor</a>
 implements <a href="../../../../../../org/universAAL/lddi/lib/activityhub/devicecategory/Iso11073MotionSensor.html" title="interface in org.universAAL.lddi.lib.activityhub.devicecategory">Iso11073MotionSensor</a></pre>
-<div class="block">Representation of a motion sensor according to ISO 11073 - 
- Part 10471 (Independent living activity hub), edition 2010-05-01
+<div class="block">Representation of a motion sensor according to ISO 11073 - Part 10471
+ (Independent living activity hub), edition 2010-05-01
  
- Specific sensor events (from standard specification):
- - motion detected
- - motion detected delayed (optional)
- - tamper detected (optional)
- - no condition detected (optional)
+ Specific sensor events (from standard specification): - motion detected -
+ motion detected delayed (optional) - tamper detected (optional) - no
+ condition detected (optional)
  
- Initially NO_CONDITION_DETECTED is set.
- Later, current sensor value can be set to MOTION_DETECTED and NO_CONDITION_DETECTED.
- Events MOTION_DETECTED_DELAYED and TAMPER_DETECTED are not implemented yet!</div>
+ Initially NO_CONDITION_DETECTED is set. Later, current sensor value can be
+ set to MOTION_DETECTED and NO_CONDITION_DETECTED. Events
+ MOTION_DETECTED_DELAYED and TAMPER_DETECTED are not implemented yet!</div>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>
 <dd>Thomas Fuxreiter</dd>
@@ -229,7 +227,8 @@ implements <a href="../../../../../../org/universAAL/lddi/lib/activityhub/device
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/lddi/lib/activityhub/devicemodel/MotionSensor.html#incomingSensorEvent-int-">incomingSensorEvent</a></span>(int&nbsp;event)</code>
-<div class="block">The specific drivers have to implement this method to receive messages from devices</div>
+<div class="block">The specific drivers have to implement this method to receive messages
+ from devices</div>
 </td>
 </tr>
 <tr id="i2" class="altColor">
@@ -333,8 +332,8 @@ implements <a href="../../../../../../org/universAAL/lddi/lib/activityhub/device
 <h4>setSensorEventOff</h4>
 <pre>public&nbsp;void&nbsp;setSensorEventOff()</pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from class:&nbsp;<code><a href="../../../../../../org/universAAL/lddi/lib/activityhub/devicemodel/ActivityHubSensor.html#setSensorEventOff--">ActivityHubSensor</a></code></span></div>
-<div class="block">set sensor event to off (e.g. switch-off) 
- if input comes from an 1-bit sensor</div>
+<div class="block">set sensor event to off (e.g. switch-off) if input comes from an 1-bit
+ sensor</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code><a href="../../../../../../org/universAAL/lddi/lib/activityhub/devicemodel/ActivityHubSensor.html#setSensorEventOff--">setSensorEventOff</a></code>&nbsp;in class&nbsp;<code><a href="../../../../../../org/universAAL/lddi/lib/activityhub/devicemodel/ActivityHubSensor.html" title="class in org.universAAL.lddi.lib.activityhub.devicemodel">ActivityHubSensor</a></code></dd>
@@ -349,8 +348,8 @@ implements <a href="../../../../../../org/universAAL/lddi/lib/activityhub/device
 <h4>setSensorEventOn</h4>
 <pre>public&nbsp;void&nbsp;setSensorEventOn()</pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from class:&nbsp;<code><a href="../../../../../../org/universAAL/lddi/lib/activityhub/devicemodel/ActivityHubSensor.html#setSensorEventOn--">ActivityHubSensor</a></code></span></div>
-<div class="block">set sensor event to on (e.g. switch-on)
- if input comes from an 1-bit sensor 
+<div class="block">set sensor event to on (e.g. switch-on) if input comes from an 1-bit
+ sensor
  
  called by refinement driver
  
@@ -369,13 +368,15 @@ implements <a href="../../../../../../org/universAAL/lddi/lib/activityhub/device
 <h4>incomingSensorEvent</h4>
 <pre>public&nbsp;void&nbsp;incomingSensorEvent(int&nbsp;event)</pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="../../../../../../org/universAAL/lddi/lib/activityhub/devicecategory/ActivityHubBaseDeviceCategory.html#incomingSensorEvent-int-">ActivityHubBaseDeviceCategory</a></code></span></div>
-<div class="block">The specific drivers have to implement this method to receive messages from devices</div>
+<div class="block">The specific drivers have to implement this method to receive messages
+ from devices</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code><a href="../../../../../../org/universAAL/lddi/lib/activityhub/devicecategory/ActivityHubBaseDeviceCategory.html#incomingSensorEvent-int-">incomingSensorEvent</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../../org/universAAL/lddi/lib/activityhub/devicecategory/ActivityHubBaseDeviceCategory.html" title="interface in org.universAAL.lddi.lib.activityhub.devicecategory">ActivityHubBaseDeviceCategory</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>event</code> - Integer representation of a specific ActivityHubSensorEvent.
- example MotionSensor: motion-detected = 0; no-condition-detected = 3</dd>
+            example MotionSensor: motion-detected = 0;
+            no-condition-detected = 3</dd>
 </dl>
 </li>
 </ul>

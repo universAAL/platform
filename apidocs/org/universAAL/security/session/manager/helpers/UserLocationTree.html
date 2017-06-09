@@ -125,8 +125,8 @@ var activeTableTab = "activeTableTab";
 <pre>public class <span class="typeNameLabel">UserLocationTree</span>
 extends <a href="../../../../../../org/universAAL/security/session/manager/helpers/LocationTreeWrapper.html" title="class in org.universAAL.security.session.manager.helpers">LocationTreeWrapper</a></pre>
 <div class="block">Extends <a href="../../../../../../org/universAAL/security/session/manager/helpers/LocationTreeWrapper.html" title="class in org.universAAL.security.session.manager.helpers"><code>LocationTreeWrapper</code></a> to add a <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util"><code>Set</code></a> of <a href="../../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile"><code>User</code></a>s to
- each node in the tree.
- In addition it manages the Allocation and Deallocation of users in the <a href="../../../../../../org/universAAL/ontology/location/Location.html" title="class in org.universAAL.ontology.location"><code>Location</code></a> tree.</div>
+ each node in the tree. In addition it manages the Allocation and Deallocation
+ of users in the <a href="../../../../../../org/universAAL/ontology/location/Location.html" title="class in org.universAAL.ontology.location"><code>Location</code></a> tree.</div>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>
 <dd>amedrano</dd>
@@ -192,8 +192,8 @@ extends <a href="../../../../../../org/universAAL/security/session/manager/helpe
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code><a href="http://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="../../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/security/session/manager/helpers/UserLocationTree.html#allocateUser-org.universAAL.ontology.profile.User-">allocateUser</a></span>(<a href="../../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;u)</code>
-<div class="block">Allocate a user in the <a href="../../../../../../org/universAAL/ontology/location/Location.html" title="class in org.universAAL.ontology.location"><code>Location</code></a> tree, this means the user is logically 
- located in all of the parent locations of this location.</div>
+<div class="block">Allocate a user in the <a href="../../../../../../org/universAAL/ontology/location/Location.html" title="class in org.universAAL.ontology.location"><code>Location</code></a> tree, this means the user is
+ logically located in all of the parent locations of this location.</div>
 </td>
 </tr>
 <tr id="i2" class="altColor">
@@ -205,7 +205,8 @@ extends <a href="../../../../../../org/universAAL/security/session/manager/helpe
 <tr id="i3" class="rowColor">
 <td class="colFirst"><code><a href="../../../../../../org/universAAL/security/session/manager/helpers/UserLocationTree.html" title="class in org.universAAL.security.session.manager.helpers">UserLocationTree</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/security/session/manager/helpers/UserLocationTree.html#getMaxUser-org.universAAL.ontology.profile.User-">getMaxUser</a></span>(<a href="../../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;u)</code>
-<div class="block">Calculate the uppermost <a href="../../../../../../org/universAAL/ontology/location/Location.html" title="class in org.universAAL.ontology.location"><code>Location</code></a> in which the <a href="../../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile"><code>User</code></a> is alone.</div>
+<div class="block">Calculate the uppermost <a href="../../../../../../org/universAAL/ontology/location/Location.html" title="class in org.universAAL.ontology.location"><code>Location</code></a> in which the <a href="../../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile"><code>User</code></a> is
+ alone.</div>
 </td>
 </tr>
 <tr id="i4" class="altColor">
@@ -321,9 +322,9 @@ extends <a href="../../../../../../org/universAAL/security/session/manager/helpe
 <li class="blockList">
 <h4>deallocateUser</h4>
 <pre>public&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="../../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&gt;&nbsp;deallocateUser(<a href="../../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;u)</pre>
-<div class="block">Remove the <a href="../../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile"><code>User</code></a> from the whole <a href="../../../../../../org/universAAL/ontology/location/Location.html" title="class in org.universAAL.ontology.location"><code>Location</code></a> tree.
- There may be users affected by this movement, since they might be alone now
- that the other user is deallocated.</div>
+<div class="block">Remove the <a href="../../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile"><code>User</code></a> from the whole <a href="../../../../../../org/universAAL/ontology/location/Location.html" title="class in org.universAAL.ontology.location"><code>Location</code></a> tree. There may
+ be users affected by this movement, since they might be alone now that
+ the other user is deallocated.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>u</code> - the user to be removed.</dd>
@@ -339,9 +340,9 @@ extends <a href="../../../../../../org/universAAL/security/session/manager/helpe
 <li class="blockList">
 <h4>allocateUser</h4>
 <pre>public&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="../../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&gt;&nbsp;allocateUser(<a href="../../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;u)</pre>
-<div class="block">Allocate a user in the <a href="../../../../../../org/universAAL/ontology/location/Location.html" title="class in org.universAAL.ontology.location"><code>Location</code></a> tree, this means the user is logically 
- located in all of the parent locations of this location.
- But all children locations must be marked too.</div>
+<div class="block">Allocate a user in the <a href="../../../../../../org/universAAL/ontology/location/Location.html" title="class in org.universAAL.ontology.location"><code>Location</code></a> tree, this means the user is
+ logically located in all of the parent locations of this location. But
+ all children locations must be marked too.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>u</code> - the allocated user.</dd>
@@ -357,14 +358,15 @@ extends <a href="../../../../../../org/universAAL/security/session/manager/helpe
 <li class="blockList">
 <h4>getMaxUser</h4>
 <pre>public&nbsp;<a href="../../../../../../org/universAAL/security/session/manager/helpers/UserLocationTree.html" title="class in org.universAAL.security.session.manager.helpers">UserLocationTree</a>&nbsp;getMaxUser(<a href="../../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;u)</pre>
-<div class="block">Calculate the uppermost <a href="../../../../../../org/universAAL/ontology/location/Location.html" title="class in org.universAAL.ontology.location"><code>Location</code></a> in which the <a href="../../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile"><code>User</code></a> is alone.</div>
+<div class="block">Calculate the uppermost <a href="../../../../../../org/universAAL/ontology/location/Location.html" title="class in org.universAAL.ontology.location"><code>Location</code></a> in which the <a href="../../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile"><code>User</code></a> is
+ alone.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>u</code> - </dd>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>the <a href="../../../../../../org/universAAL/security/session/manager/helpers/UserLocationTree.html" title="class in org.universAAL.security.session.manager.helpers"><code>UserLocationTree</code></a> where the user is alone,
- null if it is not in the location tree, or she/he is not alone anywhere.
- TODO add delegation logic here.</dd>
+<dd>the <a href="../../../../../../org/universAAL/security/session/manager/helpers/UserLocationTree.html" title="class in org.universAAL.security.session.manager.helpers"><code>UserLocationTree</code></a> where the user is alone, null if it
+         is not in the location tree, or she/he is not alone anywhere.
+         TODO add delegation logic here.</dd>
 </dl>
 </li>
 </ul>

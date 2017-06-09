@@ -124,17 +124,18 @@ var activeTableTab = "activeTableTab";
 <pre>public class <span class="typeNameLabel">KnxDpt1RefinementDriver</span>
 extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>
 implements org.osgi.service.device.Driver</pre>
-<div class="block">checks device references coming from OSGi DeviceManager; matching KNX groupDevice category
- attaches exactly one driver instance per deviceId (first groupDevice)
- subsequent devices with the same deviceId are rejected!
+<div class="block">checks device references coming from OSGi DeviceManager; matching KNX
+ groupDevice category attaches exactly one driver instance per deviceId (first
+ groupDevice) subsequent devices with the same deviceId are rejected!
  
- when an attached groupDevice service is unregistered:
- drivers must take the appropriate action to release this groupDevice service
- and peform any necessary cleanup, as described in their groupDevice category spec
-  
- Initially a manual mapping config from KNX to ISO sensors were implemented. But
- in universAAL this configuration should be done by AAL Space configurator. Therefore
- this code is commented; but kept here for potential later use.</div>
+ when an attached groupDevice service is unregistered: drivers must take the
+ appropriate action to release this groupDevice service and peform any
+ necessary cleanup, as described in their groupDevice category spec
+ 
+ Initially a manual mapping config from KNX to ISO sensors were implemented.
+ But in universAAL this configuration should be done by AAL Space
+ configurator. Therefore this code is commented; but kept here for potential
+ later use.</div>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>
 <dd>Thomas Fuxreiter (foex@gmx.at)</dd>
@@ -182,15 +183,14 @@ implements org.osgi.service.device.Driver</pre>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code>int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/lddi/knx/refinementdriver/dpt1/activityhub/KnxDpt1RefinementDriver.html#match-org.osgi.framework.ServiceReference-">match</a></span>(org.osgi.framework.ServiceReference&nbsp;reference)</code>
-<div class="block">called from OSGI DeviceManager
- check device services if they have identical device_category as this driver</div>
+<div class="block">called from OSGI DeviceManager check device services if they have
+ identical device_category as this driver</div>
 </td>
 </tr>
 <tr id="i2" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/lddi/knx/refinementdriver/dpt1/activityhub/KnxDpt1RefinementDriver.html#stop--">stop</a></span>()</code>
-<div class="block">delete instance references 
- unregister my services ?</div>
+<div class="block">delete instance references unregister my services ?</div>
 </td>
 </tr>
 </table>
@@ -246,8 +246,8 @@ implements org.osgi.service.device.Driver</pre>
 <h4>match</h4>
 <pre>public&nbsp;int&nbsp;match(org.osgi.framework.ServiceReference&nbsp;reference)
           throws <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Exception.html?is-external=true" title="class or interface in java.lang">Exception</a></pre>
-<div class="block">called from OSGI DeviceManager
- check device services if they have identical device_category as this driver</div>
+<div class="block">called from OSGI DeviceManager check device services if they have
+ identical device_category as this driver</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code>match</code>&nbsp;in interface&nbsp;<code>org.osgi.service.device.Driver</code></dd>
@@ -272,7 +272,8 @@ implements org.osgi.service.device.Driver</pre>
 <dt><span class="throwsLabel">Throws:</span></dt>
 <dd><code><a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Exception.html?is-external=true" title="class or interface in java.lang">Exception</a></code></dd>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><code>attach the device service reference to a "driving" instance; couple them</code></dd>
+<dd><code>attach the device service reference to a "driving" instance; couple
+      them</code></dd>
 </dl>
 </li>
 </ul>
@@ -283,8 +284,7 @@ implements org.osgi.service.device.Driver</pre>
 <li class="blockList">
 <h4>stop</h4>
 <pre>public&nbsp;void&nbsp;stop()</pre>
-<div class="block">delete instance references 
- unregister my services ?</div>
+<div class="block">delete instance references unregister my services ?</div>
 </li>
 </ul>
 </li>

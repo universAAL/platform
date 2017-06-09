@@ -259,21 +259,23 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
                      throws <a href="../../../../org/universAAL/middleware/api/exception/SimplifiedRegistrationException.html" title="class in org.universAAL.middleware.api.exception">SimplifiedRegistrationException</a></pre>
 <div class="block">Main method of Simplified API approach.
  
- It scans provided object for occurrences of : 1. @UniversAALService and @ResourceClass
- annotation on one of its interfaces; 2. Methods of founded interface for
- occurrences of @ServiceOperation, @Output, and @ChangeEffect annotation;
- 3. Parameters of methods for occurrences of @Input annotations.
+ It scans provided object for occurrences of : 1. @UniversAALService
+ and @ResourceClass annotation on one of its interfaces; 2. Methods of
+ founded interface for occurrences of @ServiceOperation, @Output,
+ and @ChangeEffect annotation; 3. Parameters of methods for occurrences
+ of @Input annotations.
  
  For each founded method it generates a proper ServiceProfile and create a
  ServiceCalleeWrapper instance.
  
  If something goes wrong during processing a
- SimplifiedRegistrationException, especially when: 1. No @UniversAALService
- and @ResourceClass is found on object interfaces; 2. No @ServiceOperation
- was provided for @UniversAALService annotated interface; 3. Duplicate
- names of service was provided (@ServiceOperation); 4. No @Output
- annotation was provided for method annotated with @ServiceOperation; 5.
- Duplicate names was provided in @Input annotations of service method;</div>
+ SimplifiedRegistrationException, especially when: 1.
+ No @UniversAALService and @ResourceClass is found on object interfaces;
+ 2. No @ServiceOperation was provided for @UniversAALService annotated
+ interface; 3. Duplicate names of service was provided
+ (@ServiceOperation); 4. No @Output annotation was provided for method
+ annotated with @ServiceOperation; 5. Duplicate names was provided
+ in @Input annotations of service method;</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>o</code> - - service implementation, which implements annotated

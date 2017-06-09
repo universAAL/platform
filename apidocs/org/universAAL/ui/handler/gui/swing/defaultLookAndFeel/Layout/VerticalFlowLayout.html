@@ -126,19 +126,17 @@ var activeTableTab = "activeTableTab";
 <pre>public class <span class="typeNameLabel">VerticalFlowLayout</span>
 extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>
 implements <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutManager.html?is-external=true" title="class or interface in java.awt">LayoutManager</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html?is-external=true" title="class or interface in java.io">Serializable</a></pre>
-<div class="block">A flow layout arranges components in a directional flow, much
- like lines of text in a paragraph. The flow direction is
- determined by the container's <code>componentOrientation</code>
- property and may be one of two values: 
+<div class="block">A flow layout arranges components in a directional flow, much like lines of
+ text in a paragraph. The flow direction is determined by the container's
+ <code>componentOrientation</code> property and may be one of two values:
  <ul>
  <li><code>ComponentOrientation.TOP_TO_BOTTOM</code>
  <li><code>ComponentOrientation.BOTTOM_TO_TOP</code>
  </ul>
- VerticalFlow layouts are typically used
- to arrange buttons in a panel. It arranges buttons
- horizontally until no more buttons fit on the same line.
- The line alignment is determined by the <code>align</code>
- property. The possible values are:
+ VerticalFlow layouts are typically used to arrange buttons in a panel. It
+ arranges buttons horizontally until no more buttons fit on the same line. The
+ line alignment is determined by the <code>align</code> property. The possible
+ values are:
  <ul>
  <li><a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/defaultLookAndFeel/Layout/VerticalFlowLayout.html#TOP"><code>TOP</code></a>
  <li><a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/defaultLookAndFeel/Layout/VerticalFlowLayout.html#BOTTOM"><code>BOTTOM</code></a>
@@ -147,31 +145,37 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutMana
  <li><a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/defaultLookAndFeel/Layout/VerticalFlowLayout.html#TRAILING"><code>TRAILING</code></a>
  </ul>
  <p>
- For example, the following picture shows an applet using the flow
- layout manager (its default layout manager) to position three buttons:
+ For example, the following picture shows an applet using the flow layout
+ manager (its default layout manager) to position three buttons:
  <p>
- <img src="doc-files/VerticalFlowLayout-1.gif"
- ALT="Graphic of Layout for Three Buttons"
- ALIGN=center HSPACE=10 VSPACE=7>
+ <img src="doc-files/VerticalFlowLayout-1.gif" ALT="Graphic of Layout for
+ Three Buttons" ALIGN=center HSPACE=10 VSPACE=7>
  <p>
  Here is the code for this applet:
  <p>
- <hr><blockquote><pre>
+ <hr>
+ <blockquote>
+ 
+ <pre>
  import java.awt.*;
  import java.applet.Applet;
 
  public class myButtons extends Applet {
-     Button button1, button2, button3;
-     public void init() {
-         button1 = new Button("Ok");
-         button2 = new Button("Open");
-         button3 = new Button("Close");
-         add(button1);
-         add(button2);
-         add(button3);
-     }
+        Button button1, button2, button3;
+ 
+        public void init() {
+                button1 = new Button("Ok");
+                button2 = new Button("Open");
+                button3 = new Button("Close");
+                add(button1);
+                add(button2);
+                add(button3);
+        }
  }
- </pre></blockquote><hr>
+ </pre>
+ 
+ </blockquote>
+ <hr>
  <p>
  A flow layout lets each component assume its natural (preferred) size.</div>
 <dl>
@@ -206,38 +210,37 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutMana
 <tr class="altColor">
 <td class="colFirst"><code>static int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/defaultLookAndFeel/Layout/VerticalFlowLayout.html#BOTTOM">BOTTOM</a></span></code>
-<div class="block">This value indicates that each row of components
- should be right-justified.</div>
+<div class="block">This value indicates that each row of components should be
+ right-justified.</div>
 </td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>static int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/defaultLookAndFeel/Layout/VerticalFlowLayout.html#CENTER">CENTER</a></span></code>
-<div class="block">This value indicates that each row of components
- should be centered.</div>
+<div class="block">This value indicates that each row of components should be centered.</div>
 </td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/defaultLookAndFeel/Layout/VerticalFlowLayout.html#LEADING">LEADING</a></span></code>
-<div class="block">This value indicates that each row of components
- should be justified to the leading edge of the container's
- orientation, for example, to the left in left-to-right orientations.</div>
+<div class="block">This value indicates that each row of components should be justified to
+ the leading edge of the container's orientation, for example, to the left
+ in left-to-right orientations.</div>
 </td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>static int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/defaultLookAndFeel/Layout/VerticalFlowLayout.html#TOP">TOP</a></span></code>
-<div class="block">This value indicates that each row of components
- should be left-justified.</div>
+<div class="block">This value indicates that each row of components should be
+ left-justified.</div>
 </td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/defaultLookAndFeel/Layout/VerticalFlowLayout.html#TRAILING">TRAILING</a></span></code>
-<div class="block">This value indicates that each row of components
- should be justified to the trailing edge of the container's
- orientation, for example, to the right in left-to-right orientations.</div>
+<div class="block">This value indicates that each row of components should be justified to
+ the trailing edge of the container's orientation, for example, to the
+ right in left-to-right orientations.</div>
 </td>
 </tr>
 </table>
@@ -256,8 +259,8 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutMana
 </tr>
 <tr class="altColor">
 <td class="colOne"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/defaultLookAndFeel/Layout/VerticalFlowLayout.html#VerticalFlowLayout--">VerticalFlowLayout</a></span>()</code>
-<div class="block">Constructs a new <code>VerticalFlowLayout</code> with a centered alignment and a
- default 5-unit horizontal and vertical gap.</div>
+<div class="block">Constructs a new <code>VerticalFlowLayout</code> with a centered
+ alignment and a default 5-unit horizontal and vertical gap.</div>
 </td>
 </tr>
 <tr class="rowColor">
@@ -270,8 +273,8 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutMana
 <td class="colOne"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/defaultLookAndFeel/Layout/VerticalFlowLayout.html#VerticalFlowLayout-int-int-int-">VerticalFlowLayout</a></span>(int&nbsp;align,
                   int&nbsp;hgap,
                   int&nbsp;vgap)</code>
-<div class="block">Creates a new flow layout manager with the indicated alignment
- and the indicated horizontal and vertical gaps.</div>
+<div class="block">Creates a new flow layout manager with the indicated alignment and the
+ indicated horizontal and vertical gaps.</div>
 </td>
 </tr>
 </table>
@@ -305,17 +308,15 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutMana
 <tr id="i2" class="altColor">
 <td class="colFirst"><code>int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/defaultLookAndFeel/Layout/VerticalFlowLayout.html#getHgap--">getHgap</a></span>()</code>
-<div class="block">Gets the horizontal gap between components
- and between the components and the borders
- of the <code>Container</code></div>
+<div class="block">Gets the horizontal gap between components and between the components and
+ the borders of the <code>Container</code></div>
 </td>
 </tr>
 <tr id="i3" class="rowColor">
 <td class="colFirst"><code>int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/defaultLookAndFeel/Layout/VerticalFlowLayout.html#getVgap--">getVgap</a></span>()</code>
-<div class="block">Gets the vertical gap between components and
- between the components and the borders of the
- <code>Container</code>.</div>
+<div class="block">Gets the vertical gap between components and between the components and
+ the borders of the <code>Container</code>.</div>
 </td>
 </tr>
 <tr id="i4" class="altColor">
@@ -338,8 +339,8 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutMana
 <tr id="i7" class="rowColor">
 <td class="colFirst"><code><a href="http://docs.oracle.com/javase/8/docs/api/java/awt/Dimension.html?is-external=true" title="class or interface in java.awt">Dimension</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/defaultLookAndFeel/Layout/VerticalFlowLayout.html#preferredLayoutSize-java.awt.Container-">preferredLayoutSize</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/awt/Container.html?is-external=true" title="class or interface in java.awt">Container</a>&nbsp;target)</code>
-<div class="block">Returns the preferred dimensions for this layout given the 
- <i>visible</i> components in the specified target container.</div>
+<div class="block">Returns the preferred dimensions for this layout given the <i>visible</i>
+ components in the specified target container.</div>
 </td>
 </tr>
 <tr id="i8" class="altColor">
@@ -357,9 +358,8 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutMana
 <tr id="i10" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/defaultLookAndFeel/Layout/VerticalFlowLayout.html#setHgap-int-">setHgap</a></span>(int&nbsp;hgap)</code>
-<div class="block">Sets the horizontal gap between components and
- between the components and the borders of the
- <code>Container</code>.</div>
+<div class="block">Sets the horizontal gap between components and between the components and
+ the borders of the <code>Container</code>.</div>
 </td>
 </tr>
 <tr id="i11" class="rowColor">
@@ -369,8 +369,8 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutMana
 <tr id="i12" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/defaultLookAndFeel/Layout/VerticalFlowLayout.html#setVgap-int-">setVgap</a></span>(int&nbsp;vgap)</code>
-<div class="block">Sets the vertical gap between components and between
- the components and the borders of the <code>Container</code>.</div>
+<div class="block">Sets the vertical gap between components and between the components and
+ the borders of the <code>Container</code>.</div>
 </td>
 </tr>
 <tr id="i13" class="rowColor">
@@ -409,8 +409,8 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutMana
 <li class="blockList">
 <h4>TOP</h4>
 <pre>public static final&nbsp;int TOP</pre>
-<div class="block">This value indicates that each row of components
- should be left-justified.</div>
+<div class="block">This value indicates that each row of components should be
+ left-justified.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
 <dd><a href="../../../../../../../../constant-values.html#org.universAAL.ui.handler.gui.swing.defaultLookAndFeel.Layout.VerticalFlowLayout.TOP">Constant Field Values</a></dd>
@@ -424,8 +424,7 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutMana
 <li class="blockList">
 <h4>CENTER</h4>
 <pre>public static final&nbsp;int CENTER</pre>
-<div class="block">This value indicates that each row of components
- should be centered.</div>
+<div class="block">This value indicates that each row of components should be centered.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
 <dd><a href="../../../../../../../../constant-values.html#org.universAAL.ui.handler.gui.swing.defaultLookAndFeel.Layout.VerticalFlowLayout.CENTER">Constant Field Values</a></dd>
@@ -439,8 +438,8 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutMana
 <li class="blockList">
 <h4>BOTTOM</h4>
 <pre>public static final&nbsp;int BOTTOM</pre>
-<div class="block">This value indicates that each row of components
- should be right-justified.</div>
+<div class="block">This value indicates that each row of components should be
+ right-justified.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
 <dd><a href="../../../../../../../../constant-values.html#org.universAAL.ui.handler.gui.swing.defaultLookAndFeel.Layout.VerticalFlowLayout.BOTTOM">Constant Field Values</a></dd>
@@ -454,13 +453,12 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutMana
 <li class="blockList">
 <h4>LEADING</h4>
 <pre>public static final&nbsp;int LEADING</pre>
-<div class="block">This value indicates that each row of components
- should be justified to the leading edge of the container's
- orientation, for example, to the left in left-to-right orientations.</div>
+<div class="block">This value indicates that each row of components should be justified to
+ the leading edge of the container's orientation, for example, to the left
+ in left-to-right orientations.</div>
 <dl>
 <dt><span class="simpleTagLabel">Since:</span></dt>
-<dd>1.2
- Package-private pending API change approval</dd>
+<dd>1.2 Package-private pending API change approval</dd>
 <dt><span class="seeLabel">See Also:</span></dt>
 <dd><a href="http://docs.oracle.com/javase/8/docs/api/java/awt/Component.html?is-external=true#getComponentOrientation--" title="class or interface in java.awt"><code>Component.getComponentOrientation()</code></a>, 
 <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/ComponentOrientation.html?is-external=true" title="class or interface in java.awt"><code>ComponentOrientation</code></a>, 
@@ -475,13 +473,12 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutMana
 <li class="blockList">
 <h4>TRAILING</h4>
 <pre>public static final&nbsp;int TRAILING</pre>
-<div class="block">This value indicates that each row of components
- should be justified to the trailing edge of the container's
- orientation, for example, to the right in left-to-right orientations.</div>
+<div class="block">This value indicates that each row of components should be justified to
+ the trailing edge of the container's orientation, for example, to the
+ right in left-to-right orientations.</div>
 <dl>
 <dt><span class="simpleTagLabel">Since:</span></dt>
-<dd>1.2
- Package-private pending API change approval</dd>
+<dd>1.2 Package-private pending API change approval</dd>
 <dt><span class="seeLabel">See Also:</span></dt>
 <dd><a href="http://docs.oracle.com/javase/8/docs/api/java/awt/Component.html?is-external=true#getComponentOrientation--" title="class or interface in java.awt"><code>Component.getComponentOrientation()</code></a>, 
 <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/ComponentOrientation.html?is-external=true" title="class or interface in java.awt"><code>ComponentOrientation</code></a>, 
@@ -504,8 +501,8 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutMana
 <li class="blockList">
 <h4>VerticalFlowLayout</h4>
 <pre>public&nbsp;VerticalFlowLayout()</pre>
-<div class="block">Constructs a new <code>VerticalFlowLayout</code> with a centered alignment and a
- default 5-unit horizontal and vertical gap.</div>
+<div class="block">Constructs a new <code>VerticalFlowLayout</code> with a centered
+ alignment and a default 5-unit horizontal and vertical gap.</div>
 </li>
 </ul>
 <a name="VerticalFlowLayout-int-">
@@ -516,11 +513,13 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutMana
 <h4>VerticalFlowLayout</h4>
 <pre>public&nbsp;VerticalFlowLayout(int&nbsp;align)</pre>
 <div class="block">Constructs a new <code>VerticalFlowLayout</code> with the specified
- alignment and a default 5-unit horizontal and vertical gap.
- The value of the alignment argument must be one of
- <code>VerticalFlowLayout.TOP</code>, <code>VerticalFlowLayout.BOTTOM</code>,
- <code>VerticalFlowLayout.CENTER</code>, <code>VerticalFlowLayout.LEADING</code>,
- or <code>VerticalFlowLayout.TRAILING</code>.</div>
+ alignment and a default 5-unit horizontal and vertical gap. The value of
+ the alignment argument must be one of
+ <code>VerticalFlowLayout.TOP</code>,
+ <code>VerticalFlowLayout.BOTTOM</code>,
+ <code>VerticalFlowLayout.CENTER</code>,
+ <code>VerticalFlowLayout.LEADING</code>, or
+ <code>VerticalFlowLayout.TRAILING</code>.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>align</code> - the alignment value</dd>
@@ -536,22 +535,22 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutMana
 <pre>public&nbsp;VerticalFlowLayout(int&nbsp;align,
                           int&nbsp;hgap,
                           int&nbsp;vgap)</pre>
-<div class="block">Creates a new flow layout manager with the indicated alignment
- and the indicated horizontal and vertical gaps.
+<div class="block">Creates a new flow layout manager with the indicated alignment and the
+ indicated horizontal and vertical gaps.
  <p>
  The value of the alignment argument must be one of
- <code>VerticalFlowLayout.TOP</code>, <code>VerticalFlowLayout.BOTTOM</code>,
- <code>VerticalFlowLayout.CENTER</code>, <code>VerticalFlowLayout.LEADING</code>,
- or <code>VerticalFlowLayout.TRAILING</code>.</div>
+ <code>VerticalFlowLayout.TOP</code>,
+ <code>VerticalFlowLayout.BOTTOM</code>,
+ <code>VerticalFlowLayout.CENTER</code>,
+ <code>VerticalFlowLayout.LEADING</code>, or
+ <code>VerticalFlowLayout.TRAILING</code>.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>align</code> - the alignment value</dd>
-<dd><code>hgap</code> - the horizontal gap between components
-                     and between the components and the 
-                     borders of the <code>Container</code></dd>
-<dd><code>vgap</code> - the vertical gap between components
-                     and between the components and the 
-                     borders of the <code>Container</code></dd>
+<dd><code>hgap</code> - the horizontal gap between components and between the
+            components and the borders of the <code>Container</code></dd>
+<dd><code>vgap</code> - the vertical gap between components and between the components
+            and the borders of the <code>Container</code></dd>
 </dl>
 </li>
 </ul>
@@ -588,11 +587,12 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutMana
 <li class="blockList">
 <h4>getAlignment</h4>
 <pre>public&nbsp;int&nbsp;getAlignment()</pre>
-<div class="block">Gets the alignment for this layout.
- Possible values are <code>VerticalFlowLayout.TOP</code>,
- <code>VerticalFlowLayout.BOTTOM</code>, <code>VerticalFlowLayout.CENTER</code>,
- <code>VerticalFlowLayout.LEADING</code>,
- or <code>VerticalFlowLayout.TRAILING</code>.</div>
+<div class="block">Gets the alignment for this layout. Possible values are
+ <code>VerticalFlowLayout.TOP</code>,
+ <code>VerticalFlowLayout.BOTTOM</code>,
+ <code>VerticalFlowLayout.CENTER</code>,
+ <code>VerticalFlowLayout.LEADING</code>, or
+ <code>VerticalFlowLayout.TRAILING</code>.</div>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>the alignment value for this layout</dd>
@@ -610,8 +610,7 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutMana
 <li class="blockList">
 <h4>setAlignment</h4>
 <pre>public&nbsp;void&nbsp;setAlignment(int&nbsp;align)</pre>
-<div class="block">Sets the alignment for this layout.
- Possible values are
+<div class="block">Sets the alignment for this layout. Possible values are
  <ul>
  <li><code>VerticalFlowLayout.TOP</code>
  <li><code>VerticalFlowLayout.BOTTOM</code>
@@ -636,14 +635,12 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutMana
 <li class="blockList">
 <h4>getHgap</h4>
 <pre>public&nbsp;int&nbsp;getHgap()</pre>
-<div class="block">Gets the horizontal gap between components
- and between the components and the borders
- of the <code>Container</code></div>
+<div class="block">Gets the horizontal gap between components and between the components and
+ the borders of the <code>Container</code></div>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>the horizontal gap between components
-             and between the components and the borders
-             of the <code>Container</code></dd>
+<dd>the horizontal gap between components and between the components
+         and the borders of the <code>Container</code></dd>
 <dt><span class="simpleTagLabel">Since:</span></dt>
 <dd>JDK1.1</dd>
 <dt><span class="seeLabel">See Also:</span></dt>
@@ -658,14 +655,12 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutMana
 <li class="blockList">
 <h4>setHgap</h4>
 <pre>public&nbsp;void&nbsp;setHgap(int&nbsp;hgap)</pre>
-<div class="block">Sets the horizontal gap between components and
- between the components and the borders of the
- <code>Container</code>.</div>
+<div class="block">Sets the horizontal gap between components and between the components and
+ the borders of the <code>Container</code>.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>hgap</code> - the horizontal gap between components
-             and between the components and the borders
-             of the <code>Container</code></dd>
+<dd><code>hgap</code> - the horizontal gap between components and between the
+            components and the borders of the <code>Container</code></dd>
 <dt><span class="simpleTagLabel">Since:</span></dt>
 <dd>JDK1.1</dd>
 <dt><span class="seeLabel">See Also:</span></dt>
@@ -680,14 +675,12 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutMana
 <li class="blockList">
 <h4>getVgap</h4>
 <pre>public&nbsp;int&nbsp;getVgap()</pre>
-<div class="block">Gets the vertical gap between components and
- between the components and the borders of the
- <code>Container</code>.</div>
+<div class="block">Gets the vertical gap between components and between the components and
+ the borders of the <code>Container</code>.</div>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>the vertical gap between components
-             and between the components and the borders
-             of the <code>Container</code></dd>
+<dd>the vertical gap between components and between the components
+         and the borders of the <code>Container</code></dd>
 <dt><span class="simpleTagLabel">Since:</span></dt>
 <dd>JDK1.1</dd>
 <dt><span class="seeLabel">See Also:</span></dt>
@@ -702,13 +695,12 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutMana
 <li class="blockList">
 <h4>setVgap</h4>
 <pre>public&nbsp;void&nbsp;setVgap(int&nbsp;vgap)</pre>
-<div class="block">Sets the vertical gap between components and between
- the components and the borders of the <code>Container</code>.</div>
+<div class="block">Sets the vertical gap between components and between the components and
+ the borders of the <code>Container</code>.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>vgap</code> - the vertical gap between components
-             and between the components and the borders
-             of the <code>Container</code></dd>
+<dd><code>vgap</code> - the vertical gap between components and between the components
+            and the borders of the <code>Container</code></dd>
 <dt><span class="simpleTagLabel">Since:</span></dt>
 <dd>JDK1.1</dd>
 <dt><span class="seeLabel">See Also:</span></dt>
@@ -724,8 +716,7 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutMana
 <h4>addLayoutComponent</h4>
 <pre>public&nbsp;void&nbsp;addLayoutComponent(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;name,
                                <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/Component.html?is-external=true" title="class or interface in java.awt">Component</a>&nbsp;comp)</pre>
-<div class="block">Adds the specified component to the layout.
- Not used by this class.</div>
+<div class="block">Adds the specified component to the layout. Not used by this class.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code><a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutManager.html?is-external=true#addLayoutComponent-java.lang.String-java.awt.Component-" title="class or interface in java.awt">addLayoutComponent</a></code>&nbsp;in interface&nbsp;<code><a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutManager.html?is-external=true" title="class or interface in java.awt">LayoutManager</a></code></dd>
@@ -742,8 +733,7 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutMana
 <li class="blockList">
 <h4>removeLayoutComponent</h4>
 <pre>public&nbsp;void&nbsp;removeLayoutComponent(<a href="http://docs.oracle.com/javase/8/docs/api/java/awt/Component.html?is-external=true" title="class or interface in java.awt">Component</a>&nbsp;comp)</pre>
-<div class="block">Removes the specified component from the layout.
- Not used by this class.</div>
+<div class="block">Removes the specified component from the layout. Not used by this class.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code><a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutManager.html?is-external=true#removeLayoutComponent-java.awt.Component-" title="class or interface in java.awt">removeLayoutComponent</a></code>&nbsp;in interface&nbsp;<code><a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutManager.html?is-external=true" title="class or interface in java.awt">LayoutManager</a></code></dd>
@@ -761,16 +751,16 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutMana
 <li class="blockList">
 <h4>preferredLayoutSize</h4>
 <pre>public&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/awt/Dimension.html?is-external=true" title="class or interface in java.awt">Dimension</a>&nbsp;preferredLayoutSize(<a href="http://docs.oracle.com/javase/8/docs/api/java/awt/Container.html?is-external=true" title="class or interface in java.awt">Container</a>&nbsp;target)</pre>
-<div class="block">Returns the preferred dimensions for this layout given the 
- <i>visible</i> components in the specified target container.</div>
+<div class="block">Returns the preferred dimensions for this layout given the <i>visible</i>
+ components in the specified target container.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code><a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutManager.html?is-external=true#preferredLayoutSize-java.awt.Container-" title="class or interface in java.awt">preferredLayoutSize</a></code>&nbsp;in interface&nbsp;<code><a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutManager.html?is-external=true" title="class or interface in java.awt">LayoutManager</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>target</code> - the container that needs to be laid out</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>the preferred dimensions to lay out the
-            subcomponents of the specified container</dd>
+<dd>the preferred dimensions to lay out the subcomponents of the
+         specified container</dd>
 <dt><span class="seeLabel">See Also:</span></dt>
 <dd><a href="http://docs.oracle.com/javase/8/docs/api/java/awt/Container.html?is-external=true" title="class or interface in java.awt"><code>Container</code></a>, 
 <a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/defaultLookAndFeel/Layout/VerticalFlowLayout.html#minimumLayoutSize-java.awt.Container-"><code>minimumLayoutSize(java.awt.Container)</code></a>, 
@@ -793,8 +783,8 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutMana
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>target</code> - the container that needs to be laid out</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>the minimum dimensions to lay out the
-            subcomponents of the specified container</dd>
+<dd>the minimum dimensions to lay out the subcomponents of the
+         specified container</dd>
 <dt><span class="seeLabel">See Also:</span></dt>
 <dd><a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/defaultLookAndFeel/Layout/VerticalFlowLayout.html#preferredLayoutSize-java.awt.Container-"><code>preferredLayoutSize(java.awt.Container)</code></a>, 
 <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/Container.html?is-external=true" title="class or interface in java.awt"><code>Container</code></a>, 
@@ -809,11 +799,10 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutMana
 <li class="blockList">
 <h4>layoutContainer</h4>
 <pre>public&nbsp;void&nbsp;layoutContainer(<a href="http://docs.oracle.com/javase/8/docs/api/java/awt/Container.html?is-external=true" title="class or interface in java.awt">Container</a>&nbsp;target)</pre>
-<div class="block">Lays out the container. This method lets each 
- <i>visible</i> component take
- its preferred size by reshaping the components in the
- target container in order to satisfy the alignment of
- this <code>VerticalFlowLayout</code> object.</div>
+<div class="block">Lays out the container. This method lets each <i>visible</i> component
+ take its preferred size by reshaping the components in the target
+ container in order to satisfy the alignment of this
+ <code>VerticalFlowLayout</code> object.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code><a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutManager.html?is-external=true#layoutContainer-java.awt.Container-" title="class or interface in java.awt">layoutContainer</a></code>&nbsp;in interface&nbsp;<code><a href="http://docs.oracle.com/javase/8/docs/api/java/awt/LayoutManager.html?is-external=true" title="class or interface in java.awt">LayoutManager</a></code></dd>

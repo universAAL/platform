@@ -117,8 +117,8 @@ var activeTableTab = "activeTableTab";
 <br>
 <pre>public class <span class="typeNameLabel">MyActivityHubServiceConsumer</span>
 extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></pre>
-<div class="block">This class provides ontological service requests and processes the service responses
- This class is stateless; no objects (sensors) are stored here
+<div class="block">This class provides ontological service requests and processes the service
+ responses This class is stateless; no objects (sensors) are stored here
  LogUtil from uAAL-Middleware is used here</div>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>
@@ -173,18 +173,15 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/lddi/samples/activityhub/client/MyActivityHubServiceConsumer.html#getActivityHubSensorInfo-org.universAAL.ontology.activityhub.ActivityHubSensor-">getActivityHubSensorInfo</a></span>(<a href="../../../../../../org/universAAL/ontology/activityhub/ActivityHubSensor.html" title="class in org.universAAL.ontology.activityhub">ActivityHubSensor</a>&nbsp;ahs)</code>
 <div class="block">Get details for a specific ActivityHub sensor
  
- Get the ontological service request
- Send service request to service bus
- Process the response
- Log errors if the call was not successful</div>
+ Get the ontological service request Send service request to service bus
+ Process the response Log errors if the call was not successful</div>
 </td>
 </tr>
 <tr id="i2" class="altColor">
 <td class="colFirst"><code>static <a href="../../../../../../org/universAAL/middleware/service/ServiceRequest.html" title="class in org.universAAL.middleware.service">ServiceRequest</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/lddi/samples/activityhub/client/MyActivityHubServiceConsumer.html#getAllActivityHubSensorsRequest--">getAllActivityHubSensorsRequest</a></span>()</code>
-<div class="block">Create ontological service request
- no input
- output: resources that are controled by ActivityHub service</div>
+<div class="block">Create ontological service request no input output: resources that are
+ controled by ActivityHub service</div>
 </td>
 </tr>
 <tr id="i3" class="rowColor">
@@ -192,32 +189,28 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/lddi/samples/activityhub/client/MyActivityHubServiceConsumer.html#getControlledActivityHubSensors--">getControlledActivityHubSensors</a></span>()</code>
 <div class="block">Get a list of all available ActivityHub sensors in the system
  
- Get the ontological service request
- Send service request to service bus
- Process the response
- Log errors if the call was not successful</div>
+ Get the ontological service request Send service request to service bus
+ Process the response Log errors if the call was not successful</div>
 </td>
 </tr>
 <tr id="i4" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/lddi/samples/activityhub/client/MyActivityHubServiceConsumer.html#getDeviceInfo-java.lang.String-int-">getDeviceInfo</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;sensorURI,
              int&nbsp;deviceType)</code>
-<div class="block">The parameters are just URI-Strings to keep this class stateless
- A new ActivityHubSensor is created from the Ontology according to the URIs 
- from the client application (client doesn't store Ontology Resource objects)
+<div class="block">The parameters are just URI-Strings to keep this class stateless A new
+ ActivityHubSensor is created from the Ontology according to the URIs from
+ the client application (client doesn't store Ontology Resource objects)
  Pass this sensor object in service request
  
- Process result list from service response
- Send result text array to GUI</div>
+ Process result list from service response Send result text array to GUI</div>
 </td>
 </tr>
 <tr id="i5" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/lddi/samples/activityhub/client/MyActivityHubServiceConsumer.html#getSensors--">getSensors</a></span>()</code>
-<div class="block">Fetch sensors from service bus and send to gui
- Process result list of ActivityHubSensors from service response
- Send just URI-Strings to client application to decouple from Ontology-stuff
- Display sensor list in GUI</div>
+<div class="block">Fetch sensors from service bus and send to gui Process result list of
+ ActivityHubSensors from service response Send just URI-Strings to client
+ application to decouple from Ontology-stuff Display sensor list in GUI</div>
 </td>
 </tr>
 </table>
@@ -275,10 +268,8 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <pre>public static&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html?is-external=true" title="class or interface in java.util">ArrayList</a>&nbsp;getControlledActivityHubSensors()</pre>
 <div class="block">Get a list of all available ActivityHub sensors in the system
  
- Get the ontological service request
- Send service request to service bus
- Process the response
- Log errors if the call was not successful</div>
+ Get the ontological service request Send service request to service bus
+ Process the response Log errors if the call was not successful</div>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>ArrayList with ActivityHubSensors (Ontology Resource objects)</dd>
@@ -294,10 +285,8 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <pre>public static&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&nbsp;getActivityHubSensorInfo(<a href="../../../../../../org/universAAL/ontology/activityhub/ActivityHubSensor.html" title="class in org.universAAL.ontology.activityhub">ActivityHubSensor</a>&nbsp;ahs)</pre>
 <div class="block">Get details for a specific ActivityHub sensor
  
- Get the ontological service request
- Send service request to service bus
- Process the response
- Log errors if the call was not successful</div>
+ Get the ontological service request Send service request to service bus
+ Process the response Log errors if the call was not successful</div>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>List with ? (Ontology Resource objects)</dd>
@@ -311,10 +300,9 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <li class="blockList">
 <h4>getSensors</h4>
 <pre>public&nbsp;void&nbsp;getSensors()</pre>
-<div class="block">Fetch sensors from service bus and send to gui
- Process result list of ActivityHubSensors from service response
- Send just URI-Strings to client application to decouple from Ontology-stuff
- Display sensor list in GUI</div>
+<div class="block">Fetch sensors from service bus and send to gui Process result list of
+ ActivityHubSensors from service response Send just URI-Strings to client
+ application to decouple from Ontology-stuff Display sensor list in GUI</div>
 </li>
 </ul>
 <a name="getDeviceInfo-java.lang.String-int-">
@@ -325,13 +313,12 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <h4>getDeviceInfo</h4>
 <pre>public&nbsp;void&nbsp;getDeviceInfo(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;sensorURI,
                           int&nbsp;deviceType)</pre>
-<div class="block">The parameters are just URI-Strings to keep this class stateless
- A new ActivityHubSensor is created from the Ontology according to the URIs 
- from the client application (client doesn't store Ontology Resource objects)
+<div class="block">The parameters are just URI-Strings to keep this class stateless A new
+ ActivityHubSensor is created from the Ontology according to the URIs from
+ the client application (client doesn't store Ontology Resource objects)
  Pass this sensor object in service request
  
- Process result list from service response
- Send result text array to GUI</div>
+ Process result list from service response Send result text array to GUI</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>sensorURI</code> - is the resourceURI</dd>
@@ -346,9 +333,8 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <li class="blockList">
 <h4>getAllActivityHubSensorsRequest</h4>
 <pre>public static&nbsp;<a href="../../../../../../org/universAAL/middleware/service/ServiceRequest.html" title="class in org.universAAL.middleware.service">ServiceRequest</a>&nbsp;getAllActivityHubSensorsRequest()</pre>
-<div class="block">Create ontological service request
- no input
- output: resources that are controled by ActivityHub service</div>
+<div class="block">Create ontological service request no input output: resources that are
+ controled by ActivityHub service</div>
 </li>
 </ul>
 <a name="deleteGui--">

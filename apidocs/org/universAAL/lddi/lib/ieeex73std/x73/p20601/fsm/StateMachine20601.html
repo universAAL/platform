@@ -270,23 +270,26 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <tr id="i10" class="altColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/fsm/StateMachine20601.html#transitiontoCheckingConfig--">transitiontoCheckingConfig</a></span>()</code>
-<div class="block">Once the manager receives a configuration from the agent, 
- it will be analysed for knowing if it can be handled.</div>
+<div class="block">Once the manager receives a configuration from the agent, it will be
+ analysed for knowing if it can be handled.</div>
 </td>
 </tr>
 <tr id="i11" class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/fsm/StateMachine20601.html#transitiontoDisassociating--">transitiontoDisassociating</a></span>()</code>
-<div class="block">The data communication has finished successfully, so the agent and the manager close the association until the next interaction.</div>
+<div class="block">The data communication has finished successfully, so the agent and the
+ manager close the association until the next interaction.</div>
 </td>
 </tr>
 <tr id="i12" class="altColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/fsm/StateMachine20601.html#transitiontoOperating--">transitiontoOperating</a></span>()</code>
-<div class="block">Finally, after checking that the configuration is valid, the data channel can be stablished
+<div class="block">Finally, after checking that the configuration is valid, the data channel
+ can be stablished
  
- Also, the process of receiving and checking configurations could be avoided if the agent information
- has been stored in a previous connection in a cache.</div>
+ Also, the process of receiving and checking configurations could be
+ avoided if the agent information has been stored in a previous connection
+ in a cache.</div>
 </td>
 </tr>
 <tr id="i13" class="rowColor">
@@ -298,8 +301,8 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <tr id="i14" class="altColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/fsm/StateMachine20601.html#transitiontoWaitingConfig--">transitiontoWaitingConfig</a></span>()</code>
-<div class="block">This state is reached when the association request is accepted by the manager, 
- but the agent information is not stored in cache.</div>
+<div class="block">This state is reached when the association request is accepted by the
+ manager, but the agent information is not stored in cache.</div>
 </td>
 </tr>
 <tr id="i15" class="rowColor">
@@ -608,10 +611,12 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <li class="blockList">
 <h4>transitiontoOperating</h4>
 <pre>public&nbsp;boolean&nbsp;transitiontoOperating()</pre>
-<div class="block">Finally, after checking that the configuration is valid, the data channel can be stablished
+<div class="block">Finally, after checking that the configuration is valid, the data channel
+ can be stablished
  
- Also, the process of receiving and checking configurations could be avoided if the agent information
- has been stored in a previous connection in a cache.</div>
+ Also, the process of receiving and checking configurations could be
+ avoided if the agent information has been stored in a previous connection
+ in a cache.</div>
 </li>
 </ul>
 <a name="transitiontoCheckingConfig--">
@@ -621,8 +626,8 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <li class="blockList">
 <h4>transitiontoCheckingConfig</h4>
 <pre>public&nbsp;boolean&nbsp;transitiontoCheckingConfig()</pre>
-<div class="block">Once the manager receives a configuration from the agent, 
- it will be analysed for knowing if it can be handled.</div>
+<div class="block">Once the manager receives a configuration from the agent, it will be
+ analysed for knowing if it can be handled.</div>
 </li>
 </ul>
 <a name="transitiontoWaitingConfig--">
@@ -632,13 +637,13 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <li class="blockList">
 <h4>transitiontoWaitingConfig</h4>
 <pre>public&nbsp;boolean&nbsp;transitiontoWaitingConfig()</pre>
-<div class="block">This state is reached when the association request is accepted by the manager, 
- but the agent information is not stored in cache. 
- So, it has to obtain a configuration from it in order to know what king of device is 
+<div class="block">This state is reached when the association request is accepted by the
+ manager, but the agent information is not stored in cache. So, it has to
+ obtain a configuration from it in order to know what king of device is
  and what information the agent provides.
  
- Another option is, while configurating, the received configuration is not accepted,
- so the manager will wait for another one.</div>
+ Another option is, while configurating, the received configuration is not
+ accepted, so the manager will wait for another one.</div>
 </li>
 </ul>
 <a name="transitiontoDisassociating--">
@@ -648,7 +653,8 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <li class="blockList">
 <h4>transitiontoDisassociating</h4>
 <pre>public&nbsp;boolean&nbsp;transitiontoDisassociating()</pre>
-<div class="block">The data communication has finished successfully, so the agent and the manager close the association until the next interaction.</div>
+<div class="block">The data communication has finished successfully, so the agent and the
+ manager close the association until the next interaction.</div>
 </li>
 </ul>
 <a name="isValidTransition-int-int-">

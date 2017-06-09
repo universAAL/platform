@@ -127,13 +127,12 @@ var activeTableTab = "activeTableTab";
 <br>
 <pre>public abstract class <span class="typeNameLabel">FormModel</span>
 extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></pre>
-<div class="block">Model for Forms, all <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/defaultLookAndFeel/FormLAF.html" title="class in org.universAAL.ui.handler.gui.swing.defaultLookAndFeel"><code>FormLAF</code></a> should extend this class
- which will provide the available panels (Standard, submits and
- IO).
+<div class="block">Model for Forms, all <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/defaultLookAndFeel/FormLAF.html" title="class in org.universAAL.ui.handler.gui.swing.defaultLookAndFeel"><code>FormLAF</code></a> should extend this class which will
+ provide the available panels (Standard, submits and IO).
 
- This model also provides other functionalities such as the
- parent tree construction for subdialogs. And antecessor query
- to check if a dialog is the parent tree of the form.</div>
+ This model also provides other functionalities such as the parent tree
+ construction for subdialogs. And antecessor query to check if a dialog is the
+ parent tree of the form.</div>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>
 <dd><a href="mailto:amedrano@lst.tfo.upm.es">amedrano</a></dd>
@@ -240,14 +239,14 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/ui/handler/gui/swing/model/FormModel.html#finalizeForm--">finalizeForm</a></span>()</code>
-<div class="block">Terminate the current dialog, close the frame, and
- unregister from <code>FormModelMapper</code>.</div>
+<div class="block">Terminate the current dialog, close the frame, and unregister from
+ <code>FormModelMapper</code>.</div>
 </td>
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code><a href="../../../../../../../org/universAAL/ui/handler/gui/swing/model/Model.html" title="class in org.universAAL.ui.handler.gui.swing.model">Model</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/ui/handler/gui/swing/model/FormModel.html#findModel-java.lang.String-">findModel</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;URI)</code>
-<div class="block">Find the <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/model/Model.html" title="class in org.universAAL.ui.handler.gui.swing.model"><code>Model</code></a> in the children corresponding to the 
+<div class="block">Find the <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/model/Model.html" title="class in org.universAAL.ui.handler.gui.swing.model"><code>Model</code></a> in the children corresponding to the
  <a href="../../../../../../../org/universAAL/middleware/ui/rdf/FormControl.html" title="class in org.universAAL.middleware.ui.rdf"><code>FormControl</code></a>'s URI</div>
 </td>
 </tr>
@@ -314,8 +313,8 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <tr id="i12" class="altColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/ui/handler/gui/swing/model/FormModel.html#isAntecessor-java.lang.String-">isAntecessor</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;uri)</code>
-<div class="block">Checks if the URI represents any antecessor <a href="../../../../../../../org/universAAL/middleware/ui/rdf/Form.html" title="class in org.universAAL.middleware.ui.rdf"><code>Form</code></a> of
- the current <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/model/FormModel.html" title="class in org.universAAL.ui.handler.gui.swing.model"><code>FormModel</code></a>.</div>
+<div class="block">Checks if the URI represents any antecessor <a href="../../../../../../../org/universAAL/middleware/ui/rdf/Form.html" title="class in org.universAAL.middleware.ui.rdf"><code>Form</code></a> of the current
+ <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/model/FormModel.html" title="class in org.universAAL.ui.handler.gui.swing.model"><code>FormModel</code></a>.</div>
 </td>
 </tr>
 <tr id="i13" class="rowColor">
@@ -327,21 +326,19 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <tr id="i14" class="altColor">
 <td class="colFirst"><code>abstract void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/ui/handler/gui/swing/model/FormModel.html#showForm--">showForm</a></span>()</code>
-<div class="block">Construct the Frame that displays the <a href="../../../../../../../org/universAAL/middleware/ui/rdf/Form.html" title="class in org.universAAL.middleware.ui.rdf"><code>Form</code></a> and 
- make it visible.</div>
+<div class="block">Construct the Frame that displays the <a href="../../../../../../../org/universAAL/middleware/ui/rdf/Form.html" title="class in org.universAAL.middleware.ui.rdf"><code>Form</code></a> and make it visible.</div>
 </td>
 </tr>
 <tr id="i15" class="rowColor">
 <td class="colFirst"><code>protected abstract void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/ui/handler/gui/swing/model/FormModel.html#terminateDialog--">terminateDialog</a></span>()</code>
-<div class="block">Terminate the dialog, closing the frame, and any
- required procedure.</div>
+<div class="block">Terminate the dialog, closing the frame, and any required procedure.</div>
 </td>
 </tr>
 <tr id="i16" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/ui/handler/gui/swing/model/FormModel.html#updateMissingInput-org.universAAL.middleware.ui.rdf.Input-">updateMissingInput</a></span>(<a href="../../../../../../../org/universAAL/middleware/ui/rdf/Input.html" title="class in org.universAAL.middleware.ui.rdf">Input</a>&nbsp;in)</code>
-<div class="block">Finds the Model for the <a href="../../../../../../../org/universAAL/middleware/ui/rdf/Input.html" title="class in org.universAAL.middleware.ui.rdf"><code>Input</code></a> and instructs it to 
+<div class="block">Finds the Model for the <a href="../../../../../../../org/universAAL/middleware/ui/rdf/Input.html" title="class in org.universAAL.middleware.ui.rdf"><code>Input</code></a> and instructs it to
  <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/model/FormControl/InputModel.html#updateAsMissing--"><code>InputModel.updateAsMissing()</code></a>.</div>
 </td>
 </tr>
@@ -465,15 +462,14 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <h4>FormModel</h4>
 <pre>protected&nbsp;FormModel(<a href="../../../../../../../org/universAAL/middleware/ui/rdf/Form.html" title="class in org.universAAL.middleware.ui.rdf">Form</a>&nbsp;f,
                     <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/Renderer.html" title="class in org.universAAL.ui.handler.gui.swing">Renderer</a>&nbsp;renderer)</pre>
-<div class="block">Constructor for a given <a href="../../../../../../../org/universAAL/middleware/ui/rdf/Form.html" title="class in org.universAAL.middleware.ui.rdf"><code>Form</code></a>.
- Retrieves the parent (if there is any) and computes
- the depth.
- Registers the form in the <code>FormModelMapper</code> to
- be retrieved by successors.</div>
+<div class="block">Constructor for a given <a href="../../../../../../../org/universAAL/middleware/ui/rdf/Form.html" title="class in org.universAAL.middleware.ui.rdf"><code>Form</code></a>. Retrieves the parent (if there is
+ any) and computes the depth. Registers the form in the
+ <code>FormModelMapper</code> to be retrieved by successors.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>f</code> - The <a href="../../../../../../../org/universAAL/middleware/ui/rdf/Form.html" title="class in org.universAAL.middleware.ui.rdf"><code>Form</code></a> for which the model is constructed.</dd>
-<dd><code>renderer</code> - The <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/Renderer.html" title="class in org.universAAL.ui.handler.gui.swing"><code>Renderer</code></a> used to access <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/formManagement/FormManager.html" title="interface in org.universAAL.ui.handler.gui.swing.formManagement"><code>FormManager</code></a> and <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/ModelMapper.html" title="class in org.universAAL.ui.handler.gui.swing"><code>ModelMapper</code></a></dd>
+<dd><code>renderer</code> - The <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/Renderer.html" title="class in org.universAAL.ui.handler.gui.swing"><code>Renderer</code></a> used to access <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/formManagement/FormManager.html" title="interface in org.universAAL.ui.handler.gui.swing.formManagement"><code>FormManager</code></a> and
+            <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/ModelMapper.html" title="class in org.universAAL.ui.handler.gui.swing"><code>ModelMapper</code></a></dd>
 </dl>
 </li>
 </ul>
@@ -492,8 +488,7 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <li class="blockList">
 <h4>showForm</h4>
 <pre>public abstract&nbsp;void&nbsp;showForm()</pre>
-<div class="block">Construct the Frame that displays the <a href="../../../../../../../org/universAAL/middleware/ui/rdf/Form.html" title="class in org.universAAL.middleware.ui.rdf"><code>Form</code></a> and 
- make it visible.</div>
+<div class="block">Construct the Frame that displays the <a href="../../../../../../../org/universAAL/middleware/ui/rdf/Form.html" title="class in org.universAAL.middleware.ui.rdf"><code>Form</code></a> and make it visible.</div>
 </li>
 </ul>
 <a name="terminateDialog--">
@@ -503,8 +498,7 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <li class="blockList">
 <h4>terminateDialog</h4>
 <pre>protected abstract&nbsp;void&nbsp;terminateDialog()</pre>
-<div class="block">Terminate the dialog, closing the frame, and any
- required procedure.</div>
+<div class="block">Terminate the dialog, closing the frame, and any required procedure.</div>
 </li>
 </ul>
 <a name="finalizeForm--">
@@ -514,8 +508,8 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <li class="blockList">
 <h4>finalizeForm</h4>
 <pre>public&nbsp;void&nbsp;finalizeForm()</pre>
-<div class="block">Terminate the current dialog, close the frame, and
- unregister from <code>FormModelMapper</code>.</div>
+<div class="block">Terminate the current dialog, close the frame, and unregister from
+ <code>FormModelMapper</code>.</div>
 </li>
 </ul>
 <a name="getForm--">
@@ -539,14 +533,14 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <li class="blockList">
 <h4>isAntecessor</h4>
 <pre>public&nbsp;boolean&nbsp;isAntecessor(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;uri)</pre>
-<div class="block">Checks if the URI represents any antecessor <a href="../../../../../../../org/universAAL/middleware/ui/rdf/Form.html" title="class in org.universAAL.middleware.ui.rdf"><code>Form</code></a> of
- the current <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/model/FormModel.html" title="class in org.universAAL.ui.handler.gui.swing.model"><code>FormModel</code></a>.</div>
+<div class="block">Checks if the URI represents any antecessor <a href="../../../../../../../org/universAAL/middleware/ui/rdf/Form.html" title="class in org.universAAL.middleware.ui.rdf"><code>Form</code></a> of the current
+ <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/model/FormModel.html" title="class in org.universAAL.ui.handler.gui.swing.model"><code>FormModel</code></a>.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>uri</code> - candidate antecessor's URI</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>true if uri is equal or an antecessor of the current
- <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/model/FormModel.html" title="class in org.universAAL.ui.handler.gui.swing.model"><code>FormModel</code></a>.</dd>
+         <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/model/FormModel.html" title="class in org.universAAL.ui.handler.gui.swing.model"><code>FormModel</code></a>.</dd>
 </dl>
 </li>
 </ul>
@@ -561,7 +555,7 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>a <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JPanel.html?is-external=true" title="class or interface in javax.swing"><code>JPanel</code></a> with all the components inside
- <a href="../../../../../../../org/universAAL/middleware/ui/rdf/Form.html#getIOControls--"><code>Form.getIOControls()</code></a> group.</dd>
+         <a href="../../../../../../../org/universAAL/middleware/ui/rdf/Form.html#getIOControls--"><code>Form.getIOControls()</code></a> group.</dd>
 </dl>
 </li>
 </ul>
@@ -576,7 +570,7 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>a <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JPanel.html?is-external=true" title="class or interface in javax.swing"><code>JPanel</code></a> with all the components inside
- <a href="../../../../../../../org/universAAL/middleware/ui/rdf/Form.html#getStandardButtons--"><code>Form.getStandardButtons()</code></a> group.</dd>
+         <a href="../../../../../../../org/universAAL/middleware/ui/rdf/Form.html#getStandardButtons--"><code>Form.getStandardButtons()</code></a> group.</dd>
 </dl>
 </li>
 </ul>
@@ -591,7 +585,7 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>a <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JPanel.html?is-external=true" title="class or interface in javax.swing"><code>JPanel</code></a> with all the components inside
- <a href="../../../../../../../org/universAAL/middleware/ui/rdf/Form.html#getSubmits--"><code>Form.getSubmits()</code></a> group.</dd>
+         <a href="../../../../../../../org/universAAL/middleware/ui/rdf/Form.html#getSubmits--"><code>Form.getSubmits()</code></a> group.</dd>
 </dl>
 </li>
 </ul>
@@ -608,7 +602,7 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <dd><code>depth</code> - the desired depth.</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>a <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JPanel.html?is-external=true" title="class or interface in javax.swing"><code>JPanel</code></a> with all the components inside
- <a href="../../../../../../../org/universAAL/middleware/ui/rdf/Form.html#getIOControls--"><code>Form.getIOControls()</code></a> group of the antecessor.</dd>
+         <a href="../../../../../../../org/universAAL/middleware/ui/rdf/Form.html#getIOControls--"><code>Form.getIOControls()</code></a> group of the antecessor.</dd>
 <dt><span class="seeLabel">See Also:</span></dt>
 <dd><a href="../../../../../../../org/universAAL/ui/handler/gui/swing/model/FormModel.html#subDialogLevel"><code>subDialogLevel</code></a>, 
 <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/model/FormModel.html#getIOPanel--"><code>getIOPanel()</code></a></dd>
@@ -628,7 +622,7 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <dd><code>depth</code> - the desired depth.</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>a <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JPanel.html?is-external=true" title="class or interface in javax.swing"><code>JPanel</code></a> with all the components inside
- <a href="../../../../../../../org/universAAL/middleware/ui/rdf/Form.html#getSubmits--"><code>Form.getSubmits()</code></a> group of the antecessor.</dd>
+         <a href="../../../../../../../org/universAAL/middleware/ui/rdf/Form.html#getSubmits--"><code>Form.getSubmits()</code></a> group of the antecessor.</dd>
 <dt><span class="seeLabel">See Also:</span></dt>
 <dd><a href="../../../../../../../org/universAAL/ui/handler/gui/swing/model/FormModel.html#subDialogLevel"><code>subDialogLevel</code></a>, 
 <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/model/FormModel.html#getSubmitPanel--"><code>getSubmitPanel()</code></a></dd>
@@ -675,8 +669,8 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <div class="block">Get the list of all parent form titles.</div>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>an array of titles, the first one being the farthest ancestor
-        and the last being the current form's title.</dd>
+<dd>an array of titles, the first one being the farthest ancestor and
+         the last being the current form's title.</dd>
 </dl>
 </li>
 </ul>
@@ -714,7 +708,7 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <li class="blockList">
 <h4>updateMissingInput</h4>
 <pre>public&nbsp;void&nbsp;updateMissingInput(<a href="../../../../../../../org/universAAL/middleware/ui/rdf/Input.html" title="class in org.universAAL.middleware.ui.rdf">Input</a>&nbsp;in)</pre>
-<div class="block">Finds the Model for the <a href="../../../../../../../org/universAAL/middleware/ui/rdf/Input.html" title="class in org.universAAL.middleware.ui.rdf"><code>Input</code></a> and instructs it to 
+<div class="block">Finds the Model for the <a href="../../../../../../../org/universAAL/middleware/ui/rdf/Input.html" title="class in org.universAAL.middleware.ui.rdf"><code>Input</code></a> and instructs it to
  <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/model/FormControl/InputModel.html#updateAsMissing--"><code>InputModel.updateAsMissing()</code></a>.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -729,7 +723,7 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <li class="blockList">
 <h4>findModel</h4>
 <pre>public&nbsp;<a href="../../../../../../../org/universAAL/ui/handler/gui/swing/model/Model.html" title="class in org.universAAL.ui.handler.gui.swing.model">Model</a>&nbsp;findModel(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;URI)</pre>
-<div class="block">Find the <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/model/Model.html" title="class in org.universAAL.ui.handler.gui.swing.model"><code>Model</code></a> in the children corresponding to the 
+<div class="block">Find the <a href="../../../../../../../org/universAAL/ui/handler/gui/swing/model/Model.html" title="class in org.universAAL.ui.handler.gui.swing.model"><code>Model</code></a> in the children corresponding to the
  <a href="../../../../../../../org/universAAL/middleware/ui/rdf/FormControl.html" title="class in org.universAAL.middleware.ui.rdf"><code>FormControl</code></a>'s URI</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>

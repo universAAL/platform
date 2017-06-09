@@ -106,8 +106,9 @@ var activeTableTab = "activeTableTab";
 <hr>
 <br>
 <pre>public interface <span class="typeNameLabel">hdpManagerListener</span></pre>
-<div class="block">Interface that should be necessary implemented by the HDP manager in order to attend "connection", 
-        "disconnection" and "received data" agents (Continua sources) events</div>
+<div class="block">Interface that should be necessary implemented by the HDP manager in order to
+ attend "connection", "disconnection" and "received data" agents (Continua
+ sources) events</div>
 <dl>
 <dt><span class="simpleTagLabel">Version:</span></dt>
 <dd>0 June, 2012</dd>
@@ -178,7 +179,8 @@ var activeTableTab = "activeTableTab";
 <li class="blockList">
 <h4>onChannelConnected</h4>
 <pre>void&nbsp;onChannelConnected()</pre>
-<div class="block">HDP data channel ready (created or reconnected). x073 agent state machine at connected status.</div>
+<div class="block">HDP data channel ready (created or reconnected). x073 agent state machine
+ at connected status.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>Input</code> - arguments are not needed</dd>
@@ -192,7 +194,8 @@ var activeTableTab = "activeTableTab";
 <li class="blockList">
 <h4>onChannelDisconnected</h4>
 <pre>void&nbsp;onChannelDisconnected()</pre>
-<div class="block">HDP data channel deleted (data path will not be valid anymore). x073 agent state machine at disconnected status.</div>
+<div class="block">HDP data channel deleted (data path will not be valid anymore). x073
+ agent state machine at disconnected status.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>Input</code> - arguments are not needed</dd>
@@ -206,7 +209,8 @@ var activeTableTab = "activeTableTab";
 <li class="blockList">
 <h4>onDataReceived</h4>
 <pre>void&nbsp;onDataReceived()</pre>
-<div class="block">Input HDP data frame available at the right file descriptor. x073 agent state machine at connected status.       *</div>
+<div class="block">Input HDP data frame available at the right file descriptor. x073 agent
+ state machine at connected status. *</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>Input</code> - arguments are not needed</dd>
@@ -220,7 +224,8 @@ var activeTableTab = "activeTableTab";
 <li class="blockList">
 <h4>onMessage</h4>
 <pre>void&nbsp;onMessage(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;str)</pre>
-<div class="block">Output of printf functions in native library (C code). Callback method to show C messages in Java environments</div>
+<div class="block">Output of printf functions in native library (C code). Callback method to
+ show C messages in Java environments</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>Message</code> - to be shown (string text)</dd>

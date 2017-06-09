@@ -143,12 +143,12 @@ var activeTableTab = "activeTableTab";
 <br>
 <pre>public class <span class="typeNameLabel">ActivityHubClient</span>
 extends <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JPanel.html?is-external=true" title="class or interface in javax.swing">JPanel</a></pre>
-<div class="block">This is the connector class to the uAAL related ontology classes, mainly MyActivityHubServiceConsumer.java
- This class knows nothing about Ontologies!
- It could be part of a Java application.
- Here, it is a single class application with a simple GUI.
- 2 Buttons are provided for 'getAllSensors' and 'getSensorInfo'
- Furthermore, 2 textAreas for incoming context events and log messages</div>
+<div class="block">This is the connector class to the uAAL related ontology classes, mainly
+ MyActivityHubServiceConsumer.java This class knows nothing about Ontologies!
+ It could be part of a Java application. Here, it is a single class
+ application with a simple GUI. 2 Buttons are provided for 'getAllSensors' and
+ 'getSensorInfo' Furthermore, 2 textAreas for incoming context events and log
+ messages</div>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>
 <dd>Thomas Fuxreiter (foex@gmx.at)</dd>
@@ -269,16 +269,15 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JPanel.htm
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/lddi/samples/activityhub/client/ActivityHubClient.html#addTextToContextArea-java.lang.String-">addTextToContextArea</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;text)</code>
 <div class="block">Helper class that displays the given text on the contextArea on the GUI
- adding a line break
- and set focus always to the bottom of the textArea</div>
+ adding a line break and set focus always to the bottom of the textArea</div>
 </td>
 </tr>
 <tr id="i2" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/lddi/samples/activityhub/client/ActivityHubClient.html#addTextToDeviceArea-java.lang.String-">addTextToDeviceArea</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;text)</code>
-<div class="block">Helper class that displays the given text on the deviceInfoArea on the GUI
- adding a line break
- and set focus always to the bottom of the textArea</div>
+<div class="block">Helper class that displays the given text on the deviceInfoArea on the
+ GUI adding a line break and set focus always to the bottom of the
+ textArea</div>
 </td>
 </tr>
 <tr id="i3" class="rowColor">
@@ -307,9 +306,10 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JPanel.htm
 <tr id="i7" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/lddi/samples/activityhub/client/ActivityHubClient.html#showSensorList--">showSensorList</a></span>()</code>
-<div class="block">just display the sensors that are already in the datastore this.activityHubSensors
- in the first list on the GUI
- Should be called after all sensors are stored through multiple calls of addActivityHubSensor</div>
+<div class="block">just display the sensors that are already in the datastore
+ this.activityHubSensors in the first list on the GUI Should be called
+ after all sensors are stored through multiple calls of
+ addActivityHubSensor</div>
 </td>
 </tr>
 <tr id="i8" class="altColor">
@@ -410,7 +410,8 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JPanel.htm
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>resourceURI</code> - instanceId</dd>
-<dd><code>sensorType</code> - must be identical from the ontology model to the iso11073 library model !!</dd>
+<dd><code>sensorType</code> - must be identical from the ontology model to the iso11073
+            library model !!</dd>
 </dl>
 </li>
 </ul>
@@ -421,9 +422,10 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JPanel.htm
 <li class="blockList">
 <h4>showSensorList</h4>
 <pre>public&nbsp;void&nbsp;showSensorList()</pre>
-<div class="block">just display the sensors that are already in the datastore this.activityHubSensors
- in the first list on the GUI
- Should be called after all sensors are stored through multiple calls of addActivityHubSensor</div>
+<div class="block">just display the sensors that are already in the datastore
+ this.activityHubSensors in the first list on the GUI Should be called
+ after all sensors are stored through multiple calls of
+ addActivityHubSensor</div>
 </li>
 </ul>
 <a name="showDeviceInfo-java.lang.String:A-">
@@ -447,9 +449,9 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JPanel.htm
 <li class="blockList">
 <h4>addTextToDeviceArea</h4>
 <pre>public&nbsp;void&nbsp;addTextToDeviceArea(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;text)</pre>
-<div class="block">Helper class that displays the given text on the deviceInfoArea on the GUI
- adding a line break
- and set focus always to the bottom of the textArea</div>
+<div class="block">Helper class that displays the given text on the deviceInfoArea on the
+ GUI adding a line break and set focus always to the bottom of the
+ textArea</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>text</code> - </dd>
@@ -478,8 +480,7 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JPanel.htm
 <h4>addTextToContextArea</h4>
 <pre>public&nbsp;void&nbsp;addTextToContextArea(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;text)</pre>
 <div class="block">Helper class that displays the given text on the contextArea on the GUI
- adding a line break
- and set focus always to the bottom of the textArea</div>
+ adding a line break and set focus always to the bottom of the textArea</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>text</code> - </dd>

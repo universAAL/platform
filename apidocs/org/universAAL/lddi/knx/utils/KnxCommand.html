@@ -126,14 +126,10 @@ var activeTableTab = "activeTableTab";
 <br>
 <pre>public enum <span class="typeNameLabel">KnxCommand</span>
 extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html?is-external=true" title="class or interface in java.lang">Enum</a>&lt;<a href="../../../../../org/universAAL/lddi/knx/utils/KnxCommand.html" title="enum in org.universAAL.lddi.knx.utils">KnxCommand</a>&gt;</pre>
-<div class="block">The KNX command type is sent within the TCPI and ACPI bytes.
- Octets:
- 0 0 X X X X C C   C C D D D D D D        B = Command (APCI)    D = Data
-                           0 0   0 0                                    Value Read
-                           0 0   0 1                                    Value Response  
-                           0 0   1 0                                    Value Write
-                           1 0   1 0                                    Memory Write
- 0 0 0 0 0 0 0 0   1 0 0 0 0 0 0 0      0x80</div>
+<div class="block">The KNX command type is sent within the TCPI and ACPI bytes. Octets: 0 0 X X
+ X X C C C C D D D D D D B = Command (APCI) D = Data 0 0 0 0 Value Read 0 0 0
+ 1 Value Response 0 0 1 0 Value Write 1 0 1 0 Memory Write 0 0 0 0 0 0 0 0 1 0
+ 0 0 0 0 0 0 0x80</div>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>
 <dd>Thomas Fuxreiter (foex@gmx.at)</dd>

@@ -117,22 +117,33 @@ var activeTableTab = "activeTableTab";
 <br>
 <pre>public abstract class <span class="typeNameLabel">ExternalComponent</span>
 extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></pre>
-<div class="block"><p>An external component is a hard- or software component that is outside the universAAL network
- and can be reached via a <a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html" title="class in org.universAAL.lddi.abstraction"><code>gateway</code></a>.</p>
+<div class="block"><p>
+ An external component is a hard- or software component that is outside the
+ universAAL network and can be reached via a <a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html" title="class in org.universAAL.lddi.abstraction"><code>gateway</code></a>.
+ </p>
  
- <p>Instances of this class should be created only by instances of <a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html" title="class in org.universAAL.lddi.abstraction"><code>CommunicationGateway</code></a>.
- The gateway that have created an instance can be fetched by calling <a href="../../../../org/universAAL/lddi/abstraction/ExternalComponent.html#getGateway--"><code>getGateway()</code></a>, which
- is important for the instances of <a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction"><code>ComponentIntegrator</code></a> when they are notified by gateways
- about the existence of external components.</p>
+ <p>
+ Instances of this class should be created only by instances of
+ <a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html" title="class in org.universAAL.lddi.abstraction"><code>CommunicationGateway</code></a>. The gateway that have created an instance can
+ be fetched by calling <a href="../../../../org/universAAL/lddi/abstraction/ExternalComponent.html#getGateway--"><code>getGateway()</code></a>, which is important for the
+ instances of <a href="../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction"><code>ComponentIntegrator</code></a> when they are notified by gateways
+ about the existence of external components.
+ </p>
  
- <p>To support gateways in mapping the ontological way of "addressing" in universAAL to the kind of addressing
- in the external network, this class provides the methods <a href="../../../../org/universAAL/lddi/abstraction/ExternalComponent.html#addPropMapping-java.lang.String-org.universAAL.lddi.abstraction.ExternalDatapoint-"><code>addPropMapping(String, ExternalDatapoint)</code></a>
- and <a href="../../../../org/universAAL/lddi/abstraction/ExternalComponent.html#getDatapoint-java.lang.String-"><code>getDatapoint(String)</code></a> in terms of mapping ontological properties to read- and writable datapoints.
- Gateways are expected to use this class as means for grouping external datapoints that correspond
- to a distinct component of a distinct type. Then, in each external component, all properties mapped to
- the selected group of external datapoints must be defined for that type in the used ontology. This type must
- be set by gateways and can be fetched by calling <a href="../../../../org/universAAL/lddi/abstraction/ExternalComponent.html#getTypeURI--"><code>getTypeURI()</code></a>. Thinking in terms of devices, this
- means that all properties must belong to a single device whose type is returned by <a href="../../../../org/universAAL/lddi/abstraction/ExternalComponent.html#getTypeURI--"><code>getTypeURI()</code></a>.</p></div>
+ <p>
+ To support gateways in mapping the ontological way of "addressing" in
+ universAAL to the kind of addressing in the external network, this class
+ provides the methods <a href="../../../../org/universAAL/lddi/abstraction/ExternalComponent.html#addPropMapping-java.lang.String-org.universAAL.lddi.abstraction.ExternalDatapoint-"><code>addPropMapping(String, ExternalDatapoint)</code></a> and
+ <a href="../../../../org/universAAL/lddi/abstraction/ExternalComponent.html#getDatapoint-java.lang.String-"><code>getDatapoint(String)</code></a> in terms of mapping ontological properties to
+ read- and writable datapoints. Gateways are expected to use this class as
+ means for grouping external datapoints that correspond to a distinct
+ component of a distinct type. Then, in each external component, all
+ properties mapped to the selected group of external datapoints must be
+ defined for that type in the used ontology. This type must be set by gateways
+ and can be fetched by calling <a href="../../../../org/universAAL/lddi/abstraction/ExternalComponent.html#getTypeURI--"><code>getTypeURI()</code></a>. Thinking in terms of
+ devices, this means that all properties must belong to a single device whose
+ type is returned by <a href="../../../../org/universAAL/lddi/abstraction/ExternalComponent.html#getTypeURI--"><code>getTypeURI()</code></a>.
+ </p></div>
 </li>
 </ul>
 </div>
@@ -156,9 +167,9 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/lddi/abstraction/ExternalComponent.html#ExternalComponent-org.universAAL.lddi.abstraction.CommunicationGateway-java.lang.String-java.lang.String-">ExternalComponent</a></span>(<a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html" title="class in org.universAAL.lddi.abstraction">CommunicationGateway</a>&nbsp;gw,
                  <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;componentURI,
                  <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;typeURI)</code>
-<div class="block">The constructor has been made 'protected' in order to force
- communication gateways to create own subclasses so that 
- each communication gateway can create only instances defined by itself.</div>
+<div class="block">The constructor has been made 'protected' in order to force communication
+ gateways to create own subclasses so that each communication gateway can
+ create only instances defined by itself.</div>
 </td>
 </tr>
 </table>
@@ -228,9 +239,9 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <pre>protected&nbsp;ExternalComponent(<a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html" title="class in org.universAAL.lddi.abstraction">CommunicationGateway</a>&nbsp;gw,
                             <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;componentURI,
                             <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;typeURI)</pre>
-<div class="block">The constructor has been made 'protected' in order to force
- communication gateways to create own subclasses so that 
- each communication gateway can create only instances defined by itself.</div>
+<div class="block">The constructor has been made 'protected' in order to force communication
+ gateways to create own subclasses so that each communication gateway can
+ create only instances defined by itself.</div>
 </li>
 </ul>
 </li>

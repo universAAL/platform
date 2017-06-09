@@ -124,10 +124,11 @@ var activeTableTab = "activeTableTab";
 <pre>public class <span class="typeNameLabel">ConfigurationInstancesStorageImpl</span>
 extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>
 implements <a href="../../../../../org/universAAL/ucc/configuration/storage/interfaces/ConfigurationInstancesStorage.html" title="interface in org.universAAL.ucc.configuration.storage.interfaces">ConfigurationInstancesStorage</a></pre>
-<div class="block">Implementation of the configuration instages storage interface.
- On startup it loads all configuration instances from file system.
+<div class="block">Implementation of the configuration instages storage interface. On startup it
+ loads all configuration instances from file system.
  
- New configuration instances could be added at runtime, where all StorageChangedListener will be informed.</div>
+ New configuration instances could be added at runtime, where all
+ StorageChangedListener will be informed.</div>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>
 <dd>Sebastian.Schoebinge</dd>
@@ -190,8 +191,9 @@ implements <a href="../../../../../org/universAAL/ucc/configuration/storage/inte
 <tr id="i4" class="altColor">
 <td class="colFirst"><code><a href="../../../../../org/universAAL/ucc/configuration/model/configurationinstances/ConfigurationInstance.html" title="class in org.universAAL.ucc.configuration.model.configurationinstances">ConfigurationInstance</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ucc/configuration/storage/ConfigurationInstancesStorageImpl.html#getConfigurationForBundle-org.osgi.framework.Bundle-">getConfigurationForBundle</a></span>(org.osgi.framework.Bundle&nbsp;bundle)</code>
-<div class="block">returns the first primary configuration instance or if there is no primary instance then this method
- returns the first configuration instance for the given bundle.</div>
+<div class="block">returns the first primary configuration instance or if there is no
+ primary instance then this method returns the first configuration
+ instance for the given bundle.</div>
 </td>
 </tr>
 <tr id="i5" class="rowColor">
@@ -353,8 +355,9 @@ implements <a href="../../../../../org/universAAL/ucc/configuration/storage/inte
 <h4>getConfigurationForBundle</h4>
 <pre>public&nbsp;<a href="../../../../../org/universAAL/ucc/configuration/model/configurationinstances/ConfigurationInstance.html" title="class in org.universAAL.ucc.configuration.model.configurationinstances">ConfigurationInstance</a>&nbsp;getConfigurationForBundle(org.osgi.framework.Bundle&nbsp;bundle)
                                                 throws <a href="../../../../../org/universAAL/ucc/configuration/storage/exceptions/NoConfigurationFoundException.html" title="class in org.universAAL.ucc.configuration.storage.exceptions">NoConfigurationFoundException</a></pre>
-<div class="block">returns the first primary configuration instance or if there is no primary instance then this method
- returns the first configuration instance for the given bundle.</div>
+<div class="block">returns the first primary configuration instance or if there is no
+ primary instance then this method returns the first configuration
+ instance for the given bundle.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code><a href="../../../../../org/universAAL/ucc/configuration/storage/interfaces/ConfigurationInstancesStorage.html#getConfigurationForBundle-org.osgi.framework.Bundle-">getConfigurationForBundle</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/universAAL/ucc/configuration/storage/interfaces/ConfigurationInstancesStorage.html" title="interface in org.universAAL.ucc.configuration.storage.interfaces">ConfigurationInstancesStorage</a></code></dd>

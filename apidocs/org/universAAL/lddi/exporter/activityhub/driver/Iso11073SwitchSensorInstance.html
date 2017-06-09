@@ -135,12 +135,12 @@ var activeTableTab = "activeTableTab";
 <pre>public class <span class="typeNameLabel">Iso11073SwitchSensorInstance</span>
 extends <a href="../../../../../../org/universAAL/lddi/lib/activityhub/driver/interfaces/ActivityHubDriver.html" title="class in org.universAAL.lddi.lib.activityhub.driver.interfaces">ActivityHubDriver</a>
 implements <a href="../../../../../../org/universAAL/lddi/lib/activityhub/devicecategory/Iso11073SwitchSensor.html" title="interface in org.universAAL.lddi.lib.activityhub.devicecategory">Iso11073SwitchSensor</a>, org.osgi.util.tracker.ServiceTrackerCustomizer, org.osgi.service.device.Constants</pre>
-<div class="block">Working instance of the ActivityHub SwitchSensor driver.
- Tracks on the SwitchSensor device service passed in the attach method 
- in Iso11073SwitchSensorDriver class.
- This instance is passed to the consuming client (e.g. uAAL exporter bundle).
- When the SwitchSensor device service disappears, this driver is removed
- from the consuming client and from the device.</div>
+<div class="block">Working instance of the ActivityHub SwitchSensor driver. Tracks on the
+ SwitchSensor device service passed in the attach method in
+ Iso11073SwitchSensorDriver class. This instance is passed to the consuming
+ client (e.g. uAAL exporter bundle). When the SwitchSensor device service
+ disappears, this driver is removed from the consuming client and from the
+ device.</div>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>
 <dd>Thomas Fuxreiter (foex@gmx.at)</dd>
@@ -229,7 +229,8 @@ implements <a href="../../../../../../org/universAAL/lddi/lib/activityhub/device
 <tr id="i2" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/lddi/exporter/activityhub/driver/Iso11073SwitchSensorInstance.html#incomingSensorEvent-int-">incomingSensorEvent</a></span>(int&nbsp;event)</code>
-<div class="block">The specific drivers have to implement this method to receive messages from devices</div>
+<div class="block">The specific drivers have to implement this method to receive messages
+ from devices</div>
 </td>
 </tr>
 <tr id="i3" class="rowColor">
@@ -360,13 +361,15 @@ implements <a href="../../../../../../org/universAAL/lddi/lib/activityhub/device
 <h4>incomingSensorEvent</h4>
 <pre>public&nbsp;void&nbsp;incomingSensorEvent(int&nbsp;event)</pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="../../../../../../org/universAAL/lddi/lib/activityhub/devicecategory/ActivityHubBaseDeviceCategory.html#incomingSensorEvent-int-">ActivityHubBaseDeviceCategory</a></code></span></div>
-<div class="block">The specific drivers have to implement this method to receive messages from devices</div>
+<div class="block">The specific drivers have to implement this method to receive messages
+ from devices</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code><a href="../../../../../../org/universAAL/lddi/lib/activityhub/devicecategory/ActivityHubBaseDeviceCategory.html#incomingSensorEvent-int-">incomingSensorEvent</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../../org/universAAL/lddi/lib/activityhub/devicecategory/ActivityHubBaseDeviceCategory.html" title="interface in org.universAAL.lddi.lib.activityhub.devicecategory">ActivityHubBaseDeviceCategory</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>event</code> - Integer representation of a specific ActivityHubSensorEvent.
- example MotionSensor: motion-detected = 0; no-condition-detected = 3</dd>
+            example MotionSensor: motion-detected = 0;
+            no-condition-detected = 3</dd>
 </dl>
 </li>
 </ul>

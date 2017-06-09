@@ -119,8 +119,8 @@ var activeTableTab = "activeTableTab";
 extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></pre>
 <div class="block">Structure of a KNX telegram. Minimum 9 bytes.
  
- 0                      1                               2               3               4               5               6               7                       8                       9 - N-1
- Controlbyte    IP-Fill-Byte    Sourceaddress   Destaddress     DRL     TPCI/APCI       APCI/Data       Data</div>
+ 0 1 2 3 4 5 6 7 8 9 - N-1 Controlbyte IP-Fill-Byte Sourceaddress Destaddress
+ DRL TPCI/APCI APCI/Data Data</div>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>
 <dd>Thomas Fuxreiter (foex@gmx.at)</dd>
@@ -144,8 +144,7 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 </tr>
 <tr class="altColor">
 <td class="colOne"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/lddi/knx/utils/KnxTelegram.html#KnxTelegram--">KnxTelegram</a></span>()</code>
-<div class="block">Constructor
- Create an empty object and set fields separately.</div>
+<div class="block">Constructor Create an empty object and set fields separately.</div>
 </td>
 </tr>
 <tr class="rowColor">
@@ -171,7 +170,8 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/lddi/knx/utils/KnxTelegram.html#createDefaultControlByte--">createDefaultControlByte</a></span>()</code>
-<div class="block">Create a default control byte 1 0 1 1 1 1 0 0 (default priority and no repeat bit)</div>
+<div class="block">Create a default control byte 1 0 1 1 1 1 0 0 (default priority and no
+ repeat bit)</div>
 </td>
 </tr>
 <tr id="i1" class="rowColor">
@@ -287,8 +287,7 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <li class="blockList">
 <h4>KnxTelegram</h4>
 <pre>public&nbsp;KnxTelegram()</pre>
-<div class="block">Constructor
- Create an empty object and set fields separately.</div>
+<div class="block">Constructor Create an empty object and set fields separately.</div>
 </li>
 </ul>
 </li>
@@ -321,7 +320,8 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <li class="blockList">
 <h4>createDefaultControlByte</h4>
 <pre>public&nbsp;void&nbsp;createDefaultControlByte()</pre>
-<div class="block">Create a default control byte 1 0 1 1 1 1 0 0 (default priority and no repeat bit)</div>
+<div class="block">Create a default control byte 1 0 1 1 1 1 0 0 (default priority and no
+ repeat bit)</div>
 </li>
 </ul>
 <a name="setRepeatBit--">
@@ -361,9 +361,9 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <li class="blockList">
 <h4>setDataBytes</h4>
 <pre>public&nbsp;void&nbsp;setDataBytes(byte[]&nbsp;data)</pre>
-<div class="block">first byte of data byte array is apci/data byte.
- last 5 bits of the apci/data byte are reserved for data!
- other data bytes go to extraDataByte[]</div>
+<div class="block">first byte of data byte array is apci/data byte. last 5 bits of the
+ apci/data byte are reserved for data! other data bytes go to
+ extraDataByte[]</div>
 </li>
 </ul>
 <a name="getDataByte--">

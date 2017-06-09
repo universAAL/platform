@@ -133,15 +133,13 @@ var activeTableTab = "activeTableTab";
  
  <pre>
  LogMonitor lm = new LogMonitor();
- myModuleContext.getContainer().shareObject(myModuleContext, lm,
-     new Object[] { LogListener.class.getName() });
+ myModuleContext.getContainer().shareObject(myModuleContext, lm, new Object[] { LogListener.class.getName() });
  </pre>
 
  To stop listening to log messages, the shared objects needs to be removed:
  
  <pre>
- myModuleContext.getContainer().removeSharedObject(myModuleContext, lm,
-     new Object[] { LogListener.class.getName() });
+ myModuleContext.getContainer().removeSharedObject(myModuleContext, lm, new Object[] { LogListener.class.getName() });
  </pre></div>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>

@@ -179,7 +179,8 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <td class="colFirst"><code><a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ApduType.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ApduType</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/manager/apdu/APDUGenerator.html#MeasureACKGenerator-org.universAAL.lddi.lib.ieeex73std.x73.p20601.DataApdu-int-">MeasureACKGenerator</a></span>(<a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/DataApdu.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">DataApdu</a>&nbsp;datareceived,
                    int&nbsp;typeofreport)</code>
-<div class="block">Generation of an acknowledgement for a measurement received from an Agent.</div>
+<div class="block">Generation of an acknowledgement for a measurement received from an
+ Agent.</div>
 </td>
 </tr>
 <tr id="i6" class="altColor">
@@ -190,7 +191,8 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <td class="colFirst"><code><a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ApduType.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ApduType</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/manager/apdu/APDUGenerator.html#RoerGenerator-org.universAAL.lddi.lib.ieeex73std.x73.p20601.InvokeIDType-int-">RoerGenerator</a></span>(<a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/InvokeIDType.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">InvokeIDType</a>&nbsp;invokeid,
              int&nbsp;err_code)</code>
-<div class="block">Something was wrong processing the Apdu from the Agent, and we will send an Error.</div>
+<div class="block">Something was wrong processing the Apdu from the Agent, and we will send
+ an Error.</div>
 </td>
 </tr>
 <tr id="i8" class="altColor">
@@ -292,7 +294,8 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <h4>MeasureACKGenerator</h4>
 <pre>public&nbsp;<a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ApduType.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ApduType</a>&nbsp;MeasureACKGenerator(<a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/DataApdu.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">DataApdu</a>&nbsp;datareceived,
                                     int&nbsp;typeofreport)</pre>
-<div class="block">Generation of an acknowledgement for a measurement received from an Agent.</div>
+<div class="block">Generation of an acknowledgement for a measurement received from an
+ Agent.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>datareceived</code> - measurement received from the Agent</dd>
@@ -309,7 +312,8 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <h4>RoerGenerator</h4>
 <pre>public&nbsp;<a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ApduType.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ApduType</a>&nbsp;RoerGenerator(<a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/InvokeIDType.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">InvokeIDType</a>&nbsp;invokeid,
                               int&nbsp;err_code)</pre>
-<div class="block">Something was wrong processing the Apdu from the Agent, and we will send an Error.</div>
+<div class="block">Something was wrong processing the Apdu from the Agent, and we will send
+ an Error.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>invokeid</code> - sequence number</dd>
@@ -343,11 +347,14 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <h4>extConfigResponsegenerator</h4>
 <pre>public&nbsp;<a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ApduType.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ApduType</a>&nbsp;extConfigResponsegenerator(<a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/InvokeIDType.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">InvokeIDType</a>&nbsp;invoke_id,
                                            <a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ConfigReportRsp.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ConfigReportRsp</a>&nbsp;resp)</pre>
-<div class="block">Generate the response to a configuration report from the Agent. Usually, this will be an extended configuration</div>
+<div class="block">Generate the response to a configuration report from the Agent. Usually,
+ this will be an extended configuration</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>invoke_id</code> - sequence number of DataApdu in which the configuration report is embedded</dd>
-<dd><code>resp</code> - object with the response (if it is valid and the manager can work with it, or not)</dd>
+<dd><code>invoke_id</code> - sequence number of DataApdu in which the configuration report
+            is embedded</dd>
+<dd><code>resp</code> - object with the response (if it is valid and the manager can
+            work with it, or not)</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>the Apdu response</dd>
 </dl>

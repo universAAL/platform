@@ -135,12 +135,12 @@ var activeTableTab = "activeTableTab";
 <pre>public class <span class="typeNameLabel">Iso11073ContactClosureSensorInstance</span>
 extends <a href="../../../../../../org/universAAL/lddi/lib/activityhub/driver/interfaces/ActivityHubDriver.html" title="class in org.universAAL.lddi.lib.activityhub.driver.interfaces">ActivityHubDriver</a>
 implements <a href="../../../../../../org/universAAL/lddi/lib/activityhub/devicecategory/Iso11073ContactClosureSensor.html" title="interface in org.universAAL.lddi.lib.activityhub.devicecategory">Iso11073ContactClosureSensor</a>, org.osgi.util.tracker.ServiceTrackerCustomizer, org.osgi.service.device.Constants</pre>
-<div class="block">Working instance of the ActivityHub ContactClosure driver.
- Tracks on the ContactClosureSensor device service passed in the attach method 
- in Iso11073ContactClosureSensorDriver class.
- This instance is passed to the consuming client (e.g. uAAL exporter bundle).
- When the ContactClosureSensor device service disappears, this driver is removed
- from the consuming client and from the device.</div>
+<div class="block">Working instance of the ActivityHub ContactClosure driver. Tracks on the
+ ContactClosureSensor device service passed in the attach method in
+ Iso11073ContactClosureSensorDriver class. This instance is passed to the
+ consuming client (e.g. uAAL exporter bundle). When the ContactClosureSensor
+ device service disappears, this driver is removed from the consuming client
+ and from the device.</div>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>
 <dd>Thomas Fuxreiter (foex@gmx.at)</dd>
@@ -367,7 +367,8 @@ implements <a href="../../../../../../org/universAAL/lddi/lib/activityhub/device
 <dd><code><a href="../../../../../../org/universAAL/lddi/lib/activityhub/devicecategory/ActivityHubBaseDeviceCategory.html#incomingSensorEvent-int-">incomingSensorEvent</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../../org/universAAL/lddi/lib/activityhub/devicecategory/ActivityHubBaseDeviceCategory.html" title="interface in org.universAAL.lddi.lib.activityhub.devicecategory">ActivityHubBaseDeviceCategory</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>event</code> - Integer representation of a specific ActivityHubSensorEvent.
- example MotionSensor: motion-detected = 0; no-condition-detected = 3</dd>
+            example MotionSensor: motion-detected = 0;
+            no-condition-detected = 3</dd>
 </dl>
 </li>
 </ul>

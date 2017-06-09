@@ -231,9 +231,8 @@ extends <a href="../../../../../org/universAAL/support/utils/service/Value.html"
 <li class="blockList">
 <h4>Typematch</h4>
 <pre>public&nbsp;Typematch(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;byTypeURI)</pre>
-<div class="block"><b>Recommended for use by SimpleRequests and SimpleProfiles</b>.
- Value used to define types to match as arguments of a
- Request.</div>
+<div class="block"><b>Recommended for use by SimpleRequests and SimpleProfiles</b>. Value
+ used to define types to match as arguments of a Request.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>byTypeURI</code> - The URI of the type that you want to match (you can get it
@@ -250,18 +249,17 @@ extends <a href="../../../../../org/universAAL/support/utils/service/Value.html"
 <pre><a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html?is-external=true" title="class or interface in java.lang">@Deprecated</a>
 public&nbsp;Typematch(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;byValue)</pre>
 <div class="block"><span class="deprecatedLabel">Deprecated.</span>&nbsp;</div>
-<div class="block">Value used to define types to match as arguments of a
- Request.
+<div class="block">Value used to define types to match as arguments of a Request.
  <p>
  DEPRECATED: The use of this constructor is discouraged as it behaves
  differently to other constructors of SimpleValues that take instance
  values. This one uses the passed value to extract its type, not to
  specify it as explicit instance.
  <p>
- This is a helper constructor that takes an instance of the
- type you want and extracts its type. The value of the instance is
- irrelevant, it's just intended for situations in which you already have
- an instance which type you want to match.</div>
+ This is a helper constructor that takes an instance of the type you want
+ and extracts its type. The value of the instance is irrelevant, it's just
+ intended for situations in which you already have an instance which type
+ you want to match.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>byValue</code> - An instance of which type you want to match.</dd>

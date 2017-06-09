@@ -133,16 +133,18 @@ var activeTableTab = "activeTableTab";
 <br>
 <pre>public class <span class="typeNameLabel">IncreaseVersionMojo</span>
 extends <a href="../../../../../org/universAAL/support/directives/api/AbstractProcedureMojo.html" title="class in org.universAAL.support.directives.api">AbstractProcedureMojo</a></pre>
-<div class="block">This Mojo updates the current project's version to the next development version.
+<div class="block">This Mojo updates the current project's version to the next development
+ version.
  <ul>
-                <li>1.2.0 turns into 1.2.1-SNAPSHOT
-                <li>1.2.1-SNAPSHOT turns into 1.2.2-SNAPSHOT
-                <li> etc...
+ <li>1.2.0 turns into 1.2.1-SNAPSHOT
+ <li>1.2.1-SNAPSHOT turns into 1.2.2-SNAPSHOT
+ <li>etc...
  </ul>
- This doesn't affect submodules's parent version, this mojo should be used in conjunction with 
- <a href="http://mojo.codehaus.org/versions-maven-plugin/">Versions Maven Plugin</a>
- (Specially usefull is the versions:update-child-modules, which updates the parent's 
- version of all modules)</div>
+ This doesn't affect submodules's parent version, this mojo should be used in
+ conjunction with
+ <a href="http://mojo.codehaus.org/versions-maven-plugin/">Versions Maven
+ Plugin</a> (Specially usefull is the versions:update-child-modules, which
+ updates the parent's version of all modules)</div>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>
 <dd>amedrano</dd>

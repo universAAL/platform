@@ -124,28 +124,28 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
  FHZ1000PC is part of the FS20-system which is a home automation system with
  devices like dimmers, switches, rain sensors and so on. The devices talk with
  each other via radio messages. The FHZ1000PC is a USB-based interface that
- allows a computer to send and receive these radio messages and thereby control
- and monitor the devices. Unfortunatly only a german control program without any
- external API accompany the device, so I had to write this interface to communicate
- with it.
+ allows a computer to send and receive these radio messages and thereby
+ control and monitor the devices. Unfortunatly only a german control program
+ without any external API accompany the device, so I had to write this
+ interface to communicate with it.
  
- The FHZ1000PC hardware is originally built for serial communication, but an 
- FTDI-chip (http://www.ftdichip.com) is used internally to convert the serial 
- communication to USB. In Windows The FTDI-drivers are installed when the FHZ1000PC  
- software is installed, and API software for those drivers are provided free by FTDI.
+ The FHZ1000PC hardware is originally built for serial communication, but an
+ FTDI-chip (http://www.ftdichip.com) is used internally to convert the serial
+ communication to USB. In Windows The FTDI-drivers are installed when the
+ FHZ1000PC software is installed, and API software for those drivers are
+ provided free by FTDI.
  
- Those API:s are C-based, so some interface class is needed to access it from Java.
- Such an interface is provided by https://jd2xx.dev.java.net. This interface is released
- with a Berkeley Software Distribution (BSD) License. This interface is implemented in 
- two files which are needed to use this interface:
- - jd2xx.dll
- - jd2xx.jar
+ Those API:s are C-based, so some interface class is needed to access it from
+ Java. Such an interface is provided by https://jd2xx.dev.java.net. This
+ interface is released with a Berkeley Software Distribution (BSD) License.
+ This interface is implemented in two files which are needed to use this
+ interface: - jd2xx.dll - jd2xx.jar
  
- The http://fhz4linux.info/tiki-index.php site provided me with information on the serial 
- protocol that FHZ1000PC uses.
+ The http://fhz4linux.info/tiki-index.php site provided me with information on
+ the serial protocol that FHZ1000PC uses.
  
- I Linux we access the device directly via the serial interface. We only have to persuade
- Linux that it really is a serial device. This is described on:
+ I Linux we access the device directly via the serial interface. We only have
+ to persuade Linux that it really is a serial device. This is described on:
  http://fhz4linux.info/tiki-index.php?page=Driver+installation</div>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>
@@ -172,20 +172,22 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <tr class="altColor">
 <td class="colFirst"><code>static interface&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/lddi/fs20/connect/FHZ1000PC.FHZ1000Device.html" title="interface in org.universAAL.lddi.fs20.connect">FHZ1000PC.FHZ1000Device</a></span></code>
-<div class="block">An interface to the "raw" FHZ1000 device where you can read and write data to it.</div>
+<div class="block">An interface to the "raw" FHZ1000 device where you can read and write
+ data to it.</div>
 </td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/lddi/fs20/connect/FHZ1000PC.FHZ1000SerialDevice.html" title="class in org.universAAL.lddi.fs20.connect">FHZ1000PC.FHZ1000SerialDevice</a></span></code>
-<div class="block">When running on Linux, we access the USB-device via generic serial drivers for FTDI-chips.</div>
+<div class="block">When running on Linux, we access the USB-device via generic serial
+ drivers for FTDI-chips.</div>
 </td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/lddi/fs20/connect/FHZ1000PC.JD2XXFHZ1000Device.html" title="class in org.universAAL.lddi.fs20.connect">FHZ1000PC.JD2XXFHZ1000Device</a></span></code>
-<div class="block">When running on Windows, we access the USB-device via FTDI-specific drivers to access
- the device.</div>
+<div class="block">When running on Windows, we access the USB-device via FTDI-specific
+ drivers to access the device.</div>
 </td>
 </tr>
 </table>
@@ -287,8 +289,8 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/lddi/fs20/connect/FHZ1000PC.html#binFS20ByteToString-int-int-">binFS20ByteToString</a></span>(int&nbsp;value,
                    int&nbsp;bits)</code>
-<div class="block">Converts an integer address to the "base 4 + 1" format used by FS20
- to denote the addresses for buttons and devices.</div>
+<div class="block">Converts an integer address to the "base 4 + 1" format used by FS20 to
+ denote the addresses for buttons and devices.</div>
 </td>
 </tr>
 <tr id="i1" class="rowColor">
@@ -304,8 +306,8 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <tr id="i3" class="rowColor">
 <td class="colFirst"><code>protected byte[]</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/lddi/fs20/connect/FHZ1000PC.html#read--">read</a></span>()</code>
-<div class="block">Reads a complete message from the FHZ1000PC device and returns the payload 
- of the message including telegram type and checksum.</div>
+<div class="block">Reads a complete message from the FHZ1000PC device and returns the
+ payload of the message including telegram type and checksum.</div>
 </td>
 </tr>
 <tr id="i4" class="altColor">
@@ -317,15 +319,15 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/lddi/fs20/connect/FHZ1000PC.html#sendFS20Command-int-byte-byte-">sendFS20Command</a></span>(int&nbsp;houseCode,
                byte&nbsp;button,
                byte&nbsp;command)</code>
-<div class="block">Send a command (for example COMMAND_DIM_DOWN) to a FS20 device (for example a dimmer) via
- the FHZ1000PC.</div>
+<div class="block">Send a command (for example COMMAND_DIM_DOWN) to a FS20 device (for
+ example a dimmer) via the FHZ1000PC.</div>
 </td>
 </tr>
 <tr id="i6" class="altColor">
 <td class="colFirst"><code>static int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/lddi/fs20/connect/FHZ1000PC.html#StringFS20ToInt-java.lang.String-">StringFS20ToInt</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;value)</code>
-<div class="block">Converts an address string in the "base 4 + 1" format used by FS20 to
- a binary byte format actually used on the protocol.</div>
+<div class="block">Converts an address string in the "base 4 + 1" format used by FS20 to a
+ binary byte format actually used on the protocol.</div>
 </td>
 </tr>
 <tr id="i7" class="rowColor">
@@ -560,11 +562,13 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
                             byte&nbsp;button,
                             byte&nbsp;command)
                      throws <a href="http://docs.oracle.com/javase/8/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>
-<div class="block">Send a command (for example COMMAND_DIM_DOWN) to a FS20 device (for example a dimmer) via
- the FHZ1000PC. The FS20 device is addressed via house code and button id.</div>
+<div class="block">Send a command (for example COMMAND_DIM_DOWN) to a FS20 device (for
+ example a dimmer) via the FHZ1000PC. The FS20 device is addressed via
+ house code and button id.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>houseCode</code> - 16 bit House Code of the FS20 device in binary form, not the 1111 2222-form.</dd>
+<dd><code>houseCode</code> - 16 bit House Code of the FS20 device in binary form, not the
+            1111 2222-form.</dd>
 <dd><code>button</code> - 8 bit button id</dd>
 <dd><code>command</code> - FS20 Command (for example COMMAND_DIM_DOWN)</dd>
 <dt><span class="throwsLabel">Throws:</span></dt>
@@ -613,8 +617,8 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <pre>protected&nbsp;int&nbsp;write(byte[]&nbsp;data,
                     byte&nbsp;telegramType)
              throws <a href="http://docs.oracle.com/javase/8/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>
-<div class="block">Sends an string of bytes to the FHZ1000PC device. The method will add the required 
- header information including checksum.</div>
+<div class="block">Sends an string of bytes to the FHZ1000PC device. The method will add the
+ required header information including checksum.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>data</code> - Array of bytes to send to device</dd>
@@ -634,10 +638,11 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <h4>read</h4>
 <pre>protected&nbsp;byte[]&nbsp;read()
                throws <a href="http://docs.oracle.com/javase/8/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>
-<div class="block">Reads a complete message from the FHZ1000PC device and returns the payload 
- of the message including telegram type and checksum. The actual message
- begins at index 2 in the array, index 0 is the telegram type and index 1 is the checksum.
- If no data was available before timeout an empty array is returned.</div>
+<div class="block">Reads a complete message from the FHZ1000PC device and returns the
+ payload of the message including telegram type and checksum. The actual
+ message begins at index 2 in the array, index 0 is the telegram type and
+ index 1 is the checksum. If no data was available before timeout an empty
+ array is returned.</div>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>bytes read including telegram type and checksum</dd>
@@ -654,8 +659,8 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <h4>binFS20ByteToString</h4>
 <pre>public static&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;binFS20ByteToString(int&nbsp;value,
                                          int&nbsp;bits)</pre>
-<div class="block">Converts an integer address to the "base 4 + 1" format used by FS20
- to denote the addresses for buttons and devices.</div>
+<div class="block">Converts an integer address to the "base 4 + 1" format used by FS20 to
+ denote the addresses for buttons and devices.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>value</code> - The binary value to convert</dd>
@@ -672,8 +677,8 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <li class="blockList">
 <h4>StringFS20ToInt</h4>
 <pre>public static&nbsp;int&nbsp;StringFS20ToInt(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;value)</pre>
-<div class="block">Converts an address string in the "base 4 + 1" format used by FS20 to
- a binary byte format actually used on the protocol.</div>
+<div class="block">Converts an address string in the "base 4 + 1" format used by FS20 to a
+ binary byte format actually used on the protocol.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>value</code> - The address string to convert</dd>

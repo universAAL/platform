@@ -211,9 +211,9 @@ extends <a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p104zz/DeviceSpecialization.html#GET--">GET</a></span>()</code>
-<div class="block">The manager may request the MDS object attributes of the agent in which case the manager shall send the
-        Remote Operation Invoke | Get command (see roiv-cmip-get in A.10.2) with the reserved handle value of
-        0.</div>
+<div class="block">The manager may request the MDS object attributes of the agent in which
+ case the manager shall send the Remote Operation Invoke | Get command
+ (see roiv-cmip-get in A.10.2) with the reserved handle value of 0.</div>
 </td>
 </tr>
 <tr id="i1" class="rowColor">
@@ -223,8 +223,9 @@ extends <a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20
 <tr id="i2" class="altColor">
 <td class="colFirst"><code><a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ConfigReportRsp.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ConfigReportRsp</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p104zz/DeviceSpecialization.html#MDS_Configuration_Event-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ConfigReport-">MDS_Configuration_Event</a></span>(<a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ConfigReport.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ConfigReport</a>&nbsp;cfgreport)</code>
-<div class="block">This event is sent by the agent during the configuring state of startup if the manager does not already
-                know the agent's configuration from past associations.</div>
+<div class="block">This event is sent by the agent during the configuring state of startup
+ if the manager does not already know the agent's configuration from past
+ associations.</div>
 </td>
 </tr>
 <tr id="i3" class="rowColor">
@@ -240,15 +241,15 @@ extends <a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20
 <tr id="i5" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p104zz/DeviceSpecialization.html#MDS_Dynamic_Data_Update_MP_Fixed-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ScanReportInfoMPFixed-">MDS_Dynamic_Data_Update_MP_Fixed</a></span>(<a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ScanReportInfoMPFixed.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ScanReportInfoMPFixed</a>&nbsp;scanreportinfompfixed)</code>
-<div class="block">This is the same as MDS-Dynamic-Data-Update-Fixed, but allows inclusion of data from multiple
-                persons.</div>
+<div class="block">This is the same as MDS-Dynamic-Data-Update-Fixed, but allows inclusion
+ of data from multiple persons.</div>
 </td>
 </tr>
 <tr id="i6" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p104zz/DeviceSpecialization.html#MDS_Dynamic_Data_Update_MP_Var-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ScanReportInfoMPVar-">MDS_Dynamic_Data_Update_MP_Var</a></span>(<a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ScanReportInfoMPVar.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ScanReportInfoMPVar</a>&nbsp;scanreportinfompvar)</code>
-<div class="block">This is the same as MDS-Dynamic-Data-Update-Var, but allows inclusion of data from multiple
-                persons.</div>
+<div class="block">This is the same as MDS-Dynamic-Data-Update-Var, but allows inclusion of
+ data from multiple persons.</div>
 </td>
 </tr>
 <tr id="i7" class="rowColor">
@@ -304,7 +305,8 @@ extends <a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20
 <li class="blockList">
 <h4>DeviceSpecialization</h4>
 <pre>public&nbsp;DeviceSpecialization(<a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/org/bn/IDecoder.html" title="interface in org.universAAL.lddi.lib.ieeex73std.org.bn">IDecoder</a>&nbsp;decoder)</pre>
-<div class="block">Analyze a configuration report from the Agent. With it, it describes the objects is using (measurement types)</div>
+<div class="block">Analyze a configuration report from the Agent. With it, it describes the
+ objects is using (measurement types)</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>cfgreport</code> - the configuration report from the agent</dd>
@@ -327,9 +329,10 @@ extends <a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20
 <h4>MDS_Configuration_Event</h4>
 <pre>public&nbsp;<a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ConfigReportRsp.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ConfigReportRsp</a>&nbsp;MDS_Configuration_Event(<a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ConfigReport.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ConfigReport</a>&nbsp;cfgreport)</pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/MDS_Events.html#MDS_Configuration_Event-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ConfigReport-">MDS_Events</a></code></span></div>
-<div class="block">This event is sent by the agent during the configuring state of startup if the manager does not already
-                know the agent's configuration from past associations. The event provides static information about the
-                supported measurement capabilities of the agent.</div>
+<div class="block">This event is sent by the agent during the configuring state of startup
+ if the manager does not already know the agent's configuration from past
+ associations. The event provides static information about the supported
+ measurement capabilities of the agent.</div>
 </li>
 </ul>
 <a name="MDS_Dynamic_Data_Update_Var-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ScanReportInfoVar-">
@@ -365,8 +368,8 @@ extends <a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20
 <h4>MDS_Dynamic_Data_Update_MP_Var</h4>
 <pre>public&nbsp;void&nbsp;MDS_Dynamic_Data_Update_MP_Var(<a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ScanReportInfoMPVar.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ScanReportInfoMPVar</a>&nbsp;scanreportinfompvar)</pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/MDS_Events.html#MDS_Dynamic_Data_Update_MP_Var-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ScanReportInfoMPVar-">MDS_Events</a></code></span></div>
-<div class="block">This is the same as MDS-Dynamic-Data-Update-Var, but allows inclusion of data from multiple
-                persons.</div>
+<div class="block">This is the same as MDS-Dynamic-Data-Update-Var, but allows inclusion of
+ data from multiple persons.</div>
 </li>
 </ul>
 <a name="MDS_Dynamic_Data_Update_MP_Fixed-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ScanReportInfoMPFixed-">
@@ -377,8 +380,8 @@ extends <a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20
 <h4>MDS_Dynamic_Data_Update_MP_Fixed</h4>
 <pre>public&nbsp;void&nbsp;MDS_Dynamic_Data_Update_MP_Fixed(<a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ScanReportInfoMPFixed.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ScanReportInfoMPFixed</a>&nbsp;scanreportinfompfixed)</pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/MDS_Events.html#MDS_Dynamic_Data_Update_MP_Fixed-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ScanReportInfoMPFixed-">MDS_Events</a></code></span></div>
-<div class="block">This is the same as MDS-Dynamic-Data-Update-Fixed, but allows inclusion of data from multiple
-                persons.</div>
+<div class="block">This is the same as MDS-Dynamic-Data-Update-Fixed, but allows inclusion
+ of data from multiple persons.</div>
 </li>
 </ul>
 <a name="GET--">
@@ -389,11 +392,13 @@ extends <a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20
 <h4>GET</h4>
 <pre>public&nbsp;void&nbsp;GET()</pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/GET_Service.html#GET--">GET_Service</a></code></span></div>
-<div class="block">The manager may request the MDS object attributes of the agent in which case the manager shall send the
-        Remote Operation Invoke | Get command (see roiv-cmip-get in A.10.2) with the reserved handle value of
-        0. The agent shall respond by reporting its MDS object attributes to the manager using the Remote
-        Operation Response | Get response (see rors-cmip-get in A.10.2). In the response to a Get MDS Object
-        command, only attributes implemented by the agent are returned.</div>
+<div class="block">The manager may request the MDS object attributes of the agent in which
+ case the manager shall send the Remote Operation Invoke | Get command
+ (see roiv-cmip-get in A.10.2) with the reserved handle value of 0. The
+ agent shall respond by reporting its MDS object attributes to the manager
+ using the Remote Operation Response | Get response (see rors-cmip-get in
+ A.10.2). In the response to a Get MDS Object command, only attributes
+ implemented by the agent are returned.</div>
 </li>
 </ul>
 <a name="MDS_Data_Request--">

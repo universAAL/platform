@@ -166,8 +166,8 @@ extends <a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/mod
 <tr class="altColor">
 <td class="colFirst"><code>protected static int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/model/FormControl/SimpleOutputModel.html#TOO_LONG">TOO_LONG</a></span></code>
-<div class="block">threshold for selecting between a <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JTextArea.html?is-external=true" title="class or interface in javax.swing"><code>JTextArea</code></a> and
- a <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JTextField.html?is-external=true" title="class or interface in javax.swing"><code>JTextField</code></a></div>
+<div class="block">threshold for selecting between a <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JTextArea.html?is-external=true" title="class or interface in javax.swing"><code>JTextArea</code></a> and a
+ <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JTextField.html?is-external=true" title="class or interface in javax.swing"><code>JTextField</code></a></div>
 </td>
 </tr>
 </table>
@@ -268,8 +268,8 @@ extends <a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/mod
 <li class="blockList">
 <h4>TOO_LONG</h4>
 <pre>protected static final&nbsp;int TOO_LONG</pre>
-<div class="block">threshold for selecting between a <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JTextArea.html?is-external=true" title="class or interface in javax.swing"><code>JTextArea</code></a> and
- a <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JTextField.html?is-external=true" title="class or interface in javax.swing"><code>JTextField</code></a></div>
+<div class="block">threshold for selecting between a <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JTextArea.html?is-external=true" title="class or interface in javax.swing"><code>JTextArea</code></a> and a
+ <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JTextField.html?is-external=true" title="class or interface in javax.swing"><code>JTextField</code></a></div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
 <dd><a href="../../../../../../../../constant-values.html#org.universAAL.ui.handler.gui.swing.model.FormControl.SimpleOutputModel.TOO_LONG">Constant Field Values</a></dd>
@@ -321,24 +321,27 @@ extends <a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/mod
 <dd><code><a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/model/Model.html#getNewComponent--">getNewComponent</a></code>&nbsp;in class&nbsp;<code><a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/model/Model.html" title="class in org.universAAL.ui.handler.gui.swing.model">Model</a></code></dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>the representation for <a href="../../../../../../../../org/universAAL/middleware/ui/rdf/SimpleOutput.html" title="class in org.universAAL.middleware.ui.rdf"><code>SimpleOutput</code></a> can either be
- <ul>
- <li>a <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JCheckBox.html?is-external=true" title="class or interface in javax.swing"><code>JCheckBox</code></a> if the <a href="../../../../../../../../org/universAAL/middleware/ui/rdf/SimpleOutput.html#getContent--"><code>SimpleOutput.getContent()</code></a> is a boolean
- type
- <li>a <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JLabel.html?is-external=true" title="class or interface in javax.swing"><code>JLabel</code></a> if the <a href="../../../../../../../../org/universAAL/middleware/ui/rdf/SimpleOutput.html#getContent--"><code>SimpleOutput.getContent()</code></a> is a String,
- it is not <a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/model/FormControl/SimpleOutputModel.html#TOO_LONG"><code>TOO_LONG</code></a>, and it has no label.
- <li>a <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JTextField.html?is-external=true" title="class or interface in javax.swing"><code>JTextField</code></a> if the <a href="../../../../../../../../org/universAAL/middleware/ui/rdf/SimpleOutput.html#getContent--"><code>SimpleOutput.getContent()</code></a> is a String
- and it is not <a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/model/FormControl/SimpleOutputModel.html#TOO_LONG"><code>TOO_LONG</code></a>
- <li>a <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JTextArea.html?is-external=true" title="class or interface in javax.swing"><code>JTextArea</code></a> if the <a href="../../../../../../../../org/universAAL/middleware/ui/rdf/SimpleOutput.html#getContent--"><code>SimpleOutput.getContent()</code></a> is
- String and it is <a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/model/FormControl/SimpleOutputModel.html#TOO_LONG"><code>TOO_LONG</code></a>
- <li>a ?? if the <a href="../../../../../../../../org/universAAL/middleware/ui/rdf/SimpleOutput.html#getContent--"><code>SimpleOutput.getContent()</code></a> is a XMLGregorianCalendar
- <li>a ?? if the <a href="../../../../../../../../org/universAAL/middleware/ui/rdf/SimpleOutput.html#getContent--"><code>SimpleOutput.getContent()</code></a> is a Duration
- <li>a ?? if the <a href="../../../../../../../../org/universAAL/middleware/ui/rdf/SimpleOutput.html#getContent--"><code>SimpleOutput.getContent()</code></a> is a Integer
- <li>a ?? if the <a href="../../../../../../../../org/universAAL/middleware/ui/rdf/SimpleOutput.html#getContent--"><code>SimpleOutput.getContent()</code></a> is a Long
- <li>a ?? if the <a href="../../../../../../../../org/universAAL/middleware/ui/rdf/SimpleOutput.html#getContent--"><code>SimpleOutput.getContent()</code></a> is a Float
- <li>a ?? if the <a href="../../../../../../../../org/universAAL/middleware/ui/rdf/SimpleOutput.html#getContent--"><code>SimpleOutput.getContent()</code></a> is a Double
- <li>a <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JTextField.html?is-external=true" title="class or interface in javax.swing"><code>JTextField</code></a> if the <a href="../../../../../../../../org/universAAL/middleware/ui/rdf/SimpleOutput.html#getContent--"><code>SimpleOutput.getContent()</code></a> is a Locale
- </ul>
- all of them are uneditable by the user.</dd>
+         <ul>
+         <li>a <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JCheckBox.html?is-external=true" title="class or interface in javax.swing"><code>JCheckBox</code></a> if the <a href="../../../../../../../../org/universAAL/middleware/ui/rdf/SimpleOutput.html#getContent--"><code>SimpleOutput.getContent()</code></a>
+         is a boolean type
+         <li>a <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JLabel.html?is-external=true" title="class or interface in javax.swing"><code>JLabel</code></a> if the <a href="../../../../../../../../org/universAAL/middleware/ui/rdf/SimpleOutput.html#getContent--"><code>SimpleOutput.getContent()</code></a> is
+         a String, it is not <a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/model/FormControl/SimpleOutputModel.html#TOO_LONG"><code>TOO_LONG</code></a>, and it
+         has no label.
+         <li>a <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JTextField.html?is-external=true" title="class or interface in javax.swing"><code>JTextField</code></a> if the <a href="../../../../../../../../org/universAAL/middleware/ui/rdf/SimpleOutput.html#getContent--"><code>SimpleOutput.getContent()</code></a>
+         is a String and it is not <a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/model/FormControl/SimpleOutputModel.html#TOO_LONG"><code>TOO_LONG</code></a>
+         <li>a <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JTextArea.html?is-external=true" title="class or interface in javax.swing"><code>JTextArea</code></a> if the <a href="../../../../../../../../org/universAAL/middleware/ui/rdf/SimpleOutput.html#getContent--"><code>SimpleOutput.getContent()</code></a>
+         is String and it is <a href="../../../../../../../../org/universAAL/ui/handler/gui/swing/model/FormControl/SimpleOutputModel.html#TOO_LONG"><code>TOO_LONG</code></a>
+         <li>a ?? if the <a href="../../../../../../../../org/universAAL/middleware/ui/rdf/SimpleOutput.html#getContent--"><code>SimpleOutput.getContent()</code></a> is a
+         XMLGregorianCalendar
+         <li>a ?? if the <a href="../../../../../../../../org/universAAL/middleware/ui/rdf/SimpleOutput.html#getContent--"><code>SimpleOutput.getContent()</code></a> is a Duration
+         <li>a ?? if the <a href="../../../../../../../../org/universAAL/middleware/ui/rdf/SimpleOutput.html#getContent--"><code>SimpleOutput.getContent()</code></a> is a Integer
+         <li>a ?? if the <a href="../../../../../../../../org/universAAL/middleware/ui/rdf/SimpleOutput.html#getContent--"><code>SimpleOutput.getContent()</code></a> is a Long
+         <li>a ?? if the <a href="../../../../../../../../org/universAAL/middleware/ui/rdf/SimpleOutput.html#getContent--"><code>SimpleOutput.getContent()</code></a> is a Float
+         <li>a ?? if the <a href="../../../../../../../../org/universAAL/middleware/ui/rdf/SimpleOutput.html#getContent--"><code>SimpleOutput.getContent()</code></a> is a Double
+         <li>a <a href="http://docs.oracle.com/javase/8/docs/api/javax/swing/JTextField.html?is-external=true" title="class or interface in javax.swing"><code>JTextField</code></a> if the <a href="../../../../../../../../org/universAAL/middleware/ui/rdf/SimpleOutput.html#getContent--"><code>SimpleOutput.getContent()</code></a>
+         is a Locale
+         </ul>
+         all of them are uneditable by the user.</dd>
 </dl>
 </li>
 </ul>

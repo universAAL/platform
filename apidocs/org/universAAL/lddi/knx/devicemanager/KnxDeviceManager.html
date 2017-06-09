@@ -126,8 +126,8 @@ var activeTableTab = "activeTableTab";
 <pre>public class <span class="typeNameLabel">KnxDeviceManager</span>
 extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>
 implements org.osgi.service.cm.ManagedService, org.osgi.util.tracker.ServiceTrackerCustomizer</pre>
-<div class="block">This bundle tracks on IKnxNetwork service.
- When this service appears, this bundle is initialized.</div>
+<div class="block">This bundle tracks on IKnxNetwork service. When this service appears, this
+ bundle is initialized.</div>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>
 <dd>Thomas Fuxreiter (foex@gmx.at)</dd>
@@ -179,15 +179,16 @@ implements org.osgi.service.cm.ManagedService, org.osgi.util.tracker.ServiceTrac
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/lddi/knx/devicemanager/KnxDeviceManager.html#modifiedService-org.osgi.framework.ServiceReference-java.lang.Object-">modifiedService</a></span>(org.osgi.framework.ServiceReference&nbsp;reference,
                <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;service)</code>
-<div class="block">IKnxNetwork service has been modified: removing my managed service and adding again.</div>
+<div class="block">IKnxNetwork service has been modified: removing my managed service and
+ adding again.</div>
 </td>
 </tr>
 <tr id="i2" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/lddi/knx/devicemanager/KnxDeviceManager.html#removedService-org.osgi.framework.ServiceReference-java.lang.Object-">removedService</a></span>(org.osgi.framework.ServiceReference&nbsp;reference,
               <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;service)</code>
-<div class="block">IKnxNetwork service has been removed: removing my managed service,
- clear storage objects -> set this bundle to "idle" mode.</div>
+<div class="block">IKnxNetwork service has been removed: removing my managed service, clear
+ storage objects -> set this bundle to "idle" mode.</div>
 </td>
 </tr>
 <tr id="i3" class="rowColor">
@@ -199,11 +200,9 @@ implements org.osgi.service.cm.ManagedService, org.osgi.util.tracker.ServiceTrac
 <tr id="i4" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/lddi/knx/devicemanager/KnxDeviceManager.html#updated-java.util.Dictionary-">updated</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/util/Dictionary.html?is-external=true" title="class or interface in java.util">Dictionary</a>&nbsp;properties)</code>
-<div class="block">Get updated from ConfigurationAdmin:
- get configuration file from ETS4,
- extract groupAddress information,
- create virtual KNX devices,
- and register them as device services in OSGi.</div>
+<div class="block">Get updated from ConfigurationAdmin: get configuration file from ETS4,
+ extract groupAddress information, create virtual KNX devices, and
+ register them as device services in OSGi.</div>
 </td>
 </tr>
 </table>
@@ -269,7 +268,8 @@ implements org.osgi.service.cm.ManagedService, org.osgi.util.tracker.ServiceTrac
 <h4>modifiedService</h4>
 <pre>public&nbsp;void&nbsp;modifiedService(org.osgi.framework.ServiceReference&nbsp;reference,
                             <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;service)</pre>
-<div class="block">IKnxNetwork service has been modified: removing my managed service and adding again.</div>
+<div class="block">IKnxNetwork service has been modified: removing my managed service and
+ adding again.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code>modifiedService</code>&nbsp;in interface&nbsp;<code>org.osgi.util.tracker.ServiceTrackerCustomizer</code></dd>
@@ -284,8 +284,8 @@ implements org.osgi.service.cm.ManagedService, org.osgi.util.tracker.ServiceTrac
 <h4>removedService</h4>
 <pre>public&nbsp;void&nbsp;removedService(org.osgi.framework.ServiceReference&nbsp;reference,
                            <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;service)</pre>
-<div class="block">IKnxNetwork service has been removed: removing my managed service,
- clear storage objects -> set this bundle to "idle" mode.</div>
+<div class="block">IKnxNetwork service has been removed: removing my managed service, clear
+ storage objects -> set this bundle to "idle" mode.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code>removedService</code>&nbsp;in interface&nbsp;<code>org.osgi.util.tracker.ServiceTrackerCustomizer</code></dd>
@@ -300,13 +300,12 @@ implements org.osgi.service.cm.ManagedService, org.osgi.util.tracker.ServiceTrac
 <h4>updated</h4>
 <pre>public&nbsp;void&nbsp;updated(<a href="http://docs.oracle.com/javase/8/docs/api/java/util/Dictionary.html?is-external=true" title="class or interface in java.util">Dictionary</a>&nbsp;properties)
              throws org.osgi.service.cm.ConfigurationException</pre>
-<div class="block">Get updated from ConfigurationAdmin:
- get configuration file from ETS4,
- extract groupAddress information,
- create virtual KNX devices,
- and register them as device services in OSGi. 
+<div class="block">Get updated from ConfigurationAdmin: get configuration file from ETS4,
+ extract groupAddress information, create virtual KNX devices, and
+ register them as device services in OSGi.
  
- What if updated again all devices are removed and then the new config is processed.</div>
+ What if updated again all devices are removed and then the new config is
+ processed.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code>updated</code>&nbsp;in interface&nbsp;<code>org.osgi.service.cm.ManagedService</code></dd>

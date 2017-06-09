@@ -146,16 +146,19 @@ var activeTableTab = "activeTableTab";
 <pre>public class <span class="typeNameLabel">PeriCfgScanner</span>
 extends <a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/CfgScanner.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim">CfgScanner</a>
 implements <a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/PeriCfgScanner_Events.html" title="interface in org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim">PeriCfgScanner_Events</a></pre>
-<div class="block">The PeriCfgScanner class represents a class that can be instantiated. PeriCfgScanner objects are used to
-send reports containing Periodic data, that is, data sampled during fixed periods. It buffers any data value
-changes to be sent as part of a periodic report. Event reports shall be sent with a time interval equal to the
-Reporting-Interval attribute value.
-The number of observations for each metric object is dependent on the metric object�s update interval and
-the scanner�s Reporting-Interval.
-Example: A periodic configurable scanner is set up to �scan� two metric objects with a Reporting-Interval
-of 1 s. The two objects update their corresponding observed value periodically with an interval of 1 s and �
-s, respectively. The periodic configurable scanner then issues event reports every second containing one
-observation scan of metric object #1 and two observation scans of metric object #2.</div>
+<div class="block">The PeriCfgScanner class represents a class that can be instantiated.
+ PeriCfgScanner objects are used to send reports containing Periodic data,
+ that is, data sampled during fixed periods. It buffers any data value changes
+ to be sent as part of a periodic report. Event reports shall be sent with a
+ time interval equal to the Reporting-Interval attribute value. The number of
+ observations for each metric object is dependent on the metric object�s
+ update interval and the scanner�s Reporting-Interval. Example: A periodic
+ configurable scanner is set up to �scan� two metric objects with a
+ Reporting-Interval of 1 s. The two objects update their corresponding
+ observed value periodically with an interval of 1 s and � s, respectively.
+ The periodic configurable scanner then issues event reports every second
+ containing one observation scan of metric object #1 and two observation scans
+ of metric object #2.</div>
 </li>
 </ul>
 </div>
@@ -233,9 +236,9 @@ observation scan of metric object #1 and two observation scans of metric object 
 <tr id="i6" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/PeriCfgScanner.html#GET--">GET</a></span>()</code>
-<div class="block">The manager may request the MDS object attributes of the agent in which case the manager shall send the
-        Remote Operation Invoke | Get command (see roiv-cmip-get in A.10.2) with the reserved handle value of
-        0.</div>
+<div class="block">The manager may request the MDS object attributes of the agent in which
+ case the manager shall send the Remote Operation Invoke | Get command
+ (see roiv-cmip-get in A.10.2) with the reserved handle value of 0.</div>
 </td>
 </tr>
 <tr id="i7" class="rowColor">
@@ -245,8 +248,9 @@ observation scan of metric object #1 and two observation scans of metric object 
 <tr id="i8" class="altColor">
 <td class="colFirst"><code><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ConfigReportRsp.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ConfigReportRsp</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/PeriCfgScanner.html#MDS_Configuration_Event-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ConfigReport-">MDS_Configuration_Event</a></span>(<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ConfigReport.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ConfigReport</a>&nbsp;cfgreport)</code>
-<div class="block">This event is sent by the agent during the configuring state of startup if the manager does not already
-                know the agent's configuration from past associations.</div>
+<div class="block">This event is sent by the agent during the configuring state of startup
+ if the manager does not already know the agent's configuration from past
+ associations.</div>
 </td>
 </tr>
 <tr id="i9" class="rowColor">
@@ -256,29 +260,30 @@ observation scan of metric object #1 and two observation scans of metric object 
 <tr id="i10" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/PeriCfgScanner.html#MDS_Dynamic_Data_Update_Fixed-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ScanReportInfoFixed-">MDS_Dynamic_Data_Update_Fixed</a></span>(<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ScanReportInfoFixed.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ScanReportInfoFixed</a>&nbsp;scanreportinfofixed)</code>
-<div class="block">This event provides dynamic data (typically measurements) from the agent for some or all of the metric
-                objects or the MDS object that the agent supports.</div>
+<div class="block">This event provides dynamic data (typically measurements) from the agent
+ for some or all of the metric objects or the MDS object that the agent
+ supports.</div>
 </td>
 </tr>
 <tr id="i11" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/PeriCfgScanner.html#MDS_Dynamic_Data_Update_MP_Fixed-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ScanReportInfoMPFixed-">MDS_Dynamic_Data_Update_MP_Fixed</a></span>(<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ScanReportInfoMPFixed.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ScanReportInfoMPFixed</a>&nbsp;scanreportinfompfixed)</code>
-<div class="block">This is the same as MDS-Dynamic-Data-Update-Fixed, but allows inclusion of data from multiple
-                persons.</div>
+<div class="block">This is the same as MDS-Dynamic-Data-Update-Fixed, but allows inclusion
+ of data from multiple persons.</div>
 </td>
 </tr>
 <tr id="i12" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/PeriCfgScanner.html#MDS_Dynamic_Data_Update_MP_Var-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ScanReportInfoMPVar-">MDS_Dynamic_Data_Update_MP_Var</a></span>(<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ScanReportInfoMPVar.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ScanReportInfoMPVar</a>&nbsp;scanreportinfompvar)</code>
-<div class="block">This is the same as MDS-Dynamic-Data-Update-Var, but allows inclusion of data from multiple
-                persons.</div>
+<div class="block">This is the same as MDS-Dynamic-Data-Update-Var, but allows inclusion of
+ data from multiple persons.</div>
 </td>
 </tr>
 <tr id="i13" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/PeriCfgScanner.html#MDS_Dynamic_Data_Update_Var-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ScanReportInfoVar-">MDS_Dynamic_Data_Update_Var</a></span>(<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ScanReportInfoVar.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ScanReportInfoVar</a>&nbsp;scanreportinfovar)</code>
-<div class="block">This event provides dynamic data (typically measurements) from the agent for some or all of the
-                objects that the agent supports.</div>
+<div class="block">This event provides dynamic data (typically measurements) from the agent
+ for some or all of the objects that the agent supports.</div>
 </td>
 </tr>
 <tr id="i14" class="altColor">
@@ -357,9 +362,10 @@ observation scan of metric object #1 and two observation scans of metric object 
 <h4>MDS_Configuration_Event</h4>
 <pre>public&nbsp;<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ConfigReportRsp.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ConfigReportRsp</a>&nbsp;MDS_Configuration_Event(<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ConfigReport.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ConfigReport</a>&nbsp;cfgreport)</pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/MDS_Events.html#MDS_Configuration_Event-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ConfigReport-">MDS_Events</a></code></span></div>
-<div class="block">This event is sent by the agent during the configuring state of startup if the manager does not already
-                know the agent's configuration from past associations. The event provides static information about the
-                supported measurement capabilities of the agent.</div>
+<div class="block">This event is sent by the agent during the configuring state of startup
+ if the manager does not already know the agent's configuration from past
+ associations. The event provides static information about the supported
+ measurement capabilities of the agent.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/MDS_Events.html#MDS_Configuration_Event-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ConfigReport-">MDS_Configuration_Event</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/MDS_Events.html" title="interface in org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim">MDS_Events</a></code></dd>
@@ -374,14 +380,17 @@ observation scan of metric object #1 and two observation scans of metric object 
 <h4>MDS_Dynamic_Data_Update_Var</h4>
 <pre>public&nbsp;void&nbsp;MDS_Dynamic_Data_Update_Var(<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ScanReportInfoVar.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ScanReportInfoVar</a>&nbsp;scanreportinfovar)</pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/MDS_Events.html#MDS_Dynamic_Data_Update_Var-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ScanReportInfoVar-">MDS_Events</a></code></span></div>
-<div class="block">This event provides dynamic data (typically measurements) from the agent for some or all of the
-                objects that the agent supports. Data for reported objects are reported using a generic attribute list
-                variable format (see 7.4.5 for details on event report formats). The event is triggered by an MDS-Data-
-                Request from the manager system, or it is sent as an unsolicited message by the agent. For agents that
-                support manager-initiated measurement data transmission, refer to 8.9.3.3.3 for information on
-                controlling the activation and/or period of the data transmission. For agents that do not support
-                manager-initiated measurement data transmission, refer to 8.9.3.3.2 for information on the limited
-                control a manager can assert.</div>
+<div class="block">This event provides dynamic data (typically measurements) from the agent
+ for some or all of the objects that the agent supports. Data for reported
+ objects are reported using a generic attribute list variable format (see
+ 7.4.5 for details on event report formats). The event is triggered by an
+ MDS-Data- Request from the manager system, or it is sent as an
+ unsolicited message by the agent. For agents that support
+ manager-initiated measurement data transmission, refer to 8.9.3.3.3 for
+ information on controlling the activation and/or period of the data
+ transmission. For agents that do not support manager-initiated
+ measurement data transmission, refer to 8.9.3.3.2 for information on the
+ limited control a manager can assert.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/MDS_Events.html#MDS_Dynamic_Data_Update_Var-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ScanReportInfoVar-">MDS_Dynamic_Data_Update_Var</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/MDS_Events.html" title="interface in org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim">MDS_Events</a></code></dd>
@@ -396,15 +405,19 @@ observation scan of metric object #1 and two observation scans of metric object 
 <h4>MDS_Dynamic_Data_Update_Fixed</h4>
 <pre>public&nbsp;void&nbsp;MDS_Dynamic_Data_Update_Fixed(<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ScanReportInfoFixed.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ScanReportInfoFixed</a>&nbsp;scanreportinfofixed)</pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/MDS_Events.html#MDS_Dynamic_Data_Update_Fixed-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ScanReportInfoFixed-">MDS_Events</a></code></span></div>
-<div class="block">This event provides dynamic data (typically measurements) from the agent for some or all of the metric
-                objects or the MDS object that the agent supports. Data are reported in the fixed format defined by the
-                Attribute-Value-Map attribute for reported metric objects or the MDS object (see 7.4.5 for details on
-                event report formats). The event is triggered by an MDS-Data-Request from the manager system (i.e., a
-                manager-initiated measurement data transmission), or it is sent as an unsolicited message by the agent
-                (i.e., an agent-initiated measurement data transmission). For agents that support manager-initiated
-                measurement data transmission, refer to 8.9.3.3.3 for information on controlling the activation and/or
-                period of the data transmission. For agents that do not support manager-initiated measurement data
-                transmission, refer to 8.9.3.3.2 for information on the limited control a manager can assert.</div>
+<div class="block">This event provides dynamic data (typically measurements) from the agent
+ for some or all of the metric objects or the MDS object that the agent
+ supports. Data are reported in the fixed format defined by the
+ Attribute-Value-Map attribute for reported metric objects or the MDS
+ object (see 7.4.5 for details on event report formats). The event is
+ triggered by an MDS-Data-Request from the manager system (i.e., a
+ manager-initiated measurement data transmission), or it is sent as an
+ unsolicited message by the agent (i.e., an agent-initiated measurement
+ data transmission). For agents that support manager-initiated measurement
+ data transmission, refer to 8.9.3.3.3 for information on controlling the
+ activation and/or period of the data transmission. For agents that do not
+ support manager-initiated measurement data transmission, refer to
+ 8.9.3.3.2 for information on the limited control a manager can assert.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/MDS_Events.html#MDS_Dynamic_Data_Update_Fixed-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ScanReportInfoFixed-">MDS_Dynamic_Data_Update_Fixed</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/MDS_Events.html" title="interface in org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim">MDS_Events</a></code></dd>
@@ -419,8 +432,8 @@ observation scan of metric object #1 and two observation scans of metric object 
 <h4>MDS_Dynamic_Data_Update_MP_Var</h4>
 <pre>public&nbsp;void&nbsp;MDS_Dynamic_Data_Update_MP_Var(<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ScanReportInfoMPVar.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ScanReportInfoMPVar</a>&nbsp;scanreportinfompvar)</pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/MDS_Events.html#MDS_Dynamic_Data_Update_MP_Var-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ScanReportInfoMPVar-">MDS_Events</a></code></span></div>
-<div class="block">This is the same as MDS-Dynamic-Data-Update-Var, but allows inclusion of data from multiple
-                persons.</div>
+<div class="block">This is the same as MDS-Dynamic-Data-Update-Var, but allows inclusion of
+ data from multiple persons.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/MDS_Events.html#MDS_Dynamic_Data_Update_MP_Var-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ScanReportInfoMPVar-">MDS_Dynamic_Data_Update_MP_Var</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/MDS_Events.html" title="interface in org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim">MDS_Events</a></code></dd>
@@ -435,8 +448,8 @@ observation scan of metric object #1 and two observation scans of metric object 
 <h4>MDS_Dynamic_Data_Update_MP_Fixed</h4>
 <pre>public&nbsp;void&nbsp;MDS_Dynamic_Data_Update_MP_Fixed(<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ScanReportInfoMPFixed.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ScanReportInfoMPFixed</a>&nbsp;scanreportinfompfixed)</pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/MDS_Events.html#MDS_Dynamic_Data_Update_MP_Fixed-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ScanReportInfoMPFixed-">MDS_Events</a></code></span></div>
-<div class="block">This is the same as MDS-Dynamic-Data-Update-Fixed, but allows inclusion of data from multiple
-                persons.</div>
+<div class="block">This is the same as MDS-Dynamic-Data-Update-Fixed, but allows inclusion
+ of data from multiple persons.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/MDS_Events.html#MDS_Dynamic_Data_Update_MP_Fixed-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ScanReportInfoMPFixed-">MDS_Dynamic_Data_Update_MP_Fixed</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/MDS_Events.html" title="interface in org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim">MDS_Events</a></code></dd>
@@ -451,11 +464,13 @@ observation scan of metric object #1 and two observation scans of metric object 
 <h4>GET</h4>
 <pre>public&nbsp;void&nbsp;GET()</pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/GET_Service.html#GET--">GET_Service</a></code></span></div>
-<div class="block">The manager may request the MDS object attributes of the agent in which case the manager shall send the
-        Remote Operation Invoke | Get command (see roiv-cmip-get in A.10.2) with the reserved handle value of
-        0. The agent shall respond by reporting its MDS object attributes to the manager using the Remote
-        Operation Response | Get response (see rors-cmip-get in A.10.2). In the response to a Get MDS Object
-        command, only attributes implemented by the agent are returned.</div>
+<div class="block">The manager may request the MDS object attributes of the agent in which
+ case the manager shall send the Remote Operation Invoke | Get command
+ (see roiv-cmip-get in A.10.2) with the reserved handle value of 0. The
+ agent shall respond by reporting its MDS object attributes to the manager
+ using the Remote Operation Response | Get response (see rors-cmip-get in
+ A.10.2). In the response to a Get MDS Object command, only attributes
+ implemented by the agent are returned.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/GET_Service.html#GET--">GET</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/GET_Service.html" title="interface in org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim">GET_Service</a></code></dd>

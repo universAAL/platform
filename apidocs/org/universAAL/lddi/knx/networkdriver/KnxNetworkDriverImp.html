@@ -128,10 +128,10 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 implements org.osgi.service.cm.ManagedService, <a href="../../../../../org/universAAL/lddi/knx/interfaces/IKnxNetwork.html" title="interface in org.universAAL.lddi.knx.interfaces">IKnxNetwork</a></pre>
 <div class="block">KnxNetworkDriverImp is the main class of this bundle. It registers as a
  service in the OSGi framework with the name
- org.universAAL.lddi.knx.networkdriver.test.KnxNetwork. It manages a list of KNX
- devices (injected by knx.devicemanager) where the KNX group address is used
- as key. Incoming sensor events are passed on to the appropriate KNX groupDevice
- (identified by KNX group address).</div>
+ org.universAAL.lddi.knx.networkdriver.test.KnxNetwork. It manages a list of
+ KNX devices (injected by knx.devicemanager) where the KNX group address is
+ used as key. Incoming sensor events are passed on to the appropriate KNX
+ groupDevice (identified by KNX group address).</div>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>
 <dd>Thomas Fuxreiter (foex@gmx.at)</dd>
@@ -251,7 +251,8 @@ implements org.osgi.service.cm.ManagedService, <a href="../../../../../org/unive
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/lddi/knx/networkdriver/KnxNetworkDriverImp.html#newMessageFromHouse-java.lang.String-byte:A-">newMessageFromHouse</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;groupAddress,
                    byte[]&nbsp;event)</code>
-<div class="block">Forward the message from the house to the groupDevice; mapping on groupAddress</div>
+<div class="block">Forward the message from the house to the groupDevice; mapping on
+ groupAddress</div>
 </td>
 </tr>
 <tr id="i12" class="altColor">
@@ -475,7 +476,8 @@ implements org.osgi.service.cm.ManagedService, <a href="../../../../../org/unive
 <h4>newMessageFromHouse</h4>
 <pre>public&nbsp;void&nbsp;newMessageFromHouse(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;groupAddress,
                                 byte[]&nbsp;event)</pre>
-<div class="block">Forward the message from the house to the groupDevice; mapping on groupAddress</div>
+<div class="block">Forward the message from the house to the groupDevice; mapping on
+ groupAddress</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>groupAddress</code> - the knx groupAddress</dd>

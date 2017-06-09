@@ -122,17 +122,25 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 implements org.osgi.service.device.Device</pre>
 <div class="block">Activity hub sensor base class
  
- Now all ActivityHub sensors are implemented as on/off sensors having 
- setSensorEventOn and setSensorEventOff methods.
- TODO: check if it's possible/better to use any value setSensorEvent(int sensorEvent); for KNX datapoint type 1.*** (which are used mainly during development) on/off is sufficient
+ Now all ActivityHub sensors are implemented as on/off sensors having
+ setSensorEventOn and setSensorEventOff methods. TODO: check if it's
+ possible/better to use any value setSensorEvent(int sensorEvent); for KNX
+ datapoint type 1.*** (which are used mainly during development) on/off is
+ sufficient
  
- Generic sensor properties flags for activity hub sensors are not implement yet!
- (Because they are not supported by KNX sensors)
- auto-presence-received(16)     (For sensors that have "heartbeat" operational status: indicates that the "heartbeat" has been seen and is ok. This flag shall be reset if Auto-Presence-Failed is set.)
- auto-presence-failed(17)               (For sensors that have "heartbeat" operational status: indicates that the "heartbeat" has not been seen as expected. This flag shall be reset if Auto-Presence-Received is set.)
- low-battery(18)                                (Indicates the sensor is in the low battery condition. This determination is unique to the sensor.)
- fault(19)                                      (Indicates that the sensor is in a fault condition and needs attention. This determination is unique to the sensor.)
- end-of-life(20)                                (Indicates that the sensor has reached end of life and needs replacement. This indication is unique to the sensor.)</div>
+ Generic sensor properties flags for activity hub sensors are not implement
+ yet! (Because they are not supported by KNX sensors)
+ auto-presence-received(16) (For sensors that have "heartbeat" operational
+ status: indicates that the "heartbeat" has been seen and is ok. This flag
+ shall be reset if Auto-Presence-Failed is set.) auto-presence-failed(17) (For
+ sensors that have "heartbeat" operational status: indicates that the
+ "heartbeat" has not been seen as expected. This flag shall be reset if
+ Auto-Presence-Received is set.) low-battery(18) (Indicates the sensor is in
+ the low battery condition. This determination is unique to the sensor.)
+ fault(19) (Indicates that the sensor is in a fault condition and needs
+ attention. This determination is unique to the sensor.) end-of-life(20)
+ (Indicates that the sensor has reached end of life and needs replacement.
+ This indication is unique to the sensor.)</div>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>
 <dd>Thomas Fuxreiter (foex@gmx.at)</dd>
@@ -164,7 +172,8 @@ implements org.osgi.service.device.Device</pre>
 <tr class="rowColor">
 <td class="colFirst"><code>protected <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/lddi/lib/activityhub/devicemodel/ActivityHubSensor.html#lastSensorEvent">lastSensorEvent</a></span></code>
-<div class="block">all inherited classes must use the same member name, even though they have different types</div>
+<div class="block">all inherited classes must use the same member name, even though they
+ have different types</div>
 </td>
 </tr>
 </table>
@@ -290,7 +299,8 @@ implements org.osgi.service.device.Device</pre>
 <li class="blockList">
 <h4>lastSensorEvent</h4>
 <pre>protected&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a> lastSensorEvent</pre>
-<div class="block">all inherited classes must use the same member name, even though they have different types</div>
+<div class="block">all inherited classes must use the same member name, even though they
+ have different types</div>
 </li>
 </ul>
 <a name="driver">
@@ -366,8 +376,8 @@ implements org.osgi.service.device.Device</pre>
 <li class="blockList">
 <h4>setSensorEventOn</h4>
 <pre>public abstract&nbsp;void&nbsp;setSensorEventOn()</pre>
-<div class="block">set sensor event to on (e.g. switch-on)
- if input comes from an 1-bit sensor 
+<div class="block">set sensor event to on (e.g. switch-on) if input comes from an 1-bit
+ sensor
  
  called by refinement driver
  
@@ -381,8 +391,8 @@ implements org.osgi.service.device.Device</pre>
 <li class="blockList">
 <h4>setSensorEventOff</h4>
 <pre>public abstract&nbsp;void&nbsp;setSensorEventOff()</pre>
-<div class="block">set sensor event to off (e.g. switch-off) 
- if input comes from an 1-bit sensor</div>
+<div class="block">set sensor event to off (e.g. switch-off) if input comes from an 1-bit
+ sensor</div>
 </li>
 </ul>
 <a name="sendEvent-int-">

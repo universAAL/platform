@@ -114,10 +114,12 @@ var activeTableTab = "activeTableTab";
 <hr>
 <br>
 <pre>public interface <span class="typeNameLabel">EpiCfgScanner_Events</span></pre>
-<div class="block">The EpiCfgScanner class represents a class that can be instantiated. EpiCfgScanner objects are used to send
-reports containing episodic data, that is, data not having a fixed period between each data value. A report is
-sent whenever one of the observed attributes changes value; however, two consecutive event reports shall
-not have a time interval less than the value of the Min-Reporting-Interval attribute.</div>
+<div class="block">The EpiCfgScanner class represents a class that can be instantiated.
+ EpiCfgScanner objects are used to send reports containing episodic data, that
+ is, data not having a fixed period between each data value. A report is sent
+ whenever one of the observed attributes changes value; however, two
+ consecutive event reports shall not have a time interval less than the value
+ of the Min-Reporting-Interval attribute.</div>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>
 <dd>lgigante</dd>
@@ -143,44 +145,45 @@ not have a time interval less than the value of the Min-Reporting-Interval attri
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/EpiCfgScanner_Events.html#Unbuf_Scan_Report_Fixed-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ScanReportInfoFixed-">Unbuf_Scan_Report_Fixed</a></span>(<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ScanReportInfoFixed.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ScanReportInfoFixed</a>&nbsp;srif)</code>
-<div class="block">Unbuf-Scan-Report-Fixed:
-                This event style is used whenever data values change and the fixed message format of each object is
-                used to report data that changed.</div>
+<div class="block">Unbuf-Scan-Report-Fixed: This event style is used whenever data values
+ change and the fixed message format of each object is used to report data
+ that changed.</div>
 </td>
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/EpiCfgScanner_Events.html#Unbuf_Scan_Report_Grouped-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ScanReportInfoGrouped-">Unbuf_Scan_Report_Grouped</a></span>(<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ScanReportInfoGrouped.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ScanReportInfoGrouped</a>&nbsp;srig)</code>
-<div class="block">Unbuf-Scan-Report-Grouped:
-                This style is used when the scanner object is used to send the data in its most compact format.</div>
+<div class="block">Unbuf-Scan-Report-Grouped: This style is used when the scanner object is
+ used to send the data in its most compact format.</div>
 </td>
 </tr>
 <tr id="i2" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/EpiCfgScanner_Events.html#Unbuf_Scan_Report_MP_Fixed-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ScanReportInfoMPFixed-">Unbuf_Scan_Report_MP_Fixed</a></span>(<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ScanReportInfoMPFixed.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ScanReportInfoMPFixed</a>&nbsp;srimpf)</code>
-<div class="block">Unbuf-Scan-Report-MP-Fixed:
-                This is the same as Unbuf-Scan-Report-Fixed, but allows inclusion of data from multiple persons.</div>
+<div class="block">Unbuf-Scan-Report-MP-Fixed: This is the same as Unbuf-Scan-Report-Fixed,
+ but allows inclusion of data from multiple persons.</div>
 </td>
 </tr>
 <tr id="i3" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/EpiCfgScanner_Events.html#Unbuf_Scan_Report_MP_Grouped-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ScanReportInfoMPGrouped-">Unbuf_Scan_Report_MP_Grouped</a></span>(<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ScanReportInfoMPGrouped.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ScanReportInfoMPGrouped</a>&nbsp;srimpg)</code>
-<div class="block">Unbuf-Scan-Report-MP-Grouped:
-                This is the same as Unbuf-Scan-Report-Grouped, but allows inclusion of data from multiple persons.</div>
+<div class="block">Unbuf-Scan-Report-MP-Grouped: This is the same as
+ Unbuf-Scan-Report-Grouped, but allows inclusion of data from multiple
+ persons.</div>
 </td>
 </tr>
 <tr id="i4" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/EpiCfgScanner_Events.html#Unbuf_Scan_Report_MP_Var-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ScanReportInfoMPVar-">Unbuf_Scan_Report_MP_Var</a></span>(<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ScanReportInfoMPVar.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ScanReportInfoMPVar</a>&nbsp;srimpvar)</code>
-<div class="block">Unbuf-Scan-Report-MP-Var:
-                This is the same as Unbuf-Scan-Report-Var, but allows inclusion of data from multiple persons.</div>
+<div class="block">Unbuf-Scan-Report-MP-Var: This is the same as Unbuf-Scan-Report-Var, but
+ allows inclusion of data from multiple persons.</div>
 </td>
 </tr>
 <tr id="i5" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/dim/EpiCfgScanner_Events.html#Unbuf_Scan_Report_Var-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ScanReportInfoVar-">Unbuf_Scan_Report_Var</a></span>(<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ScanReportInfoVar.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ScanReportInfoVar</a>&nbsp;sriv)</code>
-<div class="block">Unbuf-Scan-Report-Var:
-                This event style reports summary data about any objects and attributes that the scanner monitors.</div>
+<div class="block">Unbuf-Scan-Report-Var: This event style reports summary data about any
+ objects and attributes that the scanner monitors.</div>
 </td>
 </tr>
 </table>
@@ -205,10 +208,10 @@ not have a time interval less than the value of the Min-Reporting-Interval attri
 <li class="blockList">
 <h4>Unbuf_Scan_Report_Var</h4>
 <pre>void&nbsp;Unbuf_Scan_Report_Var(<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ScanReportInfoVar.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ScanReportInfoVar</a>&nbsp;sriv)</pre>
-<div class="block">Unbuf-Scan-Report-Var:
-                This event style reports summary data about any objects and attributes that the scanner monitors. The
-                event is triggered whenever data values change and the variable message format (type/length/value) is
-                used when reporting data that changed.</div>
+<div class="block">Unbuf-Scan-Report-Var: This event style reports summary data about any
+ objects and attributes that the scanner monitors. The event is triggered
+ whenever data values change and the variable message format
+ (type/length/value) is used when reporting data that changed.</div>
 </li>
 </ul>
 <a name="Unbuf_Scan_Report_Fixed-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ScanReportInfoFixed-">
@@ -218,9 +221,9 @@ not have a time interval less than the value of the Min-Reporting-Interval attri
 <li class="blockList">
 <h4>Unbuf_Scan_Report_Fixed</h4>
 <pre>void&nbsp;Unbuf_Scan_Report_Fixed(<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ScanReportInfoFixed.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ScanReportInfoFixed</a>&nbsp;srif)</pre>
-<div class="block">Unbuf-Scan-Report-Fixed:
-                This event style is used whenever data values change and the fixed message format of each object is
-                used to report data that changed.</div>
+<div class="block">Unbuf-Scan-Report-Fixed: This event style is used whenever data values
+ change and the fixed message format of each object is used to report data
+ that changed.</div>
 </li>
 </ul>
 <a name="Unbuf_Scan_Report_Grouped-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ScanReportInfoGrouped-">
@@ -230,10 +233,10 @@ not have a time interval less than the value of the Min-Reporting-Interval attri
 <li class="blockList">
 <h4>Unbuf_Scan_Report_Grouped</h4>
 <pre>void&nbsp;Unbuf_Scan_Report_Grouped(<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ScanReportInfoGrouped.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ScanReportInfoGrouped</a>&nbsp;srig)</pre>
-<div class="block">Unbuf-Scan-Report-Grouped:
-                This style is used when the scanner object is used to send the data in its most compact format. The
-                Handle-Attr-Val-Map attribute describes the objects and attributes that are included and the format of
-                the message.</div>
+<div class="block">Unbuf-Scan-Report-Grouped: This style is used when the scanner object is
+ used to send the data in its most compact format. The Handle-Attr-Val-Map
+ attribute describes the objects and attributes that are included and the
+ format of the message.</div>
 </li>
 </ul>
 <a name="Unbuf_Scan_Report_MP_Var-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ScanReportInfoMPVar-">
@@ -243,8 +246,8 @@ not have a time interval less than the value of the Min-Reporting-Interval attri
 <li class="blockList">
 <h4>Unbuf_Scan_Report_MP_Var</h4>
 <pre>void&nbsp;Unbuf_Scan_Report_MP_Var(<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ScanReportInfoMPVar.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ScanReportInfoMPVar</a>&nbsp;srimpvar)</pre>
-<div class="block">Unbuf-Scan-Report-MP-Var:
-                This is the same as Unbuf-Scan-Report-Var, but allows inclusion of data from multiple persons.</div>
+<div class="block">Unbuf-Scan-Report-MP-Var: This is the same as Unbuf-Scan-Report-Var, but
+ allows inclusion of data from multiple persons.</div>
 </li>
 </ul>
 <a name="Unbuf_Scan_Report_MP_Fixed-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ScanReportInfoMPFixed-">
@@ -254,8 +257,8 @@ not have a time interval less than the value of the Min-Reporting-Interval attri
 <li class="blockList">
 <h4>Unbuf_Scan_Report_MP_Fixed</h4>
 <pre>void&nbsp;Unbuf_Scan_Report_MP_Fixed(<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ScanReportInfoMPFixed.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ScanReportInfoMPFixed</a>&nbsp;srimpf)</pre>
-<div class="block">Unbuf-Scan-Report-MP-Fixed:
-                This is the same as Unbuf-Scan-Report-Fixed, but allows inclusion of data from multiple persons.</div>
+<div class="block">Unbuf-Scan-Report-MP-Fixed: This is the same as Unbuf-Scan-Report-Fixed,
+ but allows inclusion of data from multiple persons.</div>
 </li>
 </ul>
 <a name="Unbuf_Scan_Report_MP_Grouped-org.universAAL.lddi.lib.ieeex73std.x73.p20601.ScanReportInfoMPGrouped-">
@@ -265,8 +268,9 @@ not have a time interval less than the value of the Min-Reporting-Interval attri
 <li class="blockList">
 <h4>Unbuf_Scan_Report_MP_Grouped</h4>
 <pre>void&nbsp;Unbuf_Scan_Report_MP_Grouped(<a href="../../../../../../../../org/universAAL/lddi/lib/ieeex73std/x73/p20601/ScanReportInfoMPGrouped.html" title="class in org.universAAL.lddi.lib.ieeex73std.x73.p20601">ScanReportInfoMPGrouped</a>&nbsp;srimpg)</pre>
-<div class="block">Unbuf-Scan-Report-MP-Grouped:
-                This is the same as Unbuf-Scan-Report-Grouped, but allows inclusion of data from multiple persons.</div>
+<div class="block">Unbuf-Scan-Report-MP-Grouped: This is the same as
+ Unbuf-Scan-Report-Grouped, but allows inclusion of data from multiple
+ persons.</div>
 </li>
 </ul>
 </li>

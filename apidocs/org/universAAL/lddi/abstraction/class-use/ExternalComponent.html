@@ -85,8 +85,10 @@
 <tr class="altColor">
 <td class="colFirst"><a href="#org.universAAL.lddi.abstraction">org.universAAL.lddi.abstraction</a></td>
 <td class="colLast">
-<div class="block">This package assumes that there are external (meaning not readily connected to universAAL)
- networking-enabled HW/SW components to which we may need access in a universAAL network.</div>
+<div class="block">
+ This package assumes that there are external (meaning not readily connected
+ to universAAL) networking-enabled HW/SW components to which we may need
+ access in a universAAL network.</div>
 </td>
 </tr>
 </tbody>
@@ -108,7 +110,8 @@
 <tr class="altColor">
 <td class="colFirst"><code><a href="../../../../../org/universAAL/lddi/abstraction/ExternalComponent.html" title="class in org.universAAL.lddi.abstraction">ExternalComponent</a></code></td>
 <td class="colLast"><span class="typeNameLabel">ExternalDatapoint.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html#getComponent--">getComponent</a></span>()</code>
-<div class="block">Returns the <a href="../../../../../org/universAAL/lddi/abstraction/ExternalComponent.html" title="class in org.universAAL.lddi.abstraction"><code>external component</code></a> to which this datapoint belongs.</div>
+<div class="block">Returns the <a href="../../../../../org/universAAL/lddi/abstraction/ExternalComponent.html" title="class in org.universAAL.lddi.abstraction"><code>external component</code></a> to which this
+ datapoint belongs.</div>
 </td>
 </tr>
 </tbody>
@@ -123,10 +126,10 @@
 <tr class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><span class="typeNameLabel">ComponentIntegrator.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html#processComponents-org.universAAL.lddi.abstraction.ExternalComponent:A-">processComponents</a></span>(<a href="../../../../../org/universAAL/lddi/abstraction/ExternalComponent.html" title="class in org.universAAL.lddi.abstraction">ExternalComponent</a>[]&nbsp;components)</code>
-<div class="block">Used by <a href="../../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html" title="class in org.universAAL.lddi.abstraction"><code>communication gateways</code></a> to share
- with this integrator the external components reachable through that
- gateway after this integrator <a href="../../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html#register-java.lang.String-org.universAAL.lddi.abstraction.ComponentIntegrator-"><code>subscribes</code></a> to them for external components of
- certain types.</div>
+<div class="block">Used by <a href="../../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html" title="class in org.universAAL.lddi.abstraction"><code>communication gateways</code></a> to share with
+ this integrator the external components reachable through that gateway
+ after this integrator
+ <a href="../../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html#register-java.lang.String-org.universAAL.lddi.abstraction.ComponentIntegrator-"><code>subscribes</code></a> to them for external components of certain types.</div>
 </td>
 </tr>
 <tr class="rowColor">
@@ -134,8 +137,8 @@
 <td class="colLast"><span class="typeNameLabel">CommunicationGateway.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html#startEventing-org.universAAL.lddi.abstraction.ComponentIntegrator-org.universAAL.lddi.abstraction.ExternalComponent-byte-">startEventing</a></span>(<a href="../../../../../org/universAAL/lddi/abstraction/ComponentIntegrator.html" title="interface in org.universAAL.lddi.abstraction">ComponentIntegrator</a>&nbsp;integrator,
              <a href="../../../../../org/universAAL/lddi/abstraction/ExternalComponent.html" title="class in org.universAAL.lddi.abstraction">ExternalComponent</a>&nbsp;component,
              byte&nbsp;intervalSeconds)</code>
-<div class="block">Serves as means for subscribing for events related to the changes of the value
- of any property of the given external component.</div>
+<div class="block">Serves as means for subscribing for events related to the changes of the
+ value of any property of the given external component.</div>
 </td>
 </tr>
 </tbody>

@@ -124,15 +124,15 @@ var activeTableTab = "activeTableTab";
 <pre>public class <span class="typeNameLabel">KnxDpt9Driver</span>
 extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>
 implements org.osgi.service.device.Driver</pre>
-<div class="block">This Driver class manages driver instances for KNX DPT9 devices.
- It is called on new device references coming from OSGi DeviceManager; matching on device category.
- It instantiates drivers for every matching KNX groupDevice.
- Attaches exactly one driver instance per deviceId.
- Subsequent devices with the same deviceId are rejected!
+<div class="block">This Driver class manages driver instances for KNX DPT9 devices. It is called
+ on new device references coming from OSGi DeviceManager; matching on device
+ category. It instantiates drivers for every matching KNX groupDevice.
+ Attaches exactly one driver instance per deviceId. Subsequent devices with
+ the same deviceId are rejected!
  
- When an attached device service is unregistered:
- drivers must take the appropriate action to release this device service
- and perform any necessary cleanup, as described in their groupDevice category spec.</div>
+ When an attached device service is unregistered: drivers must take the
+ appropriate action to release this device service and perform any necessary
+ cleanup, as described in their groupDevice category spec.</div>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>
 <dd>Thomas Fuxreiter (foex@gmx.at)</dd>
@@ -217,8 +217,7 @@ implements org.osgi.service.device.Driver</pre>
 <tr id="i2" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/lddi/knx/driver/KnxDpt9Driver.html#stop--">stop</a></span>()</code>
-<div class="block">delete instance references 
- unregister my services ?</div>
+<div class="block">delete instance references unregister my services ?</div>
 </td>
 </tr>
 </table>
@@ -277,9 +276,8 @@ implements org.osgi.service.device.Driver</pre>
 <li class="blockList">
 <h4>connectedDriverInstanceMap</h4>
 <pre>public final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/util/Map.html?is-external=true" title="class or interface in java.util">Map</a>&lt;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>,<a href="../../../../../org/universAAL/lddi/knx/driver/KnxDpt9Instance.html" title="class in org.universAAL.lddi.knx.driver">KnxDpt9Instance</a>&gt; connectedDriverInstanceMap</pre>
-<div class="block">Management Map of instantiated driver instances.
- Key is groupAddress of the KNX groupDevice
- Value is the associated driver</div>
+<div class="block">Management Map of instantiated driver instances. Key is groupAddress of
+ the KNX groupDevice Value is the associated driver</div>
 </li>
 </ul>
 </li>
@@ -352,8 +350,7 @@ implements org.osgi.service.device.Driver</pre>
 <li class="blockList">
 <h4>stop</h4>
 <pre>public&nbsp;void&nbsp;stop()</pre>
-<div class="block">delete instance references 
- unregister my services ?</div>
+<div class="block">delete instance references unregister my services ?</div>
 </li>
 </ul>
 </li>
