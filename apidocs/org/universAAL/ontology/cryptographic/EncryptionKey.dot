@@ -10,34 +10,34 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c3808939 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
+	c3824208 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.cryptographic.KeyRing
-	c3809982 [label=<<table title="org.universAAL.ontology.cryptographic.KeyRing" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./KeyRing.html">
+	c3825251 [label=<<table title="org.universAAL.ontology.cryptographic.KeyRing" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./KeyRing.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> KeyRing </td></tr>
 		</table></td></tr>
 		</table>>, URL="./KeyRing.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.cryptographic.EncryptionKey
-	c3809986 [label=<<table title="org.universAAL.ontology.cryptographic.EncryptionKey" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./EncryptionKey.html">
+	c3825255 [label=<<table title="org.universAAL.ontology.cryptographic.EncryptionKey" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./EncryptionKey.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> EncryptionKey </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./EncryptionKey.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.cryptographic.SimpleKey
-	c3809988 [label=<<table title="org.universAAL.ontology.cryptographic.SimpleKey" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SimpleKey.html">
+	c3825257 [label=<<table title="org.universAAL.ontology.cryptographic.SimpleKey" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SimpleKey.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SimpleKey </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SimpleKey.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.cryptographic.KeyRing extends org.universAAL.ontology.cryptographic.EncryptionKey
-	c3809986:p -> c3809982:p [dir=back,arrowtail=empty];
+	c3825255:p -> c3825251:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.cryptographic.EncryptionKey extends org.universAAL.middleware.owl.ManagedIndividual
-	c3808939:p -> c3809986:p [dir=back,arrowtail=empty];
+	c3824208:p -> c3825255:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.cryptographic.SimpleKey extends org.universAAL.ontology.cryptographic.EncryptionKey
-	c3809986:p -> c3809988:p [dir=back,arrowtail=empty];
+	c3825255:p -> c3825257:p [dir=back,arrowtail=empty];
 }
 

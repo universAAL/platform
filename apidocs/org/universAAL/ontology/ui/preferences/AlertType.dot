@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c2177041 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/owl/ManagedIndividual.html">
+	c2189480 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../middleware/owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.ui.preferences.AlertType
-	c2177898 [label=<<table title="org.universAAL.ontology.ui.preferences.AlertType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AlertType.html">
+	c2190337 [label=<<table title="org.universAAL.ontology.ui.preferences.AlertType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AlertType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AlertType </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AlertType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.ui.preferences.AlertType extends org.universAAL.middleware.owl.ManagedIndividual
-	c2177041:p -> c2177898:p [dir=back,arrowtail=empty];
+	c2189480:p -> c2190337:p [dir=back,arrowtail=empty];
 }
 

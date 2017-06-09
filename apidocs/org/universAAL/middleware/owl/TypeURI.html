@@ -95,9 +95,9 @@ var activeTableTab = "activeTableTab";
 <div class="subTitle">org.universAAL.middleware.owl</div>
 <h2 title="Class TypeURI" class="title">Class TypeURI</h2>
 <map id="G" name="G">
-<area shape="rect" id="c8104919" href="./TypeURI.html" title="org.universAAL.middleware.owl.TypeURI" alt="" coords="37,113,110,138"/>
+<area shape="rect" id="c8127638" href="./TypeURI.html" title="org.universAAL.middleware.owl.TypeURI" alt="" coords="37,113,110,138"/>
 <area shape="rect" id="node1" href="./TypeURI.html" title="&lt;TABLE&gt;" alt="" coords="27,101,120,149"/>
-<area shape="rect" id="c8104938" href="./TypeExpression.html" title="org.universAAL.middleware.owl.TypeExpression" alt="" coords="16,17,131,42"/>
+<area shape="rect" id="c8127657" href="./TypeExpression.html" title="org.universAAL.middleware.owl.TypeExpression" alt="" coords="16,17,131,42"/>
 <area shape="rect" id="node2" href="./TypeExpression.html" title="&lt;TABLE&gt;" alt="" coords="5,5,141,53"/>
 </map>
 <!-- UML diagram added by UMLGraph version R5_6-24-gf6e263 (http://www.umlgraph.org/) -->
@@ -131,13 +131,13 @@ var activeTableTab = "activeTableTab";
 extends <a href="../../../../org/universAAL/middleware/owl/TypeExpression.html" title="class in org.universAAL.middleware.owl">TypeExpression</a></pre>
 <div class="block">A <a href="../../../../org/universAAL/middleware/owl/TypeExpression.html" title="class in org.universAAL.middleware.owl"><code>TypeExpression</code></a> that contains all individuals/literals of a named
  ontology class/datatype.
- 
+
  <p>
  In case of class expression:<br>
  TypeURI is called with the class URI of a named ontology class, i.e. the
  class URI of a sub class of <a href="../../../../org/universAAL/middleware/owl/ManagedIndividual.html" title="class in org.universAAL.middleware.owl"><code>ManagedIndividual</code></a>. It then contains
  exactly the individuals of the given named ontology class.
- 
+
  <p>
  In case of data range:<br>
  TypeURI is called with the URI of a datatype. It then contains exactly the
@@ -220,8 +220,7 @@ extends <a href="../../../../org/universAAL/middleware/owl/TypeExpression.html" 
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code><a href="../../../../org/universAAL/middleware/owl/TypeExpression.html" title="class in org.universAAL.middleware.owl">TypeExpression</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/owl/TypeURI.html#copy--">copy</a></span>()</code>
-<div class="block">No <a href="../../../../org/universAAL/middleware/owl/TypeExpression.html" title="class in org.universAAL.middleware.owl"><code>TypeExpression</code></a> instances are stored in this class, so we do
- not need to clone; just return this object.</div>
+<div class="block">Create a copy of this object, i.e.</div>
 </td>
 </tr>
 <tr id="i2" class="altColor">
@@ -234,7 +233,8 @@ extends <a href="../../../../org/universAAL/middleware/owl/TypeExpression.html" 
 <tr id="i3" class="rowColor">
 <td class="colFirst"><code><a href="../../../../org/universAAL/middleware/owl/TypeExpression.html" title="class in org.universAAL.middleware.owl">TypeExpression</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/owl/TypeURI.html#getRestrictionOnProperty-java.lang.String-">getRestrictionOnProperty</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propURI)</code>
-<div class="block">Get the restrictions for the given property.</div>
+<div class="block">Get the restrictions for the given property in the context of the class
+ represented by this type URI.</div>
 </td>
 </tr>
 <tr id="i4" class="altColor">
@@ -384,15 +384,16 @@ extends <a href="../../../../org/universAAL/middleware/owl/TypeExpression.html" 
 <li class="blockList">
 <h4>copy</h4>
 <pre>public&nbsp;<a href="../../../../org/universAAL/middleware/owl/TypeExpression.html" title="class in org.universAAL.middleware.owl">TypeExpression</a>&nbsp;copy()</pre>
-<div class="block">No <a href="../../../../org/universAAL/middleware/owl/TypeExpression.html" title="class in org.universAAL.middleware.owl"><code>TypeExpression</code></a> instances are stored in this class, so we do
+<div class="block">Create a copy of this object, i.e. create a new object of this class and
+ copy the necessary properties.<p>
+
+ No <a href="../../../../org/universAAL/middleware/owl/TypeExpression.html" title="class in org.universAAL.middleware.owl"><code>TypeExpression</code></a> instances are stored in this class, so we do
  not need to clone; just return this object.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code><a href="../../../../org/universAAL/middleware/owl/TypeExpression.html#copy--">copy</a></code>&nbsp;in class&nbsp;<code><a href="../../../../org/universAAL/middleware/owl/TypeExpression.html" title="class in org.universAAL.middleware.owl">TypeExpression</a></code></dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>The newly created copy.</dd>
-<dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../org/universAAL/middleware/owl/TypeExpression.html#copy--"><code>TypeExpression.copy()</code></a></dd>
 </dl>
 </li>
 </ul>
@@ -409,8 +410,6 @@ extends <a href="../../../../org/universAAL/middleware/owl/TypeExpression.html" 
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code><a href="../../../../org/universAAL/middleware/owl/TypeExpression.html#getNamedSuperclasses--">getNamedSuperclasses</a></code>&nbsp;in class&nbsp;<code><a href="../../../../org/universAAL/middleware/owl/TypeExpression.html" title="class in org.universAAL.middleware.owl">TypeExpression</a></code></dd>
-<dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../org/universAAL/middleware/owl/TypeExpression.html#getNamedSuperclasses--"><code>TypeExpression.getNamedSuperclasses()</code></a></dd>
 </dl>
 </li>
 </ul>
@@ -421,8 +420,13 @@ extends <a href="../../../../org/universAAL/middleware/owl/TypeExpression.html" 
 <li class="blockList">
 <h4>getRestrictionOnProperty</h4>
 <pre>public&nbsp;<a href="../../../../org/universAAL/middleware/owl/TypeExpression.html" title="class in org.universAAL.middleware.owl">TypeExpression</a>&nbsp;getRestrictionOnProperty(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propURI)</pre>
-<div class="block">Get the restrictions for the given property.</div>
+<div class="block">Get the restrictions for the given property in the context of the class
+ represented by this type URI.</div>
 <dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>propURI</code> - URI of the property.</dd>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>the restriction of the given property.</dd>
 <dt><span class="seeLabel">See Also:</span></dt>
 <dd><a href="../../../../org/universAAL/middleware/owl/ManagedIndividual.html#getClassRestrictionsOnProperty-java.lang.String-java.lang.String-"><code>ManagedIndividual.getClassRestrictionsOnProperty(String,
       String)</code></a></dd>
@@ -442,8 +446,6 @@ extends <a href="../../../../org/universAAL/middleware/owl/TypeExpression.html" 
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code><a href="../../../../org/universAAL/middleware/owl/TypeExpression.html#getUpperEnumeration--">getUpperEnumeration</a></code>&nbsp;in class&nbsp;<code><a href="../../../../org/universAAL/middleware/owl/TypeExpression.html" title="class in org.universAAL.middleware.owl">TypeExpression</a></code></dd>
-<dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../org/universAAL/middleware/owl/TypeExpression.html#getUpperEnumeration--"><code>TypeExpression.getUpperEnumeration()</code></a></dd>
 </dl>
 </li>
 </ul>
@@ -485,8 +487,10 @@ extends <a href="../../../../org/universAAL/middleware/owl/TypeExpression.html" 
 <dd><tt>true</tt> if the specified member is a member of this type
          expression</dd>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../org/universAAL/middleware/owl/TypeExpression.html#hasMember-java.lang.Object-java.util.HashMap-int-java.util.List-"><code>TypeExpression.hasMember(Object,
-      HashMap, int, List)</code></a></dd>
+<dd><a href="../../../../org/universAAL/middleware/util/Constants.html#VAR_uAAL_ACCESSING_BUS_MEMBER"><code>Constants.VAR_uAAL_ACCESSING_BUS_MEMBER</code></a>, 
+<a href="../../../../org/universAAL/middleware/util/Constants.html#VAR_uAAL_ACCESSING_HUMAN_USER"><code>Constants.VAR_uAAL_ACCESSING_HUMAN_USER</code></a>, 
+<a href="../../../../org/universAAL/middleware/util/Constants.html#VAR_uAAL_CURRENT_DATETIME"><code>Constants.VAR_uAAL_CURRENT_DATETIME</code></a>, 
+<a href="../../../../org/universAAL/middleware/util/Constants.html#VAR_uAAL_SERVICE_TO_SELECT"><code>Constants.VAR_uAAL_SERVICE_TO_SELECT</code></a></dd>
 </dl>
 </li>
 </ul>
@@ -529,8 +533,10 @@ extends <a href="../../../../org/universAAL/middleware/owl/TypeExpression.html" 
 <dd><tt>true</tt> if the given type expression is a subset of the
          class represented by this type expression, otherwise false</dd>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../org/universAAL/middleware/owl/TypeExpression.html#matches-org.universAAL.middleware.owl.TypeExpression-java.util.HashMap-int-java.util.List-"><code>TypeExpression.matches(TypeExpression,
-      HashMap, int, List)</code></a></dd>
+<dd><a href="../../../../org/universAAL/middleware/util/Constants.html#VAR_uAAL_ACCESSING_BUS_MEMBER"><code>Constants.VAR_uAAL_ACCESSING_BUS_MEMBER</code></a>, 
+<a href="../../../../org/universAAL/middleware/util/Constants.html#VAR_uAAL_ACCESSING_HUMAN_USER"><code>Constants.VAR_uAAL_ACCESSING_HUMAN_USER</code></a>, 
+<a href="../../../../org/universAAL/middleware/util/Constants.html#VAR_uAAL_CURRENT_DATETIME"><code>Constants.VAR_uAAL_CURRENT_DATETIME</code></a>, 
+<a href="../../../../org/universAAL/middleware/util/Constants.html#VAR_uAAL_SERVICE_TO_SELECT"><code>Constants.VAR_uAAL_SERVICE_TO_SELECT</code></a></dd>
 </dl>
 </li>
 </ul>
@@ -574,8 +580,10 @@ extends <a href="../../../../org/universAAL/middleware/owl/TypeExpression.html" 
          common with the class represented by this type expression,
          otherwise false</dd>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../org/universAAL/middleware/owl/TypeExpression.html#isDisjointWith-org.universAAL.middleware.owl.TypeExpression-java.util.HashMap-int-java.util.List-"><code>TypeExpression.isDisjointWith(TypeExpression,
-      HashMap, int, List)</code></a></dd>
+<dd><a href="../../../../org/universAAL/middleware/util/Constants.html#VAR_uAAL_ACCESSING_BUS_MEMBER"><code>Constants.VAR_uAAL_ACCESSING_BUS_MEMBER</code></a>, 
+<a href="../../../../org/universAAL/middleware/util/Constants.html#VAR_uAAL_ACCESSING_HUMAN_USER"><code>Constants.VAR_uAAL_ACCESSING_HUMAN_USER</code></a>, 
+<a href="../../../../org/universAAL/middleware/util/Constants.html#VAR_uAAL_CURRENT_DATETIME"><code>Constants.VAR_uAAL_CURRENT_DATETIME</code></a>, 
+<a href="../../../../org/universAAL/middleware/util/Constants.html#VAR_uAAL_SERVICE_TO_SELECT"><code>Constants.VAR_uAAL_SERVICE_TO_SELECT</code></a></dd>
 </dl>
 </li>
 </ul>
@@ -594,7 +602,7 @@ extends <a href="../../../../org/universAAL/middleware/owl/TypeExpression.html" 
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code><a href="../../../../org/universAAL/middleware/owl/TypeExpression.html#isWellFormed--">isWellFormed</a></code>&nbsp;in class&nbsp;<code><a href="../../../../org/universAAL/middleware/owl/TypeExpression.html" title="class in org.universAAL.middleware.owl">TypeExpression</a></code></dd>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../org/universAAL/middleware/owl/TypeExpression.html#isWellFormed--"><code>TypeExpression.isWellFormed()</code></a></dd>
+<dd><a href="../../../../org/universAAL/middleware/rdf/Resource.html#isWellFormed--"><code>Resource.isWellFormed()</code></a></dd>
 </dl>
 </li>
 </ul>
@@ -638,8 +646,6 @@ extends <a href="../../../../org/universAAL/middleware/owl/TypeExpression.html" 
 <dd><code><a href="../../../../org/universAAL/middleware/rdf/Resource.html#setProperty-java.lang.String-java.lang.Object-">setProperty</a></code>&nbsp;in class&nbsp;<code><a href="../../../../org/universAAL/middleware/rdf/Resource.html" title="class in org.universAAL.middleware.rdf">Resource</a></code></dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd><tt>true</tt> if the property changed as a result of the call</dd>
-<dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../org/universAAL/middleware/rdf/Resource.html#setProperty-java.lang.String-java.lang.Object-"><code>Resource.setProperty(String, Object)</code></a></dd>
 </dl>
 </li>
 </ul>

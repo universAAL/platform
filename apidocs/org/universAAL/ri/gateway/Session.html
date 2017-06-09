@@ -432,7 +432,8 @@ implements <a href="../../../../org/universAAL/ri/gateway/protocol/MessageSender
 <ul class="blockList">
 <li class="blockList">
 <h4>sendRequest</h4>
-<pre>public&nbsp;<a href="../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;sendRequest(<a href="../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;message)</pre>
+<pre>public&nbsp;<a href="../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;sendRequest(<a href="../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;message)
+                    throws <a href="http://docs.oracle.com/javase/8/docs/api/java/util/concurrent/TimeoutException.html?is-external=true" title="class or interface in java.util.concurrent">TimeoutException</a></pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="../../../../org/universAAL/ri/gateway/protocol/MessageSender.html#sendRequest-org.universAAL.ri.gateway.protocol.Message-">MessageSender</a></code></span></div>
 <div class="block">Send a request Synchronously to which a response is expected.</div>
 <dl>
@@ -442,6 +443,8 @@ implements <a href="../../../../org/universAAL/ri/gateway/protocol/MessageSender
 <dd><code>message</code> - to send, typically a request message</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>the response message, typically a response message.</dd>
+<dt><span class="throwsLabel">Throws:</span></dt>
+<dd><code><a href="http://docs.oracle.com/javase/8/docs/api/java/util/concurrent/TimeoutException.html?is-external=true" title="class or interface in java.util.concurrent">TimeoutException</a></code></dd>
 </dl>
 </li>
 </ul>

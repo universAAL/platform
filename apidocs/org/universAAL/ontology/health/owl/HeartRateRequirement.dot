@@ -10,34 +10,34 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.health.owl.MeasurementRequirements
-	c4429812 [label=<<table title="org.universAAL.ontology.health.owl.MeasurementRequirements" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MeasurementRequirements.html">
+	c4446156 [label=<<table title="org.universAAL.ontology.health.owl.MeasurementRequirements" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MeasurementRequirements.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MeasurementRequirements </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MeasurementRequirements.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.health.owl.ReposeHeartRateRequirement
-	c4429815 [label=<<table title="org.universAAL.ontology.health.owl.ReposeHeartRateRequirement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ReposeHeartRateRequirement.html">
+	c4446159 [label=<<table title="org.universAAL.ontology.health.owl.ReposeHeartRateRequirement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ReposeHeartRateRequirement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ReposeHeartRateRequirement </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ReposeHeartRateRequirement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.health.owl.HeartRateRequirement
-	c4429816 [label=<<table title="org.universAAL.ontology.health.owl.HeartRateRequirement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HeartRateRequirement.html">
+	c4446160 [label=<<table title="org.universAAL.ontology.health.owl.HeartRateRequirement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HeartRateRequirement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HeartRateRequirement </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HeartRateRequirement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.health.owl.ActivityHeartRateRequirement
-	c4429823 [label=<<table title="org.universAAL.ontology.health.owl.ActivityHeartRateRequirement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ActivityHeartRateRequirement.html">
+	c4446167 [label=<<table title="org.universAAL.ontology.health.owl.ActivityHeartRateRequirement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ActivityHeartRateRequirement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ActivityHeartRateRequirement </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ActivityHeartRateRequirement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.health.owl.ReposeHeartRateRequirement extends org.universAAL.ontology.health.owl.HeartRateRequirement
-	c4429816:p -> c4429815:p [dir=back,arrowtail=empty];
+	c4446160:p -> c4446159:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.health.owl.HeartRateRequirement extends org.universAAL.ontology.health.owl.MeasurementRequirements
-	c4429812:p -> c4429816:p [dir=back,arrowtail=empty];
+	c4446156:p -> c4446160:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.health.owl.ActivityHeartRateRequirement extends org.universAAL.ontology.health.owl.HeartRateRequirement
-	c4429816:p -> c4429823:p [dir=back,arrowtail=empty];
+	c4446160:p -> c4446167:p [dir=back,arrowtail=empty];
 }
 

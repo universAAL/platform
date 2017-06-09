@@ -10,39 +10,39 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.modules.CommunicationModule
-	c2877928 [label=<<table title="org.universAAL.middleware.modules.CommunicationModule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CommunicationModule.html">
+	c2891582 [label=<<table title="org.universAAL.middleware.modules.CommunicationModule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CommunicationModule.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> CommunicationModule </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CommunicationModule.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.modules.ConfigurableCommunicationModule
-	c2877929 [label=<<table title="org.universAAL.middleware.modules.ConfigurableCommunicationModule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigurableCommunicationModule.html">
+	c2891583 [label=<<table title="org.universAAL.middleware.modules.ConfigurableCommunicationModule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigurableCommunicationModule.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ConfigurableCommunicationModule </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConfigurableCommunicationModule.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.modules.Module
-	c2877930 [label=<<table title="org.universAAL.middleware.modules.Module" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Module.html">
+	c2891584 [label=<<table title="org.universAAL.middleware.modules.Module" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Module.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Module </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Module.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.modules.communication.CommunicationModuleImpl
-	c2878861 [label=<<table title="org.universAAL.middleware.modules.communication.CommunicationModuleImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./communication/CommunicationModuleImpl.html">
+	c2892515 [label=<<table title="org.universAAL.middleware.modules.communication.CommunicationModuleImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./communication/CommunicationModuleImpl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CommunicationModuleImpl </td></tr>
 		</table></td></tr>
 		</table>>, URL="./communication/CommunicationModuleImpl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.modules.CommunicationModule implements org.universAAL.middleware.modules.Module
-	c2877930:p -> c2877928:p [dir=back,arrowtail=empty,style=dashed];
+	c2891584:p -> c2891582:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.modules.ConfigurableCommunicationModule implements org.universAAL.middleware.modules.CommunicationModule
-	c2877928:p -> c2877929:p [dir=back,arrowtail=empty,style=dashed];
+	c2891582:p -> c2891583:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.modules.communication.CommunicationModuleImpl implements org.universAAL.middleware.modules.CommunicationModule
-	c2877928:p -> c2878861:p [dir=back,arrowtail=empty,style=dashed];
+	c2891582:p -> c2892515:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.modules.communication.CommunicationModuleImpl implements org.universAAL.middleware.modules.ConfigurableCommunicationModule
-	c2877929:p -> c2878861:p [dir=back,arrowtail=empty,style=dashed];
+	c2891583:p -> c2892515:p [dir=back,arrowtail=empty,style=dashed];
 }
 

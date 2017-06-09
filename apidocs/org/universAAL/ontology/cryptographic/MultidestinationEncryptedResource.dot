@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.cryptographic.EncryptedResource
-	c5848392 [label=<<table title="org.universAAL.ontology.cryptographic.EncryptedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EncryptedResource.html">
+	c5867196 [label=<<table title="org.universAAL.ontology.cryptographic.EncryptedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EncryptedResource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> EncryptedResource </td></tr>
 		</table></td></tr>
 		</table>>, URL="./EncryptedResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.cryptographic.MultidestinationEncryptedResource
-	c5848394 [label=<<table title="org.universAAL.ontology.cryptographic.MultidestinationEncryptedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MultidestinationEncryptedResource.html">
+	c5867198 [label=<<table title="org.universAAL.ontology.cryptographic.MultidestinationEncryptedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MultidestinationEncryptedResource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MultidestinationEncryptedResource </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MultidestinationEncryptedResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.cryptographic.MultidestinationEncryptedResource extends org.universAAL.ontology.cryptographic.EncryptedResource
-	c5848392:p -> c5848394:p [dir=back,arrowtail=empty];
+	c5867196:p -> c5867198:p [dir=back,arrowtail=empty];
 }
 

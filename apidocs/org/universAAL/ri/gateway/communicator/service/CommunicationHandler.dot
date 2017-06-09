@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ri.gateway.communicator.service.CommunicationHandler
-	c2873905 [label=<<table title="org.universAAL.ri.gateway.communicator.service.CommunicationHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CommunicationHandler.html">
+	c2887549 [label=<<table title="org.universAAL.ri.gateway.communicator.service.CommunicationHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CommunicationHandler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> CommunicationHandler </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CommunicationHandler.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.gateway.communicator.service.impl.AbstractSocketCommunicationHandler
-	c2873911 [label=<<table title="org.universAAL.ri.gateway.communicator.service.impl.AbstractSocketCommunicationHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./impl/AbstractSocketCommunicationHandler.html">
+	c2887555 [label=<<table title="org.universAAL.ri.gateway.communicator.service.impl.AbstractSocketCommunicationHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./impl/AbstractSocketCommunicationHandler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractSocketCommunicationHandler </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./impl/AbstractSocketCommunicationHandler.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ri.gateway.communicator.service.impl.AbstractSocketCommunicationHandler implements org.universAAL.ri.gateway.communicator.service.CommunicationHandler
-	c2873905:p -> c2873911:p [dir=back,arrowtail=empty,style=dashed];
+	c2887549:p -> c2887555:p [dir=back,arrowtail=empty,style=dashed];
 }
 

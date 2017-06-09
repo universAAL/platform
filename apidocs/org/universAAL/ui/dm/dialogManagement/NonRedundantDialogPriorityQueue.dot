@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.dm.dialogManagement.NonRedundantDialogPriorityQueue
-	c5999343 [label=<<table title="org.universAAL.ui.dm.dialogManagement.NonRedundantDialogPriorityQueue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./NonRedundantDialogPriorityQueue.html">
+	c6018407 [label=<<table title="org.universAAL.ui.dm.dialogManagement.NonRedundantDialogPriorityQueue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./NonRedundantDialogPriorityQueue.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> NonRedundantDialogPriorityQueue </td></tr>
 		</table></td></tr>
 		</table>>, URL="./NonRedundantDialogPriorityQueue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.dialogManagement.DialogPriorityQueue
-	c5999345 [label=<<table title="org.universAAL.ui.dm.dialogManagement.DialogPriorityQueue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DialogPriorityQueue.html">
+	c6018409 [label=<<table title="org.universAAL.ui.dm.dialogManagement.DialogPriorityQueue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DialogPriorityQueue.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DialogPriorityQueue </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DialogPriorityQueue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.dm.dialogManagement.NonRedundantDialogPriorityQueue extends org.universAAL.ui.dm.dialogManagement.DialogPriorityQueue
-	c5999345:p -> c5999343:p [dir=back,arrowtail=empty];
+	c6018409:p -> c6018407:p [dir=back,arrowtail=empty];
 }
 

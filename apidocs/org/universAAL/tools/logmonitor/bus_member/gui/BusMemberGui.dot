@@ -10,32 +10,32 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.logmonitor.BusMemberListener
-	c2580250 [label=<<table title="org.universAAL.tools.logmonitor.BusMemberListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../BusMemberListener.html">
+	c2593389 [label=<<table title="org.universAAL.tools.logmonitor.BusMemberListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../BusMemberListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> BusMemberListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../BusMemberListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.logmonitor.bus_member.gui.BusMemberGui
-	c2580285 [label=<<table title="org.universAAL.tools.logmonitor.bus_member.gui.BusMemberGui" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BusMemberGui.html">
+	c2593424 [label=<<table title="org.universAAL.tools.logmonitor.bus_member.gui.BusMemberGui" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BusMemberGui.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BusMemberGui </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BusMemberGui.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.logmonitor.bus_member.gui.BusMemberGui extends javax.swing.JPanel
-	c2580558:p -> c2580285:p [dir=back,arrowtail=empty];
+	c2593697:p -> c2593424:p [dir=back,arrowtail=empty];
 	//org.universAAL.tools.logmonitor.bus_member.gui.BusMemberGui implements javax.swing.event.TreeSelectionListener
-	c2580559:p -> c2580285:p [dir=back,arrowtail=empty,style=dashed];
+	c2593698:p -> c2593424:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.tools.logmonitor.bus_member.gui.BusMemberGui implements org.universAAL.tools.logmonitor.BusMemberListener
-	c2580250:p -> c2580285:p [dir=back,arrowtail=empty,style=dashed];
+	c2593389:p -> c2593424:p [dir=back,arrowtail=empty,style=dashed];
 	// javax.swing.JPanel
-	c2580558 [label=<<table title="javax.swing.JPanel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/JPanel.html">
+	c2593697 [label=<<table title="javax.swing.JPanel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/JPanel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> JPanel </td></tr>
 		</table></td></tr>
 		</table>>, URL="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/JPanel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// javax.swing.event.TreeSelectionListener
-	c2580559 [label=<<table title="javax.swing.event.TreeSelectionListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/event/TreeSelectionListener.html">
+	c2593698 [label=<<table title="javax.swing.event.TreeSelectionListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/event/TreeSelectionListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> TreeSelectionListener </td></tr>

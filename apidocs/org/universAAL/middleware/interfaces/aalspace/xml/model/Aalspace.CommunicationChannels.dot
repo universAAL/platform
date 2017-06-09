@@ -10,24 +10,24 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.interfaces.aalspace.model.ICommunicationChannels
-	c1885944 [label=<<table title="org.universAAL.middleware.interfaces.aalspace.model.ICommunicationChannels" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../model/ICommunicationChannels.html">
+	c1897878 [label=<<table title="org.universAAL.middleware.interfaces.aalspace.model.ICommunicationChannels" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../model/ICommunicationChannels.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ICommunicationChannels </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../model/ICommunicationChannels.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.interfaces.aalspace.xml.model.Aalspace.CommunicationChannels
-	c1885950 [label=<<table title="org.universAAL.middleware.interfaces.aalspace.xml.model.Aalspace.CommunicationChannels" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Aalspace.CommunicationChannels.html">
+	c1897884 [label=<<table title="org.universAAL.middleware.interfaces.aalspace.xml.model.Aalspace.CommunicationChannels" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Aalspace.CommunicationChannels.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CommunicationChannels </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Aalspace.CommunicationChannels.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.interfaces.aalspace.xml.model.Aalspace.CommunicationChannels implements java.io.Serializable
-	c1888586:p -> c1885950:p [dir=back,arrowtail=empty,style=dashed];
+	c1900525:p -> c1897884:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.interfaces.aalspace.xml.model.Aalspace.CommunicationChannels implements org.universAAL.middleware.interfaces.aalspace.model.ICommunicationChannels
-	c1885944:p -> c1885950:p [dir=back,arrowtail=empty,style=dashed];
+	c1897878:p -> c1897884:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Serializable
-	c1888586 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c1900525 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>

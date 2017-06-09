@@ -10,42 +10,42 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c3532155 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
+	c3546944 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.sysinfo.Descriptor
-	c3533248 [label=<<table title="org.universAAL.ontology.sysinfo.Descriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Descriptor.html">
+	c3548037 [label=<<table title="org.universAAL.ontology.sysinfo.Descriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Descriptor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Descriptor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Descriptor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.sysinfo.AALSpaceStatusDescriptor
-	c3533249 [label=<<table title="org.universAAL.ontology.sysinfo.AALSpaceStatusDescriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AALSpaceStatusDescriptor.html">
+	c3548038 [label=<<table title="org.universAAL.ontology.sysinfo.AALSpaceStatusDescriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AALSpaceStatusDescriptor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AALSpaceStatusDescriptor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AALSpaceStatusDescriptor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.sysinfo.PeerCardDescriptor
-	c3533252 [label=<<table title="org.universAAL.ontology.sysinfo.PeerCardDescriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PeerCardDescriptor.html">
+	c3548041 [label=<<table title="org.universAAL.ontology.sysinfo.PeerCardDescriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PeerCardDescriptor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PeerCardDescriptor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PeerCardDescriptor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.sysinfo.AALSpaceDescriptor
-	c3533253 [label=<<table title="org.universAAL.ontology.sysinfo.AALSpaceDescriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AALSpaceDescriptor.html">
+	c3548042 [label=<<table title="org.universAAL.ontology.sysinfo.AALSpaceDescriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AALSpaceDescriptor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AALSpaceDescriptor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AALSpaceDescriptor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.sysinfo.Descriptor extends org.universAAL.middleware.owl.ManagedIndividual
-	c3532155:p -> c3533248:p [dir=back,arrowtail=empty];
+	c3546944:p -> c3548037:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.sysinfo.AALSpaceStatusDescriptor extends org.universAAL.ontology.sysinfo.Descriptor
-	c3533248:p -> c3533249:p [dir=back,arrowtail=empty];
+	c3548037:p -> c3548038:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.sysinfo.PeerCardDescriptor extends org.universAAL.ontology.sysinfo.Descriptor
-	c3533248:p -> c3533252:p [dir=back,arrowtail=empty];
+	c3548037:p -> c3548041:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.sysinfo.AALSpaceDescriptor extends org.universAAL.ontology.sysinfo.Descriptor
-	c3533248:p -> c3533253:p [dir=back,arrowtail=empty];
+	c3548037:p -> c3548042:p [dir=back,arrowtail=empty];
 }
 

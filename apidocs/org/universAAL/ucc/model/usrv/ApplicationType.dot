@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ucc.model.usrv.ApplicationType
-	c2237242 [label=<<table title="org.universAAL.ucc.model.usrv.ApplicationType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ApplicationType.html">
+	c2249786 [label=<<table title="org.universAAL.ucc.model.usrv.ApplicationType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ApplicationType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ApplicationType </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ApplicationType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ucc.model.usrv.ApplicationType implements java.io.Serializable
-	c2237465:p -> c2237242:p [dir=back,arrowtail=empty,style=dashed];
+	c2250009:p -> c2249786:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Serializable
-	c2237465 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c2250009 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>

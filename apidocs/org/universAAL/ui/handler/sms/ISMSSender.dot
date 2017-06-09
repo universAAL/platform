@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.handler.sms.ISMSSender
-	c4702119 [label=<<table title="org.universAAL.ui.handler.sms.ISMSSender" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ISMSSender.html">
+	c4718933 [label=<<table title="org.universAAL.ui.handler.sms.ISMSSender" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ISMSSender.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ISMSSender </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ISMSSender.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// net.vsms.bulksms.SmsSender
-	c4702121 [label=<<table title="net.vsms.bulksms.SmsSender" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../../net/vsms/bulksms/SmsSender.html">
+	c4718935 [label=<<table title="net.vsms.bulksms.SmsSender" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../../net/vsms/bulksms/SmsSender.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SmsSender </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../../../net/vsms/bulksms/SmsSender.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//net.vsms.bulksms.SmsSender implements org.universAAL.ui.handler.sms.ISMSSender
-	c4702119:p -> c4702121:p [dir=back,arrowtail=empty,style=dashed];
+	c4718933:p -> c4718935:p [dir=back,arrowtail=empty,style=dashed];
 }
 

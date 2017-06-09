@@ -18,7 +18,7 @@
     catch(err) {
     }
 //-->
-var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10};
+var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10};
 var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -217,62 +217,67 @@ implements <a href="../../../../../org/universAAL/ri/gateway/configuration/Confi
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>protected void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/ConfigurationFile.html#addDefaults-java.util.Properties-">addDefaults</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/util/Properties.html?is-external=true" title="class or interface in java.util">Properties</a>&nbsp;defaults)</code>
-<div class="block">to be implemented to add the default values at the start if there is no file.</div>
+<div class="block">to be implemented to add the default values at the start if there is no
+ file.</div>
 </td>
 </tr>
 <tr id="i1" class="rowColor">
+<td class="colFirst"><code><a href="../../../../../org/universAAL/ri/gateway/communication/cipher/Cipher.html" title="interface in org.universAAL.ri.gateway.communication.cipher">Cipher</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/ConfigurationFile.html#getCipher--">getCipher</a></span>()</code>
+<div class="block">Get the encryption cipher to be used for the communication link.</div>
+</td>
+</tr>
+<tr id="i2" class="altColor">
 <td class="colFirst"><code><a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/ConfigurationFile.html#getComments--">getComments</a></span>()</code>
 <div class="block">Get the comments for the Property file.</div>
 </td>
 </tr>
-<tr id="i2" class="altColor">
+<tr id="i3" class="rowColor">
 <td class="colFirst"><code><a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/ConfigurationFile.html#getConnectionHost--">getConnectionHost</a></span>()</code>
 <div class="block">Get the Host the Session should connect to.</div>
 </td>
 </tr>
-<tr id="i3" class="rowColor">
+<tr id="i4" class="altColor">
 <td class="colFirst"><code><a href="../../../../../org/universAAL/ri/gateway/configuration/Configuration.ConnectionMode.html" title="enum in org.universAAL.ri.gateway.configuration">Configuration.ConnectionMode</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/ConfigurationFile.html#getConnectionMode--">getConnectionMode</a></span>()</code>
 <div class="block">Get the Connection mode intended for the <a href="../../../../../org/universAAL/ri/gateway/Session.html" title="class in org.universAAL.ri.gateway"><code>Session</code></a> represented by
  this configuration.</div>
 </td>
 </tr>
-<tr id="i4" class="altColor">
+<tr id="i5" class="rowColor">
 <td class="colFirst"><code>int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/ConfigurationFile.html#getConnectionPort--">getConnectionPort</a></span>()</code>
 <div class="block">Get the port to connect to.</div>
 </td>
 </tr>
-<tr id="i5" class="rowColor">
-<td class="colFirst"><code><a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/ConfigurationFile.html#getEncryptionKey--">getEncryptionKey</a></span>()</code>
-<div class="block">Get the encryption key to be used for the communication link.</div>
-</td>
-</tr>
 <tr id="i6" class="altColor">
+<td class="colFirst"><code><a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/ConfigurationFile.html#getEncryptionKey--">getEncryptionKey</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i7" class="rowColor">
 <td class="colFirst"><code><a href="../../../../../org/universAAL/ri/gateway/operations/ParameterCheckOpertaionChain.html" title="interface in org.universAAL.ri.gateway.operations">ParameterCheckOpertaionChain</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/ConfigurationFile.html#getExportOperationChain--">getExportOperationChain</a></span>()</code>
 <div class="block">The security checks that a <a href="../../../../../org/universAAL/middleware/bus/member/BusMember.html" title="class in org.universAAL.middleware.bus.member"><code>BusMember</code></a> has to pass in order to be
  allowed to be exported.</div>
 </td>
 </tr>
-<tr id="i7" class="rowColor">
+<tr id="i8" class="altColor">
 <td class="colFirst"><code><a href="../../../../../org/universAAL/ri/gateway/operations/ParameterCheckOpertaionChain.html" title="interface in org.universAAL.ri.gateway.operations">ParameterCheckOpertaionChain</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/ConfigurationFile.html#getImportOperationChain--">getImportOperationChain</a></span>()</code>
 <div class="block">The security checks that a <a href="../../../../../org/universAAL/ri/gateway/protocol/ImportMessage.html" title="class in org.universAAL.ri.gateway.protocol"><code>ImportRequest</code></a> has to
  pass in order to be allowed to create a proxy for it.</div>
 </td>
 </tr>
-<tr id="i8" class="altColor">
+<tr id="i9" class="rowColor">
 <td class="colFirst"><code><a href="../../../../../org/universAAL/ri/gateway/operations/MessageOperationChain.html" title="interface in org.universAAL.ri.gateway.operations">MessageOperationChain</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/ConfigurationFile.html#getIncomingMessageOperationChain--">getIncomingMessageOperationChain</a></span>()</code>
 <div class="block">The security checks that an incoming <a href="../../../../../org/universAAL/ri/gateway/protocol/WrappedBusMessage.html" title="class in org.universAAL.ri.gateway.protocol"><code>WrappedBusMessage</code></a> has to
  pass in order to be allowed to interpreted by the proxy.</div>
 </td>
 </tr>
-<tr id="i9" class="rowColor">
+<tr id="i10" class="altColor">
 <td class="colFirst"><code><a href="../../../../../org/universAAL/ri/gateway/operations/MessageOperationChain.html" title="interface in org.universAAL.ri.gateway.operations">MessageOperationChain</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/ConfigurationFile.html#getOutgoingMessageOperationChain--">getOutgoingMessageOperationChain</a></span>()</code>
 <div class="block">The security checks that an outgoing <a href="../../../../../org/universAAL/ri/gateway/protocol/WrappedBusMessage.html" title="class in org.universAAL.ri.gateway.protocol"><code>WrappedBusMessage</code></a> has to
@@ -363,7 +368,8 @@ implements <a href="../../../../../org/universAAL/ri/gateway/configuration/Confi
 <h4>addDefaults</h4>
 <pre>protected&nbsp;void&nbsp;addDefaults(<a href="http://docs.oracle.com/javase/8/docs/api/java/util/Properties.html?is-external=true" title="class or interface in java.util">Properties</a>&nbsp;defaults)</pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from class:&nbsp;<code><a href="../../../../../org/universAAL/ri/gateway/configuration/UpdatedPropertiesFile.html#addDefaults-java.util.Properties-">UpdatedPropertiesFile</a></code></span></div>
-<div class="block">to be implemented to add the default values at the start if there is no file.</div>
+<div class="block">to be implemented to add the default values at the start if there is no
+ file.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code><a href="../../../../../org/universAAL/ri/gateway/configuration/UpdatedPropertiesFile.html#addDefaults-java.util.Properties-">addDefaults</a></code>&nbsp;in class&nbsp;<code><a href="../../../../../org/universAAL/ri/gateway/configuration/UpdatedPropertiesFile.html" title="class in org.universAAL.ri.gateway.configuration">UpdatedPropertiesFile</a></code></dd>
@@ -494,16 +500,25 @@ implements <a href="../../../../../org/universAAL/ri/gateway/configuration/Confi
 <a name="getEncryptionKey--">
 <!--   -->
 </a>
-<ul class="blockListLast">
+<ul class="blockList">
 <li class="blockList">
 <h4>getEncryptionKey</h4>
 <pre>public&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;getEncryptionKey()</pre>
-<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="../../../../../org/universAAL/ri/gateway/configuration/Configuration.html#getEncryptionKey--">Configuration</a></code></span></div>
-<div class="block">Get the encryption key to be used for the communication link.</div>
+</li>
+</ul>
+<a name="getCipher--">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>getCipher</h4>
+<pre>public&nbsp;<a href="../../../../../org/universAAL/ri/gateway/communication/cipher/Cipher.html" title="interface in org.universAAL.ri.gateway.communication.cipher">Cipher</a>&nbsp;getCipher()</pre>
+<div class="block">Get the encryption cipher to be used for the communication link.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="../../../../../org/universAAL/ri/gateway/configuration/Configuration.html#getEncryptionKey--">getEncryptionKey</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/universAAL/ri/gateway/configuration/Configuration.html" title="interface in org.universAAL.ri.gateway.configuration">Configuration</a></code></dd>
+<dd><code><a href="../../../../../org/universAAL/ri/gateway/configuration/Configuration.html#getCipher--">getCipher</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/universAAL/ri/gateway/configuration/Configuration.html" title="interface in org.universAAL.ri.gateway.configuration">Configuration</a></code></dd>
 <dt><span class="returnLabel">Returns:</span></dt>
+<dd>the <a href="../../../../../org/universAAL/ri/gateway/communication/cipher/Cipher.html" title="interface in org.universAAL.ri.gateway.communication.cipher"><code>Cipher</code></a> implementation configured for this link.</dd>
 </dl>
 </li>
 </ul>

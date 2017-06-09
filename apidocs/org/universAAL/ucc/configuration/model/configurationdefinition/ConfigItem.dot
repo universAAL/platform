@@ -10,34 +10,34 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ucc.configuration.model.configurationdefinition.SimpleConfigItem
-	c2926444 [label=<<table title="org.universAAL.ucc.configuration.model.configurationdefinition.SimpleConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SimpleConfigItem.html">
+	c2940183 [label=<<table title="org.universAAL.ucc.configuration.model.configurationdefinition.SimpleConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SimpleConfigItem.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SimpleConfigItem </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SimpleConfigItem.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ucc.configuration.model.configurationdefinition.ConfigItem
-	c2926445 [label=<<table title="org.universAAL.ucc.configuration.model.configurationdefinition.ConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigItem.html">
+	c2940184 [label=<<table title="org.universAAL.ucc.configuration.model.configurationdefinition.ConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigItem.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConfigItem </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConfigItem.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ucc.configuration.model.configurationdefinition.MapConfigItem
-	c2926448 [label=<<table title="org.universAAL.ucc.configuration.model.configurationdefinition.MapConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MapConfigItem.html">
+	c2940187 [label=<<table title="org.universAAL.ucc.configuration.model.configurationdefinition.MapConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MapConfigItem.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MapConfigItem </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MapConfigItem.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ucc.configuration.model.configurationdefinition.SPARQLConfigItem
-	c2926452 [label=<<table title="org.universAAL.ucc.configuration.model.configurationdefinition.SPARQLConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SPARQLConfigItem.html">
+	c2940191 [label=<<table title="org.universAAL.ucc.configuration.model.configurationdefinition.SPARQLConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SPARQLConfigItem.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SPARQLConfigItem </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SPARQLConfigItem.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ucc.configuration.model.configurationdefinition.SimpleConfigItem extends org.universAAL.ucc.configuration.model.configurationdefinition.ConfigItem
-	c2926445:p -> c2926444:p [dir=back,arrowtail=empty];
+	c2940184:p -> c2940183:p [dir=back,arrowtail=empty];
 	//org.universAAL.ucc.configuration.model.configurationdefinition.MapConfigItem extends org.universAAL.ucc.configuration.model.configurationdefinition.ConfigItem
-	c2926445:p -> c2926448:p [dir=back,arrowtail=empty];
+	c2940184:p -> c2940187:p [dir=back,arrowtail=empty];
 	//org.universAAL.ucc.configuration.model.configurationdefinition.SPARQLConfigItem extends org.universAAL.ucc.configuration.model.configurationdefinition.ConfigItem
-	c2926445:p -> c2926452:p [dir=back,arrowtail=empty];
+	c2940184:p -> c2940191:p [dir=back,arrowtail=empty];
 }
 

@@ -10,66 +10,66 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.bus.member.Publisher
-	c3195115 [label=<<table title="org.universAAL.middleware.bus.member.Publisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../bus/member/Publisher.html">
+	c3209319 [label=<<table title="org.universAAL.middleware.bus.member.Publisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../bus/member/Publisher.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Publisher </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../bus/member/Publisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.context.DefaultContextPublisher
-	c3195124 [label=<<table title="org.universAAL.middleware.context.DefaultContextPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DefaultContextPublisher.html">
+	c3209328 [label=<<table title="org.universAAL.middleware.context.DefaultContextPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DefaultContextPublisher.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DefaultContextPublisher </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DefaultContextPublisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.context.ContextPublisher
-	c3195129 [label=<<table title="org.universAAL.middleware.context.ContextPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ContextPublisher.html">
+	c3209333 [label=<<table title="org.universAAL.middleware.context.ContextPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ContextPublisher.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ContextPublisher </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./ContextPublisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.reliability.reasoner.ReliabilityReasonerPublisher
-	c3196121 [label=<<table title="org.universAAL.reliability.reasoner.ReliabilityReasonerPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../reliability/reasoner/ReliabilityReasonerPublisher.html">
+	c3210325 [label=<<table title="org.universAAL.reliability.reasoner.ReliabilityReasonerPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../reliability/reasoner/ReliabilityReasonerPublisher.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ReliabilityReasonerPublisher </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../reliability/reasoner/ReliabilityReasonerPublisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.security.authenticator.client.AuthenticationPublisher
-	c3196690 [label=<<table title="org.universAAL.security.authenticator.client.AuthenticationPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../security/authenticator/client/AuthenticationPublisher.html">
+	c3210894 [label=<<table title="org.universAAL.security.authenticator.client.AuthenticationPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../security/authenticator/client/AuthenticationPublisher.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AuthenticationPublisher </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../security/authenticator/client/AuthenticationPublisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.security.session.manager.context.SessionPublisher
-	c3196712 [label=<<table title="org.universAAL.security.session.manager.context.SessionPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../security/session/manager/context/SessionPublisher.html">
+	c3210916 [label=<<table title="org.universAAL.security.session.manager.context.SessionPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../security/session/manager/context/SessionPublisher.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SessionPublisher </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../security/session/manager/context/SessionPublisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.gateway.proxies.exporting.ProxyContextPublisher
-	c3196820 [label=<<table title="org.universAAL.ri.gateway.proxies.exporting.ProxyContextPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ri/gateway/proxies/exporting/ProxyContextPublisher.html">
+	c3211024 [label=<<table title="org.universAAL.ri.gateway.proxies.exporting.ProxyContextPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ri/gateway/proxies/exporting/ProxyContextPublisher.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProxyContextPublisher </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ri/gateway/proxies/exporting/ProxyContextPublisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.samples.ctxtbus.CPublisher
-	c3197134 [label=<<table title="org.universAAL.samples.ctxtbus.CPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../samples/ctxtbus/CPublisher.html">
+	c3211338 [label=<<table title="org.universAAL.samples.ctxtbus.CPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../samples/ctxtbus/CPublisher.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CPublisher </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../samples/ctxtbus/CPublisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.context.DefaultContextPublisher extends org.universAAL.middleware.context.ContextPublisher
-	c3195129:p -> c3195124:p [dir=back,arrowtail=empty];
+	c3209333:p -> c3209328:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.context.ContextPublisher extends org.universAAL.middleware.bus.member.Publisher
-	c3195115:p -> c3195129:p [dir=back,arrowtail=empty];
+	c3209319:p -> c3209333:p [dir=back,arrowtail=empty];
 	//org.universAAL.reliability.reasoner.ReliabilityReasonerPublisher extends org.universAAL.middleware.context.ContextPublisher
-	c3195129:p -> c3196121:p [dir=back,arrowtail=empty];
+	c3209333:p -> c3210325:p [dir=back,arrowtail=empty];
 	//org.universAAL.security.authenticator.client.AuthenticationPublisher extends org.universAAL.middleware.context.ContextPublisher
-	c3195129:p -> c3196690:p [dir=back,arrowtail=empty];
+	c3209333:p -> c3210894:p [dir=back,arrowtail=empty];
 	//org.universAAL.security.session.manager.context.SessionPublisher extends org.universAAL.middleware.context.ContextPublisher
-	c3195129:p -> c3196712:p [dir=back,arrowtail=empty];
+	c3209333:p -> c3210916:p [dir=back,arrowtail=empty];
 	//org.universAAL.ri.gateway.proxies.exporting.ProxyContextPublisher extends org.universAAL.middleware.context.ContextPublisher
-	c3195129:p -> c3196820:p [dir=back,arrowtail=empty];
+	c3209333:p -> c3211024:p [dir=back,arrowtail=empty];
 	//org.universAAL.samples.ctxtbus.CPublisher extends org.universAAL.middleware.context.ContextPublisher
-	c3195129:p -> c3197134:p [dir=back,arrowtail=empty];
+	c3209333:p -> c3211338:p [dir=back,arrowtail=empty];
 }
 

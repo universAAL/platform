@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.managers.api.MatchingResult
-	c5556386 [label=<<table title="org.universAAL.middleware.managers.api.MatchingResult" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../api/MatchingResult.html">
+	c5574685 [label=<<table title="org.universAAL.middleware.managers.api.MatchingResult" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../api/MatchingResult.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> MatchingResult </td></tr>
 		</table></td></tr>
 		</table>>, URL="../api/MatchingResult.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.aalspace.MatchingResultImpl
-	c5557356 [label=<<table title="org.universAAL.middleware.managers.aalspace.MatchingResultImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MatchingResultImpl.html">
+	c5575655 [label=<<table title="org.universAAL.middleware.managers.aalspace.MatchingResultImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MatchingResultImpl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MatchingResultImpl </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MatchingResultImpl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.managers.aalspace.MatchingResultImpl implements org.universAAL.middleware.managers.api.MatchingResult
-	c5556386:p -> c5557356:p [dir=back,arrowtail=empty,style=dashed];
+	c5574685:p -> c5575655:p [dir=back,arrowtail=empty,style=dashed];
 }
 

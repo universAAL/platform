@@ -10,38 +10,38 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.modules.AALSpaceModule
-	c5775520 [label=<<table title="org.universAAL.middleware.modules.AALSpaceModule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AALSpaceModule.html">
+	c5794199 [label=<<table title="org.universAAL.middleware.modules.AALSpaceModule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AALSpaceModule.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> AALSpaceModule </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AALSpaceModule.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.modules.DeployModule
-	c5775521 [label=<<table title="org.universAAL.middleware.modules.DeployModule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DeployModule.html">
+	c5794200 [label=<<table title="org.universAAL.middleware.modules.DeployModule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DeployModule.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> DeployModule </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DeployModule.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.modules.CommunicationModule
-	c5775522 [label=<<table title="org.universAAL.middleware.modules.CommunicationModule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CommunicationModule.html">
+	c5794201 [label=<<table title="org.universAAL.middleware.modules.CommunicationModule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CommunicationModule.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> CommunicationModule </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CommunicationModule.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.modules.Module
-	c5775524 [label=<<table title="org.universAAL.middleware.modules.Module" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Module.html">
+	c5794203 [label=<<table title="org.universAAL.middleware.modules.Module" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Module.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Module </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Module.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.modules.AALSpaceModule implements org.universAAL.middleware.modules.Module
-	c5775524:p -> c5775520:p [dir=back,arrowtail=empty,style=dashed];
+	c5794203:p -> c5794199:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.modules.DeployModule implements org.universAAL.middleware.modules.Module
-	c5775524:p -> c5775521:p [dir=back,arrowtail=empty,style=dashed];
+	c5794203:p -> c5794200:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.modules.CommunicationModule implements org.universAAL.middleware.modules.Module
-	c5775524:p -> c5775522:p [dir=back,arrowtail=empty,style=dashed];
+	c5794203:p -> c5794201:p [dir=back,arrowtail=empty,style=dashed];
 }
 

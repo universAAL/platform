@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c6735372 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
+	c6755716 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.questionnaire.Questionnaire
-	c6736243 [label=<<table title="org.universAAL.ontology.questionnaire.Questionnaire" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Questionnaire.html">
+	c6756587 [label=<<table title="org.universAAL.ontology.questionnaire.Questionnaire" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Questionnaire.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Questionnaire </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Questionnaire.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.questionnaire.Questionnaire extends org.universAAL.middleware.owl.ManagedIndividual
-	c6735372:p -> c6736243:p [dir=back,arrowtail=empty];
+	c6755716:p -> c6756587:p [dir=back,arrowtail=empty];
 }
 

@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.vcard.Tel
-	c2696609 [label=<<table title="org.universAAL.ontology.vcard.Tel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Tel.html">
+	c2709948 [label=<<table title="org.universAAL.ontology.vcard.Tel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Tel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Tel </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Tel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.vcard.Car
-	c2696620 [label=<<table title="org.universAAL.ontology.vcard.Car" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Car.html">
+	c2709959 [label=<<table title="org.universAAL.ontology.vcard.Car" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Car.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Car </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Car.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.vcard.Car extends org.universAAL.ontology.vcard.Tel
-	c2696609:p -> c2696620:p [dir=back,arrowtail=empty];
+	c2709948:p -> c2709959:p [dir=back,arrowtail=empty];
 }
 

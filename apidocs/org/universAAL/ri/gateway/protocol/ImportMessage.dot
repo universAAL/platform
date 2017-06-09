@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ri.gateway.protocol.ImportMessage
-	c4788300 [label=<<table title="org.universAAL.ri.gateway.protocol.ImportMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ImportMessage.html">
+	c4805264 [label=<<table title="org.universAAL.ri.gateway.protocol.ImportMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ImportMessage.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ImportMessage </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ImportMessage.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.gateway.protocol.Message
-	c4788304 [label=<<table title="org.universAAL.ri.gateway.protocol.Message" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Message.html">
+	c4805268 [label=<<table title="org.universAAL.ri.gateway.protocol.Message" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Message.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Message </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Message.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ri.gateway.protocol.ImportMessage extends org.universAAL.ri.gateway.protocol.Message
-	c4788304:p -> c4788300:p [dir=back,arrowtail=empty];
+	c4805268:p -> c4805264:p [dir=back,arrowtail=empty];
 }
 

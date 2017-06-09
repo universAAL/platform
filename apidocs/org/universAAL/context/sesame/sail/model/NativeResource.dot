@@ -10,41 +10,41 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.context.sesame.sail.model.NativeValue
-	c5946644 [label=<<table title="org.universAAL.context.sesame.sail.model.NativeValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NativeValue.html">
+	c5965618 [label=<<table title="org.universAAL.context.sesame.sail.model.NativeValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NativeValue.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> NativeValue </td></tr>
 		</table></td></tr>
 		</table>>, URL="./NativeValue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.context.sesame.sail.model.NativeBNode
-	c5946646 [label=<<table title="org.universAAL.context.sesame.sail.model.NativeBNode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NativeBNode.html">
+	c5965620 [label=<<table title="org.universAAL.context.sesame.sail.model.NativeBNode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NativeBNode.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> NativeBNode </td></tr>
 		</table></td></tr>
 		</table>>, URL="./NativeBNode.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.context.sesame.sail.model.NativeResource
-	c5946647 [label=<<table title="org.universAAL.context.sesame.sail.model.NativeResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./NativeResource.html">
+	c5965621 [label=<<table title="org.universAAL.context.sesame.sail.model.NativeResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./NativeResource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> NativeResource </td></tr>
 		</table></td></tr>
 		</table>>, URL="./NativeResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.context.sesame.sail.model.NativeURI
-	c5946648 [label=<<table title="org.universAAL.context.sesame.sail.model.NativeURI" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NativeURI.html">
+	c5965622 [label=<<table title="org.universAAL.context.sesame.sail.model.NativeURI" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NativeURI.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> NativeURI </td></tr>
 		</table></td></tr>
 		</table>>, URL="./NativeURI.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.context.sesame.sail.model.NativeBNode implements org.universAAL.context.sesame.sail.model.NativeResource
-	c5946647:p -> c5946646:p [dir=back,arrowtail=empty,style=dashed];
+	c5965621:p -> c5965620:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.context.sesame.sail.model.NativeResource implements org.universAAL.context.sesame.sail.model.NativeValue
-	c5946644:p -> c5946647:p [dir=back,arrowtail=empty,style=dashed];
+	c5965618:p -> c5965621:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.context.sesame.sail.model.NativeResource implements org.openrdf.model.Resource
-	c5948138:p -> c5946647:p [dir=back,arrowtail=empty,style=dashed];
+	c5967117:p -> c5965621:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.context.sesame.sail.model.NativeURI implements org.universAAL.context.sesame.sail.model.NativeResource
-	c5946647:p -> c5946648:p [dir=back,arrowtail=empty,style=dashed];
+	c5965621:p -> c5965622:p [dir=back,arrowtail=empty,style=dashed];
 	// org.openrdf.model.Resource
-	c5948138 [label=<<table title="org.openrdf.model.Resource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/openrdf/model/Resource.html">
+	c5967117 [label=<<table title="org.openrdf.model.Resource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/openrdf/model/Resource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Resource </td></tr>

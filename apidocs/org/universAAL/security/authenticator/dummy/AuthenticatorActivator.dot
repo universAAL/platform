@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.container.ModuleActivator
-	c2358632 [label=<<table title="org.universAAL.middleware.container.ModuleActivator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/container/ModuleActivator.html">
+	c2371386 [label=<<table title="org.universAAL.middleware.container.ModuleActivator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/container/ModuleActivator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ModuleActivator </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../middleware/container/ModuleActivator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.security.authenticator.dummy.AuthenticatorActivator
-	c2360537 [label=<<table title="org.universAAL.security.authenticator.dummy.AuthenticatorActivator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AuthenticatorActivator.html">
+	c2373291 [label=<<table title="org.universAAL.security.authenticator.dummy.AuthenticatorActivator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AuthenticatorActivator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AuthenticatorActivator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AuthenticatorActivator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.security.authenticator.dummy.AuthenticatorActivator implements org.universAAL.middleware.container.ModuleActivator
-	c2358632:p -> c2360537:p [dir=back,arrowtail=empty,style=dashed];
+	c2371386:p -> c2373291:p [dir=back,arrowtail=empty,style=dashed];
 }
 

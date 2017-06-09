@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ucc.model.jaxb.CalendarValue
-	c2666826 [label=<<table title="org.universAAL.ucc.model.jaxb.CalendarValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CalendarValue.html">
+	c2680115 [label=<<table title="org.universAAL.ucc.model.jaxb.CalendarValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CalendarValue.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CalendarValue </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CalendarValue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ucc.model.jaxb.SimpleObject
-	c2666831 [label=<<table title="org.universAAL.ucc.model.jaxb.SimpleObject" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SimpleObject.html">
+	c2680120 [label=<<table title="org.universAAL.ucc.model.jaxb.SimpleObject" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SimpleObject.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SimpleObject </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SimpleObject.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ucc.model.jaxb.CalendarValue extends org.universAAL.ucc.model.jaxb.SimpleObject
-	c2666831:p -> c2666826:p [dir=back,arrowtail=empty];
+	c2680120:p -> c2680115:p [dir=back,arrowtail=empty];
 }
 

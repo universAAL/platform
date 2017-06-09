@@ -2105,7 +2105,9 @@ Simple (by default).</div>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>static <a href="../../../../../org/universAAL/middleware/owl/TypeExpression.html" title="class in org.universAAL.middleware.owl">TypeExpression</a></code></td>
-<td class="colLast"><span class="typeNameLabel">TypeExpressionFactory.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/owl/TypeExpressionFactory.html#specialize-org.universAAL.middleware.rdf.Resource-">specialize</a></span>(<a href="../../../../../org/universAAL/middleware/rdf/Resource.html" title="class in org.universAAL.middleware.rdf">Resource</a>&nbsp;r)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">TypeExpressionFactory.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/owl/TypeExpressionFactory.html#specialize-org.universAAL.middleware.rdf.Resource-">specialize</a></span>(<a href="../../../../../org/universAAL/middleware/rdf/Resource.html" title="class in org.universAAL.middleware.rdf">Resource</a>&nbsp;r)</code>
+<div class="block">Specialize the given Resource.</div>
+</td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static <a href="../../../../../org/universAAL/middleware/rdf/Resource.html" title="class in org.universAAL.middleware.rdf">Resource</a></code></td>
@@ -2149,7 +2151,7 @@ Simple (by default).</div>
 <td class="colFirst"><code><a href="../../../../../org/universAAL/middleware/rdf/Resource.html" title="class in org.universAAL.middleware.rdf">Resource</a></code></td>
 <td class="colLast"><span class="typeNameLabel">GenericResourceFactory.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/owl/generic/GenericResourceFactory.html#createInstance-java.lang.String-java.lang.String-int-">createInstance</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;classURI,
               <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;instanceURI,
-              int&nbsp;factoryIndex)</code>&nbsp;</td>
+              int&nbsp;factoryIndex)</code></td>
 </tr>
 </tbody>
 </table>
@@ -2241,7 +2243,7 @@ Simple (by default).</div>
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/rdf/ScopedResource.html" title="class in org.universAAL.middleware.rdf">ScopedResource</a></span></code>
 <div class="block">A <a href="../../../../../org/universAAL/middleware/rdf/ScopedResource.html" title="class in org.universAAL.middleware.rdf"><code>ScopedResource</code></a> is a Resource that may have been generated at, or be
- sent to, another AALSpace.</div>
+ sent to, another Space.</div>
 </td>
 </tr>
 <tr class="rowColor">
@@ -2335,7 +2337,9 @@ Simple (by default).</div>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">RDFClassInfo.PrivateRDFSetup.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/rdf/RDFClassInfo.PrivateRDFSetup.html#addInstance-org.universAAL.middleware.rdf.Resource-">addInstance</a></span>(<a href="../../../../../org/universAAL/middleware/rdf/Resource.html" title="class in org.universAAL.middleware.rdf">Resource</a>&nbsp;instance)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">RDFClassInfo.PrivateRDFSetup.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/rdf/RDFClassInfo.PrivateRDFSetup.html#addInstance-org.universAAL.middleware.rdf.Resource-">addInstance</a></span>(<a href="../../../../../org/universAAL/middleware/rdf/Resource.html" title="class in org.universAAL.middleware.rdf">Resource</a>&nbsp;instance)</code>
+<div class="block">Add an instance of this class.</div>
+</td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static <a href="../../../../../org/universAAL/middleware/rdf/PropertyPath.html" title="class in org.universAAL.middleware.rdf">PropertyPath</a></code></td>
@@ -7646,9 +7650,9 @@ Simple (by default).</div>
 <tr class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><span class="typeNameLabel">ProxySCaller.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/proxies/exporting/ProxySCaller.html#isCompatible-org.universAAL.middleware.rdf.Resource:A-">isCompatible</a></span>(<a href="../../../../../org/universAAL/middleware/rdf/Resource.html" title="class in org.universAAL.middleware.rdf">Resource</a>[]&nbsp;registrationParameters)</code>
-<div class="block">A single ProxySCaller is able to manage all
- <a href="../../../../../org/universAAL/ri/gateway/proxies/importing/ProxySCallee.html" title="class in org.universAAL.ri.gateway.proxies.importing"><code>ProxySCallee</code></a>s; thus the first registered <a href="../../../../../org/universAAL/ri/gateway/proxies/exporting/ProxySCaller.html" title="class in org.universAAL.ri.gateway.proxies.exporting"><code>ProxySCaller</code></a>
- is the one that is compatible, and represents all <a href="../../../../../org/universAAL/middleware/service/ServiceCaller.html" title="class in org.universAAL.middleware.service"><code>ServiceCaller</code></a>s.</div>
+<div class="block">A single ProxySCaller is able to manage all <a href="../../../../../org/universAAL/ri/gateway/proxies/importing/ProxySCallee.html" title="class in org.universAAL.ri.gateway.proxies.importing"><code>ProxySCallee</code></a>s; thus
+ the first registered <a href="../../../../../org/universAAL/ri/gateway/proxies/exporting/ProxySCaller.html" title="class in org.universAAL.ri.gateway.proxies.exporting"><code>ProxySCaller</code></a> is the one that is compatible,
+ and represents all <a href="../../../../../org/universAAL/middleware/service/ServiceCaller.html" title="class in org.universAAL.middleware.service"><code>ServiceCaller</code></a>s.</div>
 </td>
 </tr>
 <tr class="altColor">

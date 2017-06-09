@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.device.WaterFlowSensor
-	c8578392 [label=<<table title="org.universAAL.ontology.device.WaterFlowSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./WaterFlowSensor.html">
+	c8601931 [label=<<table title="org.universAAL.ontology.device.WaterFlowSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./WaterFlowSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> WaterFlowSensor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./WaterFlowSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.Sensor
-	c8578427 [label=<<table title="org.universAAL.ontology.device.Sensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Sensor.html">
+	c8601966 [label=<<table title="org.universAAL.ontology.device.Sensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Sensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Sensor </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Sensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.device.WaterFlowSensor extends org.universAAL.ontology.device.Sensor
-	c8578427:p -> c8578392:p [dir=back,arrowtail=empty];
+	c8601966:p -> c8601931:p [dir=back,arrowtail=empty];
 }
 

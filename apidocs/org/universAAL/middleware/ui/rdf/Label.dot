@@ -10,54 +10,54 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.ui.rdf.ChoiceList
-	c5138501 [label=<<table title="org.universAAL.middleware.ui.rdf.ChoiceList" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ChoiceList.html">
+	c5156075 [label=<<table title="org.universAAL.middleware.ui.rdf.ChoiceList" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ChoiceList.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ChoiceList </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ChoiceList.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.rdf.ChoiceItem
-	c5138502 [label=<<table title="org.universAAL.middleware.ui.rdf.ChoiceItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ChoiceItem.html">
+	c5156076 [label=<<table title="org.universAAL.middleware.ui.rdf.ChoiceItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ChoiceItem.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ChoiceItem </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ChoiceItem.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.rdf.FormElement
-	c5138504 [label=<<table title="org.universAAL.middleware.ui.rdf.FormElement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FormElement.html">
+	c5156078 [label=<<table title="org.universAAL.middleware.ui.rdf.FormElement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FormElement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> FormElement </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./FormElement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.rdf.FormControl
-	c5138506 [label=<<table title="org.universAAL.middleware.ui.rdf.FormControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FormControl.html">
+	c5156080 [label=<<table title="org.universAAL.middleware.ui.rdf.FormControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FormControl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> FormControl </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./FormControl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.rdf.Select
-	c5138508 [label=<<table title="org.universAAL.middleware.ui.rdf.Select" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Select.html">
+	c5156082 [label=<<table title="org.universAAL.middleware.ui.rdf.Select" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Select.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Select </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Select.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.rdf.Label
-	c5138511 [label=<<table title="org.universAAL.middleware.ui.rdf.Label" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Label.html">
+	c5156085 [label=<<table title="org.universAAL.middleware.ui.rdf.Label" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Label.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Label </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Label.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.ui.rdf.ChoiceList extends org.universAAL.middleware.ui.rdf.Label
-	c5138511:p -> c5138501:p [dir=back,arrowtail=empty];
+	c5156085:p -> c5156075:p [dir=back,arrowtail=empty];
 	// org.universAAL.middleware.ui.rdf.ChoiceList NAVASSOC org.universAAL.middleware.ui.rdf.Label
-	c5138501:p -> c5138511:p [taillabel="", label="children", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c5156075:p -> c5156085:p [taillabel="", label="children", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	//org.universAAL.middleware.ui.rdf.ChoiceItem extends org.universAAL.middleware.ui.rdf.Label
-	c5138511:p -> c5138502:p [dir=back,arrowtail=empty];
+	c5156085:p -> c5156076:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.ui.rdf.FormControl extends org.universAAL.middleware.ui.rdf.FormElement
-	c5138504:p -> c5138506:p [dir=back,arrowtail=empty];
+	c5156078:p -> c5156080:p [dir=back,arrowtail=empty];
 	// org.universAAL.middleware.ui.rdf.FormControl NAVASSOC org.universAAL.middleware.ui.rdf.Label
-	c5138506:p -> c5138511:p [taillabel="", label="label", headlabel="1", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c5156080:p -> c5156085:p [taillabel="", label="label", headlabel="1", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.universAAL.middleware.ui.rdf.Select NAVASSOC org.universAAL.middleware.ui.rdf.Label
-	c5138508:p -> c5138511:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c5156082:p -> c5156085:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	//org.universAAL.middleware.ui.rdf.Label extends org.universAAL.middleware.ui.rdf.FormElement
-	c5138504:p -> c5138511:p [dir=back,arrowtail=empty];
+	c5156078:p -> c5156085:p [dir=back,arrowtail=empty];
 }
 

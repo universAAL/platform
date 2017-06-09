@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.hvac.Mode
-	c8503610 [label=<<table title="org.universAAL.ontology.hvac.Mode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Mode.html">
+	c8527019 [label=<<table title="org.universAAL.ontology.hvac.Mode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Mode.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Mode </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Mode.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.hvac.Ventilation_Mode
-	c8503612 [label=<<table title="org.universAAL.ontology.hvac.Ventilation_Mode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Ventilation_Mode.html">
+	c8527021 [label=<<table title="org.universAAL.ontology.hvac.Ventilation_Mode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Ventilation_Mode.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Ventilation_Mode </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Ventilation_Mode.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.hvac.Ventilation_Mode extends org.universAAL.ontology.hvac.Mode
-	c8503610:p -> c8503612:p [dir=back,arrowtail=empty];
+	c8527019:p -> c8527021:p [dir=back,arrowtail=empty];
 }
 

@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.support.directives.api.AbstractProcedureMojo
-	c4794853 [label=<<table title="org.universAAL.support.directives.api.AbstractProcedureMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../api/AbstractProcedureMojo.html">
+	c4811832 [label=<<table title="org.universAAL.support.directives.api.AbstractProcedureMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../api/AbstractProcedureMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractProcedureMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../api/AbstractProcedureMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.directives.mojos.IncreaseVersionMojo
-	c4794883 [label=<<table title="org.universAAL.support.directives.mojos.IncreaseVersionMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IncreaseVersionMojo.html">
+	c4811862 [label=<<table title="org.universAAL.support.directives.mojos.IncreaseVersionMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IncreaseVersionMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> IncreaseVersionMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IncreaseVersionMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.support.directives.mojos.IncreaseVersionMojo extends org.universAAL.support.directives.api.AbstractProcedureMojo
-	c4794853:p -> c4794883:p [dir=back,arrowtail=empty];
+	c4811832:p -> c4811862:p [dir=back,arrowtail=empty];
 }
 

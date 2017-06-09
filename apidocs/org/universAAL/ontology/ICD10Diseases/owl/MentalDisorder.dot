@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.disease.owl.Disease
-	c5658020 [label=<<table title="org.universAAL.ontology.disease.owl.Disease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../disease/owl/Disease.html">
+	c5676494 [label=<<table title="org.universAAL.ontology.disease.owl.Disease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../disease/owl/Disease.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Disease </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../disease/owl/Disease.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.ICD10Diseases.owl.MentalDisorder
-	c5658032 [label=<<table title="org.universAAL.ontology.ICD10Diseases.owl.MentalDisorder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MentalDisorder.html">
+	c5676506 [label=<<table title="org.universAAL.ontology.ICD10Diseases.owl.MentalDisorder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MentalDisorder.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MentalDisorder </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MentalDisorder.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.ICD10Diseases.owl.MentalDisorder extends org.universAAL.ontology.disease.owl.Disease
-	c5658020:p -> c5658032:p [dir=back,arrowtail=empty];
+	c5676494:p -> c5676506:p [dir=back,arrowtail=empty];
 }
 

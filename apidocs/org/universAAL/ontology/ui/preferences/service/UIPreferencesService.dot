@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.service.owl.Service
-	c8217730 [label=<<table title="org.universAAL.middleware.service.owl.Service" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../middleware/service/owl/Service.html">
+	c8240644 [label=<<table title="org.universAAL.middleware.service.owl.Service" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../middleware/service/owl/Service.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Service </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../../middleware/service/owl/Service.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.ui.preferences.service.UIPreferencesService
-	c8218223 [label=<<table title="org.universAAL.ontology.ui.preferences.service.UIPreferencesService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UIPreferencesService.html">
+	c8241137 [label=<<table title="org.universAAL.ontology.ui.preferences.service.UIPreferencesService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UIPreferencesService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UIPreferencesService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UIPreferencesService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.ui.preferences.editor.UIPreferencesProvidedService
-	c8219428 [label=<<table title="org.universAAL.ui.dm.ui.preferences.editor.UIPreferencesProvidedService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../ui/dm/ui/preferences/editor/UIPreferencesProvidedService.html">
+	c8242342 [label=<<table title="org.universAAL.ui.dm.ui.preferences.editor.UIPreferencesProvidedService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../ui/dm/ui/preferences/editor/UIPreferencesProvidedService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UIPreferencesProvidedService </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../../ui/dm/ui/preferences/editor/UIPreferencesProvidedService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.ui.preferences.service.UIPreferencesService extends org.universAAL.middleware.service.owl.Service
-	c8217730:p -> c8218223:p [dir=back,arrowtail=empty];
+	c8240644:p -> c8241137:p [dir=back,arrowtail=empty];
 	//org.universAAL.ui.dm.ui.preferences.editor.UIPreferencesProvidedService extends org.universAAL.ontology.ui.preferences.service.UIPreferencesService
-	c8218223:p -> c8219428:p [dir=back,arrowtail=empty];
+	c8241137:p -> c8242342:p [dir=back,arrowtail=empty];
 }
 

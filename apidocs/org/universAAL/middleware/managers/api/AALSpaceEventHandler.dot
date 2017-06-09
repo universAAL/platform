@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.managers.api.AALSpaceEventHandler
-	c1554456 [label=<<table title="org.universAAL.middleware.managers.api.AALSpaceEventHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AALSpaceEventHandler.html">
+	c1565815 [label=<<table title="org.universAAL.middleware.managers.api.AALSpaceEventHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AALSpaceEventHandler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> AALSpaceEventHandler </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AALSpaceEventHandler.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.aalspace.AALSpaceManagerImpl
-	c1555424 [label=<<table title="org.universAAL.middleware.managers.aalspace.AALSpaceManagerImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../aalspace/AALSpaceManagerImpl.html">
+	c1566783 [label=<<table title="org.universAAL.middleware.managers.aalspace.AALSpaceManagerImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../aalspace/AALSpaceManagerImpl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AALSpaceManagerImpl </td></tr>
 		</table></td></tr>
 		</table>>, URL="../aalspace/AALSpaceManagerImpl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.managers.aalspace.AALSpaceManagerImpl implements org.universAAL.middleware.managers.api.AALSpaceEventHandler
-	c1554456:p -> c1555424:p [dir=back,arrowtail=empty,style=dashed];
+	c1565815:p -> c1566783:p [dir=back,arrowtail=empty,style=dashed];
 }
 

@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.health.owl.MeasurementRequirements
-	c8596045 [label=<<table title="org.universAAL.ontology.health.owl.MeasurementRequirements" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MeasurementRequirements.html">
+	c8619614 [label=<<table title="org.universAAL.ontology.health.owl.MeasurementRequirements" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MeasurementRequirements.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MeasurementRequirements </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MeasurementRequirements.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.health.owl.WeightRequirement
-	c8596046 [label=<<table title="org.universAAL.ontology.health.owl.WeightRequirement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./WeightRequirement.html">
+	c8619615 [label=<<table title="org.universAAL.ontology.health.owl.WeightRequirement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./WeightRequirement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> WeightRequirement </td></tr>
 		</table></td></tr>
 		</table>>, URL="./WeightRequirement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.health.owl.WeightRequirement extends org.universAAL.ontology.health.owl.MeasurementRequirements
-	c8596045:p -> c8596046:p [dir=back,arrowtail=empty];
+	c8619614:p -> c8619615:p [dir=back,arrowtail=empty];
 }
 

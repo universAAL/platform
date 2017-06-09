@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.lddi.lib.activityhub.driver.interfaces.ActivityHubDriverClient
-	c1616418 [label=<<table title="org.universAAL.lddi.lib.activityhub.driver.interfaces.ActivityHubDriverClient" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../lib/activityhub/driver/interfaces/ActivityHubDriverClient.html">
+	c1627882 [label=<<table title="org.universAAL.lddi.lib.activityhub.driver.interfaces.ActivityHubDriverClient" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../lib/activityhub/driver/interfaces/ActivityHubDriverClient.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ActivityHubDriverClient </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../lib/activityhub/driver/interfaces/ActivityHubDriverClient.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.exporter.activityhub.AHManager
-	c1616449 [label=<<table title="org.universAAL.lddi.exporter.activityhub.AHManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AHManager.html">
+	c1627913 [label=<<table title="org.universAAL.lddi.exporter.activityhub.AHManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AHManager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AHManager </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AHManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.lddi.exporter.activityhub.AHManager implements org.universAAL.lddi.lib.activityhub.driver.interfaces.ActivityHubDriverClient
-	c1616418:p -> c1616449:p [dir=back,arrowtail=empty,style=dashed];
+	c1627882:p -> c1627913:p [dir=back,arrowtail=empty,style=dashed];
 }
 

@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.device.CurtainSensor
-	c3299250 [label=<<table title="org.universAAL.ontology.device.CurtainSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CurtainSensor.html">
+	c3313634 [label=<<table title="org.universAAL.ontology.device.CurtainSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CurtainSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CurtainSensor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CurtainSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.Sensor
-	c3299284 [label=<<table title="org.universAAL.ontology.device.Sensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Sensor.html">
+	c3313668 [label=<<table title="org.universAAL.ontology.device.Sensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Sensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Sensor </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Sensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.device.CurtainSensor extends org.universAAL.ontology.device.Sensor
-	c3299284:p -> c3299250:p [dir=back,arrowtail=empty];
+	c3313668:p -> c3313634:p [dir=back,arrowtail=empty];
 }
 

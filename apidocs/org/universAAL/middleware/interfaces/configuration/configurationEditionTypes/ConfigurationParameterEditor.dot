@@ -10,45 +10,45 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.ConfigurationParameter
-	c3042153 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.ConfigurationParameter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../configurationDefinitionTypes/ConfigurationParameter.html">
+	c3056092 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.ConfigurationParameter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../configurationDefinitionTypes/ConfigurationParameter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ConfigurationParameter </td></tr>
 		</table></td></tr>
 		</table>>, URL="../configurationDefinitionTypes/ConfigurationParameter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurableEntityEditor
-	c3042159 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurableEntityEditor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigurableEntityEditor.html">
+	c3056098 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurableEntityEditor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigurableEntityEditor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ConfigurableEntityEditor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConfigurableEntityEditor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurationParameterEditor
-	c3042160 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurationParameterEditor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigurationParameterEditor.html">
+	c3056099 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurationParameterEditor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigurationParameterEditor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ConfigurationParameterEditor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConfigurationParameterEditor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.configuration.core.impl.LocalConfigurationParameterEditor
-	c3043149 [label=<<table title="org.universAAL.middleware.managers.configuration.core.impl.LocalConfigurationParameterEditor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../managers/configuration/core/impl/LocalConfigurationParameterEditor.html">
+	c3057088 [label=<<table title="org.universAAL.middleware.managers.configuration.core.impl.LocalConfigurationParameterEditor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../managers/configuration/core/impl/LocalConfigurationParameterEditor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LocalConfigurationParameterEditor </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../managers/configuration/core/impl/LocalConfigurationParameterEditor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.configuration.core.impl.RemoteConfigurationParamaterEditor
-	c3043151 [label=<<table title="org.universAAL.middleware.managers.configuration.core.impl.RemoteConfigurationParamaterEditor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../managers/configuration/core/impl/RemoteConfigurationParamaterEditor.html">
+	c3057090 [label=<<table title="org.universAAL.middleware.managers.configuration.core.impl.RemoteConfigurationParamaterEditor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../managers/configuration/core/impl/RemoteConfigurationParamaterEditor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RemoteConfigurationParamaterEditor </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../managers/configuration/core/impl/RemoteConfigurationParamaterEditor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurationParameterEditor implements org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.ConfigurationParameter
-	c3042153:p -> c3042160:p [dir=back,arrowtail=empty,style=dashed];
+	c3056092:p -> c3056099:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurationParameterEditor implements org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurableEntityEditor
-	c3042159:p -> c3042160:p [dir=back,arrowtail=empty,style=dashed];
+	c3056098:p -> c3056099:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.managers.configuration.core.impl.LocalConfigurationParameterEditor implements org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurationParameterEditor
-	c3042160:p -> c3043149:p [dir=back,arrowtail=empty,style=dashed];
+	c3056099:p -> c3057088:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.managers.configuration.core.impl.RemoteConfigurationParamaterEditor implements org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurationParameterEditor
-	c3042160:p -> c3043151:p [dir=back,arrowtail=empty,style=dashed];
+	c3056099:p -> c3057090:p [dir=back,arrowtail=empty,style=dashed];
 }
 

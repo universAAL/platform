@@ -95,11 +95,11 @@ var activeTableTab = "activeTableTab";
 <div class="subTitle">org.universAAL.ri.gateway.proxies.exporting</div>
 <h2 title="Class ProxySCaller" class="title">Class ProxySCaller</h2>
 <map id="G" name="G">
-<area shape="rect" id="c6680927" href="../../../../middleware/service/ServiceCaller.html" title="org.universAAL.middleware.service.ServiceCaller" alt="" coords="16,19,115,45"/>
+<area shape="rect" id="c6701176" href="../../../../middleware/service/ServiceCaller.html" title="org.universAAL.middleware.service.ServiceCaller" alt="" coords="16,19,115,45"/>
 <area shape="rect" id="node1" href="../../../../middleware/service/ServiceCaller.html" title="&lt;TABLE&gt;" alt="" coords="5,8,125,56"/>
-<area shape="rect" id="c6682592" href="./ProxySCaller.html" title="org.universAAL.ri.gateway.proxies.exporting.ProxySCaller" alt="" coords="95,118,193,143"/>
+<area shape="rect" id="c6702841" href="./ProxySCaller.html" title="org.universAAL.ri.gateway.proxies.exporting.ProxySCaller" alt="" coords="95,118,193,143"/>
 <area shape="rect" id="node3" href="./ProxySCaller.html" title="&lt;TABLE&gt;" alt="" coords="85,107,203,155"/>
-<area shape="rect" id="c6682581" href="../ProxyBusMember.html" title="org.universAAL.ri.gateway.proxies.ProxyBusMember" alt="" coords="160,11,285,53"/>
+<area shape="rect" id="c6702830" href="../ProxyBusMember.html" title="org.universAAL.ri.gateway.proxies.ProxyBusMember" alt="" coords="160,11,285,53"/>
 <area shape="rect" id="node2" href="../ProxyBusMember.html" title="&lt;TABLE&gt;" alt="" coords="149,6,296,58"/>
 </map>
 <!-- UML diagram added by UMLGraph version R5_6-24-gf6e263 (http://www.umlgraph.org/) -->
@@ -272,21 +272,22 @@ implements <a href="../../../../../../org/universAAL/ri/gateway/proxies/ProxyBus
 <tr id="i9" class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/proxies/exporting/ProxySCaller.html#isCompatible-org.universAAL.middleware.rdf.Resource:A-">isCompatible</a></span>(<a href="../../../../../../org/universAAL/middleware/rdf/Resource.html" title="class in org.universAAL.middleware.rdf">Resource</a>[]&nbsp;registrationParameters)</code>
-<div class="block">A single ProxySCaller is able to manage all
- <a href="../../../../../../org/universAAL/ri/gateway/proxies/importing/ProxySCallee.html" title="class in org.universAAL.ri.gateway.proxies.importing"><code>ProxySCallee</code></a>s; thus the first registered <a href="../../../../../../org/universAAL/ri/gateway/proxies/exporting/ProxySCaller.html" title="class in org.universAAL.ri.gateway.proxies.exporting"><code>ProxySCaller</code></a>
- is the one that is compatible, and represents all <a href="../../../../../../org/universAAL/middleware/service/ServiceCaller.html" title="class in org.universAAL.middleware.service"><code>ServiceCaller</code></a>s.</div>
+<div class="block">A single ProxySCaller is able to manage all <a href="../../../../../../org/universAAL/ri/gateway/proxies/importing/ProxySCallee.html" title="class in org.universAAL.ri.gateway.proxies.importing"><code>ProxySCallee</code></a>s; thus
+ the first registered <a href="../../../../../../org/universAAL/ri/gateway/proxies/exporting/ProxySCaller.html" title="class in org.universAAL.ri.gateway.proxies.exporting"><code>ProxySCaller</code></a> is the one that is compatible,
+ and represents all <a href="../../../../../../org/universAAL/middleware/service/ServiceCaller.html" title="class in org.universAAL.middleware.service"><code>ServiceCaller</code></a>s.</div>
 </td>
 </tr>
 <tr id="i10" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/proxies/exporting/ProxySCaller.html#removeRemoteProxyReference-org.universAAL.ri.gateway.proxies.BusMemberReference-">removeRemoteProxyReference</a></span>(<a href="../../../../../../org/universAAL/ri/gateway/proxies/BusMemberReference.html" title="class in org.universAAL.ri.gateway.proxies">BusMemberReference</a>&nbsp;remoteReference)</code>
-<div class="block">Disconnect a concrete remote proxy.</div>
+<div class="block">Remove a concrete remote proxy.</div>
 </td>
 </tr>
 <tr id="i11" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/proxies/exporting/ProxySCaller.html#removeRemoteProxyReferences-org.universAAL.ri.gateway.Session-">removeRemoteProxyReferences</a></span>(<a href="../../../../../../org/universAAL/ri/gateway/Session.html" title="class in org.universAAL.ri.gateway">Session</a>&nbsp;session)</code>
-<div class="block">Disconnect from all references that use the same session.</div>
+<div class="block">Disconnect from all references that use the same session.Does not send
+ <a href="../../../../../../org/universAAL/ri/gateway/protocol/ImportMessage.ImportMessageType.html#ImportRemove"><code>Remove message</code></a></div>
 </td>
 </tr>
 <tr id="i12" class="altColor">
@@ -405,7 +406,8 @@ implements <a href="../../../../../../org/universAAL/ri/gateway/proxies/ProxyBus
 <li class="blockList">
 <h4>removeRemoteProxyReference</h4>
 <pre>public&nbsp;void&nbsp;removeRemoteProxyReference(<a href="../../../../../../org/universAAL/ri/gateway/proxies/BusMemberReference.html" title="class in org.universAAL.ri.gateway.proxies">BusMemberReference</a>&nbsp;remoteReference)</pre>
-<div class="block">Disconnect a concrete remote proxy.</div>
+<div class="block">Remove a concrete remote proxy. Does not send
+ <a href="../../../../../../org/universAAL/ri/gateway/protocol/ImportMessage.ImportMessageType.html#ImportRemove"><code>Remove message</code></a></div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code><a href="../../../../../../org/universAAL/ri/gateway/proxies/ProxyBusMember.html#removeRemoteProxyReference-org.universAAL.ri.gateway.proxies.BusMemberReference-">removeRemoteProxyReference</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../../org/universAAL/ri/gateway/proxies/ProxyBusMember.html" title="interface in org.universAAL.ri.gateway.proxies">ProxyBusMember</a></code></dd>
@@ -421,7 +423,8 @@ implements <a href="../../../../../../org/universAAL/ri/gateway/proxies/ProxyBus
 <li class="blockList">
 <h4>removeRemoteProxyReferences</h4>
 <pre>public&nbsp;void&nbsp;removeRemoteProxyReferences(<a href="../../../../../../org/universAAL/ri/gateway/Session.html" title="class in org.universAAL.ri.gateway">Session</a>&nbsp;session)</pre>
-<div class="block">Disconnect from all references that use the same session.</div>
+<div class="block">Disconnect from all references that use the same session.Does not send
+ <a href="../../../../../../org/universAAL/ri/gateway/protocol/ImportMessage.ImportMessageType.html#ImportRemove"><code>Remove message</code></a></div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code><a href="../../../../../../org/universAAL/ri/gateway/proxies/ProxyBusMember.html#removeRemoteProxyReferences-org.universAAL.ri.gateway.Session-">removeRemoteProxyReferences</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../../org/universAAL/ri/gateway/proxies/ProxyBusMember.html" title="interface in org.universAAL.ri.gateway.proxies">ProxyBusMember</a></code></dd>
@@ -494,9 +497,9 @@ implements <a href="../../../../../../org/universAAL/ri/gateway/proxies/ProxyBus
 <li class="blockList">
 <h4>isCompatible</h4>
 <pre>public&nbsp;boolean&nbsp;isCompatible(<a href="../../../../../../org/universAAL/middleware/rdf/Resource.html" title="class in org.universAAL.middleware.rdf">Resource</a>[]&nbsp;registrationParameters)</pre>
-<div class="block">A single ProxySCaller is able to manage all
- <a href="../../../../../../org/universAAL/ri/gateway/proxies/importing/ProxySCallee.html" title="class in org.universAAL.ri.gateway.proxies.importing"><code>ProxySCallee</code></a>s; thus the first registered <a href="../../../../../../org/universAAL/ri/gateway/proxies/exporting/ProxySCaller.html" title="class in org.universAAL.ri.gateway.proxies.exporting"><code>ProxySCaller</code></a>
- is the one that is compatible, and represents all <a href="../../../../../../org/universAAL/middleware/service/ServiceCaller.html" title="class in org.universAAL.middleware.service"><code>ServiceCaller</code></a>s.</div>
+<div class="block">A single ProxySCaller is able to manage all <a href="../../../../../../org/universAAL/ri/gateway/proxies/importing/ProxySCallee.html" title="class in org.universAAL.ri.gateway.proxies.importing"><code>ProxySCallee</code></a>s; thus
+ the first registered <a href="../../../../../../org/universAAL/ri/gateway/proxies/exporting/ProxySCaller.html" title="class in org.universAAL.ri.gateway.proxies.exporting"><code>ProxySCaller</code></a> is the one that is compatible,
+ and represents all <a href="../../../../../../org/universAAL/middleware/service/ServiceCaller.html" title="class in org.universAAL.middleware.service"><code>ServiceCaller</code></a>s.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code><a href="../../../../../../org/universAAL/ri/gateway/proxies/ProxyBusMember.html#isCompatible-org.universAAL.middleware.rdf.Resource:A-">isCompatible</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../../org/universAAL/ri/gateway/proxies/ProxyBusMember.html" title="interface in org.universAAL.ri.gateway.proxies">ProxyBusMember</a></code></dd>

@@ -10,42 +10,42 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c6380753 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
+	c6400482 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.reasoner.Rule
-	c6381651 [label=<<table title="org.universAAL.ontology.reasoner.Rule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Rule.html">
+	c6401380 [label=<<table title="org.universAAL.ontology.reasoner.Rule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Rule.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Rule </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Rule.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.reasoner.Persistent
-	c6381652 [label=<<table title="org.universAAL.ontology.reasoner.Persistent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Persistent.html">
+	c6401381 [label=<<table title="org.universAAL.ontology.reasoner.Persistent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Persistent.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Persistent </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Persistent.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.reasoner.Situation
-	c6381655 [label=<<table title="org.universAAL.ontology.reasoner.Situation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Situation.html">
+	c6401384 [label=<<table title="org.universAAL.ontology.reasoner.Situation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Situation.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Situation </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Situation.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.reasoner.Query
-	c6381656 [label=<<table title="org.universAAL.ontology.reasoner.Query" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Query.html">
+	c6401385 [label=<<table title="org.universAAL.ontology.reasoner.Query" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Query.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Query </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Query.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.reasoner.Rule extends org.universAAL.ontology.reasoner.Persistent
-	c6381652:p -> c6381651:p [dir=back,arrowtail=empty];
+	c6401381:p -> c6401380:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.reasoner.Persistent extends org.universAAL.middleware.owl.ManagedIndividual
-	c6380753:p -> c6381652:p [dir=back,arrowtail=empty];
+	c6400482:p -> c6401381:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.reasoner.Situation extends org.universAAL.ontology.reasoner.Persistent
-	c6381652:p -> c6381655:p [dir=back,arrowtail=empty];
+	c6401381:p -> c6401384:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.reasoner.Query extends org.universAAL.ontology.reasoner.Persistent
-	c6381652:p -> c6381656:p [dir=back,arrowtail=empty];
+	c6401381:p -> c6401385:p [dir=back,arrowtail=empty];
 }
 

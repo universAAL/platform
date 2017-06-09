@@ -10,44 +10,44 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.rdf.FinalizedResource
-	c3160206 [label=<<table title="org.universAAL.middleware.rdf.FinalizedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../rdf/FinalizedResource.html">
+	c3174350 [label=<<table title="org.universAAL.middleware.rdf.FinalizedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../rdf/FinalizedResource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> FinalizedResource </td></tr>
 		</table></td></tr>
 		</table>>, URL="../rdf/FinalizedResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.bus.model.matchable.EventAdvertisement
-	c3160505 [label=<<table title="org.universAAL.middleware.bus.model.matchable.EventAdvertisement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../bus/model/matchable/EventAdvertisement.html">
+	c3174649 [label=<<table title="org.universAAL.middleware.bus.model.matchable.EventAdvertisement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../bus/model/matchable/EventAdvertisement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> EventAdvertisement </td></tr>
 		</table></td></tr>
 		</table>>, URL="../bus/model/matchable/EventAdvertisement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.bus.model.matchable.Subscription
-	c3160506 [label=<<table title="org.universAAL.middleware.bus.model.matchable.Subscription" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../bus/model/matchable/Subscription.html">
+	c3174650 [label=<<table title="org.universAAL.middleware.bus.model.matchable.Subscription" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../bus/model/matchable/Subscription.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Subscription </td></tr>
 		</table></td></tr>
 		</table>>, URL="../bus/model/matchable/Subscription.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.context.ContextEventPattern
-	c3160531 [label=<<table title="org.universAAL.middleware.context.ContextEventPattern" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ContextEventPattern.html">
+	c3174675 [label=<<table title="org.universAAL.middleware.context.ContextEventPattern" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ContextEventPattern.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ContextEventPattern </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ContextEventPattern.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.utils.context.Pattern
-	c3160953 [label=<<table title="org.universAAL.support.utils.context.Pattern" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../support/utils/context/Pattern.html">
+	c3175097 [label=<<table title="org.universAAL.support.utils.context.Pattern" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../support/utils/context/Pattern.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Pattern </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../support/utils/context/Pattern.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.context.ContextEventPattern extends org.universAAL.middleware.rdf.FinalizedResource
-	c3160206:p -> c3160531:p [dir=back,arrowtail=empty];
+	c3174350:p -> c3174675:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.context.ContextEventPattern implements org.universAAL.middleware.bus.model.matchable.EventAdvertisement
-	c3160505:p -> c3160531:p [dir=back,arrowtail=empty,style=dashed];
+	c3174649:p -> c3174675:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.context.ContextEventPattern implements org.universAAL.middleware.bus.model.matchable.Subscription
-	c3160506:p -> c3160531:p [dir=back,arrowtail=empty,style=dashed];
+	c3174650:p -> c3174675:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.support.utils.context.Pattern extends org.universAAL.middleware.context.ContextEventPattern
-	c3160531:p -> c3160953:p [dir=back,arrowtail=empty];
+	c3174675:p -> c3175097:p [dir=back,arrowtail=empty];
 }
 

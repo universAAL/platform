@@ -457,8 +457,7 @@
 <tr class="altColor">
 <td class="colFirst"><code><a href="../../../../../org/universAAL/middleware/owl/TypeExpression.html" title="class in org.universAAL.middleware.owl">TypeExpression</a></code></td>
 <td class="colLast"><span class="typeNameLabel">TypeURI.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/owl/TypeURI.html#copy--">copy</a></span>()</code>
-<div class="block">No <a href="../../../../../org/universAAL/middleware/owl/TypeExpression.html" title="class in org.universAAL.middleware.owl"><code>TypeExpression</code></a> instances are stored in this class, so we do
- not need to clone; just return this object.</div>
+<div class="block">Create a copy of this object, i.e.</div>
 </td>
 </tr>
 <tr class="rowColor">
@@ -553,12 +552,15 @@
 <tr class="altColor">
 <td class="colFirst"><code><a href="../../../../../org/universAAL/middleware/owl/TypeExpression.html" title="class in org.universAAL.middleware.owl">TypeExpression</a></code></td>
 <td class="colLast"><span class="typeNameLabel">TypeURI.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/owl/TypeURI.html#getRestrictionOnProperty-java.lang.String-">getRestrictionOnProperty</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propURI)</code>
-<div class="block">Get the restrictions for the given property.</div>
+<div class="block">Get the restrictions for the given property in the context of the class
+ represented by this type URI.</div>
 </td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>static <a href="../../../../../org/universAAL/middleware/owl/TypeExpression.html" title="class in org.universAAL.middleware.owl">TypeExpression</a></code></td>
-<td class="colLast"><span class="typeNameLabel">TypeExpressionFactory.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/owl/TypeExpressionFactory.html#specialize-org.universAAL.middleware.rdf.Resource-">specialize</a></span>(<a href="../../../../../org/universAAL/middleware/rdf/Resource.html" title="class in org.universAAL.middleware.rdf">Resource</a>&nbsp;r)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">TypeExpressionFactory.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/owl/TypeExpressionFactory.html#specialize-org.universAAL.middleware.rdf.Resource-">specialize</a></span>(<a href="../../../../../org/universAAL/middleware/rdf/Resource.html" title="class in org.universAAL.middleware.rdf">Resource</a>&nbsp;r)</code>
+<div class="block">Specialize the given Resource.</div>
+</td>
 </tr>
 </tbody>
 </table>
@@ -973,7 +975,9 @@
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">RDFClassInfo.PrivateRDFSetup.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/rdf/RDFClassInfo.PrivateRDFSetup.html#addSuperClass-org.universAAL.middleware.owl.TypeExpression-">addSuperClass</a></span>(<a href="../../../../../org/universAAL/middleware/owl/TypeExpression.html" title="class in org.universAAL.middleware.owl">TypeExpression</a>&nbsp;superClass)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">RDFClassInfo.PrivateRDFSetup.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/rdf/RDFClassInfo.PrivateRDFSetup.html#addSuperClass-org.universAAL.middleware.owl.TypeExpression-">addSuperClass</a></span>(<a href="../../../../../org/universAAL/middleware/owl/TypeExpression.html" title="class in org.universAAL.middleware.owl">TypeExpression</a>&nbsp;superClass)</code>
+<div class="block">Add a super class.</div>
+</td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>void</code></td>
@@ -1013,12 +1017,16 @@
 <tbody>
 <tr class="altColor">
 <td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
-<td class="colLast"><span class="typeNameLabel">ResourceUtil.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/util/ResourceUtil.html#toString-org.universAAL.middleware.owl.TypeExpression-">toString</a></span>(<a href="../../../../../org/universAAL/middleware/owl/TypeExpression.html" title="class in org.universAAL.middleware.owl">TypeExpression</a>&nbsp;e)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">ResourceUtil.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/util/ResourceUtil.html#toString-org.universAAL.middleware.owl.TypeExpression-">toString</a></span>(<a href="../../../../../org/universAAL/middleware/owl/TypeExpression.html" title="class in org.universAAL.middleware.owl">TypeExpression</a>&nbsp;e)</code>
+<div class="block">Create a String representation from a given <a href="../../../../../org/universAAL/middleware/owl/TypeExpression.html" title="class in org.universAAL.middleware.owl"><code>TypeExpression</code></a>.</div>
+</td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><span class="typeNameLabel">ResourceUtil.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/util/ResourceUtil.html#toString-org.universAAL.middleware.owl.TypeExpression-java.lang.String-">toString</a></span>(<a href="../../../../../org/universAAL/middleware/owl/TypeExpression.html" title="class in org.universAAL.middleware.owl">TypeExpression</a>&nbsp;e,
-        <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;prefix)</code>&nbsp;</td>
+        <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;prefix)</code>
+<div class="block">Create a String representation from a given <a href="../../../../../org/universAAL/middleware/owl/TypeExpression.html" title="class in org.universAAL.middleware.owl"><code>TypeExpression</code></a>.</div>
+</td>
 </tr>
 </tbody>
 </table>

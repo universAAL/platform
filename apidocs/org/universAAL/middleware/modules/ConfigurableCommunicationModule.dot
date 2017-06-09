@@ -10,30 +10,30 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.modules.CommunicationModule
-	c2950009 [label=<<table title="org.universAAL.middleware.modules.CommunicationModule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CommunicationModule.html">
+	c2963788 [label=<<table title="org.universAAL.middleware.modules.CommunicationModule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CommunicationModule.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> CommunicationModule </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CommunicationModule.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.modules.ConfigurableCommunicationModule
-	c2950010 [label=<<table title="org.universAAL.middleware.modules.ConfigurableCommunicationModule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigurableCommunicationModule.html">
+	c2963789 [label=<<table title="org.universAAL.middleware.modules.ConfigurableCommunicationModule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigurableCommunicationModule.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ConfigurableCommunicationModule </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConfigurableCommunicationModule.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.modules.communication.CommunicationModuleImpl
-	c2950942 [label=<<table title="org.universAAL.middleware.modules.communication.CommunicationModuleImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./communication/CommunicationModuleImpl.html">
+	c2964721 [label=<<table title="org.universAAL.middleware.modules.communication.CommunicationModuleImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./communication/CommunicationModuleImpl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CommunicationModuleImpl </td></tr>
 		</table></td></tr>
 		</table>>, URL="./communication/CommunicationModuleImpl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.modules.ConfigurableCommunicationModule implements org.universAAL.middleware.modules.CommunicationModule
-	c2950009:p -> c2950010:p [dir=back,arrowtail=empty,style=dashed];
+	c2963788:p -> c2963789:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.modules.communication.CommunicationModuleImpl implements org.universAAL.middleware.modules.CommunicationModule
-	c2950009:p -> c2950942:p [dir=back,arrowtail=empty,style=dashed];
+	c2963788:p -> c2964721:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.modules.communication.CommunicationModuleImpl implements org.universAAL.middleware.modules.ConfigurableCommunicationModule
-	c2950010:p -> c2950942:p [dir=back,arrowtail=empty,style=dashed];
+	c2963789:p -> c2964721:p [dir=back,arrowtail=empty,style=dashed];
 }
 

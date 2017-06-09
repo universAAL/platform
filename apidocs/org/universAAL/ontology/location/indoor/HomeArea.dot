@@ -10,50 +10,50 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.location.indoor.IndoorPlace
-	c4466746 [label=<<table title="org.universAAL.ontology.location.indoor.IndoorPlace" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IndoorPlace.html">
+	c4483155 [label=<<table title="org.universAAL.ontology.location.indoor.IndoorPlace" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IndoorPlace.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> IndoorPlace </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./IndoorPlace.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.location.indoor.EntranceHall
-	c4466747 [label=<<table title="org.universAAL.ontology.location.indoor.EntranceHall" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EntranceHall.html">
+	c4483156 [label=<<table title="org.universAAL.ontology.location.indoor.EntranceHall" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EntranceHall.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> EntranceHall </td></tr>
 		</table></td></tr>
 		</table>>, URL="./EntranceHall.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.location.indoor.Corridor
-	c4466749 [label=<<table title="org.universAAL.ontology.location.indoor.Corridor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Corridor.html">
+	c4483158 [label=<<table title="org.universAAL.ontology.location.indoor.Corridor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Corridor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Corridor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Corridor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.location.indoor.Hall
-	c4466750 [label=<<table title="org.universAAL.ontology.location.indoor.Hall" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Hall.html">
+	c4483159 [label=<<table title="org.universAAL.ontology.location.indoor.Hall" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Hall.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Hall </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Hall.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.location.indoor.HomeArea
-	c4466755 [label=<<table title="org.universAAL.ontology.location.indoor.HomeArea" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HomeArea.html">
+	c4483164 [label=<<table title="org.universAAL.ontology.location.indoor.HomeArea" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HomeArea.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HomeArea </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HomeArea.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.location.indoor.Room
-	c4466756 [label=<<table title="org.universAAL.ontology.location.indoor.Room" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Room.html">
+	c4483165 [label=<<table title="org.universAAL.ontology.location.indoor.Room" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Room.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Room </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Room.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.location.indoor.EntranceHall extends org.universAAL.ontology.location.indoor.HomeArea
-	c4466755:p -> c4466747:p [dir=back,arrowtail=empty];
+	c4483164:p -> c4483156:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.location.indoor.Corridor extends org.universAAL.ontology.location.indoor.HomeArea
-	c4466755:p -> c4466749:p [dir=back,arrowtail=empty];
+	c4483164:p -> c4483158:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.location.indoor.Hall extends org.universAAL.ontology.location.indoor.HomeArea
-	c4466755:p -> c4466750:p [dir=back,arrowtail=empty];
+	c4483164:p -> c4483159:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.location.indoor.HomeArea extends org.universAAL.ontology.location.indoor.IndoorPlace
-	c4466746:p -> c4466755:p [dir=back,arrowtail=empty];
+	c4483155:p -> c4483164:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.location.indoor.Room extends org.universAAL.ontology.location.indoor.HomeArea
-	c4466755:p -> c4466756:p [dir=back,arrowtail=empty];
+	c4483164:p -> c4483165:p [dir=back,arrowtail=empty];
 }
 

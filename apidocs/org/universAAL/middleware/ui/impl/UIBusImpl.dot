@@ -10,27 +10,27 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.bus.model.AbstractBus
-	c8162849 [label=<<table title="org.universAAL.middleware.bus.model.AbstractBus" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../bus/model/AbstractBus.html">
+	c8185668 [label=<<table title="org.universAAL.middleware.bus.model.AbstractBus" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../bus/model/AbstractBus.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractBus </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../bus/model/AbstractBus.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.IUIBus
-	c8162968 [label=<<table title="org.universAAL.middleware.ui.IUIBus" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../IUIBus.html">
+	c8185787 [label=<<table title="org.universAAL.middleware.ui.IUIBus" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../IUIBus.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IUIBus </td></tr>
 		</table></td></tr>
 		</table>>, URL="../IUIBus.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.impl.UIBusImpl
-	c8162999 [label=<<table title="org.universAAL.middleware.ui.impl.UIBusImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UIBusImpl.html">
+	c8185818 [label=<<table title="org.universAAL.middleware.ui.impl.UIBusImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UIBusImpl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UIBusImpl </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UIBusImpl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.ui.impl.UIBusImpl extends org.universAAL.middleware.bus.model.AbstractBus
-	c8162849:p -> c8162999:p [dir=back,arrowtail=empty];
+	c8185668:p -> c8185818:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.ui.impl.UIBusImpl implements org.universAAL.middleware.ui.IUIBus
-	c8162968:p -> c8162999:p [dir=back,arrowtail=empty,style=dashed];
+	c8185787:p -> c8185818:p [dir=back,arrowtail=empty,style=dashed];
 }
 

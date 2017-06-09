@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.context.ContextPublisher
-	c2650190 [label=<<table title="org.universAAL.middleware.context.ContextPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/context/ContextPublisher.html">
+	c2663449 [label=<<table title="org.universAAL.middleware.context.ContextPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/context/ContextPublisher.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ContextPublisher </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/context/ContextPublisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.samples.ctxtbus.CPublisher
-	c2652195 [label=<<table title="org.universAAL.samples.ctxtbus.CPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CPublisher.html">
+	c2665454 [label=<<table title="org.universAAL.samples.ctxtbus.CPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CPublisher.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CPublisher </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CPublisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.samples.ctxtbus.CPublisher extends org.universAAL.middleware.context.ContextPublisher
-	c2650190:p -> c2652195:p [dir=back,arrowtail=empty];
+	c2663449:p -> c2665454:p [dir=back,arrowtail=empty];
 }
 

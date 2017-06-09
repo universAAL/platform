@@ -10,42 +10,42 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.dependability.PhysicalFault
-	c6422028 [label=<<table title="org.universAAL.ontology.dependability.PhysicalFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PhysicalFault.html">
+	c6441827 [label=<<table title="org.universAAL.ontology.dependability.PhysicalFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PhysicalFault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PhysicalFault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PhysicalFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.dependability.ShapeFault
-	c6422037 [label=<<table title="org.universAAL.ontology.dependability.ShapeFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ShapeFault.html">
+	c6441836 [label=<<table title="org.universAAL.ontology.dependability.ShapeFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ShapeFault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ShapeFault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ShapeFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.dependability.PropertyFault
-	c6422039 [label=<<table title="org.universAAL.ontology.dependability.PropertyFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PropertyFault.html">
+	c6441838 [label=<<table title="org.universAAL.ontology.dependability.PropertyFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PropertyFault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PropertyFault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PropertyFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.dependability.StructuralFault
-	c6422040 [label=<<table title="org.universAAL.ontology.dependability.StructuralFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./StructuralFault.html">
+	c6441839 [label=<<table title="org.universAAL.ontology.dependability.StructuralFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./StructuralFault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> StructuralFault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./StructuralFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.dependability.Fault
-	c6422048 [label=<<table title="org.universAAL.ontology.dependability.Fault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Fault.html">
+	c6441847 [label=<<table title="org.universAAL.ontology.dependability.Fault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Fault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Fault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Fault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.dependability.PhysicalFault extends org.universAAL.ontology.dependability.Fault
-	c6422048:p -> c6422028:p [dir=back,arrowtail=empty];
+	c6441847:p -> c6441827:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.dependability.ShapeFault extends org.universAAL.ontology.dependability.PhysicalFault
-	c6422028:p -> c6422037:p [dir=back,arrowtail=empty];
+	c6441827:p -> c6441836:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.dependability.PropertyFault extends org.universAAL.ontology.dependability.PhysicalFault
-	c6422028:p -> c6422039:p [dir=back,arrowtail=empty];
+	c6441827:p -> c6441838:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.dependability.StructuralFault extends org.universAAL.ontology.dependability.PhysicalFault
-	c6422028:p -> c6422040:p [dir=back,arrowtail=empty];
+	c6441827:p -> c6441839:p [dir=back,arrowtail=empty];
 }
 

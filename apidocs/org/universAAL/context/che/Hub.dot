@@ -10,28 +10,28 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.container.ModuleActivator
-	c4477788 [label=<<table title="org.universAAL.middleware.container.ModuleActivator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/container/ModuleActivator.html">
+	c4494217 [label=<<table title="org.universAAL.middleware.container.ModuleActivator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/container/ModuleActivator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ModuleActivator </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/container/ModuleActivator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.util.OntologyListener
-	c4477887 [label=<<table title="org.universAAL.middleware.util.OntologyListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/util/OntologyListener.html">
+	c4494316 [label=<<table title="org.universAAL.middleware.util.OntologyListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/util/OntologyListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> OntologyListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/util/OntologyListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.context.che.Hub
-	c4479071 [label=<<table title="org.universAAL.context.che.Hub" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Hub.html">
+	c4495500 [label=<<table title="org.universAAL.context.che.Hub" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Hub.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Hub </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Hub.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.context.che.Hub implements org.universAAL.middleware.util.OntologyListener
-	c4477887:p -> c4479071:p [dir=back,arrowtail=empty,style=dashed];
+	c4494316:p -> c4495500:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.context.che.Hub implements org.universAAL.middleware.container.ModuleActivator
-	c4477788:p -> c4479071:p [dir=back,arrowtail=empty,style=dashed];
+	c4494217:p -> c4495500:p [dir=back,arrowtail=empty,style=dashed];
 }
 

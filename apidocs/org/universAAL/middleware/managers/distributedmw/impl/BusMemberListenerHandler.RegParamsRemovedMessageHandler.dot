@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.managers.distributedmw.impl.BusMemberListenerHandler.RegParamsRemovedMessageHandler
-	c2599155 [label=<<table title="org.universAAL.middleware.managers.distributedmw.impl.BusMemberListenerHandler.RegParamsRemovedMessageHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BusMemberListenerHandler.RegParamsRemovedMessageHandler.html">
+	c2612324 [label=<<table title="org.universAAL.middleware.managers.distributedmw.impl.BusMemberListenerHandler.RegParamsRemovedMessageHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BusMemberListenerHandler.RegParamsRemovedMessageHandler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RegParamsRemovedMessageHandler </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BusMemberListenerHandler.RegParamsRemovedMessageHandler.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.managers.distributedmw.impl.BusMemberListenerHandler.RegParamsRemovedMessageHandler implements org.universAAL.middleware.managers.distributedmw.impl.DistributedMWManagerImpl.Handler
-	c2600744:p -> c2599155:p [dir=back,arrowtail=empty,style=dashed];
+	c2613918:p -> c2612324:p [dir=back,arrowtail=empty,style=dashed];
 	// org.universAAL.middleware.managers.distributedmw.impl.DistributedMWManagerImpl.Handler
-	c2600744 [label=<<table title="org.universAAL.middleware.managers.distributedmw.impl.DistributedMWManagerImpl.Handler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/universAAL/middleware/managers/distributedmw/impl/DistributedMWManagerImpl/Handler.html">
+	c2613918 [label=<<table title="org.universAAL.middleware.managers.distributedmw.impl.DistributedMWManagerImpl.Handler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/universAAL/middleware/managers/distributedmw/impl/DistributedMWManagerImpl/Handler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Handler </td></tr>

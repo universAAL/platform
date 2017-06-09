@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.handler.gui.swing.formManagement.HierarchicalFormManager
-	c4456931 [label=<<table title="org.universAAL.ui.handler.gui.swing.formManagement.HierarchicalFormManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HierarchicalFormManager.html">
+	c4473320 [label=<<table title="org.universAAL.ui.handler.gui.swing.formManagement.HierarchicalFormManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HierarchicalFormManager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HierarchicalFormManager </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HierarchicalFormManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.handler.gui.swing.formManagement.FormManager
-	c4456933 [label=<<table title="org.universAAL.ui.handler.gui.swing.formManagement.FormManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FormManager.html">
+	c4473322 [label=<<table title="org.universAAL.ui.handler.gui.swing.formManagement.FormManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FormManager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> FormManager </td></tr>
 		</table></td></tr>
 		</table>>, URL="./FormManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.handler.gui.swing.formManagement.HierarchicalFormManager implements org.universAAL.ui.handler.gui.swing.formManagement.FormManager
-	c4456933:p -> c4456931:p [dir=back,arrowtail=empty,style=dashed];
+	c4473322:p -> c4473320:p [dir=back,arrowtail=empty,style=dashed];
 }
 

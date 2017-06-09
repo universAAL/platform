@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.service.owl.UserInterfaceService
-	c4821300 [label=<<table title="org.universAAL.middleware.service.owl.UserInterfaceService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UserInterfaceService.html">
+	c4838324 [label=<<table title="org.universAAL.middleware.service.owl.UserInterfaceService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UserInterfaceService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UserInterfaceService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UserInterfaceService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.service.owl.InitialServiceDialog
-	c4821301 [label=<<table title="org.universAAL.middleware.service.owl.InitialServiceDialog" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./InitialServiceDialog.html">
+	c4838325 [label=<<table title="org.universAAL.middleware.service.owl.InitialServiceDialog" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./InitialServiceDialog.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> InitialServiceDialog </td></tr>
 		</table></td></tr>
 		</table>>, URL="./InitialServiceDialog.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.service.owl.InitialServiceDialog extends org.universAAL.middleware.service.owl.UserInterfaceService
-	c4821300:p -> c4821301:p [dir=back,arrowtail=empty];
+	c4838324:p -> c4838325:p [dir=back,arrowtail=empty];
 }
 

@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.itests.Activator
-	c2032829 [label=<<table title="org.universAAL.itests.Activator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Activator.html">
+	c2045018 [label=<<table title="org.universAAL.itests.Activator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Activator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Activator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Activator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.itests.Activator implements org.osgi.framework.BundleActivator
-	c2035641:p -> c2032829:p [dir=back,arrowtail=empty,style=dashed];
+	c2047835:p -> c2045018:p [dir=back,arrowtail=empty,style=dashed];
 	// org.osgi.framework.BundleActivator
-	c2035641 [label=<<table title="org.osgi.framework.BundleActivator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/osgi/framework/BundleActivator.html">
+	c2047835 [label=<<table title="org.osgi.framework.BundleActivator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/osgi/framework/BundleActivator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> BundleActivator </td></tr>

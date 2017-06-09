@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ucc.model.jaxb.BooleanValue
-	c2531308 [label=<<table title="org.universAAL.ucc.model.jaxb.BooleanValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BooleanValue.html">
+	c2544362 [label=<<table title="org.universAAL.ucc.model.jaxb.BooleanValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BooleanValue.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BooleanValue </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BooleanValue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ucc.model.jaxb.SimpleObject
-	c2531311 [label=<<table title="org.universAAL.ucc.model.jaxb.SimpleObject" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SimpleObject.html">
+	c2544365 [label=<<table title="org.universAAL.ucc.model.jaxb.SimpleObject" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SimpleObject.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SimpleObject </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SimpleObject.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ucc.model.jaxb.BooleanValue extends org.universAAL.ucc.model.jaxb.SimpleObject
-	c2531311:p -> c2531308:p [dir=back,arrowtail=empty];
+	c2544365:p -> c2544362:p [dir=back,arrowtail=empty];
 }
 

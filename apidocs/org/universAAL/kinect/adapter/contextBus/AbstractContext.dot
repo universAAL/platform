@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.kinect.adapter.contextBus.AbstractContext
-	c1951550 [label=<<table title="org.universAAL.kinect.adapter.contextBus.AbstractContext" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractContext.html">
+	c1963594 [label=<<table title="org.universAAL.kinect.adapter.contextBus.AbstractContext" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractContext.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> AbstractContext </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractContext.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.kinect.adapter.instance.contextBus.HandGesturesPublisher
-	c1951563 [label=<<table title="org.universAAL.kinect.adapter.instance.contextBus.HandGesturesPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../instance/contextBus/HandGesturesPublisher.html">
+	c1963607 [label=<<table title="org.universAAL.kinect.adapter.instance.contextBus.HandGesturesPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../instance/contextBus/HandGesturesPublisher.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HandGesturesPublisher </td></tr>
 		</table></td></tr>
 		</table>>, URL="../instance/contextBus/HandGesturesPublisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.kinect.adapter.instance.contextBus.HandGesturesPublisher implements org.universAAL.kinect.adapter.contextBus.AbstractContext
-	c1951550:p -> c1951563:p [dir=back,arrowtail=empty,style=dashed];
+	c1963594:p -> c1963607:p [dir=back,arrowtail=empty,style=dashed];
 }
 

@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.Ontology
-	c1519623 [label=<<table title="org.universAAL.middleware.owl.Ontology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../owl/Ontology.html">
+	c1530922 [label=<<table title="org.universAAL.middleware.owl.Ontology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../owl/Ontology.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Ontology </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../../owl/Ontology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.configuration.core.owl.AALConfigurationOntology
-	c1520739 [label=<<table title="org.universAAL.middleware.managers.configuration.core.owl.AALConfigurationOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AALConfigurationOntology.html">
+	c1532038 [label=<<table title="org.universAAL.middleware.managers.configuration.core.owl.AALConfigurationOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AALConfigurationOntology.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AALConfigurationOntology </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AALConfigurationOntology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.managers.configuration.core.owl.AALConfigurationOntology extends org.universAAL.middleware.owl.Ontology
-	c1519623:p -> c1520739:p [dir=back,arrowtail=empty];
+	c1530922:p -> c1532038:p [dir=back,arrowtail=empty];
 }
 

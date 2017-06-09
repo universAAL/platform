@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.Intersection
-	c5671485 [label=<<table title="org.universAAL.middleware.owl.Intersection" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Intersection.html">
+	c5689984 [label=<<table title="org.universAAL.middleware.owl.Intersection" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Intersection.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Intersection </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Intersection.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.owl.MergedRestriction
-	c5671494 [label=<<table title="org.universAAL.middleware.owl.MergedRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MergedRestriction.html">
+	c5689993 [label=<<table title="org.universAAL.middleware.owl.MergedRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MergedRestriction.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MergedRestriction </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MergedRestriction.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.owl.MergedRestriction extends org.universAAL.middleware.owl.Intersection
-	c5671485:p -> c5671494:p [dir=back,arrowtail=empty];
+	c5689984:p -> c5689993:p [dir=back,arrowtail=empty];
 }
 

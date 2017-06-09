@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.lighting.BeamingSource
-	c2480607 [label=<<table title="org.universAAL.ontology.lighting.BeamingSource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BeamingSource.html">
+	c2493571 [label=<<table title="org.universAAL.ontology.lighting.BeamingSource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BeamingSource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BeamingSource </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BeamingSource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.BlinkableBeamingSource
-	c2480612 [label=<<table title="org.universAAL.ontology.lighting.BlinkableBeamingSource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BlinkableBeamingSource.html">
+	c2493576 [label=<<table title="org.universAAL.ontology.lighting.BlinkableBeamingSource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BlinkableBeamingSource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BlinkableBeamingSource </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BlinkableBeamingSource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.lighting.BlinkableBeamingSource extends org.universAAL.ontology.lighting.BeamingSource
-	c2480607:p -> c2480612:p [dir=back,arrowtail=empty];
+	c2493571:p -> c2493576:p [dir=back,arrowtail=empty];
 }
 

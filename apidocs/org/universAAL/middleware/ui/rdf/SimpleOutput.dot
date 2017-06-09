@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.ui.rdf.Output
-	c7635335 [label=<<table title="org.universAAL.middleware.ui.rdf.Output" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Output.html">
+	c7657239 [label=<<table title="org.universAAL.middleware.ui.rdf.Output" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Output.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Output </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Output.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.rdf.SimpleOutput
-	c7635347 [label=<<table title="org.universAAL.middleware.ui.rdf.SimpleOutput" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SimpleOutput.html">
+	c7657251 [label=<<table title="org.universAAL.middleware.ui.rdf.SimpleOutput" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SimpleOutput.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SimpleOutput </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SimpleOutput.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.ui.rdf.SimpleOutput extends org.universAAL.middleware.ui.rdf.Output
-	c7635335:p -> c7635347:p [dir=back,arrowtail=empty];
+	c7657239:p -> c7657251:p [dir=back,arrowtail=empty];
 }
 

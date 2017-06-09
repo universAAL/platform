@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.managers.aalspace.util.Joiner
-	c5003781 [label=<<table title="org.universAAL.middleware.managers.aalspace.util.Joiner" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Joiner.html">
+	c5021120 [label=<<table title="org.universAAL.middleware.managers.aalspace.util.Joiner" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Joiner.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Joiner </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Joiner.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.managers.aalspace.util.Joiner implements java.lang.Runnable
-	c5005335:p -> c5003781:p [dir=back,arrowtail=empty,style=dashed];
+	c5022679:p -> c5021120:p [dir=back,arrowtail=empty,style=dashed];
 	// java.lang.Runnable
-	c5005335 [label=<<table title="java.lang.Runnable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Runnable.html">
+	c5022679 [label=<<table title="java.lang.Runnable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Runnable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Runnable </td></tr>

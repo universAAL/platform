@@ -10,27 +10,27 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.aalspace.json.model.AALSpace.CommunicationChannels
-	c4573094 [label=<<table title="org.universAAL.middleware.aalspace.json.model.AALSpace.CommunicationChannels" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../aalspace/json/model/AALSpace.CommunicationChannels.html">
+	c4589688 [label=<<table title="org.universAAL.middleware.aalspace.json.model.AALSpace.CommunicationChannels" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../aalspace/json/model/AALSpace.CommunicationChannels.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CommunicationChannels </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../aalspace/json/model/AALSpace.CommunicationChannels.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.interfaces.aalspace.model.ICommunicationChannels
-	c4573099 [label=<<table title="org.universAAL.middleware.interfaces.aalspace.model.ICommunicationChannels" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ICommunicationChannels.html">
+	c4589693 [label=<<table title="org.universAAL.middleware.interfaces.aalspace.model.ICommunicationChannels" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ICommunicationChannels.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ICommunicationChannels </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ICommunicationChannels.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.interfaces.aalspace.xml.model.Aalspace.CommunicationChannels
-	c4573105 [label=<<table title="org.universAAL.middleware.interfaces.aalspace.xml.model.Aalspace.CommunicationChannels" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../xml/model/Aalspace.CommunicationChannels.html">
+	c4589699 [label=<<table title="org.universAAL.middleware.interfaces.aalspace.xml.model.Aalspace.CommunicationChannels" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../xml/model/Aalspace.CommunicationChannels.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CommunicationChannels </td></tr>
 		</table></td></tr>
 		</table>>, URL="../xml/model/Aalspace.CommunicationChannels.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.aalspace.json.model.AALSpace.CommunicationChannels implements org.universAAL.middleware.interfaces.aalspace.model.ICommunicationChannels
-	c4573099:p -> c4573094:p [dir=back,arrowtail=empty,style=dashed];
+	c4589693:p -> c4589688:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.interfaces.aalspace.xml.model.Aalspace.CommunicationChannels implements org.universAAL.middleware.interfaces.aalspace.model.ICommunicationChannels
-	c4573099:p -> c4573105:p [dir=back,arrowtail=empty,style=dashed];
+	c4589693:p -> c4589699:p [dir=back,arrowtail=empty,style=dashed];
 }
 

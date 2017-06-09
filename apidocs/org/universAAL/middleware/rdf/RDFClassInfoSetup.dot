@@ -10,28 +10,28 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.rdf.RDFClassInfoSetup
-	c6761289 [label=<<table title="org.universAAL.middleware.rdf.RDFClassInfoSetup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RDFClassInfoSetup.html">
+	c6781678 [label=<<table title="org.universAAL.middleware.rdf.RDFClassInfoSetup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RDFClassInfoSetup.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> RDFClassInfoSetup </td></tr>
 		</table></td></tr>
 		</table>>, URL="./RDFClassInfoSetup.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.rdf.RDFClassInfo.PrivateRDFSetup
-	c6761307 [label=<<table title="org.universAAL.middleware.rdf.RDFClassInfo.PrivateRDFSetup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RDFClassInfo.PrivateRDFSetup.html">
+	c6781696 [label=<<table title="org.universAAL.middleware.rdf.RDFClassInfo.PrivateRDFSetup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RDFClassInfo.PrivateRDFSetup.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PrivateRDFSetup </td></tr>
 		</table></td></tr>
 		</table>>, URL="./RDFClassInfo.PrivateRDFSetup.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.owl.OntClassInfoSetup
-	c6761335 [label=<<table title="org.universAAL.middleware.owl.OntClassInfoSetup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../owl/OntClassInfoSetup.html">
+	c6781724 [label=<<table title="org.universAAL.middleware.owl.OntClassInfoSetup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../owl/OntClassInfoSetup.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> OntClassInfoSetup </td></tr>
 		</table></td></tr>
 		</table>>, URL="../owl/OntClassInfoSetup.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.rdf.RDFClassInfo.PrivateRDFSetup implements org.universAAL.middleware.rdf.RDFClassInfoSetup
-	c6761289:p -> c6761307:p [dir=back,arrowtail=empty,style=dashed];
+	c6781678:p -> c6781696:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.owl.OntClassInfoSetup implements org.universAAL.middleware.rdf.RDFClassInfoSetup
-	c6761289:p -> c6761335:p [dir=back,arrowtail=empty,style=dashed];
+	c6781678:p -> c6781724:p [dir=back,arrowtail=empty,style=dashed];
 }
 

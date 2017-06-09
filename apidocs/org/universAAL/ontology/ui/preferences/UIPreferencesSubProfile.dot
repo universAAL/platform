@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.profile.SubProfile
-	c8220805 [label=<<table title="org.universAAL.ontology.profile.SubProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../profile/SubProfile.html">
+	c8243724 [label=<<table title="org.universAAL.ontology.profile.SubProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../profile/SubProfile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SubProfile </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../profile/SubProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.ui.preferences.UIPreferencesSubProfile
-	c8221104 [label=<<table title="org.universAAL.ontology.ui.preferences.UIPreferencesSubProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UIPreferencesSubProfile.html">
+	c8244023 [label=<<table title="org.universAAL.ontology.ui.preferences.UIPreferencesSubProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UIPreferencesSubProfile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UIPreferencesSubProfile </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UIPreferencesSubProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.ui.preferences.UIPreferencesSubProfile extends org.universAAL.ontology.profile.SubProfile
-	c8220805:p -> c8221104:p [dir=back,arrowtail=empty];
+	c8243724:p -> c8244023:p [dir=back,arrowtail=empty];
 }
 

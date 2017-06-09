@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.itests.IntegrationTest.FakeBundleContext
-	c4875656 [label=<<table title="org.universAAL.itests.IntegrationTest.FakeBundleContext" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IntegrationTest.FakeBundleContext.html">
+	c4892775 [label=<<table title="org.universAAL.itests.IntegrationTest.FakeBundleContext" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IntegrationTest.FakeBundleContext.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> FakeBundleContext </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IntegrationTest.FakeBundleContext.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.itests.IntegrationTest.FakeBundleContext implements java.lang.reflect.InvocationHandler
-	c4878465:p -> c4875656:p [dir=back,arrowtail=empty,style=dashed];
+	c4895589:p -> c4892775:p [dir=back,arrowtail=empty,style=dashed];
 	// java.lang.reflect.InvocationHandler
-	c4878465 [label=<<table title="java.lang.reflect.InvocationHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/reflect/InvocationHandler.html">
+	c4895589 [label=<<table title="java.lang.reflect.InvocationHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/reflect/InvocationHandler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> InvocationHandler </td></tr>

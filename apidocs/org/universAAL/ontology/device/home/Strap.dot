@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.phThing.Device
-	c7796936 [label=<<table title="org.universAAL.ontology.phThing.Device" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../phThing/Device.html">
+	c7819120 [label=<<table title="org.universAAL.ontology.phThing.Device" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../phThing/Device.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Device </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../phThing/Device.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.home.Strap
-	c7797198 [label=<<table title="org.universAAL.ontology.device.home.Strap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Strap.html">
+	c7819382 [label=<<table title="org.universAAL.ontology.device.home.Strap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Strap.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Strap </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Strap.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.device.home.Strap extends org.universAAL.ontology.phThing.Device
-	c7796936:p -> c7797198:p [dir=back,arrowtail=empty];
+	c7819120:p -> c7819382:p [dir=back,arrowtail=empty];
 }
 

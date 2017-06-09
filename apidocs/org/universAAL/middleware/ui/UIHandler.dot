@@ -10,42 +10,42 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.bus.member.Callee
-	c8174397 [label=<<table title="org.universAAL.middleware.bus.member.Callee" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../bus/member/Callee.html">
+	c8197236 [label=<<table title="org.universAAL.middleware.bus.member.Callee" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../bus/member/Callee.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Callee </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../bus/member/Callee.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.UIHandler
-	c8174499 [label=<<table title="org.universAAL.middleware.ui.UIHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UIHandler.html">
+	c8197338 [label=<<table title="org.universAAL.middleware.ui.UIHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UIHandler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> UIHandler </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./UIHandler.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.handler.gui.swing.Handler
-	c8176263 [label=<<table title="org.universAAL.ui.handler.gui.swing.Handler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ui/handler/gui/swing/Handler.html">
+	c8199102 [label=<<table title="org.universAAL.ui.handler.gui.swing.Handler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ui/handler/gui/swing/Handler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Handler </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ui/handler/gui/swing/Handler.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.ui.handler.web.html.Handler
-	c8176388 [label=<<table title="org.universAAL.ui.ui.handler.web.html.Handler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ui/ui/handler/web/html/Handler.html">
+	c8199227 [label=<<table title="org.universAAL.ui.ui.handler.web.html.Handler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ui/ui/handler/web/html/Handler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Handler </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ui/ui/handler/web/html/Handler.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.handler.sms.SmsUIHandler
-	c8176395 [label=<<table title="org.universAAL.ui.handler.sms.SmsUIHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ui/handler/sms/SmsUIHandler.html">
+	c8199234 [label=<<table title="org.universAAL.ui.handler.sms.SmsUIHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ui/handler/sms/SmsUIHandler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SmsUIHandler </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ui/handler/sms/SmsUIHandler.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.ui.UIHandler extends org.universAAL.middleware.bus.member.Callee
-	c8174397:p -> c8174499:p [dir=back,arrowtail=empty];
+	c8197236:p -> c8197338:p [dir=back,arrowtail=empty];
 	//org.universAAL.ui.handler.gui.swing.Handler extends org.universAAL.middleware.ui.UIHandler
-	c8174499:p -> c8176263:p [dir=back,arrowtail=empty];
+	c8197338:p -> c8199102:p [dir=back,arrowtail=empty];
 	//org.universAAL.ui.ui.handler.web.html.Handler extends org.universAAL.middleware.ui.UIHandler
-	c8174499:p -> c8176388:p [dir=back,arrowtail=empty];
+	c8197338:p -> c8199227:p [dir=back,arrowtail=empty];
 	//org.universAAL.ui.handler.sms.SmsUIHandler extends org.universAAL.middleware.ui.UIHandler
-	c8174499:p -> c8176395:p [dir=back,arrowtail=empty];
+	c8197338:p -> c8199234:p [dir=back,arrowtail=empty];
 }
 

@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.device.WaterFlowController
-	c8572620 [label=<<table title="org.universAAL.ontology.device.WaterFlowController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WaterFlowController.html">
+	c8596149 [label=<<table title="org.universAAL.ontology.device.WaterFlowController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WaterFlowController.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> WaterFlowController </td></tr>
 		</table></td></tr>
 		</table>>, URL="./WaterFlowController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.Actuator
-	c8572638 [label=<<table title="org.universAAL.ontology.device.Actuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Actuator.html">
+	c8596167 [label=<<table title="org.universAAL.ontology.device.Actuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Actuator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Actuator </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Actuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.WaterFlowActuator
-	c8572646 [label=<<table title="org.universAAL.ontology.device.WaterFlowActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./WaterFlowActuator.html">
+	c8596175 [label=<<table title="org.universAAL.ontology.device.WaterFlowActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./WaterFlowActuator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> WaterFlowActuator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./WaterFlowActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.device.WaterFlowController extends org.universAAL.ontology.device.WaterFlowActuator
-	c8572646:p -> c8572620:p [dir=back,arrowtail=empty];
+	c8596175:p -> c8596149:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.device.WaterFlowActuator extends org.universAAL.ontology.device.Actuator
-	c8572638:p -> c8572646:p [dir=back,arrowtail=empty];
+	c8596167:p -> c8596175:p [dir=back,arrowtail=empty];
 }
 

@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.measurement.Signal
-	c4435212 [label=<<table title="org.universAAL.ontology.measurement.Signal" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../measurement/Signal.html">
+	c4451566 [label=<<table title="org.universAAL.ontology.measurement.Signal" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../measurement/Signal.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Signal </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../measurement/Signal.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.healthmeasurement.owl.HeartRateSignal
-	c4435535 [label=<<table title="org.universAAL.ontology.healthmeasurement.owl.HeartRateSignal" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HeartRateSignal.html">
+	c4451889 [label=<<table title="org.universAAL.ontology.healthmeasurement.owl.HeartRateSignal" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HeartRateSignal.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HeartRateSignal </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HeartRateSignal.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.healthmeasurement.owl.HeartRateSignal extends org.universAAL.ontology.measurement.Signal
-	c4435212:p -> c4435535:p [dir=back,arrowtail=empty];
+	c4451566:p -> c4451889:p [dir=back,arrowtail=empty];
 }
 

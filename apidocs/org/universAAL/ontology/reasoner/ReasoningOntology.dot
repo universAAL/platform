@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.Ontology
-	c6807462 [label=<<table title="org.universAAL.middleware.owl.Ontology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/Ontology.html">
+	c6827931 [label=<<table title="org.universAAL.middleware.owl.Ontology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/Ontology.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Ontology </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/owl/Ontology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.reasoner.ReasoningOntology
-	c6808353 [label=<<table title="org.universAAL.ontology.reasoner.ReasoningOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ReasoningOntology.html">
+	c6828822 [label=<<table title="org.universAAL.ontology.reasoner.ReasoningOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ReasoningOntology.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ReasoningOntology </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ReasoningOntology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.reasoner.ReasoningOntology extends org.universAAL.middleware.owl.Ontology
-	c6807462:p -> c6808353:p [dir=back,arrowtail=empty];
+	c6827931:p -> c6828822:p [dir=back,arrowtail=empty];
 }
 

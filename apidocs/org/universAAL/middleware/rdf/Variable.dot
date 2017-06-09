@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.rdf.Variable
-	c8494121 [label=<<table title="org.universAAL.middleware.rdf.Variable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Variable.html">
+	c8517515 [label=<<table title="org.universAAL.middleware.rdf.Variable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Variable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Variable </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Variable.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.rdf.FinalizedResource
-	c8494124 [label=<<table title="org.universAAL.middleware.rdf.FinalizedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FinalizedResource.html">
+	c8517518 [label=<<table title="org.universAAL.middleware.rdf.FinalizedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FinalizedResource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> FinalizedResource </td></tr>
 		</table></td></tr>
 		</table>>, URL="./FinalizedResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.service.owls.process.ProcessParameter
-	c8494499 [label=<<table title="org.universAAL.middleware.service.owls.process.ProcessParameter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../service/owls/process/ProcessParameter.html">
+	c8517893 [label=<<table title="org.universAAL.middleware.service.owls.process.ProcessParameter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../service/owls/process/ProcessParameter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProcessParameter </td></tr>
 		</table></td></tr>
 		</table>>, URL="../service/owls/process/ProcessParameter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.rdf.Variable extends org.universAAL.middleware.rdf.FinalizedResource
-	c8494124:p -> c8494121:p [dir=back,arrowtail=empty];
+	c8517518:p -> c8517515:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.service.owls.process.ProcessParameter extends org.universAAL.middleware.rdf.Variable
-	c8494121:p -> c8494499:p [dir=back,arrowtail=empty];
+	c8517515:p -> c8517893:p [dir=back,arrowtail=empty];
 }
 

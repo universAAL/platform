@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// ch.ethz.iks.slp.Locator
-	c5410287 [label=<<table title="ch.ethz.iks.slp.Locator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Locator.html">
+	c5428331 [label=<<table title="ch.ethz.iks.slp.Locator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Locator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Locator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Locator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// ch.ethz.iks.slp.impl.LocatorImpl
-	c5410293 [label=<<table title="ch.ethz.iks.slp.impl.LocatorImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./impl/LocatorImpl.html">
+	c5428337 [label=<<table title="ch.ethz.iks.slp.impl.LocatorImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./impl/LocatorImpl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LocatorImpl </td></tr>
 		</table></td></tr>
 		</table>>, URL="./impl/LocatorImpl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//ch.ethz.iks.slp.impl.LocatorImpl implements ch.ethz.iks.slp.Locator
-	c5410287:p -> c5410293:p [dir=back,arrowtail=empty,style=dashed];
+	c5428331:p -> c5428337:p [dir=back,arrowtail=empty,style=dashed];
 }
 

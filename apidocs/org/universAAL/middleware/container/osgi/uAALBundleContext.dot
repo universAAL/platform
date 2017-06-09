@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.container.ModuleContext
-	c8693043 [label=<<table title="org.universAAL.middleware.container.ModuleContext" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ModuleContext.html">
+	c8716782 [label=<<table title="org.universAAL.middleware.container.ModuleContext" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ModuleContext.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ModuleContext </td></tr>
 		</table></td></tr>
 		</table>>, URL="../ModuleContext.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.container.osgi.uAALBundleContext
-	c8694183 [label=<<table title="org.universAAL.middleware.container.osgi.uAALBundleContext" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./uAALBundleContext.html">
+	c8717922 [label=<<table title="org.universAAL.middleware.container.osgi.uAALBundleContext" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./uAALBundleContext.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> uAALBundleContext </td></tr>
 		</table></td></tr>
 		</table>>, URL="./uAALBundleContext.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.container.osgi.uAALBundleContext implements org.universAAL.middleware.container.ModuleContext
-	c8693043:p -> c8694183:p [dir=back,arrowtail=empty,style=dashed];
+	c8716782:p -> c8717922:p [dir=back,arrowtail=empty,style=dashed];
 }
 

@@ -95,11 +95,11 @@ var activeTableTab = "activeTableTab";
 <div class="subTitle">org.universAAL.middleware.rdf</div>
 <h2 title="Class RDFClassInfo" class="title">Class RDFClassInfo</h2>
 <map id="G" name="G">
-<area shape="rect" id="c6755534" href="./FinalizedResource.html" title="org.universAAL.middleware.rdf.FinalizedResource" alt="" coords="15,17,145,42"/>
+<area shape="rect" id="c6775913" href="./FinalizedResource.html" title="org.universAAL.middleware.rdf.FinalizedResource" alt="" coords="15,17,145,42"/>
 <area shape="rect" id="node1" href="./FinalizedResource.html" title="&lt;TABLE&gt;" alt="" coords="5,5,155,53"/>
-<area shape="rect" id="c6755540" href="./RDFClassInfo.html" title="org.universAAL.middleware.rdf.RDFClassInfo" alt="" coords="27,113,133,138"/>
+<area shape="rect" id="c6775919" href="./RDFClassInfo.html" title="org.universAAL.middleware.rdf.RDFClassInfo" alt="" coords="27,113,133,138"/>
 <area shape="rect" id="node2" href="./RDFClassInfo.html" title="&lt;TABLE&gt;" alt="" coords="17,101,143,149"/>
-<area shape="rect" id="c6755558" href="../owl/OntClassInfo.html" title="org.universAAL.middleware.owl.OntClassInfo" alt="" coords="31,209,129,234"/>
+<area shape="rect" id="c6775937" href="../owl/OntClassInfo.html" title="org.universAAL.middleware.owl.OntClassInfo" alt="" coords="31,209,129,234"/>
 <area shape="rect" id="node3" href="../owl/OntClassInfo.html" title="&lt;TABLE&gt;" alt="" coords="21,197,139,245"/>
 </map>
 <!-- UML diagram added by UMLGraph version R5_6-24-gf6e263 (http://www.umlgraph.org/) -->
@@ -138,7 +138,7 @@ extends <a href="../../../../org/universAAL/middleware/rdf/FinalizedResource.htm
 <div class="block">Definition of an RDF class. The creation is separated from the usage; for
  every RDFClassInfo there is exactly one <a href="../../../../org/universAAL/middleware/rdf/RDFClassInfoSetup.html" title="interface in org.universAAL.middleware.rdf"><code>RDFClassInfoSetup</code></a> where all
  the characteristics of this class are defined.
- 
+
  To create a new <a href="../../../../org/universAAL/middleware/rdf/RDFClassInfo.html" title="class in org.universAAL.middleware.rdf"><code>RDFClassInfo</code></a>, define a subclass of <a href="../../../../org/universAAL/middleware/owl/Ontology.html" title="class in org.universAAL.middleware.owl"><code>Ontology</code></a>
  and overwrite the <a href="../../../../org/universAAL/middleware/owl/Ontology.html#create--"><code>Ontology.create()</code></a> method.</div>
 <dl>
@@ -564,7 +564,7 @@ extends <a href="../../../../org/universAAL/middleware/rdf/FinalizedResource.htm
 <ul class="blockList">
 <li class="blockList">
 <h4>isAbstract</h4>
-<pre>public&nbsp;boolean&nbsp;isAbstract()</pre>
+<pre>public final&nbsp;boolean&nbsp;isAbstract()</pre>
 <div class="block">Determines whether this class is an abstract class. It is an abstract
  class iff the factory is not set.</div>
 <dl>
@@ -579,9 +579,11 @@ extends <a href="../../../../org/universAAL/middleware/rdf/FinalizedResource.htm
 <ul class="blockList">
 <li class="blockList">
 <h4>getFactory</h4>
-<pre>public&nbsp;<a href="../../../../org/universAAL/middleware/rdf/ResourceFactory.html" title="interface in org.universAAL.middleware.rdf">ResourceFactory</a>&nbsp;getFactory()</pre>
+<pre>public final&nbsp;<a href="../../../../org/universAAL/middleware/rdf/ResourceFactory.html" title="interface in org.universAAL.middleware.rdf">ResourceFactory</a>&nbsp;getFactory()</pre>
 <div class="block">Get the factory.</div>
 <dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>the factory.</dd>
 <dt><span class="seeLabel">See Also:</span></dt>
 <dd><a href="../../../../org/universAAL/middleware/rdf/ResourceFactory.html" title="interface in org.universAAL.middleware.rdf"><code>ResourceFactory</code></a></dd>
 </dl>
@@ -593,9 +595,11 @@ extends <a href="../../../../org/universAAL/middleware/rdf/FinalizedResource.htm
 <ul class="blockList">
 <li class="blockList">
 <h4>getFactoryIndex</h4>
-<pre>public&nbsp;int&nbsp;getFactoryIndex()</pre>
+<pre>public final&nbsp;int&nbsp;getFactoryIndex()</pre>
 <div class="block">Get the factory index.</div>
 <dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>the factory index.</dd>
 <dt><span class="seeLabel">See Also:</span></dt>
 <dd><a href="../../../../org/universAAL/middleware/rdf/ResourceFactory.html" title="interface in org.universAAL.middleware.rdf"><code>ResourceFactory</code></a></dd>
 </dl>
@@ -607,8 +611,8 @@ extends <a href="../../../../org/universAAL/middleware/rdf/FinalizedResource.htm
 <ul class="blockList">
 <li class="blockList">
 <h4>hasSuperClass</h4>
-<pre>public&nbsp;boolean&nbsp;hasSuperClass(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;classURI,
-                             boolean&nbsp;inherited)</pre>
+<pre>public final&nbsp;boolean&nbsp;hasSuperClass(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;classURI,
+                                   boolean&nbsp;inherited)</pre>
 <div class="block">Determines whether the given class is a super class of this class. If
  <code>inherited</code> is false, then only <i>direct</i> super classes
  are considered.</div>
@@ -628,8 +632,8 @@ extends <a href="../../../../org/universAAL/middleware/rdf/FinalizedResource.htm
 <ul class="blockList">
 <li class="blockList">
 <h4>getNamedSuperClasses</h4>
-<pre>public&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;getNamedSuperClasses(boolean&nbsp;inherited,
-                                     boolean&nbsp;includeAbstractClasses)</pre>
+<pre>public final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;getNamedSuperClasses(boolean&nbsp;inherited,
+                                           boolean&nbsp;includeAbstractClasses)</pre>
 <div class="block">Get the set of URIs of all named super classes.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -647,8 +651,12 @@ extends <a href="../../../../org/universAAL/middleware/rdf/FinalizedResource.htm
 <ul class="blockList">
 <li class="blockList">
 <h4>getSuperClasses</h4>
-<pre>public&nbsp;<a href="../../../../org/universAAL/middleware/owl/TypeExpression.html" title="class in org.universAAL.middleware.owl">TypeExpression</a>[]&nbsp;getSuperClasses()</pre>
+<pre>public final&nbsp;<a href="../../../../org/universAAL/middleware/owl/TypeExpression.html" title="class in org.universAAL.middleware.owl">TypeExpression</a>[]&nbsp;getSuperClasses()</pre>
 <div class="block">Get the set of all non-named super classes.</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>the set of all non-named super classes.</dd>
+</dl>
 </li>
 </ul>
 <a name="getInstances--">
@@ -657,9 +665,13 @@ extends <a href="../../../../org/universAAL/middleware/rdf/FinalizedResource.htm
 <ul class="blockList">
 <li class="blockList">
 <h4>getInstances</h4>
-<pre>public&nbsp;<a href="../../../../org/universAAL/middleware/rdf/Resource.html" title="class in org.universAAL.middleware.rdf">Resource</a>[]&nbsp;getInstances()</pre>
+<pre>public final&nbsp;<a href="../../../../org/universAAL/middleware/rdf/Resource.html" title="class in org.universAAL.middleware.rdf">Resource</a>[]&nbsp;getInstances()</pre>
 <div class="block">Get the set of all registered instances of this class. To add new
  instances, call <a href="../../../../org/universAAL/middleware/rdf/RDFClassInfoSetup.html#addInstance-org.universAAL.middleware.rdf.Resource-"><code>RDFClassInfoSetup.addInstance(Resource)</code></a></div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>the set of all registered instances of this class.</dd>
+</dl>
 </li>
 </ul>
 <a name="getInstanceByURI-java.lang.String-">
@@ -668,7 +680,7 @@ extends <a href="../../../../org/universAAL/middleware/rdf/FinalizedResource.htm
 <ul class="blockList">
 <li class="blockList">
 <h4>getInstanceByURI</h4>
-<pre>public&nbsp;<a href="../../../../org/universAAL/middleware/rdf/Resource.html" title="class in org.universAAL.middleware.rdf">Resource</a>&nbsp;getInstanceByURI(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;uri)</pre>
+<pre>public final&nbsp;<a href="../../../../org/universAAL/middleware/rdf/Resource.html" title="class in org.universAAL.middleware.rdf">Resource</a>&nbsp;getInstanceByURI(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;uri)</pre>
 <div class="block">Get a specific registered instance of this class. To add new instances,
  call <a href="../../../../org/universAAL/middleware/rdf/RDFClassInfoSetup.html#addInstance-org.universAAL.middleware.rdf.Resource-"><code>RDFClassInfoSetup.addInstance(Resource)</code></a></div>
 <dl>
@@ -685,7 +697,7 @@ extends <a href="../../../../org/universAAL/middleware/rdf/FinalizedResource.htm
 <ul class="blockList">
 <li class="blockList">
 <h4>lock</h4>
-<pre>public&nbsp;void&nbsp;lock()</pre>
+<pre>public final&nbsp;void&nbsp;lock()</pre>
 <div class="block">Lock this instance. After it is locked, no changes can be made. The class
  is automatically locked when the <a href="../../../../org/universAAL/middleware/owl/Ontology.html" title="class in org.universAAL.middleware.owl"><code>Ontology</code></a> that defines the class
  is registered at the <a href="../../../../org/universAAL/middleware/owl/OntologyManagement.html" title="class in org.universAAL.middleware.owl"><code>OntologyManagement</code></a>.</div>
@@ -697,7 +709,7 @@ extends <a href="../../../../org/universAAL/middleware/rdf/FinalizedResource.htm
 <ul class="blockListLast">
 <li class="blockList">
 <h4>isClosedCollection</h4>
-<pre>public&nbsp;boolean&nbsp;isClosedCollection(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propURI)</pre>
+<pre>public final&nbsp;boolean&nbsp;isClosedCollection(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propURI)</pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from class:&nbsp;<code><a href="../../../../org/universAAL/middleware/rdf/Resource.html#isClosedCollection-java.lang.String-">Resource</a></code></span></div>
 <div class="block">Returns true if the value of the given property should be treated as an
  rdf:List. Serializers can use this to determine if a multi-valued

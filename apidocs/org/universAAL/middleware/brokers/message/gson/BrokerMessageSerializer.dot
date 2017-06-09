@@ -10,24 +10,24 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.brokers.message.gson.BrokerMessageSerializer
-	c2557839 [label=<<table title="org.universAAL.middleware.brokers.message.gson.BrokerMessageSerializer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BrokerMessageSerializer.html">
+	c2570938 [label=<<table title="org.universAAL.middleware.brokers.message.gson.BrokerMessageSerializer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BrokerMessageSerializer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BrokerMessageSerializer </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BrokerMessageSerializer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.brokers.message.gson.BrokerMessageSerializer implements com.google.gson.JsonSerializer<T>
-	c2560373:p -> c2557839:p [dir=back,arrowtail=empty,style=dashed];
+	c2573477:p -> c2570938:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.brokers.message.gson.BrokerMessageSerializer implements com.google.gson.JsonDeserializer<T>
-	c2560374:p -> c2557839:p [dir=back,arrowtail=empty,style=dashed];
+	c2573478:p -> c2570938:p [dir=back,arrowtail=empty,style=dashed];
 	// com.google.gson.JsonDeserializer<T>
-	c2560374 [label=<<table title="com.google.gson.JsonDeserializer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/google/gson/JsonDeserializer.html">
+	c2573478 [label=<<table title="com.google.gson.JsonDeserializer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/google/gson/JsonDeserializer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> JsonDeserializer&lt;T&gt; </td></tr>
 		</table></td></tr>
 		</table>>, URL="http://java.sun.com/j2se/1.4.2/docs/api/com/google/gson/JsonDeserializer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// com.google.gson.JsonSerializer<T>
-	c2560373 [label=<<table title="com.google.gson.JsonSerializer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/google/gson/JsonSerializer.html">
+	c2573477 [label=<<table title="com.google.gson.JsonSerializer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/google/gson/JsonSerializer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> JsonSerializer&lt;T&gt; </td></tr>

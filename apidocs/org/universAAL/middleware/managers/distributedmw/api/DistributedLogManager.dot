@@ -10,28 +10,28 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.managers.api.Manager
-	c3699615 [label=<<table title="org.universAAL.middleware.managers.api.Manager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../api/Manager.html">
+	c3714694 [label=<<table title="org.universAAL.middleware.managers.api.Manager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../api/Manager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Manager </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../api/Manager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.distributedmw.api.DistributedLogManager
-	c3700541 [label=<<table title="org.universAAL.middleware.managers.distributedmw.api.DistributedLogManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DistributedLogManager.html">
+	c3715620 [label=<<table title="org.universAAL.middleware.managers.distributedmw.api.DistributedLogManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DistributedLogManager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> DistributedLogManager </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DistributedLogManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.distributedmw.impl.DistributedMWManagerImpl
-	c3700547 [label=<<table title="org.universAAL.middleware.managers.distributedmw.impl.DistributedMWManagerImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../impl/DistributedMWManagerImpl.html">
+	c3715626 [label=<<table title="org.universAAL.middleware.managers.distributedmw.impl.DistributedMWManagerImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../impl/DistributedMWManagerImpl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DistributedMWManagerImpl </td></tr>
 		</table></td></tr>
 		</table>>, URL="../impl/DistributedMWManagerImpl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.managers.distributedmw.api.DistributedLogManager implements org.universAAL.middleware.managers.api.Manager
-	c3699615:p -> c3700541:p [dir=back,arrowtail=empty,style=dashed];
+	c3714694:p -> c3715620:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.managers.distributedmw.impl.DistributedMWManagerImpl implements org.universAAL.middleware.managers.distributedmw.api.DistributedLogManager
-	c3700541:p -> c3700547:p [dir=back,arrowtail=empty,style=dashed];
+	c3715620:p -> c3715626:p [dir=back,arrowtail=empty,style=dashed];
 }
 

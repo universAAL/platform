@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.hvac.Ventilation
-	c8500722 [label=<<table title="org.universAAL.ontology.hvac.Ventilation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Ventilation.html">
+	c8524126 [label=<<table title="org.universAAL.ontology.hvac.Ventilation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Ventilation.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Ventilation </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Ventilation.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.hvac.Hvac
-	c8500723 [label=<<table title="org.universAAL.ontology.hvac.Hvac" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Hvac.html">
+	c8524127 [label=<<table title="org.universAAL.ontology.hvac.Hvac" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Hvac.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Hvac </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Hvac.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.hvac.Ventilation extends org.universAAL.ontology.hvac.Hvac
-	c8500723:p -> c8500722:p [dir=back,arrowtail=empty];
+	c8524127:p -> c8524126:p [dir=back,arrowtail=empty];
 }
 

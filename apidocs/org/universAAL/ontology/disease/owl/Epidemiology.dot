@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c3875248 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/owl/ManagedIndividual.html">
+	c3890632 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../middleware/owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.disease.owl.Epidemiology
-	c3876212 [label=<<table title="org.universAAL.ontology.disease.owl.Epidemiology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Epidemiology.html">
+	c3891596 [label=<<table title="org.universAAL.ontology.disease.owl.Epidemiology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Epidemiology.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Epidemiology </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Epidemiology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.disease.owl.Epidemiology extends org.universAAL.middleware.owl.ManagedIndividual
-	c3875248:p -> c3876212:p [dir=back,arrowtail=empty];
+	c3890632:p -> c3891596:p [dir=back,arrowtail=empty];
 }
 

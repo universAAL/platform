@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c2788282 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
+	c2801781 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.questionnaire.ChoiceLabel
-	c2789162 [label=<<table title="org.universAAL.ontology.questionnaire.ChoiceLabel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ChoiceLabel.html">
+	c2802661 [label=<<table title="org.universAAL.ontology.questionnaire.ChoiceLabel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ChoiceLabel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ChoiceLabel </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ChoiceLabel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.questionnaire.ChoiceLabel extends org.universAAL.middleware.owl.ManagedIndividual
-	c2788282:p -> c2789162:p [dir=back,arrowtail=empty];
+	c2801781:p -> c2802661:p [dir=back,arrowtail=empty];
 }
 

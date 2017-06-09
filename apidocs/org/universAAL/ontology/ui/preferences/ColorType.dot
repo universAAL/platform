@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c2857484 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/owl/ManagedIndividual.html">
+	c2871103 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../middleware/owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.ui.preferences.ColorType
-	c2858351 [label=<<table title="org.universAAL.ontology.ui.preferences.ColorType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ColorType.html">
+	c2871970 [label=<<table title="org.universAAL.ontology.ui.preferences.ColorType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ColorType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ColorType </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ColorType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.ui.preferences.ColorType extends org.universAAL.middleware.owl.ManagedIndividual
-	c2857484:p -> c2858351:p [dir=back,arrowtail=empty];
+	c2871103:p -> c2871970:p [dir=back,arrowtail=empty];
 }
 

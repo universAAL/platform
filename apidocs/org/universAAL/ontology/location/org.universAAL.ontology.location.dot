@@ -10,32 +10,32 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.location.Location
-	c234087 [label=<<table title="org.universAAL.ontology.location.Location" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Location.html">
+	c234492 [label=<<table title="org.universAAL.ontology.location.Location" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Location.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Location </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Location.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.location.Place
-	c234088 [label=<<table title="org.universAAL.ontology.location.Place" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Place.html">
+	c234493 [label=<<table title="org.universAAL.ontology.location.Place" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Place.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Place </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Place.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.location.Way
-	c234089 [label=<<table title="org.universAAL.ontology.location.Way" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Way.html">
+	c234494 [label=<<table title="org.universAAL.ontology.location.Way" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Way.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Way </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Way.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.location.LocationOntology
-	c234090 [label=<<table title="org.universAAL.ontology.location.LocationOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LocationOntology.html">
+	c234495 [label=<<table title="org.universAAL.ontology.location.LocationOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LocationOntology.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LocationOntology </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LocationOntology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.location.Place extends org.universAAL.ontology.location.Location
-	c234087:p -> c234088:p [dir=back,arrowtail=empty];
+	c234492:p -> c234493:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.location.Way extends org.universAAL.ontology.location.Place
-	c234088:p -> c234089:p [dir=back,arrowtail=empty];
+	c234493:p -> c234494:p [dir=back,arrowtail=empty];
 }
 

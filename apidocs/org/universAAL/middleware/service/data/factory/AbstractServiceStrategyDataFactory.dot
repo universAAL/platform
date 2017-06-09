@@ -10,27 +10,27 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.service.data.factory.IServiceStrategyDataFactory
-	c1981345 [label=<<table title="org.universAAL.middleware.service.data.factory.IServiceStrategyDataFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IServiceStrategyDataFactory.html">
+	c1993444 [label=<<table title="org.universAAL.middleware.service.data.factory.IServiceStrategyDataFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IServiceStrategyDataFactory.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IServiceStrategyDataFactory </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IServiceStrategyDataFactory.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.service.data.factory.AbstractServiceStrategyDataFactory
-	c1981346 [label=<<table title="org.universAAL.middleware.service.data.factory.AbstractServiceStrategyDataFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractServiceStrategyDataFactory.html">
+	c1993445 [label=<<table title="org.universAAL.middleware.service.data.factory.AbstractServiceStrategyDataFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractServiceStrategyDataFactory.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractServiceStrategyDataFactory </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractServiceStrategyDataFactory.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.service.data.factory.ServiceStrategyDataFactory
-	c1981347 [label=<<table title="org.universAAL.middleware.service.data.factory.ServiceStrategyDataFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ServiceStrategyDataFactory.html">
+	c1993446 [label=<<table title="org.universAAL.middleware.service.data.factory.ServiceStrategyDataFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ServiceStrategyDataFactory.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ServiceStrategyDataFactory </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ServiceStrategyDataFactory.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.service.data.factory.AbstractServiceStrategyDataFactory implements org.universAAL.middleware.service.data.factory.IServiceStrategyDataFactory
-	c1981345:p -> c1981346:p [dir=back,arrowtail=empty,style=dashed];
+	c1993444:p -> c1993445:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.service.data.factory.ServiceStrategyDataFactory extends org.universAAL.middleware.service.data.factory.AbstractServiceStrategyDataFactory
-	c1981346:p -> c1981347:p [dir=back,arrowtail=empty];
+	c1993445:p -> c1993446:p [dir=back,arrowtail=empty];
 }
 
