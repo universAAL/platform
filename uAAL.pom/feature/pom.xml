@@ -10,11 +10,6 @@
   <artifactId>uAAL.karaf.feature</artifactId>
   <version>3.4.1-SNAPSHOT</version>
   <name>universAAL Karaf aggregation Feature repository</name>
-  <scm>
-    <connection>${svn.base}/samples/karaf/${project.artifactId}</connection>
-    <developerConnection>${svn.base}/samples/karaf/${project.artifactId}</developerConnection>
-    <url>${svn.base.url}samples/karaf/${project.artifactId}</url>
-  </scm>
   <properties>
     <uaal.parent.version>${project.version}</uaal.parent.version>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>

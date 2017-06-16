@@ -1,38 +1,15 @@
+#!/bin/bash
 
-To make a full release, perform the steps below in the following order of projects: 
-
-1.  build locally (or deploy temporally) the release version of itests, uaal-maven-plugin, and uaalDirectives-maven-plugin (these are the only projects that get to be "released" twice). This step has to be done manually.
-2.  uAAL.pom (remember to update the uaal-maven-plugin version and uaalDirectives-maven-plugin version)
-3.  Middleware (remember to update itest version)
-4.  Ontologies
-5.  Context
-6.  LDDI
-7.  Security
-8.  RI
-9.  UI
-10. Service
-10. Support (itests and uaal-maven-plugin get to be released again but with the updated parent)
-
-
-Warning for step 1 when increasing the major version part (e.g. 1.3.xx to 2.0.0):
-itests uses its own manifest to create the manifests of bundles that are to be tested. So, you have to:
-- change dependencies in support.pom to the new version
-- install support.pom (with option "-N")
-
-
-
-For each of these projects, perform the following steps:
-
-# clean SVN update
-svn cleanup ../
-svn revert -R ../
-svn update ../
+#update to latest
+git checkout master; git submodule foreach git checkout master
+git pull; git submodule foreach git pull
 
 # run Directives Check
-mvn org.universAAL.support:uaalDirectives-maven-plugin:svnIgnore-check org.universAAL.support:uaalDirectives-maven-plugin:svn-check org.universAAL.support:uaalDirectives-maven-plugin:decouple-check org.universAAL.support:uaalDirectives-maven-plugin:dependency-check org.universAAL.support:uaalDirectives-maven-plugin:parent-check org.universAAL.support:uaalDirectives-maven-plugin:name-check -fn -DfailOnMissMatch=true
-
-# Tag last SNAPSHOT
-mvn org.universAAL.support:uaalDirectives-maven-plugin:tag
+mvn org.universAAL.support:uaalDirectives-maven-plugin:decouple-check\
+ org.universAAL.support:uaalDirectives-maven-plugin:dependency-check\
+ org.universAAL.support:uaalDirectives-maven-plugin:parent-check\
+ org.universAAL.support:uaalDirectives-maven-plugin:name-check\
+ -fn -DfailOnMissMatch=true
 
 # Change ALL versions to nextReleaseVersion
 mvn org.universAAL.support:uaalDirectives-maven-plugin:change-version -DnewVersion=<NEW_VERSION>
@@ -50,10 +27,11 @@ mvn org.universAAL.support:uaalDirectives-maven-plugin:update-roots -DnewVersion
 mvn clean install
 
 # (optional) commit
-svn commit ../ -m "Release Version"
+git commit -A -m "Release Version" ; git submodule foreach git commit -A -m "Release Version" 
 
-# Tag Working Copy (parameter "fn" is necessay because composites are included in a subfolder of an already tagged folder -> directives throws Exception)
-mvn org.universAAL.support:uaalDirectives-maven-plugin:tag -fn
+#Tag
+git tag <NEW_VERSION> ; git submodule foreach git tag <NEW_VERSION>
+
 
 # Deploy
 mvn clean deploy -Prelease -DignoreLock
@@ -74,30 +52,8 @@ mvn org.universAAL.support:uaalDirectives-maven-plugin:update-roots -DnewVersion
 mvn clean install
 
 # commit new Development version
-svn commit ../ -m "New Development Version"
+git commit -A -m "New Development Version" ; git submodule foreach git commit -A -m "New Development Version" 
 
 # Deploy
 mvn deploy -Dmaven.test.skip=true
-
-
-
-
-The code is now fully released. Now, the documentation (with maven site) for this release has to be done.
-Go to the support/tags/<release-version>/uAAL.pom
-Add the following lines to this parent pom (DON'T commit, this is done only temporary and only locally and should be reverted when this process is done):
-  <modules>
-    <module>middleware/pom</module>
-    <module>ontologies/ont.pom</module>
-    <module>uaal_context/ctxt.pom</module>
-    <module>lddi/lddi.pom</module>
-    <module>uaalsecurity/security.pom</module>
-    <module>rinterop/ri.pom</module>
-    <module>uaal_ui/ui.pom</module>
-    <module>service/srvc.pom</module>
-    <module>support/pom</module>
-  </modules>
-Edit the file create+deploy_site.bat to adapt to the current version.
-Run create+deploy_site.bat
-Note: this batch file is not yet completed and should be tested/revised.
-
 
