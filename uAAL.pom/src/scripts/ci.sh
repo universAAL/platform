@@ -43,7 +43,7 @@ do_script() {
 #  | grep -i "INFO] Build"
   mvn cobertura:cobertura -Dcobertura.aggregate=true -Dcobertura.report.format=html -DskipTests -fae -e -Dorg.universAAL.junit.console.output=false 
 #  | grep -i "INFO] Build"
-  mvn surefire-report:report -Dsurefire-report.aggregate=true -fae -e
+#  mvn surefire-report:report -Dsurefire-report.aggregate=true -fae -e
 #  | grep -i "INFO] Build"
   mvn site:site -DskipTests -Dcobertura.skip -Dmaven.javadoc.skip=true -Duaal.report=ci-repo -fn -e
 #  | grep -i "INFO] Build"
