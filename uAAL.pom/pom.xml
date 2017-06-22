@@ -428,6 +428,11 @@
         <plugin>
           <artifactId>maven-pmd-plugin</artifactId>
           <version>3.8</version>
+        <configuration>
+          <excludes>
+            <exclude>org\universAAL\middleware\xsd\util\Base64.java</exclude>
+          </excludes>
+        </configuration>
         </plugin>
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
