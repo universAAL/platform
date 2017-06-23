@@ -36,7 +36,8 @@ before_script:
 script:
  - free -m
 # - mvn clean install -DskipTests -Dorg.ops4j.pax.logging.DefaultServiceLog.level=WARN | grep -i "INFO] Build"
- - mvn clean install -Dorg.ops4j.pax.logging.DefaultServiceLog.level=WARN -e | grep -i "INFO] Build"
+ - mvn clean install -Dorg.ops4j.pax.logging.DefaultServiceLog.level=WARN -e
+# | grep -i "INFO] Build"
  - mvn javadoc:aggregate -fae | grep -i "INFO] Build"
 # - mvn cobertura:cobertura -Dcobertura.aggregate=true -Dcobertura.report.format=xml -fae | grep -i "INFO] Build"
 # - mvn cobertura:cobertura -Dcobertura.aggregate=true -Dcobertura.report.format=html -DskipTests -fae | grep -i "INFO] Build"
