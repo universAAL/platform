@@ -98,7 +98,9 @@ do_success() {
   fi
   
   if [[ $MAT == MAT_REPORT ]]; then
+    export OLD_DIR=`pwd`
     publish_site
+    cd "$OLD_DIR"
     mvn org.universAAL.support:cigraph-maven-plugin:3.4.1-SNAPSHOT:cigraph -Dtoken=$CI_TOKEN -N -Djava.awt.headless=true 
   fi
   
