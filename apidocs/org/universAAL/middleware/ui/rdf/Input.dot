@@ -10,60 +10,60 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.ui.rdf.TextArea
-	c4841232 [label=<<table title="org.universAAL.middleware.ui.rdf.TextArea" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TextArea.html">
+	c4629217 [label=<<table title="org.universAAL.middleware.ui.rdf.TextArea" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TextArea.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TextArea </td></tr>
 		</table></td></tr>
 		</table>>, URL="./TextArea.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.rdf.InputField
-	c4841235 [label=<<table title="org.universAAL.middleware.ui.rdf.InputField" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InputField.html">
+	c4629220 [label=<<table title="org.universAAL.middleware.ui.rdf.InputField" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InputField.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> InputField </td></tr>
 		</table></td></tr>
 		</table>>, URL="./InputField.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.rdf.Submit
-	c4841236 [label=<<table title="org.universAAL.middleware.ui.rdf.Submit" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Submit.html">
+	c4629221 [label=<<table title="org.universAAL.middleware.ui.rdf.Submit" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Submit.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Submit </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Submit.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.rdf.Input
-	c4841238 [label=<<table title="org.universAAL.middleware.ui.rdf.Input" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Input.html">
+	c4629223 [label=<<table title="org.universAAL.middleware.ui.rdf.Input" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Input.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Input </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Input.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.rdf.FormControl
-	c4841244 [label=<<table title="org.universAAL.middleware.ui.rdf.FormControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FormControl.html">
+	c4629229 [label=<<table title="org.universAAL.middleware.ui.rdf.FormControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FormControl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> FormControl </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./FormControl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.rdf.Select
-	c4841246 [label=<<table title="org.universAAL.middleware.ui.rdf.Select" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Select.html">
+	c4629231 [label=<<table title="org.universAAL.middleware.ui.rdf.Select" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Select.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Select </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Select.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.rdf.Range
-	c4841248 [label=<<table title="org.universAAL.middleware.ui.rdf.Range" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Range.html">
+	c4629233 [label=<<table title="org.universAAL.middleware.ui.rdf.Range" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Range.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Range </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Range.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.ui.rdf.TextArea extends org.universAAL.middleware.ui.rdf.Input
-	c4841238:p -> c4841232:p [dir=back,arrowtail=empty];
+	c4629223:p -> c4629217:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.ui.rdf.InputField extends org.universAAL.middleware.ui.rdf.Input
-	c4841238:p -> c4841235:p [dir=back,arrowtail=empty];
+	c4629223:p -> c4629220:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.ui.rdf.Submit extends org.universAAL.middleware.ui.rdf.FormControl
-	c4841244:p -> c4841236:p [dir=back,arrowtail=empty];
+	c4629229:p -> c4629221:p [dir=back,arrowtail=empty];
 	// org.universAAL.middleware.ui.rdf.Submit NAVASSOC org.universAAL.middleware.ui.rdf.Input
-	c4841236:p -> c4841238:p [taillabel="", label="mandatoryInput", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c4629221:p -> c4629223:p [taillabel="", label="mandatoryInput", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	//org.universAAL.middleware.ui.rdf.Input extends org.universAAL.middleware.ui.rdf.FormControl
-	c4841244:p -> c4841238:p [dir=back,arrowtail=empty];
+	c4629229:p -> c4629223:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.ui.rdf.Select extends org.universAAL.middleware.ui.rdf.Input
-	c4841238:p -> c4841246:p [dir=back,arrowtail=empty];
+	c4629223:p -> c4629231:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.ui.rdf.Range extends org.universAAL.middleware.ui.rdf.Input
-	c4841238:p -> c4841248:p [dir=back,arrowtail=empty];
+	c4629223:p -> c4629233:p [dir=back,arrowtail=empty];
 }
 

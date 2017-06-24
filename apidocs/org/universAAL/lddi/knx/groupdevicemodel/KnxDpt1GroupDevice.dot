@@ -10,27 +10,27 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.lddi.knx.groupdevicemodel.KnxDpt1GroupDevice
-	c5056294 [label=<<table title="org.universAAL.lddi.knx.groupdevicemodel.KnxDpt1GroupDevice" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./KnxDpt1GroupDevice.html">
+	c4840431 [label=<<table title="org.universAAL.lddi.knx.groupdevicemodel.KnxDpt1GroupDevice" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./KnxDpt1GroupDevice.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> KnxDpt1GroupDevice </td></tr>
 		</table></td></tr>
 		</table>>, URL="./KnxDpt1GroupDevice.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.knx.groupdevicemodel.KnxGroupDevice
-	c5056301 [label=<<table title="org.universAAL.lddi.knx.groupdevicemodel.KnxGroupDevice" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./KnxGroupDevice.html">
+	c4840438 [label=<<table title="org.universAAL.lddi.knx.groupdevicemodel.KnxGroupDevice" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./KnxGroupDevice.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> KnxGroupDevice </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./KnxGroupDevice.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.knx.groupdevicecategory.IKnxDpt1
-	c5056317 [label=<<table title="org.universAAL.lddi.knx.groupdevicecategory.IKnxDpt1" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../groupdevicecategory/IKnxDpt1.html">
+	c4840454 [label=<<table title="org.universAAL.lddi.knx.groupdevicecategory.IKnxDpt1" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../groupdevicecategory/IKnxDpt1.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IKnxDpt1 </td></tr>
 		</table></td></tr>
 		</table>>, URL="../groupdevicecategory/IKnxDpt1.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.lddi.knx.groupdevicemodel.KnxDpt1GroupDevice extends org.universAAL.lddi.knx.groupdevicemodel.KnxGroupDevice
-	c5056301:p -> c5056294:p [dir=back,arrowtail=empty];
+	c4840438:p -> c4840431:p [dir=back,arrowtail=empty];
 	//org.universAAL.lddi.knx.groupdevicemodel.KnxDpt1GroupDevice implements org.universAAL.lddi.knx.groupdevicecategory.IKnxDpt1
-	c5056317:p -> c5056294:p [dir=back,arrowtail=empty,style=dashed];
+	c4840454:p -> c4840431:p [dir=back,arrowtail=empty,style=dashed];
 }
 

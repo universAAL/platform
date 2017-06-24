@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ri.api.manager.server.persistence.PersistenceMySQL
-	c6399626 [label=<<table title="org.universAAL.ri.api.manager.server.persistence.PersistenceMySQL" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PersistenceMySQL.html">
+	c6170930 [label=<<table title="org.universAAL.ri.api.manager.server.persistence.PersistenceMySQL" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PersistenceMySQL.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PersistenceMySQL </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PersistenceMySQL.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.api.manager.server.persistence.Persistence
-	c6399627 [label=<<table title="org.universAAL.ri.api.manager.server.persistence.Persistence" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Persistence.html">
+	c6170931 [label=<<table title="org.universAAL.ri.api.manager.server.persistence.Persistence" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Persistence.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Persistence </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Persistence.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ri.api.manager.server.persistence.PersistenceMySQL implements org.universAAL.ri.api.manager.server.persistence.Persistence
-	c6399627:p -> c6399626:p [dir=back,arrowtail=empty,style=dashed];
+	c6170931:p -> c6170930:p [dir=back,arrowtail=empty,style=dashed];
 }
 

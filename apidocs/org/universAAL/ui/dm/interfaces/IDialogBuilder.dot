@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.dm.userInteraction.PendingDialogBuilder
-	c4614755 [label=<<table title="org.universAAL.ui.dm.userInteraction.PendingDialogBuilder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../userInteraction/PendingDialogBuilder.html">
+	c4404012 [label=<<table title="org.universAAL.ui.dm.userInteraction.PendingDialogBuilder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../userInteraction/PendingDialogBuilder.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PendingDialogBuilder </td></tr>
 		</table></td></tr>
 		</table>>, URL="../userInteraction/PendingDialogBuilder.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.interfaces.IDialogBuilder
-	c4614784 [label=<<table title="org.universAAL.ui.dm.interfaces.IDialogBuilder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IDialogBuilder.html">
+	c4404041 [label=<<table title="org.universAAL.ui.dm.interfaces.IDialogBuilder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IDialogBuilder.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IDialogBuilder </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IDialogBuilder.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.dm.userInteraction.PendingDialogBuilder implements org.universAAL.ui.dm.interfaces.IDialogBuilder
-	c4614784:p -> c4614755:p [dir=back,arrowtail=empty,style=dashed];
+	c4404041:p -> c4404012:p [dir=back,arrowtail=empty,style=dashed];
 }
 

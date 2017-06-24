@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// ch.ethz.iks.slp.Advertiser
-	c2158892 [label=<<table title="ch.ethz.iks.slp.Advertiser" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../Advertiser.html">
+	c1995182 [label=<<table title="ch.ethz.iks.slp.Advertiser" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../Advertiser.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Advertiser </td></tr>
 		</table></td></tr>
 		</table>>, URL="../Advertiser.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// ch.ethz.iks.slp.impl.AdvertiserImpl
-	c2158898 [label=<<table title="ch.ethz.iks.slp.impl.AdvertiserImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AdvertiserImpl.html">
+	c1995188 [label=<<table title="ch.ethz.iks.slp.impl.AdvertiserImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AdvertiserImpl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AdvertiserImpl </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AdvertiserImpl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//ch.ethz.iks.slp.impl.AdvertiserImpl implements ch.ethz.iks.slp.Advertiser
-	c2158892:p -> c2158898:p [dir=back,arrowtail=empty,style=dashed];
+	c1995182:p -> c1995188:p [dir=back,arrowtail=empty,style=dashed];
 }
 

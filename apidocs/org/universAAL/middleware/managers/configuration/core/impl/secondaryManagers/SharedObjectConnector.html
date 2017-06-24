@@ -95,9 +95,9 @@ var activeTableTab = "activeTableTab";
 <div class="subTitle">org.universAAL.middleware.managers.configuration.core.impl.secondaryManagers</div>
 <h2 title="Class SharedObjectConnector" class="title">Class SharedObjectConnector</h2>
 <map id="G" name="G">
-<area shape="rect" id="c7584596" href="../../../../../container/SharedObjectListener.html" title="org.universAAL.middleware.container.SharedObjectListener" alt="" coords="23,11,169,53"/>
+<area shape="rect" id="c7334580" href="../../../../../container/SharedObjectListener.html" title="org.universAAL.middleware.container.SharedObjectListener" alt="" coords="23,11,169,53"/>
 <area shape="rect" id="node1" href="../../../../../container/SharedObjectListener.html" title="&lt;TABLE&gt;" alt="" coords="13,6,179,58"/>
-<area shape="rect" id="c7585778" href="./SharedObjectConnector.html" title="org.universAAL.middleware.managers.configuration.core.impl.secondaryManagers.SharedObjectConnector" alt="" coords="16,118,176,143"/>
+<area shape="rect" id="c7335710" href="./SharedObjectConnector.html" title="org.universAAL.middleware.managers.configuration.core.impl.secondaryManagers.SharedObjectConnector" alt="" coords="16,118,176,143"/>
 <area shape="rect" id="node2" href="./SharedObjectConnector.html" title="&lt;TABLE&gt;" alt="" coords="5,107,187,155"/>
 </map>
 <!-- UML diagram added by UMLGraph version R5_6-24-gf6e263 (http://www.umlgraph.org/) -->
@@ -165,29 +165,29 @@ implements <a href="../../../../../../../../org/universAAL/middleware/container/
 <th class="colLast" scope="col">Method and Description</th>
 </tr>
 <tr id="i0" class="altColor">
-<td class="colFirst"><code><a href="../../../../../../../../org/universAAL/middleware/managers/api/AALSpaceManager.html" title="interface in org.universAAL.middleware.managers.api">AALSpaceManager</a></code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/middleware/managers/configuration/core/impl/secondaryManagers/SharedObjectConnector.html#getAalSpaceManager--">getAalSpaceManager</a></span>()</code>&nbsp;</td>
-</tr>
-<tr id="i1" class="rowColor">
 <td class="colFirst"><code><a href="../../../../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/middleware/managers/configuration/core/impl/secondaryManagers/SharedObjectConnector.html#getContext--">getContext</a></span>()</code>&nbsp;</td>
 </tr>
-<tr id="i2" class="altColor">
+<tr id="i1" class="rowColor">
 <td class="colFirst"><code><a href="../../../../../../../../org/universAAL/middleware/brokers/control/ControlBroker.html" title="class in org.universAAL.middleware.brokers.control">ControlBroker</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/middleware/managers/configuration/core/impl/secondaryManagers/SharedObjectConnector.html#getControlBroker--">getControlBroker</a></span>()</code>&nbsp;</td>
 </tr>
-<tr id="i3" class="rowColor">
+<tr id="i2" class="altColor">
 <td class="colFirst"><code><a href="../../../../../../../../org/universAAL/middleware/serialization/MessageContentSerializer.html" title="interface in org.universAAL.middleware.serialization">MessageContentSerializer</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/middleware/managers/configuration/core/impl/secondaryManagers/SharedObjectConnector.html#getMessageContentSerializer--">getMessageContentSerializer</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i3" class="rowColor">
+<td class="colFirst"><code><a href="../../../../../../../../org/universAAL/middleware/managers/api/SpaceManager.html" title="interface in org.universAAL.middleware.managers.api">SpaceManager</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/middleware/managers/configuration/core/impl/secondaryManagers/SharedObjectConnector.html#getSpaceManager--">getSpaceManager</a></span>()</code>&nbsp;</td>
 </tr>
 <tr id="i4" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/middleware/managers/configuration/core/impl/secondaryManagers/SharedObjectConnector.html#sharedObjectAdded-java.lang.Object-java.lang.Object-">sharedObjectAdded</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;sharedObj,
-                 <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;removeHook)</code></td>
+                 <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;removeHook)</code>&nbsp;</td>
 </tr>
 <tr id="i5" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/middleware/managers/configuration/core/impl/secondaryManagers/SharedObjectConnector.html#sharedObjectRemoved-java.lang.Object-">sharedObjectRemoved</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;removeHook)</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../org/universAAL/middleware/managers/configuration/core/impl/secondaryManagers/SharedObjectConnector.html#sharedObjectRemoved-java.lang.Object-">sharedObjectRemoved</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;removeHook)</code>&nbsp;</td>
 </tr>
 <tr id="i6" class="altColor">
 <td class="colFirst"><code>void</code></td>
@@ -241,16 +241,16 @@ implements <a href="../../../../../../../../org/universAAL/middleware/container/
 <pre>public&nbsp;<a href="../../../../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;getContext()</pre>
 </li>
 </ul>
-<a name="getAalSpaceManager--">
+<a name="getSpaceManager--">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
-<h4>getAalSpaceManager</h4>
-<pre>public final&nbsp;<a href="../../../../../../../../org/universAAL/middleware/managers/api/AALSpaceManager.html" title="interface in org.universAAL.middleware.managers.api">AALSpaceManager</a>&nbsp;getAalSpaceManager()</pre>
+<h4>getSpaceManager</h4>
+<pre>public final&nbsp;<a href="../../../../../../../../org/universAAL/middleware/managers/api/SpaceManager.html" title="interface in org.universAAL.middleware.managers.api">SpaceManager</a>&nbsp;getSpaceManager()</pre>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>the aalSpaceManager</dd>
+<dd>the SpaceManager</dd>
 </dl>
 </li>
 </ul>

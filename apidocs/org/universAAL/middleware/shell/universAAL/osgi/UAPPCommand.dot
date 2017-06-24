@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.shell.universAAL.osgi.UAPPCommand
-	c8160555 [label=<<table title="org.universAAL.middleware.shell.universAAL.osgi.UAPPCommand" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UAPPCommand.html">
+	c7956866 [label=<<table title="org.universAAL.middleware.shell.universAAL.osgi.UAPPCommand" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UAPPCommand.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UAPPCommand </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UAPPCommand.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.shell.universAAL.osgi.UAPPCommand extends org.apache.karaf.shell.console.OsgiCommandSupport
-	c8162167:p -> c8160555:p [dir=back,arrowtail=empty];
+	c7958480:p -> c7956866:p [dir=back,arrowtail=empty];
 	// org.apache.karaf.shell.console.OsgiCommandSupport
-	c8162167 [label=<<table title="org.apache.karaf.shell.console.OsgiCommandSupport" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/apache/karaf/shell/console/OsgiCommandSupport.html">
+	c7958480 [label=<<table title="org.apache.karaf.shell.console.OsgiCommandSupport" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/apache/karaf/shell/console/OsgiCommandSupport.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> OsgiCommandSupport </font></td></tr>
 		</table></td></tr>

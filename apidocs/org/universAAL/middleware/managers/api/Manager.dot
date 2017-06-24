@@ -9,57 +9,57 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.middleware.managers.api.AALSpaceManager
-	c5537134 [label=<<table title="org.universAAL.middleware.managers.api.AALSpaceManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AALSpaceManager.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
-<tr><td align="center" balign="center"> AALSpaceManager </td></tr>
-		</table></td></tr>
-		</table>>, URL="./AALSpaceManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.api.Manager
-	c5537140 [label=<<table title="org.universAAL.middleware.managers.api.Manager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Manager.html">
+	c5312591 [label=<<table title="org.universAAL.middleware.managers.api.Manager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Manager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Manager </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Manager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.api.DeployManager
-	c5537143 [label=<<table title="org.universAAL.middleware.managers.api.DeployManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DeployManager.html">
+	c5312594 [label=<<table title="org.universAAL.middleware.managers.api.DeployManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DeployManager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> DeployManager </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DeployManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.api.TenantManager
-	c5537150 [label=<<table title="org.universAAL.middleware.managers.api.TenantManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TenantManager.html">
+	c5312602 [label=<<table title="org.universAAL.middleware.managers.api.TenantManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TenantManager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> TenantManager </td></tr>
 		</table></td></tr>
 		</table>>, URL="./TenantManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.managers.api.SpaceManager
+	c5312603 [label=<<table title="org.universAAL.middleware.managers.api.SpaceManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SpaceManager.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
+<tr><td align="center" balign="center"> SpaceManager </td></tr>
+		</table></td></tr>
+		</table>>, URL="./SpaceManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.distributedmw.api.DistributedLogManager
-	c5538066 [label=<<table title="org.universAAL.middleware.managers.distributedmw.api.DistributedLogManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../distributedmw/api/DistributedLogManager.html">
+	c5313519 [label=<<table title="org.universAAL.middleware.managers.distributedmw.api.DistributedLogManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../distributedmw/api/DistributedLogManager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> DistributedLogManager </td></tr>
 		</table></td></tr>
 		</table>>, URL="../distributedmw/api/DistributedLogManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.distributedmw.api.DistributedBusMemberManager
-	c5538067 [label=<<table title="org.universAAL.middleware.managers.distributedmw.api.DistributedBusMemberManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../distributedmw/api/DistributedBusMemberManager.html">
+	c5313520 [label=<<table title="org.universAAL.middleware.managers.distributedmw.api.DistributedBusMemberManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../distributedmw/api/DistributedBusMemberManager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> DistributedBusMemberManager </td></tr>
 		</table></td></tr>
 		</table>>, URL="../distributedmw/api/DistributedBusMemberManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.middleware.managers.api.AALSpaceManager implements org.universAAL.middleware.managers.api.Manager
-	c5537140:p -> c5537134:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.managers.api.DeployManager implements org.universAAL.middleware.managers.api.Manager
-	c5537140:p -> c5537143:p [dir=back,arrowtail=empty,style=dashed];
+	c5312591:p -> c5312594:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.managers.api.TenantManager implements org.universAAL.middleware.managers.api.Manager
-	c5537140:p -> c5537150:p [dir=back,arrowtail=empty,style=dashed];
+	c5312591:p -> c5312602:p [dir=back,arrowtail=empty,style=dashed];
+	//org.universAAL.middleware.managers.api.SpaceManager implements org.universAAL.middleware.managers.api.Manager
+	c5312591:p -> c5312603:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.managers.distributedmw.api.DistributedLogManager implements org.universAAL.middleware.managers.api.Manager
-	c5537140:p -> c5538066:p [dir=back,arrowtail=empty,style=dashed];
+	c5312591:p -> c5313519:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.managers.distributedmw.api.DistributedBusMemberManager implements org.universAAL.middleware.managers.api.Manager
-	c5537140:p -> c5538067:p [dir=back,arrowtail=empty,style=dashed];
+	c5312591:p -> c5313520:p [dir=back,arrowtail=empty,style=dashed];
 }
 

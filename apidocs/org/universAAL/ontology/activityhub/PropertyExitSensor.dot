@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.activityhub.ActivityHubSensor
-	c6626501 [label=<<table title="org.universAAL.ontology.activityhub.ActivityHubSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ActivityHubSensor.html">
+	c6393697 [label=<<table title="org.universAAL.ontology.activityhub.ActivityHubSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ActivityHubSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ActivityHubSensor </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./ActivityHubSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.activityhub.PropertyExitSensor
-	c6626515 [label=<<table title="org.universAAL.ontology.activityhub.PropertyExitSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PropertyExitSensor.html">
+	c6393711 [label=<<table title="org.universAAL.ontology.activityhub.PropertyExitSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PropertyExitSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PropertyExitSensor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PropertyExitSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.activityhub.PropertyExitSensor extends org.universAAL.ontology.activityhub.ActivityHubSensor
-	c6626501:p -> c6626515:p [dir=back,arrowtail=empty];
+	c6393697:p -> c6393711:p [dir=back,arrowtail=empty];
 }
 

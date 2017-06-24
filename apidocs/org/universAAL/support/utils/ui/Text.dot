@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.support.utils.ui.Text
-	c8024360 [label=<<table title="org.universAAL.support.utils.ui.Text" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Text.html">
+	c7823117 [label=<<table title="org.universAAL.support.utils.ui.Text" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Text.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Text </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Text.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.utils.ui.InputControl
-	c8024369 [label=<<table title="org.universAAL.support.utils.ui.InputControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InputControl.html">
+	c7823126 [label=<<table title="org.universAAL.support.utils.ui.InputControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InputControl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> InputControl </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./InputControl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.utils.ui.Area
-	c8024373 [label=<<table title="org.universAAL.support.utils.ui.Area" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Area.html">
+	c7823130 [label=<<table title="org.universAAL.support.utils.ui.Area" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Area.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Area </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Area.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.support.utils.ui.Text extends org.universAAL.support.utils.ui.InputControl
-	c8024369:p -> c8024360:p [dir=back,arrowtail=empty];
+	c7823126:p -> c7823117:p [dir=back,arrowtail=empty];
 	//org.universAAL.support.utils.ui.Area extends org.universAAL.support.utils.ui.Text
-	c8024360:p -> c8024373:p [dir=back,arrowtail=empty];
+	c7823117:p -> c7823130:p [dir=back,arrowtail=empty];
 }
 

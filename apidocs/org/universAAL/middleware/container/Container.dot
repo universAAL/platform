@@ -10,27 +10,27 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.container.Container
-	c3145445 [label=<<table title="org.universAAL.middleware.container.Container" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Container.html">
+	c2964003 [label=<<table title="org.universAAL.middleware.container.Container" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Container.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Container </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Container.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.container.JUnit.JUnitContainer
-	c3145456 [label=<<table title="org.universAAL.container.JUnit.JUnitContainer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../container/JUnit/JUnitContainer.html">
+	// org.universAAL.middleware.container.JUnit.JUnitContainer
+	c2964014 [label=<<table title="org.universAAL.middleware.container.JUnit.JUnitContainer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./JUnit/JUnitContainer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> JUnitContainer </td></tr>
 		</table></td></tr>
-		</table>>, URL="../../container/JUnit/JUnitContainer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.container.osgi.uAALBundleContainer
-	c3146591 [label=<<table title="org.universAAL.middleware.container.osgi.uAALBundleContainer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./osgi/uAALBundleContainer.html">
+		</table>>, URL="./JUnit/JUnitContainer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.container.osgi.OSGiContainer
+	c2965097 [label=<<table title="org.universAAL.middleware.container.osgi.OSGiContainer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./osgi/OSGiContainer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> uAALBundleContainer </td></tr>
+<tr><td align="center" balign="center"> OSGiContainer </td></tr>
 		</table></td></tr>
-		</table>>, URL="./osgi/uAALBundleContainer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.container.JUnit.JUnitContainer implements org.universAAL.middleware.container.Container
-	c3145445:p -> c3145456:p [dir=back,arrowtail=empty,style=dashed];
-	//org.universAAL.middleware.container.osgi.uAALBundleContainer implements org.universAAL.middleware.container.Container
-	c3145445:p -> c3146591:p [dir=back,arrowtail=empty,style=dashed];
+		</table>>, URL="./osgi/OSGiContainer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	//org.universAAL.middleware.container.JUnit.JUnitContainer implements org.universAAL.middleware.container.Container
+	c2964003:p -> c2964014:p [dir=back,arrowtail=empty,style=dashed];
+	//org.universAAL.middleware.container.osgi.OSGiContainer implements org.universAAL.middleware.container.Container
+	c2964003:p -> c2965097:p [dir=back,arrowtail=empty,style=dashed];
 }
 

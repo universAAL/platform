@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.phThing.DeviceService
-	c5138883 [label=<<table title="org.universAAL.ontology.phThing.DeviceService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/phThing/DeviceService.html">
+	c4921512 [label=<<table title="org.universAAL.ontology.phThing.DeviceService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/phThing/DeviceService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DeviceService </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../ontology/phThing/DeviceService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.knx.exporter.KnxServiceCalleeProvidedService
-	c5140113 [label=<<table title="org.universAAL.lddi.knx.exporter.KnxServiceCalleeProvidedService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./KnxServiceCalleeProvidedService.html">
+	c4922742 [label=<<table title="org.universAAL.lddi.knx.exporter.KnxServiceCalleeProvidedService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./KnxServiceCalleeProvidedService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> KnxServiceCalleeProvidedService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./KnxServiceCalleeProvidedService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.lddi.knx.exporter.KnxServiceCalleeProvidedService extends org.universAAL.ontology.phThing.DeviceService
-	c5138883:p -> c5140113:p [dir=back,arrowtail=empty];
+	c4921512:p -> c4922742:p [dir=back,arrowtail=empty];
 }
 

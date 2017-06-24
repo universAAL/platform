@@ -10,50 +10,50 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c6446692 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
+	c6217164 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.phThing.Device
-	c6447232 [label=<<table title="org.universAAL.ontology.phThing.Device" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Device.html">
+	c6217652 [label=<<table title="org.universAAL.ontology.phThing.Device" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Device.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Device </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Device.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.phThing.PhysicalContainer
-	c6447234 [label=<<table title="org.universAAL.ontology.phThing.PhysicalContainer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PhysicalContainer.html">
+	c6217654 [label=<<table title="org.universAAL.ontology.phThing.PhysicalContainer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PhysicalContainer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PhysicalContainer </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PhysicalContainer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.phThing.PhysicalThing
-	c6447236 [label=<<table title="org.universAAL.ontology.phThing.PhysicalThing" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PhysicalThing.html">
+	c6217656 [label=<<table title="org.universAAL.ontology.phThing.PhysicalThing" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PhysicalThing.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PhysicalThing </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PhysicalThing.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.profile.User
-	c6447267 [label=<<table title="org.universAAL.ontology.profile.User" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../profile/User.html">
+	c6217687 [label=<<table title="org.universAAL.ontology.profile.User" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../profile/User.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> User </td></tr>
 		</table></td></tr>
 		</table>>, URL="../profile/User.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.furniture.Furniture
-	c6447500 [label=<<table title="org.universAAL.ontology.furniture.Furniture" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../furniture/Furniture.html">
+	c6217920 [label=<<table title="org.universAAL.ontology.furniture.Furniture" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../furniture/Furniture.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Furniture </td></tr>
 		</table></td></tr>
 		</table>>, URL="../furniture/Furniture.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.phThing.Device extends org.universAAL.ontology.phThing.PhysicalThing
-	c6447236:p -> c6447232:p [dir=back,arrowtail=empty];
+	c6217656:p -> c6217652:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.phThing.PhysicalContainer extends org.universAAL.ontology.phThing.PhysicalThing
-	c6447236:p -> c6447234:p [dir=back,arrowtail=empty];
+	c6217656:p -> c6217654:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.phThing.PhysicalThing extends org.universAAL.middleware.owl.ManagedIndividual
-	c6446692:p -> c6447236:p [dir=back,arrowtail=empty];
+	c6217164:p -> c6217656:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.profile.User extends org.universAAL.ontology.phThing.PhysicalThing
-	c6447236:p -> c6447267:p [dir=back,arrowtail=empty];
+	c6217656:p -> c6217687:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.furniture.Furniture extends org.universAAL.ontology.phThing.PhysicalThing
-	c6447236:p -> c6447500:p [dir=back,arrowtail=empty];
+	c6217656:p -> c6217920:p [dir=back,arrowtail=empty];
 }
 

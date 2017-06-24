@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.device.Sensor
-	c3134608 [label=<<table title="org.universAAL.ontology.device.Sensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Sensor.html">
+	c2953322 [label=<<table title="org.universAAL.ontology.device.Sensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Sensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Sensor </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Sensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.ContactSensor
-	c3134623 [label=<<table title="org.universAAL.ontology.device.ContactSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ContactSensor.html">
+	c2953337 [label=<<table title="org.universAAL.ontology.device.ContactSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ContactSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ContactSensor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ContactSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.device.ContactSensor extends org.universAAL.ontology.device.Sensor
-	c3134608:p -> c3134623:p [dir=back,arrowtail=empty];
+	c2953322:p -> c2953337:p [dir=back,arrowtail=empty];
 }
 

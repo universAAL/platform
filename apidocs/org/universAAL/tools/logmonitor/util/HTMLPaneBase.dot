@@ -10,23 +10,23 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.logmonitor.util.HTMLPaneBase
-	c4349464 [label=<<table title="org.universAAL.tools.logmonitor.util.HTMLPaneBase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HTMLPaneBase.html">
+	c4146341 [label=<<table title="org.universAAL.tools.logmonitor.util.HTMLPaneBase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HTMLPaneBase.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HTMLPaneBase </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HTMLPaneBase.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.logmonitor.util.HTMLVisibilityPane
-	c4349467 [label=<<table title="org.universAAL.tools.logmonitor.util.HTMLVisibilityPane" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HTMLVisibilityPane.html">
+	c4146344 [label=<<table title="org.universAAL.tools.logmonitor.util.HTMLVisibilityPane" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HTMLVisibilityPane.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HTMLVisibilityPane </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HTMLVisibilityPane.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.logmonitor.util.HTMLPaneBase extends javax.swing.JTextPane
-	c4349732:p -> c4349464:p [dir=back,arrowtail=empty];
+	c4146609:p -> c4146341:p [dir=back,arrowtail=empty];
 	//org.universAAL.tools.logmonitor.util.HTMLVisibilityPane extends org.universAAL.tools.logmonitor.util.HTMLPaneBase
-	c4349464:p -> c4349467:p [dir=back,arrowtail=empty];
+	c4146341:p -> c4146344:p [dir=back,arrowtail=empty];
 	// javax.swing.JTextPane
-	c4349732 [label=<<table title="javax.swing.JTextPane" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/JTextPane.html">
+	c4146609 [label=<<table title="javax.swing.JTextPane" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/JTextPane.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> JTextPane </td></tr>
 		</table></td></tr>

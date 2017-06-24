@@ -9,35 +9,35 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.middleware.shell.universAAL.osgi.TargetAALSpaceCommand
-	c524002 [label=<<table title="org.universAAL.middleware.shell.universAAL.osgi.TargetAALSpaceCommand" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TargetAALSpaceCommand.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> TargetAALSpaceCommand </td></tr>
-		</table></td></tr>
-		</table>>, URL="./TargetAALSpaceCommand.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.shell.universAAL.osgi.AALSpaceCommand
-	c524003 [label=<<table title="org.universAAL.middleware.shell.universAAL.osgi.AALSpaceCommand" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AALSpaceCommand.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> AALSpaceCommand </td></tr>
-		</table></td></tr>
-		</table>>, URL="./AALSpaceCommand.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.shell.universAAL.osgi.UAPPCommand
-	c524004 [label=<<table title="org.universAAL.middleware.shell.universAAL.osgi.UAPPCommand" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UAPPCommand.html">
+	c506030 [label=<<table title="org.universAAL.middleware.shell.universAAL.osgi.UAPPCommand" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UAPPCommand.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UAPPCommand </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UAPPCommand.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.shell.universAAL.osgi.TenantCommand
-	c524005 [label=<<table title="org.universAAL.middleware.shell.universAAL.osgi.TenantCommand" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TenantCommand.html">
+	c506031 [label=<<table title="org.universAAL.middleware.shell.universAAL.osgi.TenantCommand" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TenantCommand.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TenantCommand </td></tr>
 		</table></td></tr>
 		</table>>, URL="./TenantCommand.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.shell.universAAL.osgi.ListOfPeerCommand
-	c524006 [label=<<table title="org.universAAL.middleware.shell.universAAL.osgi.ListOfPeerCommand" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ListOfPeerCommand.html">
+	c506032 [label=<<table title="org.universAAL.middleware.shell.universAAL.osgi.ListOfPeerCommand" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ListOfPeerCommand.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ListOfPeerCommand </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ListOfPeerCommand.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.shell.universAAL.osgi.TargetSpaceCommand
+	c506033 [label=<<table title="org.universAAL.middleware.shell.universAAL.osgi.TargetSpaceCommand" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TargetSpaceCommand.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> TargetSpaceCommand </td></tr>
+		</table></td></tr>
+		</table>>, URL="./TargetSpaceCommand.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.shell.universAAL.osgi.SpaceCommand
+	c506034 [label=<<table title="org.universAAL.middleware.shell.universAAL.osgi.SpaceCommand" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SpaceCommand.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> SpaceCommand </td></tr>
+		</table></td></tr>
+		</table>>, URL="./SpaceCommand.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

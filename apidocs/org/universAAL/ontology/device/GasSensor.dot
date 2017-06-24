@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.device.GasSensor
-	c4197408 [label=<<table title="org.universAAL.ontology.device.GasSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GasSensor.html">
+	c3996986 [label=<<table title="org.universAAL.ontology.device.GasSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GasSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> GasSensor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./GasSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.EnvironmentSensor
-	c4197452 [label=<<table title="org.universAAL.ontology.device.EnvironmentSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EnvironmentSensor.html">
+	c3997030 [label=<<table title="org.universAAL.ontology.device.EnvironmentSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EnvironmentSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> EnvironmentSensor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./EnvironmentSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.device.GasSensor extends org.universAAL.ontology.device.EnvironmentSensor
-	c4197452:p -> c4197408:p [dir=back,arrowtail=empty];
+	c3997030:p -> c3996986:p [dir=back,arrowtail=empty];
 }
 

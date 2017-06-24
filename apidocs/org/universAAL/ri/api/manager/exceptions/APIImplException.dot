@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ri.api.manager.exceptions.APIImplException
-	c1651363 [label=<<table title="org.universAAL.ri.api.manager.exceptions.APIImplException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./APIImplException.html">
+	c1547871 [label=<<table title="org.universAAL.ri.api.manager.exceptions.APIImplException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./APIImplException.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> APIImplException </td></tr>
 		</table></td></tr>
 		</table>>, URL="./APIImplException.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.api.manager.exceptions.RAPIException
-	c1651365 [label=<<table title="org.universAAL.ri.api.manager.exceptions.RAPIException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RAPIException.html">
+	c1547873 [label=<<table title="org.universAAL.ri.api.manager.exceptions.RAPIException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RAPIException.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> RAPIException </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./RAPIException.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ri.api.manager.exceptions.APIImplException extends org.universAAL.ri.api.manager.exceptions.RAPIException
-	c1651365:p -> c1651363:p [dir=back,arrowtail=empty];
+	c1547873:p -> c1547871:p [dir=back,arrowtail=empty];
 }
 

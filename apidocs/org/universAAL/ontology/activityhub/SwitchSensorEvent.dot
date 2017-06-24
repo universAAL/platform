@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.activityhub.ActivityHubSensorEvent
-	c7903088 [label=<<table title="org.universAAL.ontology.activityhub.ActivityHubSensorEvent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ActivityHubSensorEvent.html">
+	c7704029 [label=<<table title="org.universAAL.ontology.activityhub.ActivityHubSensorEvent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ActivityHubSensorEvent.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ActivityHubSensorEvent </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./ActivityHubSensorEvent.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.activityhub.SwitchSensorEvent
-	c7903103 [label=<<table title="org.universAAL.ontology.activityhub.SwitchSensorEvent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SwitchSensorEvent.html">
+	c7704044 [label=<<table title="org.universAAL.ontology.activityhub.SwitchSensorEvent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SwitchSensorEvent.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SwitchSensorEvent </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SwitchSensorEvent.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.activityhub.SwitchSensorEvent extends org.universAAL.ontology.activityhub.ActivityHubSensorEvent
-	c7903088:p -> c7903103:p [dir=back,arrowtail=empty];
+	c7704029:p -> c7704044:p [dir=back,arrowtail=empty];
 }
 

@@ -10,42 +10,42 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.rdf.UnmodifiableResource
-	c7015639 [label=<<table title="org.universAAL.middleware.rdf.UnmodifiableResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UnmodifiableResource.html">
+	c6775867 [label=<<table title="org.universAAL.middleware.rdf.UnmodifiableResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UnmodifiableResource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UnmodifiableResource </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UnmodifiableResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.rdf.FinalizedResource
-	c7015647 [label=<<table title="org.universAAL.middleware.rdf.FinalizedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FinalizedResource.html">
+	c6775875 [label=<<table title="org.universAAL.middleware.rdf.FinalizedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FinalizedResource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> FinalizedResource </td></tr>
 		</table></td></tr>
 		</table>>, URL="./FinalizedResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.rdf.Resource
-	c7015650 [label=<<table title="org.universAAL.middleware.rdf.Resource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Resource.html">
+	c6775878 [label=<<table title="org.universAAL.middleware.rdf.Resource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Resource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Resource </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Resource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.owl.TypeExpression
-	c7015695 [label=<<table title="org.universAAL.middleware.owl.TypeExpression" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../owl/TypeExpression.html">
+	c6775923 [label=<<table title="org.universAAL.middleware.owl.TypeExpression" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../owl/TypeExpression.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> TypeExpression </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../owl/TypeExpression.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.impl.generic.CallMessage<Strategy extends org.universAAL.middleware.ui.impl.generic.CallBasedStrategy>
-	c7016098 [label=<<table title="org.universAAL.middleware.ui.impl.generic.CallMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ui/impl/generic/CallMessage.html">
+	c6776274 [label=<<table title="org.universAAL.middleware.ui.impl.generic.CallMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ui/impl/generic/CallMessage.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> CallMessage&lt;Strategy extends CallBasedStrategy&gt; </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../ui/impl/generic/CallMessage.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.rdf.UnmodifiableResource extends org.universAAL.middleware.rdf.Resource
-	c7015650:p -> c7015639:p [dir=back,arrowtail=empty];
+	c6775878:p -> c6775867:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.rdf.FinalizedResource extends org.universAAL.middleware.rdf.Resource
-	c7015650:p -> c7015647:p [dir=back,arrowtail=empty];
+	c6775878:p -> c6775875:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.owl.TypeExpression extends org.universAAL.middleware.rdf.Resource
-	c7015650:p -> c7015695:p [dir=back,arrowtail=empty];
+	c6775878:p -> c6775923:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.ui.impl.generic.CallMessage<Strategy extends org.universAAL.middleware.ui.impl.generic.CallBasedStrategy> extends org.universAAL.middleware.rdf.Resource
-	c7015650:p -> c7016098:p [dir=back,arrowtail=empty];
+	c6775878:p -> c6776274:p [dir=back,arrowtail=empty];
 }
 

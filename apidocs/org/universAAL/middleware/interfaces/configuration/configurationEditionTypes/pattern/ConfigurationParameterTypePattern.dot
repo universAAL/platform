@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.ConfigurationParameterTypePattern
-	c3058995 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.ConfigurationParameterTypePattern" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigurationParameterTypePattern.html">
+	c2879101 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.ConfigurationParameterTypePattern" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigurationParameterTypePattern.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConfigurationParameterTypePattern </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConfigurationParameterTypePattern.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.EntityPattern
-	c3058996 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.EntityPattern" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EntityPattern.html">
+	c2879102 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.EntityPattern" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EntityPattern.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> EntityPattern </td></tr>
 		</table></td></tr>
 		</table>>, URL="./EntityPattern.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.ConfigurationParameterTypePattern implements org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.EntityPattern
-	c3058996:p -> c3058995:p [dir=back,arrowtail=empty,style=dashed];
+	c2879102:p -> c2879101:p [dir=back,arrowtail=empty,style=dashed];
 }
 

@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.Ontology
-	c6851036 [label=<<table title="org.universAAL.middleware.owl.Ontology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/Ontology.html">
+	c6614228 [label=<<table title="org.universAAL.middleware.owl.Ontology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/Ontology.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Ontology </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/owl/Ontology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.recommendations.RecommendationsOntology
-	c6852045 [label=<<table title="org.universAAL.ontology.recommendations.RecommendationsOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RecommendationsOntology.html">
+	c6615185 [label=<<table title="org.universAAL.ontology.recommendations.RecommendationsOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RecommendationsOntology.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RecommendationsOntology </td></tr>
 		</table></td></tr>
 		</table>>, URL="./RecommendationsOntology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.recommendations.RecommendationsOntology extends org.universAAL.middleware.owl.Ontology
-	c6851036:p -> c6852045:p [dir=back,arrowtail=empty];
+	c6614228:p -> c6615185:p [dir=back,arrowtail=empty];
 }
 

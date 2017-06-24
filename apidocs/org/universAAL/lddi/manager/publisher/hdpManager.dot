@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.lddi.manager.publisher.hdpManager
-	c8683790 [label=<<table title="org.universAAL.lddi.manager.publisher.hdpManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./hdpManager.html">
+	c8470691 [label=<<table title="org.universAAL.lddi.manager.publisher.hdpManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./hdpManager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> hdpManager </td></tr>
 		</table></td></tr>
 		</table>>, URL="./hdpManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.manager.publisher.hdpManagerListener
-	c8683791 [label=<<table title="org.universAAL.lddi.manager.publisher.hdpManagerListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./hdpManagerListener.html">
+	c8470692 [label=<<table title="org.universAAL.lddi.manager.publisher.hdpManagerListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./hdpManagerListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> hdpManagerListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="./hdpManagerListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.lddi.manager.publisher.hdpManager implements org.universAAL.lddi.manager.publisher.hdpManagerListener
-	c8683791:p -> c8683790:p [dir=back,arrowtail=empty,style=dashed];
+	c8470692:p -> c8470691:p [dir=back,arrowtail=empty,style=dashed];
 }
 

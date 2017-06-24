@@ -10,34 +10,34 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.phThing.PhysicalThing
-	c8379451 [label=<<table title="org.universAAL.ontology.phThing.PhysicalThing" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../phThing/PhysicalThing.html">
+	c8171812 [label=<<table title="org.universAAL.ontology.phThing.PhysicalThing" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../phThing/PhysicalThing.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PhysicalThing </td></tr>
 		</table></td></tr>
 		</table>>, URL="../phThing/PhysicalThing.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.profile.Caregiver
-	c8379477 [label=<<table title="org.universAAL.ontology.profile.Caregiver" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Caregiver.html">
+	c8171838 [label=<<table title="org.universAAL.ontology.profile.Caregiver" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Caregiver.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Caregiver </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Caregiver.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.profile.User
-	c8379482 [label=<<table title="org.universAAL.ontology.profile.User" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./User.html">
+	c8171843 [label=<<table title="org.universAAL.ontology.profile.User" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./User.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> User </td></tr>
 		</table></td></tr>
 		</table>>, URL="./User.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.profile.AssistedPerson
-	c8379489 [label=<<table title="org.universAAL.ontology.profile.AssistedPerson" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AssistedPerson.html">
+	c8171850 [label=<<table title="org.universAAL.ontology.profile.AssistedPerson" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AssistedPerson.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AssistedPerson </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AssistedPerson.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.profile.Caregiver extends org.universAAL.ontology.profile.User
-	c8379482:p -> c8379477:p [dir=back,arrowtail=empty];
+	c8171843:p -> c8171838:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.profile.User extends org.universAAL.ontology.phThing.PhysicalThing
-	c8379451:p -> c8379482:p [dir=back,arrowtail=empty];
+	c8171812:p -> c8171843:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.profile.AssistedPerson extends org.universAAL.ontology.profile.User
-	c8379482:p -> c8379489:p [dir=back,arrowtail=empty];
+	c8171843:p -> c8171850:p [dir=back,arrowtail=empty];
 }
 

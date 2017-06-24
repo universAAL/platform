@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.device.Sensor
-	c2738910 [label=<<table title="org.universAAL.ontology.device.Sensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../Sensor.html">
+	c2559076 [label=<<table title="org.universAAL.ontology.device.Sensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../Sensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Sensor </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../Sensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.home.CarpetSensor
-	c2739043 [label=<<table title="org.universAAL.ontology.device.home.CarpetSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CarpetSensor.html">
+	c2559209 [label=<<table title="org.universAAL.ontology.device.home.CarpetSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CarpetSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CarpetSensor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CarpetSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.device.home.CarpetSensor extends org.universAAL.ontology.device.Sensor
-	c2738910:p -> c2739043:p [dir=back,arrowtail=empty];
+	c2559076:p -> c2559209:p [dir=back,arrowtail=empty];
 }
 

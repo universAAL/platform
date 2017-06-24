@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.vcard.Email
-	c8653883 [label=<<table title="org.universAAL.ontology.vcard.Email" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Email.html">
+	c8441304 [label=<<table title="org.universAAL.ontology.vcard.Email" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Email.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Email </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Email.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.vcard.X400
-	c8653887 [label=<<table title="org.universAAL.ontology.vcard.X400" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./X400.html">
+	c8441308 [label=<<table title="org.universAAL.ontology.vcard.X400" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./X400.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> X400 </td></tr>
 		</table></td></tr>
 		</table>>, URL="./X400.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.vcard.X400 extends org.universAAL.ontology.vcard.Email
-	c8653883:p -> c8653887:p [dir=back,arrowtail=empty];
+	c8441304:p -> c8441308:p [dir=back,arrowtail=empty];
 }
 

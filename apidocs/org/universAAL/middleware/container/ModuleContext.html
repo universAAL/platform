@@ -95,12 +95,12 @@ var activeTableTab = "activeTableTab";
 <div class="subTitle">org.universAAL.middleware.container</div>
 <h2 title="Interface ModuleContext" class="title">Interface ModuleContext</h2>
 <map id="G" name="G">
-<area shape="rect" id="c5799676" href="./ModuleContext.html" title="org.universAAL.middleware.container.ModuleContext" alt="" coords="123,11,232,53"/>
+<area shape="rect" id="c5570449" href="./ModuleContext.html" title="org.universAAL.middleware.container.ModuleContext" alt="" coords="123,11,232,53"/>
 <area shape="rect" id="node1" href="./ModuleContext.html" title="&lt;TABLE&gt;" alt="" coords="112,6,243,58"/>
-<area shape="rect" id="c5799680" href="../../container/JUnit/JUnitModuleContext.html" title="org.universAAL.container.JUnit.JUnitModuleContext" alt="" coords="15,118,155,143"/>
-<area shape="rect" id="node2" href="../../container/JUnit/JUnitModuleContext.html" title="&lt;TABLE&gt;" alt="" coords="5,107,165,155"/>
-<area shape="rect" id="c5800816" href="./osgi/uAALBundleContext.html" title="org.universAAL.middleware.container.osgi.uAALBundleContext" alt="" coords="200,118,339,143"/>
-<area shape="rect" id="node3" href="./osgi/uAALBundleContext.html" title="&lt;TABLE&gt;" alt="" coords="189,107,349,155"/>
+<area shape="rect" id="c5570453" href="./JUnit/JUnitModuleContext.html" title="org.universAAL.middleware.container.JUnit.JUnitModuleContext" alt="" coords="15,118,155,143"/>
+<area shape="rect" id="node2" href="./JUnit/JUnitModuleContext.html" title="&lt;TABLE&gt;" alt="" coords="5,107,165,155"/>
+<area shape="rect" id="c5571536" href="./osgi/OSGiModuleContext.html" title="org.universAAL.middleware.container.osgi.OSGiModuleContext" alt="" coords="200,118,341,143"/>
+<area shape="rect" id="node3" href="./osgi/OSGiModuleContext.html" title="&lt;TABLE&gt;" alt="" coords="189,107,352,155"/>
 </map>
 <!-- UML diagram added by UMLGraph version R5_6-24-gf6e263 (http://www.umlgraph.org/) -->
 <div align="center"><img src="ModuleContext.png" alt="Package class diagram package ModuleContext" usemap="#G" border=0/></div>
@@ -111,7 +111,7 @@ var activeTableTab = "activeTableTab";
 <li class="blockList">
 <dl>
 <dt>All Known Implementing Classes:</dt>
-<dd><a href="../../../../org/universAAL/container/JUnit/JUnitModuleContext.html" title="class in org.universAAL.container.JUnit">JUnitModuleContext</a>, <a href="../../../../org/universAAL/middleware/container/osgi/uAALBundleContext.html" title="class in org.universAAL.middleware.container.osgi">uAALBundleContext</a></dd>
+<dd><a href="../../../../org/universAAL/middleware/container/JUnit/JUnitModuleContext.html" title="class in org.universAAL.middleware.container.JUnit">JUnitModuleContext</a>, <a href="../../../../org/universAAL/middleware/container/osgi/OSGiModuleContext.html" title="class in org.universAAL.middleware.container.osgi">OSGiModuleContext</a></dd>
 </dl>
 <hr>
 <br>
@@ -119,10 +119,9 @@ var activeTableTab = "activeTableTab";
 <div class="block">Represents the container-specific context of modules that either build up the
  universAAL platform or use this platform. Its design is inspired by the
  <a href="http://en.wikipedia.org/wiki/OSGi#Life-cycle"> OSGi life-cycle</a>
- as well as container-specific general-purpose code in the alpha release of
- the universAAL middleware, and the requirements of the
- <a href="http://forge.universaal.org/wiki/rinterop:Remote_Administration">AAL
- Space Admin Gateway</a> with regard to node-level admin.</div>
+ as well as container-specific general-purpose code in the universAAL
+ middleware, and the requirements of the Space Admin Gateway with regard to
+ node-level admin.</div>
 <dl>
 <dt><span class="simpleTagLabel">Version:</span></dt>
 <dd>$LastChangedRevision$ ( $LastChangedDate$ )</dd>
@@ -370,7 +369,7 @@ var activeTableTab = "activeTableTab";
  OSGi ACTIVE , (2) it fulfills all prerequisites for being started, and
  (3) the given requester is allowed to start it. Otherwise, it returns
  false.
- 
+
  Note: Confer the OSGi Bundle State <code>RESOLVED</code> with regard to
  the first two conditions above.</div>
 </li>

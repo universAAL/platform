@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ri.api.manager.server.RemoteServlet
-	c6931041 [label=<<table title="org.universAAL.ri.api.manager.server.RemoteServlet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RemoteServlet.html">
+	c6692777 [label=<<table title="org.universAAL.ri.api.manager.server.RemoteServlet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RemoteServlet.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RemoteServlet </td></tr>
 		</table></td></tr>
 		</table>>, URL="./RemoteServlet.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ri.api.manager.server.RemoteServlet extends javax.servlet.http.HttpServlet
-	c6931772:p -> c6931041:p [dir=back,arrowtail=empty];
+	c6693508:p -> c6692777:p [dir=back,arrowtail=empty];
 	// javax.servlet.http.HttpServlet
-	c6931772 [label=<<table title="javax.servlet.http.HttpServlet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/servlet/http/HttpServlet.html">
+	c6693508 [label=<<table title="javax.servlet.http.HttpServlet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/servlet/http/HttpServlet.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> HttpServlet </font></td></tr>
 		</table></td></tr>

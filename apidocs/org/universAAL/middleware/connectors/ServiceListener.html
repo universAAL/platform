@@ -95,10 +95,10 @@ var activeTableTab = "activeTableTab";
 <div class="subTitle">org.universAAL.middleware.connectors</div>
 <h2 title="Interface ServiceListener" class="title">Interface ServiceListener</h2>
 <map id="G" name="G">
-<area shape="rect" id="c7440480" href="./ServiceListener.html" title="org.universAAL.middleware.connectors.ServiceListener" alt="" coords="35,11,146,53"/>
-<area shape="rect" id="node1" href="./ServiceListener.html" title="&lt;TABLE&gt;" alt="" coords="25,6,156,58"/>
-<area shape="rect" id="c7441433" href="../modules/aalspace/AALSpaceModuleImpl.html" title="org.universAAL.middleware.modules.aalspace.AALSpaceModuleImpl" alt="" coords="16,118,165,143"/>
-<area shape="rect" id="node2" href="../modules/aalspace/AALSpaceModuleImpl.html" title="&lt;TABLE&gt;" alt="" coords="5,107,176,155"/>
+<area shape="rect" id="c7193012" href="./ServiceListener.html" title="org.universAAL.middleware.connectors.ServiceListener" alt="" coords="23,11,134,53"/>
+<area shape="rect" id="node1" href="./ServiceListener.html" title="&lt;TABLE&gt;" alt="" coords="13,6,144,58"/>
+<area shape="rect" id="c7193965" href="../modules/space/SpaceModuleImpl.html" title="org.universAAL.middleware.modules.space.SpaceModuleImpl" alt="" coords="16,118,141,143"/>
+<area shape="rect" id="node2" href="../modules/space/SpaceModuleImpl.html" title="&lt;TABLE&gt;" alt="" coords="5,107,152,155"/>
 </map>
 <!-- UML diagram added by UMLGraph version R5_6-24-gf6e263 (http://www.umlgraph.org/) -->
 <div align="center"><img src="ServiceListener.png" alt="Package class diagram package ServiceListener" usemap="#G" border=0/></div>
@@ -109,12 +109,12 @@ var activeTableTab = "activeTableTab";
 <li class="blockList">
 <dl>
 <dt>All Known Implementing Classes:</dt>
-<dd><a href="../../../../org/universAAL/middleware/modules/aalspace/AALSpaceModuleImpl.html" title="class in org.universAAL.middleware.modules.aalspace">AALSpaceModuleImpl</a></dd>
+<dd><a href="../../../../org/universAAL/middleware/modules/space/SpaceModuleImpl.html" title="class in org.universAAL.middleware.modules.space">SpaceModuleImpl</a></dd>
 </dl>
 <hr>
 <br>
 <pre>public interface <span class="typeNameLabel">ServiceListener</span></pre>
-<div class="block">Implementation of this interface manages new or lost AALSpaces</div>
+<div class="block">Implementation of this interface manages new or lost Spaces</div>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>
 <dd><a href="mailto:michele.girolami@isti.cnr.it">Michele Girolami</a>, <a href="mailto:francesco.furfari@isti.cnr.it">Francesco Furfari</a></dd>
@@ -139,14 +139,14 @@ var activeTableTab = "activeTableTab";
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/connectors/ServiceListener.html#aalSpaceLost-org.universAAL.middleware.interfaces.aalspace.AALSpaceCard-">aalSpaceLost</a></span>(<a href="../../../../org/universAAL/middleware/interfaces/aalspace/AALSpaceCard.html" title="class in org.universAAL.middleware.interfaces.aalspace">AALSpaceCard</a>&nbsp;spaceCard)</code>
-<div class="block">Called when an AALSpace has been destroyed</div>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/connectors/ServiceListener.html#newSpacesFound-java.util.Set-">newSpacesFound</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="../../../../org/universAAL/middleware/interfaces/space/SpaceCard.html" title="class in org.universAAL.middleware.interfaces.space">SpaceCard</a>&gt;&nbsp;spaceCards)</code>
+<div class="block">Called when a new Space has been found</div>
 </td>
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/connectors/ServiceListener.html#newAALSpacesFound-java.util.Set-">newAALSpacesFound</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="../../../../org/universAAL/middleware/interfaces/aalspace/AALSpaceCard.html" title="class in org.universAAL.middleware.interfaces.aalspace">AALSpaceCard</a>&gt;&nbsp;spaceCards)</code>
-<div class="block">Called when a new AALSpace has been found</div>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/connectors/ServiceListener.html#spaceLost-org.universAAL.middleware.interfaces.space.SpaceCard-">spaceLost</a></span>(<a href="../../../../org/universAAL/middleware/interfaces/space/SpaceCard.html" title="class in org.universAAL.middleware.interfaces.space">SpaceCard</a>&nbsp;spaceCard)</code>
+<div class="block">Called when an Space has been destroyed</div>
 </td>
 </tr>
 </table>
@@ -164,31 +164,31 @@ var activeTableTab = "activeTableTab";
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a name="newAALSpacesFound-java.util.Set-">
+<a name="newSpacesFound-java.util.Set-">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
-<h4>newAALSpacesFound</h4>
-<pre>void&nbsp;newAALSpacesFound(<a href="http://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="../../../../org/universAAL/middleware/interfaces/aalspace/AALSpaceCard.html" title="class in org.universAAL.middleware.interfaces.aalspace">AALSpaceCard</a>&gt;&nbsp;spaceCards)</pre>
-<div class="block">Called when a new AALSpace has been found</div>
+<h4>newSpacesFound</h4>
+<pre>void&nbsp;newSpacesFound(<a href="http://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="../../../../org/universAAL/middleware/interfaces/space/SpaceCard.html" title="class in org.universAAL.middleware.interfaces.space">SpaceCard</a>&gt;&nbsp;spaceCards)</pre>
+<div class="block">Called when a new Space has been found</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>spaceCard</code> - Information about the AALSpace</dd>
+<dd><code>spaceCard</code> - Information about the Space</dd>
 </dl>
 </li>
 </ul>
-<a name="aalSpaceLost-org.universAAL.middleware.interfaces.aalspace.AALSpaceCard-">
+<a name="spaceLost-org.universAAL.middleware.interfaces.space.SpaceCard-">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
-<h4>aalSpaceLost</h4>
-<pre>void&nbsp;aalSpaceLost(<a href="../../../../org/universAAL/middleware/interfaces/aalspace/AALSpaceCard.html" title="class in org.universAAL.middleware.interfaces.aalspace">AALSpaceCard</a>&nbsp;spaceCard)</pre>
-<div class="block">Called when an AALSpace has been destroyed</div>
+<h4>spaceLost</h4>
+<pre>void&nbsp;spaceLost(<a href="../../../../org/universAAL/middleware/interfaces/space/SpaceCard.html" title="class in org.universAAL.middleware.interfaces.space">SpaceCard</a>&nbsp;spaceCard)</pre>
+<div class="block">Called when an Space has been destroyed</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>spaceCard</code> - Information about the AALSpace</dd>
+<dd><code>spaceCard</code> - Information about the Space</dd>
 </dl>
 </li>
 </ul>

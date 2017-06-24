@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.profile.AALAppSubProfile
-	c1526276 [label=<<table title="org.universAAL.ontology.profile.AALAppSubProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AALAppSubProfile.html">
+	c1490208 [label=<<table title="org.universAAL.ontology.profile.AALAppSubProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AALAppSubProfile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AALAppSubProfile </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AALAppSubProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.profile.SubProfile
-	c1526277 [label=<<table title="org.universAAL.ontology.profile.SubProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SubProfile.html">
+	c1490209 [label=<<table title="org.universAAL.ontology.profile.SubProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SubProfile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SubProfile </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SubProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.profile.AALAppSubProfile extends org.universAAL.ontology.profile.SubProfile
-	c1526277:p -> c1526276:p [dir=back,arrowtail=empty];
+	c1490209:p -> c1490208:p [dir=back,arrowtail=empty];
 }
 

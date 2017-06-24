@@ -10,34 +10,34 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.LengthRestriction
-	c8121865 [label=<<table title="org.universAAL.middleware.owl.LengthRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LengthRestriction.html">
+	c7918906 [label=<<table title="org.universAAL.middleware.owl.LengthRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LengthRestriction.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> LengthRestriction </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./LengthRestriction.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.owl.TypeRestriction
-	c8121872 [label=<<table title="org.universAAL.middleware.owl.TypeRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TypeRestriction.html">
+	c7918913 [label=<<table title="org.universAAL.middleware.owl.TypeRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TypeRestriction.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> TypeRestriction </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./TypeRestriction.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.owl.BoundedValueRestriction
-	c8121874 [label=<<table title="org.universAAL.middleware.owl.BoundedValueRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BoundedValueRestriction.html">
+	c7918915 [label=<<table title="org.universAAL.middleware.owl.BoundedValueRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BoundedValueRestriction.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> BoundedValueRestriction </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./BoundedValueRestriction.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.owl.TypeExpression
-	c8121881 [label=<<table title="org.universAAL.middleware.owl.TypeExpression" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TypeExpression.html">
+	c7918922 [label=<<table title="org.universAAL.middleware.owl.TypeExpression" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TypeExpression.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> TypeExpression </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./TypeExpression.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.owl.LengthRestriction extends org.universAAL.middleware.owl.TypeRestriction
-	c8121872:p -> c8121865:p [dir=back,arrowtail=empty];
+	c7918913:p -> c7918906:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.owl.TypeRestriction extends org.universAAL.middleware.owl.TypeExpression
-	c8121881:p -> c8121872:p [dir=back,arrowtail=empty];
+	c7918922:p -> c7918913:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.owl.BoundedValueRestriction extends org.universAAL.middleware.owl.TypeRestriction
-	c8121872:p -> c8121874:p [dir=back,arrowtail=empty];
+	c7918913:p -> c7918915:p [dir=back,arrowtail=empty];
 }
 

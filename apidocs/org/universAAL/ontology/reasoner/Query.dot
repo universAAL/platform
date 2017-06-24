@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.reasoner.Persistent
-	c6742174 [label=<<table title="org.universAAL.ontology.reasoner.Persistent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Persistent.html">
+	c6507290 [label=<<table title="org.universAAL.ontology.reasoner.Persistent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Persistent.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Persistent </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Persistent.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.reasoner.Query
-	c6742178 [label=<<table title="org.universAAL.ontology.reasoner.Query" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Query.html">
+	c6507294 [label=<<table title="org.universAAL.ontology.reasoner.Query" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Query.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Query </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Query.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.reasoner.Query extends org.universAAL.ontology.reasoner.Persistent
-	c6742174:p -> c6742178:p [dir=back,arrowtail=empty];
+	c6507290:p -> c6507294:p [dir=back,arrowtail=empty];
 }
 

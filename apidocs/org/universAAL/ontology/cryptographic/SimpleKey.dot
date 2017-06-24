@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.cryptographic.EncryptionKey
-	c7631896 [label=<<table title="org.universAAL.ontology.cryptographic.EncryptionKey" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EncryptionKey.html">
+	c7380996 [label=<<table title="org.universAAL.ontology.cryptographic.EncryptionKey" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EncryptionKey.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> EncryptionKey </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./EncryptionKey.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.cryptographic.SimpleKey
-	c7631898 [label=<<table title="org.universAAL.ontology.cryptographic.SimpleKey" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SimpleKey.html">
+	c7380998 [label=<<table title="org.universAAL.ontology.cryptographic.SimpleKey" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SimpleKey.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SimpleKey </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SimpleKey.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.cryptographic.SimpleKey extends org.universAAL.ontology.cryptographic.EncryptionKey
-	c7631896:p -> c7631898:p [dir=back,arrowtail=empty];
+	c7380996:p -> c7380998:p [dir=back,arrowtail=empty];
 }
 

@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.support.utils.ui.SubmitCmd
-	c8085017 [label=<<table title="org.universAAL.support.utils.ui.SubmitCmd" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SubmitCmd.html">
+	c7882682 [label=<<table title="org.universAAL.support.utils.ui.SubmitCmd" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SubmitCmd.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SubmitCmd </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SubmitCmd.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.utils.ui.TriggerCmd
-	c8085020 [label=<<table title="org.universAAL.support.utils.ui.TriggerCmd" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TriggerCmd.html">
+	c7882685 [label=<<table title="org.universAAL.support.utils.ui.TriggerCmd" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TriggerCmd.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TriggerCmd </td></tr>
 		</table></td></tr>
 		</table>>, URL="./TriggerCmd.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.support.utils.ui.TriggerCmd extends org.universAAL.support.utils.ui.SubmitCmd
-	c8085017:p -> c8085020:p [dir=back,arrowtail=empty];
+	c7882682:p -> c7882685:p [dir=back,arrowtail=empty];
 }
 

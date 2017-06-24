@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.logmonitor.rdfvis.Edge
-	c3786237 [label=<<table title="org.universAAL.tools.logmonitor.rdfvis.Edge" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Edge.html">
+	c3593251 [label=<<table title="org.universAAL.tools.logmonitor.rdfvis.Edge" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Edge.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Edge </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Edge.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.logmonitor.rdfvis.Edge implements java.lang.Comparable<T>
-	c3786539:p -> c3786237:p [dir=back,arrowtail=empty,style=dashed];
+	c3593553:p -> c3593251:p [dir=back,arrowtail=empty,style=dashed];
 	// java.lang.Comparable<T>
-	c3786539 [label=<<table title="java.lang.Comparable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Comparable.html">
+	c3593553 [label=<<table title="java.lang.Comparable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Comparable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Comparable&lt;T&gt; </td></tr>

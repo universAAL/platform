@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.vcard.Tel
-	c2409571 [label=<<table title="org.universAAL.ontology.vcard.Tel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Tel.html">
+	c2238501 [label=<<table title="org.universAAL.ontology.vcard.Tel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Tel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Tel </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Tel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.vcard.BBS
-	c2409573 [label=<<table title="org.universAAL.ontology.vcard.BBS" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BBS.html">
+	c2238503 [label=<<table title="org.universAAL.ontology.vcard.BBS" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BBS.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BBS </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BBS.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.vcard.BBS extends org.universAAL.ontology.vcard.Tel
-	c2409571:p -> c2409573:p [dir=back,arrowtail=empty];
+	c2238501:p -> c2238503:p [dir=back,arrowtail=empty];
 }
 

@@ -10,44 +10,44 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.logmonitor.util.ClipboardHandling
-	c1339765 [label=<<table title="org.universAAL.tools.logmonitor.util.ClipboardHandling" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ClipboardHandling.html">
+	c1307129 [label=<<table title="org.universAAL.tools.logmonitor.util.ClipboardHandling" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ClipboardHandling.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ClipboardHandling </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ClipboardHandling.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.logmonitor.util.HTMLBusOperationsPane
-	c1339766 [label=<<table title="org.universAAL.tools.logmonitor.util.HTMLBusOperationsPane" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HTMLBusOperationsPane.html">
+	c1307130 [label=<<table title="org.universAAL.tools.logmonitor.util.HTMLBusOperationsPane" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HTMLBusOperationsPane.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HTMLBusOperationsPane </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HTMLBusOperationsPane.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.logmonitor.util.HTMLPaneBase
-	c1339767 [label=<<table title="org.universAAL.tools.logmonitor.util.HTMLPaneBase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HTMLPaneBase.html">
+	c1307131 [label=<<table title="org.universAAL.tools.logmonitor.util.HTMLPaneBase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HTMLPaneBase.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HTMLPaneBase </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HTMLPaneBase.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.logmonitor.util.ProfileInfo
-	c1339768 [label=<<table title="org.universAAL.tools.logmonitor.util.ProfileInfo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProfileInfo.html">
+	c1307132 [label=<<table title="org.universAAL.tools.logmonitor.util.ProfileInfo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProfileInfo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProfileInfo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ProfileInfo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.logmonitor.util.PatternInfo
-	c1339769 [label=<<table title="org.universAAL.tools.logmonitor.util.PatternInfo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PatternInfo.html">
+	c1307133 [label=<<table title="org.universAAL.tools.logmonitor.util.PatternInfo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PatternInfo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PatternInfo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PatternInfo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.logmonitor.util.HTMLVisibilityPane
-	c1339770 [label=<<table title="org.universAAL.tools.logmonitor.util.HTMLVisibilityPane" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HTMLVisibilityPane.html">
+	c1307134 [label=<<table title="org.universAAL.tools.logmonitor.util.HTMLVisibilityPane" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HTMLVisibilityPane.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HTMLVisibilityPane </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HTMLVisibilityPane.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.logmonitor.util.HTMLBusOperationsPane extends org.universAAL.tools.logmonitor.util.HTMLVisibilityPane
-	c1339770:p -> c1339766:p [dir=back,arrowtail=empty];
+	c1307134:p -> c1307130:p [dir=back,arrowtail=empty];
 	//org.universAAL.tools.logmonitor.util.HTMLVisibilityPane extends org.universAAL.tools.logmonitor.util.HTMLPaneBase
-	c1339767:p -> c1339770:p [dir=back,arrowtail=empty];
+	c1307131:p -> c1307134:p [dir=back,arrowtail=empty];
 }
 

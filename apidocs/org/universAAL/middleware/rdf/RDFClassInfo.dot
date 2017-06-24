@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.rdf.FinalizedResource
-	c6775913 [label=<<table title="org.universAAL.middleware.rdf.FinalizedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FinalizedResource.html">
+	c6540457 [label=<<table title="org.universAAL.middleware.rdf.FinalizedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FinalizedResource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> FinalizedResource </td></tr>
 		</table></td></tr>
 		</table>>, URL="./FinalizedResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.rdf.RDFClassInfo
-	c6775919 [label=<<table title="org.universAAL.middleware.rdf.RDFClassInfo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RDFClassInfo.html">
+	c6540463 [label=<<table title="org.universAAL.middleware.rdf.RDFClassInfo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RDFClassInfo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RDFClassInfo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./RDFClassInfo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.owl.OntClassInfo
-	c6775937 [label=<<table title="org.universAAL.middleware.owl.OntClassInfo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../owl/OntClassInfo.html">
+	c6540481 [label=<<table title="org.universAAL.middleware.owl.OntClassInfo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../owl/OntClassInfo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OntClassInfo </td></tr>
 		</table></td></tr>
 		</table>>, URL="../owl/OntClassInfo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.rdf.RDFClassInfo extends org.universAAL.middleware.rdf.FinalizedResource
-	c6775913:p -> c6775919:p [dir=back,arrowtail=empty];
+	c6540457:p -> c6540463:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.owl.OntClassInfo extends org.universAAL.middleware.rdf.RDFClassInfo
-	c6775919:p -> c6775937:p [dir=back,arrowtail=empty];
+	c6540463:p -> c6540481:p [dir=back,arrowtail=empty];
 }
 

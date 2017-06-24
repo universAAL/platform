@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.service.owls.process.ProcessInput
-	c6542351 [label=<<table title="org.universAAL.middleware.service.owls.process.ProcessInput" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProcessInput.html">
+	c6311055 [label=<<table title="org.universAAL.middleware.service.owls.process.ProcessInput" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProcessInput.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProcessInput </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ProcessInput.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.service.owls.process.ProcessParameter
-	c6542355 [label=<<table title="org.universAAL.middleware.service.owls.process.ProcessParameter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProcessParameter.html">
+	c6311059 [label=<<table title="org.universAAL.middleware.service.owls.process.ProcessParameter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProcessParameter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProcessParameter </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ProcessParameter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.service.owls.process.ProcessInput extends org.universAAL.middleware.service.owls.process.ProcessParameter
-	c6542355:p -> c6542351:p [dir=back,arrowtail=empty];
+	c6311059:p -> c6311055:p [dir=back,arrowtail=empty];
 }
 

@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.bus.member.Publisher
-	c6706911 [label=<<table title="org.universAAL.middleware.bus.member.Publisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Publisher.html">
+	c6472651 [label=<<table title="org.universAAL.middleware.bus.member.Publisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Publisher.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Publisher </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Publisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.bus.member.BusMember
-	c6706912 [label=<<table title="org.universAAL.middleware.bus.member.BusMember" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BusMember.html">
+	c6472652 [label=<<table title="org.universAAL.middleware.bus.member.BusMember" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BusMember.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> BusMember </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./BusMember.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.context.ContextPublisher
-	c6706925 [label=<<table title="org.universAAL.middleware.context.ContextPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../context/ContextPublisher.html">
+	c6472665 [label=<<table title="org.universAAL.middleware.context.ContextPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../context/ContextPublisher.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ContextPublisher </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../context/ContextPublisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.bus.member.Publisher extends org.universAAL.middleware.bus.member.BusMember
-	c6706912:p -> c6706911:p [dir=back,arrowtail=empty];
+	c6472652:p -> c6472651:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.context.ContextPublisher extends org.universAAL.middleware.bus.member.Publisher
-	c6706911:p -> c6706925:p [dir=back,arrowtail=empty];
+	c6472651:p -> c6472665:p [dir=back,arrowtail=empty];
 }
 

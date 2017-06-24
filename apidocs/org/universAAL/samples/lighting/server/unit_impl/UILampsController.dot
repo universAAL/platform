@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.samples.lighting.server.unit_impl.LampStateListener
-	c8205052 [label=<<table title="org.universAAL.samples.lighting.server.unit_impl.LampStateListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LampStateListener.html">
+	c8000585 [label=<<table title="org.universAAL.samples.lighting.server.unit_impl.LampStateListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LampStateListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> LampStateListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LampStateListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.samples.lighting.server.unit_impl.UILampsController
-	c8205053 [label=<<table title="org.universAAL.samples.lighting.server.unit_impl.UILampsController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UILampsController.html">
+	c8000586 [label=<<table title="org.universAAL.samples.lighting.server.unit_impl.UILampsController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UILampsController.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UILampsController </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UILampsController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.samples.lighting.server.unit_impl.UILampsController implements org.universAAL.samples.lighting.server.unit_impl.LampStateListener
-	c8205052:p -> c8205053:p [dir=back,arrowtail=empty,style=dashed];
+	c8000585:p -> c8000586:p [dir=back,arrowtail=empty,style=dashed];
 }
 

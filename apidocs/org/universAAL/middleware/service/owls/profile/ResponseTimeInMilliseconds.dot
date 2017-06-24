@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.service.owls.profile.ProfileParameter
-	c7053574 [label=<<table title="org.universAAL.middleware.service.owls.profile.ProfileParameter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProfileParameter.html">
+	c6813074 [label=<<table title="org.universAAL.middleware.service.owls.profile.ProfileParameter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProfileParameter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ProfileParameter </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./ProfileParameter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.service.owls.profile.ResponseTimeInMilliseconds
-	c7053578 [label=<<table title="org.universAAL.middleware.service.owls.profile.ResponseTimeInMilliseconds" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ResponseTimeInMilliseconds.html">
+	c6813078 [label=<<table title="org.universAAL.middleware.service.owls.profile.ResponseTimeInMilliseconds" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ResponseTimeInMilliseconds.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ResponseTimeInMilliseconds </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ResponseTimeInMilliseconds.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.service.owls.profile.ResponseTimeInMilliseconds extends org.universAAL.middleware.service.owls.profile.ProfileParameter
-	c7053574:p -> c7053578:p [dir=back,arrowtail=empty];
+	c6813074:p -> c6813078:p [dir=back,arrowtail=empty];
 }
 

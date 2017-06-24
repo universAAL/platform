@@ -208,35 +208,35 @@
 <tbody>
 <tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/middleware/interfaces/configuration/scope/AALSpaceScope.html" title="class in org.universAAL.middleware.interfaces.configuration.scope">AALSpaceScope</a></span></code>
-<div class="block">Defines Scopes for entities that are applicable over the whole AALSpace, so
- when managed its value will be the same on the whole AALSpace.</div>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/middleware/interfaces/configuration/scope/ApplicationScope.html" title="class in org.universAAL.middleware.interfaces.configuration.scope">ApplicationScope</a></span></code>
+<div class="block">Defines an entity that is applicable over a certain application, this will be
+ shared over the whole Space for the same application.</div>
 </td>
 </tr>
 <tr class="rowColor">
-<td class="colFirst"><code>class&nbsp;</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/middleware/interfaces/configuration/scope/ApplicationScope.html" title="class in org.universAAL.middleware.interfaces.configuration.scope">ApplicationScope</a></span></code>
-<div class="block">Defines an entity that is applicable over a certain application, this will be
- shared over the whole AALSpace for the same application.</div>
-</td>
-</tr>
-<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/middleware/interfaces/configuration/scope/AppPartScope.html" title="class in org.universAAL.middleware.interfaces.configuration.scope">AppPartScope</a></span></code>
 <div class="block">Defines an Entity same as <a href="../../../../../../../org/universAAL/middleware/interfaces/configuration/scope/ApplicationScope.html" title="class in org.universAAL.middleware.interfaces.configuration.scope"><code>ApplicationScope</code></a> but with finer grain, for
  application parts.</div>
 </td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/middleware/interfaces/configuration/scope/InstanceScope.html" title="class in org.universAAL.middleware.interfaces.configuration.scope">InstanceScope</a></span></code>
 <div class="block">Defines entity that are only applicable for the instance given in the scope.</div>
 </td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/middleware/interfaces/configuration/scope/ModuleScope.html" title="class in org.universAAL.middleware.interfaces.configuration.scope">ModuleScope</a></span></code>
 <div class="block">Used for entities that are only applicable for the given module and instance.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>class&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/middleware/interfaces/configuration/scope/SpaceScope.html" title="class in org.universAAL.middleware.interfaces.configuration.scope">SpaceScope</a></span></code>
+<div class="block">Defines Scopes for entities that are applicable over the whole Space, so
+ when managed its value will be the same on the whole Space.</div>
 </td>
 </tr>
 </tbody>
@@ -250,29 +250,29 @@
 <tbody>
 <tr class="altColor">
 <td class="colFirst"><code>static <a href="../../../../../../../org/universAAL/middleware/interfaces/configuration/scope/Scope.html" title="class in org.universAAL.middleware.interfaces.configuration.scope">Scope</a></code></td>
-<td class="colLast"><span class="typeNameLabel">Scope.</span><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/middleware/interfaces/configuration/scope/Scope.html#aalScope-java.lang.String-">aalScope</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;id)</code>&nbsp;</td>
-</tr>
-<tr class="rowColor">
-<td class="colFirst"><code>static <a href="../../../../../../../org/universAAL/middleware/interfaces/configuration/scope/Scope.html" title="class in org.universAAL.middleware.interfaces.configuration.scope">Scope</a></code></td>
 <td class="colLast"><span class="typeNameLabel">Scope.</span><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/middleware/interfaces/configuration/scope/Scope.html#applicationPartScope-java.lang.String-java.lang.String-java.lang.String-">applicationPartScope</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;id,
                     <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;appId,
                     <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;partId)</code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>static <a href="../../../../../../../org/universAAL/middleware/interfaces/configuration/scope/Scope.html" title="class in org.universAAL.middleware.interfaces.configuration.scope">Scope</a></code></td>
 <td class="colLast"><span class="typeNameLabel">Scope.</span><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/middleware/interfaces/configuration/scope/Scope.html#applicationScope-java.lang.String-java.lang.String-">applicationScope</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;id,
                 <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;appId)</code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>static <a href="../../../../../../../org/universAAL/middleware/interfaces/configuration/scope/Scope.html" title="class in org.universAAL.middleware.interfaces.configuration.scope">Scope</a></code></td>
 <td class="colLast"><span class="typeNameLabel">Scope.</span><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/middleware/interfaces/configuration/scope/Scope.html#instanceScope-java.lang.String-org.universAAL.middleware.interfaces.PeerCard-">instanceScope</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;id,
              <a href="../../../../../../../org/universAAL/middleware/interfaces/PeerCard.html" title="class in org.universAAL.middleware.interfaces">PeerCard</a>&nbsp;peerCard)</code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>static <a href="../../../../../../../org/universAAL/middleware/interfaces/configuration/scope/Scope.html" title="class in org.universAAL.middleware.interfaces.configuration.scope">Scope</a></code></td>
 <td class="colLast"><span class="typeNameLabel">Scope.</span><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/middleware/interfaces/configuration/scope/Scope.html#moduleScope-java.lang.String-org.universAAL.middleware.interfaces.PeerCard-org.universAAL.middleware.container.ModuleContext-">moduleScope</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;id,
            <a href="../../../../../../../org/universAAL/middleware/interfaces/PeerCard.html" title="class in org.universAAL.middleware.interfaces">PeerCard</a>&nbsp;pc,
            <a href="../../../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;mc)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>static <a href="../../../../../../../org/universAAL/middleware/interfaces/configuration/scope/Scope.html" title="class in org.universAAL.middleware.interfaces.configuration.scope">Scope</a></code></td>
+<td class="colLast"><span class="typeNameLabel">Scope.</span><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/middleware/interfaces/configuration/scope/Scope.html#scope-java.lang.String-">scope</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;id)</code>&nbsp;</td>
 </tr>
 </tbody>
 </table>

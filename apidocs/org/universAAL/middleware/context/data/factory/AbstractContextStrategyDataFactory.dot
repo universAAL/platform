@@ -10,27 +10,27 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.context.data.factory.AbstractContextStrategyDataFactory
-	c1964512 [label=<<table title="org.universAAL.middleware.context.data.factory.AbstractContextStrategyDataFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractContextStrategyDataFactory.html">
+	c1804286 [label=<<table title="org.universAAL.middleware.context.data.factory.AbstractContextStrategyDataFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractContextStrategyDataFactory.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractContextStrategyDataFactory </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractContextStrategyDataFactory.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.context.data.factory.ContextStrategyDataFactory
-	c1964513 [label=<<table title="org.universAAL.middleware.context.data.factory.ContextStrategyDataFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ContextStrategyDataFactory.html">
+	c1804287 [label=<<table title="org.universAAL.middleware.context.data.factory.ContextStrategyDataFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ContextStrategyDataFactory.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ContextStrategyDataFactory </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ContextStrategyDataFactory.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.context.data.factory.IContextStrategyDataFactory
-	c1964514 [label=<<table title="org.universAAL.middleware.context.data.factory.IContextStrategyDataFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IContextStrategyDataFactory.html">
+	c1804288 [label=<<table title="org.universAAL.middleware.context.data.factory.IContextStrategyDataFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IContextStrategyDataFactory.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IContextStrategyDataFactory </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IContextStrategyDataFactory.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.context.data.factory.AbstractContextStrategyDataFactory implements org.universAAL.middleware.context.data.factory.IContextStrategyDataFactory
-	c1964514:p -> c1964512:p [dir=back,arrowtail=empty,style=dashed];
+	c1804288:p -> c1804286:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.context.data.factory.ContextStrategyDataFactory extends org.universAAL.middleware.context.data.factory.AbstractContextStrategyDataFactory
-	c1964512:p -> c1964513:p [dir=back,arrowtail=empty];
+	c1804286:p -> c1804287:p [dir=back,arrowtail=empty];
 }
 

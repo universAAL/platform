@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.lighting.simple.LightingInterfaceLevel2
-	c5290922 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingInterfaceLevel2" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LightingInterfaceLevel2.html">
+	c5070847 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingInterfaceLevel2" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LightingInterfaceLevel2.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> LightingInterfaceLevel2 </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LightingInterfaceLevel2.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel2
-	c5290941 [label=<<table title="org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel2" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../samples/lighting/server_simple/LightingSimplifiedServiceLevel2.html">
+	c5070866 [label=<<table title="org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel2" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../samples/lighting/server_simple/LightingSimplifiedServiceLevel2.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LightingSimplifiedServiceLevel2 </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../samples/lighting/server_simple/LightingSimplifiedServiceLevel2.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel2 implements org.universAAL.ontology.lighting.simple.LightingInterfaceLevel2
-	c5290922:p -> c5290941:p [dir=back,arrowtail=empty,style=dashed];
+	c5070847:p -> c5070866:p [dir=back,arrowtail=empty,style=dashed];
 }
 

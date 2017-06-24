@@ -10,56 +10,56 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c5629322 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
+	c5403163 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.unit.Unit
-	c5629932 [label=<<table title="org.universAAL.ontology.unit.Unit" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../unit/Unit.html">
+	c5403721 [label=<<table title="org.universAAL.ontology.unit.Unit" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../unit/Unit.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Unit </td></tr>
 		</table></td></tr>
 		</table>>, URL="../unit/Unit.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.unit.Prefix
-	c5629938 [label=<<table title="org.universAAL.ontology.unit.Prefix" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../unit/Prefix.html">
+	c5403727 [label=<<table title="org.universAAL.ontology.unit.Prefix" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../unit/Prefix.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Prefix </td></tr>
 		</table></td></tr>
 		</table>>, URL="../unit/Prefix.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.measurement.MeasurementError
-	c5629946 [label=<<table title="org.universAAL.ontology.measurement.MeasurementError" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MeasurementError.html">
+	c5403735 [label=<<table title="org.universAAL.ontology.measurement.MeasurementError" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MeasurementError.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> MeasurementError </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./MeasurementError.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.measurement.Measurement
-	c5629947 [label=<<table title="org.universAAL.ontology.measurement.Measurement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Measurement.html">
+	c5403736 [label=<<table title="org.universAAL.ontology.measurement.Measurement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Measurement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Measurement </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Measurement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.measurement.Signal
-	c5629948 [label=<<table title="org.universAAL.ontology.measurement.Signal" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Signal.html">
+	c5403737 [label=<<table title="org.universAAL.ontology.measurement.Signal" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Signal.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Signal </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Signal.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.unit.Unit extends org.universAAL.middleware.owl.ManagedIndividual
-	c5629322:p -> c5629932:p [dir=back,arrowtail=empty];
+	c5403163:p -> c5403721:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.unit.Prefix extends org.universAAL.middleware.owl.ManagedIndividual
-	c5629322:p -> c5629938:p [dir=back,arrowtail=empty];
+	c5403163:p -> c5403727:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.measurement.MeasurementError extends org.universAAL.ontology.measurement.Measurement
-	c5629947:p -> c5629946:p [dir=back,arrowtail=empty];
+	c5403736:p -> c5403735:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.measurement.Measurement extends org.universAAL.middleware.owl.ManagedIndividual
-	c5629322:p -> c5629947:p [dir=back,arrowtail=empty];
+	c5403163:p -> c5403736:p [dir=back,arrowtail=empty];
 	// org.universAAL.ontology.measurement.Measurement NAVASSOC org.universAAL.ontology.unit.Prefix
-	c5629947:p -> c5629938:p [taillabel="", label="hasPrefix", headlabel="[0..1]", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c5403736:p -> c5403727:p [taillabel="", label="hasPrefix", headlabel="[0..1]", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.universAAL.ontology.measurement.Measurement NAVASSOC org.universAAL.ontology.unit.Unit
-	c5629947:p -> c5629932:p [taillabel="", label="hasUnit", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c5403736:p -> c5403721:p [taillabel="", label="hasUnit", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.universAAL.ontology.measurement.Measurement NAVASSOC org.universAAL.ontology.measurement.MeasurementError
-	c5629947:p -> c5629946:p [taillabel="", label="hasError", headlabel="[0..1]", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c5403736:p -> c5403735:p [taillabel="", label="hasError", headlabel="[0..1]", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	//org.universAAL.ontology.measurement.Signal extends org.universAAL.ontology.measurement.Measurement
-	c5629947:p -> c5629948:p [dir=back,arrowtail=empty];
+	c5403736:p -> c5403737:p [dir=back,arrowtail=empty];
 }
 

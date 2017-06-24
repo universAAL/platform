@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.dependability.ContinuedFault
-	c3241707 [label=<<table title="org.universAAL.ontology.dependability.ContinuedFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ContinuedFault.html">
+	c3058497 [label=<<table title="org.universAAL.ontology.dependability.ContinuedFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ContinuedFault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ContinuedFault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ContinuedFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.dependability.Fault
-	c3241725 [label=<<table title="org.universAAL.ontology.dependability.Fault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Fault.html">
+	c3058515 [label=<<table title="org.universAAL.ontology.dependability.Fault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Fault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Fault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Fault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.dependability.ContinuedFault extends org.universAAL.ontology.dependability.Fault
-	c3241725:p -> c3241707:p [dir=back,arrowtail=empty];
+	c3058515:p -> c3058497:p [dir=back,arrowtail=empty];
 }
 

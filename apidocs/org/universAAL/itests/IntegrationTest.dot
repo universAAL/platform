@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.itests.IntegrationTest
-	c4889884 [label=<<table title="org.universAAL.itests.IntegrationTest" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IntegrationTest.html">
+	c4677037 [label=<<table title="org.universAAL.itests.IntegrationTest" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IntegrationTest.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> IntegrationTest </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IntegrationTest.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.itests.IntegrationTest extends org.springframework.osgi.test.AbstractConfigurableBundleCreatorTests
-	c4892700:p -> c4889884:p [dir=back,arrowtail=empty];
+	c4679801:p -> c4677037:p [dir=back,arrowtail=empty];
 	// org.springframework.osgi.test.AbstractConfigurableBundleCreatorTests
-	c4892700 [label=<<table title="org.springframework.osgi.test.AbstractConfigurableBundleCreatorTests" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/springframework/osgi/test/AbstractConfigurableBundleCreatorTests.html">
+	c4679801 [label=<<table title="org.springframework.osgi.test.AbstractConfigurableBundleCreatorTests" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/springframework/osgi/test/AbstractConfigurableBundleCreatorTests.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractConfigurableBundleCreatorTests </font></td></tr>
 		</table></td></tr>

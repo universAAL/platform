@@ -10,28 +10,28 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.container.SharedObjectListener
-	c7934063 [label=<<table title="org.universAAL.middleware.container.SharedObjectListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/container/SharedObjectListener.html">
+	c7734484 [label=<<table title="org.universAAL.middleware.container.SharedObjectListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/container/SharedObjectListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> SharedObjectListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/container/SharedObjectListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.managers.api.AALSpaceListener
-	c7934338 [label=<<table title="org.universAAL.middleware.managers.api.AALSpaceListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/managers/api/AALSpaceListener.html">
+	// org.universAAL.middleware.managers.api.SpaceListener
+	c7734716 [label=<<table title="org.universAAL.middleware.managers.api.SpaceListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/managers/api/SpaceListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
-<tr><td align="center" balign="center"> AALSpaceListener </td></tr>
+<tr><td align="center" balign="center"> SpaceListener </td></tr>
 		</table></td></tr>
-		</table>>, URL="../../middleware/managers/api/AALSpaceListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="../../middleware/managers/api/SpaceListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.context.sysinfo.SystemEventsListener
-	c7935421 [label=<<table title="org.universAAL.context.sysinfo.SystemEventsListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SystemEventsListener.html">
+	c7735790 [label=<<table title="org.universAAL.context.sysinfo.SystemEventsListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SystemEventsListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SystemEventsListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SystemEventsListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.context.sysinfo.SystemEventsListener implements org.universAAL.middleware.container.SharedObjectListener
-	c7934063:p -> c7935421:p [dir=back,arrowtail=empty,style=dashed];
-	//org.universAAL.context.sysinfo.SystemEventsListener implements org.universAAL.middleware.managers.api.AALSpaceListener
-	c7934338:p -> c7935421:p [dir=back,arrowtail=empty,style=dashed];
+	c7734484:p -> c7735790:p [dir=back,arrowtail=empty,style=dashed];
+	//org.universAAL.context.sysinfo.SystemEventsListener implements org.universAAL.middleware.managers.api.SpaceListener
+	c7734716:p -> c7735790:p [dir=back,arrowtail=empty,style=dashed];
 }
 

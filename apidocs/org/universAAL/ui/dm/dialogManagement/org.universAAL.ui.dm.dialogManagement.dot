@@ -10,42 +10,42 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.dm.dialogManagement.DialogPoolCopier
-	c1036088 [label=<<table title="org.universAAL.ui.dm.dialogManagement.DialogPoolCopier" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DialogPoolCopier.html">
+	c1008912 [label=<<table title="org.universAAL.ui.dm.dialogManagement.DialogPoolCopier" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DialogPoolCopier.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DialogPoolCopier </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DialogPoolCopier.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.dialogManagement.NonRedundantDialogPriorityQueue
-	c1036089 [label=<<table title="org.universAAL.ui.dm.dialogManagement.NonRedundantDialogPriorityQueue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NonRedundantDialogPriorityQueue.html">
+	c1008913 [label=<<table title="org.universAAL.ui.dm.dialogManagement.NonRedundantDialogPriorityQueue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NonRedundantDialogPriorityQueue.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> NonRedundantDialogPriorityQueue </td></tr>
 		</table></td></tr>
 		</table>>, URL="./NonRedundantDialogPriorityQueue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.dialogManagement.DialogPriorityQueueVerbosity
-	c1036090 [label=<<table title="org.universAAL.ui.dm.dialogManagement.DialogPriorityQueueVerbosity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DialogPriorityQueueVerbosity.html">
+	c1008914 [label=<<table title="org.universAAL.ui.dm.dialogManagement.DialogPriorityQueueVerbosity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DialogPriorityQueueVerbosity.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DialogPriorityQueueVerbosity </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DialogPriorityQueueVerbosity.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.dialogManagement.DialogPriorityQueue
-	c1036091 [label=<<table title="org.universAAL.ui.dm.dialogManagement.DialogPriorityQueue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DialogPriorityQueue.html">
+	c1008915 [label=<<table title="org.universAAL.ui.dm.dialogManagement.DialogPriorityQueue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DialogPriorityQueue.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DialogPriorityQueue </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DialogPriorityQueue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.dialogManagement.UIRequestPriorityComparator
-	c1036092 [label=<<table title="org.universAAL.ui.dm.dialogManagement.UIRequestPriorityComparator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UIRequestPriorityComparator.html">
+	c1008916 [label=<<table title="org.universAAL.ui.dm.dialogManagement.UIRequestPriorityComparator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UIRequestPriorityComparator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UIRequestPriorityComparator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UIRequestPriorityComparator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.dialogManagement.DialogPoolFileStorage
-	c1036093 [label=<<table title="org.universAAL.ui.dm.dialogManagement.DialogPoolFileStorage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DialogPoolFileStorage.html">
+	c1008917 [label=<<table title="org.universAAL.ui.dm.dialogManagement.DialogPoolFileStorage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DialogPoolFileStorage.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DialogPoolFileStorage </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DialogPoolFileStorage.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.dm.dialogManagement.NonRedundantDialogPriorityQueue extends org.universAAL.ui.dm.dialogManagement.DialogPriorityQueue
-	c1036091:p -> c1036089:p [dir=back,arrowtail=empty];
+	c1008915:p -> c1008913:p [dir=back,arrowtail=empty];
 }
 

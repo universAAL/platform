@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.Ontology
-	c7749271 [label=<<table title="org.universAAL.middleware.owl.Ontology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/Ontology.html">
+	c7544511 [label=<<table title="org.universAAL.middleware.owl.Ontology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/Ontology.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Ontology </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/owl/Ontology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.space.SpaceOntology
-	c7749800 [label=<<table title="org.universAAL.ontology.space.SpaceOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SpaceOntology.html">
+	c7544988 [label=<<table title="org.universAAL.ontology.space.SpaceOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SpaceOntology.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SpaceOntology </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SpaceOntology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.space.SpaceOntology extends org.universAAL.middleware.owl.Ontology
-	c7749271:p -> c7749800:p [dir=back,arrowtail=empty];
+	c7544511:p -> c7544988:p [dir=back,arrowtail=empty];
 }
 

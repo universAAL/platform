@@ -95,15 +95,15 @@ var activeTableTab = "activeTableTab";
 <div class="subTitle">org.universAAL.middleware.rdf</div>
 <h2 title="Class Resource" class="title">Class Resource</h2>
 <map id="G" name="G">
-<area shape="rect" id="c7015639" href="./UnmodifiableResource.html" title="org.universAAL.middleware.rdf.UnmodifiableResource" alt="" coords="15,113,169,138"/>
+<area shape="rect" id="c6775867" href="./UnmodifiableResource.html" title="org.universAAL.middleware.rdf.UnmodifiableResource" alt="" coords="15,113,169,138"/>
 <area shape="rect" id="node1" href="./UnmodifiableResource.html" title="&lt;TABLE&gt;" alt="" coords="5,101,179,149"/>
-<area shape="rect" id="c7015647" href="./FinalizedResource.html" title="org.universAAL.middleware.rdf.FinalizedResource" alt="" coords="213,113,342,138"/>
+<area shape="rect" id="c6775875" href="./FinalizedResource.html" title="org.universAAL.middleware.rdf.FinalizedResource" alt="" coords="213,113,342,138"/>
 <area shape="rect" id="node2" href="./FinalizedResource.html" title="&lt;TABLE&gt;" alt="" coords="203,101,352,149"/>
-<area shape="rect" id="c7015650" href="./Resource.html" title="org.universAAL.middleware.rdf.Resource" alt="" coords="321,17,399,42"/>
+<area shape="rect" id="c6775878" href="./Resource.html" title="org.universAAL.middleware.rdf.Resource" alt="" coords="321,17,399,42"/>
 <area shape="rect" id="node3" href="./Resource.html" title="&lt;TABLE&gt;" alt="" coords="311,5,409,53"/>
-<area shape="rect" id="c7015695" href="../owl/TypeExpression.html" title="org.universAAL.middleware.owl.TypeExpression" alt="" coords="387,113,501,138"/>
+<area shape="rect" id="c6775923" href="../owl/TypeExpression.html" title="org.universAAL.middleware.owl.TypeExpression" alt="" coords="387,113,501,138"/>
 <area shape="rect" id="node4" href="../owl/TypeExpression.html" title="&lt;TABLE&gt;" alt="" coords="376,101,512,149"/>
-<area shape="rect" id="c7016098" href="../ui/impl/generic/CallMessage.html" title="org.universAAL.middleware.ui.impl.generic.CallMessage" alt="" coords="547,113,872,138"/>
+<area shape="rect" id="c6776274" href="../ui/impl/generic/CallMessage.html" title="org.universAAL.middleware.ui.impl.generic.CallMessage" alt="" coords="547,113,872,138"/>
 <area shape="rect" id="node5" href="../ui/impl/generic/CallMessage.html" title="&lt;TABLE&gt;" alt="" coords="536,101,883,149"/>
 </map>
 <!-- UML diagram added by UMLGraph version R5_6-24-gf6e263 (http://www.umlgraph.org/) -->
@@ -174,10 +174,22 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 </td>
 </tr>
 <tr class="rowColor">
+<td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/rdf/Resource.html#NAMESPACE_PREFIX">NAMESPACE_PREFIX</a></span></code>
+<div class="block">URI prefix for the universAAL namespace.</div>
+</td>
+</tr>
+<tr class="altColor">
 <td class="colFirst"><code>protected int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/rdf/Resource.html#ns_delim_index">ns_delim_index</a></span></code>
 <div class="block">For a given URIref, 'ns_delim_index' is the index of the delimiter (the
  symbol '#'), or -1 if there is no delimiter.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/rdf/Resource.html#PROP_INVOLVED_HUMAN_USER">PROP_INVOLVED_HUMAN_USER</a></span></code>
+<div class="block">URI for properties linking to the user involved.</div>
 </td>
 </tr>
 <tr class="altColor">
@@ -235,34 +247,34 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 </td>
 </tr>
 <tr class="rowColor">
-<td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/rdf/Resource.html#PROP_uAAL_INVOLVED_HUMAN_USER">PROP_uAAL_INVOLVED_HUMAN_USER</a></span></code>
-<div class="block">URI for properties linking to the user involved.</div>
-</td>
-</tr>
-<tr class="altColor">
 <td class="colFirst"><code>protected <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true" title="class or interface in java.util">Hashtable</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/rdf/Resource.html#props">props</a></span></code>
 <div class="block">The properties denote the RDF triples of this resource, realized as
  Hashtable.</div>
 </td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/rdf/Resource.html#RDF_EMPTY_LIST">RDF_EMPTY_LIST</a></span></code>
 <div class="block">URI for empty RDF lists, or the end of an RDF list.</div>
 </td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/rdf/Resource.html#RDF_NAMESPACE">RDF_NAMESPACE</a></span></code>
 <div class="block">URI of RDF namespace.</div>
 </td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/rdf/Resource.html#RDFS_NAMESPACE">RDFS_NAMESPACE</a></span></code>
 <div class="block">URI of RDFS namespace.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/rdf/Resource.html#SERVICE_NAMESPACE">SERVICE_NAMESPACE</a></span></code>
+<div class="block">URI for the universAAL service namespace.</div>
 </td>
 </tr>
 <tr class="altColor">
@@ -278,28 +290,16 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 </td>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/rdf/Resource.html#uAAL_NAMESPACE_PREFIX">uAAL_NAMESPACE_PREFIX</a></span></code>
-<div class="block">URI prefix for the universAAL namespace.</div>
-</td>
-</tr>
-<tr class="rowColor">
-<td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/rdf/Resource.html#uAAL_SERVICE_NAMESPACE">uAAL_SERVICE_NAMESPACE</a></span></code>
-<div class="block">URI for the universAAL service namespace.</div>
-</td>
-</tr>
-<tr class="altColor">
-<td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/rdf/Resource.html#uAAL_VOCABULARY_NAMESPACE">uAAL_VOCABULARY_NAMESPACE</a></span></code>
-<div class="block">URI for the universAAL namespace.</div>
-</td>
-</tr>
-<tr class="rowColor">
 <td class="colFirst"><code>protected <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/rdf/Resource.html#uri">uri</a></span></code>
 <div class="block">URI of this resource, or URIref (URI plus fragment identifier, separated
  by the symbol '#').</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/rdf/Resource.html#VOCABULARY_NAMESPACE">VOCABULARY_NAMESPACE</a></span></code>
+<div class="block">URI for the universAAL namespace.</div>
 </td>
 </tr>
 </table>
@@ -886,59 +886,59 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 </dl>
 </li>
 </ul>
-<a name="uAAL_NAMESPACE_PREFIX">
+<a name="NAMESPACE_PREFIX">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
-<h4>uAAL_NAMESPACE_PREFIX</h4>
-<pre>public static final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> uAAL_NAMESPACE_PREFIX</pre>
+<h4>NAMESPACE_PREFIX</h4>
+<pre>public static final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> NAMESPACE_PREFIX</pre>
 <div class="block">URI prefix for the universAAL namespace.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#org.universAAL.middleware.rdf.Resource.uAAL_NAMESPACE_PREFIX">Constant Field Values</a></dd>
+<dd><a href="../../../../constant-values.html#org.universAAL.middleware.rdf.Resource.NAMESPACE_PREFIX">Constant Field Values</a></dd>
 </dl>
 </li>
 </ul>
-<a name="uAAL_SERVICE_NAMESPACE">
+<a name="SERVICE_NAMESPACE">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
-<h4>uAAL_SERVICE_NAMESPACE</h4>
-<pre>public static final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> uAAL_SERVICE_NAMESPACE</pre>
+<h4>SERVICE_NAMESPACE</h4>
+<pre>public static final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> SERVICE_NAMESPACE</pre>
 <div class="block">URI for the universAAL service namespace.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#org.universAAL.middleware.rdf.Resource.uAAL_SERVICE_NAMESPACE">Constant Field Values</a></dd>
+<dd><a href="../../../../constant-values.html#org.universAAL.middleware.rdf.Resource.SERVICE_NAMESPACE">Constant Field Values</a></dd>
 </dl>
 </li>
 </ul>
-<a name="uAAL_VOCABULARY_NAMESPACE">
+<a name="VOCABULARY_NAMESPACE">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
-<h4>uAAL_VOCABULARY_NAMESPACE</h4>
-<pre>public static final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> uAAL_VOCABULARY_NAMESPACE</pre>
+<h4>VOCABULARY_NAMESPACE</h4>
+<pre>public static final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> VOCABULARY_NAMESPACE</pre>
 <div class="block">URI for the universAAL namespace.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#org.universAAL.middleware.rdf.Resource.uAAL_VOCABULARY_NAMESPACE">Constant Field Values</a></dd>
+<dd><a href="../../../../constant-values.html#org.universAAL.middleware.rdf.Resource.VOCABULARY_NAMESPACE">Constant Field Values</a></dd>
 </dl>
 </li>
 </ul>
-<a name="PROP_uAAL_INVOLVED_HUMAN_USER">
+<a name="PROP_INVOLVED_HUMAN_USER">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
-<h4>PROP_uAAL_INVOLVED_HUMAN_USER</h4>
-<pre>public static final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> PROP_uAAL_INVOLVED_HUMAN_USER</pre>
+<h4>PROP_INVOLVED_HUMAN_USER</h4>
+<pre>public static final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> PROP_INVOLVED_HUMAN_USER</pre>
 <div class="block">URI for properties linking to the user involved.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#org.universAAL.middleware.rdf.Resource.PROP_uAAL_INVOLVED_HUMAN_USER">Constant Field Values</a></dd>
+<dd><a href="../../../../constant-values.html#org.universAAL.middleware.rdf.Resource.PROP_INVOLVED_HUMAN_USER">Constant Field Values</a></dd>
 </dl>
 </li>
 </ul>

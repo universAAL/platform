@@ -10,42 +10,42 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.LengthRestriction
-	c5201891 [label=<<table title="org.universAAL.middleware.owl.LengthRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LengthRestriction.html">
+	c4983428 [label=<<table title="org.universAAL.middleware.owl.LengthRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LengthRestriction.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> LengthRestriction </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./LengthRestriction.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.owl.URIRestriction
-	c5201896 [label=<<table title="org.universAAL.middleware.owl.URIRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./URIRestriction.html">
+	c4983433 [label=<<table title="org.universAAL.middleware.owl.URIRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./URIRestriction.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> URIRestriction </td></tr>
 		</table></td></tr>
 		</table>>, URL="./URIRestriction.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.owl.TypeRestriction
-	c5201898 [label=<<table title="org.universAAL.middleware.owl.TypeRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TypeRestriction.html">
+	c4983435 [label=<<table title="org.universAAL.middleware.owl.TypeRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TypeRestriction.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> TypeRestriction </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./TypeRestriction.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.owl.StringRestriction
-	c5201904 [label=<<table title="org.universAAL.middleware.owl.StringRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./StringRestriction.html">
+	c4983441 [label=<<table title="org.universAAL.middleware.owl.StringRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./StringRestriction.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> StringRestriction </td></tr>
 		</table></td></tr>
 		</table>>, URL="./StringRestriction.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.owl.Base64Restriction
-	c5201908 [label=<<table title="org.universAAL.middleware.owl.Base64Restriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Base64Restriction.html">
+	c4983445 [label=<<table title="org.universAAL.middleware.owl.Base64Restriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Base64Restriction.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Base64Restriction </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Base64Restriction.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.owl.LengthRestriction extends org.universAAL.middleware.owl.TypeRestriction
-	c5201898:p -> c5201891:p [dir=back,arrowtail=empty];
+	c4983435:p -> c4983428:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.owl.URIRestriction extends org.universAAL.middleware.owl.LengthRestriction
-	c5201891:p -> c5201896:p [dir=back,arrowtail=empty];
+	c4983428:p -> c4983433:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.owl.StringRestriction extends org.universAAL.middleware.owl.LengthRestriction
-	c5201891:p -> c5201904:p [dir=back,arrowtail=empty];
+	c4983428:p -> c4983441:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.owl.Base64Restriction extends org.universAAL.middleware.owl.LengthRestriction
-	c5201891:p -> c5201908:p [dir=back,arrowtail=empty];
+	c4983428:p -> c4983445:p [dir=back,arrowtail=empty];
 }
 

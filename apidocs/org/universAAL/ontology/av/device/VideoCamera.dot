@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.phThing.Device
-	c8546962 [label=<<table title="org.universAAL.ontology.phThing.Device" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../phThing/Device.html">
+	c8336307 [label=<<table title="org.universAAL.ontology.phThing.Device" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../phThing/Device.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Device </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../phThing/Device.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.av.device.VideoCamera
-	c8547208 [label=<<table title="org.universAAL.ontology.av.device.VideoCamera" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./VideoCamera.html">
+	c8336553 [label=<<table title="org.universAAL.ontology.av.device.VideoCamera" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./VideoCamera.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> VideoCamera </td></tr>
 		</table></td></tr>
 		</table>>, URL="./VideoCamera.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.av.device.VideoCamera extends org.universAAL.ontology.phThing.Device
-	c8546962:p -> c8547208:p [dir=back,arrowtail=empty];
+	c8336307:p -> c8336553:p [dir=back,arrowtail=empty];
 }
 

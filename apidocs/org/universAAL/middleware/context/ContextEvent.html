@@ -95,11 +95,11 @@ var activeTableTab = "activeTableTab";
 <div class="subTitle">org.universAAL.middleware.context</div>
 <h2 title="Class ContextEvent" class="title">Class ContextEvent</h2>
 <map id="G" name="G">
-<area shape="rect" id="c3171455" href="../rdf/ScopedResource.html" title="org.universAAL.middleware.rdf.ScopedResource" alt="" coords="15,19,137,45"/>
+<area shape="rect" id="c2989545" href="../rdf/ScopedResource.html" title="org.universAAL.middleware.rdf.ScopedResource" alt="" coords="15,19,137,45"/>
 <area shape="rect" id="node1" href="../rdf/ScopedResource.html" title="&lt;TABLE&gt;" alt="" coords="5,8,147,56"/>
-<area shape="rect" id="c3171791" href="./ContextEvent.html" title="org.universAAL.middleware.context.ContextEvent" alt="" coords="99,118,200,143"/>
+<area shape="rect" id="c2989829" href="./ContextEvent.html" title="org.universAAL.middleware.context.ContextEvent" alt="" coords="99,118,200,143"/>
 <area shape="rect" id="node3" href="./ContextEvent.html" title="&lt;TABLE&gt;" alt="" coords="88,107,211,155"/>
-<area shape="rect" id="c3171759" href="../bus/model/matchable/Event.html" title="org.universAAL.middleware.bus.model.matchable.Event" alt="" coords="181,11,267,53"/>
+<area shape="rect" id="c2989797" href="../bus/model/matchable/Event.html" title="org.universAAL.middleware.bus.model.matchable.Event" alt="" coords="181,11,267,53"/>
 <area shape="rect" id="node2" href="../bus/model/matchable/Event.html" title="&lt;TABLE&gt;" alt="" coords="171,6,277,58"/>
 </map>
 <!-- UML diagram added by UMLGraph version R5_6-24-gf6e263 (http://www.umlgraph.org/) -->
@@ -176,6 +176,10 @@ implements <a href="../../../../org/universAAL/middleware/bus/model/matchable/Ev
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/context/ContextEvent.html#CONTEXT_NAMESPACE">CONTEXT_NAMESPACE</a></span></code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/context/ContextEvent.html#LOCAL_NAME_CONFIDENCE">LOCAL_NAME_CONFIDENCE</a></span></code>
 <div class="block">The confidence of an inferred value or the probability for its
  correctness as an integer between 0 and 100 to indicate the probability
@@ -185,7 +189,7 @@ implements <a href="../../../../org/universAAL/middleware/bus/model/matchable/Ev
  the used indications in the inference process.</div>
 </td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/context/ContextEvent.html#LOCAL_NAME_EXPIRATION_TIME">LOCAL_NAME_EXPIRATION_TIME</a></span></code>
 <div class="block">An optional property of context events is its expiration time which says
@@ -194,25 +198,25 @@ implements <a href="../../../../org/universAAL/middleware/bus/model/matchable/Ev
  event reports a new value or confirms the old one.</div>
 </td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/context/ContextEvent.html#LOCAL_NAME_OBJECT">LOCAL_NAME_OBJECT</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/context/ContextEvent.html#LOCAL_NAME_PREDICATE">LOCAL_NAME_PREDICATE</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/context/ContextEvent.html#LOCAL_NAME_PROVIDER">LOCAL_NAME_PROVIDER</a></span></code>
 <div class="block">The provider of the contextual info.</div>
 </td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/context/ContextEvent.html#LOCAL_NAME_SUBJECT">LOCAL_NAME_SUBJECT</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/context/ContextEvent.html#LOCAL_NAME_TIMESTAMP">LOCAL_NAME_TIMESTAMP</a></span></code>
 <div class="block">A timestamp, as a Long value to be interpreted as the number of
@@ -221,41 +225,37 @@ implements <a href="../../../../org/universAAL/middleware/bus/model/matchable/Ev
  <a href="../../../../org/universAAL/middleware/context/ContextEvent.html#ContextEvent-org.universAAL.middleware.rdf.Resource-java.lang.String-"><code>ContextEvent(Resource, String)</code></a> constructor.</div>
 </td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/context/ContextEvent.html#MY_URI">MY_URI</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/context/ContextEvent.html#PROP_CONTEXT_CONFIDENCE">PROP_CONTEXT_CONFIDENCE</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/context/ContextEvent.html#PROP_CONTEXT_EXPIRATION_TIME">PROP_CONTEXT_EXPIRATION_TIME</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/context/ContextEvent.html#PROP_CONTEXT_PROVIDER">PROP_CONTEXT_PROVIDER</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/context/ContextEvent.html#PROP_CONTEXT_TIMESTAMP">PROP_CONTEXT_TIMESTAMP</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/context/ContextEvent.html#PROP_RDF_OBJECT">PROP_RDF_OBJECT</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/context/ContextEvent.html#PROP_RDF_PREDICATE">PROP_RDF_PREDICATE</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
-<td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/context/ContextEvent.html#PROP_RDF_SUBJECT">PROP_RDF_SUBJECT</a></span></code>&nbsp;</td>
-</tr>
 <tr class="altColor">
 <td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/context/ContextEvent.html#uAAL_CONTEXT_NAMESPACE">uAAL_CONTEXT_NAMESPACE</a></span></code>&nbsp;</td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/middleware/context/ContextEvent.html#PROP_RDF_SUBJECT">PROP_RDF_SUBJECT</a></span></code>&nbsp;</td>
 </tr>
 </table>
 <ul class="blockList">
@@ -270,7 +270,7 @@ implements <a href="../../../../org/universAAL/middleware/bus/model/matchable/Ev
 <!--   -->
 </a>
 <h3>Fields inherited from class&nbsp;org.universAAL.middleware.rdf.<a href="../../../../org/universAAL/middleware/rdf/Resource.html" title="class in org.universAAL.middleware.rdf">Resource</a></h3>
-<code><a href="../../../../org/universAAL/middleware/rdf/Resource.html#ANON_URI_PREFIX">ANON_URI_PREFIX</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#blockAddingTypes">blockAddingTypes</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#isXMLLiteral">isXMLLiteral</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#ns_delim_index">ns_delim_index</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#PROP_RDF_FIRST">PROP_RDF_FIRST</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#PROP_RDF_REST">PROP_RDF_REST</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#PROP_RDF_TYPE">PROP_RDF_TYPE</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#PROP_RDFS_COMMENT">PROP_RDFS_COMMENT</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#PROP_RDFS_LABEL">PROP_RDFS_LABEL</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#PROP_SERIALIZATION_FULL">PROP_SERIALIZATION_FULL</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#PROP_SERIALIZATION_OPTIONAL">PROP_SERIALIZATION_OPTIONAL</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#PROP_SERIALIZATION_REDUCED">PROP_SERIALIZATION_REDUCED</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#PROP_SERIALIZATION_UNDEFINED">PROP_SERIALIZATION_UNDEFINED</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#PROP_uAAL_INVOLVED_HUMAN_USER">PROP_uAAL_INVOLVED_HUMAN_USER</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#props">props</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#RDF_EMPTY_LIST">RDF_EMPTY_LIST</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#RDF_NAMESPACE">RDF_NAMESPACE</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#RDFS_NAMESPACE">RDFS_NAMESPACE</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#TYPE_RDF_LIST">TYPE_RDF_LIST</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#TYPE_RDFS_CLASS">TYPE_RDFS_CLASS</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#uAAL_NAMESPACE_PREFIX">uAAL_NAMESPACE_PREFIX</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#uAAL_SERVICE_NAMESPACE">uAAL_SERVICE_NAMESPACE</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#uAAL_VOCABULARY_NAMESPACE">uAAL_VOCABULARY_NAMESPACE</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#uri">uri</a></code></li>
+<code><a href="../../../../org/universAAL/middleware/rdf/Resource.html#ANON_URI_PREFIX">ANON_URI_PREFIX</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#blockAddingTypes">blockAddingTypes</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#isXMLLiteral">isXMLLiteral</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#NAMESPACE_PREFIX">NAMESPACE_PREFIX</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#ns_delim_index">ns_delim_index</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#PROP_INVOLVED_HUMAN_USER">PROP_INVOLVED_HUMAN_USER</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#PROP_RDF_FIRST">PROP_RDF_FIRST</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#PROP_RDF_REST">PROP_RDF_REST</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#PROP_RDF_TYPE">PROP_RDF_TYPE</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#PROP_RDFS_COMMENT">PROP_RDFS_COMMENT</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#PROP_RDFS_LABEL">PROP_RDFS_LABEL</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#PROP_SERIALIZATION_FULL">PROP_SERIALIZATION_FULL</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#PROP_SERIALIZATION_OPTIONAL">PROP_SERIALIZATION_OPTIONAL</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#PROP_SERIALIZATION_REDUCED">PROP_SERIALIZATION_REDUCED</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#PROP_SERIALIZATION_UNDEFINED">PROP_SERIALIZATION_UNDEFINED</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#props">props</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#RDF_EMPTY_LIST">RDF_EMPTY_LIST</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#RDF_NAMESPACE">RDF_NAMESPACE</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#RDFS_NAMESPACE">RDFS_NAMESPACE</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#SERVICE_NAMESPACE">SERVICE_NAMESPACE</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#TYPE_RDF_LIST">TYPE_RDF_LIST</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#TYPE_RDFS_CLASS">TYPE_RDFS_CLASS</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#uri">uri</a>, <a href="../../../../org/universAAL/middleware/rdf/Resource.html#VOCABULARY_NAMESPACE">VOCABULARY_NAMESPACE</a></code></li>
 </ul>
 </li>
 </ul>
@@ -506,16 +506,16 @@ implements <a href="../../../../org/universAAL/middleware/bus/model/matchable/Ev
 <!--   -->
 </a>
 <h3>Field Detail</h3>
-<a name="uAAL_CONTEXT_NAMESPACE">
+<a name="CONTEXT_NAMESPACE">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
-<h4>uAAL_CONTEXT_NAMESPACE</h4>
-<pre>public static final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> uAAL_CONTEXT_NAMESPACE</pre>
+<h4>CONTEXT_NAMESPACE</h4>
+<pre>public static final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> CONTEXT_NAMESPACE</pre>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#org.universAAL.middleware.context.ContextEvent.uAAL_CONTEXT_NAMESPACE">Constant Field Values</a></dd>
+<dd><a href="../../../../constant-values.html#org.universAAL.middleware.context.ContextEvent.CONTEXT_NAMESPACE">Constant Field Values</a></dd>
 </dl>
 </li>
 </ul>

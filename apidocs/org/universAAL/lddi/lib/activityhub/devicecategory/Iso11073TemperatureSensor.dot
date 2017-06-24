@@ -10,28 +10,28 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.lddi.lib.activityhub.devicemodel.TemperatureSensor
-	c4984004 [label=<<table title="org.universAAL.lddi.lib.activityhub.devicemodel.TemperatureSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../devicemodel/TemperatureSensor.html">
+	c4769441 [label=<<table title="org.universAAL.lddi.lib.activityhub.devicemodel.TemperatureSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../devicemodel/TemperatureSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TemperatureSensor </td></tr>
 		</table></td></tr>
 		</table>>, URL="../devicemodel/TemperatureSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.lib.activityhub.devicecategory.ActivityHubBaseDeviceCategory
-	c4984027 [label=<<table title="org.universAAL.lddi.lib.activityhub.devicecategory.ActivityHubBaseDeviceCategory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ActivityHubBaseDeviceCategory.html">
+	c4769464 [label=<<table title="org.universAAL.lddi.lib.activityhub.devicecategory.ActivityHubBaseDeviceCategory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ActivityHubBaseDeviceCategory.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ActivityHubBaseDeviceCategory </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ActivityHubBaseDeviceCategory.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.lib.activityhub.devicecategory.Iso11073TemperatureSensor
-	c4984031 [label=<<table title="org.universAAL.lddi.lib.activityhub.devicecategory.Iso11073TemperatureSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Iso11073TemperatureSensor.html">
+	c4769468 [label=<<table title="org.universAAL.lddi.lib.activityhub.devicecategory.Iso11073TemperatureSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Iso11073TemperatureSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Iso11073TemperatureSensor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Iso11073TemperatureSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.lddi.lib.activityhub.devicemodel.TemperatureSensor implements org.universAAL.lddi.lib.activityhub.devicecategory.Iso11073TemperatureSensor
-	c4984031:p -> c4984004:p [dir=back,arrowtail=empty,style=dashed];
+	c4769468:p -> c4769441:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.lddi.lib.activityhub.devicecategory.Iso11073TemperatureSensor implements org.universAAL.lddi.lib.activityhub.devicecategory.ActivityHubBaseDeviceCategory
-	c4984027:p -> c4984031:p [dir=back,arrowtail=empty,style=dashed];
+	c4769464:p -> c4769468:p [dir=back,arrowtail=empty,style=dashed];
 }
 

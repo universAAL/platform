@@ -10,38 +10,38 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.samples.lighting.server_simple.Activator
-	c1247266 [label=<<table title="org.universAAL.samples.lighting.server_simple.Activator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Activator.html">
+	c1216294 [label=<<table title="org.universAAL.samples.lighting.server_simple.Activator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Activator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Activator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Activator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.samples.lighting.server_simple.MyLightingOntologified
-	c1247267 [label=<<table title="org.universAAL.samples.lighting.server_simple.MyLightingOntologified" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MyLightingOntologified.html">
+	c1216295 [label=<<table title="org.universAAL.samples.lighting.server_simple.MyLightingOntologified" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MyLightingOntologified.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MyLightingOntologified </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MyLightingOntologified.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel3
-	c1247268 [label=<<table title="org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel3" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingSimplifiedServiceLevel3.html">
+	c1216296 [label=<<table title="org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel3" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingSimplifiedServiceLevel3.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LightingSimplifiedServiceLevel3 </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LightingSimplifiedServiceLevel3.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel2
-	c1247269 [label=<<table title="org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel2" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingSimplifiedServiceLevel2.html">
+	c1216297 [label=<<table title="org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel2" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingSimplifiedServiceLevel2.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LightingSimplifiedServiceLevel2 </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LightingSimplifiedServiceLevel2.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel1
-	c1247270 [label=<<table title="org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel1" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingSimplifiedServiceLevel1.html">
+	c1216298 [label=<<table title="org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel1" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingSimplifiedServiceLevel1.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LightingSimplifiedServiceLevel1 </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LightingSimplifiedServiceLevel1.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel2 extends org.universAAL.samples.lighting.server_simple.MyLightingOntologified
-	c1247267:p -> c1247269:p [dir=back,arrowtail=empty];
+	c1216295:p -> c1216297:p [dir=back,arrowtail=empty];
 	//org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel1 extends org.universAAL.samples.lighting.server_simple.MyLightingOntologified
-	c1247267:p -> c1247270:p [dir=back,arrowtail=empty];
+	c1216295:p -> c1216298:p [dir=back,arrowtail=empty];
 }
 

@@ -10,16 +10,16 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.container.osgi.run.Activator
-	c460416 [label=<<table title="org.universAAL.middleware.container.osgi.run.Activator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Activator.html">
+	c443588 [label=<<table title="org.universAAL.middleware.container.osgi.run.Activator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Activator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Activator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Activator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.container.osgi.run.uAALBundleExtender
-	c460417 [label=<<table title="org.universAAL.middleware.container.osgi.run.uAALBundleExtender" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./uAALBundleExtender.html">
+	// org.universAAL.middleware.container.osgi.run.OSGiExtender
+	c443589 [label=<<table title="org.universAAL.middleware.container.osgi.run.OSGiExtender" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OSGiExtender.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> uAALBundleExtender </td></tr>
+<tr><td align="center" balign="center"> OSGiExtender </td></tr>
 		</table></td></tr>
-		</table>>, URL="./uAALBundleExtender.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./OSGiExtender.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.device.DimmerActuator
-	c3651562 [label=<<table title="org.universAAL.ontology.device.DimmerActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DimmerActuator.html">
+	c3460968 [label=<<table title="org.universAAL.ontology.device.DimmerActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DimmerActuator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DimmerActuator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DimmerActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.DimmerController
-	c3651602 [label=<<table title="org.universAAL.ontology.device.DimmerController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DimmerController.html">
+	c3461008 [label=<<table title="org.universAAL.ontology.device.DimmerController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DimmerController.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DimmerController </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DimmerController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.device.DimmerController extends org.universAAL.ontology.device.DimmerActuator
-	c3651562:p -> c3651602:p [dir=back,arrowtail=empty];
+	c3460968:p -> c3461008:p [dir=back,arrowtail=empty];
 }
 

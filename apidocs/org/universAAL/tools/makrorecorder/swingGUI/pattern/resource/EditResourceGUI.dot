@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.makrorecorder.swingGUI.pattern.resource.EditResourceGUI
-	c3789175 [label=<<table title="org.universAAL.tools.makrorecorder.swingGUI.pattern.resource.EditResourceGUI" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./EditResourceGUI.html">
+	c3596137 [label=<<table title="org.universAAL.tools.makrorecorder.swingGUI.pattern.resource.EditResourceGUI" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./EditResourceGUI.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> EditResourceGUI </td></tr>
 		</table></td></tr>
 		</table>>, URL="./EditResourceGUI.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.makrorecorder.swingGUI.pattern.resource.EditResourceGUI extends java.awt.Dialog
-	c3789429:p -> c3789175:p [dir=back,arrowtail=empty];
+	c3596391:p -> c3596137:p [dir=back,arrowtail=empty];
 	// java.awt.Dialog
-	c3789429 [label=<<table title="java.awt.Dialog" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/awt/Dialog.html">
+	c3596391 [label=<<table title="java.awt.Dialog" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/awt/Dialog.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Dialog </td></tr>
 		</table></td></tr>

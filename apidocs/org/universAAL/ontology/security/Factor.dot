@@ -10,42 +10,42 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c4061029 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
+	c3863103 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.security.PossessionFactor
-	c4062097 [label=<<table title="org.universAAL.ontology.security.PossessionFactor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PossessionFactor.html">
+	c3864119 [label=<<table title="org.universAAL.ontology.security.PossessionFactor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PossessionFactor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> PossessionFactor </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./PossessionFactor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.security.KnowledgeFactor
-	c4062104 [label=<<table title="org.universAAL.ontology.security.KnowledgeFactor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./KnowledgeFactor.html">
+	c3864126 [label=<<table title="org.universAAL.ontology.security.KnowledgeFactor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./KnowledgeFactor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> KnowledgeFactor </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./KnowledgeFactor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.security.InherenceFactor
-	c4062110 [label=<<table title="org.universAAL.ontology.security.InherenceFactor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InherenceFactor.html">
+	c3864132 [label=<<table title="org.universAAL.ontology.security.InherenceFactor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InherenceFactor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> InherenceFactor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./InherenceFactor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.security.Factor
-	c4062114 [label=<<table title="org.universAAL.ontology.security.Factor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Factor.html">
+	c3864136 [label=<<table title="org.universAAL.ontology.security.Factor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Factor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Factor </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Factor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.security.PossessionFactor extends org.universAAL.ontology.security.Factor
-	c4062114:p -> c4062097:p [dir=back,arrowtail=empty];
+	c3864136:p -> c3864119:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.security.KnowledgeFactor extends org.universAAL.ontology.security.Factor
-	c4062114:p -> c4062104:p [dir=back,arrowtail=empty];
+	c3864136:p -> c3864126:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.security.InherenceFactor extends org.universAAL.ontology.security.Factor
-	c4062114:p -> c4062110:p [dir=back,arrowtail=empty];
+	c3864136:p -> c3864132:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.security.Factor extends org.universAAL.middleware.owl.ManagedIndividual
-	c4061029:p -> c4062114:p [dir=back,arrowtail=empty];
+	c3863103:p -> c3864136:p [dir=back,arrowtail=empty];
 }
 

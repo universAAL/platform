@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.dm.userInteraction.mainMenu.profilable.RDFMenuNode
-	c5683397 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.profilable.RDFMenuNode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../profilable/RDFMenuNode.html">
+	c5456250 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.profilable.RDFMenuNode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../profilable/RDFMenuNode.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RDFMenuNode </td></tr>
 		</table></td></tr>
 		</table>>, URL="../profilable/RDFMenuNode.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.userInteraction.mainMenu.file.MenuNode
-	c5683401 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.file.MenuNode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MenuNode.html">
+	c5456254 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.file.MenuNode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MenuNode.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MenuNode </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MenuNode.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.dm.userInteraction.mainMenu.profilable.RDFMenuNode extends org.universAAL.ui.dm.userInteraction.mainMenu.file.MenuNode
-	c5683401:p -> c5683397:p [dir=back,arrowtail=empty];
+	c5456254:p -> c5456250:p [dir=back,arrowtail=empty];
 }
 

@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.shape.LineSegment
-	c5361272 [label=<<table title="org.universAAL.ontology.shape.LineSegment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LineSegment.html">
+	c5139897 [label=<<table title="org.universAAL.ontology.shape.LineSegment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LineSegment.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LineSegment </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LineSegment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.shape.Line
-	c5361283 [label=<<table title="org.universAAL.ontology.shape.Line" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Line.html">
+	c5139908 [label=<<table title="org.universAAL.ontology.shape.Line" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Line.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Line </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Line.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.shape.Path
-	c5361286 [label=<<table title="org.universAAL.ontology.shape.Path" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Path.html">
+	c5139911 [label=<<table title="org.universAAL.ontology.shape.Path" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Path.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Path </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Path.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.shape.LineSegment extends org.universAAL.ontology.shape.Line
-	c5361283:p -> c5361272:p [dir=back,arrowtail=empty];
+	c5139908:p -> c5139897:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.shape.Line extends org.universAAL.ontology.shape.Path
-	c5361286:p -> c5361283:p [dir=back,arrowtail=empty];
+	c5139911:p -> c5139908:p [dir=back,arrowtail=empty];
 }
 

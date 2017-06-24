@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.device.Sensor
-	c2528059 [label=<<table title="org.universAAL.ontology.device.Sensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../device/Sensor.html">
+	c2354857 [label=<<table title="org.universAAL.ontology.device.Sensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../device/Sensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Sensor </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../device/Sensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.personalhealthdevice.BloodPressureSensor
-	c2528340 [label=<<table title="org.universAAL.ontology.personalhealthdevice.BloodPressureSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BloodPressureSensor.html">
+	c2355138 [label=<<table title="org.universAAL.ontology.personalhealthdevice.BloodPressureSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BloodPressureSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BloodPressureSensor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BloodPressureSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.personalhealthdevice.BloodPressureSensor extends org.universAAL.ontology.device.Sensor
-	c2528059:p -> c2528340:p [dir=back,arrowtail=empty];
+	c2354857:p -> c2355138:p [dir=back,arrowtail=empty];
 }
 

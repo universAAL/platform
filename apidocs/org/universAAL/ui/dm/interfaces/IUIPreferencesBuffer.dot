@@ -10,35 +10,35 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferSubscriptor
-	c4773589 [label=<<table title="org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferSubscriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ui/preferences/buffer/UIPreferencesBufferSubscriptor.html">
+	c4562822 [label=<<table title="org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferSubscriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ui/preferences/buffer/UIPreferencesBufferSubscriptor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UIPreferencesBufferSubscriptor </td></tr>
 		</table></td></tr>
 		</table>>, URL="../ui/preferences/buffer/UIPreferencesBufferSubscriptor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferPoller
-	c4773590 [label=<<table title="org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferPoller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ui/preferences/buffer/UIPreferencesBufferPoller.html">
+	c4562823 [label=<<table title="org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferPoller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ui/preferences/buffer/UIPreferencesBufferPoller.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UIPreferencesBufferPoller </td></tr>
 		</table></td></tr>
 		</table>>, URL="../ui/preferences/buffer/UIPreferencesBufferPoller.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferNoUpdate
-	c4773591 [label=<<table title="org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferNoUpdate" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ui/preferences/buffer/UIPreferencesBufferNoUpdate.html">
+	c4562824 [label=<<table title="org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferNoUpdate" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ui/preferences/buffer/UIPreferencesBufferNoUpdate.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UIPreferencesBufferNoUpdate </td></tr>
 		</table></td></tr>
 		</table>>, URL="../ui/preferences/buffer/UIPreferencesBufferNoUpdate.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.interfaces.IUIPreferencesBuffer
-	c4773624 [label=<<table title="org.universAAL.ui.dm.interfaces.IUIPreferencesBuffer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IUIPreferencesBuffer.html">
+	c4562857 [label=<<table title="org.universAAL.ui.dm.interfaces.IUIPreferencesBuffer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IUIPreferencesBuffer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IUIPreferencesBuffer </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IUIPreferencesBuffer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferSubscriptor implements org.universAAL.ui.dm.interfaces.IUIPreferencesBuffer
-	c4773624:p -> c4773589:p [dir=back,arrowtail=empty,style=dashed];
+	c4562857:p -> c4562822:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferPoller implements org.universAAL.ui.dm.interfaces.IUIPreferencesBuffer
-	c4773624:p -> c4773590:p [dir=back,arrowtail=empty,style=dashed];
+	c4562857:p -> c4562823:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferNoUpdate implements org.universAAL.ui.dm.interfaces.IUIPreferencesBuffer
-	c4773624:p -> c4773591:p [dir=back,arrowtail=empty,style=dashed];
+	c4562857:p -> c4562824:p [dir=back,arrowtail=empty,style=dashed];
 }
 

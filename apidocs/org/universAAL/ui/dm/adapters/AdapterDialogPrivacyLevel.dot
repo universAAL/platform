@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.dm.adapters.AdapterDialogPrivacyLevel
-	c2110710 [label=<<table title="org.universAAL.ui.dm.adapters.AdapterDialogPrivacyLevel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AdapterDialogPrivacyLevel.html">
+	c1947884 [label=<<table title="org.universAAL.ui.dm.adapters.AdapterDialogPrivacyLevel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AdapterDialogPrivacyLevel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AdapterDialogPrivacyLevel </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AdapterDialogPrivacyLevel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.interfaces.IAdapter
-	c2110714 [label=<<table title="org.universAAL.ui.dm.interfaces.IAdapter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../interfaces/IAdapter.html">
+	c1947888 [label=<<table title="org.universAAL.ui.dm.interfaces.IAdapter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../interfaces/IAdapter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IAdapter </td></tr>
 		</table></td></tr>
 		</table>>, URL="../interfaces/IAdapter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.dm.adapters.AdapterDialogPrivacyLevel implements org.universAAL.ui.dm.interfaces.IAdapter
-	c2110714:p -> c2110710:p [dir=back,arrowtail=empty,style=dashed];
+	c1947888:p -> c1947884:p [dir=back,arrowtail=empty,style=dashed];
 }
 

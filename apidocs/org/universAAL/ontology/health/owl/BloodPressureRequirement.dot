@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.health.owl.MeasurementRequirements
-	c2525491 [label=<<table title="org.universAAL.ontology.health.owl.MeasurementRequirements" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MeasurementRequirements.html">
+	c2352341 [label=<<table title="org.universAAL.ontology.health.owl.MeasurementRequirements" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MeasurementRequirements.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MeasurementRequirements </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MeasurementRequirements.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.health.owl.BloodPressureRequirement
-	c2525506 [label=<<table title="org.universAAL.ontology.health.owl.BloodPressureRequirement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BloodPressureRequirement.html">
+	c2352356 [label=<<table title="org.universAAL.ontology.health.owl.BloodPressureRequirement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BloodPressureRequirement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BloodPressureRequirement </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BloodPressureRequirement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.health.owl.BloodPressureRequirement extends org.universAAL.ontology.health.owl.MeasurementRequirements
-	c2525491:p -> c2525506:p [dir=back,arrowtail=empty];
+	c2352341:p -> c2352356:p [dir=back,arrowtail=empty];
 }
 

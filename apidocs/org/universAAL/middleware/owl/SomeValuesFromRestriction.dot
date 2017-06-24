@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.SomeValuesFromRestriction
-	c7726157 [label=<<table title="org.universAAL.middleware.owl.SomeValuesFromRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SomeValuesFromRestriction.html">
+	c7473593 [label=<<table title="org.universAAL.middleware.owl.SomeValuesFromRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SomeValuesFromRestriction.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SomeValuesFromRestriction </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SomeValuesFromRestriction.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.owl.PropertyRestriction
-	c7726172 [label=<<table title="org.universAAL.middleware.owl.PropertyRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PropertyRestriction.html">
+	c7473608 [label=<<table title="org.universAAL.middleware.owl.PropertyRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PropertyRestriction.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> PropertyRestriction </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./PropertyRestriction.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.owl.SomeValuesFromRestriction extends org.universAAL.middleware.owl.PropertyRestriction
-	c7726172:p -> c7726157:p [dir=back,arrowtail=empty];
+	c7473608:p -> c7473593:p [dir=back,arrowtail=empty];
 }
 

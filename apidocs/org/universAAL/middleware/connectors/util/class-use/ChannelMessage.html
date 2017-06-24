@@ -115,15 +115,15 @@
 <td class="colLast">&nbsp;</td>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><a href="#org.universAAL.middleware.modules.aalspace">org.universAAL.middleware.modules.aalspace</a></td>
-<td class="colLast">&nbsp;</td>
-</tr>
-<tr class="rowColor">
 <td class="colFirst"><a href="#org.universAAL.middleware.modules.communication">org.universAAL.middleware.modules.communication</a></td>
 <td class="colLast">&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><a href="#org.universAAL.middleware.modules.listener">org.universAAL.middleware.modules.listener</a></td>
+<td class="colLast">&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><a href="#org.universAAL.middleware.modules.space">org.universAAL.middleware.modules.space</a></td>
 <td class="colLast">&nbsp;</td>
 </tr>
 <tr class="rowColor">
@@ -345,7 +345,7 @@
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><span class="typeNameLabel">CommunicationModule.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/middleware/modules/CommunicationModule.html#send-org.universAAL.middleware.connectors.util.ChannelMessage-org.universAAL.middleware.interfaces.PeerCard-">send</a></span>(<a href="../../../../../../org/universAAL/middleware/connectors/util/ChannelMessage.html" title="class in org.universAAL.middleware.connectors.util">ChannelMessage</a>&nbsp;message,
     <a href="../../../../../../org/universAAL/middleware/interfaces/PeerCard.html" title="class in org.universAAL.middleware.interfaces">PeerCard</a>&nbsp;receiver)</code>
-<div class="block">Unicast send to the AALSpace Coordinator for joining operation</div>
+<div class="block">Unicast send to the Space Coordinator for joining operation</div>
 </td>
 </tr>
 <tr class="rowColor">
@@ -375,29 +375,6 @@
        <a href="../../../../../../org/universAAL/middleware/modules/listener/MessageListener.html" title="interface in org.universAAL.middleware.modules.listener">MessageListener</a>&nbsp;listener)</code>
 <div class="block">Broadcast implementation of the send</div>
 </td>
-</tr>
-</tbody>
-</table>
-</li>
-<li class="blockList"><a name="org.universAAL.middleware.modules.aalspace">
-<!--   -->
-</a>
-<h3>Uses of <a href="../../../../../../org/universAAL/middleware/connectors/util/ChannelMessage.html" title="class in org.universAAL.middleware.connectors.util">ChannelMessage</a> in <a href="../../../../../../org/universAAL/middleware/modules/aalspace/package-summary.html">org.universAAL.middleware.modules.aalspace</a></h3>
-<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing methods, and an explanation">
-<caption><span>Methods in <a href="../../../../../../org/universAAL/middleware/modules/aalspace/package-summary.html">org.universAAL.middleware.modules.aalspace</a> with parameters of type <a href="../../../../../../org/universAAL/middleware/connectors/util/ChannelMessage.html" title="class in org.universAAL.middleware.connectors.util">ChannelMessage</a></span><span class="tabEnd">&nbsp;</span></caption>
-<tr>
-<th class="colFirst" scope="col">Modifier and Type</th>
-<th class="colLast" scope="col">Method and Description</th>
-</tr>
-<tbody>
-<tr class="altColor">
-<td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">AALSpaceModuleImpl.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/middleware/modules/aalspace/AALSpaceModuleImpl.html#handleSendError-org.universAAL.middleware.connectors.util.ChannelMessage-org.universAAL.middleware.connectors.exception.CommunicationConnectorException-">handleSendError</a></span>(<a href="../../../../../../org/universAAL/middleware/connectors/util/ChannelMessage.html" title="class in org.universAAL.middleware.connectors.util">ChannelMessage</a>&nbsp;message,
-               <a href="../../../../../../org/universAAL/middleware/connectors/exception/CommunicationConnectorException.html" title="class in org.universAAL.middleware.connectors.exception">CommunicationConnectorException</a>&nbsp;exception)</code>&nbsp;</td>
-</tr>
-<tr class="rowColor">
-<td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">AALSpaceModuleImpl.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/middleware/modules/aalspace/AALSpaceModuleImpl.html#messageReceived-org.universAAL.middleware.connectors.util.ChannelMessage-">messageReceived</a></span>(<a href="../../../../../../org/universAAL/middleware/connectors/util/ChannelMessage.html" title="class in org.universAAL.middleware.connectors.util">ChannelMessage</a>&nbsp;message)</code>&nbsp;</td>
 </tr>
 </tbody>
 </table>
@@ -507,6 +484,29 @@
 <td class="colLast"><span class="typeNameLabel">MessageListener.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/middleware/modules/listener/MessageListener.html#messageReceived-org.universAAL.middleware.connectors.util.ChannelMessage-">messageReceived</a></span>(<a href="../../../../../../org/universAAL/middleware/connectors/util/ChannelMessage.html" title="class in org.universAAL.middleware.connectors.util">ChannelMessage</a>&nbsp;message)</code>
 <div class="block">Callback for the reception of messages</div>
 </td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList"><a name="org.universAAL.middleware.modules.space">
+<!--   -->
+</a>
+<h3>Uses of <a href="../../../../../../org/universAAL/middleware/connectors/util/ChannelMessage.html" title="class in org.universAAL.middleware.connectors.util">ChannelMessage</a> in <a href="../../../../../../org/universAAL/middleware/modules/space/package-summary.html">org.universAAL.middleware.modules.space</a></h3>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing methods, and an explanation">
+<caption><span>Methods in <a href="../../../../../../org/universAAL/middleware/modules/space/package-summary.html">org.universAAL.middleware.modules.space</a> with parameters of type <a href="../../../../../../org/universAAL/middleware/connectors/util/ChannelMessage.html" title="class in org.universAAL.middleware.connectors.util">ChannelMessage</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><span class="typeNameLabel">SpaceModuleImpl.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/middleware/modules/space/SpaceModuleImpl.html#handleSendError-org.universAAL.middleware.connectors.util.ChannelMessage-org.universAAL.middleware.connectors.exception.CommunicationConnectorException-">handleSendError</a></span>(<a href="../../../../../../org/universAAL/middleware/connectors/util/ChannelMessage.html" title="class in org.universAAL.middleware.connectors.util">ChannelMessage</a>&nbsp;message,
+               <a href="../../../../../../org/universAAL/middleware/connectors/exception/CommunicationConnectorException.html" title="class in org.universAAL.middleware.connectors.exception">CommunicationConnectorException</a>&nbsp;exception)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><span class="typeNameLabel">SpaceModuleImpl.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/middleware/modules/space/SpaceModuleImpl.html#messageReceived-org.universAAL.middleware.connectors.util.ChannelMessage-">messageReceived</a></span>(<a href="../../../../../../org/universAAL/middleware/connectors/util/ChannelMessage.html" title="class in org.universAAL.middleware.connectors.util">ChannelMessage</a>&nbsp;message)</code>&nbsp;</td>
 </tr>
 </tbody>
 </table>

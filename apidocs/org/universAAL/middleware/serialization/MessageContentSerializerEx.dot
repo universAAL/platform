@@ -10,28 +10,28 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.serialization.MessageContentSerializerEx
-	c5704400 [label=<<table title="org.universAAL.middleware.serialization.MessageContentSerializerEx" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MessageContentSerializerEx.html">
+	c5476889 [label=<<table title="org.universAAL.middleware.serialization.MessageContentSerializerEx" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MessageContentSerializerEx.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> MessageContentSerializerEx </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MessageContentSerializerEx.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.serialization.MessageContentSerializer
-	c5704401 [label=<<table title="org.universAAL.middleware.serialization.MessageContentSerializer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MessageContentSerializer.html">
+	c5476890 [label=<<table title="org.universAAL.middleware.serialization.MessageContentSerializer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MessageContentSerializer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> MessageContentSerializer </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MessageContentSerializer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.serialization.turtle.TurtleSerializer
-	c5704684 [label=<<table title="org.universAAL.middleware.serialization.turtle.TurtleSerializer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./turtle/TurtleSerializer.html">
+	c5477121 [label=<<table title="org.universAAL.middleware.serialization.turtle.TurtleSerializer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./turtle/TurtleSerializer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TurtleSerializer </td></tr>
 		</table></td></tr>
 		</table>>, URL="./turtle/TurtleSerializer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.serialization.MessageContentSerializerEx implements org.universAAL.middleware.serialization.MessageContentSerializer
-	c5704401:p -> c5704400:p [dir=back,arrowtail=empty,style=dashed];
+	c5476890:p -> c5476889:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.serialization.turtle.TurtleSerializer implements org.universAAL.middleware.serialization.MessageContentSerializerEx
-	c5704400:p -> c5704684:p [dir=back,arrowtail=empty,style=dashed];
+	c5476889:p -> c5477121:p [dir=back,arrowtail=empty,style=dashed];
 }
 

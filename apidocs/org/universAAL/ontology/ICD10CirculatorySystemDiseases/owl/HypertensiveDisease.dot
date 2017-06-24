@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.ICD10Diseases.owl.CirculatorySystemDisease
-	c4521231 [label=<<table title="org.universAAL.ontology.ICD10Diseases.owl.CirculatorySystemDisease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ICD10Diseases/owl/CirculatorySystemDisease.html">
+	c4314988 [label=<<table title="org.universAAL.ontology.ICD10Diseases.owl.CirculatorySystemDisease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ICD10Diseases/owl/CirculatorySystemDisease.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CirculatorySystemDisease </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ICD10Diseases/owl/CirculatorySystemDisease.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.HypertensiveDisease
-	c4521233 [label=<<table title="org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.HypertensiveDisease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HypertensiveDisease.html">
+	c4314990 [label=<<table title="org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.HypertensiveDisease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HypertensiveDisease.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HypertensiveDisease </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HypertensiveDisease.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.HypertensiveDisease extends org.universAAL.ontology.ICD10Diseases.owl.CirculatorySystemDisease
-	c4521231:p -> c4521233:p [dir=back,arrowtail=empty];
+	c4314988:p -> c4314990:p [dir=back,arrowtail=empty];
 }
 

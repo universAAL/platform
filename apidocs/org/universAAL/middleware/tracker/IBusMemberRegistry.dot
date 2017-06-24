@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.tracker.IBusMemberRegistry
-	c4573357 [label=<<table title="org.universAAL.middleware.tracker.IBusMemberRegistry" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IBusMemberRegistry.html">
+	c4363342 [label=<<table title="org.universAAL.middleware.tracker.IBusMemberRegistry" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IBusMemberRegistry.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IBusMemberRegistry </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IBusMemberRegistry.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.tracker.impl.BusMemberRegistryImpl
-	c4573360 [label=<<table title="org.universAAL.middleware.tracker.impl.BusMemberRegistryImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./impl/BusMemberRegistryImpl.html">
+	c4363345 [label=<<table title="org.universAAL.middleware.tracker.impl.BusMemberRegistryImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./impl/BusMemberRegistryImpl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BusMemberRegistryImpl </td></tr>
 		</table></td></tr>
 		</table>>, URL="./impl/BusMemberRegistryImpl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.tracker.impl.BusMemberRegistryImpl implements org.universAAL.middleware.tracker.IBusMemberRegistry
-	c4573357:p -> c4573360:p [dir=back,arrowtail=empty,style=dashed];
+	c4363342:p -> c4363345:p [dir=back,arrowtail=empty,style=dashed];
 }
 

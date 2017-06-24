@@ -10,34 +10,34 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c3818432 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
+	c3624874 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.cryptographic.DestinataryEncryptedSessionKey
-	c3819469 [label=<<table title="org.universAAL.ontology.cryptographic.DestinataryEncryptedSessionKey" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DestinataryEncryptedSessionKey.html">
+	c3625859 [label=<<table title="org.universAAL.ontology.cryptographic.DestinataryEncryptedSessionKey" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DestinataryEncryptedSessionKey.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DestinataryEncryptedSessionKey </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DestinataryEncryptedSessionKey.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.cryptographic.EncryptedResource
-	c3819485 [label=<<table title="org.universAAL.ontology.cryptographic.EncryptedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./EncryptedResource.html">
+	c3625875 [label=<<table title="org.universAAL.ontology.cryptographic.EncryptedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./EncryptedResource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> EncryptedResource </td></tr>
 		</table></td></tr>
 		</table>>, URL="./EncryptedResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.cryptographic.MultidestinationEncryptedResource
-	c3819487 [label=<<table title="org.universAAL.ontology.cryptographic.MultidestinationEncryptedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MultidestinationEncryptedResource.html">
+	c3625877 [label=<<table title="org.universAAL.ontology.cryptographic.MultidestinationEncryptedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MultidestinationEncryptedResource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MultidestinationEncryptedResource </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MultidestinationEncryptedResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.cryptographic.DestinataryEncryptedSessionKey extends org.universAAL.ontology.cryptographic.EncryptedResource
-	c3819485:p -> c3819469:p [dir=back,arrowtail=empty];
+	c3625875:p -> c3625859:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.cryptographic.EncryptedResource extends org.universAAL.middleware.owl.ManagedIndividual
-	c3818432:p -> c3819485:p [dir=back,arrowtail=empty];
+	c3624874:p -> c3625875:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.cryptographic.MultidestinationEncryptedResource extends org.universAAL.ontology.cryptographic.EncryptedResource
-	c3819485:p -> c3819487:p [dir=back,arrowtail=empty];
+	c3625875:p -> c3625877:p [dir=back,arrowtail=empty];
 }
 

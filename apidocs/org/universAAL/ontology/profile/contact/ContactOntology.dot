@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.Ontology
-	c3131058 [label=<<table title="org.universAAL.middleware.owl.Ontology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/owl/Ontology.html">
+	c2949876 [label=<<table title="org.universAAL.middleware.owl.Ontology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/owl/Ontology.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Ontology </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../middleware/owl/Ontology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.profile.contact.ContactOntology
-	c3131954 [label=<<table title="org.universAAL.ontology.profile.contact.ContactOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ContactOntology.html">
+	c2950720 [label=<<table title="org.universAAL.ontology.profile.contact.ContactOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ContactOntology.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ContactOntology </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ContactOntology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.profile.contact.ContactOntology extends org.universAAL.middleware.owl.Ontology
-	c3131058:p -> c3131954:p [dir=back,arrowtail=empty];
+	c2949876:p -> c2950720:p [dir=back,arrowtail=empty];
 }
 

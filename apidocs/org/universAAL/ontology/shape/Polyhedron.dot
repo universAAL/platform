@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.shape.Polyhedron
-	c6479009 [label=<<table title="org.universAAL.ontology.shape.Polyhedron" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Polyhedron.html">
+	c6248857 [label=<<table title="org.universAAL.ontology.shape.Polyhedron" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Polyhedron.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Polyhedron </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Polyhedron.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.shape.Shape3D
-	c6479018 [label=<<table title="org.universAAL.ontology.shape.Shape3D" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Shape3D.html">
+	c6248866 [label=<<table title="org.universAAL.ontology.shape.Shape3D" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Shape3D.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Shape3D </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Shape3D.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.shape.Polyhedron extends org.universAAL.ontology.shape.Shape3D
-	c6479018:p -> c6479009:p [dir=back,arrowtail=empty];
+	c6248866:p -> c6248857:p [dir=back,arrowtail=empty];
 }
 

@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.device.CurtainActuator
-	c3302083 [label=<<table title="org.universAAL.ontology.device.CurtainActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CurtainActuator.html">
+	c3117781 [label=<<table title="org.universAAL.ontology.device.CurtainActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CurtainActuator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CurtainActuator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CurtainActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.Actuator
-	c3302093 [label=<<table title="org.universAAL.ontology.device.Actuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Actuator.html">
+	c3117791 [label=<<table title="org.universAAL.ontology.device.Actuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Actuator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Actuator </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Actuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.CurtainController
-	c3302112 [label=<<table title="org.universAAL.ontology.device.CurtainController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CurtainController.html">
+	c3117810 [label=<<table title="org.universAAL.ontology.device.CurtainController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CurtainController.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CurtainController </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CurtainController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.device.CurtainActuator extends org.universAAL.ontology.device.Actuator
-	c3302093:p -> c3302083:p [dir=back,arrowtail=empty];
+	c3117791:p -> c3117781:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.device.CurtainController extends org.universAAL.ontology.device.CurtainActuator
-	c3302083:p -> c3302112:p [dir=back,arrowtail=empty];
+	c3117781:p -> c3117810:p [dir=back,arrowtail=empty];
 }
 

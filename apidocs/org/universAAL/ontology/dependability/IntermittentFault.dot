@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.dependability.IntermittentFault
-	c4905286 [label=<<table title="org.universAAL.ontology.dependability.IntermittentFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IntermittentFault.html">
+	c4692127 [label=<<table title="org.universAAL.ontology.dependability.IntermittentFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IntermittentFault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> IntermittentFault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IntermittentFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.dependability.Fault
-	c4905307 [label=<<table title="org.universAAL.ontology.dependability.Fault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Fault.html">
+	c4692148 [label=<<table title="org.universAAL.ontology.dependability.Fault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Fault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Fault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Fault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.dependability.IntermittentFault extends org.universAAL.ontology.dependability.Fault
-	c4905307:p -> c4905286:p [dir=back,arrowtail=empty];
+	c4692148:p -> c4692127:p [dir=back,arrowtail=empty];
 }
 

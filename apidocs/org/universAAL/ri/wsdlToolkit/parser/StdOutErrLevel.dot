@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ri.wsdlToolkit.parser.StdOutErrLevel
-	c7806073 [label=<<table title="org.universAAL.ri.wsdlToolkit.parser.StdOutErrLevel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./StdOutErrLevel.html">
+	c7608782 [label=<<table title="org.universAAL.ri.wsdlToolkit.parser.StdOutErrLevel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./StdOutErrLevel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> StdOutErrLevel </td></tr>
 		</table></td></tr>
 		</table>>, URL="./StdOutErrLevel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ri.wsdlToolkit.parser.StdOutErrLevel extends java.util.logging.Level
-	c7806904:p -> c7806073:p [dir=back,arrowtail=empty];
+	c7609613:p -> c7608782:p [dir=back,arrowtail=empty];
 	// java.util.logging.Level
-	c7806904 [label=<<table title="java.util.logging.Level" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/util/logging/Level.html">
+	c7609613 [label=<<table title="java.util.logging.Level" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/util/logging/Level.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Level </td></tr>
 		</table></td></tr>

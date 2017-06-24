@@ -10,31 +10,31 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.rdf.ObjectCollection
-	c6056755 [label=<<table title="org.universAAL.middleware.rdf.ObjectCollection" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ObjectCollection.html">
+	c5834247 [label=<<table title="org.universAAL.middleware.rdf.ObjectCollection" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ObjectCollection.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ObjectCollection </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./ObjectCollection.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.rdf.OpenCollection
-	c6056765 [label=<<table title="org.universAAL.middleware.rdf.OpenCollection" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OpenCollection.html">
+	c5834257 [label=<<table title="org.universAAL.middleware.rdf.OpenCollection" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OpenCollection.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OpenCollection </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OpenCollection.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.rdf.ClosedCollection
-	c6056769 [label=<<table title="org.universAAL.middleware.rdf.ClosedCollection" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ClosedCollection.html">
+	c5834261 [label=<<table title="org.universAAL.middleware.rdf.ClosedCollection" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ClosedCollection.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ClosedCollection </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ClosedCollection.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.rdf.ObjectCollection extends java.util.ArrayList
-	c6059547:p -> c6056755:p [dir=back,arrowtail=empty];
+	c5836987:p -> c5834247:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.rdf.OpenCollection extends org.universAAL.middleware.rdf.ObjectCollection
-	c6056755:p -> c6056765:p [dir=back,arrowtail=empty];
+	c5834247:p -> c5834257:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.rdf.ClosedCollection extends org.universAAL.middleware.rdf.ObjectCollection
-	c6056755:p -> c6056769:p [dir=back,arrowtail=empty];
+	c5834247:p -> c5834261:p [dir=back,arrowtail=empty];
 	// java.util.ArrayList<E>
-	c6059547 [label=<<table title="java.util.ArrayList" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/util/ArrayList.html">
+	c5836987 [label=<<table title="java.util.ArrayList" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/util/ArrayList.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ArrayList&lt;E&gt; </td></tr>
 		</table></td></tr>

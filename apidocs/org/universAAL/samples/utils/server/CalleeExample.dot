@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.service.ServiceCallee
-	c2698139 [label=<<table title="org.universAAL.middleware.service.ServiceCallee" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/service/ServiceCallee.html">
+	c2519033 [label=<<table title="org.universAAL.middleware.service.ServiceCallee" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/service/ServiceCallee.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ServiceCallee </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../middleware/service/ServiceCallee.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.samples.utils.server.CalleeExample
-	c2700171 [label=<<table title="org.universAAL.samples.utils.server.CalleeExample" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CalleeExample.html">
+	c2521065 [label=<<table title="org.universAAL.samples.utils.server.CalleeExample" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CalleeExample.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CalleeExample </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CalleeExample.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.samples.utils.server.CalleeExample extends org.universAAL.middleware.service.ServiceCallee
-	c2698139:p -> c2700171:p [dir=back,arrowtail=empty];
+	c2519033:p -> c2521065:p [dir=back,arrowtail=empty];
 }
 

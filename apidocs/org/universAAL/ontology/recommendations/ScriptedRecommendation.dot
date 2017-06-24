@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.ui.owl.Recommendation
-	c7255808 [label=<<table title="org.universAAL.middleware.ui.owl.Recommendation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/ui/owl/Recommendation.html">
+	c7011668 [label=<<table title="org.universAAL.middleware.ui.owl.Recommendation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/ui/owl/Recommendation.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Recommendation </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/ui/owl/Recommendation.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.recommendations.CSSRecommendation
-	c7256408 [label=<<table title="org.universAAL.ontology.recommendations.CSSRecommendation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CSSRecommendation.html">
+	c7012268 [label=<<table title="org.universAAL.ontology.recommendations.CSSRecommendation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CSSRecommendation.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CSSRecommendation </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CSSRecommendation.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.recommendations.ScriptedRecommendation
-	c7256414 [label=<<table title="org.universAAL.ontology.recommendations.ScriptedRecommendation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ScriptedRecommendation.html">
+	c7012274 [label=<<table title="org.universAAL.ontology.recommendations.ScriptedRecommendation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ScriptedRecommendation.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ScriptedRecommendation </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./ScriptedRecommendation.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.recommendations.CSSRecommendation extends org.universAAL.ontology.recommendations.ScriptedRecommendation
-	c7256414:p -> c7256408:p [dir=back,arrowtail=empty];
+	c7012274:p -> c7012268:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.recommendations.ScriptedRecommendation extends org.universAAL.middleware.ui.owl.Recommendation
-	c7255808:p -> c7256414:p [dir=back,arrowtail=empty];
+	c7011668:p -> c7012274:p [dir=back,arrowtail=empty];
 }
 

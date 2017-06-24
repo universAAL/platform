@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.X73.Pulse
-	c6710390 [label=<<table title="org.universAAL.ontology.X73.Pulse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Pulse.html">
+	c6476078 [label=<<table title="org.universAAL.ontology.X73.Pulse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Pulse.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Pulse </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Pulse.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.X73.MDSAttribute
-	c6710398 [label=<<table title="org.universAAL.ontology.X73.MDSAttribute" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MDSAttribute.html">
+	c6476086 [label=<<table title="org.universAAL.ontology.X73.MDSAttribute" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MDSAttribute.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> MDSAttribute </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./MDSAttribute.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.X73.Pulse extends org.universAAL.ontology.X73.MDSAttribute
-	c6710398:p -> c6710390:p [dir=back,arrowtail=empty];
+	c6476086:p -> c6476078:p [dir=back,arrowtail=empty];
 }
 

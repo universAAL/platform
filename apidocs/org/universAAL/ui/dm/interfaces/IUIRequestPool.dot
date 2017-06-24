@@ -10,27 +10,27 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.dm.dialogManagement.DialogPriorityQueueVerbosity
-	c4779359 [label=<<table title="org.universAAL.ui.dm.dialogManagement.DialogPriorityQueueVerbosity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../dialogManagement/DialogPriorityQueueVerbosity.html">
+	c4568488 [label=<<table title="org.universAAL.ui.dm.dialogManagement.DialogPriorityQueueVerbosity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../dialogManagement/DialogPriorityQueueVerbosity.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DialogPriorityQueueVerbosity </td></tr>
 		</table></td></tr>
 		</table>>, URL="../dialogManagement/DialogPriorityQueueVerbosity.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.dialogManagement.DialogPriorityQueue
-	c4779360 [label=<<table title="org.universAAL.ui.dm.dialogManagement.DialogPriorityQueue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../dialogManagement/DialogPriorityQueue.html">
+	c4568489 [label=<<table title="org.universAAL.ui.dm.dialogManagement.DialogPriorityQueue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../dialogManagement/DialogPriorityQueue.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DialogPriorityQueue </td></tr>
 		</table></td></tr>
 		</table>>, URL="../dialogManagement/DialogPriorityQueue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.interfaces.IUIRequestPool
-	c4779399 [label=<<table title="org.universAAL.ui.dm.interfaces.IUIRequestPool" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IUIRequestPool.html">
+	c4568528 [label=<<table title="org.universAAL.ui.dm.interfaces.IUIRequestPool" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IUIRequestPool.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IUIRequestPool </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IUIRequestPool.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.dm.dialogManagement.DialogPriorityQueueVerbosity implements org.universAAL.ui.dm.interfaces.IUIRequestPool
-	c4779399:p -> c4779359:p [dir=back,arrowtail=empty,style=dashed];
+	c4568528:p -> c4568488:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.ui.dm.dialogManagement.DialogPriorityQueue implements org.universAAL.ui.dm.interfaces.IUIRequestPool
-	c4779399:p -> c4779360:p [dir=back,arrowtail=empty,style=dashed];
+	c4568528:p -> c4568489:p [dir=back,arrowtail=empty,style=dashed];
 }
 

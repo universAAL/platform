@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.lddi.lib.ieeex73std.x73.p104zz.p10404PulsiOximeter
-	c8692241 [label=<<table title="org.universAAL.lddi.lib.ieeex73std.x73.p104zz.p10404PulsiOximeter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./p10404PulsiOximeter.html">
+	c8478986 [label=<<table title="org.universAAL.lddi.lib.ieeex73std.x73.p104zz.p10404PulsiOximeter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./p10404PulsiOximeter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> p10404PulsiOximeter </td></tr>
 		</table></td></tr>
 		</table>>, URL="./p10404PulsiOximeter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.lib.ieeex73std.x73.p104zz.DeviceSpecialization
-	c8692242 [label=<<table title="org.universAAL.lddi.lib.ieeex73std.x73.p104zz.DeviceSpecialization" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DeviceSpecialization.html">
+	c8478987 [label=<<table title="org.universAAL.lddi.lib.ieeex73std.x73.p104zz.DeviceSpecialization" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DeviceSpecialization.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DeviceSpecialization </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DeviceSpecialization.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.lddi.lib.ieeex73std.x73.p104zz.p10404PulsiOximeter extends org.universAAL.lddi.lib.ieeex73std.x73.p104zz.DeviceSpecialization
-	c8692242:p -> c8692241:p [dir=back,arrowtail=empty];
+	c8478987:p -> c8478986:p [dir=back,arrowtail=empty];
 }
 

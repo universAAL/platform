@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c6365823 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/owl/ManagedIndividual.html">
+	c6137751 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../middleware/owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.health.owl.PerformedMeasurementSession
-	c6366809 [label=<<table title="org.universAAL.ontology.health.owl.PerformedMeasurementSession" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PerformedMeasurementSession.html">
+	c6138685 [label=<<table title="org.universAAL.ontology.health.owl.PerformedMeasurementSession" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PerformedMeasurementSession.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PerformedMeasurementSession </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PerformedMeasurementSession.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.health.owl.PerformedSession
-	c6366821 [label=<<table title="org.universAAL.ontology.health.owl.PerformedSession" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PerformedSession.html">
+	c6138697 [label=<<table title="org.universAAL.ontology.health.owl.PerformedSession" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PerformedSession.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PerformedSession </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PerformedSession.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.health.owl.PerformedMeasurementSession extends org.universAAL.ontology.health.owl.PerformedSession
-	c6366821:p -> c6366809:p [dir=back,arrowtail=empty];
+	c6138697:p -> c6138685:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.health.owl.PerformedSession extends org.universAAL.middleware.owl.ManagedIndividual
-	c6365823:p -> c6366821:p [dir=back,arrowtail=empty];
+	c6137751:p -> c6138697:p [dir=back,arrowtail=empty];
 }
 

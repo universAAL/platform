@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// ch.ethz.iks.slp.impl.OSGiPlatformAbstraction
-	c6459428 [label=<<table title="ch.ethz.iks.slp.impl.OSGiPlatformAbstraction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OSGiPlatformAbstraction.html">
+	c6229640 [label=<<table title="ch.ethz.iks.slp.impl.OSGiPlatformAbstraction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OSGiPlatformAbstraction.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OSGiPlatformAbstraction </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OSGiPlatformAbstraction.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// ch.ethz.iks.slp.impl.PlatformAbstraction
-	c6459435 [label=<<table title="ch.ethz.iks.slp.impl.PlatformAbstraction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PlatformAbstraction.html">
+	c6229647 [label=<<table title="ch.ethz.iks.slp.impl.PlatformAbstraction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PlatformAbstraction.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> PlatformAbstraction </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PlatformAbstraction.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//ch.ethz.iks.slp.impl.OSGiPlatformAbstraction implements ch.ethz.iks.slp.impl.PlatformAbstraction
-	c6459435:p -> c6459428:p [dir=back,arrowtail=empty,style=dashed];
+	c6229647:p -> c6229640:p [dir=back,arrowtail=empty,style=dashed];
 }
 

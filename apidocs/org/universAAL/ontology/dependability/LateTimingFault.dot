@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.dependability.LateTimingFault
-	c5194148 [label=<<table title="org.universAAL.ontology.dependability.LateTimingFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LateTimingFault.html">
+	c4975789 [label=<<table title="org.universAAL.ontology.dependability.LateTimingFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LateTimingFault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LateTimingFault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LateTimingFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.dependability.TimingFault
-	c5194151 [label=<<table title="org.universAAL.ontology.dependability.TimingFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TimingFault.html">
+	c4975792 [label=<<table title="org.universAAL.ontology.dependability.TimingFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TimingFault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TimingFault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./TimingFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.dependability.LateTimingFault extends org.universAAL.ontology.dependability.TimingFault
-	c5194151:p -> c5194148:p [dir=back,arrowtail=empty];
+	c4975792:p -> c4975789:p [dir=back,arrowtail=empty];
 }
 

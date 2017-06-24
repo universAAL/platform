@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.logmonitor.msgflow.gui.MyScrollBarUI
-	c5940825 [label=<<table title="org.universAAL.tools.logmonitor.msgflow.gui.MyScrollBarUI" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MyScrollBarUI.html">
+	c5709050 [label=<<table title="org.universAAL.tools.logmonitor.msgflow.gui.MyScrollBarUI" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MyScrollBarUI.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MyScrollBarUI </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MyScrollBarUI.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.logmonitor.msgflow.gui.MyScrollBarUI extends javax.swing.plaf.basic.BasicScrollBarUI
-	c5941118:p -> c5940825:p [dir=back,arrowtail=empty];
+	c5709343:p -> c5709050:p [dir=back,arrowtail=empty];
 	// javax.swing.plaf.basic.BasicScrollBarUI
-	c5941118 [label=<<table title="javax.swing.plaf.basic.BasicScrollBarUI" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/plaf/basic/BasicScrollBarUI.html">
+	c5709343 [label=<<table title="javax.swing.plaf.basic.BasicScrollBarUI" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/plaf/basic/BasicScrollBarUI.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BasicScrollBarUI </td></tr>
 		</table></td></tr>

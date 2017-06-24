@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.security.AuthorizationService
-	c2375406 [label=<<table title="org.universAAL.ontology.security.AuthorizationService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/security/AuthorizationService.html">
+	c2204960 [label=<<table title="org.universAAL.ontology.security.AuthorizationService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/security/AuthorizationService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AuthorizationService </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../ontology/security/AuthorizationService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.security.authorisator.profiles.AuthorisationServiceProfile
-	c2376221 [label=<<table title="org.universAAL.security.authorisator.profiles.AuthorisationServiceProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AuthorisationServiceProfile.html">
+	c2205775 [label=<<table title="org.universAAL.security.authorisator.profiles.AuthorisationServiceProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AuthorisationServiceProfile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AuthorisationServiceProfile </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AuthorisationServiceProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.security.authorisator.profiles.AuthorisationServiceProfile extends org.universAAL.ontology.security.AuthorizationService
-	c2375406:p -> c2376221:p [dir=back,arrowtail=empty];
+	c2204960:p -> c2205775:p [dir=back,arrowtail=empty];
 }
 

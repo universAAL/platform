@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.device.HeaterController
-	c4457360 [label=<<table title="org.universAAL.ontology.device.HeaterController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HeaterController.html">
+	c4252261 [label=<<table title="org.universAAL.ontology.device.HeaterController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HeaterController.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HeaterController </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HeaterController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.HeaterActuator
-	c4457370 [label=<<table title="org.universAAL.ontology.device.HeaterActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HeaterActuator.html">
+	c4252271 [label=<<table title="org.universAAL.ontology.device.HeaterActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HeaterActuator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HeaterActuator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HeaterActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.device.HeaterController extends org.universAAL.ontology.device.HeaterActuator
-	c4457370:p -> c4457360:p [dir=back,arrowtail=empty];
+	c4252271:p -> c4252261:p [dir=back,arrowtail=empty];
 }
 

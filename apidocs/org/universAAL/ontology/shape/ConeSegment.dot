@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.shape.LineSegment
-	c2926529 [label=<<table title="org.universAAL.ontology.shape.LineSegment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LineSegment.html">
+	c2743315 [label=<<table title="org.universAAL.ontology.shape.LineSegment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LineSegment.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LineSegment </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LineSegment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.shape.ConeSegment
-	c2926535 [label=<<table title="org.universAAL.ontology.shape.ConeSegment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConeSegment.html">
+	c2743321 [label=<<table title="org.universAAL.ontology.shape.ConeSegment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConeSegment.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConeSegment </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConeSegment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.shape.ConeSegment extends org.universAAL.ontology.shape.LineSegment
-	c2926529:p -> c2926535:p [dir=back,arrowtail=empty];
+	c2743315:p -> c2743321:p [dir=back,arrowtail=empty];
 }
 

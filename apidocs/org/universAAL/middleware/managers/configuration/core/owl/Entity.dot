@@ -10,34 +10,34 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c3841536 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../owl/ManagedIndividual.html">
+	c3647562 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../../owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.configuration.core.owl.ConfigurationFile
-	c3842659 [label=<<table title="org.universAAL.middleware.managers.configuration.core.owl.ConfigurationFile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigurationFile.html">
+	c3648633 [label=<<table title="org.universAAL.middleware.managers.configuration.core.owl.ConfigurationFile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigurationFile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConfigurationFile </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConfigurationFile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.configuration.core.owl.Entity
-	c3842660 [label=<<table title="org.universAAL.middleware.managers.configuration.core.owl.Entity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Entity.html">
+	c3648634 [label=<<table title="org.universAAL.middleware.managers.configuration.core.owl.Entity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Entity.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Entity </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Entity.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.configuration.core.owl.ConfigurationParameter
-	c3842661 [label=<<table title="org.universAAL.middleware.managers.configuration.core.owl.ConfigurationParameter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigurationParameter.html">
+	c3648635 [label=<<table title="org.universAAL.middleware.managers.configuration.core.owl.ConfigurationParameter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigurationParameter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConfigurationParameter </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConfigurationParameter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.managers.configuration.core.owl.ConfigurationFile extends org.universAAL.middleware.managers.configuration.core.owl.Entity
-	c3842660:p -> c3842659:p [dir=back,arrowtail=empty];
+	c3648634:p -> c3648633:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.managers.configuration.core.owl.Entity extends org.universAAL.middleware.owl.ManagedIndividual
-	c3841536:p -> c3842660:p [dir=back,arrowtail=empty];
+	c3647562:p -> c3648634:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.managers.configuration.core.owl.ConfigurationParameter extends org.universAAL.middleware.managers.configuration.core.owl.Entity
-	c3842660:p -> c3842661:p [dir=back,arrowtail=empty];
+	c3648634:p -> c3648635:p [dir=back,arrowtail=empty];
 }
 

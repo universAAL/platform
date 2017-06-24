@@ -10,43 +10,43 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.modules.listener.MessageListener
-	c5713343 [label=<<table title="org.universAAL.middleware.modules.listener.MessageListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MessageListener.html">
+	c5485624 [label=<<table title="org.universAAL.middleware.modules.listener.MessageListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MessageListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> MessageListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MessageListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.bus.model.AbstractBus
-	c5713349 [label=<<table title="org.universAAL.middleware.bus.model.AbstractBus" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../bus/model/AbstractBus.html">
+	c5485630 [label=<<table title="org.universAAL.middleware.bus.model.AbstractBus" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../bus/model/AbstractBus.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractBus </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../bus/model/AbstractBus.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.brokers.control.ControlBroker
-	c5714192 [label=<<table title="org.universAAL.middleware.brokers.control.ControlBroker" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../brokers/control/ControlBroker.html">
+	c5486473 [label=<<table title="org.universAAL.middleware.brokers.control.ControlBroker" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../brokers/control/ControlBroker.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ControlBroker </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../brokers/control/ControlBroker.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.modules.aalspace.AALSpaceModuleImpl
-	c5714276 [label=<<table title="org.universAAL.middleware.modules.aalspace.AALSpaceModuleImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../aalspace/AALSpaceModuleImpl.html">
+	// org.universAAL.middleware.modules.space.SpaceModuleImpl
+	c5486557 [label=<<table title="org.universAAL.middleware.modules.space.SpaceModuleImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../space/SpaceModuleImpl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> AALSpaceModuleImpl </td></tr>
+<tr><td align="center" balign="center"> SpaceModuleImpl </td></tr>
 		</table></td></tr>
-		</table>>, URL="../aalspace/AALSpaceModuleImpl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="../space/SpaceModuleImpl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.broker.client.BrokerClientImpl
-	c5715442 [label=<<table title="org.universAAL.middleware.broker.client.BrokerClientImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../broker/client/BrokerClientImpl.html">
+	c5487723 [label=<<table title="org.universAAL.middleware.broker.client.BrokerClientImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../broker/client/BrokerClientImpl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BrokerClientImpl </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../broker/client/BrokerClientImpl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.bus.model.AbstractBus implements org.universAAL.middleware.modules.listener.MessageListener
-	c5713343:p -> c5713349:p [dir=back,arrowtail=empty,style=dashed];
+	c5485624:p -> c5485630:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.brokers.control.ControlBroker implements org.universAAL.middleware.modules.listener.MessageListener
-	c5713343:p -> c5714192:p [dir=back,arrowtail=empty,style=dashed];
-	//org.universAAL.middleware.modules.aalspace.AALSpaceModuleImpl implements org.universAAL.middleware.modules.listener.MessageListener
-	c5713343:p -> c5714276:p [dir=back,arrowtail=empty,style=dashed];
+	c5485624:p -> c5486473:p [dir=back,arrowtail=empty,style=dashed];
+	//org.universAAL.middleware.modules.space.SpaceModuleImpl implements org.universAAL.middleware.modules.listener.MessageListener
+	c5485624:p -> c5486557:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.broker.client.BrokerClientImpl implements org.universAAL.middleware.modules.listener.MessageListener
-	c5713343:p -> c5715442:p [dir=back,arrowtail=empty,style=dashed];
+	c5485624:p -> c5487723:p [dir=back,arrowtail=empty,style=dashed];
 }
 

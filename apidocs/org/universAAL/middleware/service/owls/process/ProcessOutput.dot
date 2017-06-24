@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.service.owls.process.ProcessParameter
-	c6548131 [label=<<table title="org.universAAL.middleware.service.owls.process.ProcessParameter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProcessParameter.html">
+	c6316731 [label=<<table title="org.universAAL.middleware.service.owls.process.ProcessParameter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProcessParameter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProcessParameter </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ProcessParameter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.service.owls.process.ProcessOutput
-	c6548132 [label=<<table title="org.universAAL.middleware.service.owls.process.ProcessOutput" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProcessOutput.html">
+	c6316732 [label=<<table title="org.universAAL.middleware.service.owls.process.ProcessOutput" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProcessOutput.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProcessOutput </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ProcessOutput.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.service.owls.process.ProcessOutput extends org.universAAL.middleware.service.owls.process.ProcessParameter
-	c6548131:p -> c6548132:p [dir=back,arrowtail=empty];
+	c6316731:p -> c6316732:p [dir=back,arrowtail=empty];
 }
 

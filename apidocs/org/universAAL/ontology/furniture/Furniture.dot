@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.phThing.PhysicalThing
-	c4168434 [label=<<table title="org.universAAL.ontology.phThing.PhysicalThing" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../phThing/PhysicalThing.html">
+	c3968532 [label=<<table title="org.universAAL.ontology.phThing.PhysicalThing" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../phThing/PhysicalThing.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PhysicalThing </td></tr>
 		</table></td></tr>
 		</table>>, URL="../phThing/PhysicalThing.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.furniture.Furniture
-	c4168698 [label=<<table title="org.universAAL.ontology.furniture.Furniture" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Furniture.html">
+	c3968796 [label=<<table title="org.universAAL.ontology.furniture.Furniture" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Furniture.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Furniture </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Furniture.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.furniture.Furniture extends org.universAAL.ontology.phThing.PhysicalThing
-	c4168434:p -> c4168698:p [dir=back,arrowtail=empty];
+	c3968532:p -> c3968796:p [dir=back,arrowtail=empty];
 }
 

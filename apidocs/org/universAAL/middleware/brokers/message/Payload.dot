@@ -10,23 +10,23 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.brokers.message.Payload
-	c6334264 [label=<<table title="org.universAAL.middleware.brokers.message.Payload" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Payload.html">
+	c6106713 [label=<<table title="org.universAAL.middleware.brokers.message.Payload" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Payload.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Payload </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Payload.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.brokers.message.deploy.DeployPayload
-	c6334268 [label=<<table title="org.universAAL.middleware.brokers.message.deploy.DeployPayload" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./deploy/DeployPayload.html">
+	c6106720 [label=<<table title="org.universAAL.middleware.brokers.message.deploy.DeployPayload" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./deploy/DeployPayload.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DeployPayload </td></tr>
 		</table></td></tr>
 		</table>>, URL="./deploy/DeployPayload.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.brokers.message.Payload implements java.io.Serializable
-	c6336820:p -> c6334264:p [dir=back,arrowtail=empty,style=dashed];
+	c6109268:p -> c6106713:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.brokers.message.deploy.DeployPayload extends org.universAAL.middleware.brokers.message.Payload
-	c6334264:p -> c6334268:p [dir=back,arrowtail=empty];
+	c6106713:p -> c6106720:p [dir=back,arrowtail=empty];
 	// java.io.Serializable
-	c6336820 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c6109268 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>
