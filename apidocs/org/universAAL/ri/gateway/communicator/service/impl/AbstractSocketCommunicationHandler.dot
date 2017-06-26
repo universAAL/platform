@@ -10,35 +10,35 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ri.gateway.communicator.service.CommunicationHandler
-	c1837165 [label=<<table title="org.universAAL.ri.gateway.communicator.service.CommunicationHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../CommunicationHandler.html">
+	c1814476 [label=<<table title="org.universAAL.ri.gateway.communicator.service.CommunicationHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../CommunicationHandler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> CommunicationHandler </td></tr>
 		</table></td></tr>
 		</table>>, URL="../CommunicationHandler.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.gateway.communicator.service.impl.ServerSocketCommunicationHandler
-	c1837169 [label=<<table title="org.universAAL.ri.gateway.communicator.service.impl.ServerSocketCommunicationHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ServerSocketCommunicationHandler.html">
+	c1814480 [label=<<table title="org.universAAL.ri.gateway.communicator.service.impl.ServerSocketCommunicationHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ServerSocketCommunicationHandler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ServerSocketCommunicationHandler </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ServerSocketCommunicationHandler.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.gateway.communicator.service.impl.AbstractSocketCommunicationHandler
-	c1837171 [label=<<table title="org.universAAL.ri.gateway.communicator.service.impl.AbstractSocketCommunicationHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractSocketCommunicationHandler.html">
+	c1814482 [label=<<table title="org.universAAL.ri.gateway.communicator.service.impl.AbstractSocketCommunicationHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractSocketCommunicationHandler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractSocketCommunicationHandler </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractSocketCommunicationHandler.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.gateway.communicator.service.impl.ClientSocketCommunicationHandler
-	c1837172 [label=<<table title="org.universAAL.ri.gateway.communicator.service.impl.ClientSocketCommunicationHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ClientSocketCommunicationHandler.html">
+	c1814483 [label=<<table title="org.universAAL.ri.gateway.communicator.service.impl.ClientSocketCommunicationHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ClientSocketCommunicationHandler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ClientSocketCommunicationHandler </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ClientSocketCommunicationHandler.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ri.gateway.communicator.service.impl.ServerSocketCommunicationHandler extends org.universAAL.ri.gateway.communicator.service.impl.AbstractSocketCommunicationHandler
-	c1837171:p -> c1837169:p [dir=back,arrowtail=empty];
+	c1814482:p -> c1814480:p [dir=back,arrowtail=empty];
 	//org.universAAL.ri.gateway.communicator.service.impl.AbstractSocketCommunicationHandler implements org.universAAL.ri.gateway.communicator.service.CommunicationHandler
-	c1837165:p -> c1837171:p [dir=back,arrowtail=empty,style=dashed];
+	c1814476:p -> c1814482:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.ri.gateway.communicator.service.impl.ClientSocketCommunicationHandler extends org.universAAL.ri.gateway.communicator.service.impl.AbstractSocketCommunicationHandler
-	c1837171:p -> c1837172:p [dir=back,arrowtail=empty];
+	c1814482:p -> c1814483:p [dir=back,arrowtail=empty];
 }
 

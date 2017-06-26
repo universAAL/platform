@@ -95,11 +95,11 @@ var activeTableTab = "activeTableTab";
 <div class="subTitle">org.universAAL.ri.gateway.proxies.exporting</div>
 <h2 title="Class ProxySCaller" class="title">Class ProxySCaller</h2>
 <map id="G" name="G">
-<area shape="rect" id="c6467020" href="../../../../middleware/service/ServiceCaller.html" title="org.universAAL.middleware.service.ServiceCaller" alt="" coords="16,19,115,45"/>
+<area shape="rect" id="c6452840" href="../../../../middleware/service/ServiceCaller.html" title="org.universAAL.middleware.service.ServiceCaller" alt="" coords="16,19,115,45"/>
 <area shape="rect" id="node1" href="../../../../middleware/service/ServiceCaller.html" title="&lt;TABLE&gt;" alt="" coords="5,8,125,56"/>
-<area shape="rect" id="c6468685" href="./ProxySCaller.html" title="org.universAAL.ri.gateway.proxies.exporting.ProxySCaller" alt="" coords="95,118,193,143"/>
+<area shape="rect" id="c6454505" href="./ProxySCaller.html" title="org.universAAL.ri.gateway.proxies.exporting.ProxySCaller" alt="" coords="95,118,193,143"/>
 <area shape="rect" id="node3" href="./ProxySCaller.html" title="&lt;TABLE&gt;" alt="" coords="85,107,203,155"/>
-<area shape="rect" id="c6468674" href="../ProxyBusMember.html" title="org.universAAL.ri.gateway.proxies.ProxyBusMember" alt="" coords="160,11,285,53"/>
+<area shape="rect" id="c6454494" href="../ProxyBusMember.html" title="org.universAAL.ri.gateway.proxies.ProxyBusMember" alt="" coords="160,11,285,53"/>
 <area shape="rect" id="node2" href="../ProxyBusMember.html" title="&lt;TABLE&gt;" alt="" coords="149,6,296,58"/>
 </map>
 <!-- UML diagram added by UMLGraph version R5_6-24-gf6e263 (http://www.umlgraph.org/) -->
@@ -144,10 +144,10 @@ implements <a href="../../../../../../org/universAAL/ri/gateway/proxies/ProxyBus
 <div class="block">Proxy that receives <a href="../../../../../../org/universAAL/middleware/service/ServiceCall.html" title="class in org.universAAL.middleware.service"><code>ServiceCall</code></a>s and injects them to the bus in other
  to get a <a href="../../../../../../org/universAAL/middleware/service/ServiceResponse.html" title="class in org.universAAL.middleware.service"><code>ServiceResponse</code></a> from the represented <a href="../../../../../../org/universAAL/middleware/service/ServiceCallee.html" title="class in org.universAAL.middleware.service"><code>ServiceCallee</code></a>.
  <br>
- 
+
  An instance of this proxy is used per each exported <a href="../../../../../../org/universAAL/middleware/service/ServiceCallee.html" title="class in org.universAAL.middleware.service"><code>ServiceCallee</code></a>.
  <br>
- 
+
  Important: this class is not a <a href="../../../../../../org/universAAL/middleware/bus/member/BusMember.html" title="class in org.universAAL.middleware.bus.member"><code>BusMember</code></a>, like the other proxies;
  thus it does not register to buses.</div>
 <dl>
@@ -387,7 +387,7 @@ implements <a href="../../../../../../org/universAAL/ri/gateway/proxies/ProxyBus
 <div class="block">Add a <a href="../../../../../../org/universAAL/ri/gateway/proxies/BusMemberReference.html" title="class in org.universAAL.ri.gateway.proxies"><code>BusMemberReference</code></a> to the proxy. This means that from this
  moment on the remote proxy and the local proxy can (and should)
  communicate with each other. <br>
- 
+
  A proxy may have more than one remote reference, each time the local
  proxy is to send a message it should send it to the whole list of remote
  proxies (list of references), provided for each the outgoing security

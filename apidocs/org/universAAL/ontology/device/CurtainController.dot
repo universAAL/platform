@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.device.CurtainActuator
-	c3123453 [label=<<table title="org.universAAL.ontology.device.CurtainActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CurtainActuator.html">
+	c3092256 [label=<<table title="org.universAAL.ontology.device.CurtainActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CurtainActuator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CurtainActuator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CurtainActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.CurtainController
-	c3123482 [label=<<table title="org.universAAL.ontology.device.CurtainController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CurtainController.html">
+	c3092285 [label=<<table title="org.universAAL.ontology.device.CurtainController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CurtainController.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CurtainController </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CurtainController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.device.CurtainController extends org.universAAL.ontology.device.CurtainActuator
-	c3123453:p -> c3123482:p [dir=back,arrowtail=empty];
+	c3092256:p -> c3092285:p [dir=back,arrowtail=empty];
 }
 

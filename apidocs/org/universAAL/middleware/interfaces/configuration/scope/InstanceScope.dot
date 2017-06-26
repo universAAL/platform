@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.interfaces.configuration.scope.ModuleScope
-	c4660186 [label=<<table title="org.universAAL.middleware.interfaces.configuration.scope.ModuleScope" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ModuleScope.html">
+	c4628989 [label=<<table title="org.universAAL.middleware.interfaces.configuration.scope.ModuleScope" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ModuleScope.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ModuleScope </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ModuleScope.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.interfaces.configuration.scope.SpaceScope
-	c4660189 [label=<<table title="org.universAAL.middleware.interfaces.configuration.scope.SpaceScope" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SpaceScope.html">
+	c4628992 [label=<<table title="org.universAAL.middleware.interfaces.configuration.scope.SpaceScope" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SpaceScope.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SpaceScope </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SpaceScope.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.interfaces.configuration.scope.InstanceScope
-	c4660191 [label=<<table title="org.universAAL.middleware.interfaces.configuration.scope.InstanceScope" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./InstanceScope.html">
+	c4628994 [label=<<table title="org.universAAL.middleware.interfaces.configuration.scope.InstanceScope" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./InstanceScope.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> InstanceScope </td></tr>
 		</table></td></tr>
 		</table>>, URL="./InstanceScope.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.interfaces.configuration.scope.ModuleScope extends org.universAAL.middleware.interfaces.configuration.scope.InstanceScope
-	c4660191:p -> c4660186:p [dir=back,arrowtail=empty];
+	c4628994:p -> c4628989:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.interfaces.configuration.scope.InstanceScope extends org.universAAL.middleware.interfaces.configuration.scope.SpaceScope
-	c4660189:p -> c4660191:p [dir=back,arrowtail=empty];
+	c4628992:p -> c4628994:p [dir=back,arrowtail=empty];
 }
 

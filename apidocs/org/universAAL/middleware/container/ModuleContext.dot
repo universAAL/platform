@@ -10,27 +10,27 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.container.ModuleContext
-	c5570449 [label=<<table title="org.universAAL.middleware.container.ModuleContext" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ModuleContext.html">
+	c5544925 [label=<<table title="org.universAAL.middleware.container.ModuleContext" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ModuleContext.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ModuleContext </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ModuleContext.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.container.JUnit.JUnitModuleContext
-	c5570453 [label=<<table title="org.universAAL.middleware.container.JUnit.JUnitModuleContext" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./JUnit/JUnitModuleContext.html">
+	c5544929 [label=<<table title="org.universAAL.middleware.container.JUnit.JUnitModuleContext" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./JUnit/JUnitModuleContext.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> JUnitModuleContext </td></tr>
 		</table></td></tr>
 		</table>>, URL="./JUnit/JUnitModuleContext.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.container.osgi.OSGiModuleContext
-	c5571536 [label=<<table title="org.universAAL.middleware.container.osgi.OSGiModuleContext" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./osgi/OSGiModuleContext.html">
+	c5546012 [label=<<table title="org.universAAL.middleware.container.osgi.OSGiModuleContext" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./osgi/OSGiModuleContext.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OSGiModuleContext </td></tr>
 		</table></td></tr>
 		</table>>, URL="./osgi/OSGiModuleContext.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.container.JUnit.JUnitModuleContext implements org.universAAL.middleware.container.ModuleContext
-	c5570449:p -> c5570453:p [dir=back,arrowtail=empty,style=dashed];
+	c5544925:p -> c5544929:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.container.osgi.OSGiModuleContext implements org.universAAL.middleware.container.ModuleContext
-	c5570449:p -> c5571536:p [dir=back,arrowtail=empty,style=dashed];
+	c5544925:p -> c5546012:p [dir=back,arrowtail=empty,style=dashed];
 }
 

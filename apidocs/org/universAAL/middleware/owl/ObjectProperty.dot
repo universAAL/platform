@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.rdf.Property
-	c5842763 [label=<<table title="org.universAAL.middleware.rdf.Property" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../rdf/Property.html">
+	c5817239 [label=<<table title="org.universAAL.middleware.rdf.Property" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../rdf/Property.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Property </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../rdf/Property.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.owl.ObjectProperty
-	c5842796 [label=<<table title="org.universAAL.middleware.owl.ObjectProperty" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ObjectProperty.html">
+	c5817272 [label=<<table title="org.universAAL.middleware.owl.ObjectProperty" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ObjectProperty.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ObjectProperty </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ObjectProperty.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.owl.ObjectProperty extends org.universAAL.middleware.rdf.Property
-	c5842763:p -> c5842796:p [dir=back,arrowtail=empty];
+	c5817239:p -> c5817272:p [dir=back,arrowtail=empty];
 }
 

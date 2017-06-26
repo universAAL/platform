@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.service.owl.Service
-	c3046617 [label=<<table title="org.universAAL.middleware.service.owl.Service" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/service/owl/Service.html">
+	c3015420 [label=<<table title="org.universAAL.middleware.service.owl.Service" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/service/owl/Service.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Service </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/service/owl/Service.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.continua.ContinuaHealthManager
-	c3047197 [label=<<table title="org.universAAL.ontology.continua.ContinuaHealthManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ContinuaHealthManager.html">
+	c3016000 [label=<<table title="org.universAAL.ontology.continua.ContinuaHealthManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ContinuaHealthManager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ContinuaHealthManager </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ContinuaHealthManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.hdp.ProvidedContinuaHdpManagerService
-	c3047869 [label=<<table title="org.universAAL.lddi.hdp.ProvidedContinuaHdpManagerService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../lddi/hdp/ProvidedContinuaHdpManagerService.html">
+	c3016672 [label=<<table title="org.universAAL.lddi.hdp.ProvidedContinuaHdpManagerService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../lddi/hdp/ProvidedContinuaHdpManagerService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProvidedContinuaHdpManagerService </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../lddi/hdp/ProvidedContinuaHdpManagerService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.continua.ContinuaHealthManager extends org.universAAL.middleware.service.owl.Service
-	c3046617:p -> c3047197:p [dir=back,arrowtail=empty];
+	c3015420:p -> c3016000:p [dir=back,arrowtail=empty];
 	//org.universAAL.lddi.hdp.ProvidedContinuaHdpManagerService extends org.universAAL.ontology.continua.ContinuaHealthManager
-	c3047197:p -> c3047869:p [dir=back,arrowtail=empty];
+	c3016000:p -> c3016672:p [dir=back,arrowtail=empty];
 }
 

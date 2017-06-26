@@ -10,23 +10,23 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.logmonitor.ontology.gui.OntologyGui
-	c5927482 [label=<<table title="org.universAAL.tools.logmonitor.ontology.gui.OntologyGui" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./OntologyGui.html">
+	c5901958 [label=<<table title="org.universAAL.tools.logmonitor.ontology.gui.OntologyGui" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./OntologyGui.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OntologyGui </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OntologyGui.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.logmonitor.ontology.gui.OntologyGui extends javax.swing.JPanel
-	c5927752:p -> c5927482:p [dir=back,arrowtail=empty];
+	c5902228:p -> c5901958:p [dir=back,arrowtail=empty];
 	//org.universAAL.tools.logmonitor.ontology.gui.OntologyGui implements javax.swing.event.TreeSelectionListener
-	c5927753:p -> c5927482:p [dir=back,arrowtail=empty,style=dashed];
+	c5902229:p -> c5901958:p [dir=back,arrowtail=empty,style=dashed];
 	// javax.swing.JPanel
-	c5927752 [label=<<table title="javax.swing.JPanel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/JPanel.html">
+	c5902228 [label=<<table title="javax.swing.JPanel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/JPanel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> JPanel </td></tr>
 		</table></td></tr>
 		</table>>, URL="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/JPanel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// javax.swing.event.TreeSelectionListener
-	c5927753 [label=<<table title="javax.swing.event.TreeSelectionListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/event/TreeSelectionListener.html">
+	c5902229 [label=<<table title="javax.swing.event.TreeSelectionListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/event/TreeSelectionListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> TreeSelectionListener </td></tr>

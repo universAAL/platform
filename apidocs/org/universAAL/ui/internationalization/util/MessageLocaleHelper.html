@@ -95,7 +95,7 @@ var activeTableTab = "activeTableTab";
 <div class="subTitle">org.universAAL.ui.internationalization.util</div>
 <h2 title="Class MessageLocaleHelper" class="title">Class MessageLocaleHelper</h2>
 <map id="G" name="G">
-<area shape="rect" id="c5490248" href="./MessageLocaleHelper.html" title="org.universAAL.ui.internationalization.util.MessageLocaleHelper" alt="" coords="16,17,165,42"/>
+<area shape="rect" id="c5464724" href="./MessageLocaleHelper.html" title="org.universAAL.ui.internationalization.util.MessageLocaleHelper" alt="" coords="16,17,165,42"/>
 <area shape="rect" id="node1" href="./MessageLocaleHelper.html" title="&lt;TABLE&gt;" alt="" coords="5,5,176,53"/>
 </map>
 <!-- UML diagram added by UMLGraph version R5_6-24-gf6e263 (http://www.umlgraph.org/) -->
@@ -238,9 +238,9 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
                            <a href="http://docs.oracle.com/javase/8/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="http://docs.oracle.com/javase/8/docs/api/java/net/URL.html?is-external=true" title="class or interface in java.net">URL</a>&gt;&nbsp;urlList)
                     throws <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Exception.html?is-external=true" title="class or interface in java.lang">Exception</a></pre>
 <div class="block">This constructor should be used by Applications.
- 
+
  Typical Call is something like:
- 
+
  <pre>
  <code>
  ArrayList<URL> list = new ArrayList<URL>();
@@ -249,9 +249,9 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
  list.add(new URL("Form_Resource_Server"));
  //list.add(Other sources, for example a web server hosting these files);
  MessageLocaleHelper messages = new MessageLocaleHelper(mc, user, list);
- 
+
  ...
- 
+
  messages.getString("welcomeScreen.sayHello");
  </code>
  </pre></div>
@@ -382,13 +382,13 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
  Eg: for a properties file conaining: <br>
  <code>key=page \{0\} of \{1\} </code> <br>
  this code: <br>
- 
+
  <pre>
  <code> <a href="../../../../../org/universAAL/ui/internationalization/util/MessageLocaleHelper.html" title="class in org.universAAL.ui.internationalization.util"><code>MessageLocaleHelper</code></a> mlh = ...
  mlh.getString("key",new String[]{"1","10"});
  </code>
  </pre>
- 
+
  will return: <code>"page 1 of 10"<code></div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>

@@ -236,7 +236,6 @@ org.universAAL.ontology.activityhub
 org.universAAL.ontology.activityhub.ext
 org.universAAL.ontology.activityhub.factory
 org.universAAL.ontology.activityhub.util
-org.universAAL.ontology.asor
 org.universAAL.ontology.av
 org.universAAL.ontology.av.device
 org.universAAL.ontology.av.service
@@ -273,6 +272,7 @@ org.universAAL.ontology.location.outdoor
 org.universAAL.ontology.location.position
 org.universAAL.ontology.measurement
 org.universAAL.ontology.multimedia
+org.universAAL.ontology.orchestration
 org.universAAL.ontology.personalhealthdevice
 org.universAAL.ontology.phThing
 org.universAAL.ontology.profile
@@ -331,8 +331,8 @@ org.universAAL.ri.wsdlToolkit.invocation
 org.universAAL.ri.wsdlToolkit.ioApi
 org.universAAL.ri.wsdlToolkit.parser
 org.universAAL.samples.context.reasoner.client.gui
+org.universAAL.samples.context.reasoner.client.interfaces
 org.universAAL.samples.context.reasoner.client.osgi
-org.universAAL.samples.context.reasoner.client.uaalinterface
 org.universAAL.samples.ctxtbus
 org.universAAL.samples.lighting.client
 org.universAAL.samples.lighting.client_regular
@@ -373,7 +373,7 @@ org.universAAL.security.session.manager.context
 org.universAAL.security.session.manager.helpers
 org.universAAL.security.session.manager.impl
 org.universAAL.security.session.manager.service
-org.universAAL.service.asor
+org.universAAL.service.orchestrator
 org.universAAL.support.directives.api
 org.universAAL.support.directives.checks
 org.universAAL.support.directives.mojos

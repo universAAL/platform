@@ -95,11 +95,11 @@ var activeTableTab = "activeTableTab";
 <div class="subTitle">org.universAAL.maven</div>
 <h2 title="Class LaunchOrderDependencyNodeVisitor" class="title">Class LaunchOrderDependencyNodeVisitor</h2>
 <map id="G" name="G">
-<area shape="rect" id="c4977680" href="./FilteringVisitorSupport.html" title="org.universAAL.maven.FilteringVisitorSupport" alt="" coords="16,19,165,45"/>
+<area shape="rect" id="c4952156" href="./FilteringVisitorSupport.html" title="org.universAAL.maven.FilteringVisitorSupport" alt="" coords="16,19,165,45"/>
 <area shape="rect" id="node1" href="./FilteringVisitorSupport.html" title="&lt;TABLE&gt;" alt="" coords="5,8,176,56"/>
-<area shape="rect" id="c4977682" href="./LaunchOrderDependencyNodeVisitor.html" title="org.universAAL.maven.LaunchOrderDependencyNodeVisitor" alt="" coords="73,118,309,143"/>
+<area shape="rect" id="c4952158" href="./LaunchOrderDependencyNodeVisitor.html" title="org.universAAL.maven.LaunchOrderDependencyNodeVisitor" alt="" coords="73,118,309,143"/>
 <area shape="rect" id="node2" href="./LaunchOrderDependencyNodeVisitor.html" title="&lt;TABLE&gt;" alt="" coords="63,107,319,155"/>
-<area shape="rect" id="c4980457" href="http://java.sun.com/j2se/1.4.2/docs/api/org/apache/maven/shared/dependency/tree/traversal/DependencyNodeVisitor.html" title="org.apache.maven.shared.dependency.tree.traversal.DependencyNodeVisitor" alt="" coords="210,11,371,53"/>
+<area shape="rect" id="c4954933" href="http://java.sun.com/j2se/1.4.2/docs/api/org/apache/maven/shared/dependency/tree/traversal/DependencyNodeVisitor.html" title="org.apache.maven.shared.dependency.tree.traversal.DependencyNodeVisitor" alt="" coords="210,11,371,53"/>
 <area shape="rect" id="node4" href="http://java.sun.com/j2se/1.4.2/docs/api/org/apache/maven/shared/dependency/tree/traversal/DependencyNodeVisitor.html" title="&lt;TABLE&gt;" alt="" coords="200,6,381,58"/>
 </map>
 <!-- UML diagram added by UMLGraph version R5_6-24-gf6e263 (http://www.umlgraph.org/) -->
@@ -140,7 +140,7 @@ implements org.apache.maven.shared.dependency.tree.traversal.DependencyNodeVisit
  conflict then an exception with meaningful message is thrown, unless the
  visitor is instructed to not throw exception by passing
  throwExceptionOnConflict parameter to the constructor.
- 
+
  After ending a visit to node which was not ommitted the node's artifact is
  converted to mvn url and aded to mvnUrls list. If the artifact is not a
  bundle then mvn url is preceded with "wrap:" protocol. After visit is ended
@@ -319,7 +319,7 @@ implements org.apache.maven.shared.dependency.tree.traversal.DependencyNodeVisit
  visited. True is returned only if node is in scope and if it was not
  ommited. It is ensured that node with given groupId, artifactId and
  version is visited only once.
- 
+
  When visiting node omitted because of conflict, exception is thrown if
  throwExceptionOnConflict property is true. In case
  throwExceptionOnConflict is false, the conflict is resolved as suggested
@@ -344,7 +344,7 @@ implements org.apache.maven.shared.dependency.tree.traversal.DependencyNodeVisit
 <div class="block">If this method returns true then it means that the next sibling should be
  visited. Because all nodes should be visited this methods always returns
  true.
- 
+
  If node wasn't visited, it is in the scope, and was not omitted then it
  is added to mvnUrls list.</div>
 <dl>

@@ -95,11 +95,11 @@ var activeTableTab = "activeTableTab";
 <div class="subTitle">org.universAAL.context.che</div>
 <h2 title="Class Hub" class="title">Class Hub</h2>
 <map id="G" name="G">
-<area shape="rect" id="c4288494" href="../../middleware/container/ModuleActivator.html" title="org.universAAL.middleware.container.ModuleActivator" alt="" coords="16,11,131,53"/>
+<area shape="rect" id="c4257297" href="../../middleware/container/ModuleActivator.html" title="org.universAAL.middleware.container.ModuleActivator" alt="" coords="16,11,131,53"/>
 <area shape="rect" id="node1" href="../../middleware/container/ModuleActivator.html" title="&lt;TABLE&gt;" alt="" coords="5,6,141,58"/>
-<area shape="rect" id="c4289725" href="./Hub.html" title="org.universAAL.context.che.Hub" alt="" coords="131,118,176,143"/>
+<area shape="rect" id="c4258528" href="./Hub.html" title="org.universAAL.context.che.Hub" alt="" coords="131,118,176,143"/>
 <area shape="rect" id="node3" href="./Hub.html" title="&lt;TABLE&gt;" alt="" coords="117,107,189,155"/>
-<area shape="rect" id="c4288593" href="../../middleware/util/OntologyListener.html" title="org.universAAL.middleware.util.OntologyListener" alt="" coords="175,11,294,53"/>
+<area shape="rect" id="c4257396" href="../../middleware/util/OntologyListener.html" title="org.universAAL.middleware.util.OntologyListener" alt="" coords="175,11,294,53"/>
 <area shape="rect" id="node2" href="../../middleware/util/OntologyListener.html" title="&lt;TABLE&gt;" alt="" coords="165,6,304,58"/>
 </map>
 <!-- UML diagram added by UMLGraph version R5_6-24-gf6e263 (http://www.umlgraph.org/) -->
@@ -253,8 +253,8 @@ implements <a href="../../../../org/universAAL/middleware/util/OntologyListener.
 </tr>
 <tr id="i6" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/context/che/Hub.html#setuAALParser-org.universAAL.middleware.serialization.MessageContentSerializer-">setuAALParser</a></span>(<a href="../../../../org/universAAL/middleware/serialization/MessageContentSerializer.html" title="interface in org.universAAL.middleware.serialization">MessageContentSerializer</a>&nbsp;service)</code>
-<div class="block">Set the turtle-uaal parser.</div>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/universAAL/context/che/Hub.html#setSerializer-org.universAAL.middleware.serialization.MessageContentSerializer-">setSerializer</a></span>(<a href="../../../../org/universAAL/middleware/serialization/MessageContentSerializer.html" title="interface in org.universAAL.middleware.serialization">MessageContentSerializer</a>&nbsp;service)</code>
+<div class="block">Set the turtle parser.</div>
 </td>
 </tr>
 <tr id="i7" class="rowColor">
@@ -357,7 +357,7 @@ implements <a href="../../../../org/universAAL/middleware/util/OntologyListener.
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code><a href="../../../../org/universAAL/middleware/container/ModuleActivator.html#start-org.universAAL.middleware.container.ModuleContext-">start</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../org/universAAL/middleware/container/ModuleActivator.html" title="interface in org.universAAL.middleware.container">ModuleActivator</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>context</code> - uaal module context</dd>
+<dd><code>context</code> - universAAL module context</dd>
 </dl>
 </li>
 </ul>
@@ -378,14 +378,14 @@ implements <a href="../../../../org/universAAL/middleware/util/OntologyListener.
 </dl>
 </li>
 </ul>
-<a name="setuAALParser-org.universAAL.middleware.serialization.MessageContentSerializer-">
+<a name="setSerializer-org.universAAL.middleware.serialization.MessageContentSerializer-">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
-<h4>setuAALParser</h4>
-<pre>public&nbsp;void&nbsp;setuAALParser(<a href="../../../../org/universAAL/middleware/serialization/MessageContentSerializer.html" title="interface in org.universAAL.middleware.serialization">MessageContentSerializer</a>&nbsp;service)</pre>
-<div class="block">Set the turtle-uaal parser. Make sure it's set at least once before
+<h4>setSerializer</h4>
+<pre>public&nbsp;void&nbsp;setSerializer(<a href="../../../../org/universAAL/middleware/serialization/MessageContentSerializer.html" title="interface in org.universAAL.middleware.serialization">MessageContentSerializer</a>&nbsp;service)</pre>
+<div class="block">Set the turtle parser. Make sure it's set at least once before
  start().</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>

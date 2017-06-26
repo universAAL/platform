@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.hvac.Mode
-	c4260942 [label=<<table title="org.universAAL.ontology.hvac.Mode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Mode.html">
+	c4229745 [label=<<table title="org.universAAL.ontology.hvac.Mode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Mode.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Mode </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Mode.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.hvac.Heating_Mode
-	c4260943 [label=<<table title="org.universAAL.ontology.hvac.Heating_Mode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Heating_Mode.html">
+	c4229746 [label=<<table title="org.universAAL.ontology.hvac.Heating_Mode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Heating_Mode.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Heating_Mode </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Heating_Mode.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.hvac.Heating_Mode extends org.universAAL.ontology.hvac.Mode
-	c4260942:p -> c4260943:p [dir=back,arrowtail=empty];
+	c4229745:p -> c4229746:p [dir=back,arrowtail=empty];
 }
 

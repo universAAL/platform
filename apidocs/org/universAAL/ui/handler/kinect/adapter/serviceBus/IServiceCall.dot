@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.handler.kinect.adapter.serviceBus.IServiceCall
-	c4514836 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.serviceBus.IServiceCall" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IServiceCall.html">
+	c4483639 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.serviceBus.IServiceCall" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IServiceCall.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IServiceCall </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IServiceCall.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.handler.kinect.adapter.defaultComponents.DefaultAdapter
-	c4514842 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.defaultComponents.DefaultAdapter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../defaultComponents/DefaultAdapter.html">
+	c4483645 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.defaultComponents.DefaultAdapter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../defaultComponents/DefaultAdapter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DefaultAdapter </td></tr>
 		</table></td></tr>
 		</table>>, URL="../defaultComponents/DefaultAdapter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.handler.kinect.adapter.defaultComponents.DefaultAdapter implements org.universAAL.ui.handler.kinect.adapter.serviceBus.IServiceCall
-	c4514836:p -> c4514842:p [dir=back,arrowtail=empty,style=dashed];
+	c4483639:p -> c4483645:p [dir=back,arrowtail=empty,style=dashed];
 }
 

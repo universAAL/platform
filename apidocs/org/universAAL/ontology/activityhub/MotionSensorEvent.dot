@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.activityhub.ActivityHubSensorEvent
-	c5599549 [label=<<table title="org.universAAL.ontology.activityhub.ActivityHubSensorEvent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ActivityHubSensorEvent.html">
+	c5574025 [label=<<table title="org.universAAL.ontology.activityhub.ActivityHubSensorEvent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ActivityHubSensorEvent.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ActivityHubSensorEvent </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./ActivityHubSensorEvent.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.activityhub.MotionSensorEvent
-	c5599560 [label=<<table title="org.universAAL.ontology.activityhub.MotionSensorEvent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MotionSensorEvent.html">
+	c5574036 [label=<<table title="org.universAAL.ontology.activityhub.MotionSensorEvent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MotionSensorEvent.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MotionSensorEvent </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MotionSensorEvent.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.activityhub.MotionSensorEvent extends org.universAAL.ontology.activityhub.ActivityHubSensorEvent
-	c5599549:p -> c5599560:p [dir=back,arrowtail=empty];
+	c5574025:p -> c5574036:p [dir=back,arrowtail=empty];
 }
 

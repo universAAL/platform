@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.lighting.LightSource
-	c2286955 [label=<<table title="org.universAAL.ontology.lighting.LightSource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightSource.html">
+	c2255758 [label=<<table title="org.universAAL.ontology.lighting.LightSource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightSource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LightSource </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LightSource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.BeamingSource
-	c2286959 [label=<<table title="org.universAAL.ontology.lighting.BeamingSource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BeamingSource.html">
+	c2255762 [label=<<table title="org.universAAL.ontology.lighting.BeamingSource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BeamingSource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BeamingSource </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BeamingSource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.BlinkableBeamingSource
-	c2286964 [label=<<table title="org.universAAL.ontology.lighting.BlinkableBeamingSource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BlinkableBeamingSource.html">
+	c2255767 [label=<<table title="org.universAAL.ontology.lighting.BlinkableBeamingSource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BlinkableBeamingSource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BlinkableBeamingSource </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BlinkableBeamingSource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.lighting.BeamingSource extends org.universAAL.ontology.lighting.LightSource
-	c2286955:p -> c2286959:p [dir=back,arrowtail=empty];
+	c2255758:p -> c2255762:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.lighting.BlinkableBeamingSource extends org.universAAL.ontology.lighting.BeamingSource
-	c2286959:p -> c2286964:p [dir=back,arrowtail=empty];
+	c2255762:p -> c2255767:p [dir=back,arrowtail=empty];
 }
 

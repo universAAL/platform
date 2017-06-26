@@ -10,34 +10,34 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.service.owl.Service
-	c2209921 [label=<<table title="org.universAAL.middleware.service.owl.Service" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/service/owl/Service.html">
+	c2178724 [label=<<table title="org.universAAL.middleware.service.owl.Service" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/service/owl/Service.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Service </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/service/owl/Service.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.security.AuthorizationService
-	c2210632 [label=<<table title="org.universAAL.ontology.security.AuthorizationService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AuthorizationService.html">
+	c2179435 [label=<<table title="org.universAAL.ontology.security.AuthorizationService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AuthorizationService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AuthorizationService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AuthorizationService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.security.authorisator.profiles.SecuritySubProfileRoleManagement
-	c2211446 [label=<<table title="org.universAAL.security.authorisator.profiles.SecuritySubProfileRoleManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../security/authorisator/profiles/SecuritySubProfileRoleManagement.html">
+	c2180249 [label=<<table title="org.universAAL.security.authorisator.profiles.SecuritySubProfileRoleManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../security/authorisator/profiles/SecuritySubProfileRoleManagement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SecuritySubProfileRoleManagement </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../security/authorisator/profiles/SecuritySubProfileRoleManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.security.authorisator.profiles.AuthorisationServiceProfile
-	c2211447 [label=<<table title="org.universAAL.security.authorisator.profiles.AuthorisationServiceProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../security/authorisator/profiles/AuthorisationServiceProfile.html">
+	c2180250 [label=<<table title="org.universAAL.security.authorisator.profiles.AuthorisationServiceProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../security/authorisator/profiles/AuthorisationServiceProfile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AuthorisationServiceProfile </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../security/authorisator/profiles/AuthorisationServiceProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.security.AuthorizationService extends org.universAAL.middleware.service.owl.Service
-	c2209921:p -> c2210632:p [dir=back,arrowtail=empty];
+	c2178724:p -> c2179435:p [dir=back,arrowtail=empty];
 	//org.universAAL.security.authorisator.profiles.SecuritySubProfileRoleManagement extends org.universAAL.ontology.security.AuthorizationService
-	c2210632:p -> c2211446:p [dir=back,arrowtail=empty];
+	c2179435:p -> c2180249:p [dir=back,arrowtail=empty];
 	//org.universAAL.security.authorisator.profiles.AuthorisationServiceProfile extends org.universAAL.ontology.security.AuthorizationService
-	c2210632:p -> c2211447:p [dir=back,arrowtail=empty];
+	c2179435:p -> c2180250:p [dir=back,arrowtail=empty];
 }
 

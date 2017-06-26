@@ -10,34 +10,34 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.health.owl.Diet
-	c4227082 [label=<<table title="org.universAAL.ontology.health.owl.Diet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Diet.html">
+	c4195885 [label=<<table title="org.universAAL.ontology.health.owl.Diet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Diet.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Diet </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Diet.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.health.owl.Treatment
-	c4227084 [label=<<table title="org.universAAL.ontology.health.owl.Treatment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Treatment.html">
+	c4195887 [label=<<table title="org.universAAL.ontology.health.owl.Treatment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Treatment.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Treatment </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Treatment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.health.owl.Walking
-	c4227097 [label=<<table title="org.universAAL.ontology.health.owl.Walking" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Walking.html">
+	c4195900 [label=<<table title="org.universAAL.ontology.health.owl.Walking" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Walking.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Walking </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Walking.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.health.owl.HealthyHabitsAdoption
-	c4227099 [label=<<table title="org.universAAL.ontology.health.owl.HealthyHabitsAdoption" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HealthyHabitsAdoption.html">
+	c4195902 [label=<<table title="org.universAAL.ontology.health.owl.HealthyHabitsAdoption" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HealthyHabitsAdoption.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> HealthyHabitsAdoption </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./HealthyHabitsAdoption.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.health.owl.Diet extends org.universAAL.ontology.health.owl.HealthyHabitsAdoption
-	c4227099:p -> c4227082:p [dir=back,arrowtail=empty];
+	c4195902:p -> c4195885:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.health.owl.Walking extends org.universAAL.ontology.health.owl.HealthyHabitsAdoption
-	c4227099:p -> c4227097:p [dir=back,arrowtail=empty];
+	c4195902:p -> c4195900:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.health.owl.HealthyHabitsAdoption extends org.universAAL.ontology.health.owl.Treatment
-	c4227084:p -> c4227099:p [dir=back,arrowtail=empty];
+	c4195887:p -> c4195902:p [dir=back,arrowtail=empty];
 }
 

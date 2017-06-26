@@ -10,34 +10,34 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.recommendations.VisualRecommendation
-	c2029049 [label=<<table title="org.universAAL.ontology.recommendations.VisualRecommendation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./VisualRecommendation.html">
+	c2006360 [label=<<table title="org.universAAL.ontology.recommendations.VisualRecommendation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./VisualRecommendation.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> VisualRecommendation </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./VisualRecommendation.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.recommendations.Alignment
-	c2029052 [label=<<table title="org.universAAL.ontology.recommendations.Alignment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Alignment.html">
+	c2006363 [label=<<table title="org.universAAL.ontology.recommendations.Alignment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Alignment.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Alignment </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Alignment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.recommendations.HorizontalAlignment
-	c2029057 [label=<<table title="org.universAAL.ontology.recommendations.HorizontalAlignment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HorizontalAlignment.html">
+	c2006368 [label=<<table title="org.universAAL.ontology.recommendations.HorizontalAlignment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HorizontalAlignment.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HorizontalAlignment </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HorizontalAlignment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.recommendations.VerticalAlignment
-	c2029063 [label=<<table title="org.universAAL.ontology.recommendations.VerticalAlignment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./VerticalAlignment.html">
+	c2006374 [label=<<table title="org.universAAL.ontology.recommendations.VerticalAlignment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./VerticalAlignment.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> VerticalAlignment </td></tr>
 		</table></td></tr>
 		</table>>, URL="./VerticalAlignment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.recommendations.Alignment extends org.universAAL.ontology.recommendations.VisualRecommendation
-	c2029049:p -> c2029052:p [dir=back,arrowtail=empty];
+	c2006360:p -> c2006363:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.recommendations.HorizontalAlignment extends org.universAAL.ontology.recommendations.Alignment
-	c2029052:p -> c2029057:p [dir=back,arrowtail=empty];
+	c2006363:p -> c2006368:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.recommendations.VerticalAlignment extends org.universAAL.ontology.recommendations.Alignment
-	c2029052:p -> c2029063:p [dir=back,arrowtail=empty];
+	c2006363:p -> c2006374:p [dir=back,arrowtail=empty];
 }
 

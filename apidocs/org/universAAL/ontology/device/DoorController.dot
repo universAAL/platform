@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.device.DoorController
-	c3546073 [label=<<table title="org.universAAL.ontology.device.DoorController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DoorController.html">
+	c3514876 [label=<<table title="org.universAAL.ontology.device.DoorController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DoorController.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DoorController </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DoorController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.DoorActuator
-	c3546081 [label=<<table title="org.universAAL.ontology.device.DoorActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DoorActuator.html">
+	c3514884 [label=<<table title="org.universAAL.ontology.device.DoorActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DoorActuator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DoorActuator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DoorActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.device.DoorController extends org.universAAL.ontology.device.DoorActuator
-	c3546081:p -> c3546073:p [dir=back,arrowtail=empty];
+	c3514884:p -> c3514876:p [dir=back,arrowtail=empty];
 }
 

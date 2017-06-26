@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.cryptographic.CertificationAuthority
-	c2570787 [label=<<table title="org.universAAL.ontology.cryptographic.CertificationAuthority" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CertificationAuthority.html">
+	c2539590 [label=<<table title="org.universAAL.ontology.cryptographic.CertificationAuthority" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CertificationAuthority.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CertificationAuthority </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CertificationAuthority.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.cryptographic.KeyRing
-	c2570791 [label=<<table title="org.universAAL.ontology.cryptographic.KeyRing" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./KeyRing.html">
+	c2539594 [label=<<table title="org.universAAL.ontology.cryptographic.KeyRing" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./KeyRing.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> KeyRing </td></tr>
 		</table></td></tr>
 		</table>>, URL="./KeyRing.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.cryptographic.CertificationAuthority extends org.universAAL.ontology.cryptographic.KeyRing
-	c2570791:p -> c2570787:p [dir=back,arrowtail=empty];
+	c2539594:p -> c2539590:p [dir=back,arrowtail=empty];
 }
 

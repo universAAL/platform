@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.context.ContextSubscriber
-	c5048900 [label=<<table title="org.universAAL.middleware.context.ContextSubscriber" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/context/ContextSubscriber.html">
+	c5023376 [label=<<table title="org.universAAL.middleware.context.ContextSubscriber" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/context/ContextSubscriber.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ContextSubscriber </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../middleware/context/ContextSubscriber.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.samples.lighting.client.LightingConsumer
-	c5050929 [label=<<table title="org.universAAL.samples.lighting.client.LightingConsumer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LightingConsumer.html">
+	c5025405 [label=<<table title="org.universAAL.samples.lighting.client.LightingConsumer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LightingConsumer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LightingConsumer </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LightingConsumer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.samples.lighting.client.LightingConsumer extends org.universAAL.middleware.context.ContextSubscriber
-	c5048900:p -> c5050929:p [dir=back,arrowtail=empty];
+	c5023376:p -> c5025405:p [dir=back,arrowtail=empty];
 }
 

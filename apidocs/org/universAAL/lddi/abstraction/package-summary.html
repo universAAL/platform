@@ -163,12 +163,12 @@
  that all component type specific models will be provided in term of
  ontologies on which the access and integration layers will rely:
  </p>
- 
+
  <p>
  <img src="./doc-files/layers.png" width="600" alt="refinement of te LDDI
  abstraction layer">
  </p>
- 
+
  <p>
  As can be seen in the above figure, the main elements in this framework are
  <a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html" title="class in org.universAAL.lddi.abstraction"><code>communication
@@ -178,7 +178,7 @@
  <a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html" title="interface in org.universAAL.lddi.abstraction"><code>external datapoints</code></a>
  as an additional concept that is not included in this package info).
  </p>
- 
+
  <p>
  As indicated by the figure above, this package has a universAAL-specific
  view; in particular, the abstraction layer of LDDI exists in this package
@@ -186,7 +186,7 @@
  serve as the contract between the communication gateways and the component
  integrators with regard to whatever is component type specific.
  </p>
- 
+
  <p>
  As opposed to component integrators, the extent of dependency of
  communication gateways to universAAL can be limited to the usage of
@@ -201,7 +201,7 @@
  register the found gateways using
  <a href="../../../../org/universAAL/lddi/abstraction/CommunicationGateway.html#register-java.lang.String-org.universAAL.lddi.abstraction.ComponentIntegrator-"><code>the related method of the gateway</code></a>.
  </p>
- 
+
  <p>
  Important note: the above implies that with this approach, the interplay of
  gateways and integrators will work only when they are deployed within the

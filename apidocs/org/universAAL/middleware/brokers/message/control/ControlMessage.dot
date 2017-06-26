@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.brokers.message.BrokerMessage
-	c3066301 [label=<<table title="org.universAAL.middleware.brokers.message.BrokerMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../BrokerMessage.html">
+	c3035104 [label=<<table title="org.universAAL.middleware.brokers.message.BrokerMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../BrokerMessage.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> BrokerMessage </td></tr>
 		</table></td></tr>
 		</table>>, URL="../BrokerMessage.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.brokers.message.control.ControlMessage
-	c3066315 [label=<<table title="org.universAAL.middleware.brokers.message.control.ControlMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ControlMessage.html">
+	c3035118 [label=<<table title="org.universAAL.middleware.brokers.message.control.ControlMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ControlMessage.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ControlMessage </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ControlMessage.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.brokers.message.control.ControlMessage implements org.universAAL.middleware.brokers.message.BrokerMessage
-	c3066301:p -> c3066315:p [dir=back,arrowtail=empty,style=dashed];
+	c3035104:p -> c3035118:p [dir=back,arrowtail=empty,style=dashed];
 }
 

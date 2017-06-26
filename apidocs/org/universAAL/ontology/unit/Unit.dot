@@ -10,36 +10,36 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c8111759 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
+	c8103251 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.unit.Unit
-	c8112317 [label=<<table title="org.universAAL.ontology.unit.Unit" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Unit.html">
+	c8103809 [label=<<table title="org.universAAL.ontology.unit.Unit" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Unit.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Unit </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Unit.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.unit.DerivedUnit
-	c8112322 [label=<<table title="org.universAAL.ontology.unit.DerivedUnit" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DerivedUnit.html">
+	c8103814 [label=<<table title="org.universAAL.ontology.unit.DerivedUnit" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DerivedUnit.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> DerivedUnit </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./DerivedUnit.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.measurement.Measurement
-	c8112332 [label=<<table title="org.universAAL.ontology.measurement.Measurement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../measurement/Measurement.html">
+	c8103824 [label=<<table title="org.universAAL.ontology.measurement.Measurement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../measurement/Measurement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Measurement </td></tr>
 		</table></td></tr>
 		</table>>, URL="../measurement/Measurement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.unit.Unit extends org.universAAL.middleware.owl.ManagedIndividual
-	c8111759:p -> c8112317:p [dir=back,arrowtail=empty];
+	c8103251:p -> c8103809:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.unit.DerivedUnit extends org.universAAL.ontology.unit.Unit
-	c8112317:p -> c8112322:p [dir=back,arrowtail=empty];
+	c8103809:p -> c8103814:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.measurement.Measurement extends org.universAAL.middleware.owl.ManagedIndividual
-	c8111759:p -> c8112332:p [dir=back,arrowtail=empty];
+	c8103251:p -> c8103824:p [dir=back,arrowtail=empty];
 	// org.universAAL.ontology.measurement.Measurement NAVASSOC org.universAAL.ontology.unit.Unit
-	c8112332:p -> c8112317:p [taillabel="", label="hasUnit", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c8103824:p -> c8103809:p [taillabel="", label="hasUnit", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

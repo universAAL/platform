@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.device.BlindActuator
-	c2300946 [label=<<table title="org.universAAL.ontology.device.BlindActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BlindActuator.html">
+	c2269749 [label=<<table title="org.universAAL.ontology.device.BlindActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BlindActuator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BlindActuator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BlindActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.Actuator
-	c2300950 [label=<<table title="org.universAAL.ontology.device.Actuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Actuator.html">
+	c2269753 [label=<<table title="org.universAAL.ontology.device.Actuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Actuator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Actuator </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Actuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.BlindController
-	c2300959 [label=<<table title="org.universAAL.ontology.device.BlindController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BlindController.html">
+	c2269762 [label=<<table title="org.universAAL.ontology.device.BlindController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BlindController.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BlindController </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BlindController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.device.BlindActuator extends org.universAAL.ontology.device.Actuator
-	c2300950:p -> c2300946:p [dir=back,arrowtail=empty];
+	c2269753:p -> c2269749:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.device.BlindController extends org.universAAL.ontology.device.BlindActuator
-	c2300946:p -> c2300959:p [dir=back,arrowtail=empty];
+	c2269749:p -> c2269762:p [dir=back,arrowtail=empty];
 }
 

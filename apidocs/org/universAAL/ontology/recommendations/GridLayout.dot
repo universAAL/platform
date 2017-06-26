@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.recommendations.GridLayout
-	c4096642 [label=<<table title="org.universAAL.ontology.recommendations.GridLayout" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GridLayout.html">
+	c4065445 [label=<<table title="org.universAAL.ontology.recommendations.GridLayout" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GridLayout.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> GridLayout </td></tr>
 		</table></td></tr>
 		</table>>, URL="./GridLayout.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.recommendations.Layout
-	c4096653 [label=<<table title="org.universAAL.ontology.recommendations.Layout" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Layout.html">
+	c4065456 [label=<<table title="org.universAAL.ontology.recommendations.Layout" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Layout.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Layout </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Layout.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.recommendations.GridLayout extends org.universAAL.ontology.recommendations.Layout
-	c4096653:p -> c4096642:p [dir=back,arrowtail=empty];
+	c4065456:p -> c4065445:p [dir=back,arrowtail=empty];
 }
 

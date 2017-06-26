@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.location.outdoor.CityQuarter
-	c2641121 [label=<<table title="org.universAAL.ontology.location.outdoor.CityQuarter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CityQuarter.html">
+	c2609924 [label=<<table title="org.universAAL.ontology.location.outdoor.CityQuarter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CityQuarter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CityQuarter </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CityQuarter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.location.outdoor.OutdoorPlace
-	c2641122 [label=<<table title="org.universAAL.ontology.location.outdoor.OutdoorPlace" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OutdoorPlace.html">
+	c2609925 [label=<<table title="org.universAAL.ontology.location.outdoor.OutdoorPlace" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OutdoorPlace.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OutdoorPlace </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OutdoorPlace.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.location.outdoor.CityQuarter extends org.universAAL.ontology.location.outdoor.OutdoorPlace
-	c2641122:p -> c2641121:p [dir=back,arrowtail=empty];
+	c2609925:p -> c2609924:p [dir=back,arrowtail=empty];
 }
 

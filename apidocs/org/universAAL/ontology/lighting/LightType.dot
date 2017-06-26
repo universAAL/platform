@@ -10,42 +10,42 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c5031633 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
+	c5006109 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.NaturalLight
-	c5032422 [label=<<table title="org.universAAL.ontology.lighting.NaturalLight" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NaturalLight.html">
+	c5006898 [label=<<table title="org.universAAL.ontology.lighting.NaturalLight" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NaturalLight.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> NaturalLight </td></tr>
 		</table></td></tr>
 		</table>>, URL="./NaturalLight.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.FlamingLight
-	c5032423 [label=<<table title="org.universAAL.ontology.lighting.FlamingLight" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FlamingLight.html">
+	c5006899 [label=<<table title="org.universAAL.ontology.lighting.FlamingLight" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FlamingLight.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> FlamingLight </td></tr>
 		</table></td></tr>
 		</table>>, URL="./FlamingLight.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.ElectricLight
-	c5032425 [label=<<table title="org.universAAL.ontology.lighting.ElectricLight" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ElectricLight.html">
+	c5006901 [label=<<table title="org.universAAL.ontology.lighting.ElectricLight" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ElectricLight.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ElectricLight </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ElectricLight.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.LightType
-	c5032427 [label=<<table title="org.universAAL.ontology.lighting.LightType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LightType.html">
+	c5006903 [label=<<table title="org.universAAL.ontology.lighting.LightType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LightType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> LightType </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./LightType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.lighting.NaturalLight extends org.universAAL.ontology.lighting.LightType
-	c5032427:p -> c5032422:p [dir=back,arrowtail=empty];
+	c5006903:p -> c5006898:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.lighting.FlamingLight extends org.universAAL.ontology.lighting.LightType
-	c5032427:p -> c5032423:p [dir=back,arrowtail=empty];
+	c5006903:p -> c5006899:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.lighting.ElectricLight extends org.universAAL.ontology.lighting.LightType
-	c5032427:p -> c5032425:p [dir=back,arrowtail=empty];
+	c5006903:p -> c5006901:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.lighting.LightType extends org.universAAL.middleware.owl.ManagedIndividual
-	c5031633:p -> c5032427:p [dir=back,arrowtail=empty];
+	c5006109:p -> c5006903:p [dir=back,arrowtail=empty];
 }
 

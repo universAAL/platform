@@ -15,61 +15,61 @@ digraph G {
 <tr><td align="center" balign="center"> RegisterDeployManager </td></tr>
 		</table></td></tr>
 		</table>>, URL="./RegisterDeployManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.tools.ucc.commerce.ustore.tools.GetFreeAALServicesResponse
-	c1477535 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.GetFreeAALServicesResponse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GetFreeAALServicesResponse.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> GetFreeAALServicesResponse </td></tr>
-		</table></td></tr>
-		</table>>, URL="./GetFreeAALServicesResponse.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.commerce.ustore.tools.GetUserProfileResponse
-	c1477536 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.GetUserProfileResponse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GetUserProfileResponse.html">
+	c1477535 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.GetUserProfileResponse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GetUserProfileResponse.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> GetUserProfileResponse </td></tr>
 		</table></td></tr>
 		</table>>, URL="./GetUserProfileResponse.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.tools.ucc.commerce.ustore.tools.GetFreeServicesResponse
+	c1477536 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.GetFreeServicesResponse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GetFreeServicesResponse.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> GetFreeServicesResponse </td></tr>
+		</table></td></tr>
+		</table>>, URL="./GetFreeServicesResponse.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.tools.ucc.commerce.ustore.tools.PurchaseFreeService
+	c1477537 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.PurchaseFreeService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PurchaseFreeService.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> PurchaseFreeService </td></tr>
+		</table></td></tr>
+		</table>>, URL="./PurchaseFreeService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.commerce.ustore.tools.OnlineStoreManager
-	c1477537 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.OnlineStoreManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OnlineStoreManager.html">
+	c1477538 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.OnlineStoreManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OnlineStoreManager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> OnlineStoreManager </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OnlineStoreManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.tools.ucc.commerce.ustore.tools.GetPurchasedAALServicesResponse
-	c1477538 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.GetPurchasedAALServicesResponse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GetPurchasedAALServicesResponse.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> GetPurchasedAALServicesResponse </td></tr>
-		</table></td></tr>
-		</table>>, URL="./GetPurchasedAALServicesResponse.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.commerce.ustore.tools.RegisterDeployManagerResponse
 	c1477539 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.RegisterDeployManagerResponse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RegisterDeployManagerResponse.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RegisterDeployManagerResponse </td></tr>
 		</table></td></tr>
 		</table>>, URL="./RegisterDeployManagerResponse.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.tools.ucc.commerce.ustore.tools.UAALException
-	c1477540 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.UAALException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UAALException.html">
+	// org.universAAL.tools.ucc.commerce.ustore.tools.UStoreException_Exception
+	c1477540 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.UStoreException_Exception" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UStoreException_Exception.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> UAALException </td></tr>
+<tr><td align="center" balign="center"> UStoreException_Exception </td></tr>
 		</table></td></tr>
-		</table>>, URL="./UAALException.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.tools.ucc.commerce.ustore.tools.GetFreeAALServices
-	c1477541 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.GetFreeAALServices" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GetFreeAALServices.html">
+		</table>>, URL="./UStoreException_Exception.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.tools.ucc.commerce.ustore.tools.UStoreException
+	c1477541 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.UStoreException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UStoreException.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> GetFreeAALServices </td></tr>
+<tr><td align="center" balign="center"> UStoreException </td></tr>
 		</table></td></tr>
-		</table>>, URL="./GetFreeAALServices.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.tools.ucc.commerce.ustore.tools.PurchaseFreeAALService
-	c1477542 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.PurchaseFreeAALService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PurchaseFreeAALService.html">
+		</table>>, URL="./UStoreException.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.tools.ucc.commerce.ustore.tools.GetFreeServices
+	c1477542 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.GetFreeServices" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GetFreeServices.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> PurchaseFreeAALService </td></tr>
+<tr><td align="center" balign="center"> GetFreeServices </td></tr>
 		</table></td></tr>
-		</table>>, URL="./PurchaseFreeAALService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.tools.ucc.commerce.ustore.tools.GetPurchasedAALServices
-	c1477543 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.GetPurchasedAALServices" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GetPurchasedAALServices.html">
+		</table>>, URL="./GetFreeServices.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.tools.ucc.commerce.ustore.tools.PurchaseFreeServiceResponse
+	c1477543 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.PurchaseFreeServiceResponse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PurchaseFreeServiceResponse.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> GetPurchasedAALServices </td></tr>
+<tr><td align="center" balign="center"> PurchaseFreeServiceResponse </td></tr>
 		</table></td></tr>
-		</table>>, URL="./GetPurchasedAALServices.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./PurchaseFreeServiceResponse.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.commerce.ustore.tools.GetUserProfile
 	c1477544 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.GetUserProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GetUserProfile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
@@ -82,47 +82,47 @@ digraph G {
 <tr><td align="center" balign="center"> OnlineStoreManagerService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OnlineStoreManagerService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.tools.ucc.commerce.ustore.tools.PurchaseFreeAALServiceResponse
-	c1477546 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.PurchaseFreeAALServiceResponse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PurchaseFreeAALServiceResponse.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> PurchaseFreeAALServiceResponse </td></tr>
-		</table></td></tr>
-		</table>>, URL="./PurchaseFreeAALServiceResponse.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.commerce.ustore.tools.ObjectFactory
-	c1477547 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.ObjectFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ObjectFactory.html">
+	c1477546 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.ObjectFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ObjectFactory.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ObjectFactory </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ObjectFactory.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.tools.ucc.commerce.ustore.tools.GetPurchasedServicesResponse
+	c1477547 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.GetPurchasedServicesResponse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GetPurchasedServicesResponse.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> GetPurchasedServicesResponse </td></tr>
+		</table></td></tr>
+		</table>>, URL="./GetPurchasedServicesResponse.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.tools.ucc.commerce.ustore.tools.GetUpdatesForServices
+	c1477548 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.GetUpdatesForServices" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GetUpdatesForServices.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> GetUpdatesForServices </td></tr>
+		</table></td></tr>
+		</table>>, URL="./GetUpdatesForServices.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.commerce.ustore.tools.GetSessionKey
-	c1477548 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.GetSessionKey" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GetSessionKey.html">
+	c1477549 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.GetSessionKey" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GetSessionKey.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> GetSessionKey </td></tr>
 		</table></td></tr>
 		</table>>, URL="./GetSessionKey.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.tools.ucc.commerce.ustore.tools.GetUpdatesForAALServices
-	c1477549 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.GetUpdatesForAALServices" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GetUpdatesForAALServices.html">
+	// org.universAAL.tools.ucc.commerce.ustore.tools.GetUpdatesForServicesResponse
+	c1477550 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.GetUpdatesForServicesResponse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GetUpdatesForServicesResponse.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> GetUpdatesForAALServices </td></tr>
+<tr><td align="center" balign="center"> GetUpdatesForServicesResponse </td></tr>
 		</table></td></tr>
-		</table>>, URL="./GetUpdatesForAALServices.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.tools.ucc.commerce.ustore.tools.UAALException_Exception
-	c1477550 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.UAALException_Exception" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UAALException_Exception.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> UAALException_Exception </td></tr>
-		</table></td></tr>
-		</table>>, URL="./UAALException_Exception.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./GetUpdatesForServicesResponse.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.commerce.ustore.tools.GetSessionKeyResponse
 	c1477551 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.GetSessionKeyResponse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GetSessionKeyResponse.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> GetSessionKeyResponse </td></tr>
 		</table></td></tr>
 		</table>>, URL="./GetSessionKeyResponse.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.tools.ucc.commerce.ustore.tools.GetUpdatesForAALServicesResponse
-	c1477552 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.GetUpdatesForAALServicesResponse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GetUpdatesForAALServicesResponse.html">
+	// org.universAAL.tools.ucc.commerce.ustore.tools.GetPurchasedServices
+	c1477552 [label=<<table title="org.universAAL.tools.ucc.commerce.ustore.tools.GetPurchasedServices" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GetPurchasedServices.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> GetUpdatesForAALServicesResponse </td></tr>
+<tr><td align="center" balign="center"> GetPurchasedServices </td></tr>
 		</table></td></tr>
-		</table>>, URL="./GetUpdatesForAALServicesResponse.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./GetPurchasedServices.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

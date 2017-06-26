@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.ui.owl.Preference
-	c2178766 [label=<<table title="org.universAAL.middleware.ui.owl.Preference" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/ui/owl/Preference.html">
+	c2147569 [label=<<table title="org.universAAL.middleware.ui.owl.Preference" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/ui/owl/Preference.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Preference </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../middleware/ui/owl/Preference.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.ui.preferences.AuditoryPreferences
-	c2179203 [label=<<table title="org.universAAL.ontology.ui.preferences.AuditoryPreferences" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AuditoryPreferences.html">
+	c2148006 [label=<<table title="org.universAAL.ontology.ui.preferences.AuditoryPreferences" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AuditoryPreferences.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AuditoryPreferences </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AuditoryPreferences.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.ui.preferences.AuditoryPreferences extends org.universAAL.middleware.ui.owl.Preference
-	c2178766:p -> c2179203:p [dir=back,arrowtail=empty];
+	c2147569:p -> c2148006:p [dir=back,arrowtail=empty];
 }
 

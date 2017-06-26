@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.logmonitor.msgflow.gui.MsgFlowGui
-	c5615450 [label=<<table title="org.universAAL.tools.logmonitor.msgflow.gui.MsgFlowGui" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MsgFlowGui.html">
+	c5589926 [label=<<table title="org.universAAL.tools.logmonitor.msgflow.gui.MsgFlowGui" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MsgFlowGui.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MsgFlowGui </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MsgFlowGui.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.logmonitor.msgflow.gui.MsgFlowGui extends javax.swing.JScrollPane
-	c5615743:p -> c5615450:p [dir=back,arrowtail=empty];
+	c5590219:p -> c5589926:p [dir=back,arrowtail=empty];
 	// javax.swing.JScrollPane
-	c5615743 [label=<<table title="javax.swing.JScrollPane" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/JScrollPane.html">
+	c5590219 [label=<<table title="javax.swing.JScrollPane" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/JScrollPane.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> JScrollPane </td></tr>
 		</table></td></tr>

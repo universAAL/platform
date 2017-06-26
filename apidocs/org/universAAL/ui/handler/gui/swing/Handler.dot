@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.ui.UIHandler
-	c4186776 [label=<<table title="org.universAAL.middleware.ui.UIHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../middleware/ui/UIHandler.html">
+	c4155579 [label=<<table title="org.universAAL.middleware.ui.UIHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../middleware/ui/UIHandler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> UIHandler </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../../middleware/ui/UIHandler.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.handler.gui.swing.Handler
-	c4188540 [label=<<table title="org.universAAL.ui.handler.gui.swing.Handler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Handler.html">
+	c4157343 [label=<<table title="org.universAAL.ui.handler.gui.swing.Handler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Handler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Handler </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Handler.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.handler.gui.swing.Handler extends org.universAAL.middleware.ui.UIHandler
-	c4186776:p -> c4188540:p [dir=back,arrowtail=empty];
+	c4155579:p -> c4157343:p [dir=back,arrowtail=empty];
 }
 

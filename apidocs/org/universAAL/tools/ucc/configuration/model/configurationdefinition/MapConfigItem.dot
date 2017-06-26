@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.ConfigItem
-	c5337695 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.ConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigItem.html">
+	c5312171 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.ConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigItem.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConfigItem </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConfigItem.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.MapConfigItem
-	c5337698 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.MapConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MapConfigItem.html">
+	c5312174 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.MapConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MapConfigItem.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MapConfigItem </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MapConfigItem.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.ucc.configuration.model.configurationdefinition.MapConfigItem extends org.universAAL.tools.ucc.configuration.model.configurationdefinition.ConfigItem
-	c5337695:p -> c5337698:p [dir=back,arrowtail=empty];
+	c5312171:p -> c5312174:p [dir=back,arrowtail=empty];
 }
 

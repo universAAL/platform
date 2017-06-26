@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.shape.Shape3D
-	c6084369 [label=<<table title="org.universAAL.ontology.shape.Shape3D" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Shape3D.html">
+	c6070189 [label=<<table title="org.universAAL.ontology.shape.Shape3D" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Shape3D.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Shape3D </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Shape3D.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.shape.Line
-	c6084370 [label=<<table title="org.universAAL.ontology.shape.Line" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Line.html">
+	c6070190 [label=<<table title="org.universAAL.ontology.shape.Line" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Line.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Line </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Line.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.shape.Path
-	c6084373 [label=<<table title="org.universAAL.ontology.shape.Path" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Path.html">
+	c6070193 [label=<<table title="org.universAAL.ontology.shape.Path" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Path.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Path </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Path.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.shape.Line extends org.universAAL.ontology.shape.Path
-	c6084373:p -> c6084370:p [dir=back,arrowtail=empty];
+	c6070193:p -> c6070190:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.shape.Path extends org.universAAL.ontology.shape.Shape3D
-	c6084369:p -> c6084373:p [dir=back,arrowtail=empty];
+	c6070189:p -> c6070193:p [dir=back,arrowtail=empty];
 }
 

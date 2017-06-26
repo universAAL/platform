@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.dm.userInteraction.systemMenu.TaskBarSystemMenuProvider
-	c7781949 [label=<<table title="org.universAAL.ui.dm.userInteraction.systemMenu.TaskBarSystemMenuProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TaskBarSystemMenuProvider.html">
+	c7776278 [label=<<table title="org.universAAL.ui.dm.userInteraction.systemMenu.TaskBarSystemMenuProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TaskBarSystemMenuProvider.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TaskBarSystemMenuProvider </td></tr>
 		</table></td></tr>
 		</table>>, URL="./TaskBarSystemMenuProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.interfaces.ISystemMenuProvider
-	c7781977 [label=<<table title="org.universAAL.ui.dm.interfaces.ISystemMenuProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../interfaces/ISystemMenuProvider.html">
+	c7776306 [label=<<table title="org.universAAL.ui.dm.interfaces.ISystemMenuProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../interfaces/ISystemMenuProvider.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ISystemMenuProvider </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../interfaces/ISystemMenuProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.dm.userInteraction.systemMenu.TaskBarSystemMenuProvider implements org.universAAL.ui.dm.interfaces.ISystemMenuProvider
-	c7781977:p -> c7781949:p [dir=back,arrowtail=empty,style=dashed];
+	c7776306:p -> c7776278:p [dir=back,arrowtail=empty,style=dashed];
 }
 

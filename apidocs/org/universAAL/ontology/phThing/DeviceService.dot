@@ -10,34 +10,34 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.service.owl.Service
-	c3403982 [label=<<table title="org.universAAL.middleware.service.owl.Service" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/service/owl/Service.html">
+	c3372785 [label=<<table title="org.universAAL.middleware.service.owl.Service" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/service/owl/Service.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Service </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/service/owl/Service.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.phThing.DeviceService
-	c3404146 [label=<<table title="org.universAAL.ontology.phThing.DeviceService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DeviceService.html">
+	c3372949 [label=<<table title="org.universAAL.ontology.phThing.DeviceService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DeviceService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DeviceService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DeviceService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.fs20.exporter.ProvidedFS20Service
-	c3405322 [label=<<table title="org.universAAL.lddi.fs20.exporter.ProvidedFS20Service" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../lddi/fs20/exporter/ProvidedFS20Service.html">
+	c3374125 [label=<<table title="org.universAAL.lddi.fs20.exporter.ProvidedFS20Service" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../lddi/fs20/exporter/ProvidedFS20Service.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProvidedFS20Service </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../lddi/fs20/exporter/ProvidedFS20Service.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.knx.exporter.KnxServiceCalleeProvidedService
-	c3405376 [label=<<table title="org.universAAL.lddi.knx.exporter.KnxServiceCalleeProvidedService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../lddi/knx/exporter/KnxServiceCalleeProvidedService.html">
+	c3374179 [label=<<table title="org.universAAL.lddi.knx.exporter.KnxServiceCalleeProvidedService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../lddi/knx/exporter/KnxServiceCalleeProvidedService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> KnxServiceCalleeProvidedService </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../lddi/knx/exporter/KnxServiceCalleeProvidedService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.phThing.DeviceService extends org.universAAL.middleware.service.owl.Service
-	c3403982:p -> c3404146:p [dir=back,arrowtail=empty];
+	c3372785:p -> c3372949:p [dir=back,arrowtail=empty];
 	//org.universAAL.lddi.fs20.exporter.ProvidedFS20Service extends org.universAAL.ontology.phThing.DeviceService
-	c3404146:p -> c3405322:p [dir=back,arrowtail=empty];
+	c3372949:p -> c3374125:p [dir=back,arrowtail=empty];
 	//org.universAAL.lddi.knx.exporter.KnxServiceCalleeProvidedService extends org.universAAL.ontology.phThing.DeviceService
-	c3404146:p -> c3405376:p [dir=back,arrowtail=empty];
+	c3372949:p -> c3374179:p [dir=back,arrowtail=empty];
 }
 

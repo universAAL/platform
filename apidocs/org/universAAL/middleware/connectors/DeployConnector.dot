@@ -10,28 +10,28 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.connectors.Connector
-	c3296070 [label=<<table title="org.universAAL.middleware.connectors.Connector" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Connector.html">
+	c3264873 [label=<<table title="org.universAAL.middleware.connectors.Connector" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Connector.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Connector </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Connector.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.connectors.DeployConnector
-	c3296071 [label=<<table title="org.universAAL.middleware.connectors.DeployConnector" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DeployConnector.html">
+	c3264874 [label=<<table title="org.universAAL.middleware.connectors.DeployConnector" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DeployConnector.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> DeployConnector </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DeployConnector.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.connectors.deploy.karaf.KarafDeployConnector
-	c3296979 [label=<<table title="org.universAAL.middleware.connectors.deploy.karaf.KarafDeployConnector" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./deploy/karaf/KarafDeployConnector.html">
+	c3265782 [label=<<table title="org.universAAL.middleware.connectors.deploy.karaf.KarafDeployConnector" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./deploy/karaf/KarafDeployConnector.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> KarafDeployConnector </td></tr>
 		</table></td></tr>
 		</table>>, URL="./deploy/karaf/KarafDeployConnector.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.connectors.DeployConnector implements org.universAAL.middleware.connectors.Connector
-	c3296070:p -> c3296071:p [dir=back,arrowtail=empty,style=dashed];
+	c3264873:p -> c3264874:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.connectors.deploy.karaf.KarafDeployConnector implements org.universAAL.middleware.connectors.DeployConnector
-	c3296071:p -> c3296979:p [dir=back,arrowtail=empty,style=dashed];
+	c3264874:p -> c3265782:p [dir=back,arrowtail=empty,style=dashed];
 }
 

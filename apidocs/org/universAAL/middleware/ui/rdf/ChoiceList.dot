@@ -10,20 +10,20 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.ui.rdf.ChoiceList
-	c2624044 [label=<<table title="org.universAAL.middleware.ui.rdf.ChoiceList" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ChoiceList.html">
+	c2592847 [label=<<table title="org.universAAL.middleware.ui.rdf.ChoiceList" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ChoiceList.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ChoiceList </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ChoiceList.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.rdf.Label
-	c2624054 [label=<<table title="org.universAAL.middleware.ui.rdf.Label" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Label.html">
+	c2592857 [label=<<table title="org.universAAL.middleware.ui.rdf.Label" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Label.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Label </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Label.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.ui.rdf.ChoiceList extends org.universAAL.middleware.ui.rdf.Label
-	c2624054:p -> c2624044:p [dir=back,arrowtail=empty];
+	c2592857:p -> c2592847:p [dir=back,arrowtail=empty];
 	// org.universAAL.middleware.ui.rdf.ChoiceList NAVASSOC org.universAAL.middleware.ui.rdf.Label
-	c2624044:p -> c2624054:p [taillabel="", label="children", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c2592847:p -> c2592857:p [taillabel="", label="children", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

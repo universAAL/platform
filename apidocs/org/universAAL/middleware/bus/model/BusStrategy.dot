@@ -10,39 +10,39 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.bus.model.BusStrategy
-	c2456571 [label=<<table title="org.universAAL.middleware.bus.model.BusStrategy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BusStrategy.html">
+	c2425374 [label=<<table title="org.universAAL.middleware.bus.model.BusStrategy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BusStrategy.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> BusStrategy </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./BusStrategy.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.context.impl.ContextStrategy
-	c2456626 [label=<<table title="org.universAAL.middleware.context.impl.ContextStrategy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../context/impl/ContextStrategy.html">
+	c2425429 [label=<<table title="org.universAAL.middleware.context.impl.ContextStrategy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../context/impl/ContextStrategy.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ContextStrategy </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../context/impl/ContextStrategy.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.service.impl.ServiceStrategy
-	c2456679 [label=<<table title="org.universAAL.middleware.service.impl.ServiceStrategy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../service/impl/ServiceStrategy.html">
+	c2425482 [label=<<table title="org.universAAL.middleware.service.impl.ServiceStrategy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../service/impl/ServiceStrategy.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ServiceStrategy </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../service/impl/ServiceStrategy.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.impl.generic.EventBasedStrategy
-	c2456733 [label=<<table title="org.universAAL.middleware.ui.impl.generic.EventBasedStrategy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ui/impl/generic/EventBasedStrategy.html">
+	c2425536 [label=<<table title="org.universAAL.middleware.ui.impl.generic.EventBasedStrategy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ui/impl/generic/EventBasedStrategy.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> EventBasedStrategy </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ui/impl/generic/EventBasedStrategy.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.bus.model.BusStrategy extends java.lang.Thread
-	c2459062:p -> c2456571:p [dir=back,arrowtail=empty];
+	c2427865:p -> c2425374:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.context.impl.ContextStrategy extends org.universAAL.middleware.bus.model.BusStrategy
-	c2456571:p -> c2456626:p [dir=back,arrowtail=empty];
+	c2425374:p -> c2425429:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.service.impl.ServiceStrategy extends org.universAAL.middleware.bus.model.BusStrategy
-	c2456571:p -> c2456679:p [dir=back,arrowtail=empty];
+	c2425374:p -> c2425482:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.ui.impl.generic.EventBasedStrategy extends org.universAAL.middleware.bus.model.BusStrategy
-	c2456571:p -> c2456733:p [dir=back,arrowtail=empty];
+	c2425374:p -> c2425536:p [dir=back,arrowtail=empty];
 	// java.lang.Thread
-	c2459062 [label=<<table title="java.lang.Thread" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Thread.html">
+	c2427865 [label=<<table title="java.lang.Thread" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Thread.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Thread </td></tr>
 		</table></td></tr>

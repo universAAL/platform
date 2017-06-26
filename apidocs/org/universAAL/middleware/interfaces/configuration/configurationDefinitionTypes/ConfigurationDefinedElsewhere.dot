@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.DescribedEntity
-	c2802501 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.DescribedEntity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DescribedEntity.html">
+	c2771304 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.DescribedEntity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DescribedEntity.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> DescribedEntity </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DescribedEntity.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.ConfigurationDefinedElsewhere
-	c2802505 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.ConfigurationDefinedElsewhere" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigurationDefinedElsewhere.html">
+	c2771308 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.ConfigurationDefinedElsewhere" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigurationDefinedElsewhere.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConfigurationDefinedElsewhere </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConfigurationDefinedElsewhere.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.ConfigurationDefinedElsewhere implements org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.DescribedEntity
-	c2802501:p -> c2802505:p [dir=back,arrowtail=empty,style=dashed];
+	c2771304:p -> c2771308:p [dir=back,arrowtail=empty,style=dashed];
 }
 

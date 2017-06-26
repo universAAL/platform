@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.av.streaming.Format
-	c8342228 [label=<<table title="org.universAAL.ontology.av.streaming.Format" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Format.html">
+	c8333720 [label=<<table title="org.universAAL.ontology.av.streaming.Format" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Format.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Format </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Format.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.av.streaming.VideoFormat
-	c8342232 [label=<<table title="org.universAAL.ontology.av.streaming.VideoFormat" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./VideoFormat.html">
+	c8333724 [label=<<table title="org.universAAL.ontology.av.streaming.VideoFormat" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./VideoFormat.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> VideoFormat </td></tr>
 		</table></td></tr>
 		</table>>, URL="./VideoFormat.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.av.streaming.VideoFormat extends org.universAAL.ontology.av.streaming.Format
-	c8342228:p -> c8342232:p [dir=back,arrowtail=empty];
+	c8333720:p -> c8333724:p [dir=back,arrowtail=empty];
 }
 

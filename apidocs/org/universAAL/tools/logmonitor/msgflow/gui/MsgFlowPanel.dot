@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.logmonitor.msgflow.gui.MsgFlowPanel
-	c5618289 [label=<<table title="org.universAAL.tools.logmonitor.msgflow.gui.MsgFlowPanel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MsgFlowPanel.html">
+	c5592765 [label=<<table title="org.universAAL.tools.logmonitor.msgflow.gui.MsgFlowPanel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MsgFlowPanel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MsgFlowPanel </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MsgFlowPanel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.logmonitor.msgflow.gui.MsgFlowPanel extends javax.swing.JPanel
-	c5618580:p -> c5618289:p [dir=back,arrowtail=empty];
+	c5593056:p -> c5592765:p [dir=back,arrowtail=empty];
 	// javax.swing.JPanel
-	c5618580 [label=<<table title="javax.swing.JPanel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/JPanel.html">
+	c5593056 [label=<<table title="javax.swing.JPanel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/JPanel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> JPanel </td></tr>
 		</table></td></tr>

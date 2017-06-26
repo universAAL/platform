@@ -10,39 +10,39 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.bus.junit.BusTestCase
-	c2459571 [label=<<table title="org.universAAL.middleware.bus.junit.BusTestCase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BusTestCase.html">
+	c2428374 [label=<<table title="org.universAAL.middleware.bus.junit.BusTestCase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BusTestCase.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BusTestCase </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BusTestCase.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.bus.junit.ManifestTestCase
-	c2459572 [label=<<table title="org.universAAL.middleware.bus.junit.ManifestTestCase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ManifestTestCase.html">
+	c2428375 [label=<<table title="org.universAAL.middleware.bus.junit.ManifestTestCase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ManifestTestCase.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ManifestTestCase </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ManifestTestCase.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.bus.junit.OntTestCase
-	c2459574 [label=<<table title="org.universAAL.middleware.bus.junit.OntTestCase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OntTestCase.html">
+	c2428377 [label=<<table title="org.universAAL.middleware.bus.junit.OntTestCase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OntTestCase.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OntTestCase </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OntTestCase.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.junit.MWTestCase
-	c2460364 [label=<<table title="org.universAAL.middleware.junit.MWTestCase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../junit/MWTestCase.html">
+	c2429167 [label=<<table title="org.universAAL.middleware.junit.MWTestCase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../junit/MWTestCase.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MWTestCase </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../junit/MWTestCase.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.bus.junit.BusTestCase extends junit.framework.TestCase
-	c2461901:p -> c2459571:p [dir=back,arrowtail=empty];
+	c2430704:p -> c2428374:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.bus.junit.ManifestTestCase extends org.universAAL.middleware.bus.junit.BusTestCase
-	c2459571:p -> c2459572:p [dir=back,arrowtail=empty];
+	c2428374:p -> c2428375:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.bus.junit.OntTestCase extends org.universAAL.middleware.bus.junit.BusTestCase
-	c2459571:p -> c2459574:p [dir=back,arrowtail=empty];
+	c2428374:p -> c2428377:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.junit.MWTestCase extends org.universAAL.middleware.bus.junit.BusTestCase
-	c2459571:p -> c2460364:p [dir=back,arrowtail=empty];
+	c2428374:p -> c2429167:p [dir=back,arrowtail=empty];
 	// junit.framework.TestCase
-	c2461901 [label=<<table title="junit.framework.TestCase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/junit/framework/TestCase.html">
+	c2430704 [label=<<table title="junit.framework.TestCase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/junit/framework/TestCase.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> TestCase </font></td></tr>
 		</table></td></tr>

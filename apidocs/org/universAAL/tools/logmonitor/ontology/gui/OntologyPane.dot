@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.logmonitor.ontology.gui.OntologyPane
-	c5938827 [label=<<table title="org.universAAL.tools.logmonitor.ontology.gui.OntologyPane" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./OntologyPane.html">
+	c5913303 [label=<<table title="org.universAAL.tools.logmonitor.ontology.gui.OntologyPane" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./OntologyPane.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OntologyPane </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OntologyPane.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.logmonitor.util.HTMLVisibilityPane
-	c5938834 [label=<<table title="org.universAAL.tools.logmonitor.util.HTMLVisibilityPane" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../util/HTMLVisibilityPane.html">
+	c5913310 [label=<<table title="org.universAAL.tools.logmonitor.util.HTMLVisibilityPane" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../util/HTMLVisibilityPane.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HTMLVisibilityPane </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../util/HTMLVisibilityPane.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.logmonitor.ontology.gui.OntologyPane extends org.universAAL.tools.logmonitor.util.HTMLVisibilityPane
-	c5938834:p -> c5938827:p [dir=back,arrowtail=empty];
+	c5913310:p -> c5913303:p [dir=back,arrowtail=empty];
 }
 

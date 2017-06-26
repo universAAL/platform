@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.rdf.RDFClassInfo
-	c5902335 [label=<<table title="org.universAAL.middleware.rdf.RDFClassInfo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../rdf/RDFClassInfo.html">
+	c5876811 [label=<<table title="org.universAAL.middleware.rdf.RDFClassInfo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../rdf/RDFClassInfo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RDFClassInfo </td></tr>
 		</table></td></tr>
 		</table>>, URL="../rdf/RDFClassInfo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.owl.OntClassInfo
-	c5902353 [label=<<table title="org.universAAL.middleware.owl.OntClassInfo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./OntClassInfo.html">
+	c5876829 [label=<<table title="org.universAAL.middleware.owl.OntClassInfo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./OntClassInfo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OntClassInfo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OntClassInfo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.owl.OntClassInfo extends org.universAAL.middleware.rdf.RDFClassInfo
-	c5902335:p -> c5902353:p [dir=back,arrowtail=empty];
+	c5876811:p -> c5876829:p [dir=back,arrowtail=empty];
 }
 

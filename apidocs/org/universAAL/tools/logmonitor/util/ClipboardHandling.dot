@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.logmonitor.util.ClipboardHandling
-	c2660169 [label=<<table title="org.universAAL.tools.logmonitor.util.ClipboardHandling" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ClipboardHandling.html">
+	c2628972 [label=<<table title="org.universAAL.tools.logmonitor.util.ClipboardHandling" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ClipboardHandling.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ClipboardHandling </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ClipboardHandling.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.logmonitor.util.ClipboardHandling extends javax.swing.AbstractAction
-	c2660440:p -> c2660169:p [dir=back,arrowtail=empty];
+	c2629243:p -> c2628972:p [dir=back,arrowtail=empty];
 	// javax.swing.AbstractAction
-	c2660440 [label=<<table title="javax.swing.AbstractAction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/AbstractAction.html">
+	c2629243 [label=<<table title="javax.swing.AbstractAction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/AbstractAction.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractAction </font></td></tr>
 		</table></td></tr>

@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.gui.swing.bluesteelLAF.support.ComponentBorder
-	c2733647 [label=<<table title="org.universAAL.ui.gui.swing.bluesteelLAF.support.ComponentBorder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ComponentBorder.html">
+	c2702450 [label=<<table title="org.universAAL.ui.gui.swing.bluesteelLAF.support.ComponentBorder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ComponentBorder.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ComponentBorder </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ComponentBorder.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.gui.swing.bluesteelLAF.support.ComponentBorder extends javax.swing.border.AbstractBorder
-	c2734188:p -> c2733647:p [dir=back,arrowtail=empty];
+	c2702991:p -> c2702450:p [dir=back,arrowtail=empty];
 	// javax.swing.border.AbstractBorder
-	c2734188 [label=<<table title="javax.swing.border.AbstractBorder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/border/AbstractBorder.html">
+	c2702991 [label=<<table title="javax.swing.border.AbstractBorder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/border/AbstractBorder.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractBorder </font></td></tr>
 		</table></td></tr>

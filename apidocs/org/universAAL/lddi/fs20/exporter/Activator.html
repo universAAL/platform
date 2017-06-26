@@ -117,10 +117,10 @@ var activeTableTab = "activeTableTab";
 extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>
 implements org.osgi.framework.BundleActivator, org.osgi.framework.ServiceListener</pre>
 <div class="block">This bundle notices OSGi service events. If a new service is registered the
- received device will be stored. If a service is modified it will send a uAAL
+ received device will be stored. If a service is modified it will send a universAAL
  context event.
- 
- Also it notices service requests from uAAL and handles them.</div>
+
+ Also it notices service requests from universAAL and handles them.</div>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>
 <dd>Steeven Zeiss Fraunhofer IGD (steeven.zeiss@igd.fraunhofer.de)</dd>
@@ -324,7 +324,7 @@ implements org.osgi.framework.BundleActivator, org.osgi.framework.ServiceListene
 <pre>public&nbsp;void&nbsp;serviceChanged(org.osgi.framework.ServiceEvent&nbsp;event)</pre>
 <div class="block">Listens on OSGi service events and handles them If a new service is
  registered the received device will be stored. If a service is modified
- it will send a uAAL context event.</div>
+ it will send a universAAL context event.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code>serviceChanged</code>&nbsp;in interface&nbsp;<code>org.osgi.framework.ServiceListener</code></dd>

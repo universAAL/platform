@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.security.PossessionFactor
-	c6260720 [label=<<table title="org.universAAL.ontology.security.PossessionFactor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PossessionFactor.html">
+	c6246540 [label=<<table title="org.universAAL.ontology.security.PossessionFactor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PossessionFactor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> PossessionFactor </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./PossessionFactor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.security.Factor
-	c6260737 [label=<<table title="org.universAAL.ontology.security.Factor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Factor.html">
+	c6246557 [label=<<table title="org.universAAL.ontology.security.Factor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Factor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Factor </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Factor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.security.PossessionFactor extends org.universAAL.ontology.security.Factor
-	c6260737:p -> c6260720:p [dir=back,arrowtail=empty];
+	c6246557:p -> c6246540:p [dir=back,arrowtail=empty];
 }
 

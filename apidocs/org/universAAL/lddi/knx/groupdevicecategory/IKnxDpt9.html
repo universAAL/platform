@@ -89,11 +89,11 @@
 <div class="subTitle">org.universAAL.lddi.knx.groupdevicecategory</div>
 <h2 title="Interface IKnxDpt9" class="title">Interface IKnxDpt9</h2>
 <map id="G" name="G">
-<area shape="rect" id="c4437689" href="../groupdevicemodel/KnxDpt9GroupDevice.html" title="org.universAAL.lddi.knx.groupdevicemodel.KnxDpt9GroupDevice" alt="" coords="15,118,163,143"/>
+<area shape="rect" id="c4406492" href="../groupdevicemodel/KnxDpt9GroupDevice.html" title="org.universAAL.lddi.knx.groupdevicemodel.KnxDpt9GroupDevice" alt="" coords="15,118,163,143"/>
 <area shape="rect" id="node1" href="../groupdevicemodel/KnxDpt9GroupDevice.html" title="&lt;TABLE&gt;" alt="" coords="5,107,173,155"/>
-<area shape="rect" id="c4437704" href="./IKnxDpt9.html" title="org.universAAL.lddi.knx.groupdevicecategory.IKnxDpt9" alt="" coords="136,11,221,53"/>
+<area shape="rect" id="c4406507" href="./IKnxDpt9.html" title="org.universAAL.lddi.knx.groupdevicecategory.IKnxDpt9" alt="" coords="136,11,221,53"/>
 <area shape="rect" id="node2" href="./IKnxDpt9.html" title="&lt;TABLE&gt;" alt="" coords="125,6,232,58"/>
-<area shape="rect" id="c4437730" href="../driver/KnxDpt9Instance.html" title="org.universAAL.lddi.knx.driver.KnxDpt9Instance" alt="" coords="207,118,329,143"/>
+<area shape="rect" id="c4406533" href="../driver/KnxDpt9Instance.html" title="org.universAAL.lddi.knx.driver.KnxDpt9Instance" alt="" coords="207,118,329,143"/>
 <area shape="rect" id="node3" href="../driver/KnxDpt9Instance.html" title="&lt;TABLE&gt;" alt="" coords="197,107,339,155"/>
 </map>
 <!-- UML diagram added by UMLGraph version R5_6-24-gf6e263 (http://www.umlgraph.org/) -->
@@ -111,23 +111,23 @@
 <br>
 <pre>public interface <span class="typeNameLabel">IKnxDpt9</span></pre>
 <div class="block">Base GroupDeviceCategory for KNX datapoint type "2-Octet Float Value".
- 
+
  Specification from KNX Datapoint Types v1.07.00 AS :
- 
+
  Format: 2 octets: F16 MSB LSB float value |-------- --------| encoding
  MEEEEMMM MMMMMMMM FloatValue = (0,01*M)*2(E) E = [0 : 15] M = [-2 048 : 2
  047], two's complement notation For all Datapoint Types 9.xxx, the encoded
  value 7FFFh shall always be used to denote invalid data. Possible values are
  from 0 - 255. Range: [-671 088,64 : 670 760,96] PDT: PDT_KNX_FLOAT
- 
- 
+
+
  In general GroupDeviceCategories specify: - rules and interfaces needed for
  the communication between OSGi groupDevice service and driver service. Both
  of them (groupDevice and driver) implement this IF.
- 
+
  - a set of service registration properties, their data types and semantics
  (mandatory or optional)
- 
+
  - a range of match values</div>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>

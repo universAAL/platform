@@ -21,12 +21,12 @@ digraph G {
 <tr><td align="center" balign="center"> ContactActivator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ContactActivator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.profile.AALService
-	c247367 [label=<<table title="org.universAAL.ontology.profile.AALService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AALService.html">
+	// org.universAAL.ontology.profile.SpaceProfile
+	c247367 [label=<<table title="org.universAAL.ontology.profile.SpaceProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SpaceProfile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> AALService </td></tr>
+<tr><td align="center" balign="center"> SpaceProfile </td></tr>
 		</table></td></tr>
-		</table>>, URL="./AALService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./SpaceProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.profile.PersonalInformationSubprofile
 	c247368 [label=<<table title="org.universAAL.ontology.profile.PersonalInformationSubprofile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PersonalInformationSubprofile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
@@ -39,30 +39,30 @@ digraph G {
 <tr><td align="center" balign="center"> ProfileOntology </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ProfileOntology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.profile.AALAppSubProfile
-	c247370 [label=<<table title="org.universAAL.ontology.profile.AALAppSubProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AALAppSubProfile.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> AALAppSubProfile </td></tr>
-		</table></td></tr>
-		</table>>, URL="./AALAppSubProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.profile.SubProfile
-	c247371 [label=<<table title="org.universAAL.ontology.profile.SubProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SubProfile.html">
+	c247370 [label=<<table title="org.universAAL.ontology.profile.SubProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SubProfile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SubProfile </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SubProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.profile.Caregiver
-	c247372 [label=<<table title="org.universAAL.ontology.profile.Caregiver" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Caregiver.html">
+	c247371 [label=<<table title="org.universAAL.ontology.profile.Caregiver" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Caregiver.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Caregiver </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Caregiver.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.profile.AALSpaceProfile
-	c247373 [label=<<table title="org.universAAL.ontology.profile.AALSpaceProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AALSpaceProfile.html">
+	// org.universAAL.ontology.profile.AppSubProfile
+	c247372 [label=<<table title="org.universAAL.ontology.profile.AppSubProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AppSubProfile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> AALSpaceProfile </td></tr>
+<tr><td align="center" balign="center"> AppSubProfile </td></tr>
 		</table></td></tr>
-		</table>>, URL="./AALSpaceProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./AppSubProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.profile.Space
+	c247373 [label=<<table title="org.universAAL.ontology.profile.Space" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Space.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Space </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Space.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.profile.Profilable
 	c247374 [label=<<table title="org.universAAL.ontology.profile.Profilable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Profilable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
@@ -75,66 +75,66 @@ digraph G {
 <tr><td align="center" balign="center"> ConnectionDetails </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConnectionDetails.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.profile.AppService
+	c247376 [label=<<table title="org.universAAL.ontology.profile.AppService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AppService.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> AppService </td></tr>
+		</table></td></tr>
+		</table>>, URL="./AppService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.profile.CaregiverProfile
-	c247376 [label=<<table title="org.universAAL.ontology.profile.CaregiverProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CaregiverProfile.html">
+	c247377 [label=<<table title="org.universAAL.ontology.profile.CaregiverProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CaregiverProfile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CaregiverProfile </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CaregiverProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.profile.User
-	c247377 [label=<<table title="org.universAAL.ontology.profile.User" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./User.html">
+	c247378 [label=<<table title="org.universAAL.ontology.profile.User" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./User.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> User </td></tr>
 		</table></td></tr>
 		</table>>, URL="./User.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.profile.Profile
-	c247378 [label=<<table title="org.universAAL.ontology.profile.Profile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Profile.html">
+	c247379 [label=<<table title="org.universAAL.ontology.profile.Profile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Profile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Profile </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Profile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.profile.AssistedPersonProfile
-	c247379 [label=<<table title="org.universAAL.ontology.profile.AssistedPersonProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AssistedPersonProfile.html">
+	c247380 [label=<<table title="org.universAAL.ontology.profile.AssistedPersonProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AssistedPersonProfile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AssistedPersonProfile </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AssistedPersonProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.profile.AALSpace
-	c247380 [label=<<table title="org.universAAL.ontology.profile.AALSpace" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AALSpace.html">
+	// org.universAAL.ontology.profile.AppServiceProfile
+	c247381 [label=<<table title="org.universAAL.ontology.profile.AppServiceProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AppServiceProfile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> AALSpace </td></tr>
+<tr><td align="center" balign="center"> AppServiceProfile </td></tr>
 		</table></td></tr>
-		</table>>, URL="./AALSpace.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./AppServiceProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.profile.OntologyEntry
-	c247381 [label=<<table title="org.universAAL.ontology.profile.OntologyEntry" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OntologyEntry.html">
+	c247382 [label=<<table title="org.universAAL.ontology.profile.OntologyEntry" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OntologyEntry.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OntologyEntry </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OntologyEntry.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.profile.HWSubProfile
-	c247382 [label=<<table title="org.universAAL.ontology.profile.HWSubProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HWSubProfile.html">
+	c247383 [label=<<table title="org.universAAL.ontology.profile.HWSubProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HWSubProfile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HWSubProfile </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HWSubProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.profile.Gender
-	c247383 [label=<<table title="org.universAAL.ontology.profile.Gender" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Gender.html">
+	c247384 [label=<<table title="org.universAAL.ontology.profile.Gender" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Gender.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Gender </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Gender.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.profile.AssistedPerson
-	c247384 [label=<<table title="org.universAAL.ontology.profile.AssistedPerson" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AssistedPerson.html">
+	c247385 [label=<<table title="org.universAAL.ontology.profile.AssistedPerson" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AssistedPerson.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AssistedPerson </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AssistedPerson.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.profile.AALServiceProfile
-	c247385 [label=<<table title="org.universAAL.ontology.profile.AALServiceProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AALServiceProfile.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> AALServiceProfile </td></tr>
-		</table></td></tr>
-		</table>>, URL="./AALServiceProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.profile.Property
 	c247386 [label=<<table title="org.universAAL.ontology.profile.Property" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Property.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
@@ -159,27 +159,27 @@ digraph G {
 <tr><td align="center" balign="center"> HRSubProfile </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HRSubProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	//org.universAAL.ontology.profile.SpaceProfile extends org.universAAL.ontology.profile.Profile
+	c247379:p -> c247367:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.profile.PersonalInformationSubprofile extends org.universAAL.ontology.profile.SubProfile
-	c247371:p -> c247368:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.profile.AALAppSubProfile extends org.universAAL.ontology.profile.SubProfile
-	c247371:p -> c247370:p [dir=back,arrowtail=empty];
+	c247370:p -> c247368:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.profile.Caregiver extends org.universAAL.ontology.profile.User
-	c247377:p -> c247372:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.profile.AALSpaceProfile extends org.universAAL.ontology.profile.Profile
-	c247378:p -> c247373:p [dir=back,arrowtail=empty];
+	c247378:p -> c247371:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.profile.AppSubProfile extends org.universAAL.ontology.profile.SubProfile
+	c247370:p -> c247372:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.profile.CaregiverProfile extends org.universAAL.ontology.profile.UserProfile
-	c247387:p -> c247376:p [dir=back,arrowtail=empty];
+	c247387:p -> c247377:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.profile.AssistedPersonProfile extends org.universAAL.ontology.profile.UserProfile
-	c247387:p -> c247379:p [dir=back,arrowtail=empty];
+	c247387:p -> c247380:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.profile.AppServiceProfile extends org.universAAL.ontology.profile.Profile
+	c247379:p -> c247381:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.profile.HWSubProfile extends org.universAAL.ontology.profile.SubProfile
-	c247371:p -> c247382:p [dir=back,arrowtail=empty];
+	c247370:p -> c247383:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.profile.AssistedPerson extends org.universAAL.ontology.profile.User
-	c247377:p -> c247384:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.profile.AALServiceProfile extends org.universAAL.ontology.profile.Profile
 	c247378:p -> c247385:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.profile.UserProfile extends org.universAAL.ontology.profile.Profile
-	c247378:p -> c247387:p [dir=back,arrowtail=empty];
+	c247379:p -> c247387:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.profile.HRSubProfile extends org.universAAL.ontology.profile.SubProfile
-	c247371:p -> c247389:p [dir=back,arrowtail=empty];
+	c247370:p -> c247389:p [dir=back,arrowtail=empty];
 }
 

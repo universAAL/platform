@@ -10,24 +10,24 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.ucc.configuration.model.interfaces.OnConfigurationChangedListener
-	c7376940 [label=<<table title="org.universAAL.tools.ucc.configuration.model.interfaces.OnConfigurationChangedListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../model/interfaces/OnConfigurationChangedListener.html">
+	c7365597 [label=<<table title="org.universAAL.tools.ucc.configuration.model.interfaces.OnConfigurationChangedListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../model/interfaces/OnConfigurationChangedListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> OnConfigurationChangedListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="../model/interfaces/OnConfigurationChangedListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.configuration.view.SimpleConfiguratorTextField
-	c7376959 [label=<<table title="org.universAAL.tools.ucc.configuration.view.SimpleConfiguratorTextField" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SimpleConfiguratorTextField.html">
+	c7365616 [label=<<table title="org.universAAL.tools.ucc.configuration.view.SimpleConfiguratorTextField" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SimpleConfiguratorTextField.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SimpleConfiguratorTextField </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SimpleConfiguratorTextField.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.ucc.configuration.view.SimpleConfiguratorTextField extends com.vaadin.ui.TextField
-	c7377042:p -> c7376959:p [dir=back,arrowtail=empty];
+	c7365699:p -> c7365616:p [dir=back,arrowtail=empty];
 	//org.universAAL.tools.ucc.configuration.view.SimpleConfiguratorTextField implements org.universAAL.tools.ucc.configuration.model.interfaces.OnConfigurationChangedListener
-	c7376940:p -> c7376959:p [dir=back,arrowtail=empty,style=dashed];
+	c7365597:p -> c7365616:p [dir=back,arrowtail=empty,style=dashed];
 	// com.vaadin.ui.TextField
-	c7377042 [label=<<table title="com.vaadin.ui.TextField" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/vaadin/ui/TextField.html">
+	c7365699 [label=<<table title="com.vaadin.ui.TextField" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/vaadin/ui/TextField.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TextField </td></tr>
 		</table></td></tr>

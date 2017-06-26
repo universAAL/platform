@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.cryptographic.Digest
-	c7020802 [label=<<table title="org.universAAL.ontology.cryptographic.Digest" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../Digest.html">
+	c7006622 [label=<<table title="org.universAAL.ontology.cryptographic.Digest" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../Digest.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Digest </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../Digest.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.cryptographic.digest.SecureHashAlgorithm
-	c7020824 [label=<<table title="org.universAAL.ontology.cryptographic.digest.SecureHashAlgorithm" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SecureHashAlgorithm.html">
+	c7006644 [label=<<table title="org.universAAL.ontology.cryptographic.digest.SecureHashAlgorithm" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SecureHashAlgorithm.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SecureHashAlgorithm </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SecureHashAlgorithm.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.cryptographic.digest.SecureHashAlgorithm extends org.universAAL.ontology.cryptographic.Digest
-	c7020802:p -> c7020824:p [dir=back,arrowtail=empty];
+	c7006622:p -> c7006644:p [dir=back,arrowtail=empty];
 }
 

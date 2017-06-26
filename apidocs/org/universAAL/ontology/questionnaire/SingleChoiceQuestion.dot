@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.questionnaire.Question
-	c7431876 [label=<<table title="org.universAAL.ontology.questionnaire.Question" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Question.html">
+	c7420533 [label=<<table title="org.universAAL.ontology.questionnaire.Question" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Question.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Question </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Question.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.questionnaire.SingleChoiceQuestion
-	c7431878 [label=<<table title="org.universAAL.ontology.questionnaire.SingleChoiceQuestion" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SingleChoiceQuestion.html">
+	c7420535 [label=<<table title="org.universAAL.ontology.questionnaire.SingleChoiceQuestion" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SingleChoiceQuestion.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SingleChoiceQuestion </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SingleChoiceQuestion.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.questionnaire.SingleChoiceQuestion extends org.universAAL.ontology.questionnaire.Question
-	c7431876:p -> c7431878:p [dir=back,arrowtail=empty];
+	c7420533:p -> c7420535:p [dir=back,arrowtail=empty];
 }
 

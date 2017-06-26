@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.activityhub.MedicationDosageSensorEvent
-	c5440726 [label=<<table title="org.universAAL.ontology.activityhub.MedicationDosageSensorEvent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MedicationDosageSensorEvent.html">
+	c5415202 [label=<<table title="org.universAAL.ontology.activityhub.MedicationDosageSensorEvent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MedicationDosageSensorEvent.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MedicationDosageSensorEvent </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MedicationDosageSensorEvent.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.activityhub.ActivityHubSensorEvent
-	c5440732 [label=<<table title="org.universAAL.ontology.activityhub.ActivityHubSensorEvent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ActivityHubSensorEvent.html">
+	c5415208 [label=<<table title="org.universAAL.ontology.activityhub.ActivityHubSensorEvent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ActivityHubSensorEvent.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ActivityHubSensorEvent </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./ActivityHubSensorEvent.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.activityhub.MedicationDosageSensorEvent extends org.universAAL.ontology.activityhub.ActivityHubSensorEvent
-	c5440732:p -> c5440726:p [dir=back,arrowtail=empty];
+	c5415208:p -> c5415202:p [dir=back,arrowtail=empty];
 }
 

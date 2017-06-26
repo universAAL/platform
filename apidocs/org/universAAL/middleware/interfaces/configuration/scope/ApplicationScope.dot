@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.interfaces.configuration.scope.AppPartScope
-	c2079254 [label=<<table title="org.universAAL.middleware.interfaces.configuration.scope.AppPartScope" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AppPartScope.html">
+	c2065073 [label=<<table title="org.universAAL.middleware.interfaces.configuration.scope.AppPartScope" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AppPartScope.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AppPartScope </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AppPartScope.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.interfaces.configuration.scope.SpaceScope
-	c2079256 [label=<<table title="org.universAAL.middleware.interfaces.configuration.scope.SpaceScope" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SpaceScope.html">
+	c2065075 [label=<<table title="org.universAAL.middleware.interfaces.configuration.scope.SpaceScope" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SpaceScope.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SpaceScope </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SpaceScope.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.interfaces.configuration.scope.ApplicationScope
-	c2079257 [label=<<table title="org.universAAL.middleware.interfaces.configuration.scope.ApplicationScope" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ApplicationScope.html">
+	c2065076 [label=<<table title="org.universAAL.middleware.interfaces.configuration.scope.ApplicationScope" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ApplicationScope.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ApplicationScope </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ApplicationScope.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.interfaces.configuration.scope.AppPartScope extends org.universAAL.middleware.interfaces.configuration.scope.ApplicationScope
-	c2079257:p -> c2079254:p [dir=back,arrowtail=empty];
+	c2065076:p -> c2065073:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.interfaces.configuration.scope.ApplicationScope extends org.universAAL.middleware.interfaces.configuration.scope.SpaceScope
-	c2079256:p -> c2079257:p [dir=back,arrowtail=empty];
+	c2065075:p -> c2065076:p [dir=back,arrowtail=empty];
 }
 

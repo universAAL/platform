@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.service.data.factory.AbstractServiceStrategyDataFactory
-	c7241355 [label=<<table title="org.universAAL.middleware.service.data.factory.AbstractServiceStrategyDataFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractServiceStrategyDataFactory.html">
+	c7230012 [label=<<table title="org.universAAL.middleware.service.data.factory.AbstractServiceStrategyDataFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractServiceStrategyDataFactory.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractServiceStrategyDataFactory </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractServiceStrategyDataFactory.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.service.data.factory.ServiceStrategyDataFactory
-	c7241356 [label=<<table title="org.universAAL.middleware.service.data.factory.ServiceStrategyDataFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ServiceStrategyDataFactory.html">
+	c7230013 [label=<<table title="org.universAAL.middleware.service.data.factory.ServiceStrategyDataFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ServiceStrategyDataFactory.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ServiceStrategyDataFactory </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ServiceStrategyDataFactory.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.service.data.factory.ServiceStrategyDataFactory extends org.universAAL.middleware.service.data.factory.AbstractServiceStrategyDataFactory
-	c7241355:p -> c7241356:p [dir=back,arrowtail=empty];
+	c7230012:p -> c7230013:p [dir=back,arrowtail=empty];
 }
 

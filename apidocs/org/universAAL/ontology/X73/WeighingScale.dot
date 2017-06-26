@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.X73.WeighingScale
-	c8401883 [label=<<table title="org.universAAL.ontology.X73.WeighingScale" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./WeighingScale.html">
+	c8393375 [label=<<table title="org.universAAL.ontology.X73.WeighingScale" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./WeighingScale.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> WeighingScale </td></tr>
 		</table></td></tr>
 		</table>>, URL="./WeighingScale.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.X73.MDS
-	c8401889 [label=<<table title="org.universAAL.ontology.X73.MDS" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MDS.html">
+	c8393381 [label=<<table title="org.universAAL.ontology.X73.MDS" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MDS.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> MDS </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./MDS.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.X73.WeighingScale extends org.universAAL.ontology.X73.MDS
-	c8401889:p -> c8401883:p [dir=back,arrowtail=empty];
+	c8393381:p -> c8393375:p [dir=back,arrowtail=empty];
 }
 

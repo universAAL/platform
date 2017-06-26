@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.context.sesame.sail.CardinalityNativeStoreConnection
-	c2542645 [label=<<table title="org.universAAL.context.sesame.sail.CardinalityNativeStoreConnection" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CardinalityNativeStoreConnection.html">
+	c2511448 [label=<<table title="org.universAAL.context.sesame.sail.CardinalityNativeStoreConnection" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CardinalityNativeStoreConnection.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CardinalityNativeStoreConnection </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CardinalityNativeStoreConnection.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.context.sesame.sail.CardinCollectNativeStoreConnection
-	c2542649 [label=<<table title="org.universAAL.context.sesame.sail.CardinCollectNativeStoreConnection" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CardinCollectNativeStoreConnection.html">
+	c2511452 [label=<<table title="org.universAAL.context.sesame.sail.CardinCollectNativeStoreConnection" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CardinCollectNativeStoreConnection.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CardinCollectNativeStoreConnection </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CardinCollectNativeStoreConnection.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.context.sesame.sail.CardinCollectNativeStoreConnection extends org.universAAL.context.sesame.sail.CardinalityNativeStoreConnection
-	c2542645:p -> c2542649:p [dir=back,arrowtail=empty];
+	c2511448:p -> c2511452:p [dir=back,arrowtail=empty];
 }
 

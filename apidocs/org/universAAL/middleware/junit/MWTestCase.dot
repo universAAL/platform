@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.bus.junit.BusTestCase
-	c5275923 [label=<<table title="org.universAAL.middleware.bus.junit.BusTestCase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../bus/junit/BusTestCase.html">
+	c5250399 [label=<<table title="org.universAAL.middleware.bus.junit.BusTestCase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../bus/junit/BusTestCase.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BusTestCase </td></tr>
 		</table></td></tr>
 		</table>>, URL="../bus/junit/BusTestCase.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.junit.MWTestCase
-	c5276716 [label=<<table title="org.universAAL.middleware.junit.MWTestCase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MWTestCase.html">
+	c5251192 [label=<<table title="org.universAAL.middleware.junit.MWTestCase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MWTestCase.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MWTestCase </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MWTestCase.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.junit.MWTestCase extends org.universAAL.middleware.bus.junit.BusTestCase
-	c5275923:p -> c5276716:p [dir=back,arrowtail=empty];
+	c5250399:p -> c5251192:p [dir=back,arrowtail=empty];
 }
 

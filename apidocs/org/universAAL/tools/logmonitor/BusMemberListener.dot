@@ -10,27 +10,27 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.logmonitor.BusMemberListener
-	c2419045 [label=<<table title="org.universAAL.tools.logmonitor.BusMemberListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BusMemberListener.html">
+	c2387848 [label=<<table title="org.universAAL.tools.logmonitor.BusMemberListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BusMemberListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> BusMemberListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BusMemberListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.logmonitor.msgflow.LogMonitor
-	c2419059 [label=<<table title="org.universAAL.tools.logmonitor.msgflow.LogMonitor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./msgflow/LogMonitor.html">
+	c2387862 [label=<<table title="org.universAAL.tools.logmonitor.msgflow.LogMonitor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./msgflow/LogMonitor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LogMonitor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./msgflow/LogMonitor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.logmonitor.bus_member.gui.BusMemberGui
-	c2419080 [label=<<table title="org.universAAL.tools.logmonitor.bus_member.gui.BusMemberGui" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./bus_member/gui/BusMemberGui.html">
+	c2387883 [label=<<table title="org.universAAL.tools.logmonitor.bus_member.gui.BusMemberGui" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./bus_member/gui/BusMemberGui.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BusMemberGui </td></tr>
 		</table></td></tr>
 		</table>>, URL="./bus_member/gui/BusMemberGui.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.logmonitor.msgflow.LogMonitor implements org.universAAL.tools.logmonitor.BusMemberListener
-	c2419045:p -> c2419059:p [dir=back,arrowtail=empty,style=dashed];
+	c2387848:p -> c2387862:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.tools.logmonitor.bus_member.gui.BusMemberGui implements org.universAAL.tools.logmonitor.BusMemberListener
-	c2419045:p -> c2419080:p [dir=back,arrowtail=empty,style=dashed];
+	c2387848:p -> c2387883:p [dir=back,arrowtail=empty,style=dashed];
 }
 

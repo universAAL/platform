@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.context.ContextPublisher
-	c7300846 [label=<<table title="org.universAAL.middleware.context.ContextPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../middleware/context/ContextPublisher.html">
+	c7289503 [label=<<table title="org.universAAL.middleware.context.ContextPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../middleware/context/ContextPublisher.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ContextPublisher </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../../middleware/context/ContextPublisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.security.session.manager.context.SessionPublisher
-	c7302429 [label=<<table title="org.universAAL.security.session.manager.context.SessionPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SessionPublisher.html">
+	c7291086 [label=<<table title="org.universAAL.security.session.manager.context.SessionPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SessionPublisher.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SessionPublisher </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SessionPublisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.security.session.manager.context.SessionPublisher extends org.universAAL.middleware.context.ContextPublisher
-	c7300846:p -> c7302429:p [dir=back,arrowtail=empty];
+	c7289503:p -> c7291086:p [dir=back,arrowtail=empty];
 }
 

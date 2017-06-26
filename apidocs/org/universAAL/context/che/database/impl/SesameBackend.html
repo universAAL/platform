@@ -95,17 +95,17 @@ var activeTableTab = "activeTableTab";
 <div class="subTitle">org.universAAL.context.che.database.impl</div>
 <h2 title="Class SesameBackend" class="title">Class SesameBackend</h2>
 <map id="G" name="G">
-<area shape="rect" id="c7253571" href="../Backend.html" title="org.universAAL.context.che.database.Backend" alt="" coords="349,11,435,53"/>
+<area shape="rect" id="c7242228" href="../Backend.html" title="org.universAAL.context.che.database.Backend" alt="" coords="349,11,435,53"/>
 <area shape="rect" id="node1" href="../Backend.html" title="&lt;TABLE&gt;" alt="" coords="339,6,445,58"/>
-<area shape="rect" id="c7253579" href="./SesameBackend.html" title="org.universAAL.context.che.database.impl.SesameBackend" alt="" coords="332,118,452,143"/>
+<area shape="rect" id="c7242236" href="./SesameBackend.html" title="org.universAAL.context.che.database.impl.SesameBackend" alt="" coords="332,118,452,143"/>
 <area shape="rect" id="node5" href="./SesameBackend.html" title="&lt;TABLE&gt;" alt="" coords="321,107,463,155"/>
-<area shape="rect" id="c7253573" href="./SesameBackendCrdClc.html" title="org.universAAL.context.che.database.impl.SesameBackendCrdClc" alt="" coords="15,214,177,239"/>
+<area shape="rect" id="c7242230" href="./SesameBackendCrdClc.html" title="org.universAAL.context.che.database.impl.SesameBackendCrdClc" alt="" coords="15,214,177,239"/>
 <area shape="rect" id="node2" href="./SesameBackendCrdClc.html" title="&lt;TABLE&gt;" alt="" coords="5,203,187,251"/>
-<area shape="rect" id="c7253574" href="./SesameBackendCrd.html" title="org.universAAL.context.che.database.impl.SesameBackendCrd" alt="" coords="221,214,363,239"/>
+<area shape="rect" id="c7242231" href="./SesameBackendCrd.html" title="org.universAAL.context.che.database.impl.SesameBackendCrd" alt="" coords="221,214,363,239"/>
 <area shape="rect" id="node3" href="./SesameBackendCrd.html" title="&lt;TABLE&gt;" alt="" coords="211,203,373,251"/>
-<area shape="rect" id="c7253575" href="./SesameBackendCrdClc2.html" title="org.universAAL.context.che.database.impl.SesameBackendCrdClc2" alt="" coords="408,214,576,239"/>
+<area shape="rect" id="c7242232" href="./SesameBackendCrdClc2.html" title="org.universAAL.context.che.database.impl.SesameBackendCrdClc2" alt="" coords="408,214,576,239"/>
 <area shape="rect" id="node4" href="./SesameBackendCrdClc2.html" title="&lt;TABLE&gt;" alt="" coords="397,203,587,251"/>
-<area shape="rect" id="c7253580" href="./SesameBackendWithConfidence.html" title="org.universAAL.context.che.database.impl.SesameBackendWithConfidence" alt="" coords="621,214,835,239"/>
+<area shape="rect" id="c7242237" href="./SesameBackendWithConfidence.html" title="org.universAAL.context.che.database.impl.SesameBackendWithConfidence" alt="" coords="621,214,835,239"/>
 <area shape="rect" id="node6" href="./SesameBackendWithConfidence.html" title="&lt;TABLE&gt;" alt="" coords="611,203,845,251"/>
 </map>
 <!-- UML diagram added by UMLGraph version R5_6-24-gf6e263 (http://www.umlgraph.org/) -->
@@ -169,15 +169,15 @@ implements <a href="../../../../../../org/universAAL/context/che/database/Backen
 </td>
 </tr>
 <tr class="rowColor">
-<td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html?is-external=true" title="class or interface in java.lang">Boolean</a></code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#tenantAware">tenantAware</a></span></code>
-<div class="block">Determines if data is stored/queried in tenant-aware mode</div>
+<td class="colFirst"><code>protected <a href="../../../../../../org/universAAL/middleware/serialization/MessageContentSerializer.html" title="interface in org.universAAL.middleware.serialization">MessageContentSerializer</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#serializer">serializer</a></span></code>
+<div class="block">turtle parser.</div>
 </td>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code>protected <a href="../../../../../../org/universAAL/middleware/serialization/MessageContentSerializer.html" title="interface in org.universAAL.middleware.serialization">MessageContentSerializer</a></code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#uAALParser">uAALParser</a></span></code>
-<div class="block">uaal-turtle parser.</div>
+<td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html?is-external=true" title="class or interface in java.lang">Boolean</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#tenantAware">tenantAware</a></span></code>
+<div class="block">Determines if data is stored/queried in tenant-aware mode</div>
 </td>
 </tr>
 </table>
@@ -335,7 +335,7 @@ implements <a href="../../../../../../org/universAAL/context/che/database/Backen
 </tr>
 <tr id="i11" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#setuAALParser-org.universAAL.middleware.serialization.MessageContentSerializer-">setuAALParser</a></span>(<a href="../../../../../../org/universAAL/middleware/serialization/MessageContentSerializer.html" title="interface in org.universAAL.middleware.serialization">MessageContentSerializer</a>&nbsp;service)</code>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#setSerializer-org.universAAL.middleware.serialization.MessageContentSerializer-">setSerializer</a></span>(<a href="../../../../../../org/universAAL/middleware/serialization/MessageContentSerializer.html" title="interface in org.universAAL.middleware.serialization">MessageContentSerializer</a>&nbsp;service)</code>
 <div class="block">Set the MessageContentSerializer universAAL Parser that can be used to
  serialize and parse RDF data to universAAL data and vice-versa.</div>
 </td>
@@ -369,14 +369,14 @@ implements <a href="../../../../../../org/universAAL/context/che/database/Backen
 <!--   -->
 </a>
 <h3>Field Detail</h3>
-<a name="uAALParser">
+<a name="serializer">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
-<h4>uAALParser</h4>
-<pre>protected&nbsp;<a href="../../../../../../org/universAAL/middleware/serialization/MessageContentSerializer.html" title="interface in org.universAAL.middleware.serialization">MessageContentSerializer</a> uAALParser</pre>
-<div class="block">uaal-turtle parser.</div>
+<h4>serializer</h4>
+<pre>protected&nbsp;<a href="../../../../../../org/universAAL/middleware/serialization/MessageContentSerializer.html" title="interface in org.universAAL.middleware.serialization">MessageContentSerializer</a> serializer</pre>
+<div class="block">turtle parser.</div>
 </li>
 </ul>
 <a name="PRELOAD_FILE">
@@ -537,13 +537,13 @@ implements <a href="../../../../../../org/universAAL/context/che/database/Backen
                             <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>...&nbsp;scopeArray)</pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="../../../../../../org/universAAL/context/che/database/Backend.html#queryBySPARQL-java.lang.String-java.lang.String...-">Backend</a></code></span></div>
 <div class="block">Returns the result of a SPARQL query issued to the underlying store.
- 
+
  The types of SPARQL queries allowed depend on the underlying
  implementation, but these are mandated to include at least SELECT and
  DESCRIBE, and encouraged to also allow CONSTRUCT and ASK. SPARQL-Update
  is optional. Implementations should inform in case an unsupported query
  is received.
- 
+
  The underlying implementations should return results in RDF/XML-ABBREV
  format encoded in UTF-8 in case of RDF models, and also if possible in
  case of lists of bindings for SELECT queries. Results for ASK and UPDATE
@@ -801,27 +801,27 @@ implements <a href="../../../../../../org/universAAL/context/che/database/Backen
 </dl>
 </li>
 </ul>
-<a name="setuAALParser-org.universAAL.middleware.serialization.MessageContentSerializer-">
+<a name="setSerializer-org.universAAL.middleware.serialization.MessageContentSerializer-">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
-<h4>setuAALParser</h4>
-<pre>public&nbsp;void&nbsp;setuAALParser(<a href="../../../../../../org/universAAL/middleware/serialization/MessageContentSerializer.html" title="interface in org.universAAL.middleware.serialization">MessageContentSerializer</a>&nbsp;service)</pre>
-<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="../../../../../../org/universAAL/context/che/database/Backend.html#setuAALParser-org.universAAL.middleware.serialization.MessageContentSerializer-">Backend</a></code></span></div>
+<h4>setSerializer</h4>
+<pre>public&nbsp;void&nbsp;setSerializer(<a href="../../../../../../org/universAAL/middleware/serialization/MessageContentSerializer.html" title="interface in org.universAAL.middleware.serialization">MessageContentSerializer</a>&nbsp;service)</pre>
+<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="../../../../../../org/universAAL/context/che/database/Backend.html#setSerializer-org.universAAL.middleware.serialization.MessageContentSerializer-">Backend</a></code></span></div>
 <div class="block">Set the MessageContentSerializer universAAL Parser that can be used to
  serialize and parse RDF data to universAAL data and vice-versa. This
  might be helpful in many implementations, and allows the activator of the
  CHE to look for such service in OSGi, which should be provided by the
  mandatory component mw.data.serialization.
- 
+
  There is no guarantee though that the parser is set before it is used in
  the implementation, so check for nulls. If an implementation of a Backend
  does not need to use such parser, leave its implementation of this method
  empty.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="../../../../../../org/universAAL/context/che/database/Backend.html#setuAALParser-org.universAAL.middleware.serialization.MessageContentSerializer-">setuAALParser</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../../org/universAAL/context/che/database/Backend.html" title="interface in org.universAAL.context.che.database">Backend</a></code></dd>
+<dd><code><a href="../../../../../../org/universAAL/context/che/database/Backend.html#setSerializer-org.universAAL.middleware.serialization.MessageContentSerializer-">setSerializer</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../../org/universAAL/context/che/database/Backend.html" title="interface in org.universAAL.context.che.database">Backend</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>service</code> - The MessageContentSerializer service implementation found in
             OSGi</dd>

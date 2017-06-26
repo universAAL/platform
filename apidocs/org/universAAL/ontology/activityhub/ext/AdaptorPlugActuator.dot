@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.device.Actuator
-	c1963449 [label=<<table title="org.universAAL.ontology.device.Actuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../device/Actuator.html">
+	c1940760 [label=<<table title="org.universAAL.ontology.device.Actuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../device/Actuator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Actuator </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../device/Actuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.activityhub.ext.AdaptorPlugActuator
-	c1963572 [label=<<table title="org.universAAL.ontology.activityhub.ext.AdaptorPlugActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AdaptorPlugActuator.html">
+	c1940883 [label=<<table title="org.universAAL.ontology.activityhub.ext.AdaptorPlugActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AdaptorPlugActuator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AdaptorPlugActuator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AdaptorPlugActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.activityhub.ext.AdaptorPlugActuator extends org.universAAL.ontology.device.Actuator
-	c1963449:p -> c1963572:p [dir=back,arrowtail=empty];
+	c1940760:p -> c1940883:p [dir=back,arrowtail=empty];
 }
 

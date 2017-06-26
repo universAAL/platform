@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.managers.api.ConfigurationEditor.ConfigurableEntityManager
-	c7717689 [label=<<table title="org.universAAL.middleware.managers.api.ConfigurationEditor.ConfigurableEntityManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../api/ConfigurationEditor.ConfigurableEntityManager.html">
+	c7712018 [label=<<table title="org.universAAL.middleware.managers.api.ConfigurationEditor.ConfigurableEntityManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../api/ConfigurationEditor.ConfigurableEntityManager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ConfigurableEntityManager </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../../api/ConfigurationEditor.ConfigurableEntityManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.configuration.core.impl.secondaryManagers.SynchronousConfEntityManager
-	c7718593 [label=<<table title="org.universAAL.middleware.managers.configuration.core.impl.secondaryManagers.SynchronousConfEntityManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SynchronousConfEntityManager.html">
+	c7712922 [label=<<table title="org.universAAL.middleware.managers.configuration.core.impl.secondaryManagers.SynchronousConfEntityManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SynchronousConfEntityManager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SynchronousConfEntityManager </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SynchronousConfEntityManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.managers.configuration.core.impl.secondaryManagers.SynchronousConfEntityManager implements org.universAAL.middleware.managers.api.ConfigurationEditor.ConfigurableEntityManager
-	c7717689:p -> c7718593:p [dir=back,arrowtail=empty,style=dashed];
+	c7712018:p -> c7712922:p [dir=back,arrowtail=empty,style=dashed];
 }
 

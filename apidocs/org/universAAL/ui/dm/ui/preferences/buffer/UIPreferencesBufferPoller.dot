@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferPoller
-	c8014506 [label=<<table title="org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferPoller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UIPreferencesBufferPoller.html">
+	c8000325 [label=<<table title="org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferPoller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UIPreferencesBufferPoller.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UIPreferencesBufferPoller </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UIPreferencesBufferPoller.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.interfaces.IUIPreferencesBuffer
-	c8014540 [label=<<table title="org.universAAL.ui.dm.interfaces.IUIPreferencesBuffer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../interfaces/IUIPreferencesBuffer.html">
+	c8000359 [label=<<table title="org.universAAL.ui.dm.interfaces.IUIPreferencesBuffer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../interfaces/IUIPreferencesBuffer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IUIPreferencesBuffer </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../interfaces/IUIPreferencesBuffer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferPoller implements org.universAAL.ui.dm.interfaces.IUIPreferencesBuffer
-	c8014540:p -> c8014506:p [dir=back,arrowtail=empty,style=dashed];
+	c8000359:p -> c8000325:p [dir=back,arrowtail=empty,style=dashed];
 }
 

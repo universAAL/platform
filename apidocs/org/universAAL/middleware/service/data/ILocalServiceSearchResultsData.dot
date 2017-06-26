@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.service.data.ILocalServiceSearchResultsData
-	c4450516 [label=<<table title="org.universAAL.middleware.service.data.ILocalServiceSearchResultsData" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ILocalServiceSearchResultsData.html">
+	c4419319 [label=<<table title="org.universAAL.middleware.service.data.ILocalServiceSearchResultsData" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ILocalServiceSearchResultsData.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ILocalServiceSearchResultsData </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ILocalServiceSearchResultsData.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.service.data.LocalServiceSearchResultsDataMap
-	c4450519 [label=<<table title="org.universAAL.middleware.service.data.LocalServiceSearchResultsDataMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LocalServiceSearchResultsDataMap.html">
+	c4419322 [label=<<table title="org.universAAL.middleware.service.data.LocalServiceSearchResultsDataMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LocalServiceSearchResultsDataMap.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LocalServiceSearchResultsDataMap </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LocalServiceSearchResultsDataMap.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.service.data.LocalServiceSearchResultsDataMap implements org.universAAL.middleware.service.data.ILocalServiceSearchResultsData
-	c4450516:p -> c4450519:p [dir=back,arrowtail=empty,style=dashed];
+	c4419319:p -> c4419322:p [dir=back,arrowtail=empty,style=dashed];
 }
 

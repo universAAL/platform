@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.service.owls.profile.ProfileParameter
-	c7434193 [label=<<table title="org.universAAL.middleware.service.owls.profile.ProfileParameter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProfileParameter.html">
+	c7422850 [label=<<table title="org.universAAL.middleware.service.owls.profile.ProfileParameter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProfileParameter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ProfileParameter </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./ProfileParameter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.service.owls.profile.SingleLocationParameter
-	c7434195 [label=<<table title="org.universAAL.middleware.service.owls.profile.SingleLocationParameter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SingleLocationParameter.html">
+	c7422852 [label=<<table title="org.universAAL.middleware.service.owls.profile.SingleLocationParameter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SingleLocationParameter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SingleLocationParameter </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SingleLocationParameter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.service.owls.profile.SingleLocationParameter extends org.universAAL.middleware.service.owls.profile.ProfileParameter
-	c7434193:p -> c7434195:p [dir=back,arrowtail=empty];
+	c7422850:p -> c7422852:p [dir=back,arrowtail=empty];
 }
 

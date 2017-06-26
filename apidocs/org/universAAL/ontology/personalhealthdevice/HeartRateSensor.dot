@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.device.Sensor
-	c4243781 [label=<<table title="org.universAAL.ontology.device.Sensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../device/Sensor.html">
+	c4212584 [label=<<table title="org.universAAL.ontology.device.Sensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../device/Sensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Sensor </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../device/Sensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.personalhealthdevice.HeartRateSensor
-	c4244063 [label=<<table title="org.universAAL.ontology.personalhealthdevice.HeartRateSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HeartRateSensor.html">
+	c4212866 [label=<<table title="org.universAAL.ontology.personalhealthdevice.HeartRateSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HeartRateSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HeartRateSensor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HeartRateSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.personalhealthdevice.HeartRateSensor extends org.universAAL.ontology.device.Sensor
-	c4243781:p -> c4244063:p [dir=back,arrowtail=empty];
+	c4212584:p -> c4212866:p [dir=back,arrowtail=empty];
 }
 

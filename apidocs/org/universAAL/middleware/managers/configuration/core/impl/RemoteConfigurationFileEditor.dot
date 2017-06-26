@@ -10,27 +10,27 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurationFileEditor
-	c6685251 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurationFileEditor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../interfaces/configuration/configurationEditionTypes/ConfigurationFileEditor.html">
+	c6671071 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurationFileEditor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../interfaces/configuration/configurationEditionTypes/ConfigurationFileEditor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ConfigurationFileEditor </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../../interfaces/configuration/configurationEditionTypes/ConfigurationFileEditor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.configuration.core.impl.RemoteConfigurationEntity
-	c6686200 [label=<<table title="org.universAAL.middleware.managers.configuration.core.impl.RemoteConfigurationEntity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RemoteConfigurationEntity.html">
+	c6672020 [label=<<table title="org.universAAL.middleware.managers.configuration.core.impl.RemoteConfigurationEntity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RemoteConfigurationEntity.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> RemoteConfigurationEntity </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./RemoteConfigurationEntity.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.configuration.core.impl.RemoteConfigurationFileEditor
-	c6686203 [label=<<table title="org.universAAL.middleware.managers.configuration.core.impl.RemoteConfigurationFileEditor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RemoteConfigurationFileEditor.html">
+	c6672023 [label=<<table title="org.universAAL.middleware.managers.configuration.core.impl.RemoteConfigurationFileEditor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RemoteConfigurationFileEditor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RemoteConfigurationFileEditor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./RemoteConfigurationFileEditor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.managers.configuration.core.impl.RemoteConfigurationFileEditor extends org.universAAL.middleware.managers.configuration.core.impl.RemoteConfigurationEntity
-	c6686200:p -> c6686203:p [dir=back,arrowtail=empty];
+	c6672020:p -> c6672023:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.managers.configuration.core.impl.RemoteConfigurationFileEditor implements org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurationFileEditor
-	c6685251:p -> c6686203:p [dir=back,arrowtail=empty,style=dashed];
+	c6671071:p -> c6672023:p [dir=back,arrowtail=empty,style=dashed];
 }
 

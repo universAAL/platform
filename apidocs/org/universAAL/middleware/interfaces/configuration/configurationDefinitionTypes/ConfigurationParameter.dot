@@ -10,29 +10,29 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.DescribedEntity
-	c2873413 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.DescribedEntity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DescribedEntity.html">
+	c2842216 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.DescribedEntity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DescribedEntity.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> DescribedEntity </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DescribedEntity.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.ConfigurationParameter
-	c2873414 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.ConfigurationParameter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigurationParameter.html">
+	c2842217 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.ConfigurationParameter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigurationParameter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ConfigurationParameter </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConfigurationParameter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurationParameterEditor
-	c2873421 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurationParameterEditor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../configurationEditionTypes/ConfigurationParameterEditor.html">
+	c2842224 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurationParameterEditor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../configurationEditionTypes/ConfigurationParameterEditor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ConfigurationParameterEditor </td></tr>
 		</table></td></tr>
 		</table>>, URL="../configurationEditionTypes/ConfigurationParameterEditor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.ConfigurationParameter implements org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.DescribedEntity
-	c2873413:p -> c2873414:p [dir=back,arrowtail=empty,style=dashed];
+	c2842216:p -> c2842217:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurationParameterEditor implements org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.ConfigurationParameter
-	c2873414:p -> c2873421:p [dir=back,arrowtail=empty,style=dashed];
+	c2842217:p -> c2842224:p [dir=back,arrowtail=empty,style=dashed];
 }
 

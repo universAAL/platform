@@ -95,7 +95,7 @@ var activeTableTab = "activeTableTab";
 <div class="subTitle">org.universAAL.lddi.fs20.connect</div>
 <h2 title="Class FHZ1000PC" class="title">Class FHZ1000PC</h2>
 <map id="G" name="G">
-<area shape="rect" id="c3808033" href="./FHZ1000PC.html" title="org.universAAL.lddi.fs20.connect.FHZ1000PC" alt="" coords="16,17,109,42"/>
+<area shape="rect" id="c3776836" href="./FHZ1000PC.html" title="org.universAAL.lddi.fs20.connect.FHZ1000PC" alt="" coords="16,17,109,42"/>
 <area shape="rect" id="node1" href="./FHZ1000PC.html" title="&lt;TABLE&gt;" alt="" coords="5,5,120,53"/>
 </map>
 <!-- UML diagram added by UMLGraph version R5_6-24-gf6e263 (http://www.umlgraph.org/) -->
@@ -120,7 +120,7 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <div class="block">This class encapsulates an interface towards the FHZ1000PC device. It works
  on both Windows and Linux, with different internal access methods but the
  external interface is the same.
- 
+
  FHZ1000PC is part of the FS20-system which is a home automation system with
  devices like dimmers, switches, rain sensors and so on. The devices talk with
  each other via radio messages. The FHZ1000PC is a USB-based interface that
@@ -128,22 +128,22 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
  control and monitor the devices. Unfortunatly only a german control program
  without any external API accompany the device, so I had to write this
  interface to communicate with it.
- 
+
  The FHZ1000PC hardware is originally built for serial communication, but an
  FTDI-chip (http://www.ftdichip.com) is used internally to convert the serial
  communication to USB. In Windows The FTDI-drivers are installed when the
  FHZ1000PC software is installed, and API software for those drivers are
  provided free by FTDI.
- 
+
  Those API:s are C-based, so some interface class is needed to access it from
  Java. Such an interface is provided by https://jd2xx.dev.java.net. This
  interface is released with a Berkeley Software Distribution (BSD) License.
  This interface is implemented in two files which are needed to use this
  interface: - jd2xx.dll - jd2xx.jar
- 
+
  The http://fhz4linux.info/tiki-index.php site provided me with information on
  the serial protocol that FHZ1000PC uses.
- 
+
  I Linux we access the device directly via the serial interface. We only have
  to persuade Linux that it really is a serial device. This is described on:
  http://fhz4linux.info/tiki-index.php?page=Driver+installation</div>

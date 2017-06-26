@@ -95,7 +95,7 @@ var activeTableTab = "activeTableTab";
 <div class="subTitle">org.universAAL.lddi.abstraction</div>
 <h2 title="Interface ExternalDatapoint" class="title">Interface ExternalDatapoint</h2>
 <map id="G" name="G">
-<area shape="rect" id="c3799452" href="./ExternalDatapoint.html" title="org.universAAL.lddi.abstraction.ExternalDatapoint" alt="" coords="16,11,141,53"/>
+<area shape="rect" id="c3768255" href="./ExternalDatapoint.html" title="org.universAAL.lddi.abstraction.ExternalDatapoint" alt="" coords="16,11,141,53"/>
 <area shape="rect" id="node1" href="./ExternalDatapoint.html" title="&lt;TABLE&gt;" alt="" coords="5,6,152,58"/>
 </map>
 <!-- UML diagram added by UMLGraph version R5_6-24-gf6e263 (http://www.umlgraph.org/) -->
@@ -119,7 +119,7 @@ var activeTableTab = "activeTableTab";
  using <a href="../../../../org/universAAL/lddi/abstraction/ExternalComponent.html#addPropMapping-java.lang.String-org.universAAL.lddi.abstraction.ExternalDatapoint-"><code>ExternalComponent.addPropMapping(String, ExternalDatapoint)</code></a> /
  <a href="../../../../org/universAAL/lddi/abstraction/ExternalComponent.html#getDatapoint-java.lang.String-"><code>ExternalComponent.getDatapoint(String)</code></a>.
  </p>
- 
+
  <p>
  It is important that gateways map each ontological property of a distinct
  external component to a single instance of this class. Therefore, in cases
@@ -128,12 +128,12 @@ var activeTableTab = "activeTableTab";
  implement this interface. A way to do so, is to define the specific classes
  for implementing this interface the following way:
  </p>
- 
+
  <p>
  <img src="./doc-files/dpHierarchy.png" width="600" height="450" alt="a
  possible hierarchy of classes implementing ExternalDatapoint">
  </p>
- 
+
  <p>
  Another important point is related to the info needed for realizing the read
  and write actions; in the above text, this was most of the times reduced only
@@ -214,12 +214,12 @@ var activeTableTab = "activeTableTab";
 <div class="block">If this method returns true, it means that the status / value reachable
  at this address can be read but cannot be changed. In that case,
  <a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html#isWriteOnly--"><code>isWriteOnly()</code></a> must return false.
- 
+
  If this method returns false, the interpretation will depend on the
  return value of <a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html#isWriteOnly--"><code>isWriteOnly()</code></a>: in case of true, the status /
  value reachable at this address cannot be read but can be changed.
  Otherwise, it is both read- and writable.
- 
+
  No implementation of ExternalDatapoint may return for both this and the
  <a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html#isWriteOnly--"><code>isWriteOnly()</code></a> method simultaneously true!</div>
 </li>
@@ -234,12 +234,12 @@ var activeTableTab = "activeTableTab";
 <div class="block">If this method returns true, it means that the status / value reachable
  at this address can be changed but cannot be read. In that case,
  <a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html#isReadOnly--"><code>isReadOnly()</code></a> must return false.
- 
+
  If this method returns false, the interpretation will depend on the
  return value of <a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html#isReadOnly--"><code>isReadOnly()</code></a>: in case of true, the status /
  value reachable at this address cannot be changed but can be read.
  Otherwise, it is both read- and writable.
- 
+
  No implementation of ExternalDatapoint may return for both this and the
  <a href="../../../../org/universAAL/lddi/abstraction/ExternalDatapoint.html#isReadOnly--"><code>isReadOnly()</code></a> method simultaneously true!</div>
 </li>

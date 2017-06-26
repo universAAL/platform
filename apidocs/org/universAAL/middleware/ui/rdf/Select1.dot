@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.ui.rdf.Select1
-	c7079716 [label=<<table title="org.universAAL.middleware.ui.rdf.Select1" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Select1.html">
+	c7065536 [label=<<table title="org.universAAL.middleware.ui.rdf.Select1" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Select1.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Select1 </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Select1.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.rdf.Select
-	c7079725 [label=<<table title="org.universAAL.middleware.ui.rdf.Select" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Select.html">
+	c7065545 [label=<<table title="org.universAAL.middleware.ui.rdf.Select" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Select.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Select </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Select.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.ui.rdf.Select1 extends org.universAAL.middleware.ui.rdf.Select
-	c7079725:p -> c7079716:p [dir=back,arrowtail=empty];
+	c7065545:p -> c7065536:p [dir=back,arrowtail=empty];
 }
 

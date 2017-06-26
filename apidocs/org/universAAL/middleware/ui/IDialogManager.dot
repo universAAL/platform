@@ -10,27 +10,27 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.ui.IDialogManager
-	c4405160 [label=<<table title="org.universAAL.middleware.ui.IDialogManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IDialogManager.html">
+	c4373963 [label=<<table title="org.universAAL.middleware.ui.IDialogManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IDialogManager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IDialogManager </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IDialogManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.UserDialogManager
-	c4406830 [label=<<table title="org.universAAL.ui.dm.UserDialogManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ui/dm/UserDialogManager.html">
+	c4375633 [label=<<table title="org.universAAL.ui.dm.UserDialogManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ui/dm/UserDialogManager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UserDialogManager </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ui/dm/UserDialogManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.DialogManagerImpl
-	c4406831 [label=<<table title="org.universAAL.ui.dm.DialogManagerImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ui/dm/DialogManagerImpl.html">
+	c4375634 [label=<<table title="org.universAAL.ui.dm.DialogManagerImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ui/dm/DialogManagerImpl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DialogManagerImpl </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ui/dm/DialogManagerImpl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.dm.UserDialogManager implements org.universAAL.middleware.ui.IDialogManager
-	c4405160:p -> c4406830:p [dir=back,arrowtail=empty,style=dashed];
+	c4373963:p -> c4375633:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.ui.dm.DialogManagerImpl implements org.universAAL.middleware.ui.IDialogManager
-	c4405160:p -> c4406831:p [dir=back,arrowtail=empty,style=dashed];
+	c4373963:p -> c4375634:p [dir=back,arrowtail=empty,style=dashed];
 }
 

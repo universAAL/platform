@@ -95,9 +95,9 @@ var activeTableTab = "activeTableTab";
 <div class="subTitle">org.universAAL.context.che.database.impl</div>
 <h2 title="Class SesameBackendCrdClc2Cnf" class="title">Class SesameBackendCrdClc2Cnf</h2>
 <map id="G" name="G">
-<area shape="rect" id="c7264921" href="./SesameBackendCrdClc2Cnf.html" title="org.universAAL.context.che.database.impl.SesameBackendCrdClc2Cnf" alt="" coords="28,113,217,138"/>
+<area shape="rect" id="c7253578" href="./SesameBackendCrdClc2Cnf.html" title="org.universAAL.context.che.database.impl.SesameBackendCrdClc2Cnf" alt="" coords="28,113,217,138"/>
 <area shape="rect" id="node1" href="./SesameBackendCrdClc2Cnf.html" title="&lt;TABLE&gt;" alt="" coords="17,101,228,149"/>
-<area shape="rect" id="c7264924" href="./SesameBackendWithConfidence.html" title="org.universAAL.context.che.database.impl.SesameBackendWithConfidence" alt="" coords="16,17,229,42"/>
+<area shape="rect" id="c7253581" href="./SesameBackendWithConfidence.html" title="org.universAAL.context.che.database.impl.SesameBackendWithConfidence" alt="" coords="16,17,229,42"/>
 <area shape="rect" id="node2" href="./SesameBackendWithConfidence.html" title="&lt;TABLE&gt;" alt="" coords="5,5,240,53"/>
 </map>
 <!-- UML diagram added by UMLGraph version R5_6-24-gf6e263 (http://www.umlgraph.org/) -->
@@ -140,14 +140,14 @@ extends <a href="../../../../../../org/universAAL/context/che/database/impl/Sesa
  as in <a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html" title="class in org.universAAL.context.che.database.impl"><code>SesameBackend</code></a>.
  Otherwise, only statements having the event as subject will be stored, but
  not reified statements about its subject nor object.
- 
+
  Example:
- 
+
  An "event1" with "subject2" "predicate3" and "object4" with enough confidence
  will result in having the statements in the store: "event1" "hasSubject"
  "subject2", "event1" "hasPredicate" "predicate3", "event1" "hasObject"
  "object4", "subject2" "predicate3" "object4"
- 
+
  But if the confidence is below the threshold, the last reified statement is
  not stored.</div>
 <dl>
@@ -171,7 +171,7 @@ extends <a href="../../../../../../org/universAAL/context/che/database/impl/Sesa
 <!--   -->
 </a>
 <h3>Fields inherited from class&nbsp;org.universAAL.context.che.database.impl.<a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html" title="class in org.universAAL.context.che.database.impl">SesameBackend</a></h3>
-<code><a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#PRELOAD_FILE">PRELOAD_FILE</a>, <a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#tenantAware">tenantAware</a>, <a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#uAALParser">uAALParser</a></code></li>
+<code><a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#PRELOAD_FILE">PRELOAD_FILE</a>, <a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#serializer">serializer</a>, <a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#tenantAware">tenantAware</a></code></li>
 </ul>
 </li>
 </ul>
@@ -223,7 +223,7 @@ extends <a href="../../../../../../org/universAAL/context/che/database/impl/Sesa
 <!--   -->
 </a>
 <h3>Methods inherited from class&nbsp;org.universAAL.context.che.database.impl.<a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html" title="class in org.universAAL.context.che.database.impl">SesameBackend</a></h3>
-<code><a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#close--">close</a>, <a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#populate--">populate</a>, <a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#populate-java.lang.String-">populate</a>, <a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#queryBySPARQL-java.lang.String-java.lang.String...-">queryBySPARQL</a>, <a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#removeOldEvents-long-">removeOldEvents</a>, <a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#retrieveEvent-java.lang.String-java.lang.String-java.lang.String-java.lang.Object-java.lang.Integer-java.lang.Long-java.lang.Object-java.lang.Long-java.lang.String...-">retrieveEvent</a>, <a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#retrieveEventsBetweenTstmp-java.lang.String-java.lang.String-java.lang.String-java.lang.Object-java.lang.Integer-java.lang.Long-org.universAAL.middleware.context.owl.ContextProvider-java.lang.Long-java.lang.Long-java.lang.Long-java.lang.String...-">retrieveEventsBetweenTstmp</a>, <a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#retrieveEventsBySPARQL-java.lang.String-java.lang.String...-">retrieveEventsBySPARQL</a>, <a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#retrieveEventsFromTstmp-java.lang.String-java.lang.String-java.lang.String-java.lang.Object-java.lang.Integer-java.lang.Long-org.universAAL.middleware.context.owl.ContextProvider-java.lang.Long-java.lang.Long-java.lang.String...-">retrieveEventsFromTstmp</a>, <a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#retrieveEventsToTstmp-java.lang.String-java.lang.String-java.lang.String-java.lang.Object-java.lang.Integer-java.lang.Long-org.universAAL.middleware.context.owl.ContextProvider-java.lang.Long-java.lang.Long-java.lang.String...-">retrieveEventsToTstmp</a>, <a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#setuAALParser-org.universAAL.middleware.serialization.MessageContentSerializer-">setuAALParser</a></code></li>
+<code><a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#close--">close</a>, <a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#populate--">populate</a>, <a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#populate-java.lang.String-">populate</a>, <a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#queryBySPARQL-java.lang.String-java.lang.String...-">queryBySPARQL</a>, <a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#removeOldEvents-long-">removeOldEvents</a>, <a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#retrieveEvent-java.lang.String-java.lang.String-java.lang.String-java.lang.Object-java.lang.Integer-java.lang.Long-java.lang.Object-java.lang.Long-java.lang.String...-">retrieveEvent</a>, <a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#retrieveEventsBetweenTstmp-java.lang.String-java.lang.String-java.lang.String-java.lang.Object-java.lang.Integer-java.lang.Long-org.universAAL.middleware.context.owl.ContextProvider-java.lang.Long-java.lang.Long-java.lang.Long-java.lang.String...-">retrieveEventsBetweenTstmp</a>, <a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#retrieveEventsBySPARQL-java.lang.String-java.lang.String...-">retrieveEventsBySPARQL</a>, <a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#retrieveEventsFromTstmp-java.lang.String-java.lang.String-java.lang.String-java.lang.Object-java.lang.Integer-java.lang.Long-org.universAAL.middleware.context.owl.ContextProvider-java.lang.Long-java.lang.Long-java.lang.String...-">retrieveEventsFromTstmp</a>, <a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#retrieveEventsToTstmp-java.lang.String-java.lang.String-java.lang.String-java.lang.Object-java.lang.Integer-java.lang.Long-org.universAAL.middleware.context.owl.ContextProvider-java.lang.Long-java.lang.Long-java.lang.String...-">retrieveEventsToTstmp</a>, <a href="../../../../../../org/universAAL/context/che/database/impl/SesameBackend.html#setSerializer-org.universAAL.middleware.serialization.MessageContentSerializer-">setSerializer</a></code></li>
 </ul>
 <ul class="blockList">
 <li class="blockList"><a name="methods.inherited.from.class.java.lang.Object">

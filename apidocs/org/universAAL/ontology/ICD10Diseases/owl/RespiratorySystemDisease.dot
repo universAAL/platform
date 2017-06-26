@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.disease.owl.Disease
-	c6808007 [label=<<table title="org.universAAL.ontology.disease.owl.Disease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../disease/owl/Disease.html">
+	c6793827 [label=<<table title="org.universAAL.ontology.disease.owl.Disease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../disease/owl/Disease.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Disease </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../disease/owl/Disease.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.ICD10Diseases.owl.RespiratorySystemDisease
-	c6808018 [label=<<table title="org.universAAL.ontology.ICD10Diseases.owl.RespiratorySystemDisease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RespiratorySystemDisease.html">
+	c6793838 [label=<<table title="org.universAAL.ontology.ICD10Diseases.owl.RespiratorySystemDisease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RespiratorySystemDisease.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RespiratorySystemDisease </td></tr>
 		</table></td></tr>
 		</table>>, URL="./RespiratorySystemDisease.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.ICD10Diseases.owl.RespiratorySystemDisease extends org.universAAL.ontology.disease.owl.Disease
-	c6808007:p -> c6808018:p [dir=back,arrowtail=empty];
+	c6793827:p -> c6793838:p [dir=back,arrowtail=empty];
 }
 

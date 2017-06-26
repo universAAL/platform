@@ -95,11 +95,11 @@ var activeTableTab = "activeTableTab";
 <div class="subTitle">org.universAAL.support.utils.ui</div>
 <h2 title="Class DataTable" class="title">Class DataTable</h2>
 <map id="G" name="G">
-<area shape="rect" id="c3205768" href="./DataTable.html" title="org.universAAL.support.utils.ui.DataTable" alt="" coords="77,118,158,143"/>
+<area shape="rect" id="c3174571" href="./DataTable.html" title="org.universAAL.support.utils.ui.DataTable" alt="" coords="77,118,158,143"/>
 <area shape="rect" id="node1" href="./DataTable.html" title="&lt;TABLE&gt;" alt="" coords="67,107,168,155"/>
-<area shape="rect" id="c3205777" href="./IContainer.html" title="org.universAAL.support.utils.ui.IContainer" alt="" coords="16,11,101,53"/>
+<area shape="rect" id="c3174580" href="./IContainer.html" title="org.universAAL.support.utils.ui.IContainer" alt="" coords="16,11,101,53"/>
 <area shape="rect" id="node2" href="./IContainer.html" title="&lt;TABLE&gt;" alt="" coords="5,6,112,58"/>
-<area shape="rect" id="c3205779" href="./Control.html" title="org.universAAL.support.utils.ui.Control" alt="" coords="146,19,209,45"/>
+<area shape="rect" id="c3174582" href="./Control.html" title="org.universAAL.support.utils.ui.Control" alt="" coords="146,19,209,45"/>
 <area shape="rect" id="node3" href="./Control.html" title="&lt;TABLE&gt;" alt="" coords="136,8,219,56"/>
 </map>
 <!-- UML diagram added by UMLGraph version R5_6-24-gf6e263 (http://www.umlgraph.org/) -->
@@ -158,16 +158,16 @@ implements <a href="../../../../../org/universAAL/support/utils/ui/IContainer.ht
  <p>
  Example render:
  <p>
- 
+
  <pre>
  Label ---------------------------------------
       | Control1Label     | Control2Label     |
        ---------------------------------------
-      | Control1Render(1) | Control2Render(1) | 
+      | Control1Render(1) | Control2Render(1) |
        ---------------------------------------
-      | Control1Render(2) | Control2Render(2) | 
+      | Control1Render(2) | Control2Render(2) |
        ---------------------------------------
-      | Control1Render(3) | Control2Render(3) | 
+      | Control1Render(3) | Control2Render(3) |
        ---------------------------------------
                          ...
  </pre></div>
@@ -362,7 +362,7 @@ implements <a href="../../../../../org/universAAL/support/utils/ui/IContainer.ht
  a single String (a single-property path). All other properties of the
  input are set to defaults (empty). Use method setReference(String[] path)
  to set a path through several properties.
- 
+
  If a root Resource is used in the parent of the Table (to which it is
  added) then the values reachable through the reference Path from the root
  will be used as Data Model for the Table.
@@ -399,7 +399,7 @@ implements <a href="../../../../../org/universAAL/support/utils/ui/IContainer.ht
  a single String (a single-property path). All other properties of the
  input are set to defaults (empty). Use method setReference(String[] path)
  to set a path through several properties.
- 
+
  If a root Resource is used in the parent of the Table (to which it is
  added) then the values reachable through the reference Path from the root
  will be used as Data Model for the Table.
@@ -462,7 +462,7 @@ implements <a href="../../../../../org/universAAL/support/utils/ui/IContainer.ht
 <pre>public&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;create(<a href="../../../../../org/universAAL/middleware/ui/rdf/Group.html" title="class in org.universAAL.middleware.ui.rdf">Group</a>&nbsp;group)</pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from class:&nbsp;<code><a href="../../../../../org/universAAL/support/utils/ui/Control.html#create-org.universAAL.middleware.ui.rdf.Group-">Control</a></code></span></div>
 <div class="block">This method is for internal use of utils only. It creates the actual
- official uaal control configured with the properties defined by this
+ official universAAL control configured with the properties defined by this
  class. Once it is created it cannot be modified.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
@@ -491,14 +491,14 @@ implements <a href="../../../../../org/universAAL/support/utils/ui/IContainer.ht
  Model entry property specified by the reference. The Control�s reference
  path must follow a valid path starting where the Table�s own path
  finished. Example:
- 
+
  <pre>
  (Root) --PROP1-- (ResA) --PROP2-- (ResB)
       _____________
        Table Path      _____________
                         Control Path
  </pre>
- 
+
  If the Table used explicit entries instead of a reference path, then the
  reference of the Controls must start with (or be) one of the properties
  of the type of Resource used for the explicit entries.

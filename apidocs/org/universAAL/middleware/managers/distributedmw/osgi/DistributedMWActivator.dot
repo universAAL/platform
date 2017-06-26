@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.managers.distributedmw.osgi.DistributedMWActivator
-	c3526733 [label=<<table title="org.universAAL.middleware.managers.distributedmw.osgi.DistributedMWActivator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DistributedMWActivator.html">
+	c3495536 [label=<<table title="org.universAAL.middleware.managers.distributedmw.osgi.DistributedMWActivator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DistributedMWActivator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DistributedMWActivator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DistributedMWActivator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.managers.distributedmw.osgi.DistributedMWActivator implements org.osgi.framework.BundleActivator
-	c3528323:p -> c3526733:p [dir=back,arrowtail=empty,style=dashed];
+	c3497126:p -> c3495536:p [dir=back,arrowtail=empty,style=dashed];
 	// org.osgi.framework.BundleActivator
-	c3528323 [label=<<table title="org.osgi.framework.BundleActivator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/osgi/framework/BundleActivator.html">
+	c3497126 [label=<<table title="org.osgi.framework.BundleActivator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/osgi/framework/BundleActivator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> BundleActivator </td></tr>

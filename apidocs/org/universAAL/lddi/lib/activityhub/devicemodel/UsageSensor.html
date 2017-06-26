@@ -123,14 +123,14 @@ extends <a href="../../../../../../org/universAAL/lddi/lib/activityhub/devicemod
 implements <a href="../../../../../../org/universAAL/lddi/lib/activityhub/devicecategory/Iso11073UsageSensor.html" title="interface in org.universAAL.lddi.lib.activityhub.devicecategory">Iso11073UsageSensor</a></pre>
 <div class="block">Representation of a usage sensor according to ISO 11073 - Part 10471
  (Indepentend living activity hub).
- 
+
  Specific sensor events (from standard specification): - usage started //
  bed/chair in - usage ended // bed/chair out - expected use start violation
  (optional) // expected usage not started - expected use stop violation
  (optional) // usage continued beyond expected usage end - absence violation
  (optional) // absent for too long a period during expected usage - no
  condition detected (optional)
- 
+
  Initially NO_CONDITION_DETECTED is set. Later, current sensor value can be
  set to USAGE_STARTED and USAGE_ENDED Events EXPECTED_USE_START_VIOLATION,
  EXPECTED_USE_STOP_VIOLATION and ABSENCE_VIOLATION are not implemented yet!</div>
@@ -332,9 +332,9 @@ implements <a href="../../../../../../org/universAAL/lddi/lib/activityhub/device
 <div class="block"><span class="descfrmTypeLabel">Description copied from class:&nbsp;<code><a href="../../../../../../org/universAAL/lddi/lib/activityhub/devicemodel/ActivityHubSensor.html#setSensorEventOn--">ActivityHubSensor</a></code></span></div>
 <div class="block">set sensor event to on (e.g. switch-on) if input comes from an 1-bit
  sensor
- 
+
  called by refinement driver
- 
+
  is on/off feasible for all ActivityHubSensors?</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>

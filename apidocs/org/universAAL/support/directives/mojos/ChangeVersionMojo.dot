@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.support.directives.api.AbstractProcedureMojo
-	c2589533 [label=<<table title="org.universAAL.support.directives.api.AbstractProcedureMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../api/AbstractProcedureMojo.html">
+	c2558336 [label=<<table title="org.universAAL.support.directives.api.AbstractProcedureMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../api/AbstractProcedureMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractProcedureMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../api/AbstractProcedureMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.directives.mojos.ChangeVersionMojo
-	c2589569 [label=<<table title="org.universAAL.support.directives.mojos.ChangeVersionMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ChangeVersionMojo.html">
+	c2558372 [label=<<table title="org.universAAL.support.directives.mojos.ChangeVersionMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ChangeVersionMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ChangeVersionMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ChangeVersionMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.support.directives.mojos.ChangeVersionMojo extends org.universAAL.support.directives.api.AbstractProcedureMojo
-	c2589533:p -> c2589569:p [dir=back,arrowtail=empty];
+	c2558336:p -> c2558372:p [dir=back,arrowtail=empty];
 }
 

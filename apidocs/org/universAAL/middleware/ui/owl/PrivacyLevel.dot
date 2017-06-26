@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ComparableIndividual
-	c6299444 [label=<<table title="org.universAAL.middleware.owl.ComparableIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../owl/ComparableIndividual.html">
+	c6285264 [label=<<table title="org.universAAL.middleware.owl.ComparableIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../owl/ComparableIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ComparableIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../owl/ComparableIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.owl.PrivacyLevel
-	c6299776 [label=<<table title="org.universAAL.middleware.ui.owl.PrivacyLevel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PrivacyLevel.html">
+	c6285596 [label=<<table title="org.universAAL.middleware.ui.owl.PrivacyLevel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PrivacyLevel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PrivacyLevel </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PrivacyLevel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.ui.owl.PrivacyLevel extends org.universAAL.middleware.owl.ComparableIndividual
-	c6299444:p -> c6299776:p [dir=back,arrowtail=empty];
+	c6285264:p -> c6285596:p [dir=back,arrowtail=empty];
 }
 

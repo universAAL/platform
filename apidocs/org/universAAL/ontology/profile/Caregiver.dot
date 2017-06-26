@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.profile.Caregiver
-	c2553302 [label=<<table title="org.universAAL.ontology.profile.Caregiver" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Caregiver.html">
+	c2522104 [label=<<table title="org.universAAL.ontology.profile.Caregiver" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Caregiver.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Caregiver </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Caregiver.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.profile.User
-	c2553307 [label=<<table title="org.universAAL.ontology.profile.User" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./User.html">
+	c2522111 [label=<<table title="org.universAAL.ontology.profile.User" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./User.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> User </td></tr>
 		</table></td></tr>
 		</table>>, URL="./User.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.profile.Caregiver extends org.universAAL.ontology.profile.User
-	c2553307:p -> c2553302:p [dir=back,arrowtail=empty];
+	c2522111:p -> c2522104:p [dir=back,arrowtail=empty];
 }
 

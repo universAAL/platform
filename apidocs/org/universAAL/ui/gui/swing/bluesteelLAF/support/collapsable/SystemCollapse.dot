@@ -10,23 +10,23 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.gui.swing.bluesteelLAF.support.collapsable.SystemCollapse
-	c7733868 [label=<<table title="org.universAAL.ui.gui.swing.bluesteelLAF.support.collapsable.SystemCollapse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SystemCollapse.html">
+	c7728197 [label=<<table title="org.universAAL.ui.gui.swing.bluesteelLAF.support.collapsable.SystemCollapse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SystemCollapse.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SystemCollapse </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SystemCollapse.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.gui.swing.bluesteelLAF.support.collapsable.SystemCollapse extends javax.swing.JPanel
-	c7734403:p -> c7733868:p [dir=back,arrowtail=empty];
+	c7728732:p -> c7728197:p [dir=back,arrowtail=empty];
 	//org.universAAL.ui.gui.swing.bluesteelLAF.support.collapsable.SystemCollapse implements java.awt.event.ComponentListener
-	c7734404:p -> c7733868:p [dir=back,arrowtail=empty,style=dashed];
+	c7728733:p -> c7728197:p [dir=back,arrowtail=empty,style=dashed];
 	// javax.swing.JPanel
-	c7734403 [label=<<table title="javax.swing.JPanel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/JPanel.html">
+	c7728732 [label=<<table title="javax.swing.JPanel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/JPanel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> JPanel </td></tr>
 		</table></td></tr>
 		</table>>, URL="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/JPanel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// java.awt.event.ComponentListener
-	c7734404 [label=<<table title="java.awt.event.ComponentListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/awt/event/ComponentListener.html">
+	c7728733 [label=<<table title="java.awt.event.ComponentListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/awt/event/ComponentListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ComponentListener </td></tr>

@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.gesture.pointing.PointingGestureInSpace
-	c6243445 [label=<<table title="org.universAAL.ontology.gesture.pointing.PointingGestureInSpace" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PointingGestureInSpace.html">
+	c6229265 [label=<<table title="org.universAAL.ontology.gesture.pointing.PointingGestureInSpace" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PointingGestureInSpace.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PointingGestureInSpace </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PointingGestureInSpace.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.gesture.pointing.GestureRecognition
-	c6243446 [label=<<table title="org.universAAL.ontology.gesture.pointing.GestureRecognition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GestureRecognition.html">
+	c6229266 [label=<<table title="org.universAAL.ontology.gesture.pointing.GestureRecognition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GestureRecognition.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> GestureRecognition </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./GestureRecognition.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.gesture.pointing.PointingGestureInSpace extends org.universAAL.ontology.gesture.pointing.GestureRecognition
-	c6243446:p -> c6243445:p [dir=back,arrowtail=empty];
+	c6229266:p -> c6229265:p [dir=back,arrowtail=empty];
 }
 

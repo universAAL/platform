@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.hvac.Target_Temperature
-	c2017506 [label=<<table title="org.universAAL.ontology.hvac.Target_Temperature" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Target_Temperature.html">
+	c1994817 [label=<<table title="org.universAAL.ontology.hvac.Target_Temperature" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Target_Temperature.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Target_Temperature </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Target_Temperature.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.hvac.Air_Conditioning
-	c2017510 [label=<<table title="org.universAAL.ontology.hvac.Air_Conditioning" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Air_Conditioning.html">
+	c1994821 [label=<<table title="org.universAAL.ontology.hvac.Air_Conditioning" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Air_Conditioning.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Air_Conditioning </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Air_Conditioning.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.hvac.Air_Conditioning extends org.universAAL.ontology.hvac.Target_Temperature
-	c2017506:p -> c2017510:p [dir=back,arrowtail=empty];
+	c1994817:p -> c1994821:p [dir=back,arrowtail=empty];
 }
 

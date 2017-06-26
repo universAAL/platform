@@ -10,66 +10,66 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.bus.member.Caller
-	c7184548 [label=<<table title="org.universAAL.middleware.bus.member.Caller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../bus/member/Caller.html">
+	c7170368 [label=<<table title="org.universAAL.middleware.bus.member.Caller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../bus/member/Caller.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Caller </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../bus/member/Caller.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.service.ServiceCaller
-	c7184590 [label=<<table title="org.universAAL.middleware.service.ServiceCaller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ServiceCaller.html">
+	c7170410 [label=<<table title="org.universAAL.middleware.service.ServiceCaller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ServiceCaller.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ServiceCaller </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./ServiceCaller.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.service.DefaultServiceCaller
-	c7184601 [label=<<table title="org.universAAL.middleware.service.DefaultServiceCaller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DefaultServiceCaller.html">
+	c7170421 [label=<<table title="org.universAAL.middleware.service.DefaultServiceCaller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DefaultServiceCaller.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DefaultServiceCaller </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DefaultServiceCaller.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.context.reasoner.CHECaller
-	c7185533 [label=<<table title="org.universAAL.context.reasoner.CHECaller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../context/reasoner/CHECaller.html">
+	c7171353 [label=<<table title="org.universAAL.context.reasoner.CHECaller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../context/reasoner/CHECaller.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CHECaller </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../context/reasoner/CHECaller.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.reliability.reasoner.SCaller
-	c7185553 [label=<<table title="org.universAAL.reliability.reasoner.SCaller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../reliability/reasoner/SCaller.html">
+	c7171373 [label=<<table title="org.universAAL.reliability.reasoner.SCaller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../reliability/reasoner/SCaller.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SCaller </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../reliability/reasoner/SCaller.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.gateway.proxies.exporting.ProxySCaller
-	c7186255 [label=<<table title="org.universAAL.ri.gateway.proxies.exporting.ProxySCaller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ri/gateway/proxies/exporting/ProxySCaller.html">
+	c7172075 [label=<<table title="org.universAAL.ri.gateway.proxies.exporting.ProxySCaller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ri/gateway/proxies/exporting/ProxySCaller.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProxySCaller </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ri/gateway/proxies/exporting/ProxySCaller.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.DMServiceCaller
-	c7186314 [label=<<table title="org.universAAL.ui.dm.DMServiceCaller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ui/dm/DMServiceCaller.html">
+	c7172134 [label=<<table title="org.universAAL.ui.dm.DMServiceCaller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ui/dm/DMServiceCaller.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DMServiceCaller </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ui/dm/DMServiceCaller.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.samples.context.reasoner.client.uaalinterface.CHECaller
-	c7186682 [label=<<table title="org.universAAL.samples.context.reasoner.client.uaalinterface.CHECaller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../samples/context/reasoner/client/uaalinterface/CHECaller.html">
+	// org.universAAL.samples.context.reasoner.client.interfaces.CHECaller
+	c7172505 [label=<<table title="org.universAAL.samples.context.reasoner.client.interfaces.CHECaller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../samples/context/reasoner/client/interfaces/CHECaller.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CHECaller </td></tr>
 		</table></td></tr>
-		</table>>, URL="../../samples/context/reasoner/client/uaalinterface/CHECaller.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="../../samples/context/reasoner/client/interfaces/CHECaller.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.service.ServiceCaller extends org.universAAL.middleware.bus.member.Caller
-	c7184548:p -> c7184590:p [dir=back,arrowtail=empty];
+	c7170368:p -> c7170410:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.service.DefaultServiceCaller extends org.universAAL.middleware.service.ServiceCaller
-	c7184590:p -> c7184601:p [dir=back,arrowtail=empty];
+	c7170410:p -> c7170421:p [dir=back,arrowtail=empty];
 	//org.universAAL.context.reasoner.CHECaller extends org.universAAL.middleware.service.ServiceCaller
-	c7184590:p -> c7185533:p [dir=back,arrowtail=empty];
+	c7170410:p -> c7171353:p [dir=back,arrowtail=empty];
 	//org.universAAL.reliability.reasoner.SCaller extends org.universAAL.middleware.service.ServiceCaller
-	c7184590:p -> c7185553:p [dir=back,arrowtail=empty];
+	c7170410:p -> c7171373:p [dir=back,arrowtail=empty];
 	//org.universAAL.ri.gateway.proxies.exporting.ProxySCaller extends org.universAAL.middleware.service.ServiceCaller
-	c7184590:p -> c7186255:p [dir=back,arrowtail=empty];
+	c7170410:p -> c7172075:p [dir=back,arrowtail=empty];
 	//org.universAAL.ui.dm.DMServiceCaller extends org.universAAL.middleware.service.ServiceCaller
-	c7184590:p -> c7186314:p [dir=back,arrowtail=empty];
-	//org.universAAL.samples.context.reasoner.client.uaalinterface.CHECaller extends org.universAAL.middleware.service.ServiceCaller
-	c7184590:p -> c7186682:p [dir=back,arrowtail=empty];
+	c7170410:p -> c7172134:p [dir=back,arrowtail=empty];
+	//org.universAAL.samples.context.reasoner.client.interfaces.CHECaller extends org.universAAL.middleware.service.ServiceCaller
+	c7170410:p -> c7172505:p [dir=back,arrowtail=empty];
 }
 

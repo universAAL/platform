@@ -95,7 +95,7 @@ var activeTableTab = "activeTableTab";
 <div class="subTitle">org.universAAL.middleware.api</div>
 <h2 title="Class SimpleServiceRegistrator" class="title">Class SimpleServiceRegistrator</h2>
 <map id="G" name="G">
-<area shape="rect" id="c7418043" href="./SimpleServiceRegistrator.html" title="org.universAAL.middleware.api.SimpleServiceRegistrator" alt="" coords="15,17,185,42"/>
+<area shape="rect" id="c7406700" href="./SimpleServiceRegistrator.html" title="org.universAAL.middleware.api.SimpleServiceRegistrator" alt="" coords="15,17,185,42"/>
 <area shape="rect" id="node1" href="./SimpleServiceRegistrator.html" title="&lt;TABLE&gt;" alt="" coords="5,5,195,53"/>
 </map>
 <!-- UML diagram added by UMLGraph version R5_6-24-gf6e263 (http://www.umlgraph.org/) -->
@@ -118,11 +118,11 @@ var activeTableTab = "activeTableTab";
 <pre>public class <span class="typeNameLabel">SimpleServiceRegistrator</span>
 extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></pre>
 <div class="block">Main class of Simpified API approach.
- 
+
  It is responsible for scanning provided object interfaces for occurences of
  SimplifiedAPI annotations, generating ServiceProfiles, and creating
  ServiceCallee wrappers.
- 
+
  In all methods if not all information was provided in @Input or @Output
  annotations it generates default values:</div>
 <dl>
@@ -258,16 +258,16 @@ extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?
 <pre>public&nbsp;void&nbsp;registerService(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;o)
                      throws <a href="../../../../org/universAAL/middleware/api/exception/SimplifiedRegistrationException.html" title="class in org.universAAL.middleware.api.exception">SimplifiedRegistrationException</a></pre>
 <div class="block">Main method of Simplified API approach.
- 
+
  It scans provided object for occurrences of : 1. @UniversAALService
  and @ResourceClass annotation on one of its interfaces; 2. Methods of
  founded interface for occurrences of @ServiceOperation, @Output,
  and @ChangeEffect annotation; 3. Parameters of methods for occurrences
  of @Input annotations.
- 
+
  For each founded method it generates a proper ServiceProfile and create a
  ServiceCalleeWrapper instance.
- 
+
  If something goes wrong during processing a
  SimplifiedRegistrationException, especially when: 1.
  No @UniversAALService and @ResourceClass is found on object interfaces;
