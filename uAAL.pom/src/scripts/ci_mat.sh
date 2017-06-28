@@ -105,7 +105,8 @@ do_success() {
   fi
   
   if [[ $MAT == MAT_DEPLOY ]]; then
-    mvn deploy -DskipTests -DaltDeploymentRepository=uaal-nightly::default::http://depot.universaal.org/maven-repo/nightly/ -fn | grep -i "INFO] Build"
+    mvn deploy -DskipTests -DaltDeploymentRepository=uaal-nightly::default::http://depot.universaal.org/maven-repo/nightly/ -fn
+#    | grep -i "INFO] Build"
   fi
   
   #exit 0
