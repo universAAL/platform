@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.rdf.ResourceFactory
-	c2830719 [label=<<table title="org.universAAL.middleware.rdf.ResourceFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../rdf/ResourceFactory.html">
+	c2914628 [label=<<table title="org.universAAL.middleware.rdf.ResourceFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../rdf/ResourceFactory.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ResourceFactory </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../../rdf/ResourceFactory.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.configuration.core.owl.ConfigurationOntology.Factory
-	c2831815 [label=<<table title="org.universAAL.middleware.managers.configuration.core.owl.ConfigurationOntology.Factory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigurationOntology.Factory.html">
+	c2915731 [label=<<table title="org.universAAL.middleware.managers.configuration.core.owl.ConfigurationOntology.Factory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigurationOntology.Factory.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Factory </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConfigurationOntology.Factory.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.managers.configuration.core.owl.ConfigurationOntology.Factory implements org.universAAL.middleware.rdf.ResourceFactory
-	c2830719:p -> c2831815:p [dir=back,arrowtail=empty,style=dashed];
+	c2914628:p -> c2915731:p [dir=back,arrowtail=empty,style=dashed];
 }
 

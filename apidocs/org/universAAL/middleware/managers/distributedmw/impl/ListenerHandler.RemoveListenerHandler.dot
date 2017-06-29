@@ -10,28 +10,28 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.managers.api.SpaceListener
-	c5133920 [label=<<table title="org.universAAL.middleware.managers.api.SpaceListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../api/SpaceListener.html">
+	c5254433 [label=<<table title="org.universAAL.middleware.managers.api.SpaceListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../api/SpaceListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> SpaceListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../api/SpaceListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.distributedmw.impl.LogListenerHandler
-	c5134842 [label=<<table title="org.universAAL.middleware.managers.distributedmw.impl.LogListenerHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LogListenerHandler.html">
+	c5255362 [label=<<table title="org.universAAL.middleware.managers.distributedmw.impl.LogListenerHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LogListenerHandler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LogListenerHandler </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LogListenerHandler.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.distributedmw.impl.BusMemberListenerHandler
-	c5134847 [label=<<table title="org.universAAL.middleware.managers.distributedmw.impl.BusMemberListenerHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BusMemberListenerHandler.html">
+	c5255367 [label=<<table title="org.universAAL.middleware.managers.distributedmw.impl.BusMemberListenerHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BusMemberListenerHandler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BusMemberListenerHandler </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BusMemberListenerHandler.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.managers.distributedmw.impl.ListenerHandler<T>.RemoveListenerHandler implements org.universAAL.middleware.managers.distributedmw.impl.DistributedMWManagerImpl.Handler
-	c5136445:p -> c5134845:p [dir=back,arrowtail=empty,style=dashed];
+	c5256996:p -> c5255365:p [dir=back,arrowtail=empty,style=dashed];
 	// org.universAAL.middleware.managers.distributedmw.impl.DistributedMWManagerImpl.Handler
-	c5136445 [label=<<table title="org.universAAL.middleware.managers.distributedmw.impl.DistributedMWManagerImpl.Handler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/universAAL/middleware/managers/distributedmw/impl/DistributedMWManagerImpl/Handler.html">
+	c5256996 [label=<<table title="org.universAAL.middleware.managers.distributedmw.impl.DistributedMWManagerImpl.Handler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/universAAL/middleware/managers/distributedmw/impl/DistributedMWManagerImpl/Handler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Handler </td></tr>

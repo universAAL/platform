@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.context.ContextEventPattern
-	c6075608 [label=<<table title="org.universAAL.middleware.context.ContextEventPattern" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/context/ContextEventPattern.html">
+	c6208737 [label=<<table title="org.universAAL.middleware.context.ContextEventPattern" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/context/ContextEventPattern.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ContextEventPattern </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../middleware/context/ContextEventPattern.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.utils.context.Pattern
-	c6076030 [label=<<table title="org.universAAL.support.utils.context.Pattern" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Pattern.html">
+	c6209166 [label=<<table title="org.universAAL.support.utils.context.Pattern" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Pattern.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Pattern </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Pattern.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.support.utils.context.Pattern extends org.universAAL.middleware.context.ContextEventPattern
-	c6075608:p -> c6076030:p [dir=back,arrowtail=empty];
+	c6208737:p -> c6209166:p [dir=back,arrowtail=empty];
 }
 

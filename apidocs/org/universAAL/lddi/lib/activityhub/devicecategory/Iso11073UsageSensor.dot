@@ -10,36 +10,36 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.lddi.lib.activityhub.devicemodel.UsageSensor
-	c4746757 [label=<<table title="org.universAAL.lddi.lib.activityhub.devicemodel.UsageSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../devicemodel/UsageSensor.html">
+	c4862071 [label=<<table title="org.universAAL.lddi.lib.activityhub.devicemodel.UsageSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../devicemodel/UsageSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UsageSensor </td></tr>
 		</table></td></tr>
 		</table>>, URL="../devicemodel/UsageSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.lib.activityhub.devicecategory.Iso11073UsageSensor
-	c4746774 [label=<<table title="org.universAAL.lddi.lib.activityhub.devicecategory.Iso11073UsageSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Iso11073UsageSensor.html">
+	c4862088 [label=<<table title="org.universAAL.lddi.lib.activityhub.devicecategory.Iso11073UsageSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Iso11073UsageSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Iso11073UsageSensor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Iso11073UsageSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.lib.activityhub.devicecategory.ActivityHubBaseDeviceCategory
-	c4746776 [label=<<table title="org.universAAL.lddi.lib.activityhub.devicecategory.ActivityHubBaseDeviceCategory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ActivityHubBaseDeviceCategory.html">
+	c4862090 [label=<<table title="org.universAAL.lddi.lib.activityhub.devicecategory.ActivityHubBaseDeviceCategory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ActivityHubBaseDeviceCategory.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ActivityHubBaseDeviceCategory </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ActivityHubBaseDeviceCategory.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.exporter.activityhub.driver.Iso11073UsageSensorInstance
-	c4746787 [label=<<table title="org.universAAL.lddi.exporter.activityhub.driver.Iso11073UsageSensorInstance" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../exporter/activityhub/driver/Iso11073UsageSensorInstance.html">
+	c4862101 [label=<<table title="org.universAAL.lddi.exporter.activityhub.driver.Iso11073UsageSensorInstance" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../exporter/activityhub/driver/Iso11073UsageSensorInstance.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Iso11073UsageSensorInstance </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../exporter/activityhub/driver/Iso11073UsageSensorInstance.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.lddi.lib.activityhub.devicemodel.UsageSensor implements org.universAAL.lddi.lib.activityhub.devicecategory.Iso11073UsageSensor
-	c4746774:p -> c4746757:p [dir=back,arrowtail=empty,style=dashed];
+	c4862088:p -> c4862071:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.lddi.lib.activityhub.devicecategory.Iso11073UsageSensor implements org.universAAL.lddi.lib.activityhub.devicecategory.ActivityHubBaseDeviceCategory
-	c4746776:p -> c4746774:p [dir=back,arrowtail=empty,style=dashed];
+	c4862090:p -> c4862088:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.lddi.exporter.activityhub.driver.Iso11073UsageSensorInstance implements org.universAAL.lddi.lib.activityhub.devicecategory.Iso11073UsageSensor
-	c4746774:p -> c4746787:p [dir=back,arrowtail=empty,style=dashed];
+	c4862088:p -> c4862101:p [dir=back,arrowtail=empty,style=dashed];
 }
 

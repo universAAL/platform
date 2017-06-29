@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.handler.gui.swing.model.special.SpecialButtonInterface
-	c7960700 [label=<<table title="org.universAAL.ui.handler.gui.swing.model.special.SpecialButtonInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../handler/gui/swing/model/special/SpecialButtonInterface.html">
+	c8142091 [label=<<table title="org.universAAL.ui.handler.gui.swing.model.special.SpecialButtonInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../handler/gui/swing/model/special/SpecialButtonInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> SpecialButtonInterface </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../../handler/gui/swing/model/special/SpecialButtonInterface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.gui.swing.bluesteelLAF.specialButtons.UCCButton
-	c7960768 [label=<<table title="org.universAAL.ui.gui.swing.bluesteelLAF.specialButtons.UCCButton" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UCCButton.html">
+	c8142159 [label=<<table title="org.universAAL.ui.gui.swing.bluesteelLAF.specialButtons.UCCButton" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UCCButton.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UCCButton </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UCCButton.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.gui.swing.bluesteelLAF.specialButtons.UCCButton implements org.universAAL.ui.handler.gui.swing.model.special.SpecialButtonInterface
-	c7960700:p -> c7960768:p [dir=back,arrowtail=empty,style=dashed];
+	c8142091:p -> c8142159:p [dir=back,arrowtail=empty,style=dashed];
 }
 

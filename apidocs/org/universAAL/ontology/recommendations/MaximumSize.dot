@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.recommendations.MaximumSize
-	c5353077 [label=<<table title="org.universAAL.ontology.recommendations.MaximumSize" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MaximumSize.html">
+	c5476523 [label=<<table title="org.universAAL.ontology.recommendations.MaximumSize" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MaximumSize.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MaximumSize </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MaximumSize.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.recommendations.Size
-	c5353085 [label=<<table title="org.universAAL.ontology.recommendations.Size" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Size.html">
+	c5476531 [label=<<table title="org.universAAL.ontology.recommendations.Size" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Size.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Size </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Size.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.recommendations.MaximumSize extends org.universAAL.ontology.recommendations.Size
-	c5353085:p -> c5353077:p [dir=back,arrowtail=empty];
+	c5476531:p -> c5476523:p [dir=back,arrowtail=empty];
 }
 

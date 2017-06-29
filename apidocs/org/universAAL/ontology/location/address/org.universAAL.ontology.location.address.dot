@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.location.address.PhysicalAddress
-	c230246 [label=<<table title="org.universAAL.ontology.location.address.PhysicalAddress" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PhysicalAddress.html">
+	c233324 [label=<<table title="org.universAAL.ontology.location.address.PhysicalAddress" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PhysicalAddress.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PhysicalAddress </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PhysicalAddress.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.location.address.Address
-	c230247 [label=<<table title="org.universAAL.ontology.location.address.Address" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Address.html">
+	c233325 [label=<<table title="org.universAAL.ontology.location.address.Address" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Address.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Address </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Address.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.location.address.MailBox
-	c230248 [label=<<table title="org.universAAL.ontology.location.address.MailBox" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MailBox.html">
+	c233326 [label=<<table title="org.universAAL.ontology.location.address.MailBox" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MailBox.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MailBox </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MailBox.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.location.address.PhysicalAddress extends org.universAAL.ontology.location.address.Address
-	c230247:p -> c230246:p [dir=back,arrowtail=empty];
+	c233325:p -> c233324:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.location.address.MailBox extends org.universAAL.ontology.location.address.Address
-	c230247:p -> c230248:p [dir=back,arrowtail=empty];
+	c233325:p -> c233326:p [dir=back,arrowtail=empty];
 }
 

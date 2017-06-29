@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.samples.lighting.client.LightClient
-	c4994210 [label=<<table title="org.universAAL.samples.lighting.client.LightClient" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LightClient.html">
+	c5112861 [label=<<table title="org.universAAL.samples.lighting.client.LightClient" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LightClient.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LightClient </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LightClient.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.samples.lighting.client.LightClient extends javax.swing.JPanel
-	c4994642:p -> c4994210:p [dir=back,arrowtail=empty];
+	c5113293:p -> c5112861:p [dir=back,arrowtail=empty];
 	// javax.swing.JPanel
-	c4994642 [label=<<table title="javax.swing.JPanel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/JPanel.html">
+	c5113293 [label=<<table title="javax.swing.JPanel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/JPanel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> JPanel </td></tr>
 		</table></td></tr>

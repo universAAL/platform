@@ -10,27 +10,27 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.rdf.ScopedResource
-	c2958348 [label=<<table title="org.universAAL.middleware.rdf.ScopedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../rdf/ScopedResource.html">
+	c3046841 [label=<<table title="org.universAAL.middleware.rdf.ScopedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../rdf/ScopedResource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ScopedResource </td></tr>
 		</table></td></tr>
 		</table>>, URL="../rdf/ScopedResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.bus.model.matchable.Event
-	c2958600 [label=<<table title="org.universAAL.middleware.bus.model.matchable.Event" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../bus/model/matchable/Event.html">
+	c3047093 [label=<<table title="org.universAAL.middleware.bus.model.matchable.Event" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../bus/model/matchable/Event.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Event </td></tr>
 		</table></td></tr>
 		</table>>, URL="../bus/model/matchable/Event.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.context.ContextEvent
-	c2958632 [label=<<table title="org.universAAL.middleware.context.ContextEvent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ContextEvent.html">
+	c3047125 [label=<<table title="org.universAAL.middleware.context.ContextEvent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ContextEvent.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ContextEvent </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ContextEvent.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.context.ContextEvent extends org.universAAL.middleware.rdf.ScopedResource
-	c2958348:p -> c2958632:p [dir=back,arrowtail=empty];
+	c3046841:p -> c3047125:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.context.ContextEvent implements org.universAAL.middleware.bus.model.matchable.Event
-	c2958600:p -> c2958632:p [dir=back,arrowtail=empty,style=dashed];
+	c3047093:p -> c3047125:p [dir=back,arrowtail=empty,style=dashed];
 }
 

@@ -10,27 +10,27 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.ui.UIRequest
-	c5443212 [label=<<table title="org.universAAL.middleware.ui.UIRequest" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../middleware/ui/UIRequest.html">
+	c5567867 [label=<<table title="org.universAAL.middleware.ui.UIRequest" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../middleware/ui/UIRequest.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UIRequest </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../../middleware/ui/UIRequest.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.utils.ui.IContainer
-	c5443531 [label=<<table title="org.universAAL.support.utils.ui.IContainer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../IContainer.html">
+	c5568193 [label=<<table title="org.universAAL.support.utils.ui.IContainer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../IContainer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IContainer </td></tr>
 		</table></td></tr>
 		</table>>, URL="../IContainer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.utils.ui.low.Message
-	c5443539 [label=<<table title="org.universAAL.support.utils.ui.low.Message" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Message.html">
+	c5568201 [label=<<table title="org.universAAL.support.utils.ui.low.Message" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Message.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Message </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Message.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.support.utils.ui.low.Message extends org.universAAL.middleware.ui.UIRequest
-	c5443212:p -> c5443539:p [dir=back,arrowtail=empty];
+	c5567867:p -> c5568201:p [dir=back,arrowtail=empty];
 	//org.universAAL.support.utils.ui.low.Message implements org.universAAL.support.utils.ui.IContainer
-	c5443531:p -> c5443539:p [dir=back,arrowtail=empty,style=dashed];
+	c5568193:p -> c5568201:p [dir=back,arrowtail=empty,style=dashed];
 }
 

@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.lddi.lib.ieeex73std.org.bn.IEncoder<T>
-	c4377755 [label=<<table title="org.universAAL.lddi.lib.ieeex73std.org.bn.IEncoder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IEncoder.html">
+	c4488129 [label=<<table title="org.universAAL.lddi.lib.ieeex73std.org.bn.IEncoder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IEncoder.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IEncoder&lt;T&gt; </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IEncoder.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.lib.ieeex73std.org.bn.coders.Encoder<T>
-	c4377796 [label=<<table title="org.universAAL.lddi.lib.ieeex73std.org.bn.coders.Encoder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./coders/Encoder.html">
+	c4488170 [label=<<table title="org.universAAL.lddi.lib.ieeex73std.org.bn.coders.Encoder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./coders/Encoder.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Encoder&lt;T&gt; </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./coders/Encoder.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.lddi.lib.ieeex73std.org.bn.coders.Encoder<T> implements org.universAAL.lddi.lib.ieeex73std.org.bn.IEncoder<T>
-	c4377755:p -> c4377796:p [dir=back,arrowtail=empty,style=dashed];
+	c4488129:p -> c4488170:p [dir=back,arrowtail=empty,style=dashed];
 }
 

@@ -10,55 +10,55 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ri.gateway.configuration.ConfigurationFile
-	c926552 [label=<<table title="org.universAAL.ri.gateway.configuration.ConfigurationFile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigurationFile.html">
+	c941821 [label=<<table title="org.universAAL.ri.gateway.configuration.ConfigurationFile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigurationFile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConfigurationFile </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConfigurationFile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.gateway.configuration.TurtleFileSecurityDefinition
-	c926553 [label=<<table title="org.universAAL.ri.gateway.configuration.TurtleFileSecurityDefinition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TurtleFileSecurityDefinition.html">
+	c941822 [label=<<table title="org.universAAL.ri.gateway.configuration.TurtleFileSecurityDefinition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TurtleFileSecurityDefinition.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TurtleFileSecurityDefinition </td></tr>
 		</table></td></tr>
 		</table>>, URL="./TurtleFileSecurityDefinition.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.gateway.configuration.UpdatedPropertiesFile
-	c926554 [label=<<table title="org.universAAL.ri.gateway.configuration.UpdatedPropertiesFile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UpdatedPropertiesFile.html">
+	c941823 [label=<<table title="org.universAAL.ri.gateway.configuration.UpdatedPropertiesFile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UpdatedPropertiesFile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> UpdatedPropertiesFile </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./UpdatedPropertiesFile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.gateway.configuration.NoSecurityDefinition
-	c926555 [label=<<table title="org.universAAL.ri.gateway.configuration.NoSecurityDefinition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NoSecurityDefinition.html">
+	c941824 [label=<<table title="org.universAAL.ri.gateway.configuration.NoSecurityDefinition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NoSecurityDefinition.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> NoSecurityDefinition </td></tr>
 		</table></td></tr>
 		</table>>, URL="./NoSecurityDefinition.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.gateway.configuration.Configuration
-	c926556 [label=<<table title="org.universAAL.ri.gateway.configuration.Configuration" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Configuration.html">
+	c941825 [label=<<table title="org.universAAL.ri.gateway.configuration.Configuration" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Configuration.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Configuration </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Configuration.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.gateway.configuration.Configuration.ConnectionMode
-	c926557 [label=<<table title="org.universAAL.ri.gateway.configuration.Configuration.ConnectionMode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Configuration.ConnectionMode.html">
+	c941826 [label=<<table title="org.universAAL.ri.gateway.configuration.Configuration.ConnectionMode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Configuration.ConnectionMode.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
 <tr><td align="center" balign="center"> ConnectionMode </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Configuration.ConnectionMode.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.gateway.configuration.PropertiesFileKeys
-	c926558 [label=<<table title="org.universAAL.ri.gateway.configuration.PropertiesFileKeys" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PropertiesFileKeys.html">
+	c941827 [label=<<table title="org.universAAL.ri.gateway.configuration.PropertiesFileKeys" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PropertiesFileKeys.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> PropertiesFileKeys </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PropertiesFileKeys.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ri.gateway.configuration.ConfigurationFile extends org.universAAL.ri.gateway.configuration.UpdatedPropertiesFile
-	c926554:p -> c926552:p [dir=back,arrowtail=empty];
+	c941823:p -> c941821:p [dir=back,arrowtail=empty];
 	//org.universAAL.ri.gateway.configuration.ConfigurationFile implements org.universAAL.ri.gateway.configuration.Configuration
-	c926556:p -> c926552:p [dir=back,arrowtail=empty,style=dashed];
+	c941825:p -> c941821:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.ri.gateway.configuration.ConfigurationFile implements org.universAAL.ri.gateway.configuration.PropertiesFileKeys
-	c926558:p -> c926552:p [dir=back,arrowtail=empty,style=dashed];
+	c941827:p -> c941821:p [dir=back,arrowtail=empty,style=dashed];
 }
 

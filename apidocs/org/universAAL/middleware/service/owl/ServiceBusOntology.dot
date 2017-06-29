@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.Ontology
-	c7155958 [label=<<table title="org.universAAL.middleware.owl.Ontology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../owl/Ontology.html">
+	c7315061 [label=<<table title="org.universAAL.middleware.owl.Ontology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../owl/Ontology.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Ontology </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../owl/Ontology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.service.owl.ServiceBusOntology
-	c7156272 [label=<<table title="org.universAAL.middleware.service.owl.ServiceBusOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ServiceBusOntology.html">
+	c7315375 [label=<<table title="org.universAAL.middleware.service.owl.ServiceBusOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ServiceBusOntology.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ServiceBusOntology </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ServiceBusOntology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.service.owl.ServiceBusOntology extends org.universAAL.middleware.owl.Ontology
-	c7155958:p -> c7156272:p [dir=back,arrowtail=empty];
+	c7315061:p -> c7315375:p [dir=back,arrowtail=empty];
 }
 

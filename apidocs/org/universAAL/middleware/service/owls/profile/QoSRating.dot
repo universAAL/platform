@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.service.owls.profile.ProfileParameter
-	c6484061 [label=<<table title="org.universAAL.middleware.service.owls.profile.ProfileParameter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProfileParameter.html">
+	c6631284 [label=<<table title="org.universAAL.middleware.service.owls.profile.ProfileParameter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProfileParameter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ProfileParameter </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./ProfileParameter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.service.owls.profile.QoSRating
-	c6484064 [label=<<table title="org.universAAL.middleware.service.owls.profile.QoSRating" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./QoSRating.html">
+	c6631287 [label=<<table title="org.universAAL.middleware.service.owls.profile.QoSRating" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./QoSRating.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> QoSRating </td></tr>
 		</table></td></tr>
 		</table>>, URL="./QoSRating.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.service.owls.profile.QoSRating extends org.universAAL.middleware.service.owls.profile.ProfileParameter
-	c6484061:p -> c6484064:p [dir=back,arrowtail=empty];
+	c6631284:p -> c6631287:p [dir=back,arrowtail=empty];
 }
 

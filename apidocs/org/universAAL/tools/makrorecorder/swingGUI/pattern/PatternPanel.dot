@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.makrorecorder.swingGUI.pattern.PatternPanel
-	c6089161 [label=<<table title="org.universAAL.tools.makrorecorder.swingGUI.pattern.PatternPanel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PatternPanel.html">
+	c6222480 [label=<<table title="org.universAAL.tools.makrorecorder.swingGUI.pattern.PatternPanel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PatternPanel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PatternPanel </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PatternPanel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.makrorecorder.swingGUI.pattern.PatternPanel extends javax.swing.JPanel
-	c6089415:p -> c6089161:p [dir=back,arrowtail=empty];
+	c6222734:p -> c6222480:p [dir=back,arrowtail=empty];
 	// javax.swing.JPanel
-	c6089415 [label=<<table title="javax.swing.JPanel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/JPanel.html">
+	c6222734 [label=<<table title="javax.swing.JPanel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/JPanel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> JPanel </td></tr>
 		</table></td></tr>

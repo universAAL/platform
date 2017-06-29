@@ -10,24 +10,24 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.lddi.knx.devicemanager.KnxDeviceManager
-	c4809269 [label=<<table title="org.universAAL.lddi.knx.devicemanager.KnxDeviceManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./KnxDeviceManager.html">
+	c4925419 [label=<<table title="org.universAAL.lddi.knx.devicemanager.KnxDeviceManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./KnxDeviceManager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> KnxDeviceManager </td></tr>
 		</table></td></tr>
 		</table>>, URL="./KnxDeviceManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.lddi.knx.devicemanager.KnxDeviceManager implements org.osgi.service.cm.ManagedService
-	c4810279:p -> c4809269:p [dir=back,arrowtail=empty,style=dashed];
+	c4926460:p -> c4925419:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.lddi.knx.devicemanager.KnxDeviceManager implements org.osgi.util.tracker.ServiceTrackerCustomizer
-	c4810280:p -> c4809269:p [dir=back,arrowtail=empty,style=dashed];
+	c4926461:p -> c4925419:p [dir=back,arrowtail=empty,style=dashed];
 	// org.osgi.service.cm.ManagedService
-	c4810279 [label=<<table title="org.osgi.service.cm.ManagedService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/osgi/service/cm/ManagedService.html">
+	c4926460 [label=<<table title="org.osgi.service.cm.ManagedService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/osgi/service/cm/ManagedService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ManagedService </td></tr>
 		</table></td></tr>
 		</table>>, URL="http://java.sun.com/j2se/1.4.2/docs/api/org/osgi/service/cm/ManagedService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.osgi.util.tracker.ServiceTrackerCustomizer
-	c4810280 [label=<<table title="org.osgi.util.tracker.ServiceTrackerCustomizer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/osgi/util/tracker/ServiceTrackerCustomizer.html">
+	c4926461 [label=<<table title="org.osgi.util.tracker.ServiceTrackerCustomizer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/osgi/util/tracker/ServiceTrackerCustomizer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ServiceTrackerCustomizer </td></tr>

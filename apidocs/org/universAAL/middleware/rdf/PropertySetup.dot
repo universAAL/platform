@@ -10,37 +10,37 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.rdf.Property.PrivatePropertySetup
-	c6392984 [label=<<table title="org.universAAL.middleware.rdf.Property.PrivatePropertySetup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Property.PrivatePropertySetup.html">
+	c6530369 [label=<<table title="org.universAAL.middleware.rdf.Property.PrivatePropertySetup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Property.PrivatePropertySetup.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PrivatePropertySetup </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Property.PrivatePropertySetup.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.rdf.PropertySetup
-	c6392987 [label=<<table title="org.universAAL.middleware.rdf.PropertySetup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PropertySetup.html">
+	c6530372 [label=<<table title="org.universAAL.middleware.rdf.PropertySetup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PropertySetup.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> PropertySetup </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PropertySetup.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.owl.DatatypePropertySetup
-	c6393004 [label=<<table title="org.universAAL.middleware.owl.DatatypePropertySetup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../owl/DatatypePropertySetup.html">
+	c6530389 [label=<<table title="org.universAAL.middleware.owl.DatatypePropertySetup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../owl/DatatypePropertySetup.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> DatatypePropertySetup </td></tr>
 		</table></td></tr>
 		</table>>, URL="../owl/DatatypePropertySetup.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.owl.ObjectPropertySetup
-	c6393026 [label=<<table title="org.universAAL.middleware.owl.ObjectPropertySetup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../owl/ObjectPropertySetup.html">
+	c6530411 [label=<<table title="org.universAAL.middleware.owl.ObjectPropertySetup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../owl/ObjectPropertySetup.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ObjectPropertySetup </td></tr>
 		</table></td></tr>
 		</table>>, URL="../owl/ObjectPropertySetup.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.rdf.Property.PrivatePropertySetup implements org.universAAL.middleware.rdf.PropertySetup
-	c6392987:p -> c6392984:p [dir=back,arrowtail=empty,style=dashed];
+	c6530372:p -> c6530369:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.owl.DatatypePropertySetup implements org.universAAL.middleware.rdf.PropertySetup
-	c6392987:p -> c6393004:p [dir=back,arrowtail=empty,style=dashed];
+	c6530372:p -> c6530389:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.owl.ObjectPropertySetup implements org.universAAL.middleware.rdf.PropertySetup
-	c6392987:p -> c6393026:p [dir=back,arrowtail=empty,style=dashed];
+	c6530372:p -> c6530411:p [dir=back,arrowtail=empty,style=dashed];
 }
 

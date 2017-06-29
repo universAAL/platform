@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.rdf.ResourceFactory
-	c8440732 [label=<<table title="org.universAAL.middleware.rdf.ResourceFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../middleware/rdf/ResourceFactory.html">
+	c8634293 [label=<<table title="org.universAAL.middleware.rdf.ResourceFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../middleware/rdf/ResourceFactory.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ResourceFactory </td></tr>
 		</table></td></tr>
 		</table>>, URL="../middleware/rdf/ResourceFactory.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.X73Factory
-	c8441198 [label=<<table title="org.universAAL.ontology.X73Factory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./X73Factory.html">
+	c8634759 [label=<<table title="org.universAAL.ontology.X73Factory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./X73Factory.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> X73Factory </td></tr>
 		</table></td></tr>
 		</table>>, URL="./X73Factory.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.X73Factory implements org.universAAL.middleware.rdf.ResourceFactory
-	c8440732:p -> c8441198:p [dir=back,arrowtail=empty,style=dashed];
+	c8634293:p -> c8634759:p [dir=back,arrowtail=empty,style=dashed];
 }
 

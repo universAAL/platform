@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.brokers.message.space.SpaceMessageException
-	c7519139 [label=<<table title="org.universAAL.middleware.brokers.message.space.SpaceMessageException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SpaceMessageException.html">
+	c7683106 [label=<<table title="org.universAAL.middleware.brokers.message.space.SpaceMessageException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SpaceMessageException.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SpaceMessageException </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SpaceMessageException.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.brokers.message.space.SpaceMessageException extends java.lang.RuntimeException
-	c7521690:p -> c7519139:p [dir=back,arrowtail=empty];
+	c7685695:p -> c7683106:p [dir=back,arrowtail=empty];
 	// java.lang.RuntimeException
-	c7521690 [label=<<table title="java.lang.RuntimeException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/RuntimeException.html">
+	c7685695 [label=<<table title="java.lang.RuntimeException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/RuntimeException.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RuntimeException </td></tr>
 		</table></td></tr>

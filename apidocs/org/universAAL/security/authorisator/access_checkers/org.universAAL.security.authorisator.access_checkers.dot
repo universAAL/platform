@@ -10,24 +10,24 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.security.authorisator.access_checkers.DelegationAccessChecker
-	c886801 [label=<<table title="org.universAAL.security.authorisator.access_checkers.DelegationAccessChecker" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DelegationAccessChecker.html">
+	c901538 [label=<<table title="org.universAAL.security.authorisator.access_checkers.DelegationAccessChecker" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DelegationAccessChecker.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DelegationAccessChecker </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DelegationAccessChecker.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.security.authorisator.access_checkers.AssetDefaultAccessChecker
-	c886802 [label=<<table title="org.universAAL.security.authorisator.access_checkers.AssetDefaultAccessChecker" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AssetDefaultAccessChecker.html">
+	c901539 [label=<<table title="org.universAAL.security.authorisator.access_checkers.AssetDefaultAccessChecker" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AssetDefaultAccessChecker.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AssetDefaultAccessChecker </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AssetDefaultAccessChecker.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.security.authorisator.access_checkers.CheckUserRoles
-	c886803 [label=<<table title="org.universAAL.security.authorisator.access_checkers.CheckUserRoles" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CheckUserRoles.html">
+	c901540 [label=<<table title="org.universAAL.security.authorisator.access_checkers.CheckUserRoles" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CheckUserRoles.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CheckUserRoles </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CheckUserRoles.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.security.authorisator.access_checkers.DelegationAccessChecker extends org.universAAL.security.authorisator.access_checkers.CheckUserRoles
-	c886803:p -> c886801:p [dir=back,arrowtail=empty];
+	c901540:p -> c901538:p [dir=back,arrowtail=empty];
 }
 

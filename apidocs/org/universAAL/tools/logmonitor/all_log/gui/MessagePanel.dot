@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.logmonitor.all_log.gui.MessagePanel
-	c5470820 [label=<<table title="org.universAAL.tools.logmonitor.all_log.gui.MessagePanel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MessagePanel.html">
+	c5595855 [label=<<table title="org.universAAL.tools.logmonitor.all_log.gui.MessagePanel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MessagePanel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MessagePanel </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MessagePanel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.logmonitor.all_log.gui.MessagePanel extends javax.swing.JTextPane
-	c5471106:p -> c5470820:p [dir=back,arrowtail=empty];
+	c5596141:p -> c5595855:p [dir=back,arrowtail=empty];
 	// javax.swing.JTextPane
-	c5471106 [label=<<table title="javax.swing.JTextPane" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/JTextPane.html">
+	c5596141 [label=<<table title="javax.swing.JTextPane" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/JTextPane.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> JTextPane </td></tr>
 		</table></td></tr>

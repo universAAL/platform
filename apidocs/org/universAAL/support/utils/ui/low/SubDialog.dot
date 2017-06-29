@@ -10,27 +10,27 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.ui.UIRequest
-	c7635606 [label=<<table title="org.universAAL.middleware.ui.UIRequest" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../middleware/ui/UIRequest.html">
+	c7806879 [label=<<table title="org.universAAL.middleware.ui.UIRequest" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../middleware/ui/UIRequest.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UIRequest </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../../middleware/ui/UIRequest.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.utils.ui.IContainer
-	c7635925 [label=<<table title="org.universAAL.support.utils.ui.IContainer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../IContainer.html">
+	c7807205 [label=<<table title="org.universAAL.support.utils.ui.IContainer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../IContainer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IContainer </td></tr>
 		</table></td></tr>
 		</table>>, URL="../IContainer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.utils.ui.low.SubDialog
-	c7635932 [label=<<table title="org.universAAL.support.utils.ui.low.SubDialog" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SubDialog.html">
+	c7807212 [label=<<table title="org.universAAL.support.utils.ui.low.SubDialog" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SubDialog.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SubDialog </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SubDialog.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.support.utils.ui.low.SubDialog extends org.universAAL.middleware.ui.UIRequest
-	c7635606:p -> c7635932:p [dir=back,arrowtail=empty];
+	c7806879:p -> c7807212:p [dir=back,arrowtail=empty];
 	//org.universAAL.support.utils.ui.low.SubDialog implements org.universAAL.support.utils.ui.IContainer
-	c7635925:p -> c7635932:p [dir=back,arrowtail=empty,style=dashed];
+	c7807205:p -> c7807212:p [dir=back,arrowtail=empty,style=dashed];
 }
 

@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.service.owl.Service
-	c5238994 [label=<<table title="org.universAAL.middleware.service.owl.Service" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/service/owl/Service.html">
+	c5360913 [label=<<table title="org.universAAL.middleware.service.owl.Service" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/service/owl/Service.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Service </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../middleware/service/owl/Service.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.av.service.LoudSpeakerService
-	c5239397 [label=<<table title="org.universAAL.ontology.av.service.LoudSpeakerService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LoudSpeakerService.html">
+	c5361323 [label=<<table title="org.universAAL.ontology.av.service.LoudSpeakerService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LoudSpeakerService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LoudSpeakerService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LoudSpeakerService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.av.service.LoudSpeakerService extends org.universAAL.middleware.service.owl.Service
-	c5238994:p -> c5239397:p [dir=back,arrowtail=empty];
+	c5360913:p -> c5361323:p [dir=back,arrowtail=empty];
 }
 

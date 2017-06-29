@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.dm.userInteraction.mainMenu.SearchableAggregatedMainMenuProvider
-	c7004827 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.SearchableAggregatedMainMenuProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SearchableAggregatedMainMenuProvider.html">
+	c7161916 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.SearchableAggregatedMainMenuProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SearchableAggregatedMainMenuProvider.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SearchableAggregatedMainMenuProvider </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SearchableAggregatedMainMenuProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.userInteraction.mainMenu.AggregatedMainMenuProvider
-	c7004829 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.AggregatedMainMenuProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AggregatedMainMenuProvider.html">
+	c7161918 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.AggregatedMainMenuProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AggregatedMainMenuProvider.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AggregatedMainMenuProvider </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AggregatedMainMenuProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.dm.userInteraction.mainMenu.SearchableAggregatedMainMenuProvider extends org.universAAL.ui.dm.userInteraction.mainMenu.AggregatedMainMenuProvider
-	c7004829:p -> c7004827:p [dir=back,arrowtail=empty];
+	c7161918:p -> c7161916:p [dir=back,arrowtail=empty];
 }
 

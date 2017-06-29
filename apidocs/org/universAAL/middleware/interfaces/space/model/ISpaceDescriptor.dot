@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.interfaces.space.model.ISpaceDescriptor
-	c4515486 [label=<<table title="org.universAAL.middleware.interfaces.space.model.ISpaceDescriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ISpaceDescriptor.html">
+	c4627715 [label=<<table title="org.universAAL.middleware.interfaces.space.model.ISpaceDescriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ISpaceDescriptor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ISpaceDescriptor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ISpaceDescriptor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.interfaces.space.xml.model.Space.SpaceDescriptor
-	c4515494 [label=<<table title="org.universAAL.middleware.interfaces.space.xml.model.Space.SpaceDescriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../xml/model/Space.SpaceDescriptor.html">
+	c4627723 [label=<<table title="org.universAAL.middleware.interfaces.space.xml.model.Space.SpaceDescriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../xml/model/Space.SpaceDescriptor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SpaceDescriptor </td></tr>
 		</table></td></tr>
 		</table>>, URL="../xml/model/Space.SpaceDescriptor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.interfaces.space.xml.model.Space.SpaceDescriptor implements org.universAAL.middleware.interfaces.space.model.ISpaceDescriptor
-	c4515486:p -> c4515494:p [dir=back,arrowtail=empty,style=dashed];
+	c4627715:p -> c4627723:p [dir=back,arrowtail=empty,style=dashed];
 }
 

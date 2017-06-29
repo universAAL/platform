@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.managers.deploy.uapp.model.Bundle
-	c2377026 [label=<<table title="org.universAAL.middleware.managers.deploy.uapp.model.Bundle" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Bundle.html">
+	c2428989 [label=<<table title="org.universAAL.middleware.managers.deploy.uapp.model.Bundle" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Bundle.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Bundle </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Bundle.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.managers.deploy.uapp.model.Bundle implements java.io.Serializable
-	c2379645:p -> c2377026:p [dir=back,arrowtail=empty,style=dashed];
+	c2431646:p -> c2428989:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Serializable
-	c2379645 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c2431646 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>

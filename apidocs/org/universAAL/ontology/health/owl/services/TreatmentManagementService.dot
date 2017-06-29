@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.health.owl.services.TreatmentManagementService
-	c7857458 [label=<<table title="org.universAAL.ontology.health.owl.services.TreatmentManagementService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TreatmentManagementService.html">
+	c8037450 [label=<<table title="org.universAAL.ontology.health.owl.services.TreatmentManagementService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TreatmentManagementService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TreatmentManagementService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./TreatmentManagementService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.health.owl.services.HealthService
-	c7857462 [label=<<table title="org.universAAL.ontology.health.owl.services.HealthService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HealthService.html">
+	c8037454 [label=<<table title="org.universAAL.ontology.health.owl.services.HealthService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HealthService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HealthService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HealthService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.health.owl.services.TreatmentManagementService extends org.universAAL.ontology.health.owl.services.HealthService
-	c7857462:p -> c7857458:p [dir=back,arrowtail=empty];
+	c8037454:p -> c8037450:p [dir=back,arrowtail=empty];
 }
 

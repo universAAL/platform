@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.ui.IUIBus
-	c4524277 [label=<<table title="org.universAAL.middleware.ui.IUIBus" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IUIBus.html">
+	c4636620 [label=<<table title="org.universAAL.middleware.ui.IUIBus" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IUIBus.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IUIBus </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IUIBus.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.impl.UIBusImpl
-	c4524308 [label=<<table title="org.universAAL.middleware.ui.impl.UIBusImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./impl/UIBusImpl.html">
+	c4636651 [label=<<table title="org.universAAL.middleware.ui.impl.UIBusImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./impl/UIBusImpl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UIBusImpl </td></tr>
 		</table></td></tr>
 		</table>>, URL="./impl/UIBusImpl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.ui.impl.UIBusImpl implements org.universAAL.middleware.ui.IUIBus
-	c4524277:p -> c4524308:p [dir=back,arrowtail=empty,style=dashed];
+	c4636620:p -> c4636651:p [dir=back,arrowtail=empty,style=dashed];
 }
 

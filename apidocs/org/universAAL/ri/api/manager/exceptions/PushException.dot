@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ri.api.manager.exceptions.PushException
-	c6474389 [label=<<table title="org.universAAL.ri.api.manager.exceptions.PushException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PushException.html">
+	c6618593 [label=<<table title="org.universAAL.ri.api.manager.exceptions.PushException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PushException.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PushException </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PushException.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.api.manager.exceptions.RAPIException
-	c6474390 [label=<<table title="org.universAAL.ri.api.manager.exceptions.RAPIException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RAPIException.html">
+	c6618594 [label=<<table title="org.universAAL.ri.api.manager.exceptions.RAPIException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RAPIException.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> RAPIException </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./RAPIException.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ri.api.manager.exceptions.PushException extends org.universAAL.ri.api.manager.exceptions.RAPIException
-	c6474390:p -> c6474389:p [dir=back,arrowtail=empty];
+	c6618594:p -> c6618593:p [dir=back,arrowtail=empty];
 }
 

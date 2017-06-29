@@ -10,33 +10,33 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.handler.kinect.adapter.serviceBus.QueryService
-	c1125424 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.serviceBus.QueryService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./QueryService.html">
+	c1160628 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.serviceBus.QueryService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./QueryService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> QueryService </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./QueryService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.handler.kinect.adapter.serviceBus.IServiceCall
-	c1125425 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.serviceBus.IServiceCall" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IServiceCall.html">
+	c1160629 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.serviceBus.IServiceCall" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IServiceCall.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IServiceCall </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IServiceCall.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.handler.kinect.adapter.serviceBus.AbstractService
-	c1125426 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.serviceBus.AbstractService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractService.html">
+	c1160630 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.serviceBus.AbstractService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractService </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.handler.kinect.adapter.serviceBus.RequestService
-	c1125427 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.serviceBus.RequestService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RequestService.html">
+	c1160631 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.serviceBus.RequestService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RequestService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> RequestService </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./RequestService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.handler.kinect.adapter.serviceBus.QueryService extends org.universAAL.ui.handler.kinect.adapter.serviceBus.AbstractService
-	c1125426:p -> c1125424:p [dir=back,arrowtail=empty];
+	c1160630:p -> c1160628:p [dir=back,arrowtail=empty];
 	//org.universAAL.ui.handler.kinect.adapter.serviceBus.RequestService extends org.universAAL.ui.handler.kinect.adapter.serviceBus.AbstractService
-	c1125426:p -> c1125427:p [dir=back,arrowtail=empty];
+	c1160630:p -> c1160631:p [dir=back,arrowtail=empty];
 }
 

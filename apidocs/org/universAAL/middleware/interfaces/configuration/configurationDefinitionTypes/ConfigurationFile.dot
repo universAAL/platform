@@ -10,29 +10,29 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.ConfigurationFile
-	c2791155 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.ConfigurationFile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigurationFile.html">
+	c2874532 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.ConfigurationFile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigurationFile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ConfigurationFile </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConfigurationFile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.DescribedEntity
-	c2791156 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.DescribedEntity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DescribedEntity.html">
+	c2874533 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.DescribedEntity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DescribedEntity.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> DescribedEntity </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DescribedEntity.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurationFileEditor
-	c2791162 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurationFileEditor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../configurationEditionTypes/ConfigurationFileEditor.html">
+	c2874539 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurationFileEditor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../configurationEditionTypes/ConfigurationFileEditor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ConfigurationFileEditor </td></tr>
 		</table></td></tr>
 		</table>>, URL="../configurationEditionTypes/ConfigurationFileEditor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.ConfigurationFile implements org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.DescribedEntity
-	c2791156:p -> c2791155:p [dir=back,arrowtail=empty,style=dashed];
+	c2874533:p -> c2874532:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurationFileEditor implements org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.ConfigurationFile
-	c2791155:p -> c2791162:p [dir=back,arrowtail=empty,style=dashed];
+	c2874532:p -> c2874539:p [dir=back,arrowtail=empty,style=dashed];
 }
 

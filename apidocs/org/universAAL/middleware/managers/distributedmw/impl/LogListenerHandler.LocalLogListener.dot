@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.container.LogListener
-	c5196084 [label=<<table title="org.universAAL.middleware.container.LogListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../container/LogListener.html">
+	c5317433 [label=<<table title="org.universAAL.middleware.container.LogListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../container/LogListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> LogListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../container/LogListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.distributedmw.impl.LogListenerHandler.LocalLogListener
-	c5197238 [label=<<table title="org.universAAL.middleware.managers.distributedmw.impl.LogListenerHandler.LocalLogListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LogListenerHandler.LocalLogListener.html">
+	c5318594 [label=<<table title="org.universAAL.middleware.managers.distributedmw.impl.LogListenerHandler.LocalLogListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LogListenerHandler.LocalLogListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LocalLogListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LogListenerHandler.LocalLogListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.managers.distributedmw.impl.LogListenerHandler.LocalLogListener implements org.universAAL.middleware.container.LogListener
-	c5196084:p -> c5197238:p [dir=back,arrowtail=empty,style=dashed];
+	c5317433:p -> c5318594:p [dir=back,arrowtail=empty,style=dashed];
 }
 

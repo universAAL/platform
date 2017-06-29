@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.lighting.FlamingLight
-	c3886583 [label=<<table title="org.universAAL.ontology.lighting.FlamingLight" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./FlamingLight.html">
+	c3987509 [label=<<table title="org.universAAL.ontology.lighting.FlamingLight" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./FlamingLight.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> FlamingLight </td></tr>
 		</table></td></tr>
 		</table>>, URL="./FlamingLight.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.LightType
-	c3886587 [label=<<table title="org.universAAL.ontology.lighting.LightType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightType.html">
+	c3987513 [label=<<table title="org.universAAL.ontology.lighting.LightType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> LightType </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./LightType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.lighting.FlamingLight extends org.universAAL.ontology.lighting.LightType
-	c3886587:p -> c3886583:p [dir=back,arrowtail=empty];
+	c3987513:p -> c3987509:p [dir=back,arrowtail=empty];
 }
 

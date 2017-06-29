@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.reasoner.ReasoningService
-	c6422210 [label=<<table title="org.universAAL.ontology.reasoner.ReasoningService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/reasoner/ReasoningService.html">
+	c6559982 [label=<<table title="org.universAAL.ontology.reasoner.ReasoningService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/reasoner/ReasoningService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ReasoningService </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/reasoner/ReasoningService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.context.reasoner.ProvidedReasoningService
-	c6422585 [label=<<table title="org.universAAL.context.reasoner.ProvidedReasoningService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProvidedReasoningService.html">
+	c6560357 [label=<<table title="org.universAAL.context.reasoner.ProvidedReasoningService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProvidedReasoningService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProvidedReasoningService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ProvidedReasoningService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.context.reasoner.ProvidedReasoningService extends org.universAAL.ontology.reasoner.ReasoningService
-	c6422210:p -> c6422585:p [dir=back,arrowtail=empty];
+	c6559982:p -> c6560357:p [dir=back,arrowtail=empty];
 }
 

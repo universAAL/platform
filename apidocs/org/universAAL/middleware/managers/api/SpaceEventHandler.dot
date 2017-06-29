@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.managers.api.SpaceEventHandler
-	c7499307 [label=<<table title="org.universAAL.middleware.managers.api.SpaceEventHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SpaceEventHandler.html">
+	c7663008 [label=<<table title="org.universAAL.middleware.managers.api.SpaceEventHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SpaceEventHandler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> SpaceEventHandler </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SpaceEventHandler.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.space.SpaceManagerImpl
-	c7500277 [label=<<table title="org.universAAL.middleware.managers.space.SpaceManagerImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../space/SpaceManagerImpl.html">
+	c7663985 [label=<<table title="org.universAAL.middleware.managers.space.SpaceManagerImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../space/SpaceManagerImpl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SpaceManagerImpl </td></tr>
 		</table></td></tr>
 		</table>>, URL="../space/SpaceManagerImpl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.managers.space.SpaceManagerImpl implements org.universAAL.middleware.managers.api.SpaceEventHandler
-	c7499307:p -> c7500277:p [dir=back,arrowtail=empty,style=dashed];
+	c7663008:p -> c7663985:p [dir=back,arrowtail=empty,style=dashed];
 }
 

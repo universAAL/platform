@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.av.streaming.AudioCompression
-	c2136594 [label=<<table title="org.universAAL.ontology.av.streaming.AudioCompression" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AudioCompression.html">
+	c2185334 [label=<<table title="org.universAAL.ontology.av.streaming.AudioCompression" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AudioCompression.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AudioCompression </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AudioCompression.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.av.streaming.Compression
-	c2136603 [label=<<table title="org.universAAL.ontology.av.streaming.Compression" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Compression.html">
+	c2185343 [label=<<table title="org.universAAL.ontology.av.streaming.Compression" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Compression.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Compression </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Compression.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.av.streaming.AudioCompression extends org.universAAL.ontology.av.streaming.Compression
-	c2136603:p -> c2136594:p [dir=back,arrowtail=empty];
+	c2185343:p -> c2185334:p [dir=back,arrowtail=empty];
 }
 

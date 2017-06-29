@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.ucc.configuration.configdefinitionregistry.interfaces.ConfigurationDefinitionRegistryChanged
-	c2779470 [label=<<table title="org.universAAL.tools.ucc.configuration.configdefinitionregistry.interfaces.ConfigurationDefinitionRegistryChanged" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigurationDefinitionRegistryChanged.html">
+	c2862695 [label=<<table title="org.universAAL.tools.ucc.configuration.configdefinitionregistry.interfaces.ConfigurationDefinitionRegistryChanged" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigurationDefinitionRegistryChanged.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ConfigurationDefinitionRegistryChanged </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConfigurationDefinitionRegistryChanged.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.configuration.view.WhichBundleShouldBeConfiguredWindow
-	c2779482 [label=<<table title="org.universAAL.tools.ucc.configuration.view.WhichBundleShouldBeConfiguredWindow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../view/WhichBundleShouldBeConfiguredWindow.html">
+	c2862707 [label=<<table title="org.universAAL.tools.ucc.configuration.view.WhichBundleShouldBeConfiguredWindow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../view/WhichBundleShouldBeConfiguredWindow.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> WhichBundleShouldBeConfiguredWindow </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../view/WhichBundleShouldBeConfiguredWindow.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.ucc.configuration.view.WhichBundleShouldBeConfiguredWindow implements org.universAAL.tools.ucc.configuration.configdefinitionregistry.interfaces.ConfigurationDefinitionRegistryChanged
-	c2779470:p -> c2779482:p [dir=back,arrowtail=empty,style=dashed];
+	c2862695:p -> c2862707:p [dir=back,arrowtail=empty,style=dashed];
 }
 

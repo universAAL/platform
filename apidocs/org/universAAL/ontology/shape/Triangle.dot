@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.shape.Triangle
-	c7862673 [label=<<table title="org.universAAL.ontology.shape.Triangle" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Triangle.html">
+	c8042734 [label=<<table title="org.universAAL.ontology.shape.Triangle" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Triangle.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Triangle </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Triangle.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.shape.Polygon
-	c7862674 [label=<<table title="org.universAAL.ontology.shape.Polygon" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Polygon.html">
+	c8042735 [label=<<table title="org.universAAL.ontology.shape.Polygon" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Polygon.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Polygon </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Polygon.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.shape.Triangle extends org.universAAL.ontology.shape.Polygon
-	c7862674:p -> c7862673:p [dir=back,arrowtail=empty];
+	c8042735:p -> c8042734:p [dir=back,arrowtail=empty];
 }
 

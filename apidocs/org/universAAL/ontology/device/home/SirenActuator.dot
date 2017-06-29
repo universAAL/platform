@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.device.Actuator
-	c7425977 [label=<<table title="org.universAAL.ontology.device.Actuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../Actuator.html">
+	c7588696 [label=<<table title="org.universAAL.ontology.device.Actuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../Actuator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Actuator </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../Actuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.home.SirenActuator
-	c7426131 [label=<<table title="org.universAAL.ontology.device.home.SirenActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SirenActuator.html">
+	c7588851 [label=<<table title="org.universAAL.ontology.device.home.SirenActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SirenActuator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SirenActuator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SirenActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.device.home.SirenActuator extends org.universAAL.ontology.device.Actuator
-	c7425977:p -> c7426131:p [dir=back,arrowtail=empty];
+	c7588696:p -> c7588851:p [dir=back,arrowtail=empty];
 }
 

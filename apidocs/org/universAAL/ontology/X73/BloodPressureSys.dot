@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.X73.BloodPressureSys
-	c2326710 [label=<<table title="org.universAAL.ontology.X73.BloodPressureSys" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BloodPressureSys.html">
+	c2377996 [label=<<table title="org.universAAL.ontology.X73.BloodPressureSys" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BloodPressureSys.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BloodPressureSys </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BloodPressureSys.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.X73.MDSAttribute
-	c2326716 [label=<<table title="org.universAAL.ontology.X73.MDSAttribute" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MDSAttribute.html">
+	c2378002 [label=<<table title="org.universAAL.ontology.X73.MDSAttribute" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MDSAttribute.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> MDSAttribute </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./MDSAttribute.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.X73.BloodPressureSys extends org.universAAL.ontology.X73.MDSAttribute
-	c2326716:p -> c2326710:p [dir=back,arrowtail=empty];
+	c2378002:p -> c2377996:p [dir=back,arrowtail=empty];
 }
 

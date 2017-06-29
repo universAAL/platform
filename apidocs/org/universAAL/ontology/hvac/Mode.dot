@@ -10,42 +10,42 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c5519441 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
+	c5645122 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.hvac.Air_Conditioning_Mode
-	c5520203 [label=<<table title="org.universAAL.ontology.hvac.Air_Conditioning_Mode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Air_Conditioning_Mode.html">
+	c5645891 [label=<<table title="org.universAAL.ontology.hvac.Air_Conditioning_Mode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Air_Conditioning_Mode.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Air_Conditioning_Mode </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Air_Conditioning_Mode.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.hvac.Mode
-	c5520206 [label=<<table title="org.universAAL.ontology.hvac.Mode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Mode.html">
+	c5645894 [label=<<table title="org.universAAL.ontology.hvac.Mode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Mode.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Mode </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Mode.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.hvac.Heating_Mode
-	c5520207 [label=<<table title="org.universAAL.ontology.hvac.Heating_Mode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Heating_Mode.html">
+	c5645895 [label=<<table title="org.universAAL.ontology.hvac.Heating_Mode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Heating_Mode.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Heating_Mode </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Heating_Mode.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.hvac.Ventilation_Mode
-	c5520208 [label=<<table title="org.universAAL.ontology.hvac.Ventilation_Mode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Ventilation_Mode.html">
+	c5645896 [label=<<table title="org.universAAL.ontology.hvac.Ventilation_Mode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Ventilation_Mode.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Ventilation_Mode </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Ventilation_Mode.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.hvac.Air_Conditioning_Mode extends org.universAAL.ontology.hvac.Mode
-	c5520206:p -> c5520203:p [dir=back,arrowtail=empty];
+	c5645894:p -> c5645891:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.hvac.Mode extends org.universAAL.middleware.owl.ManagedIndividual
-	c5519441:p -> c5520206:p [dir=back,arrowtail=empty];
+	c5645122:p -> c5645894:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.hvac.Heating_Mode extends org.universAAL.ontology.hvac.Mode
-	c5520206:p -> c5520207:p [dir=back,arrowtail=empty];
+	c5645894:p -> c5645895:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.hvac.Ventilation_Mode extends org.universAAL.ontology.hvac.Mode
-	c5520206:p -> c5520208:p [dir=back,arrowtail=empty];
+	c5645894:p -> c5645896:p [dir=back,arrowtail=empty];
 }
 

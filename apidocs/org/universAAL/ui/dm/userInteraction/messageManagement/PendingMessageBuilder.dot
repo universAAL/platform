@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.dm.userInteraction.messageManagement.PendingMessageBuilder
-	c6114255 [label=<<table title="org.universAAL.ui.dm.userInteraction.messageManagement.PendingMessageBuilder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PendingMessageBuilder.html">
+	c6247916 [label=<<table title="org.universAAL.ui.dm.userInteraction.messageManagement.PendingMessageBuilder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PendingMessageBuilder.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PendingMessageBuilder </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PendingMessageBuilder.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.interfaces.ISubmitGroupListener
-	c6114277 [label=<<table title="org.universAAL.ui.dm.interfaces.ISubmitGroupListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../interfaces/ISubmitGroupListener.html">
+	c6247938 [label=<<table title="org.universAAL.ui.dm.interfaces.ISubmitGroupListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../interfaces/ISubmitGroupListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ISubmitGroupListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../interfaces/ISubmitGroupListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.dm.userInteraction.messageManagement.PendingMessageBuilder implements org.universAAL.ui.dm.interfaces.ISubmitGroupListener
-	c6114277:p -> c6114255:p [dir=back,arrowtail=empty,style=dashed];
+	c6247938:p -> c6247916:p [dir=back,arrowtail=empty,style=dashed];
 }
 

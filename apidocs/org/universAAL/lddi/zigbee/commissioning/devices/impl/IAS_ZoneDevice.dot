@@ -10,24 +10,24 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.lddi.zigbee.commissioning.devices.api.IAS_ZoneBridge
-	c4321480 [label=<<table title="org.universAAL.lddi.zigbee.commissioning.devices.api.IAS_ZoneBridge" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../api/IAS_ZoneBridge.html">
+	c4431094 [label=<<table title="org.universAAL.lddi.zigbee.commissioning.devices.api.IAS_ZoneBridge" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../api/IAS_ZoneBridge.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IAS_ZoneBridge </td></tr>
 		</table></td></tr>
 		</table>>, URL="../api/IAS_ZoneBridge.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.zigbee.commissioning.devices.impl.IAS_ZoneDevice
-	c4321481 [label=<<table title="org.universAAL.lddi.zigbee.commissioning.devices.impl.IAS_ZoneDevice" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IAS_ZoneDevice.html">
+	c4431095 [label=<<table title="org.universAAL.lddi.zigbee.commissioning.devices.impl.IAS_ZoneDevice" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IAS_ZoneDevice.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> IAS_ZoneDevice </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IAS_ZoneDevice.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.lddi.zigbee.commissioning.devices.impl.IAS_ZoneDevice extends it.cnr.isti.zigbee.ha.driver.core.HADeviceBase
-	c4322455:p -> c4321481:p [dir=back,arrowtail=empty];
+	c4432100:p -> c4431095:p [dir=back,arrowtail=empty];
 	//org.universAAL.lddi.zigbee.commissioning.devices.impl.IAS_ZoneDevice implements org.universAAL.lddi.zigbee.commissioning.devices.api.IAS_ZoneBridge
-	c4321480:p -> c4321481:p [dir=back,arrowtail=empty,style=dashed];
+	c4431094:p -> c4431095:p [dir=back,arrowtail=empty,style=dashed];
 	// it.cnr.isti.zigbee.ha.driver.core.HADeviceBase
-	c4322455 [label=<<table title="it.cnr.isti.zigbee.ha.driver.core.HADeviceBase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/it/cnr/isti/zigbee/ha/driver/core/HADeviceBase.html">
+	c4432100 [label=<<table title="it.cnr.isti.zigbee.ha.driver.core.HADeviceBase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/it/cnr/isti/zigbee/ha/driver/core/HADeviceBase.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> HADeviceBase </font></td></tr>
 		</table></td></tr>

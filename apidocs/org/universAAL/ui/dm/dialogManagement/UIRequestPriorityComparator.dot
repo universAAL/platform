@@ -10,24 +10,24 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.dm.dialogManagement.UIRequestPriorityComparator
-	c8042860 [label=<<table title="org.universAAL.ui.dm.dialogManagement.UIRequestPriorityComparator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UIRequestPriorityComparator.html">
+	c8225353 [label=<<table title="org.universAAL.ui.dm.dialogManagement.UIRequestPriorityComparator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UIRequestPriorityComparator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UIRequestPriorityComparator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UIRequestPriorityComparator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.dm.dialogManagement.UIRequestPriorityComparator implements java.util.Comparator<T>
-	c8043561:p -> c8042860:p [dir=back,arrowtail=empty,style=dashed];
+	c8226054:p -> c8225353:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.ui.dm.dialogManagement.UIRequestPriorityComparator implements java.io.Serializable
-	c8043562:p -> c8042860:p [dir=back,arrowtail=empty,style=dashed];
+	c8226055:p -> c8225353:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Serializable
-	c8043562 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c8226055 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>
 		</table></td></tr>
 		</table>>, URL="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// java.util.Comparator<T>
-	c8043561 [label=<<table title="java.util.Comparator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/util/Comparator.html">
+	c8226054 [label=<<table title="java.util.Comparator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/util/Comparator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Comparator&lt;T&gt; </td></tr>

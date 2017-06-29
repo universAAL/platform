@@ -10,35 +10,35 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.rdf.Resource
-	c2473350 [label=<<table title="org.universAAL.middleware.rdf.Resource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../rdf/Resource.html">
+	c2529479 [label=<<table title="org.universAAL.middleware.rdf.Resource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../rdf/Resource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Resource </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../rdf/Resource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.impl.UIStrategyCaller.UIRequestCall
-	c2473741 [label=<<table title="org.universAAL.middleware.ui.impl.UIStrategyCaller.UIRequestCall" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../UIStrategyCaller.UIRequestCall.html">
+	c2529870 [label=<<table title="org.universAAL.middleware.ui.impl.UIStrategyCaller.UIRequestCall" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../UIStrategyCaller.UIRequestCall.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UIRequestCall </td></tr>
 		</table></td></tr>
 		</table>>, URL="../UIStrategyCaller.UIRequestCall.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.impl.generic.CallMessage<Strategy extends org.universAAL.middleware.ui.impl.generic.CallBasedStrategy>
-	c2473746 [label=<<table title="org.universAAL.middleware.ui.impl.generic.CallMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CallMessage.html">
+	c2529875 [label=<<table title="org.universAAL.middleware.ui.impl.generic.CallMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CallMessage.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> CallMessage&lt;Strategy extends CallBasedStrategy&gt; </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./CallMessage.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.impl.generic.EventMessage<Strategy extends org.universAAL.middleware.ui.impl.generic.EventBasedStrategy>
-	c2473750 [label=<<table title="org.universAAL.middleware.ui.impl.generic.EventMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EventMessage.html">
+	c2529879 [label=<<table title="org.universAAL.middleware.ui.impl.generic.EventMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EventMessage.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> EventMessage&lt;Strategy extends EventBasedStrategy&gt; </td></tr>
 		</table></td></tr>
 		</table>>, URL="./EventMessage.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.ui.impl.UIStrategyCaller.UIRequestCall extends org.universAAL.middleware.ui.impl.generic.CallMessage<org.universAAL.middleware.ui.impl.UIStrategyCaller>
-	c2473746:p -> c2473741:p [dir=back,arrowtail=empty];
+	c2529875:p -> c2529870:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.ui.impl.generic.CallMessage<Strategy extends org.universAAL.middleware.ui.impl.generic.CallBasedStrategy> extends org.universAAL.middleware.rdf.Resource
-	c2473350:p -> c2473746:p [dir=back,arrowtail=empty];
+	c2529479:p -> c2529875:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.ui.impl.generic.CallMessage<Strategy extends org.universAAL.middleware.ui.impl.generic.CallBasedStrategy> implements org.universAAL.middleware.ui.impl.generic.EventMessage<Strategy extends org.universAAL.middleware.ui.impl.generic.EventBasedStrategy>
-	c2473750:p -> c2473746:p [dir=back,arrowtail=empty,style=dashed];
+	c2529879:p -> c2529875:p [dir=back,arrowtail=empty,style=dashed];
 }
 

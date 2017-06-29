@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.managers.distributedmw.api.DistributedBusMemberListener
-	c3484175 [label=<<table title="org.universAAL.middleware.managers.distributedmw.api.DistributedBusMemberListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DistributedBusMemberListener.html">
+	c3579705 [label=<<table title="org.universAAL.middleware.managers.distributedmw.api.DistributedBusMemberListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DistributedBusMemberListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> DistributedBusMemberListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DistributedBusMemberListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.logmonitor.BusMemberMonitor
-	c3485476 [label=<<table title="org.universAAL.tools.logmonitor.BusMemberMonitor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../tools/logmonitor/BusMemberMonitor.html">
+	c3581037 [label=<<table title="org.universAAL.tools.logmonitor.BusMemberMonitor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../tools/logmonitor/BusMemberMonitor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BusMemberMonitor </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../../tools/logmonitor/BusMemberMonitor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.logmonitor.BusMemberMonitor implements org.universAAL.middleware.managers.distributedmw.api.DistributedBusMemberListener
-	c3484175:p -> c3485476:p [dir=back,arrowtail=empty,style=dashed];
+	c3579705:p -> c3581037:p [dir=back,arrowtail=empty,style=dashed];
 }
 

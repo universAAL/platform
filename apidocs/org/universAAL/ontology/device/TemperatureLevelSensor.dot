@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.device.TemperatureLevelSensor
-	c7783340 [label=<<table title="org.universAAL.ontology.device.TemperatureLevelSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TemperatureLevelSensor.html">
+	c7962343 [label=<<table title="org.universAAL.ontology.device.TemperatureLevelSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TemperatureLevelSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TemperatureLevelSensor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./TemperatureLevelSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.Sensor
-	c7783377 [label=<<table title="org.universAAL.ontology.device.Sensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Sensor.html">
+	c7962380 [label=<<table title="org.universAAL.ontology.device.Sensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Sensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Sensor </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Sensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.device.TemperatureLevelSensor extends org.universAAL.ontology.device.Sensor
-	c7783377:p -> c7783340:p [dir=back,arrowtail=empty];
+	c7962380:p -> c7962343:p [dir=back,arrowtail=empty];
 }
 

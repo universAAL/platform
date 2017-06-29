@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ri.servicegateway.GatewayPort
-	c4123068 [label=<<table title="org.universAAL.ri.servicegateway.GatewayPort" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../ri/servicegateway/GatewayPort.html">
+	c4230022 [label=<<table title="org.universAAL.ri.servicegateway.GatewayPort" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../ri/servicegateway/GatewayPort.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> GatewayPort </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../../ri/servicegateway/GatewayPort.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.handler.web.html.HTTPHandlerService
-	c4123437 [label=<<table title="org.universAAL.ui.handler.web.html.HTTPHandlerService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HTTPHandlerService.html">
+	c4230422 [label=<<table title="org.universAAL.ui.handler.web.html.HTTPHandlerService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HTTPHandlerService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HTTPHandlerService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HTTPHandlerService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.handler.web.html.HTTPHandlerService extends org.universAAL.ri.servicegateway.GatewayPort
-	c4123068:p -> c4123437:p [dir=back,arrowtail=empty];
+	c4230022:p -> c4230422:p [dir=back,arrowtail=empty];
 }
 

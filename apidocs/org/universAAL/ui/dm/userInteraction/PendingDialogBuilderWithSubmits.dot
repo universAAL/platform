@@ -10,29 +10,29 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.dm.userInteraction.PendingDialogBuilder
-	c6108580 [label=<<table title="org.universAAL.ui.dm.userInteraction.PendingDialogBuilder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PendingDialogBuilder.html">
+	c6242165 [label=<<table title="org.universAAL.ui.dm.userInteraction.PendingDialogBuilder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PendingDialogBuilder.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PendingDialogBuilder </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PendingDialogBuilder.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.userInteraction.PendingDialogBuilderWithSubmits
-	c6108581 [label=<<table title="org.universAAL.ui.dm.userInteraction.PendingDialogBuilderWithSubmits" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PendingDialogBuilderWithSubmits.html">
+	c6242166 [label=<<table title="org.universAAL.ui.dm.userInteraction.PendingDialogBuilderWithSubmits" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PendingDialogBuilderWithSubmits.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PendingDialogBuilderWithSubmits </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PendingDialogBuilderWithSubmits.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.interfaces.ISubmitGroupListener
-	c6108605 [label=<<table title="org.universAAL.ui.dm.interfaces.ISubmitGroupListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../interfaces/ISubmitGroupListener.html">
+	c6242190 [label=<<table title="org.universAAL.ui.dm.interfaces.ISubmitGroupListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../interfaces/ISubmitGroupListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ISubmitGroupListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="../interfaces/ISubmitGroupListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.dm.userInteraction.PendingDialogBuilder implements org.universAAL.ui.dm.interfaces.ISubmitGroupListener
-	c6108605:p -> c6108580:p [dir=back,arrowtail=empty,style=dashed];
+	c6242190:p -> c6242165:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.ui.dm.userInteraction.PendingDialogBuilderWithSubmits extends org.universAAL.ui.dm.userInteraction.PendingDialogBuilder
-	c6108580:p -> c6108581:p [dir=back,arrowtail=empty];
+	c6242165:p -> c6242166:p [dir=back,arrowtail=empty];
 	//org.universAAL.ui.dm.userInteraction.PendingDialogBuilderWithSubmits implements org.universAAL.ui.dm.interfaces.ISubmitGroupListener
-	c6108605:p -> c6108581:p [dir=back,arrowtail=empty,style=dashed];
+	c6242190:p -> c6242166:p [dir=back,arrowtail=empty,style=dashed];
 }
 

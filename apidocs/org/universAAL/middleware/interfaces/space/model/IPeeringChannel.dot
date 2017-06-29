@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.interfaces.space.model.IPeeringChannel
-	c4453095 [label=<<table title="org.universAAL.middleware.interfaces.space.model.IPeeringChannel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IPeeringChannel.html">
+	c4564488 [label=<<table title="org.universAAL.middleware.interfaces.space.model.IPeeringChannel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IPeeringChannel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IPeeringChannel </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IPeeringChannel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.interfaces.space.xml.model.Space.PeeringChannel
-	c4453099 [label=<<table title="org.universAAL.middleware.interfaces.space.xml.model.Space.PeeringChannel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../xml/model/Space.PeeringChannel.html">
+	c4564492 [label=<<table title="org.universAAL.middleware.interfaces.space.xml.model.Space.PeeringChannel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../xml/model/Space.PeeringChannel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PeeringChannel </td></tr>
 		</table></td></tr>
 		</table>>, URL="../xml/model/Space.PeeringChannel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.interfaces.space.xml.model.Space.PeeringChannel implements org.universAAL.middleware.interfaces.space.model.IPeeringChannel
-	c4453095:p -> c4453099:p [dir=back,arrowtail=empty,style=dashed];
+	c4564488:p -> c4564492:p [dir=back,arrowtail=empty,style=dashed];
 }
 

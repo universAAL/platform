@@ -10,27 +10,27 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.ui.impl.IUIStrategyMessageSharedProps
-	c8055402 [label=<<table title="org.universAAL.middleware.ui.impl.IUIStrategyMessageSharedProps" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IUIStrategyMessageSharedProps.html">
+	c8238047 [label=<<table title="org.universAAL.middleware.ui.impl.IUIStrategyMessageSharedProps" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IUIStrategyMessageSharedProps.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IUIStrategyMessageSharedProps </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IUIStrategyMessageSharedProps.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.impl.UIStrategyCaller.UIRequestCall
-	c8055405 [label=<<table title="org.universAAL.middleware.ui.impl.UIStrategyCaller.UIRequestCall" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UIStrategyCaller.UIRequestCall.html">
+	c8238050 [label=<<table title="org.universAAL.middleware.ui.impl.UIStrategyCaller.UIRequestCall" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UIStrategyCaller.UIRequestCall.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UIRequestCall </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UIStrategyCaller.UIRequestCall.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.impl.generic.CallMessage<Strategy extends org.universAAL.middleware.ui.impl.generic.CallBasedStrategy>
-	c8055410 [label=<<table title="org.universAAL.middleware.ui.impl.generic.CallMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./generic/CallMessage.html">
+	c8238055 [label=<<table title="org.universAAL.middleware.ui.impl.generic.CallMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./generic/CallMessage.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> CallMessage&lt;Strategy extends CallBasedStrategy&gt; </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./generic/CallMessage.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.ui.impl.UIStrategyCaller.UIRequestCall extends org.universAAL.middleware.ui.impl.generic.CallMessage<org.universAAL.middleware.ui.impl.UIStrategyCaller>
-	c8055410:p -> c8055405:p [dir=back,arrowtail=empty];
+	c8238055:p -> c8238050:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.ui.impl.UIStrategyCaller.UIRequestCall implements org.universAAL.middleware.ui.impl.IUIStrategyMessageSharedProps
-	c8055402:p -> c8055405:p [dir=back,arrowtail=empty,style=dashed];
+	c8238047:p -> c8238050:p [dir=back,arrowtail=empty,style=dashed];
 }
 

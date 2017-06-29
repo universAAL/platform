@@ -10,34 +10,34 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.phThing.Device
-	c5003761 [label=<<table title="org.universAAL.ontology.phThing.Device" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../phThing/Device.html">
+	c5122526 [label=<<table title="org.universAAL.ontology.phThing.Device" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../phThing/Device.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Device </td></tr>
 		</table></td></tr>
 		</table>>, URL="../phThing/Device.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.LightSource
-	c5004057 [label=<<table title="org.universAAL.ontology.lighting.LightSource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LightSource.html">
+	c5122829 [label=<<table title="org.universAAL.ontology.lighting.LightSource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LightSource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LightSource </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LightSource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.BlinkableLightSource
-	c5004059 [label=<<table title="org.universAAL.ontology.lighting.BlinkableLightSource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BlinkableLightSource.html">
+	c5122831 [label=<<table title="org.universAAL.ontology.lighting.BlinkableLightSource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BlinkableLightSource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BlinkableLightSource </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BlinkableLightSource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.BeamingSource
-	c5004061 [label=<<table title="org.universAAL.ontology.lighting.BeamingSource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BeamingSource.html">
+	c5122833 [label=<<table title="org.universAAL.ontology.lighting.BeamingSource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BeamingSource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BeamingSource </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BeamingSource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.lighting.LightSource extends org.universAAL.ontology.phThing.Device
-	c5003761:p -> c5004057:p [dir=back,arrowtail=empty];
+	c5122526:p -> c5122829:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.lighting.BlinkableLightSource extends org.universAAL.ontology.lighting.LightSource
-	c5004057:p -> c5004059:p [dir=back,arrowtail=empty];
+	c5122829:p -> c5122831:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.lighting.BeamingSource extends org.universAAL.ontology.lighting.LightSource
-	c5004057:p -> c5004061:p [dir=back,arrowtail=empty];
+	c5122829:p -> c5122833:p [dir=back,arrowtail=empty];
 }
 

@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.ucc.configuration.view.ConfigurationPanel
-	c2841886 [label=<<table title="org.universAAL.tools.ucc.configuration.view.ConfigurationPanel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigurationPanel.html">
+	c2925947 [label=<<table title="org.universAAL.tools.ucc.configuration.view.ConfigurationPanel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigurationPanel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConfigurationPanel </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConfigurationPanel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.ucc.configuration.view.ConfigurationPanel extends com.vaadin.ui.Panel
-	c2841970:p -> c2841886:p [dir=back,arrowtail=empty];
+	c2926031:p -> c2925947:p [dir=back,arrowtail=empty];
 	// com.vaadin.ui.Panel
-	c2841970 [label=<<table title="com.vaadin.ui.Panel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/vaadin/ui/Panel.html">
+	c2926031 [label=<<table title="com.vaadin.ui.Panel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/vaadin/ui/Panel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Panel </td></tr>
 		</table></td></tr>

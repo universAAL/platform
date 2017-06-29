@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.profile.SubProfile
-	c4186956 [label=<<table title="org.universAAL.ontology.profile.SubProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../profile/SubProfile.html">
+	c4294777 [label=<<table title="org.universAAL.ontology.profile.SubProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../profile/SubProfile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SubProfile </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../profile/SubProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.health.owl.HealthProfile
-	c4187385 [label=<<table title="org.universAAL.ontology.health.owl.HealthProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HealthProfile.html">
+	c4295213 [label=<<table title="org.universAAL.ontology.health.owl.HealthProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HealthProfile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HealthProfile </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HealthProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.health.owl.HealthProfile extends org.universAAL.ontology.profile.SubProfile
-	c4186956:p -> c4187385:p [dir=back,arrowtail=empty];
+	c4294777:p -> c4295213:p [dir=back,arrowtail=empty];
 }
 

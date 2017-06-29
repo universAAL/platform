@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.profile.AssistedPersonProfile
-	c2102352 [label=<<table title="org.universAAL.ontology.profile.AssistedPersonProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AssistedPersonProfile.html">
+	c2150629 [label=<<table title="org.universAAL.ontology.profile.AssistedPersonProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AssistedPersonProfile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AssistedPersonProfile </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AssistedPersonProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.profile.UserProfile
-	c2102359 [label=<<table title="org.universAAL.ontology.profile.UserProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UserProfile.html">
+	c2150636 [label=<<table title="org.universAAL.ontology.profile.UserProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UserProfile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UserProfile </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UserProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.profile.AssistedPersonProfile extends org.universAAL.ontology.profile.UserProfile
-	c2102359:p -> c2102352:p [dir=back,arrowtail=empty];
+	c2150636:p -> c2150629:p [dir=back,arrowtail=empty];
 }
 

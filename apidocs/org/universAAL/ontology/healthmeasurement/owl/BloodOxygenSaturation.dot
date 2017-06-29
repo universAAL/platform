@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.healthmeasurement.owl.BloodOxygenSaturation
-	c2306918 [label=<<table title="org.universAAL.ontology.healthmeasurement.owl.BloodOxygenSaturation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BloodOxygenSaturation.html">
+	c2357938 [label=<<table title="org.universAAL.ontology.healthmeasurement.owl.BloodOxygenSaturation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BloodOxygenSaturation.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BloodOxygenSaturation </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BloodOxygenSaturation.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.healthmeasurement.owl.HealthMeasurement
-	c2306920 [label=<<table title="org.universAAL.ontology.healthmeasurement.owl.HealthMeasurement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HealthMeasurement.html">
+	c2357940 [label=<<table title="org.universAAL.ontology.healthmeasurement.owl.HealthMeasurement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HealthMeasurement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HealthMeasurement </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HealthMeasurement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.healthmeasurement.owl.BloodOxygenSaturation extends org.universAAL.ontology.healthmeasurement.owl.HealthMeasurement
-	c2306920:p -> c2306918:p [dir=back,arrowtail=empty];
+	c2357940:p -> c2357938:p [dir=back,arrowtail=empty];
 }
 

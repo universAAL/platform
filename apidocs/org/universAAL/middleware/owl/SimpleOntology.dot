@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.SimpleOntology
-	c7391355 [label=<<table title="org.universAAL.middleware.owl.SimpleOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SimpleOntology.html">
+	c7553612 [label=<<table title="org.universAAL.middleware.owl.SimpleOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SimpleOntology.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SimpleOntology </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SimpleOntology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.owl.Ontology
-	c7391357 [label=<<table title="org.universAAL.middleware.owl.Ontology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Ontology.html">
+	c7553614 [label=<<table title="org.universAAL.middleware.owl.Ontology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Ontology.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Ontology </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Ontology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.owl.SimpleOntology extends org.universAAL.middleware.owl.Ontology
-	c7391357:p -> c7391355:p [dir=back,arrowtail=empty];
+	c7553614:p -> c7553612:p [dir=back,arrowtail=empty];
 }
 

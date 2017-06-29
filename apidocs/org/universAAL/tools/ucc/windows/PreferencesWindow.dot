@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.ucc.windows.PreferencesWindow
-	c6268035 [label=<<table title="org.universAAL.tools.ucc.windows.PreferencesWindow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PreferencesWindow.html">
+	c6403748 [label=<<table title="org.universAAL.tools.ucc.windows.PreferencesWindow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PreferencesWindow.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PreferencesWindow </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PreferencesWindow.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.ucc.windows.PreferencesWindow extends com.vaadin.ui.Window
-	c6268092:p -> c6268035:p [dir=back,arrowtail=empty];
+	c6403805:p -> c6403748:p [dir=back,arrowtail=empty];
 	// com.vaadin.ui.Window
-	c6268092 [label=<<table title="com.vaadin.ui.Window" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/vaadin/ui/Window.html">
+	c6403805 [label=<<table title="com.vaadin.ui.Window" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/vaadin/ui/Window.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Window </td></tr>
 		</table></td></tr>

@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.ui.owl.Preference
-	c2000092 [label=<<table title="org.universAAL.middleware.ui.owl.Preference" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/ui/owl/Preference.html">
+	c2047001 [label=<<table title="org.universAAL.middleware.ui.owl.Preference" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/ui/owl/Preference.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Preference </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../middleware/ui/owl/Preference.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.ui.preferences.AlertPreferences
-	c2000539 [label=<<table title="org.universAAL.ontology.ui.preferences.AlertPreferences" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AlertPreferences.html">
+	c2047455 [label=<<table title="org.universAAL.ontology.ui.preferences.AlertPreferences" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AlertPreferences.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AlertPreferences </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AlertPreferences.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.ui.preferences.AlertPreferences extends org.universAAL.middleware.ui.owl.Preference
-	c2000092:p -> c2000539:p [dir=back,arrowtail=empty];
+	c2047001:p -> c2047455:p [dir=back,arrowtail=empty];
 }
 

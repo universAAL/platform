@@ -10,23 +10,23 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ri.gateway.configuration.ConfigurationFile
-	c8153359 [label=<<table title="org.universAAL.ri.gateway.configuration.ConfigurationFile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigurationFile.html">
+	c8343051 [label=<<table title="org.universAAL.ri.gateway.configuration.ConfigurationFile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigurationFile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConfigurationFile </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConfigurationFile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.gateway.configuration.UpdatedPropertiesFile
-	c8153361 [label=<<table title="org.universAAL.ri.gateway.configuration.UpdatedPropertiesFile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UpdatedPropertiesFile.html">
+	c8343053 [label=<<table title="org.universAAL.ri.gateway.configuration.UpdatedPropertiesFile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UpdatedPropertiesFile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> UpdatedPropertiesFile </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./UpdatedPropertiesFile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ri.gateway.configuration.ConfigurationFile extends org.universAAL.ri.gateway.configuration.UpdatedPropertiesFile
-	c8153361:p -> c8153359:p [dir=back,arrowtail=empty];
+	c8343053:p -> c8343051:p [dir=back,arrowtail=empty];
 	//org.universAAL.ri.gateway.configuration.UpdatedPropertiesFile extends java.util.Properties
-	c8154181:p -> c8153361:p [dir=back,arrowtail=empty];
+	c8343904:p -> c8343053:p [dir=back,arrowtail=empty];
 	// java.util.Properties
-	c8154181 [label=<<table title="java.util.Properties" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/util/Properties.html">
+	c8343904 [label=<<table title="java.util.Properties" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/util/Properties.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Properties </td></tr>
 		</table></td></tr>

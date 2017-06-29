@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.questionnaire.QuestionWithMedia
-	c6504428 [label=<<table title="org.universAAL.ontology.questionnaire.QuestionWithMedia" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./QuestionWithMedia.html">
+	c6651924 [label=<<table title="org.universAAL.ontology.questionnaire.QuestionWithMedia" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./QuestionWithMedia.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> QuestionWithMedia </td></tr>
 		</table></td></tr>
 		</table>>, URL="./QuestionWithMedia.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.questionnaire.Question
-	c6504433 [label=<<table title="org.universAAL.ontology.questionnaire.Question" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Question.html">
+	c6651929 [label=<<table title="org.universAAL.ontology.questionnaire.Question" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Question.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Question </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Question.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.questionnaire.QuestionWithMedia extends org.universAAL.ontology.questionnaire.Question
-	c6504433:p -> c6504428:p [dir=back,arrowtail=empty];
+	c6651929:p -> c6651924:p [dir=back,arrowtail=empty];
 }
 

@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.logmonitor.msgflow.gui.MsgFlowPanel.MyViewport
-	c5595603 [label=<<table title="org.universAAL.tools.logmonitor.msgflow.gui.MsgFlowPanel.MyViewport" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MsgFlowPanel.MyViewport.html">
+	c5722310 [label=<<table title="org.universAAL.tools.logmonitor.msgflow.gui.MsgFlowPanel.MyViewport" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MsgFlowPanel.MyViewport.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MyViewport </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MsgFlowPanel.MyViewport.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.logmonitor.msgflow.gui.MsgFlowPanel.MyViewport extends javax.swing.JViewport
-	c5595893:p -> c5595603:p [dir=back,arrowtail=empty];
+	c5722600:p -> c5722310:p [dir=back,arrowtail=empty];
 	// javax.swing.JViewport
-	c5595893 [label=<<table title="javax.swing.JViewport" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/JViewport.html">
+	c5722600 [label=<<table title="javax.swing.JViewport" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/JViewport.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> JViewport </td></tr>
 		</table></td></tr>

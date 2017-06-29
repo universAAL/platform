@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.ucc.service.api.IServiceRegistration
-	c4492569 [label=<<table title="org.universAAL.tools.ucc.service.api.IServiceRegistration" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IServiceRegistration.html">
+	c4604494 [label=<<table title="org.universAAL.tools.ucc.service.api.IServiceRegistration" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IServiceRegistration.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IServiceRegistration </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IServiceRegistration.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.service.impl.ServiceRegistration
-	c4492571 [label=<<table title="org.universAAL.tools.ucc.service.impl.ServiceRegistration" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../impl/ServiceRegistration.html">
+	c4604496 [label=<<table title="org.universAAL.tools.ucc.service.impl.ServiceRegistration" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../impl/ServiceRegistration.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ServiceRegistration </td></tr>
 		</table></td></tr>
 		</table>>, URL="../impl/ServiceRegistration.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.ucc.service.impl.ServiceRegistration implements org.universAAL.tools.ucc.service.api.IServiceRegistration
-	c4492569:p -> c4492571:p [dir=back,arrowtail=empty,style=dashed];
+	c4604494:p -> c4604496:p [dir=back,arrowtail=empty,style=dashed];
 }
 

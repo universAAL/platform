@@ -10,27 +10,27 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.service.ServiceCallee
-	c5054610 [label=<<table title="org.universAAL.middleware.service.ServiceCallee" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/service/ServiceCallee.html">
+	c5174059 [label=<<table title="org.universAAL.middleware.service.ServiceCallee" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/service/ServiceCallee.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ServiceCallee </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../middleware/service/ServiceCallee.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.samples.lighting.server.LightingProvider
-	c5056595 [label=<<table title="org.universAAL.samples.lighting.server.LightingProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LightingProvider.html">
+	c5176082 [label=<<table title="org.universAAL.samples.lighting.server.LightingProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LightingProvider.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LightingProvider </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LightingProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.samples.lighting.server.unit_impl.LampStateListener
-	c5056599 [label=<<table title="org.universAAL.samples.lighting.server.unit_impl.LampStateListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./unit_impl/LampStateListener.html">
+	c5176086 [label=<<table title="org.universAAL.samples.lighting.server.unit_impl.LampStateListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./unit_impl/LampStateListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> LampStateListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="./unit_impl/LampStateListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.samples.lighting.server.LightingProvider extends org.universAAL.middleware.service.ServiceCallee
-	c5054610:p -> c5056595:p [dir=back,arrowtail=empty];
+	c5174059:p -> c5176082:p [dir=back,arrowtail=empty];
 	//org.universAAL.samples.lighting.server.LightingProvider implements org.universAAL.samples.lighting.server.unit_impl.LampStateListener
-	c5056599:p -> c5056595:p [dir=back,arrowtail=empty,style=dashed];
+	c5176086:p -> c5176082:p [dir=back,arrowtail=empty,style=dashed];
 }
 

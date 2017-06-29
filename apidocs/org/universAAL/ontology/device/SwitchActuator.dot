@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.device.Actuator
-	c7684075 [label=<<table title="org.universAAL.ontology.device.Actuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Actuator.html">
+	c7861748 [label=<<table title="org.universAAL.ontology.device.Actuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Actuator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Actuator </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Actuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.SwitchActuator
-	c7684081 [label=<<table title="org.universAAL.ontology.device.SwitchActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SwitchActuator.html">
+	c7861754 [label=<<table title="org.universAAL.ontology.device.SwitchActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SwitchActuator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SwitchActuator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SwitchActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.SwitchController
-	c7684110 [label=<<table title="org.universAAL.ontology.device.SwitchController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SwitchController.html">
+	c7861784 [label=<<table title="org.universAAL.ontology.device.SwitchController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SwitchController.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SwitchController </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SwitchController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.device.SwitchActuator extends org.universAAL.ontology.device.Actuator
-	c7684075:p -> c7684081:p [dir=back,arrowtail=empty];
+	c7861748:p -> c7861754:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.device.SwitchController extends org.universAAL.ontology.device.SwitchActuator
-	c7684081:p -> c7684110:p [dir=back,arrowtail=empty];
+	c7861754:p -> c7861784:p [dir=back,arrowtail=empty];
 }
 

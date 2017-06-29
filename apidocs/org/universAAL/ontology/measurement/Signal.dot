@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.measurement.Measurement
-	c7343705 [label=<<table title="org.universAAL.ontology.measurement.Measurement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Measurement.html">
+	c7505321 [label=<<table title="org.universAAL.ontology.measurement.Measurement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Measurement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Measurement </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Measurement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.measurement.Signal
-	c7343706 [label=<<table title="org.universAAL.ontology.measurement.Signal" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Signal.html">
+	c7505322 [label=<<table title="org.universAAL.ontology.measurement.Signal" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Signal.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Signal </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Signal.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.healthmeasurement.owl.HeartRateSignal
-	c7344029 [label=<<table title="org.universAAL.ontology.healthmeasurement.owl.HeartRateSignal" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../healthmeasurement/owl/HeartRateSignal.html">
+	c7505647 [label=<<table title="org.universAAL.ontology.healthmeasurement.owl.HeartRateSignal" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../healthmeasurement/owl/HeartRateSignal.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HeartRateSignal </td></tr>
 		</table></td></tr>
 		</table>>, URL="../healthmeasurement/owl/HeartRateSignal.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.measurement.Signal extends org.universAAL.ontology.measurement.Measurement
-	c7343705:p -> c7343706:p [dir=back,arrowtail=empty];
+	c7505321:p -> c7505322:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.healthmeasurement.owl.HeartRateSignal extends org.universAAL.ontology.measurement.Signal
-	c7343706:p -> c7344029:p [dir=back,arrowtail=empty];
+	c7505322:p -> c7505647:p [dir=back,arrowtail=empty];
 }
 

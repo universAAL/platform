@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.ui.owl.Preference
-	c1841259 [label=<<table title="org.universAAL.middleware.ui.owl.Preference" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/ui/owl/Preference.html">
+	c1886040 [label=<<table title="org.universAAL.middleware.ui.owl.Preference" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/ui/owl/Preference.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Preference </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../middleware/ui/owl/Preference.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.ui.preferences.AccessMode
-	c1841692 [label=<<table title="org.universAAL.ontology.ui.preferences.AccessMode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AccessMode.html">
+	c1886480 [label=<<table title="org.universAAL.ontology.ui.preferences.AccessMode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AccessMode.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AccessMode </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AccessMode.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.ui.preferences.AccessMode extends org.universAAL.middleware.ui.owl.Preference
-	c1841259:p -> c1841692:p [dir=back,arrowtail=empty];
+	c1886040:p -> c1886480:p [dir=back,arrowtail=empty];
 }
 

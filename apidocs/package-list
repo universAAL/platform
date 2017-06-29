@@ -291,6 +291,7 @@ org.universAAL.ontology.tutorial
 org.universAAL.ontology.ui.preferences
 org.universAAL.ontology.ui.preferences.service
 org.universAAL.ontology.unit
+org.universAAL.ontology.unit.color
 org.universAAL.ontology.unit.services
 org.universAAL.ontology.unit.system
 org.universAAL.ontology.vcard
@@ -318,6 +319,12 @@ org.universAAL.ri.gateway.utils
 org.universAAL.ri.internetgateway
 org.universAAL.ri.keepalive.receiver
 org.universAAL.ri.keepalive.sender
+org.universAAL.ri.rest.manager
+org.universAAL.ri.rest.manager.push
+org.universAAL.ri.rest.manager.resources
+org.universAAL.ri.rest.manager.server
+org.universAAL.ri.rest.manager.server.persistence
+org.universAAL.ri.rest.manager.wrappers
 org.universAAL.ri.restToolkit
 org.universAAL.ri.servicegateway
 org.universAAL.ri.servicegateway.impl

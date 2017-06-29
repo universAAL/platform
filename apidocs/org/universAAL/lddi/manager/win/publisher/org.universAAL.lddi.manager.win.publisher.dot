@@ -10,37 +10,37 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.lddi.manager.win.publisher.Activator
-	c1244679 [label=<<table title="org.universAAL.lddi.manager.win.publisher.Activator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Activator.html">
+	c1281479 [label=<<table title="org.universAAL.lddi.manager.win.publisher.Activator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Activator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Activator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Activator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.manager.win.publisher.ServiceProvider
-	c1244680 [label=<<table title="org.universAAL.lddi.manager.win.publisher.ServiceProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ServiceProvider.html">
+	c1281480 [label=<<table title="org.universAAL.lddi.manager.win.publisher.ServiceProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ServiceProvider.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ServiceProvider </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ServiceProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.manager.win.publisher.Publisher
-	c1244681 [label=<<table title="org.universAAL.lddi.manager.win.publisher.Publisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Publisher.html">
+	c1281481 [label=<<table title="org.universAAL.lddi.manager.win.publisher.Publisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Publisher.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Publisher </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Publisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.manager.win.publisher.hdpManager
-	c1244682 [label=<<table title="org.universAAL.lddi.manager.win.publisher.hdpManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./hdpManager.html">
+	c1281482 [label=<<table title="org.universAAL.lddi.manager.win.publisher.hdpManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./hdpManager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> hdpManager </td></tr>
 		</table></td></tr>
 		</table>>, URL="./hdpManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.manager.win.publisher.hdpManagerListener
-	c1244683 [label=<<table title="org.universAAL.lddi.manager.win.publisher.hdpManagerListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./hdpManagerListener.html">
+	c1281483 [label=<<table title="org.universAAL.lddi.manager.win.publisher.hdpManagerListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./hdpManagerListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> hdpManagerListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="./hdpManagerListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.lddi.manager.win.publisher.hdpManager implements org.universAAL.lddi.manager.win.publisher.hdpManagerListener
-	c1244683:p -> c1244682:p [dir=back,arrowtail=empty,style=dashed];
+	c1281483:p -> c1281482:p [dir=back,arrowtail=empty,style=dashed];
 }
 

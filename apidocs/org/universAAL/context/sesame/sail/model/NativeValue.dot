@@ -10,33 +10,33 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.context.sesame.sail.model.NativeValue
-	c5719199 [label=<<table title="org.universAAL.context.sesame.sail.model.NativeValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./NativeValue.html">
+	c5847547 [label=<<table title="org.universAAL.context.sesame.sail.model.NativeValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./NativeValue.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> NativeValue </td></tr>
 		</table></td></tr>
 		</table>>, URL="./NativeValue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.context.sesame.sail.model.NativeLiteral
-	c5719200 [label=<<table title="org.universAAL.context.sesame.sail.model.NativeLiteral" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NativeLiteral.html">
+	c5847548 [label=<<table title="org.universAAL.context.sesame.sail.model.NativeLiteral" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NativeLiteral.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> NativeLiteral </td></tr>
 		</table></td></tr>
 		</table>>, URL="./NativeLiteral.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.context.sesame.sail.model.NativeResource
-	c5719202 [label=<<table title="org.universAAL.context.sesame.sail.model.NativeResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NativeResource.html">
+	c5847550 [label=<<table title="org.universAAL.context.sesame.sail.model.NativeResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NativeResource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> NativeResource </td></tr>
 		</table></td></tr>
 		</table>>, URL="./NativeResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.context.sesame.sail.model.NativeValue implements org.openrdf.model.Value
-	c5720698:p -> c5719199:p [dir=back,arrowtail=empty,style=dashed];
+	c5849077:p -> c5847547:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.context.sesame.sail.model.NativeLiteral implements org.universAAL.context.sesame.sail.model.NativeValue
-	c5719199:p -> c5719200:p [dir=back,arrowtail=empty,style=dashed];
+	c5847547:p -> c5847548:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.context.sesame.sail.model.NativeResource implements org.universAAL.context.sesame.sail.model.NativeValue
-	c5719199:p -> c5719202:p [dir=back,arrowtail=empty,style=dashed];
+	c5847547:p -> c5847550:p [dir=back,arrowtail=empty,style=dashed];
 	// org.openrdf.model.Value
-	c5720698 [label=<<table title="org.openrdf.model.Value" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/openrdf/model/Value.html">
+	c5849077 [label=<<table title="org.openrdf.model.Value" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/openrdf/model/Value.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Value </td></tr>

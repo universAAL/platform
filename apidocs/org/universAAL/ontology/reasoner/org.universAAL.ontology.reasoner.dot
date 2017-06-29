@@ -10,46 +10,46 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.reasoner.Rule
-	c372484 [label=<<table title="org.universAAL.ontology.reasoner.Rule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Rule.html">
+	c380343 [label=<<table title="org.universAAL.ontology.reasoner.Rule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Rule.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Rule </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Rule.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.reasoner.Persistent
-	c372485 [label=<<table title="org.universAAL.ontology.reasoner.Persistent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Persistent.html">
+	c380344 [label=<<table title="org.universAAL.ontology.reasoner.Persistent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Persistent.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Persistent </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Persistent.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.reasoner.ReasoningService
-	c372486 [label=<<table title="org.universAAL.ontology.reasoner.ReasoningService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ReasoningService.html">
+	c380345 [label=<<table title="org.universAAL.ontology.reasoner.ReasoningService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ReasoningService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ReasoningService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ReasoningService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.reasoner.ReasoningOntology
-	c372487 [label=<<table title="org.universAAL.ontology.reasoner.ReasoningOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ReasoningOntology.html">
+	c380346 [label=<<table title="org.universAAL.ontology.reasoner.ReasoningOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ReasoningOntology.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ReasoningOntology </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ReasoningOntology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.reasoner.Situation
-	c372488 [label=<<table title="org.universAAL.ontology.reasoner.Situation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Situation.html">
+	c380347 [label=<<table title="org.universAAL.ontology.reasoner.Situation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Situation.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Situation </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Situation.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.reasoner.Query
-	c372489 [label=<<table title="org.universAAL.ontology.reasoner.Query" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Query.html">
+	c380348 [label=<<table title="org.universAAL.ontology.reasoner.Query" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Query.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Query </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Query.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.reasoner.Rule extends org.universAAL.ontology.reasoner.Persistent
-	c372485:p -> c372484:p [dir=back,arrowtail=empty];
+	c380344:p -> c380343:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.reasoner.Situation extends org.universAAL.ontology.reasoner.Persistent
-	c372485:p -> c372488:p [dir=back,arrowtail=empty];
+	c380344:p -> c380347:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.reasoner.Query extends org.universAAL.ontology.reasoner.Persistent
-	c372485:p -> c372489:p [dir=back,arrowtail=empty];
+	c380344:p -> c380348:p [dir=back,arrowtail=empty];
 }
 

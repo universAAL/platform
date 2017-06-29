@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ri.gateway.proxies.BusMemberReference
-	c2412907 [label=<<table title="org.universAAL.ri.gateway.proxies.BusMemberReference" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BusMemberReference.html">
+	c2465333 [label=<<table title="org.universAAL.ri.gateway.proxies.BusMemberReference" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BusMemberReference.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BusMemberReference </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BusMemberReference.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ri.gateway.proxies.BusMemberReference implements java.io.Serializable
-	c2413684:p -> c2412907:p [dir=back,arrowtail=empty,style=dashed];
+	c2466141:p -> c2465333:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Serializable
-	c2413684 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c2466141 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>

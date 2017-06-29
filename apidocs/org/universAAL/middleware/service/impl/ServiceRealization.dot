@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.rdf.FinalizedResource
-	c7209817 [label=<<table title="org.universAAL.middleware.rdf.FinalizedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../rdf/FinalizedResource.html">
+	c7369642 [label=<<table title="org.universAAL.middleware.rdf.FinalizedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../rdf/FinalizedResource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> FinalizedResource </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../rdf/FinalizedResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.service.impl.ServiceRealization
-	c7210167 [label=<<table title="org.universAAL.middleware.service.impl.ServiceRealization" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ServiceRealization.html">
+	c7369992 [label=<<table title="org.universAAL.middleware.service.impl.ServiceRealization" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ServiceRealization.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ServiceRealization </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ServiceRealization.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.service.impl.ServiceRealization extends org.universAAL.middleware.rdf.FinalizedResource
-	c7209817:p -> c7210167:p [dir=back,arrowtail=empty];
+	c7369642:p -> c7369992:p [dir=back,arrowtail=empty];
 }
 
