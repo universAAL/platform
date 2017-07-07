@@ -105,6 +105,27 @@
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
+      <id>uaal-p1</id>
+      <name>uAAL Proxy1</name>
+      <url>http://nexus.lst.tfo.upm.es/content/repositories/uaal/</url>
+    </repository>
+    <repository>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <id>uaal-snapshots-p1</id>
+      <name>uAAL Snapshot Proxy1</name>
+      <url>http://nexus.lst.tfo.upm.es/content/repositories/uaal-snapshots/</url>
+    </repository>
+    <repository>
+      <id>uaal-thirdparty-p1</id>
+      <name>uAAL ThirdParty Proxy1</name>
+      <url>http://nexus.lst.tfo.upm.es/content/repositories/uaal-thirdparty/</url>
+    </repository>
+    <repository>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
       <id>central</id>
       <name>Central Maven Repository</name>
       <url>http://repo1.maven.org/maven2</url>
@@ -153,6 +174,30 @@
       <id>uaal-snapshots</id>
       <name>universAAL Snapshot Repositories</name>
       <url>http://depot.universaal.org/maven-repo/snapshots/</url>
+    </pluginRepository>
+    <pluginRepository>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <id>uaal-p1</id>
+      <name>uAAL Proxy1</name>
+      <url>http://nexus.lst.tfo.upm.es/content/repositories/uaal/</url>
+    </pluginRepository>
+    <pluginRepository>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <id>uaal-snapshots-p1</id>
+      <name>uAAL Snapshot Proxy1</name>
+      <url>http://nexus.lst.tfo.upm.es/content/repositories/uaal-snapshots/</url>
+    </pluginRepository>
+    <pluginRepository>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <id>uaal-thirdparty-p1</id>
+      <name>uAAL ThirdParty Proxy1</name>
+      <url>http://nexus.lst.tfo.upm.es/content/repositories/uaal-thirdparty/</url>
     </pluginRepository>
   </pluginRepositories>
   <build>
