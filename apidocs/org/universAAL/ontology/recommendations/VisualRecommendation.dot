@@ -10,42 +10,42 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.ui.owl.Recommendation
-	c8534090 [label=<<table title="org.universAAL.middleware.ui.owl.Recommendation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/ui/owl/Recommendation.html">
+	c8601272 [label=<<table title="org.universAAL.middleware.ui.owl.Recommendation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/ui/owl/Recommendation.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Recommendation </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/ui/owl/Recommendation.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.recommendations.VisualRecommendation
-	c8534692 [label=<<table title="org.universAAL.ontology.recommendations.VisualRecommendation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./VisualRecommendation.html">
+	c8601874 [label=<<table title="org.universAAL.ontology.recommendations.VisualRecommendation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./VisualRecommendation.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> VisualRecommendation </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./VisualRecommendation.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.recommendations.Alignment
-	c8534695 [label=<<table title="org.universAAL.ontology.recommendations.Alignment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Alignment.html">
+	c8601877 [label=<<table title="org.universAAL.ontology.recommendations.Alignment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Alignment.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Alignment </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Alignment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.recommendations.Size
-	c8534699 [label=<<table title="org.universAAL.ontology.recommendations.Size" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Size.html">
+	c8601881 [label=<<table title="org.universAAL.ontology.recommendations.Size" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Size.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Size </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Size.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.recommendations.Layout
-	c8534704 [label=<<table title="org.universAAL.ontology.recommendations.Layout" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Layout.html">
+	c8601886 [label=<<table title="org.universAAL.ontology.recommendations.Layout" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Layout.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Layout </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Layout.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.recommendations.VisualRecommendation extends org.universAAL.middleware.ui.owl.Recommendation
-	c8534090:p -> c8534692:p [dir=back,arrowtail=empty];
+	c8601272:p -> c8601874:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.recommendations.Alignment extends org.universAAL.ontology.recommendations.VisualRecommendation
-	c8534692:p -> c8534695:p [dir=back,arrowtail=empty];
+	c8601874:p -> c8601877:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.recommendations.Size extends org.universAAL.ontology.recommendations.VisualRecommendation
-	c8534692:p -> c8534699:p [dir=back,arrowtail=empty];
+	c8601874:p -> c8601881:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.recommendations.Layout extends org.universAAL.ontology.recommendations.VisualRecommendation
-	c8534692:p -> c8534704:p [dir=back,arrowtail=empty];
+	c8601874:p -> c8601886:p [dir=back,arrowtail=empty];
 }
 

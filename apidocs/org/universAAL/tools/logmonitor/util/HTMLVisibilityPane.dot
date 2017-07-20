@@ -10,34 +10,34 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.logmonitor.ontology.gui.OntologyPane
-	c4227761 [label=<<table title="org.universAAL.tools.logmonitor.ontology.gui.OntologyPane" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ontology/gui/OntologyPane.html">
+	c4265543 [label=<<table title="org.universAAL.tools.logmonitor.ontology.gui.OntologyPane" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ontology/gui/OntologyPane.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OntologyPane </td></tr>
 		</table></td></tr>
 		</table>>, URL="../ontology/gui/OntologyPane.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.logmonitor.util.HTMLBusOperationsPane
-	c4227764 [label=<<table title="org.universAAL.tools.logmonitor.util.HTMLBusOperationsPane" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HTMLBusOperationsPane.html">
+	c4265546 [label=<<table title="org.universAAL.tools.logmonitor.util.HTMLBusOperationsPane" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HTMLBusOperationsPane.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HTMLBusOperationsPane </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HTMLBusOperationsPane.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.logmonitor.util.HTMLPaneBase
-	c4227765 [label=<<table title="org.universAAL.tools.logmonitor.util.HTMLPaneBase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HTMLPaneBase.html">
+	c4265547 [label=<<table title="org.universAAL.tools.logmonitor.util.HTMLPaneBase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HTMLPaneBase.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HTMLPaneBase </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HTMLPaneBase.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.logmonitor.util.HTMLVisibilityPane
-	c4227768 [label=<<table title="org.universAAL.tools.logmonitor.util.HTMLVisibilityPane" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HTMLVisibilityPane.html">
+	c4265550 [label=<<table title="org.universAAL.tools.logmonitor.util.HTMLVisibilityPane" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HTMLVisibilityPane.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HTMLVisibilityPane </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HTMLVisibilityPane.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.logmonitor.ontology.gui.OntologyPane extends org.universAAL.tools.logmonitor.util.HTMLVisibilityPane
-	c4227768:p -> c4227761:p [dir=back,arrowtail=empty];
+	c4265550:p -> c4265543:p [dir=back,arrowtail=empty];
 	//org.universAAL.tools.logmonitor.util.HTMLBusOperationsPane extends org.universAAL.tools.logmonitor.util.HTMLVisibilityPane
-	c4227768:p -> c4227764:p [dir=back,arrowtail=empty];
+	c4265550:p -> c4265546:p [dir=back,arrowtail=empty];
 	//org.universAAL.tools.logmonitor.util.HTMLVisibilityPane extends org.universAAL.tools.logmonitor.util.HTMLPaneBase
-	c4227765:p -> c4227768:p [dir=back,arrowtail=empty];
+	c4265547:p -> c4265550:p [dir=back,arrowtail=empty];
 }
 

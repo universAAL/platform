@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.dependability.InteractionFault
-	c4775108 [label=<<table title="org.universAAL.ontology.dependability.InteractionFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./InteractionFault.html">
+	c4814790 [label=<<table title="org.universAAL.ontology.dependability.InteractionFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./InteractionFault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> InteractionFault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./InteractionFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.dependability.OperationalFault
-	c4775109 [label=<<table title="org.universAAL.ontology.dependability.OperationalFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OperationalFault.html">
+	c4814791 [label=<<table title="org.universAAL.ontology.dependability.OperationalFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OperationalFault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OperationalFault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OperationalFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.dependability.InteractionFault extends org.universAAL.ontology.dependability.OperationalFault
-	c4775109:p -> c4775108:p [dir=back,arrowtail=empty];
+	c4814791:p -> c4814790:p [dir=back,arrowtail=empty];
 }
 

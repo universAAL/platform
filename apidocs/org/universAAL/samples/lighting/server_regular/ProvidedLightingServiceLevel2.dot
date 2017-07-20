@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.lighting.Lighting
-	c6554171 [label=<<table title="org.universAAL.ontology.lighting.Lighting" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/lighting/Lighting.html">
+	c6611579 [label=<<table title="org.universAAL.ontology.lighting.Lighting" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/lighting/Lighting.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Lighting </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../ontology/lighting/Lighting.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.samples.lighting.server_regular.ProvidedLightingServiceLevel2
-	c6555765 [label=<<table title="org.universAAL.samples.lighting.server_regular.ProvidedLightingServiceLevel2" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProvidedLightingServiceLevel2.html">
+	c6613183 [label=<<table title="org.universAAL.samples.lighting.server_regular.ProvidedLightingServiceLevel2" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProvidedLightingServiceLevel2.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProvidedLightingServiceLevel2 </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ProvidedLightingServiceLevel2.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.samples.lighting.server_regular.ProvidedLightingServiceLevel2 extends org.universAAL.ontology.lighting.Lighting
-	c6554171:p -> c6555765:p [dir=back,arrowtail=empty];
+	c6611579:p -> c6613183:p [dir=back,arrowtail=empty];
 }
 

@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.ui.UIHandler
-	c7620048 [label=<<table title="org.universAAL.middleware.ui.UIHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/ui/UIHandler.html">
+	c7681166 [label=<<table title="org.universAAL.middleware.ui.UIHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/ui/UIHandler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> UIHandler </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../middleware/ui/UIHandler.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.handler.sms.SmsUIHandler
-	c7621982 [label=<<table title="org.universAAL.ui.handler.sms.SmsUIHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SmsUIHandler.html">
+	c7683110 [label=<<table title="org.universAAL.ui.handler.sms.SmsUIHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SmsUIHandler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SmsUIHandler </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SmsUIHandler.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.handler.sms.SmsUIHandler extends org.universAAL.middleware.ui.UIHandler
-	c7620048:p -> c7621982:p [dir=back,arrowtail=empty];
+	c7681166:p -> c7683110:p [dir=back,arrowtail=empty];
 }
 

@@ -10,20 +10,20 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.rdf.PropertySetup
-	c5949788 [label=<<table title="org.universAAL.middleware.rdf.PropertySetup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../rdf/PropertySetup.html">
+	c5993560 [label=<<table title="org.universAAL.middleware.rdf.PropertySetup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../rdf/PropertySetup.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> PropertySetup </td></tr>
 		</table></td></tr>
 		</table>>, URL="../rdf/PropertySetup.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.owl.ObjectPropertySetup
-	c5949827 [label=<<table title="org.universAAL.middleware.owl.ObjectPropertySetup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ObjectPropertySetup.html">
+	c5993599 [label=<<table title="org.universAAL.middleware.owl.ObjectPropertySetup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ObjectPropertySetup.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ObjectPropertySetup </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ObjectPropertySetup.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.owl.ObjectPropertySetup implements org.universAAL.middleware.rdf.PropertySetup
-	c5949788:p -> c5949827:p [dir=back,arrowtail=empty,style=dashed];
+	c5993560:p -> c5993599:p [dir=back,arrowtail=empty,style=dashed];
 }
 

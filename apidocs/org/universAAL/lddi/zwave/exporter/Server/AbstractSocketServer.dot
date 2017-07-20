@@ -10,27 +10,27 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.lddi.zwave.exporter.Server.AbstractSocketServerXSocket
-	c1861571 [label=<<table title="org.universAAL.lddi.zwave.exporter.Server.AbstractSocketServerXSocket" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractSocketServerXSocket.html">
+	c1879587 [label=<<table title="org.universAAL.lddi.zwave.exporter.Server.AbstractSocketServerXSocket" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractSocketServerXSocket.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractSocketServerXSocket </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractSocketServerXSocket.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.zwave.exporter.Server.ISocketServer
-	c1861574 [label=<<table title="org.universAAL.lddi.zwave.exporter.Server.ISocketServer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ISocketServer.html">
+	c1879590 [label=<<table title="org.universAAL.lddi.zwave.exporter.Server.ISocketServer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ISocketServer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ISocketServer </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ISocketServer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.zwave.exporter.Server.AbstractSocketServer
-	c1861578 [label=<<table title="org.universAAL.lddi.zwave.exporter.Server.AbstractSocketServer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractSocketServer.html">
+	c1879594 [label=<<table title="org.universAAL.lddi.zwave.exporter.Server.AbstractSocketServer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractSocketServer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractSocketServer </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractSocketServer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.lddi.zwave.exporter.Server.AbstractSocketServerXSocket extends org.universAAL.lddi.zwave.exporter.Server.AbstractSocketServer
-	c1861578:p -> c1861571:p [dir=back,arrowtail=empty];
+	c1879594:p -> c1879587:p [dir=back,arrowtail=empty];
 	//org.universAAL.lddi.zwave.exporter.Server.AbstractSocketServer implements org.universAAL.lddi.zwave.exporter.Server.ISocketServer
-	c1861574:p -> c1861578:p [dir=back,arrowtail=empty,style=dashed];
+	c1879590:p -> c1879594:p [dir=back,arrowtail=empty,style=dashed];
 }
 

@@ -10,24 +10,24 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.xsd.NonNegativeInteger
-	c5883683 [label=<<table title="org.universAAL.middleware.xsd.NonNegativeInteger" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./NonNegativeInteger.html">
+	c5927225 [label=<<table title="org.universAAL.middleware.xsd.NonNegativeInteger" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./NonNegativeInteger.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> NonNegativeInteger </td></tr>
 		</table></td></tr>
 		</table>>, URL="./NonNegativeInteger.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.xsd.NonNegativeInteger extends java.lang.Number
-	c5886443:p -> c5883683:p [dir=back,arrowtail=empty];
+	c5929995:p -> c5927225:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.xsd.NonNegativeInteger implements java.lang.Comparable<T>
-	c5886444:p -> c5883683:p [dir=back,arrowtail=empty,style=dashed];
+	c5929996:p -> c5927225:p [dir=back,arrowtail=empty,style=dashed];
 	// java.lang.Comparable<T>
-	c5886444 [label=<<table title="java.lang.Comparable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Comparable.html">
+	c5929996 [label=<<table title="java.lang.Comparable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Comparable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Comparable&lt;T&gt; </td></tr>
 		</table></td></tr>
 		</table>>, URL="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Comparable.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// java.lang.Number
-	c5886443 [label=<<table title="java.lang.Number" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Number.html">
+	c5929995 [label=<<table title="java.lang.Number" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Number.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Number </font></td></tr>
 		</table></td></tr>

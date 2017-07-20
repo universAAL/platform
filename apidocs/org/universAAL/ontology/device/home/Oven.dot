@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.device.Actuator
-	c6122863 [label=<<table title="org.universAAL.ontology.device.Actuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../Actuator.html">
+	c6170119 [label=<<table title="org.universAAL.ontology.device.Actuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../Actuator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Actuator </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../Actuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.home.Oven
-	c6123019 [label=<<table title="org.universAAL.ontology.device.home.Oven" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Oven.html">
+	c6170275 [label=<<table title="org.universAAL.ontology.device.home.Oven" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Oven.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Oven </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Oven.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.device.home.Oven extends org.universAAL.ontology.device.Actuator
-	c6122863:p -> c6123019:p [dir=back,arrowtail=empty];
+	c6170119:p -> c6170275:p [dir=back,arrowtail=empty];
 }
 

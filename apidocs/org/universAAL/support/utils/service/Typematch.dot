@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.support.utils.service.Value
-	c8108982 [label=<<table title="org.universAAL.support.utils.service.Value" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Value.html">
+	c8174684 [label=<<table title="org.universAAL.support.utils.service.Value" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Value.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Value </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Value.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.utils.service.Typematch
-	c8108988 [label=<<table title="org.universAAL.support.utils.service.Typematch" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Typematch.html">
+	c8174690 [label=<<table title="org.universAAL.support.utils.service.Typematch" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Typematch.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Typematch </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Typematch.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.support.utils.service.Typematch extends org.universAAL.support.utils.service.Value
-	c8108982:p -> c8108988:p [dir=back,arrowtail=empty];
+	c8174684:p -> c8174690:p [dir=back,arrowtail=empty];
 }
 

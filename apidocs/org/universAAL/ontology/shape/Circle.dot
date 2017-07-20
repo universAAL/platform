@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.shape.Circle
-	c2667957 [label=<<table title="org.universAAL.ontology.shape.Circle" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Circle.html">
+	c2691657 [label=<<table title="org.universAAL.ontology.shape.Circle" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Circle.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Circle </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Circle.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.shape.Ellipse
-	c2667971 [label=<<table title="org.universAAL.ontology.shape.Ellipse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Ellipse.html">
+	c2691671 [label=<<table title="org.universAAL.ontology.shape.Ellipse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Ellipse.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Ellipse </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Ellipse.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.shape.Circle extends org.universAAL.ontology.shape.Ellipse
-	c2667971:p -> c2667957:p [dir=back,arrowtail=empty];
+	c2691671:p -> c2691657:p [dir=back,arrowtail=empty];
 }
 

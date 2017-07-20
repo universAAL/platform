@@ -10,34 +10,34 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.supply.AbsLocation
-	c5280149 [label=<<table title="org.universAAL.middleware.owl.supply.AbsLocation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/supply/AbsLocation.html">
+	c5321591 [label=<<table title="org.universAAL.middleware.owl.supply.AbsLocation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/supply/AbsLocation.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbsLocation </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/owl/supply/AbsLocation.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.location.Location
-	c5280502 [label=<<table title="org.universAAL.ontology.location.Location" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Location.html">
+	c5321944 [label=<<table title="org.universAAL.ontology.location.Location" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Location.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Location </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Location.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.location.Place
-	c5280503 [label=<<table title="org.universAAL.ontology.location.Place" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Place.html">
+	c5321945 [label=<<table title="org.universAAL.ontology.location.Place" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Place.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Place </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Place.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.location.position.Point
-	c5280517 [label=<<table title="org.universAAL.ontology.location.position.Point" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./position/Point.html">
+	c5321959 [label=<<table title="org.universAAL.ontology.location.position.Point" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./position/Point.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Point </td></tr>
 		</table></td></tr>
 		</table>>, URL="./position/Point.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.location.Location extends org.universAAL.middleware.owl.supply.AbsLocation
-	c5280149:p -> c5280502:p [dir=back,arrowtail=empty];
+	c5321591:p -> c5321944:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.location.Place extends org.universAAL.ontology.location.Location
-	c5280502:p -> c5280503:p [dir=back,arrowtail=empty];
+	c5321944:p -> c5321945:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.location.position.Point extends org.universAAL.ontology.location.Location
-	c5280502:p -> c5280517:p [dir=back,arrowtail=empty];
+	c5321944:p -> c5321959:p [dir=back,arrowtail=empty];
 }
 

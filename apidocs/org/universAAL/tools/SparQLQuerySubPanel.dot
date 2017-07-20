@@ -10,23 +10,23 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.SparQLQuerySubPanel
-	c7728562 [label=<<table title="org.universAAL.tools.SparQLQuerySubPanel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SparQLQuerySubPanel.html">
+	c7790060 [label=<<table title="org.universAAL.tools.SparQLQuerySubPanel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SparQLQuerySubPanel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SparQLQuerySubPanel </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SparQLQuerySubPanel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.SparQLQuerySubPanel extends javax.swing.JPanel
-	c7728810:p -> c7728562:p [dir=back,arrowtail=empty];
+	c7790308:p -> c7790060:p [dir=back,arrowtail=empty];
 	//org.universAAL.tools.SparQLQuerySubPanel implements java.lang.Runnable
-	c7728811:p -> c7728562:p [dir=back,arrowtail=empty,style=dashed];
+	c7790309:p -> c7790060:p [dir=back,arrowtail=empty,style=dashed];
 	// javax.swing.JPanel
-	c7728810 [label=<<table title="javax.swing.JPanel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/JPanel.html">
+	c7790308 [label=<<table title="javax.swing.JPanel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/JPanel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> JPanel </td></tr>
 		</table></td></tr>
 		</table>>, URL="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/JPanel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// java.lang.Runnable
-	c7728811 [label=<<table title="java.lang.Runnable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Runnable.html">
+	c7790309 [label=<<table title="java.lang.Runnable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Runnable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Runnable </td></tr>

@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ri.gateway.protocol.ErrorMessage
-	c3770212 [label=<<table title="org.universAAL.ri.gateway.protocol.ErrorMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ErrorMessage.html">
+	c3806404 [label=<<table title="org.universAAL.ri.gateway.protocol.ErrorMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ErrorMessage.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ErrorMessage </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ErrorMessage.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.gateway.protocol.Message
-	c3770214 [label=<<table title="org.universAAL.ri.gateway.protocol.Message" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Message.html">
+	c3806406 [label=<<table title="org.universAAL.ri.gateway.protocol.Message" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Message.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Message </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Message.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ri.gateway.protocol.ErrorMessage extends org.universAAL.ri.gateway.protocol.Message
-	c3770214:p -> c3770212:p [dir=back,arrowtail=empty];
+	c3806406:p -> c3806404:p [dir=back,arrowtail=empty];
 }
 

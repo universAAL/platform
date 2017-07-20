@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.managers.deploy.uapp.model.AalUapp.App.Licenses
-	c1721930 [label=<<table title="org.universAAL.middleware.managers.deploy.uapp.model.AalUapp.App.Licenses" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AalUapp.App.Licenses.html">
+	c1736572 [label=<<table title="org.universAAL.middleware.managers.deploy.uapp.model.AalUapp.App.Licenses" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AalUapp.App.Licenses.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Licenses </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AalUapp.App.Licenses.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.managers.deploy.uapp.model.AalUapp.App.Licenses implements java.io.Serializable
-	c1724578:p -> c1721930:p [dir=back,arrowtail=empty,style=dashed];
+	c1739230:p -> c1736572:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Serializable
-	c1724578 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c1739230 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>

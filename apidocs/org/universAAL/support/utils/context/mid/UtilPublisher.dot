@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.context.DefaultContextPublisher
-	c8419003 [label=<<table title="org.universAAL.middleware.context.DefaultContextPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../middleware/context/DefaultContextPublisher.html">
+	c8485785 [label=<<table title="org.universAAL.middleware.context.DefaultContextPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../middleware/context/DefaultContextPublisher.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DefaultContextPublisher </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../../middleware/context/DefaultContextPublisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.utils.context.mid.UtilPublisher
-	c8419437 [label=<<table title="org.universAAL.support.utils.context.mid.UtilPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UtilPublisher.html">
+	c8486219 [label=<<table title="org.universAAL.support.utils.context.mid.UtilPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UtilPublisher.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UtilPublisher </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UtilPublisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.support.utils.context.mid.UtilPublisher extends org.universAAL.middleware.context.DefaultContextPublisher
-	c8419003:p -> c8419437:p [dir=back,arrowtail=empty];
+	c8485785:p -> c8486219:p [dir=back,arrowtail=empty];
 }
 

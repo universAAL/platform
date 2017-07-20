@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.X73.BodyWeight
-	c2383741 [label=<<table title="org.universAAL.ontology.X73.BodyWeight" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BodyWeight.html">
+	c2403567 [label=<<table title="org.universAAL.ontology.X73.BodyWeight" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BodyWeight.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BodyWeight </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BodyWeight.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.X73.MDSAttribute
-	c2383750 [label=<<table title="org.universAAL.ontology.X73.MDSAttribute" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MDSAttribute.html">
+	c2403576 [label=<<table title="org.universAAL.ontology.X73.MDSAttribute" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MDSAttribute.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> MDSAttribute </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./MDSAttribute.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.X73.BodyWeight extends org.universAAL.ontology.X73.MDSAttribute
-	c2383750:p -> c2383741:p [dir=back,arrowtail=empty];
+	c2403576:p -> c2403567:p [dir=back,arrowtail=empty];
 }
 

@@ -10,66 +10,66 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.ui.rdf.Output
-	c4004301 [label=<<table title="org.universAAL.middleware.ui.rdf.Output" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Output.html">
+	c4041303 [label=<<table title="org.universAAL.middleware.ui.rdf.Output" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Output.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Output </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Output.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.rdf.Group
-	c4004303 [label=<<table title="org.universAAL.middleware.ui.rdf.Group" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Group.html">
+	c4041305 [label=<<table title="org.universAAL.middleware.ui.rdf.Group" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Group.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Group </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Group.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.rdf.Submit
-	c4004306 [label=<<table title="org.universAAL.middleware.ui.rdf.Submit" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Submit.html">
+	c4041308 [label=<<table title="org.universAAL.middleware.ui.rdf.Submit" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Submit.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Submit </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Submit.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.rdf.Input
-	c4004308 [label=<<table title="org.universAAL.middleware.ui.rdf.Input" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Input.html">
+	c4041310 [label=<<table title="org.universAAL.middleware.ui.rdf.Input" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Input.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Input </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Input.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.rdf.FormElement
-	c4004312 [label=<<table title="org.universAAL.middleware.ui.rdf.FormElement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FormElement.html">
+	c4041314 [label=<<table title="org.universAAL.middleware.ui.rdf.FormElement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FormElement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> FormElement </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./FormElement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.rdf.FormControl
-	c4004314 [label=<<table title="org.universAAL.middleware.ui.rdf.FormControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./FormControl.html">
+	c4041316 [label=<<table title="org.universAAL.middleware.ui.rdf.FormControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./FormControl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> FormControl </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./FormControl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.rdf.Label
-	c4004319 [label=<<table title="org.universAAL.middleware.ui.rdf.Label" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Label.html">
+	c4041321 [label=<<table title="org.universAAL.middleware.ui.rdf.Label" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Label.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Label </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Label.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.ui.rdf.Output extends org.universAAL.middleware.ui.rdf.FormControl
-	c4004314:p -> c4004301:p [dir=back,arrowtail=empty];
+	c4041316:p -> c4041303:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.ui.rdf.Group extends org.universAAL.middleware.ui.rdf.FormControl
-	c4004314:p -> c4004303:p [dir=back,arrowtail=empty];
+	c4041316:p -> c4041305:p [dir=back,arrowtail=empty];
 	// org.universAAL.middleware.ui.rdf.Group NAVASSOC org.universAAL.middleware.ui.rdf.FormControl
-	c4004303:p -> c4004314:p [taillabel="", label="children", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c4041305:p -> c4041316:p [taillabel="", label="children", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	//org.universAAL.middleware.ui.rdf.Submit extends org.universAAL.middleware.ui.rdf.FormControl
-	c4004314:p -> c4004306:p [dir=back,arrowtail=empty];
+	c4041316:p -> c4041308:p [dir=back,arrowtail=empty];
 	// org.universAAL.middleware.ui.rdf.Submit NAVASSOC org.universAAL.middleware.ui.rdf.Input
-	c4004306:p -> c4004308:p [taillabel="", label="mandatoryInput", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c4041308:p -> c4041310:p [taillabel="", label="mandatoryInput", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	//org.universAAL.middleware.ui.rdf.Input extends org.universAAL.middleware.ui.rdf.FormControl
-	c4004314:p -> c4004308:p [dir=back,arrowtail=empty];
+	c4041316:p -> c4041310:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.ui.rdf.FormControl extends org.universAAL.middleware.ui.rdf.FormElement
-	c4004312:p -> c4004314:p [dir=back,arrowtail=empty];
+	c4041314:p -> c4041316:p [dir=back,arrowtail=empty];
 	// org.universAAL.middleware.ui.rdf.FormControl NAVASSOC org.universAAL.middleware.ui.rdf.Label
-	c4004314:p -> c4004319:p [taillabel="", label="label", headlabel="1", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c4041316:p -> c4041321:p [taillabel="", label="label", headlabel="1", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.universAAL.middleware.ui.rdf.FormControl NAVASSOC org.universAAL.middleware.ui.rdf.Group
-	c4004314:p -> c4004303:p [taillabel="", label="parentGroup", headlabel="1", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c4041316:p -> c4041305:p [taillabel="", label="parentGroup", headlabel="1", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	//org.universAAL.middleware.ui.rdf.Label extends org.universAAL.middleware.ui.rdf.FormElement
-	c4004312:p -> c4004319:p [dir=back,arrowtail=empty];
+	c4041314:p -> c4041321:p [dir=back,arrowtail=empty];
 }
 

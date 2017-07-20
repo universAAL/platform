@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.shape.Shape
-	c2386272 [label=<<table title="org.universAAL.ontology.shape.Shape" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Shape.html">
+	c2406108 [label=<<table title="org.universAAL.ontology.shape.Shape" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Shape.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Shape </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Shape.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.shape.MergedShape
-	c2386275 [label=<<table title="org.universAAL.ontology.shape.MergedShape" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MergedShape.html">
+	c2406111 [label=<<table title="org.universAAL.ontology.shape.MergedShape" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MergedShape.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MergedShape </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MergedShape.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.shape.BooleanShape
-	c2386278 [label=<<table title="org.universAAL.ontology.shape.BooleanShape" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BooleanShape.html">
+	c2406114 [label=<<table title="org.universAAL.ontology.shape.BooleanShape" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BooleanShape.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> BooleanShape </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./BooleanShape.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.shape.MergedShape extends org.universAAL.ontology.shape.BooleanShape
-	c2386278:p -> c2386275:p [dir=back,arrowtail=empty];
+	c2406114:p -> c2406111:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.shape.BooleanShape extends org.universAAL.ontology.shape.Shape
-	c2386272:p -> c2386278:p [dir=back,arrowtail=empty];
+	c2406108:p -> c2406114:p [dir=back,arrowtail=empty];
 }
 

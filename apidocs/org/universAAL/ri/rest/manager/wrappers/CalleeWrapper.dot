@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.service.ServiceCallee
-	c2547029 [label=<<table title="org.universAAL.middleware.service.ServiceCallee" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../middleware/service/ServiceCallee.html">
+	c2570309 [label=<<table title="org.universAAL.middleware.service.ServiceCallee" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../middleware/service/ServiceCallee.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ServiceCallee </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../../middleware/service/ServiceCallee.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.rest.manager.wrappers.CalleeWrapper
-	c2548750 [label=<<table title="org.universAAL.ri.rest.manager.wrappers.CalleeWrapper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CalleeWrapper.html">
+	c2572040 [label=<<table title="org.universAAL.ri.rest.manager.wrappers.CalleeWrapper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CalleeWrapper.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CalleeWrapper </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CalleeWrapper.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ri.rest.manager.wrappers.CalleeWrapper extends org.universAAL.middleware.service.ServiceCallee
-	c2547029:p -> c2548750:p [dir=back,arrowtail=empty];
+	c2570309:p -> c2572040:p [dir=back,arrowtail=empty];
 }
 

@@ -10,27 +10,27 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.lighting.simple.LightingInterfaceLevel3
-	c5225007 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingInterfaceLevel3" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/lighting/simple/LightingInterfaceLevel3.html">
+	c5266259 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingInterfaceLevel3" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/lighting/simple/LightingInterfaceLevel3.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> LightingInterfaceLevel3 </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../ontology/lighting/simple/LightingInterfaceLevel3.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel3
-	c5225030 [label=<<table title="org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel3" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LightingSimplifiedServiceLevel3.html">
+	c5266282 [label=<<table title="org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel3" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LightingSimplifiedServiceLevel3.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LightingSimplifiedServiceLevel3 </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LightingSimplifiedServiceLevel3.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.samples.lighting.server_simple.unit_impl.MyLighting
-	c5225033 [label=<<table title="org.universAAL.samples.lighting.server_simple.unit_impl.MyLighting" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./unit_impl/MyLighting.html">
+	c5266285 [label=<<table title="org.universAAL.samples.lighting.server_simple.unit_impl.MyLighting" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./unit_impl/MyLighting.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MyLighting </td></tr>
 		</table></td></tr>
 		</table>>, URL="./unit_impl/MyLighting.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel3 extends org.universAAL.samples.lighting.server_simple.unit_impl.MyLighting
-	c5225033:p -> c5225030:p [dir=back,arrowtail=empty];
+	c5266285:p -> c5266282:p [dir=back,arrowtail=empty];
 	//org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel3 implements org.universAAL.ontology.lighting.simple.LightingInterfaceLevel3
-	c5225007:p -> c5225030:p [dir=back,arrowtail=empty,style=dashed];
+	c5266259:p -> c5266282:p [dir=back,arrowtail=empty,style=dashed];
 }
 

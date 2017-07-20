@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.dependability.PhysicalFault
-	c7804527 [label=<<table title="org.universAAL.ontology.dependability.PhysicalFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PhysicalFault.html">
+	c7866285 [label=<<table title="org.universAAL.ontology.dependability.PhysicalFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PhysicalFault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PhysicalFault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PhysicalFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.dependability.StructuralFault
-	c7804539 [label=<<table title="org.universAAL.ontology.dependability.StructuralFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./StructuralFault.html">
+	c7866297 [label=<<table title="org.universAAL.ontology.dependability.StructuralFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./StructuralFault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> StructuralFault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./StructuralFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.dependability.StructuralFault extends org.universAAL.ontology.dependability.PhysicalFault
-	c7804527:p -> c7804539:p [dir=back,arrowtail=empty];
+	c7866285:p -> c7866297:p [dir=back,arrowtail=empty];
 }
 

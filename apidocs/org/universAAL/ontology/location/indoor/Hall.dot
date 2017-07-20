@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.location.indoor.Hall
-	c4234300 [label=<<table title="org.universAAL.ontology.location.indoor.Hall" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Hall.html">
+	c4272102 [label=<<table title="org.universAAL.ontology.location.indoor.Hall" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Hall.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Hall </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Hall.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.location.indoor.HomeArea
-	c4234305 [label=<<table title="org.universAAL.ontology.location.indoor.HomeArea" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HomeArea.html">
+	c4272107 [label=<<table title="org.universAAL.ontology.location.indoor.HomeArea" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HomeArea.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HomeArea </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HomeArea.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.location.indoor.Hall extends org.universAAL.ontology.location.indoor.HomeArea
-	c4234305:p -> c4234300:p [dir=back,arrowtail=empty];
+	c4272107:p -> c4272102:p [dir=back,arrowtail=empty];
 }
 

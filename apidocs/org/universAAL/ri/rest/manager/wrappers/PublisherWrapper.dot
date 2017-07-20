@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.context.ContextPublisher
-	c6599618 [label=<<table title="org.universAAL.middleware.context.ContextPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../middleware/context/ContextPublisher.html">
+	c6657186 [label=<<table title="org.universAAL.middleware.context.ContextPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../middleware/context/ContextPublisher.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ContextPublisher </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../../middleware/context/ContextPublisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.rest.manager.wrappers.PublisherWrapper
-	c6601376 [label=<<table title="org.universAAL.ri.rest.manager.wrappers.PublisherWrapper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PublisherWrapper.html">
+	c6658954 [label=<<table title="org.universAAL.ri.rest.manager.wrappers.PublisherWrapper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PublisherWrapper.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PublisherWrapper </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PublisherWrapper.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ri.rest.manager.wrappers.PublisherWrapper extends org.universAAL.middleware.context.ContextPublisher
-	c6599618:p -> c6601376:p [dir=back,arrowtail=empty];
+	c6657186:p -> c6658954:p [dir=back,arrowtail=empty];
 }
 

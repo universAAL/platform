@@ -10,28 +10,28 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.managers.api.Manager
-	c3581646 [label=<<table title="org.universAAL.middleware.managers.api.Manager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../api/Manager.html">
+	c3611410 [label=<<table title="org.universAAL.middleware.managers.api.Manager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../api/Manager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Manager </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../api/Manager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.distributedmw.api.DistributedBusMemberManager
-	c3582582 [label=<<table title="org.universAAL.middleware.managers.distributedmw.api.DistributedBusMemberManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DistributedBusMemberManager.html">
+	c3612346 [label=<<table title="org.universAAL.middleware.managers.distributedmw.api.DistributedBusMemberManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DistributedBusMemberManager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> DistributedBusMemberManager </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DistributedBusMemberManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.distributedmw.impl.DistributedMWManagerImpl
-	c3582587 [label=<<table title="org.universAAL.middleware.managers.distributedmw.impl.DistributedMWManagerImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../impl/DistributedMWManagerImpl.html">
+	c3612351 [label=<<table title="org.universAAL.middleware.managers.distributedmw.impl.DistributedMWManagerImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../impl/DistributedMWManagerImpl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DistributedMWManagerImpl </td></tr>
 		</table></td></tr>
 		</table>>, URL="../impl/DistributedMWManagerImpl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.managers.distributedmw.api.DistributedBusMemberManager implements org.universAAL.middleware.managers.api.Manager
-	c3581646:p -> c3582582:p [dir=back,arrowtail=empty,style=dashed];
+	c3611410:p -> c3612346:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.managers.distributedmw.impl.DistributedMWManagerImpl implements org.universAAL.middleware.managers.distributedmw.api.DistributedBusMemberManager
-	c3582582:p -> c3582587:p [dir=back,arrowtail=empty,style=dashed];
+	c3612346:p -> c3612351:p [dir=back,arrowtail=empty,style=dashed];
 }
 

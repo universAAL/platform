@@ -10,34 +10,34 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.handler.gui.swing.model.FormControl.GroupTabbedPanelModel
-	c4192908 [label=<<table title="org.universAAL.ui.handler.gui.swing.model.FormControl.GroupTabbedPanelModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GroupTabbedPanelModel.html">
+	c4230570 [label=<<table title="org.universAAL.ui.handler.gui.swing.model.FormControl.GroupTabbedPanelModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GroupTabbedPanelModel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> GroupTabbedPanelModel </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./GroupTabbedPanelModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.handler.gui.swing.model.FormControl.GroupModel
-	c4192916 [label=<<table title="org.universAAL.ui.handler.gui.swing.model.FormControl.GroupModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GroupModel.html">
+	c4230578 [label=<<table title="org.universAAL.ui.handler.gui.swing.model.FormControl.GroupModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GroupModel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> GroupModel </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./GroupModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.handler.gui.swing.defaultLookAndFeel.GroupTabbedPanelLAF
-	c4192946 [label=<<table title="org.universAAL.ui.handler.gui.swing.defaultLookAndFeel.GroupTabbedPanelLAF" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../defaultLookAndFeel/GroupTabbedPanelLAF.html">
+	c4230608 [label=<<table title="org.universAAL.ui.handler.gui.swing.defaultLookAndFeel.GroupTabbedPanelLAF" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../defaultLookAndFeel/GroupTabbedPanelLAF.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> GroupTabbedPanelLAF </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../defaultLookAndFeel/GroupTabbedPanelLAF.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.gui.swing.bluesteelLAF.GroupTabbedPanelLAF
-	c4192975 [label=<<table title="org.universAAL.ui.gui.swing.bluesteelLAF.GroupTabbedPanelLAF" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../../gui/swing/bluesteelLAF/GroupTabbedPanelLAF.html">
+	c4230637 [label=<<table title="org.universAAL.ui.gui.swing.bluesteelLAF.GroupTabbedPanelLAF" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../../gui/swing/bluesteelLAF/GroupTabbedPanelLAF.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> GroupTabbedPanelLAF </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../../../gui/swing/bluesteelLAF/GroupTabbedPanelLAF.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.handler.gui.swing.model.FormControl.GroupTabbedPanelModel extends org.universAAL.ui.handler.gui.swing.model.FormControl.GroupModel
-	c4192916:p -> c4192908:p [dir=back,arrowtail=empty];
+	c4230578:p -> c4230570:p [dir=back,arrowtail=empty];
 	//org.universAAL.ui.handler.gui.swing.defaultLookAndFeel.GroupTabbedPanelLAF extends org.universAAL.ui.handler.gui.swing.model.FormControl.GroupTabbedPanelModel
-	c4192908:p -> c4192946:p [dir=back,arrowtail=empty];
+	c4230570:p -> c4230608:p [dir=back,arrowtail=empty];
 	//org.universAAL.ui.gui.swing.bluesteelLAF.GroupTabbedPanelLAF extends org.universAAL.ui.handler.gui.swing.model.FormControl.GroupTabbedPanelModel
-	c4192908:p -> c4192975:p [dir=back,arrowtail=empty];
+	c4230570:p -> c4230637:p [dir=back,arrowtail=empty];
 }
 

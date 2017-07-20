@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.recommendations.CSSRecommendation
-	c2513227 [label=<<table title="org.universAAL.ontology.recommendations.CSSRecommendation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CSSRecommendation.html">
+	c2536387 [label=<<table title="org.universAAL.ontology.recommendations.CSSRecommendation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CSSRecommendation.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CSSRecommendation </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CSSRecommendation.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.recommendations.ScriptedRecommendation
-	c2513233 [label=<<table title="org.universAAL.ontology.recommendations.ScriptedRecommendation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ScriptedRecommendation.html">
+	c2536393 [label=<<table title="org.universAAL.ontology.recommendations.ScriptedRecommendation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ScriptedRecommendation.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ScriptedRecommendation </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./ScriptedRecommendation.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.recommendations.CSSRecommendation extends org.universAAL.ontology.recommendations.ScriptedRecommendation
-	c2513233:p -> c2513227:p [dir=back,arrowtail=empty];
+	c2536393:p -> c2536387:p [dir=back,arrowtail=empty];
 }
 

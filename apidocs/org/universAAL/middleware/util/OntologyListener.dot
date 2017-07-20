@@ -10,27 +10,27 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.util.OntologyListener
-	c6036092 [label=<<table title="org.universAAL.middleware.util.OntologyListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./OntologyListener.html">
+	c6083048 [label=<<table title="org.universAAL.middleware.util.OntologyListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./OntologyListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> OntologyListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OntologyListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.context.che.Hub
-	c6037231 [label=<<table title="org.universAAL.context.che.Hub" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../context/che/Hub.html">
+	c6084197 [label=<<table title="org.universAAL.context.che.Hub" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../context/che/Hub.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Hub </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../context/che/Hub.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.logmonitor.ontology.LogMonitor
-	c6038517 [label=<<table title="org.universAAL.tools.logmonitor.ontology.LogMonitor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../tools/logmonitor/ontology/LogMonitor.html">
+	c6085483 [label=<<table title="org.universAAL.tools.logmonitor.ontology.LogMonitor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../tools/logmonitor/ontology/LogMonitor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LogMonitor </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../tools/logmonitor/ontology/LogMonitor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.context.che.Hub implements org.universAAL.middleware.util.OntologyListener
-	c6036092:p -> c6037231:p [dir=back,arrowtail=empty,style=dashed];
+	c6083048:p -> c6084197:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.tools.logmonitor.ontology.LogMonitor implements org.universAAL.middleware.util.OntologyListener
-	c6036092:p -> c6038517:p [dir=back,arrowtail=empty,style=dashed];
+	c6083048:p -> c6085483:p [dir=back,arrowtail=empty,style=dashed];
 }
 

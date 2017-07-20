@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.rdf.ObjectCollection
-	c6059005 [label=<<table title="org.universAAL.middleware.rdf.ObjectCollection" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ObjectCollection.html">
+	c6106041 [label=<<table title="org.universAAL.middleware.rdf.ObjectCollection" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ObjectCollection.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ObjectCollection </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./ObjectCollection.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.rdf.OpenCollection
-	c6059015 [label=<<table title="org.universAAL.middleware.rdf.OpenCollection" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./OpenCollection.html">
+	c6106051 [label=<<table title="org.universAAL.middleware.rdf.OpenCollection" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./OpenCollection.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OpenCollection </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OpenCollection.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.rdf.OpenCollection extends org.universAAL.middleware.rdf.ObjectCollection
-	c6059005:p -> c6059015:p [dir=back,arrowtail=empty];
+	c6106041:p -> c6106051:p [dir=back,arrowtail=empty];
 }
 

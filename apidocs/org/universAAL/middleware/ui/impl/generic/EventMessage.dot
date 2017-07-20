@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.ui.impl.generic.CallMessage<Strategy extends org.universAAL.middleware.ui.impl.generic.CallBasedStrategy>
-	c3797400 [label=<<table title="org.universAAL.middleware.ui.impl.generic.CallMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CallMessage.html">
+	c3833682 [label=<<table title="org.universAAL.middleware.ui.impl.generic.CallMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CallMessage.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> CallMessage&lt;Strategy extends CallBasedStrategy&gt; </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./CallMessage.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.impl.generic.EventMessage<Strategy extends org.universAAL.middleware.ui.impl.generic.EventBasedStrategy>
-	c3797404 [label=<<table title="org.universAAL.middleware.ui.impl.generic.EventMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./EventMessage.html">
+	c3833686 [label=<<table title="org.universAAL.middleware.ui.impl.generic.EventMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./EventMessage.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> EventMessage&lt;Strategy extends EventBasedStrategy&gt; </td></tr>
 		</table></td></tr>
 		</table>>, URL="./EventMessage.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.ui.impl.generic.CallMessage<Strategy extends org.universAAL.middleware.ui.impl.generic.CallBasedStrategy> implements org.universAAL.middleware.ui.impl.generic.EventMessage<Strategy extends org.universAAL.middleware.ui.impl.generic.EventBasedStrategy>
-	c3797404:p -> c3797400:p [dir=back,arrowtail=empty,style=dashed];
+	c3833686:p -> c3833682:p [dir=back,arrowtail=empty,style=dashed];
 }
 

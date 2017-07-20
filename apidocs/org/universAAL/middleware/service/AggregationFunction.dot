@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.rdf.FinalizedResource
-	c2037992 [label=<<table title="org.universAAL.middleware.rdf.FinalizedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../rdf/FinalizedResource.html">
+	c2056618 [label=<<table title="org.universAAL.middleware.rdf.FinalizedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../rdf/FinalizedResource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> FinalizedResource </td></tr>
 		</table></td></tr>
 		</table>>, URL="../rdf/FinalizedResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.service.AggregationFunction
-	c2038307 [label=<<table title="org.universAAL.middleware.service.AggregationFunction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AggregationFunction.html">
+	c2056933 [label=<<table title="org.universAAL.middleware.service.AggregationFunction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AggregationFunction.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AggregationFunction </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AggregationFunction.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.service.AggregationFunction extends org.universAAL.middleware.rdf.FinalizedResource
-	c2037992:p -> c2038307:p [dir=back,arrowtail=empty];
+	c2056618:p -> c2056933:p [dir=back,arrowtail=empty];
 }
 

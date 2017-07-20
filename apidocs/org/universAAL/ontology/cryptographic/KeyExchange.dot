@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.cryptographic.CryptographicTechnique
-	c4901713 [label=<<table title="org.universAAL.ontology.cryptographic.CryptographicTechnique" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CryptographicTechnique.html">
+	c4941835 [label=<<table title="org.universAAL.ontology.cryptographic.CryptographicTechnique" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CryptographicTechnique.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> CryptographicTechnique </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./CryptographicTechnique.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.cryptographic.KeyExchange
-	c4901723 [label=<<table title="org.universAAL.ontology.cryptographic.KeyExchange" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./KeyExchange.html">
+	c4941845 [label=<<table title="org.universAAL.ontology.cryptographic.KeyExchange" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./KeyExchange.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> KeyExchange </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./KeyExchange.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.cryptographic.KeyExchange extends org.universAAL.ontology.cryptographic.CryptographicTechnique
-	c4901713:p -> c4901723:p [dir=back,arrowtail=empty];
+	c4941835:p -> c4941845:p [dir=back,arrowtail=empty];
 }
 

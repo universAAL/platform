@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.rdf.ResourceFactory
-	c6306188 [label=<<table title="org.universAAL.middleware.rdf.ResourceFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../middleware/rdf/ResourceFactory.html">
+	c6362736 [label=<<table title="org.universAAL.middleware.rdf.ResourceFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../middleware/rdf/ResourceFactory.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ResourceFactory </td></tr>
 		</table></td></tr>
 		</table>>, URL="../middleware/rdf/ResourceFactory.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.PersonalHealthDeviceFactory
-	c6306643 [label=<<table title="org.universAAL.ontology.PersonalHealthDeviceFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PersonalHealthDeviceFactory.html">
+	c6363191 [label=<<table title="org.universAAL.ontology.PersonalHealthDeviceFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PersonalHealthDeviceFactory.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PersonalHealthDeviceFactory </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PersonalHealthDeviceFactory.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.PersonalHealthDeviceFactory implements org.universAAL.middleware.rdf.ResourceFactory
-	c6306188:p -> c6306643:p [dir=back,arrowtail=empty,style=dashed];
+	c6362736:p -> c6363191:p [dir=back,arrowtail=empty,style=dashed];
 }
 

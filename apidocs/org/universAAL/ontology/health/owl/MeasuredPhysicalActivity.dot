@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.health.owl.MeasuredPhysicalActivity
-	c5499489 [label=<<table title="org.universAAL.ontology.health.owl.MeasuredPhysicalActivity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MeasuredPhysicalActivity.html">
+	c5541691 [label=<<table title="org.universAAL.ontology.health.owl.MeasuredPhysicalActivity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MeasuredPhysicalActivity.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MeasuredPhysicalActivity </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MeasuredPhysicalActivity.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.health.owl.TakeMeasurementActivity
-	c5499501 [label=<<table title="org.universAAL.ontology.health.owl.TakeMeasurementActivity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TakeMeasurementActivity.html">
+	c5541703 [label=<<table title="org.universAAL.ontology.health.owl.TakeMeasurementActivity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TakeMeasurementActivity.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> TakeMeasurementActivity </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./TakeMeasurementActivity.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.health.owl.MeasuredPhysicalActivity extends org.universAAL.ontology.health.owl.TakeMeasurementActivity
-	c5499501:p -> c5499489:p [dir=back,arrowtail=empty];
+	c5541703:p -> c5541691:p [dir=back,arrowtail=empty];
 }
 

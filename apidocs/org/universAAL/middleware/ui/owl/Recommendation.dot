@@ -10,34 +10,34 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c6740197 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../owl/ManagedIndividual.html">
+	c6798255 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.owl.Recommendation
-	c6740565 [label=<<table title="org.universAAL.middleware.ui.owl.Recommendation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Recommendation.html">
+	c6798623 [label=<<table title="org.universAAL.middleware.ui.owl.Recommendation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Recommendation.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Recommendation </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Recommendation.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.recommendations.VisualRecommendation
-	c6741167 [label=<<table title="org.universAAL.ontology.recommendations.VisualRecommendation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/recommendations/VisualRecommendation.html">
+	c6799225 [label=<<table title="org.universAAL.ontology.recommendations.VisualRecommendation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/recommendations/VisualRecommendation.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> VisualRecommendation </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../ontology/recommendations/VisualRecommendation.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.recommendations.ScriptedRecommendation
-	c6741178 [label=<<table title="org.universAAL.ontology.recommendations.ScriptedRecommendation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/recommendations/ScriptedRecommendation.html">
+	c6799236 [label=<<table title="org.universAAL.ontology.recommendations.ScriptedRecommendation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/recommendations/ScriptedRecommendation.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ScriptedRecommendation </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../ontology/recommendations/ScriptedRecommendation.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.ui.owl.Recommendation extends org.universAAL.middleware.owl.ManagedIndividual
-	c6740197:p -> c6740565:p [dir=back,arrowtail=empty];
+	c6798255:p -> c6798623:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.recommendations.VisualRecommendation extends org.universAAL.middleware.ui.owl.Recommendation
-	c6740565:p -> c6741167:p [dir=back,arrowtail=empty];
+	c6798623:p -> c6799225:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.recommendations.ScriptedRecommendation extends org.universAAL.middleware.ui.owl.Recommendation
-	c6740565:p -> c6741178:p [dir=back,arrowtail=empty];
+	c6798623:p -> c6799236:p [dir=back,arrowtail=empty];
 }
 

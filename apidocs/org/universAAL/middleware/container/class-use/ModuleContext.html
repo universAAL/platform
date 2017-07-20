@@ -259,6 +259,14 @@
 <td class="colLast">&nbsp;</td>
 </tr>
 <tr class="rowColor">
+<td class="colFirst"><a href="#org.universAAL.middleware.container.pojo">org.universAAL.middleware.container.pojo</a></td>
+<td class="colLast">&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><a href="#org.universAAL.middleware.container.pojo.layers">org.universAAL.middleware.container.pojo.layers</a></td>
+<td class="colLast">&nbsp;</td>
+</tr>
+<tr class="rowColor">
 <td class="colFirst"><a href="#org.universAAL.middleware.container.utils">org.universAAL.middleware.container.utils</a></td>
 <td class="colLast">&nbsp;</td>
 </tr>
@@ -2449,6 +2457,204 @@
 <tr class="altColor">
 <td class="colFirst"><code>static <a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a></code></td>
 <td class="colLast"><span class="typeNameLabel">Activator.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/container/osgi/run/Activator.html#mc">mc</a></span></code>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList"><a name="org.universAAL.middleware.container.pojo">
+<!--   -->
+</a>
+<h3>Uses of <a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a> in <a href="../../../../../org/universAAL/middleware/container/pojo/package-summary.html">org.universAAL.middleware.container.pojo</a></h3>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing classes, and an explanation">
+<caption><span>Classes in <a href="../../../../../org/universAAL/middleware/container/pojo/package-summary.html">org.universAAL.middleware.container.pojo</a> that implement <a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Class and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><code>class&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/container/pojo/POJOModuleContext.html" title="class in org.universAAL.middleware.container.pojo">POJOModuleContext</a></span></code>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing methods, and an explanation">
+<caption><span>Methods in <a href="../../../../../org/universAAL/middleware/container/pojo/package-summary.html">org.universAAL.middleware.container.pojo</a> that return <a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a></code></td>
+<td class="colLast"><span class="typeNameLabel">POJOContainer.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/container/pojo/POJOContainer.html#installModule-org.universAAL.middleware.container.ModuleContext-java.lang.Object:A-">installModule</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;requester,
+             <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>[]&nbsp;installParams)</code>
+<div class="block">Provides possibility for programmatically installing (downloaded)
+ modules.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a></code></td>
+<td class="colLast"><span class="typeNameLabel">POJOContainer.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/container/pojo/POJOContainer.html#registerModule-java.lang.Object:A-">registerModule</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>[]&nbsp;regParams)</code>
+<div class="block">Provides possibility for wrapping container-specific context for a module
+ in terms of an instance of the universAAL <a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container"><code>ModuleContext</code></a>.</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing methods, and an explanation">
+<caption><span>Methods in <a href="../../../../../org/universAAL/middleware/container/pojo/package-summary.html">org.universAAL.middleware.container.pojo</a> with parameters of type <a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">POJOModuleContext.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/container/pojo/POJOModuleContext.html#canBeStarted-org.universAAL.middleware.container.ModuleContext-">canBeStarted</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;requester)</code>
+<div class="block">Returns true if (1) the associated module has a status equivalent to the
+ OSGi ACTIVE , (2) it fulfills all prerequisites for being started, and
+ (3) the given requester is allowed to start it.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">POJOModuleContext.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/container/pojo/POJOModuleContext.html#canBeStopped-org.universAAL.middleware.container.ModuleContext-">canBeStopped</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;requester)</code>
+<div class="block">Returns true if (1) the associated module would respond to a
+ <code>stop</code> request (cf.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">POJOModuleContext.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/container/pojo/POJOModuleContext.html#canBeUninstalled-org.universAAL.middleware.container.ModuleContext-">canBeUninstalled</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;requester)</code>
+<div class="block">Returns true if (1) the associated module is in a state equivalent to the
+ OSGi Bundle States <code>INSTALLED</code> or <code>RESOLVED</code>, and
+ (2) the given requester is allowed to uninstall it.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></code></td>
+<td class="colLast"><span class="typeNameLabel">POJOContainer.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/container/pojo/POJOContainer.html#fetchSharedObject-org.universAAL.middleware.container.ModuleContext-java.lang.Object:A-">fetchSharedObject</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;requester,
+                 <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>[]&nbsp;fetchParams)</code>
+<div class="block">Returns an object previously shared by another module for usage within
+ this container.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>[]</code></td>
+<td class="colLast"><span class="typeNameLabel">POJOContainer.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/container/pojo/POJOContainer.html#fetchSharedObject-org.universAAL.middleware.container.ModuleContext-java.lang.Object:A-org.universAAL.middleware.container.SharedObjectListener-">fetchSharedObject</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;requester,
+                 <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>[]&nbsp;fetchParams,
+                 <a href="../../../../../org/universAAL/middleware/container/SharedObjectListener.html" title="interface in org.universAAL.middleware.container">SharedObjectListener</a>&nbsp;listener)</code>
+<div class="block">Returns an object previously shared by another module for usage within
+ this container.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a></code></td>
+<td class="colLast"><span class="typeNameLabel">POJOContainer.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/container/pojo/POJOContainer.html#installModule-org.universAAL.middleware.container.ModuleContext-java.lang.Object:A-">installModule</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;requester,
+             <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>[]&nbsp;installParams)</code>
+<div class="block">Provides possibility for programmatically installing (downloaded)
+ modules.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="http://docs.oracle.com/javase/8/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>[]</code></td>
+<td class="colLast"><span class="typeNameLabel">POJOModuleContext.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/container/pojo/POJOModuleContext.html#listConfigFiles-org.universAAL.middleware.container.ModuleContext-">listConfigFiles</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;requester)</code>
+<div class="block">Returns the list of all config files associated with this module that
+ follow the container conventions and have been registered previously, if
+ the given requester is allowed to access them.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><span class="typeNameLabel">POJOContainer.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/container/pojo/POJOContainer.html#removeSharedObject-org.universAAL.middleware.container.ModuleContext-java.lang.Object-java.lang.Object:A-">removeSharedObject</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;requester,
+                  <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;objToRemove,
+                  <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>[]&nbsp;shareParams)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><span class="typeNameLabel">POJOContainer.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/container/pojo/POJOContainer.html#shareObject-org.universAAL.middleware.container.ModuleContext-java.lang.Object-java.lang.Object:A-">shareObject</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;requester,
+           <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;objToShare,
+           <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>[]&nbsp;shareParams)</code>
+<div class="block">Makes a given object accessible for the other modules hosted by this
+ container.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">POJOModuleContext.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/container/pojo/POJOModuleContext.html#start-org.universAAL.middleware.container.ModuleContext-">start</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;requester)</code>
+<div class="block">An authorized requester can use this method to start the current module.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">POJOModuleContext.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/container/pojo/POJOModuleContext.html#stop-org.universAAL.middleware.container.ModuleContext-">stop</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;requester)</code>
+<div class="block">An authorized requester can use this method to stop the current module.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">POJOModuleContext.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/container/pojo/POJOModuleContext.html#uninstall-org.universAAL.middleware.container.ModuleContext-">uninstall</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;requester)</code>
+<div class="block">An authorized requester can use this method to uninstall the current
+ module.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList"><a name="org.universAAL.middleware.container.pojo.layers">
+<!--   -->
+</a>
+<h3>Uses of <a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a> in <a href="../../../../../org/universAAL/middleware/container/pojo/layers/package-summary.html">org.universAAL.middleware.container.pojo.layers</a></h3>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing methods, and an explanation">
+<caption><span>Methods in <a href="../../../../../org/universAAL/middleware/container/pojo/layers/package-summary.html">org.universAAL.middleware.container.pojo.layers</a> with parameters of type <a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><span class="typeNameLabel">BusesLayer.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/container/pojo/layers/BusesLayer.html#start-org.universAAL.middleware.container.ModuleContext-">start</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;mc)</code></td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><span class="typeNameLabel">TurtleSerialization.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/container/pojo/layers/TurtleSerialization.html#start-org.universAAL.middleware.container.ModuleContext-">start</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;mc)</code></td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><span class="typeNameLabel">DataRepresentation.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/container/pojo/layers/DataRepresentation.html#start-org.universAAL.middleware.container.ModuleContext-">start</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;mc)</code></td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><span class="typeNameLabel">OntAutoLoader.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/container/pojo/layers/OntAutoLoader.html#start-org.universAAL.middleware.container.ModuleContext-">start</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;mc)</code>
+<div class="block">Attempts to load all ontology modules, if fail it will attempt later,
+ after, if fortunately, dependant ontologies are loaded.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><span class="typeNameLabel">AbstractBusLayer.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/container/pojo/layers/AbstractBusLayer.html#start-org.universAAL.middleware.container.ModuleContext-">start</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;mc)</code></td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><span class="typeNameLabel">BusesLayer.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/container/pojo/layers/BusesLayer.html#stop-org.universAAL.middleware.container.ModuleContext-">stop</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;mc)</code></td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><span class="typeNameLabel">TurtleSerialization.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/container/pojo/layers/TurtleSerialization.html#stop-org.universAAL.middleware.container.ModuleContext-">stop</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;mc)</code></td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><span class="typeNameLabel">DataRepresentation.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/container/pojo/layers/DataRepresentation.html#stop-org.universAAL.middleware.container.ModuleContext-">stop</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;mc)</code></td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><span class="typeNameLabel">OntAutoLoader.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/container/pojo/layers/OntAutoLoader.html#stop-org.universAAL.middleware.container.ModuleContext-">stop</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;mc)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><span class="typeNameLabel">AbstractBusLayer.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/container/pojo/layers/AbstractBusLayer.html#stop-org.universAAL.middleware.container.ModuleContext-">stop</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;mc)</code></td>
 </tr>
 </tbody>
 </table>

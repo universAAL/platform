@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.bus.model.BusStrategy
-	c7387130 [label=<<table title="org.universAAL.middleware.bus.model.BusStrategy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../bus/model/BusStrategy.html">
+	c7447438 [label=<<table title="org.universAAL.middleware.bus.model.BusStrategy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../bus/model/BusStrategy.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> BusStrategy </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../bus/model/BusStrategy.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.service.impl.ServiceStrategy
-	c7387238 [label=<<table title="org.universAAL.middleware.service.impl.ServiceStrategy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ServiceStrategy.html">
+	c7447546 [label=<<table title="org.universAAL.middleware.service.impl.ServiceStrategy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ServiceStrategy.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ServiceStrategy </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ServiceStrategy.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.service.impl.ServiceStrategy extends org.universAAL.middleware.bus.model.BusStrategy
-	c7387130:p -> c7387238:p [dir=back,arrowtail=empty];
+	c7447438:p -> c7447546:p [dir=back,arrowtail=empty];
 }
 

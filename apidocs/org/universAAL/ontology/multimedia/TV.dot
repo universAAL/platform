@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.phThing.Device
-	c7924864 [label=<<table title="org.universAAL.ontology.phThing.Device" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../phThing/Device.html">
+	c7987042 [label=<<table title="org.universAAL.ontology.phThing.Device" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../phThing/Device.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Device </td></tr>
 		</table></td></tr>
 		</table>>, URL="../phThing/Device.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.multimedia.TV
-	c7925179 [label=<<table title="org.universAAL.ontology.multimedia.TV" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TV.html">
+	c7987357 [label=<<table title="org.universAAL.ontology.multimedia.TV" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TV.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TV </td></tr>
 		</table></td></tr>
 		</table>>, URL="./TV.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.multimedia.TV extends org.universAAL.ontology.phThing.Device
-	c7924864:p -> c7925179:p [dir=back,arrowtail=empty];
+	c7987042:p -> c7987357:p [dir=back,arrowtail=empty];
 }
 

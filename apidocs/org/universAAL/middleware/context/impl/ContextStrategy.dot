@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.bus.model.BusStrategy
-	c3087327 [label=<<table title="org.universAAL.middleware.bus.model.BusStrategy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../bus/model/BusStrategy.html">
+	c3112487 [label=<<table title="org.universAAL.middleware.bus.model.BusStrategy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../bus/model/BusStrategy.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> BusStrategy </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../bus/model/BusStrategy.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.context.impl.ContextStrategy
-	c3087382 [label=<<table title="org.universAAL.middleware.context.impl.ContextStrategy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ContextStrategy.html">
+	c3112542 [label=<<table title="org.universAAL.middleware.context.impl.ContextStrategy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ContextStrategy.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ContextStrategy </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ContextStrategy.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.context.impl.ContextStrategy extends org.universAAL.middleware.bus.model.BusStrategy
-	c3087327:p -> c3087382:p [dir=back,arrowtail=empty];
+	c3112487:p -> c3112542:p [dir=back,arrowtail=empty];
 }
 

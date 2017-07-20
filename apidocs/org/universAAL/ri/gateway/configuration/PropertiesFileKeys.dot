@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ri.gateway.configuration.ConfigurationFile
-	c6509295 [label=<<table title="org.universAAL.ri.gateway.configuration.ConfigurationFile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigurationFile.html">
+	c6566553 [label=<<table title="org.universAAL.ri.gateway.configuration.ConfigurationFile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigurationFile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConfigurationFile </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConfigurationFile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.gateway.configuration.PropertiesFileKeys
-	c6509301 [label=<<table title="org.universAAL.ri.gateway.configuration.PropertiesFileKeys" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PropertiesFileKeys.html">
+	c6566559 [label=<<table title="org.universAAL.ri.gateway.configuration.PropertiesFileKeys" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PropertiesFileKeys.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> PropertiesFileKeys </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PropertiesFileKeys.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ri.gateway.configuration.ConfigurationFile implements org.universAAL.ri.gateway.configuration.PropertiesFileKeys
-	c6509301:p -> c6509295:p [dir=back,arrowtail=empty,style=dashed];
+	c6566559:p -> c6566553:p [dir=back,arrowtail=empty,style=dashed];
 }
 

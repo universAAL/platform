@@ -10,34 +10,34 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.phThing.Device
-	c4380972 [label=<<table title="org.universAAL.ontology.phThing.Device" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../phThing/Device.html">
+	c4419284 [label=<<table title="org.universAAL.ontology.phThing.Device" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../phThing/Device.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Device </td></tr>
 		</table></td></tr>
 		</table>>, URL="../phThing/Device.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.hvac.Ventilation
-	c4381251 [label=<<table title="org.universAAL.ontology.hvac.Ventilation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Ventilation.html">
+	c4419563 [label=<<table title="org.universAAL.ontology.hvac.Ventilation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Ventilation.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Ventilation </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Ventilation.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.hvac.Hvac
-	c4381252 [label=<<table title="org.universAAL.ontology.hvac.Hvac" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Hvac.html">
+	c4419564 [label=<<table title="org.universAAL.ontology.hvac.Hvac" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Hvac.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Hvac </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Hvac.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.hvac.Target_Temperature
-	c4381255 [label=<<table title="org.universAAL.ontology.hvac.Target_Temperature" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Target_Temperature.html">
+	c4419567 [label=<<table title="org.universAAL.ontology.hvac.Target_Temperature" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Target_Temperature.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Target_Temperature </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Target_Temperature.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.hvac.Ventilation extends org.universAAL.ontology.hvac.Hvac
-	c4381252:p -> c4381251:p [dir=back,arrowtail=empty];
+	c4419564:p -> c4419563:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.hvac.Hvac extends org.universAAL.ontology.phThing.Device
-	c4380972:p -> c4381252:p [dir=back,arrowtail=empty];
+	c4419284:p -> c4419564:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.hvac.Target_Temperature extends org.universAAL.ontology.hvac.Hvac
-	c4381252:p -> c4381255:p [dir=back,arrowtail=empty];
+	c4419564:p -> c4419567:p [dir=back,arrowtail=empty];
 }
 

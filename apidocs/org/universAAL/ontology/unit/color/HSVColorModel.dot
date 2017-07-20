@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.unit.color.ColorModel
-	c4211474 [label=<<table title="org.universAAL.ontology.unit.color.ColorModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ColorModel.html">
+	c4249196 [label=<<table title="org.universAAL.ontology.unit.color.ColorModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ColorModel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ColorModel </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./ColorModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.unit.color.HSVColorModel
-	c4211477 [label=<<table title="org.universAAL.ontology.unit.color.HSVColorModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HSVColorModel.html">
+	c4249199 [label=<<table title="org.universAAL.ontology.unit.color.HSVColorModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HSVColorModel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HSVColorModel </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HSVColorModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.unit.color.HSVColorModel extends org.universAAL.ontology.unit.color.ColorModel
-	c4211474:p -> c4211477:p [dir=back,arrowtail=empty];
+	c4249196:p -> c4249199:p [dir=back,arrowtail=empty];
 }
 

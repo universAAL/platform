@@ -10,27 +10,27 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.tracker.IBusMemberRegistryListener
-	c4447658 [label=<<table title="org.universAAL.middleware.tracker.IBusMemberRegistryListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IBusMemberRegistryListener.html">
+	c4486200 [label=<<table title="org.universAAL.middleware.tracker.IBusMemberRegistryListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IBusMemberRegistryListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IBusMemberRegistryListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IBusMemberRegistryListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.distributedmw.impl.BusMemberListenerHandler.LocalListener
-	c4447721 [label=<<table title="org.universAAL.middleware.managers.distributedmw.impl.BusMemberListenerHandler.LocalListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../managers/distributedmw/impl/BusMemberListenerHandler.LocalListener.html">
+	c4486263 [label=<<table title="org.universAAL.middleware.managers.distributedmw.impl.BusMemberListenerHandler.LocalListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../managers/distributedmw/impl/BusMemberListenerHandler.LocalListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LocalListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="../managers/distributedmw/impl/BusMemberListenerHandler.LocalListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.gateway.Exporter
-	c4448501 [label=<<table title="org.universAAL.ri.gateway.Exporter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ri/gateway/Exporter.html">
+	c4487053 [label=<<table title="org.universAAL.ri.gateway.Exporter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ri/gateway/Exporter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Exporter </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ri/gateway/Exporter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.managers.distributedmw.impl.BusMemberListenerHandler.LocalListener implements org.universAAL.middleware.tracker.IBusMemberRegistryListener
-	c4447658:p -> c4447721:p [dir=back,arrowtail=empty,style=dashed];
+	c4486200:p -> c4486263:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.ri.gateway.Exporter implements org.universAAL.middleware.tracker.IBusMemberRegistryListener
-	c4447658:p -> c4448501:p [dir=back,arrowtail=empty,style=dashed];
+	c4486200:p -> c4487053:p [dir=back,arrowtail=empty,style=dashed];
 }
 

@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.support.utils.ui.SubmitCmd
-	c7827317 [label=<<table title="org.universAAL.support.utils.ui.SubmitCmd" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SubmitCmd.html">
+	c7889155 [label=<<table title="org.universAAL.support.utils.ui.SubmitCmd" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SubmitCmd.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SubmitCmd </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SubmitCmd.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.utils.ui.TriggerCmd
-	c7827320 [label=<<table title="org.universAAL.support.utils.ui.TriggerCmd" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TriggerCmd.html">
+	c7889158 [label=<<table title="org.universAAL.support.utils.ui.TriggerCmd" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TriggerCmd.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TriggerCmd </td></tr>
 		</table></td></tr>
 		</table>>, URL="./TriggerCmd.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.utils.ui.Control
-	c7827326 [label=<<table title="org.universAAL.support.utils.ui.Control" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Control.html">
+	c7889164 [label=<<table title="org.universAAL.support.utils.ui.Control" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Control.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Control </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Control.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.support.utils.ui.SubmitCmd extends org.universAAL.support.utils.ui.Control
-	c7827326:p -> c7827317:p [dir=back,arrowtail=empty];
+	c7889164:p -> c7889155:p [dir=back,arrowtail=empty];
 	//org.universAAL.support.utils.ui.TriggerCmd extends org.universAAL.support.utils.ui.SubmitCmd
-	c7827317:p -> c7827320:p [dir=back,arrowtail=empty];
+	c7889155:p -> c7889158:p [dir=back,arrowtail=empty];
 }
 

@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ComparableIndividual
-	c1799472 [label=<<table title="org.universAAL.middleware.owl.ComparableIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ComparableIndividual.html">
+	c1814384 [label=<<table title="org.universAAL.middleware.owl.ComparableIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ComparableIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ComparableIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../ComparableIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.owl.supply.AbsLocation
-	c1799477 [label=<<table title="org.universAAL.middleware.owl.supply.AbsLocation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbsLocation.html">
+	c1814389 [label=<<table title="org.universAAL.middleware.owl.supply.AbsLocation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbsLocation.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbsLocation </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbsLocation.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.location.Location
-	c1799830 [label=<<table title="org.universAAL.ontology.location.Location" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/location/Location.html">
+	c1814742 [label=<<table title="org.universAAL.ontology.location.Location" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/location/Location.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Location </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../ontology/location/Location.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.owl.supply.AbsLocation extends org.universAAL.middleware.owl.ComparableIndividual
-	c1799472:p -> c1799477:p [dir=back,arrowtail=empty];
+	c1814384:p -> c1814389:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.location.Location extends org.universAAL.middleware.owl.supply.AbsLocation
-	c1799477:p -> c1799830:p [dir=back,arrowtail=empty];
+	c1814389:p -> c1814742:p [dir=back,arrowtail=empty];
 }
 

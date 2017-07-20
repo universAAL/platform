@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.LengthRestriction
-	c7795051 [label=<<table title="org.universAAL.middleware.owl.LengthRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LengthRestriction.html">
+	c7856779 [label=<<table title="org.universAAL.middleware.owl.LengthRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LengthRestriction.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> LengthRestriction </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./LengthRestriction.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.owl.StringRestriction
-	c7795064 [label=<<table title="org.universAAL.middleware.owl.StringRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./StringRestriction.html">
+	c7856792 [label=<<table title="org.universAAL.middleware.owl.StringRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./StringRestriction.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> StringRestriction </td></tr>
 		</table></td></tr>
 		</table>>, URL="./StringRestriction.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.owl.StringRestriction extends org.universAAL.middleware.owl.LengthRestriction
-	c7795051:p -> c7795064:p [dir=back,arrowtail=empty];
+	c7856779:p -> c7856792:p [dir=back,arrowtail=empty];
 }
 

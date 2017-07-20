@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.activityhub.ActivityHub
-	c1544335 [label=<<table title="org.universAAL.ontology.activityhub.ActivityHub" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/activityhub/ActivityHub.html">
+	c1558357 [label=<<table title="org.universAAL.ontology.activityhub.ActivityHub" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/activityhub/ActivityHub.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ActivityHub </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../ontology/activityhub/ActivityHub.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.exporter.activityhub.AHServiceOntology
-	c1545249 [label=<<table title="org.universAAL.lddi.exporter.activityhub.AHServiceOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AHServiceOntology.html">
+	c1559281 [label=<<table title="org.universAAL.lddi.exporter.activityhub.AHServiceOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AHServiceOntology.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AHServiceOntology </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AHServiceOntology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.lddi.exporter.activityhub.AHServiceOntology extends org.universAAL.ontology.activityhub.ActivityHub
-	c1544335:p -> c1545249:p [dir=back,arrowtail=empty];
+	c1558357:p -> c1559281:p [dir=back,arrowtail=empty];
 }
 

@@ -10,36 +10,36 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.HypertensiveDisease
-	c414911 [label=<<table title="org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.HypertensiveDisease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HypertensiveDisease.html">
+	c416351 [label=<<table title="org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.HypertensiveDisease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HypertensiveDisease.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HypertensiveDisease </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HypertensiveDisease.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.OtherCirculatorySystemDisease
-	c414912 [label=<<table title="org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.OtherCirculatorySystemDisease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OtherCirculatorySystemDisease.html">
+	c416352 [label=<<table title="org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.OtherCirculatorySystemDisease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OtherCirculatorySystemDisease.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OtherCirculatorySystemDisease </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OtherCirculatorySystemDisease.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.HeartFailure
-	c414913 [label=<<table title="org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.HeartFailure" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HeartFailure.html">
+	c416353 [label=<<table title="org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.HeartFailure" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HeartFailure.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HeartFailure </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HeartFailure.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.AcuteRheumaticFever
-	c414914 [label=<<table title="org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.AcuteRheumaticFever" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AcuteRheumaticFever.html">
+	c416354 [label=<<table title="org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.AcuteRheumaticFever" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AcuteRheumaticFever.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AcuteRheumaticFever </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AcuteRheumaticFever.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.IschemicHeartDisease
-	c414915 [label=<<table title="org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.IschemicHeartDisease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IschemicHeartDisease.html">
+	c416355 [label=<<table title="org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.IschemicHeartDisease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IschemicHeartDisease.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> IschemicHeartDisease </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IschemicHeartDisease.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.HeartFailure extends org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.OtherCirculatorySystemDisease
-	c414912:p -> c414913:p [dir=back,arrowtail=empty];
+	c416352:p -> c416353:p [dir=back,arrowtail=empty];
 }
 

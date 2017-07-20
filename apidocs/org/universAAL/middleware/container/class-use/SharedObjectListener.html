@@ -111,46 +111,50 @@
 <td class="colLast">&nbsp;</td>
 </tr>
 <tr class="rowColor">
+<td class="colFirst"><a href="#org.universAAL.middleware.container.pojo">org.universAAL.middleware.container.pojo</a></td>
+<td class="colLast">&nbsp;</td>
+</tr>
+<tr class="altColor">
 <td class="colFirst"><a href="#org.universAAL.middleware.managers.configuration.core.impl.secondaryManagers">org.universAAL.middleware.managers.configuration.core.impl.secondaryManagers</a></td>
 <td class="colLast">&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><a href="#org.universAAL.middleware.managers.deploy">org.universAAL.middleware.managers.deploy</a></td>
 <td class="colLast">&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><a href="#org.universAAL.middleware.managers.distributedmw.impl">org.universAAL.middleware.managers.distributedmw.impl</a></td>
 <td class="colLast">&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><a href="#org.universAAL.middleware.managers.space">org.universAAL.middleware.managers.space</a></td>
 <td class="colLast">&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><a href="#org.universAAL.middleware.modules.communication">org.universAAL.middleware.modules.communication</a></td>
 <td class="colLast">&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><a href="#org.universAAL.middleware.modules.space">org.universAAL.middleware.modules.space</a></td>
 <td class="colLast">&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><a href="#org.universAAL.middleware.ui.impl">org.universAAL.middleware.ui.impl</a></td>
 <td class="colLast">&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><a href="#org.universAAL.middleware.ui.impl.generic">org.universAAL.middleware.ui.impl.generic</a></td>
 <td class="colLast">&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><a href="#org.universAAL.security.authenticator.profile">org.universAAL.security.authenticator.profile</a></td>
 <td class="colLast">&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><a href="#org.universAAL.security.session.manager.helpers">org.universAAL.security.session.manager.helpers</a></td>
 <td class="colLast">&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><a href="#org.universAAL.utilities.ioc.dependencies.impl">org.universAAL.utilities.ioc.dependencies.impl</a></td>
 <td class="colLast">&nbsp;</td>
 </tr>
@@ -317,6 +321,36 @@
 <tr class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><span class="typeNameLabel">OSGiContainer.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/container/osgi/OSGiContainer.html#removeSharedObjectListener-org.universAAL.middleware.container.SharedObjectListener-">removeSharedObjectListener</a></span>(<a href="../../../../../org/universAAL/middleware/container/SharedObjectListener.html" title="interface in org.universAAL.middleware.container">SharedObjectListener</a>&nbsp;listener)</code>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList"><a name="org.universAAL.middleware.container.pojo">
+<!--   -->
+</a>
+<h3>Uses of <a href="../../../../../org/universAAL/middleware/container/SharedObjectListener.html" title="interface in org.universAAL.middleware.container">SharedObjectListener</a> in <a href="../../../../../org/universAAL/middleware/container/pojo/package-summary.html">org.universAAL.middleware.container.pojo</a></h3>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing methods, and an explanation">
+<caption><span>Methods in <a href="../../../../../org/universAAL/middleware/container/pojo/package-summary.html">org.universAAL.middleware.container.pojo</a> with parameters of type <a href="../../../../../org/universAAL/middleware/container/SharedObjectListener.html" title="interface in org.universAAL.middleware.container">SharedObjectListener</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><code><a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>[]</code></td>
+<td class="colLast"><span class="typeNameLabel">POJOContainer.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/container/pojo/POJOContainer.html#fetchSharedObject-org.universAAL.middleware.container.ModuleContext-java.lang.Object:A-org.universAAL.middleware.container.SharedObjectListener-">fetchSharedObject</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;requester,
+                 <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>[]&nbsp;fetchParams,
+                 <a href="../../../../../org/universAAL/middleware/container/SharedObjectListener.html" title="interface in org.universAAL.middleware.container">SharedObjectListener</a>&nbsp;listener)</code>
+<div class="block">Returns an object previously shared by another module for usage within
+ this container.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><span class="typeNameLabel">POJOContainer.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/middleware/container/pojo/POJOContainer.html#removeSharedObjectListener-org.universAAL.middleware.container.SharedObjectListener-">removeSharedObjectListener</a></span>(<a href="../../../../../org/universAAL/middleware/container/SharedObjectListener.html" title="interface in org.universAAL.middleware.container">SharedObjectListener</a>&nbsp;listener)</code>
+<div class="block">This method allows a SharedObjectListener instance to be removed from the
+ list of listeners managed by this container</div>
+</td>
 </tr>
 </tbody>
 </table>

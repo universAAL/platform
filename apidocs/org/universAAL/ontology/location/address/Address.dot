@@ -10,34 +10,34 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c2009272 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/owl/ManagedIndividual.html">
+	c2027798 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../middleware/owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.location.address.PhysicalAddress
-	c2009680 [label=<<table title="org.universAAL.ontology.location.address.PhysicalAddress" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PhysicalAddress.html">
+	c2028206 [label=<<table title="org.universAAL.ontology.location.address.PhysicalAddress" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PhysicalAddress.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PhysicalAddress </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PhysicalAddress.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.location.address.Address
-	c2009681 [label=<<table title="org.universAAL.ontology.location.address.Address" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Address.html">
+	c2028207 [label=<<table title="org.universAAL.ontology.location.address.Address" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Address.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Address </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Address.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.location.address.MailBox
-	c2009682 [label=<<table title="org.universAAL.ontology.location.address.MailBox" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MailBox.html">
+	c2028208 [label=<<table title="org.universAAL.ontology.location.address.MailBox" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MailBox.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MailBox </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MailBox.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.location.address.PhysicalAddress extends org.universAAL.ontology.location.address.Address
-	c2009681:p -> c2009680:p [dir=back,arrowtail=empty];
+	c2028207:p -> c2028206:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.location.address.Address extends org.universAAL.middleware.owl.ManagedIndividual
-	c2009272:p -> c2009681:p [dir=back,arrowtail=empty];
+	c2027798:p -> c2028207:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.location.address.MailBox extends org.universAAL.ontology.location.address.Address
-	c2009681:p -> c2009682:p [dir=back,arrowtail=empty];
+	c2028207:p -> c2028208:p [dir=back,arrowtail=empty];
 }
 

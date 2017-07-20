@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.ConfigItem
-	c7084878 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.ConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigItem.html">
+	c7144136 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.ConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigItem.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConfigItem </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConfigItem.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.SPARQLConfigItem
-	c7084885 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.SPARQLConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SPARQLConfigItem.html">
+	c7144143 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.SPARQLConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SPARQLConfigItem.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SPARQLConfigItem </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SPARQLConfigItem.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.ucc.configuration.model.configurationdefinition.SPARQLConfigItem extends org.universAAL.tools.ucc.configuration.model.configurationdefinition.ConfigItem
-	c7084878:p -> c7084885:p [dir=back,arrowtail=empty];
+	c7144136:p -> c7144143:p [dir=back,arrowtail=empty];
 }
 

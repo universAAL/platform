@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.handler.kinect.adapter.serviceBus.QueryService
-	c6647631 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.serviceBus.QueryService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./QueryService.html">
+	c6705369 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.serviceBus.QueryService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./QueryService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> QueryService </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./QueryService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.handler.kinect.adapter.serviceBus.AbstractService
-	c6647633 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.serviceBus.AbstractService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractService.html">
+	c6705371 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.serviceBus.AbstractService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractService </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.handler.kinect.adapter.serviceBus.QueryService extends org.universAAL.ui.handler.kinect.adapter.serviceBus.AbstractService
-	c6647633:p -> c6647631:p [dir=back,arrowtail=empty];
+	c6705371:p -> c6705369:p [dir=back,arrowtail=empty];
 }
 

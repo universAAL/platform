@@ -10,42 +10,42 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c5515790 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/owl/ManagedIndividual.html">
+	c5558052 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../middleware/owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.health.owl.MeasurementRequirements
-	c5516737 [label=<<table title="org.universAAL.ontology.health.owl.MeasurementRequirements" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MeasurementRequirements.html">
+	c5558999 [label=<<table title="org.universAAL.ontology.health.owl.MeasurementRequirements" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MeasurementRequirements.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MeasurementRequirements </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MeasurementRequirements.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.health.owl.WeightRequirement
-	c5516738 [label=<<table title="org.universAAL.ontology.health.owl.WeightRequirement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WeightRequirement.html">
+	c5559000 [label=<<table title="org.universAAL.ontology.health.owl.WeightRequirement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WeightRequirement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> WeightRequirement </td></tr>
 		</table></td></tr>
 		</table>>, URL="./WeightRequirement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.health.owl.HeartRateRequirement
-	c5516741 [label=<<table title="org.universAAL.ontology.health.owl.HeartRateRequirement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HeartRateRequirement.html">
+	c5559003 [label=<<table title="org.universAAL.ontology.health.owl.HeartRateRequirement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HeartRateRequirement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HeartRateRequirement </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HeartRateRequirement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.health.owl.BloodPressureRequirement
-	c5516752 [label=<<table title="org.universAAL.ontology.health.owl.BloodPressureRequirement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BloodPressureRequirement.html">
+	c5559014 [label=<<table title="org.universAAL.ontology.health.owl.BloodPressureRequirement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BloodPressureRequirement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BloodPressureRequirement </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BloodPressureRequirement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.health.owl.MeasurementRequirements extends org.universAAL.middleware.owl.ManagedIndividual
-	c5515790:p -> c5516737:p [dir=back,arrowtail=empty];
+	c5558052:p -> c5558999:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.health.owl.WeightRequirement extends org.universAAL.ontology.health.owl.MeasurementRequirements
-	c5516737:p -> c5516738:p [dir=back,arrowtail=empty];
+	c5558999:p -> c5559000:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.health.owl.HeartRateRequirement extends org.universAAL.ontology.health.owl.MeasurementRequirements
-	c5516737:p -> c5516741:p [dir=back,arrowtail=empty];
+	c5558999:p -> c5559003:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.health.owl.BloodPressureRequirement extends org.universAAL.ontology.health.owl.MeasurementRequirements
-	c5516737:p -> c5516752:p [dir=back,arrowtail=empty];
+	c5558999:p -> c5559014:p [dir=back,arrowtail=empty];
 }
 

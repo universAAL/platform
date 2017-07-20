@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.lddi.zigbee.commissioning.clusters.api.OccupacySensingBridge
-	c5968789 [label=<<table title="org.universAAL.lddi.zigbee.commissioning.clusters.api.OccupacySensingBridge" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../api/OccupacySensingBridge.html">
+	c6012631 [label=<<table title="org.universAAL.lddi.zigbee.commissioning.clusters.api.OccupacySensingBridge" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../api/OccupacySensingBridge.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> OccupacySensingBridge </td></tr>
 		</table></td></tr>
 		</table>>, URL="../api/OccupacySensingBridge.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.zigbee.commissioning.clusters.impl.OccupacySensingImpl
-	c5968793 [label=<<table title="org.universAAL.lddi.zigbee.commissioning.clusters.impl.OccupacySensingImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./OccupacySensingImpl.html">
+	c6012635 [label=<<table title="org.universAAL.lddi.zigbee.commissioning.clusters.impl.OccupacySensingImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./OccupacySensingImpl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OccupacySensingImpl </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OccupacySensingImpl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.lddi.zigbee.commissioning.clusters.impl.OccupacySensingImpl implements org.universAAL.lddi.zigbee.commissioning.clusters.api.OccupacySensingBridge
-	c5968789:p -> c5968793:p [dir=back,arrowtail=empty,style=dashed];
+	c6012631:p -> c6012635:p [dir=back,arrowtail=empty,style=dashed];
 }
 

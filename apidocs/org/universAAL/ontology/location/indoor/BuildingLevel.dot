@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.location.indoor.IndoorPlace
-	c2426414 [label=<<table title="org.universAAL.ontology.location.indoor.IndoorPlace" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IndoorPlace.html">
+	c2446390 [label=<<table title="org.universAAL.ontology.location.indoor.IndoorPlace" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IndoorPlace.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> IndoorPlace </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./IndoorPlace.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.location.indoor.BuildingLevel
-	c2426421 [label=<<table title="org.universAAL.ontology.location.indoor.BuildingLevel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BuildingLevel.html">
+	c2446397 [label=<<table title="org.universAAL.ontology.location.indoor.BuildingLevel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BuildingLevel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BuildingLevel </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BuildingLevel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.location.indoor.BuildingLevel extends org.universAAL.ontology.location.indoor.IndoorPlace
-	c2426414:p -> c2426421:p [dir=back,arrowtail=empty];
+	c2446390:p -> c2446397:p [dir=back,arrowtail=empty];
 }
 

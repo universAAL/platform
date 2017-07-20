@@ -10,51 +10,51 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.rdf.ScopedResource
-	c8220401 [label=<<table title="org.universAAL.middleware.rdf.ScopedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../rdf/ScopedResource.html">
+	c8286493 [label=<<table title="org.universAAL.middleware.rdf.ScopedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../rdf/ScopedResource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ScopedResource </td></tr>
 		</table></td></tr>
 		</table>>, URL="../rdf/ScopedResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.bus.model.matchable.Request
-	c8220659 [label=<<table title="org.universAAL.middleware.bus.model.matchable.Request" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../bus/model/matchable/Request.html">
+	c8286751 [label=<<table title="org.universAAL.middleware.bus.model.matchable.Request" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../bus/model/matchable/Request.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Request </td></tr>
 		</table></td></tr>
 		</table>>, URL="../bus/model/matchable/Request.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.UIRequest
-	c8220772 [label=<<table title="org.universAAL.middleware.ui.UIRequest" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UIRequest.html">
+	c8286864 [label=<<table title="org.universAAL.middleware.ui.UIRequest" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UIRequest.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UIRequest </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UIRequest.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.utils.ui.low.SubDialog
-	c8221105 [label=<<table title="org.universAAL.support.utils.ui.low.SubDialog" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../support/utils/ui/low/SubDialog.html">
+	c8287197 [label=<<table title="org.universAAL.support.utils.ui.low.SubDialog" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../support/utils/ui/low/SubDialog.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SubDialog </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../support/utils/ui/low/SubDialog.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.utils.ui.low.Message
-	c8221106 [label=<<table title="org.universAAL.support.utils.ui.low.Message" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../support/utils/ui/low/Message.html">
+	c8287198 [label=<<table title="org.universAAL.support.utils.ui.low.Message" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../support/utils/ui/low/Message.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Message </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../support/utils/ui/low/Message.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.utils.ui.low.Dialog
-	c8221107 [label=<<table title="org.universAAL.support.utils.ui.low.Dialog" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../support/utils/ui/low/Dialog.html">
+	c8287199 [label=<<table title="org.universAAL.support.utils.ui.low.Dialog" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../support/utils/ui/low/Dialog.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Dialog </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../support/utils/ui/low/Dialog.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.ui.UIRequest extends org.universAAL.middleware.rdf.ScopedResource
-	c8220401:p -> c8220772:p [dir=back,arrowtail=empty];
+	c8286493:p -> c8286864:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.ui.UIRequest implements org.universAAL.middleware.bus.model.matchable.Request
-	c8220659:p -> c8220772:p [dir=back,arrowtail=empty,style=dashed];
+	c8286751:p -> c8286864:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.support.utils.ui.low.SubDialog extends org.universAAL.middleware.ui.UIRequest
-	c8220772:p -> c8221105:p [dir=back,arrowtail=empty];
+	c8286864:p -> c8287197:p [dir=back,arrowtail=empty];
 	//org.universAAL.support.utils.ui.low.Message extends org.universAAL.middleware.ui.UIRequest
-	c8220772:p -> c8221106:p [dir=back,arrowtail=empty];
+	c8286864:p -> c8287198:p [dir=back,arrowtail=empty];
 	//org.universAAL.support.utils.ui.low.Dialog extends org.universAAL.middleware.ui.UIRequest
-	c8220772:p -> c8221107:p [dir=back,arrowtail=empty];
+	c8286864:p -> c8287199:p [dir=back,arrowtail=empty];
 }
 

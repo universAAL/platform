@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.recommendations.Alignment
-	c8505952 [label=<<table title="org.universAAL.ontology.recommendations.Alignment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Alignment.html">
+	c8573034 [label=<<table title="org.universAAL.ontology.recommendations.Alignment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Alignment.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Alignment </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Alignment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.recommendations.VerticalAlignment
-	c8505963 [label=<<table title="org.universAAL.ontology.recommendations.VerticalAlignment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./VerticalAlignment.html">
+	c8573045 [label=<<table title="org.universAAL.ontology.recommendations.VerticalAlignment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./VerticalAlignment.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> VerticalAlignment </td></tr>
 		</table></td></tr>
 		</table>>, URL="./VerticalAlignment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.recommendations.VerticalAlignment extends org.universAAL.ontology.recommendations.Alignment
-	c8505952:p -> c8505963:p [dir=back,arrowtail=empty];
+	c8573034:p -> c8573045:p [dir=back,arrowtail=empty];
 }
 

@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.ui.owl.AccessImpairment
-	c7732174 [label=<<table title="org.universAAL.middleware.ui.owl.AccessImpairment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/ui/owl/AccessImpairment.html">
+	c7793682 [label=<<table title="org.universAAL.middleware.ui.owl.AccessImpairment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/ui/owl/AccessImpairment.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AccessImpairment </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/ui/owl/AccessImpairment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.impairment.SpeakingImpairment
-	c7732587 [label=<<table title="org.universAAL.ontology.impairment.SpeakingImpairment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SpeakingImpairment.html">
+	c7794095 [label=<<table title="org.universAAL.ontology.impairment.SpeakingImpairment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SpeakingImpairment.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SpeakingImpairment </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SpeakingImpairment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.impairment.SpeakingImpairment extends org.universAAL.middleware.ui.owl.AccessImpairment
-	c7732174:p -> c7732587:p [dir=back,arrowtail=empty];
+	c7793682:p -> c7794095:p [dir=back,arrowtail=empty];
 }
 

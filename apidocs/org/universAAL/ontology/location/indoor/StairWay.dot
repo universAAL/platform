@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.location.indoor.IndoorPlace
-	c7749447 [label=<<table title="org.universAAL.ontology.location.indoor.IndoorPlace" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IndoorPlace.html">
+	c7811015 [label=<<table title="org.universAAL.ontology.location.indoor.IndoorPlace" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IndoorPlace.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> IndoorPlace </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./IndoorPlace.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.location.indoor.StairWay
-	c7749449 [label=<<table title="org.universAAL.ontology.location.indoor.StairWay" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./StairWay.html">
+	c7811017 [label=<<table title="org.universAAL.ontology.location.indoor.StairWay" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./StairWay.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> StairWay </td></tr>
 		</table></td></tr>
 		</table>>, URL="./StairWay.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.location.indoor.StairWay extends org.universAAL.ontology.location.indoor.IndoorPlace
-	c7749447:p -> c7749449:p [dir=back,arrowtail=empty];
+	c7811015:p -> c7811017:p [dir=back,arrowtail=empty];
 }
 

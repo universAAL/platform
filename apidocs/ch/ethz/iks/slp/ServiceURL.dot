@@ -10,23 +10,23 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// ch.ethz.iks.slp.ServiceURL
-	c7396667 [label=<<table title="ch.ethz.iks.slp.ServiceURL" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ServiceURL.html">
+	c7457005 [label=<<table title="ch.ethz.iks.slp.ServiceURL" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ServiceURL.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ServiceURL </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ServiceURL.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// ch.ethz.iks.slp.impl.AuthenticatedURL
-	c7396672 [label=<<table title="ch.ethz.iks.slp.impl.AuthenticatedURL" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./impl/AuthenticatedURL.html">
+	c7457010 [label=<<table title="ch.ethz.iks.slp.impl.AuthenticatedURL" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./impl/AuthenticatedURL.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AuthenticatedURL </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./impl/AuthenticatedURL.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//ch.ethz.iks.slp.ServiceURL extends ch.ethz.iks.slp.impl.AuthenticatedURL
-	c7396672:p -> c7396667:p [dir=back,arrowtail=empty];
+	c7457010:p -> c7457005:p [dir=back,arrowtail=empty];
 	//ch.ethz.iks.slp.ServiceURL implements java.io.Serializable
-	c7398282:p -> c7396667:p [dir=back,arrowtail=empty,style=dashed];
+	c7458630:p -> c7457005:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Serializable
-	c7398282 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c7458630 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>

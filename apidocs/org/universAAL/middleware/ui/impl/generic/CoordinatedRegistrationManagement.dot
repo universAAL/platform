@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.ui.impl.UIStrategyCoordinatorMng
-	c3139213 [label=<<table title="org.universAAL.middleware.ui.impl.UIStrategyCoordinatorMng" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../UIStrategyCoordinatorMng.html">
+	c3164553 [label=<<table title="org.universAAL.middleware.ui.impl.UIStrategyCoordinatorMng" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../UIStrategyCoordinatorMng.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UIStrategyCoordinatorMng </td></tr>
 		</table></td></tr>
 		</table>>, URL="../UIStrategyCoordinatorMng.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.impl.generic.CoordinatedRegistrationManagement
-	c3139216 [label=<<table title="org.universAAL.middleware.ui.impl.generic.CoordinatedRegistrationManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CoordinatedRegistrationManagement.html">
+	c3164556 [label=<<table title="org.universAAL.middleware.ui.impl.generic.CoordinatedRegistrationManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CoordinatedRegistrationManagement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CoordinatedRegistrationManagement </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CoordinatedRegistrationManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.impl.generic.CoordinatedStrategy
-	c3139217 [label=<<table title="org.universAAL.middleware.ui.impl.generic.CoordinatedStrategy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CoordinatedStrategy.html">
+	c3164557 [label=<<table title="org.universAAL.middleware.ui.impl.generic.CoordinatedStrategy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CoordinatedStrategy.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CoordinatedStrategy </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CoordinatedStrategy.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.ui.impl.UIStrategyCoordinatorMng extends org.universAAL.middleware.ui.impl.generic.CoordinatedRegistrationManagement
-	c3139216:p -> c3139213:p [dir=back,arrowtail=empty];
+	c3164556:p -> c3164553:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.ui.impl.generic.CoordinatedRegistrationManagement extends org.universAAL.middleware.ui.impl.generic.CoordinatedStrategy
-	c3139217:p -> c3139216:p [dir=back,arrowtail=empty];
+	c3164557:p -> c3164556:p [dir=back,arrowtail=empty];
 }
 

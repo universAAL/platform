@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.handler.kinect.adapter.contextBus.IContextPublisher
-	c4471865 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.contextBus.IContextPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IContextPublisher.html">
+	c4510497 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.contextBus.IContextPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IContextPublisher.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IContextPublisher </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IContextPublisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.handler.kinect.adapter.defaultComponents.DefaultAdapter
-	c4471874 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.defaultComponents.DefaultAdapter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../defaultComponents/DefaultAdapter.html">
+	c4510506 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.defaultComponents.DefaultAdapter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../defaultComponents/DefaultAdapter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DefaultAdapter </td></tr>
 		</table></td></tr>
 		</table>>, URL="../defaultComponents/DefaultAdapter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.handler.kinect.adapter.defaultComponents.DefaultAdapter implements org.universAAL.ui.handler.kinect.adapter.contextBus.IContextPublisher
-	c4471865:p -> c4471874:p [dir=back,arrowtail=empty,style=dashed];
+	c4510497:p -> c4510506:p [dir=back,arrowtail=empty,style=dashed];
 }
 

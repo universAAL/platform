@@ -10,27 +10,27 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.dm.dialogManagement.NonRedundantDialogPriorityQueue
-	c3494416 [label=<<table title="org.universAAL.ui.dm.dialogManagement.NonRedundantDialogPriorityQueue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NonRedundantDialogPriorityQueue.html">
+	c3523880 [label=<<table title="org.universAAL.ui.dm.dialogManagement.NonRedundantDialogPriorityQueue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NonRedundantDialogPriorityQueue.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> NonRedundantDialogPriorityQueue </td></tr>
 		</table></td></tr>
 		</table>>, URL="./NonRedundantDialogPriorityQueue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.dialogManagement.DialogPriorityQueue
-	c3494418 [label=<<table title="org.universAAL.ui.dm.dialogManagement.DialogPriorityQueue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DialogPriorityQueue.html">
+	c3523882 [label=<<table title="org.universAAL.ui.dm.dialogManagement.DialogPriorityQueue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DialogPriorityQueue.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DialogPriorityQueue </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DialogPriorityQueue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.interfaces.IUIRequestPool
-	c3494457 [label=<<table title="org.universAAL.ui.dm.interfaces.IUIRequestPool" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../interfaces/IUIRequestPool.html">
+	c3523921 [label=<<table title="org.universAAL.ui.dm.interfaces.IUIRequestPool" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../interfaces/IUIRequestPool.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IUIRequestPool </td></tr>
 		</table></td></tr>
 		</table>>, URL="../interfaces/IUIRequestPool.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.dm.dialogManagement.NonRedundantDialogPriorityQueue extends org.universAAL.ui.dm.dialogManagement.DialogPriorityQueue
-	c3494418:p -> c3494416:p [dir=back,arrowtail=empty];
+	c3523882:p -> c3523880:p [dir=back,arrowtail=empty];
 	//org.universAAL.ui.dm.dialogManagement.DialogPriorityQueue implements org.universAAL.ui.dm.interfaces.IUIRequestPool
-	c3494457:p -> c3494418:p [dir=back,arrowtail=empty,style=dashed];
+	c3523921:p -> c3523882:p [dir=back,arrowtail=empty,style=dashed];
 }
 

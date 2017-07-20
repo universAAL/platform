@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.rdf.FinalizedResource
-	c6444145 [label=<<table title="org.universAAL.middleware.rdf.FinalizedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../rdf/FinalizedResource.html">
+	c6501173 [label=<<table title="org.universAAL.middleware.rdf.FinalizedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../rdf/FinalizedResource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> FinalizedResource </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../rdf/FinalizedResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.service.owls.process.ProcessResult
-	c6444465 [label=<<table title="org.universAAL.middleware.service.owls.process.ProcessResult" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProcessResult.html">
+	c6501493 [label=<<table title="org.universAAL.middleware.service.owls.process.ProcessResult" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProcessResult.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProcessResult </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ProcessResult.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.service.owls.process.ProcessResult extends org.universAAL.middleware.rdf.FinalizedResource
-	c6444145:p -> c6444465:p [dir=back,arrowtail=empty];
+	c6501173:p -> c6501493:p [dir=back,arrowtail=empty];
 }
 

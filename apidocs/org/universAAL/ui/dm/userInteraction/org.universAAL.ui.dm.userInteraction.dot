@@ -10,25 +10,25 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.dm.userInteraction.PendingDialogBuilder
-	c1054070 [label=<<table title="org.universAAL.ui.dm.userInteraction.PendingDialogBuilder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PendingDialogBuilder.html">
+	c1066392 [label=<<table title="org.universAAL.ui.dm.userInteraction.PendingDialogBuilder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PendingDialogBuilder.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PendingDialogBuilder </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PendingDialogBuilder.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.userInteraction.PendingDialogBuilderWithSubmits
-	c1054071 [label=<<table title="org.universAAL.ui.dm.userInteraction.PendingDialogBuilderWithSubmits" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PendingDialogBuilderWithSubmits.html">
+	c1066393 [label=<<table title="org.universAAL.ui.dm.userInteraction.PendingDialogBuilderWithSubmits" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PendingDialogBuilderWithSubmits.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PendingDialogBuilderWithSubmits </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PendingDialogBuilderWithSubmits.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.userInteraction.MessageConstants
-	c1054072 [label=<<table title="org.universAAL.ui.dm.userInteraction.MessageConstants" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MessageConstants.html">
+	c1066394 [label=<<table title="org.universAAL.ui.dm.userInteraction.MessageConstants" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MessageConstants.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> MessageConstants </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MessageConstants.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.dm.userInteraction.PendingDialogBuilderWithSubmits extends org.universAAL.ui.dm.userInteraction.PendingDialogBuilder
-	c1054070:p -> c1054071:p [dir=back,arrowtail=empty];
+	c1066392:p -> c1066393:p [dir=back,arrowtail=empty];
 }
 

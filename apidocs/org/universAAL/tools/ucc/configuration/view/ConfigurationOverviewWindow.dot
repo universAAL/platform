@@ -10,33 +10,33 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.ucc.configuration.model.interfaces.ModelRegistryChangedListener
-	c2923045 [label=<<table title="org.universAAL.tools.ucc.configuration.model.interfaces.ModelRegistryChangedListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../model/interfaces/ModelRegistryChangedListener.html">
+	c2947635 [label=<<table title="org.universAAL.tools.ucc.configuration.model.interfaces.ModelRegistryChangedListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../model/interfaces/ModelRegistryChangedListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ModelRegistryChangedListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="../model/interfaces/ModelRegistryChangedListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.configuration.storage.interfaces.StorageChangedListener
-	c2923059 [label=<<table title="org.universAAL.tools.ucc.configuration.storage.interfaces.StorageChangedListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../storage/interfaces/StorageChangedListener.html">
+	c2947649 [label=<<table title="org.universAAL.tools.ucc.configuration.storage.interfaces.StorageChangedListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../storage/interfaces/StorageChangedListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> StorageChangedListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="../storage/interfaces/StorageChangedListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.configuration.view.ConfigurationOverviewWindow
-	c2923064 [label=<<table title="org.universAAL.tools.ucc.configuration.view.ConfigurationOverviewWindow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigurationOverviewWindow.html">
+	c2947654 [label=<<table title="org.universAAL.tools.ucc.configuration.view.ConfigurationOverviewWindow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigurationOverviewWindow.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConfigurationOverviewWindow </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConfigurationOverviewWindow.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.ucc.configuration.view.ConfigurationOverviewWindow extends com.vaadin.ui.Window
-	c2923150:p -> c2923064:p [dir=back,arrowtail=empty];
+	c2947740:p -> c2947654:p [dir=back,arrowtail=empty];
 	//org.universAAL.tools.ucc.configuration.view.ConfigurationOverviewWindow implements org.universAAL.tools.ucc.configuration.model.interfaces.ModelRegistryChangedListener
-	c2923045:p -> c2923064:p [dir=back,arrowtail=empty,style=dashed];
+	c2947635:p -> c2947654:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.tools.ucc.configuration.view.ConfigurationOverviewWindow implements org.universAAL.tools.ucc.configuration.storage.interfaces.StorageChangedListener
-	c2923059:p -> c2923064:p [dir=back,arrowtail=empty,style=dashed];
+	c2947649:p -> c2947654:p [dir=back,arrowtail=empty,style=dashed];
 	// com.vaadin.ui.Window
-	c2923150 [label=<<table title="com.vaadin.ui.Window" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/vaadin/ui/Window.html">
+	c2947740 [label=<<table title="com.vaadin.ui.Window" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/vaadin/ui/Window.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Window </td></tr>
 		</table></td></tr>

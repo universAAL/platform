@@ -10,28 +10,28 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.handler.kinect.adapter.contextBus.IContextPublisher
-	c3290570 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.contextBus.IContextPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../contextBus/IContextPublisher.html">
+	c3319324 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.contextBus.IContextPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../contextBus/IContextPublisher.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IContextPublisher </td></tr>
 		</table></td></tr>
 		</table>>, URL="../contextBus/IContextPublisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.handler.kinect.adapter.serviceBus.IServiceCall
-	c3290573 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.serviceBus.IServiceCall" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../serviceBus/IServiceCall.html">
+	c3319327 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.serviceBus.IServiceCall" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../serviceBus/IServiceCall.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IServiceCall </td></tr>
 		</table></td></tr>
 		</table>>, URL="../serviceBus/IServiceCall.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.handler.kinect.adapter.defaultComponents.DefaultAdapter
-	c3290579 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.defaultComponents.DefaultAdapter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DefaultAdapter.html">
+	c3319333 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.defaultComponents.DefaultAdapter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DefaultAdapter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DefaultAdapter </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DefaultAdapter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.handler.kinect.adapter.defaultComponents.DefaultAdapter implements org.universAAL.ui.handler.kinect.adapter.serviceBus.IServiceCall
-	c3290573:p -> c3290579:p [dir=back,arrowtail=empty,style=dashed];
+	c3319327:p -> c3319333:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.ui.handler.kinect.adapter.defaultComponents.DefaultAdapter implements org.universAAL.ui.handler.kinect.adapter.contextBus.IContextPublisher
-	c3290570:p -> c3290579:p [dir=back,arrowtail=empty,style=dashed];
+	c3319324:p -> c3319333:p [dir=back,arrowtail=empty,style=dashed];
 }
 

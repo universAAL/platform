@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.lddi.lib.ieeex73std.x73.p104zz.DeviceSpecialization
-	c8673049 [label=<<table title="org.universAAL.lddi.lib.ieeex73std.x73.p104zz.DeviceSpecialization" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DeviceSpecialization.html">
+	c8740721 [label=<<table title="org.universAAL.lddi.lib.ieeex73std.x73.p104zz.DeviceSpecialization" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DeviceSpecialization.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DeviceSpecialization </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DeviceSpecialization.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.lib.ieeex73std.x73.p104zz.p10415WeighingScale
-	c8673052 [label=<<table title="org.universAAL.lddi.lib.ieeex73std.x73.p104zz.p10415WeighingScale" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./p10415WeighingScale.html">
+	c8740724 [label=<<table title="org.universAAL.lddi.lib.ieeex73std.x73.p104zz.p10415WeighingScale" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./p10415WeighingScale.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> p10415WeighingScale </td></tr>
 		</table></td></tr>
 		</table>>, URL="./p10415WeighingScale.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.lddi.lib.ieeex73std.x73.p104zz.p10415WeighingScale extends org.universAAL.lddi.lib.ieeex73std.x73.p104zz.DeviceSpecialization
-	c8673049:p -> c8673052:p [dir=back,arrowtail=empty];
+	c8740721:p -> c8740724:p [dir=back,arrowtail=empty];
 }
 

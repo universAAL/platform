@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c4107436 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/owl/ManagedIndividual.html">
+	c4144798 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../middleware/owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.gesture.pointing.PointingGestureInSpace
-	c4108200 [label=<<table title="org.universAAL.ontology.gesture.pointing.PointingGestureInSpace" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PointingGestureInSpace.html">
+	c4145562 [label=<<table title="org.universAAL.ontology.gesture.pointing.PointingGestureInSpace" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PointingGestureInSpace.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PointingGestureInSpace </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PointingGestureInSpace.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.gesture.pointing.GestureRecognition
-	c4108201 [label=<<table title="org.universAAL.ontology.gesture.pointing.GestureRecognition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GestureRecognition.html">
+	c4145563 [label=<<table title="org.universAAL.ontology.gesture.pointing.GestureRecognition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GestureRecognition.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> GestureRecognition </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./GestureRecognition.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.gesture.pointing.PointingGestureInSpace extends org.universAAL.ontology.gesture.pointing.GestureRecognition
-	c4108201:p -> c4108200:p [dir=back,arrowtail=empty];
+	c4145563:p -> c4145562:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.gesture.pointing.GestureRecognition extends org.universAAL.middleware.owl.ManagedIndividual
-	c4107436:p -> c4108201:p [dir=back,arrowtail=empty];
+	c4144798:p -> c4145563:p [dir=back,arrowtail=empty];
 }
 

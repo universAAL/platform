@@ -10,44 +10,44 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.container.LogListener
-	c5308811 [label=<<table title="org.universAAL.middleware.container.LogListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LogListener.html">
+	c5350353 [label=<<table title="org.universAAL.middleware.container.LogListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LogListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> LogListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LogListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.distributedmw.impl.LogListenerHandler.LocalLogListener
-	c5309972 [label=<<table title="org.universAAL.middleware.managers.distributedmw.impl.LogListenerHandler.LocalLogListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../managers/distributedmw/impl/LogListenerHandler.LocalLogListener.html">
+	c5351514 [label=<<table title="org.universAAL.middleware.managers.distributedmw.impl.LogListenerHandler.LocalLogListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../managers/distributedmw/impl/LogListenerHandler.LocalLogListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LocalLogListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="../managers/distributedmw/impl/LogListenerHandler.LocalLogListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.logmonitor.LogListenerEx
-	c5311297 [label=<<table title="org.universAAL.tools.logmonitor.LogListenerEx" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../tools/logmonitor/LogListenerEx.html">
+	c5352849 [label=<<table title="org.universAAL.tools.logmonitor.LogListenerEx" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../tools/logmonitor/LogListenerEx.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> LogListenerEx </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../tools/logmonitor/LogListenerEx.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.logmonitor.LogMonitor
-	c5311300 [label=<<table title="org.universAAL.tools.logmonitor.LogMonitor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../tools/logmonitor/LogMonitor.html">
+	c5352852 [label=<<table title="org.universAAL.tools.logmonitor.LogMonitor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../tools/logmonitor/LogMonitor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LogMonitor </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../tools/logmonitor/LogMonitor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.makrorecorder.osgi.pattern.BusRecorder
-	c5311346 [label=<<table title="org.universAAL.tools.makrorecorder.osgi.pattern.BusRecorder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../tools/makrorecorder/osgi/pattern/BusRecorder.html">
+	c5352898 [label=<<table title="org.universAAL.tools.makrorecorder.osgi.pattern.BusRecorder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../tools/makrorecorder/osgi/pattern/BusRecorder.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BusRecorder </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../tools/makrorecorder/osgi/pattern/BusRecorder.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.managers.distributedmw.impl.LogListenerHandler.LocalLogListener implements org.universAAL.middleware.container.LogListener
-	c5308811:p -> c5309972:p [dir=back,arrowtail=empty,style=dashed];
+	c5350353:p -> c5351514:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.tools.logmonitor.LogListenerEx implements org.universAAL.middleware.container.LogListener
-	c5308811:p -> c5311297:p [dir=back,arrowtail=empty,style=dashed];
+	c5350353:p -> c5352849:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.tools.logmonitor.LogMonitor implements org.universAAL.middleware.container.LogListener
-	c5308811:p -> c5311300:p [dir=back,arrowtail=empty,style=dashed];
+	c5350353:p -> c5352852:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.tools.makrorecorder.osgi.pattern.BusRecorder implements org.universAAL.middleware.container.LogListener
-	c5308811:p -> c5311346:p [dir=back,arrowtail=empty,style=dashed];
+	c5350353:p -> c5352898:p [dir=back,arrowtail=empty,style=dashed];
 }
 

@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// ch.ethz.iks.slp.ServiceURL
-	c2208720 [label=<<table title="ch.ethz.iks.slp.ServiceURL" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ServiceURL.html">
+	c2227936 [label=<<table title="ch.ethz.iks.slp.ServiceURL" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ServiceURL.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ServiceURL </td></tr>
 		</table></td></tr>
 		</table>>, URL="../ServiceURL.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// ch.ethz.iks.slp.impl.AuthenticatedURL
-	c2208725 [label=<<table title="ch.ethz.iks.slp.impl.AuthenticatedURL" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AuthenticatedURL.html">
+	c2227941 [label=<<table title="ch.ethz.iks.slp.impl.AuthenticatedURL" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AuthenticatedURL.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AuthenticatedURL </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AuthenticatedURL.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//ch.ethz.iks.slp.ServiceURL extends ch.ethz.iks.slp.impl.AuthenticatedURL
-	c2208725:p -> c2208720:p [dir=back,arrowtail=empty];
+	c2227941:p -> c2227936:p [dir=back,arrowtail=empty];
 }
 

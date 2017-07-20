@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.LongRestriction
-	c5354837 [label=<<table title="org.universAAL.middleware.owl.LongRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LongRestriction.html">
+	c5396539 [label=<<table title="org.universAAL.middleware.owl.LongRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LongRestriction.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LongRestriction </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LongRestriction.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.owl.BoundedValueRestriction
-	c5354861 [label=<<table title="org.universAAL.middleware.owl.BoundedValueRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BoundedValueRestriction.html">
+	c5396563 [label=<<table title="org.universAAL.middleware.owl.BoundedValueRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BoundedValueRestriction.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> BoundedValueRestriction </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./BoundedValueRestriction.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.owl.LongRestriction extends org.universAAL.middleware.owl.BoundedValueRestriction
-	c5354861:p -> c5354837:p [dir=back,arrowtail=empty];
+	c5396563:p -> c5396539:p [dir=back,arrowtail=empty];
 }
 

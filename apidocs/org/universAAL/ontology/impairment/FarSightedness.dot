@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.impairment.SightImpairment
-	c3941501 [label=<<table title="org.universAAL.ontology.impairment.SightImpairment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SightImpairment.html">
+	c3978283 [label=<<table title="org.universAAL.ontology.impairment.SightImpairment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SightImpairment.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SightImpairment </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SightImpairment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.impairment.FarSightedness
-	c3941509 [label=<<table title="org.universAAL.ontology.impairment.FarSightedness" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./FarSightedness.html">
+	c3978291 [label=<<table title="org.universAAL.ontology.impairment.FarSightedness" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./FarSightedness.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> FarSightedness </td></tr>
 		</table></td></tr>
 		</table>>, URL="./FarSightedness.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.impairment.FarSightedness extends org.universAAL.ontology.impairment.SightImpairment
-	c3941501:p -> c3941509:p [dir=back,arrowtail=empty];
+	c3978283:p -> c3978291:p [dir=back,arrowtail=empty];
 }
 

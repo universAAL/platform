@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.ModulePattern
-	c5673995 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.ModulePattern" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ModulePattern.html">
+	c5716807 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.ModulePattern" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ModulePattern.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ModulePattern </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ModulePattern.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.EntityPattern
-	c5674002 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.EntityPattern" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EntityPattern.html">
+	c5716814 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.EntityPattern" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EntityPattern.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> EntityPattern </td></tr>
 		</table></td></tr>
 		</table>>, URL="./EntityPattern.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.ModulePattern implements org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.EntityPattern
-	c5674002:p -> c5673995:p [dir=back,arrowtail=empty,style=dashed];
+	c5716814:p -> c5716807:p [dir=back,arrowtail=empty,style=dashed];
 }
 

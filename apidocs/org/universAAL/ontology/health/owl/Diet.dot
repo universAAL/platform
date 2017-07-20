@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.health.owl.Diet
-	c3501934 [label=<<table title="org.universAAL.ontology.health.owl.Diet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Diet.html">
+	c3531418 [label=<<table title="org.universAAL.ontology.health.owl.Diet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Diet.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Diet </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Diet.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.health.owl.HealthyHabitsAdoption
-	c3501951 [label=<<table title="org.universAAL.ontology.health.owl.HealthyHabitsAdoption" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HealthyHabitsAdoption.html">
+	c3531435 [label=<<table title="org.universAAL.ontology.health.owl.HealthyHabitsAdoption" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HealthyHabitsAdoption.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> HealthyHabitsAdoption </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./HealthyHabitsAdoption.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.health.owl.Diet extends org.universAAL.ontology.health.owl.HealthyHabitsAdoption
-	c3501951:p -> c3501934:p [dir=back,arrowtail=empty];
+	c3531435:p -> c3531418:p [dir=back,arrowtail=empty];
 }
 

@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.container.ModuleActivator
-	c7892715 [label=<<table title="org.universAAL.middleware.container.ModuleActivator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../middleware/container/ModuleActivator.html">
+	c7954783 [label=<<table title="org.universAAL.middleware.container.ModuleActivator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../middleware/container/ModuleActivator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ModuleActivator </td></tr>
 		</table></td></tr>
 		</table>>, URL="../middleware/container/ModuleActivator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.SysinfoActivator
-	c7893182 [label=<<table title="org.universAAL.ontology.SysinfoActivator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SysinfoActivator.html">
+	c7955250 [label=<<table title="org.universAAL.ontology.SysinfoActivator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SysinfoActivator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SysinfoActivator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SysinfoActivator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.SysinfoActivator implements org.universAAL.middleware.container.ModuleActivator
-	c7892715:p -> c7893182:p [dir=back,arrowtail=empty,style=dashed];
+	c7954783:p -> c7955250:p [dir=back,arrowtail=empty,style=dashed];
 }
 

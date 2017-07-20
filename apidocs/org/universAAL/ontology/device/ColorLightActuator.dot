@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.device.ColorLightController
-	c2728409 [label=<<table title="org.universAAL.ontology.device.ColorLightController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ColorLightController.html">
+	c2752319 [label=<<table title="org.universAAL.ontology.device.ColorLightController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ColorLightController.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ColorLightController </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ColorLightController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.LightActuator
-	c2728427 [label=<<table title="org.universAAL.ontology.device.LightActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightActuator.html">
+	c2752337 [label=<<table title="org.universAAL.ontology.device.LightActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightActuator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LightActuator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LightActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.ColorLightActuator
-	c2728464 [label=<<table title="org.universAAL.ontology.device.ColorLightActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ColorLightActuator.html">
+	c2752374 [label=<<table title="org.universAAL.ontology.device.ColorLightActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ColorLightActuator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ColorLightActuator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ColorLightActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.device.ColorLightController extends org.universAAL.ontology.device.ColorLightActuator
-	c2728464:p -> c2728409:p [dir=back,arrowtail=empty];
+	c2752374:p -> c2752319:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.device.ColorLightActuator extends org.universAAL.ontology.device.LightActuator
-	c2728427:p -> c2728464:p [dir=back,arrowtail=empty];
+	c2752337:p -> c2752374:p [dir=back,arrowtail=empty];
 }
 

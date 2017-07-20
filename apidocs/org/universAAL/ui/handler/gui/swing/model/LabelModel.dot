@@ -10,34 +10,34 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.handler.gui.swing.model.LabelModel
-	c5037914 [label=<<table title="org.universAAL.ui.handler.gui.swing.model.LabelModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LabelModel.html">
+	c5078516 [label=<<table title="org.universAAL.ui.handler.gui.swing.model.LabelModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LabelModel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LabelModel </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LabelModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.handler.gui.swing.defaultLookAndFeel.LabelLAF
-	c5037983 [label=<<table title="org.universAAL.ui.handler.gui.swing.defaultLookAndFeel.LabelLAF" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../defaultLookAndFeel/LabelLAF.html">
+	c5078585 [label=<<table title="org.universAAL.ui.handler.gui.swing.defaultLookAndFeel.LabelLAF" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../defaultLookAndFeel/LabelLAF.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LabelLAF </td></tr>
 		</table></td></tr>
 		</table>>, URL="../defaultLookAndFeel/LabelLAF.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.gui.swing.bluesteelLAF.LabelLAF
-	c5038013 [label=<<table title="org.universAAL.ui.gui.swing.bluesteelLAF.LabelLAF" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../gui/swing/bluesteelLAF/LabelLAF.html">
+	c5078615 [label=<<table title="org.universAAL.ui.gui.swing.bluesteelLAF.LabelLAF" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../gui/swing/bluesteelLAF/LabelLAF.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LabelLAF </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../../gui/swing/bluesteelLAF/LabelLAF.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.handler.gui.swing.classic.LabelLAF
-	c5038052 [label=<<table title="org.universAAL.ui.handler.gui.swing.classic.LabelLAF" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../classic/LabelLAF.html">
+	c5078654 [label=<<table title="org.universAAL.ui.handler.gui.swing.classic.LabelLAF" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../classic/LabelLAF.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LabelLAF </td></tr>
 		</table></td></tr>
 		</table>>, URL="../classic/LabelLAF.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.handler.gui.swing.defaultLookAndFeel.LabelLAF extends org.universAAL.ui.handler.gui.swing.model.LabelModel
-	c5037914:p -> c5037983:p [dir=back,arrowtail=empty];
+	c5078516:p -> c5078585:p [dir=back,arrowtail=empty];
 	//org.universAAL.ui.gui.swing.bluesteelLAF.LabelLAF extends org.universAAL.ui.handler.gui.swing.model.LabelModel
-	c5037914:p -> c5038013:p [dir=back,arrowtail=empty];
+	c5078516:p -> c5078615:p [dir=back,arrowtail=empty];
 	//org.universAAL.ui.handler.gui.swing.classic.LabelLAF extends org.universAAL.ui.handler.gui.swing.model.LabelModel
-	c5037914:p -> c5038052:p [dir=back,arrowtail=empty];
+	c5078516:p -> c5078654:p [dir=back,arrowtail=empty];
 }
 

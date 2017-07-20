@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.recommendations.Alignment
-	c4358463 [label=<<table title="org.universAAL.ontology.recommendations.Alignment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Alignment.html">
+	c4396695 [label=<<table title="org.universAAL.ontology.recommendations.Alignment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Alignment.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Alignment </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Alignment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.recommendations.HorizontalAlignment
-	c4358468 [label=<<table title="org.universAAL.ontology.recommendations.HorizontalAlignment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HorizontalAlignment.html">
+	c4396700 [label=<<table title="org.universAAL.ontology.recommendations.HorizontalAlignment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HorizontalAlignment.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HorizontalAlignment </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HorizontalAlignment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.recommendations.HorizontalAlignment extends org.universAAL.ontology.recommendations.Alignment
-	c4358463:p -> c4358468:p [dir=back,arrowtail=empty];
+	c4396695:p -> c4396700:p [dir=back,arrowtail=empty];
 }
 

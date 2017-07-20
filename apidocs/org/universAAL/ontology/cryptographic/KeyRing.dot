@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.cryptographic.CertificationAuthority
-	c4904582 [label=<<table title="org.universAAL.ontology.cryptographic.CertificationAuthority" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CertificationAuthority.html">
+	c4944714 [label=<<table title="org.universAAL.ontology.cryptographic.CertificationAuthority" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CertificationAuthority.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CertificationAuthority </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CertificationAuthority.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.cryptographic.KeyRing
-	c4904586 [label=<<table title="org.universAAL.ontology.cryptographic.KeyRing" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./KeyRing.html">
+	c4944718 [label=<<table title="org.universAAL.ontology.cryptographic.KeyRing" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./KeyRing.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> KeyRing </td></tr>
 		</table></td></tr>
 		</table>>, URL="./KeyRing.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.cryptographic.EncryptionKey
-	c4904590 [label=<<table title="org.universAAL.ontology.cryptographic.EncryptionKey" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EncryptionKey.html">
+	c4944722 [label=<<table title="org.universAAL.ontology.cryptographic.EncryptionKey" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EncryptionKey.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> EncryptionKey </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./EncryptionKey.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.cryptographic.CertificationAuthority extends org.universAAL.ontology.cryptographic.KeyRing
-	c4904586:p -> c4904582:p [dir=back,arrowtail=empty];
+	c4944718:p -> c4944714:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.cryptographic.KeyRing extends org.universAAL.ontology.cryptographic.EncryptionKey
-	c4904590:p -> c4904586:p [dir=back,arrowtail=empty];
+	c4944722:p -> c4944718:p [dir=back,arrowtail=empty];
 }
 

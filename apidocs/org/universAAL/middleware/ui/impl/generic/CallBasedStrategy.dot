@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.ui.impl.generic.CoordinatedStrategy
-	c2527003 [label=<<table title="org.universAAL.middleware.ui.impl.generic.CoordinatedStrategy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CoordinatedStrategy.html">
+	c2550213 [label=<<table title="org.universAAL.middleware.ui.impl.generic.CoordinatedStrategy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CoordinatedStrategy.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CoordinatedStrategy </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CoordinatedStrategy.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.impl.generic.CallBasedStrategy
-	c2527006 [label=<<table title="org.universAAL.middleware.ui.impl.generic.CallBasedStrategy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CallBasedStrategy.html">
+	c2550216 [label=<<table title="org.universAAL.middleware.ui.impl.generic.CallBasedStrategy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CallBasedStrategy.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CallBasedStrategy </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CallBasedStrategy.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.impl.generic.EventBasedStrategy
-	c2527007 [label=<<table title="org.universAAL.middleware.ui.impl.generic.EventBasedStrategy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EventBasedStrategy.html">
+	c2550217 [label=<<table title="org.universAAL.middleware.ui.impl.generic.EventBasedStrategy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EventBasedStrategy.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> EventBasedStrategy </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./EventBasedStrategy.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.ui.impl.generic.CoordinatedStrategy extends org.universAAL.middleware.ui.impl.generic.CallBasedStrategy
-	c2527006:p -> c2527003:p [dir=back,arrowtail=empty];
+	c2550216:p -> c2550213:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.ui.impl.generic.CallBasedStrategy extends org.universAAL.middleware.ui.impl.generic.EventBasedStrategy
-	c2527007:p -> c2527006:p [dir=back,arrowtail=empty];
+	c2550217:p -> c2550216:p [dir=back,arrowtail=empty];
 }
 

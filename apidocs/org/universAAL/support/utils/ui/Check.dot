@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.support.utils.ui.Check
-	c2642260 [label=<<table title="org.universAAL.support.utils.ui.Check" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Check.html">
+	c2665870 [label=<<table title="org.universAAL.support.utils.ui.Check" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Check.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Check </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Check.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.utils.ui.InputControl
-	c2642264 [label=<<table title="org.universAAL.support.utils.ui.InputControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InputControl.html">
+	c2665874 [label=<<table title="org.universAAL.support.utils.ui.InputControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InputControl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> InputControl </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./InputControl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.support.utils.ui.Check extends org.universAAL.support.utils.ui.InputControl
-	c2642264:p -> c2642260:p [dir=back,arrowtail=empty];
+	c2665874:p -> c2665870:p [dir=back,arrowtail=empty];
 }
 

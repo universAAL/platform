@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.unit.color.ColorModel
-	c2737016 [label=<<table title="org.universAAL.ontology.unit.color.ColorModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ColorModel.html">
+	c2760956 [label=<<table title="org.universAAL.ontology.unit.color.ColorModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ColorModel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ColorModel </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./ColorModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.unit.color.ColorTemperature
-	c2737018 [label=<<table title="org.universAAL.ontology.unit.color.ColorTemperature" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ColorTemperature.html">
+	c2760958 [label=<<table title="org.universAAL.ontology.unit.color.ColorTemperature" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ColorTemperature.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ColorTemperature </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ColorTemperature.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.unit.color.ColorTemperature extends org.universAAL.ontology.unit.color.ColorModel
-	c2737016:p -> c2737018:p [dir=back,arrowtail=empty];
+	c2760956:p -> c2760958:p [dir=back,arrowtail=empty];
 }
 

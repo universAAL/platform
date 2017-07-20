@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.unit.color.ColorModel
-	c6691903 [label=<<table title="org.universAAL.ontology.unit.color.ColorModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ColorModel.html">
+	c6749791 [label=<<table title="org.universAAL.ontology.unit.color.ColorModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ColorModel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ColorModel </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./ColorModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.unit.color.RGBColorModel
-	c6691907 [label=<<table title="org.universAAL.ontology.unit.color.RGBColorModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RGBColorModel.html">
+	c6749795 [label=<<table title="org.universAAL.ontology.unit.color.RGBColorModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RGBColorModel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RGBColorModel </td></tr>
 		</table></td></tr>
 		</table>>, URL="./RGBColorModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.unit.color.RGBColorModel extends org.universAAL.ontology.unit.color.ColorModel
-	c6691903:p -> c6691907:p [dir=back,arrowtail=empty];
+	c6749791:p -> c6749795:p [dir=back,arrowtail=empty];
 }
 

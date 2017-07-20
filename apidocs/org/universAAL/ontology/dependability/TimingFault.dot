@@ -10,34 +10,34 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.dependability.Fault
-	c8017249 [label=<<table title="org.universAAL.ontology.dependability.Fault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Fault.html">
+	c8079747 [label=<<table title="org.universAAL.ontology.dependability.Fault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Fault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Fault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Fault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.dependability.EarlyTimingFault
-	c8017250 [label=<<table title="org.universAAL.ontology.dependability.EarlyTimingFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EarlyTimingFault.html">
+	c8079748 [label=<<table title="org.universAAL.ontology.dependability.EarlyTimingFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EarlyTimingFault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> EarlyTimingFault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./EarlyTimingFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.dependability.LateTimingFault
-	c8017252 [label=<<table title="org.universAAL.ontology.dependability.LateTimingFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LateTimingFault.html">
+	c8079750 [label=<<table title="org.universAAL.ontology.dependability.LateTimingFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LateTimingFault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LateTimingFault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LateTimingFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.dependability.TimingFault
-	c8017255 [label=<<table title="org.universAAL.ontology.dependability.TimingFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TimingFault.html">
+	c8079753 [label=<<table title="org.universAAL.ontology.dependability.TimingFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TimingFault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TimingFault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./TimingFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.dependability.EarlyTimingFault extends org.universAAL.ontology.dependability.TimingFault
-	c8017255:p -> c8017250:p [dir=back,arrowtail=empty];
+	c8079753:p -> c8079748:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.dependability.LateTimingFault extends org.universAAL.ontology.dependability.TimingFault
-	c8017255:p -> c8017252:p [dir=back,arrowtail=empty];
+	c8079753:p -> c8079750:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.dependability.TimingFault extends org.universAAL.ontology.dependability.Fault
-	c8017249:p -> c8017255:p [dir=back,arrowtail=empty];
+	c8079747:p -> c8079753:p [dir=back,arrowtail=empty];
 }
 

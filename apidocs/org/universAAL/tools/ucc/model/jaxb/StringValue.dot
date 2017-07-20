@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.ucc.model.jaxb.StringValue
-	c7803304 [label=<<table title="org.universAAL.tools.ucc.model.jaxb.StringValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./StringValue.html">
+	c7865062 [label=<<table title="org.universAAL.tools.ucc.model.jaxb.StringValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./StringValue.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> StringValue </td></tr>
 		</table></td></tr>
 		</table>>, URL="./StringValue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.model.jaxb.SimpleObject
-	c7803311 [label=<<table title="org.universAAL.tools.ucc.model.jaxb.SimpleObject" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SimpleObject.html">
+	c7865069 [label=<<table title="org.universAAL.tools.ucc.model.jaxb.SimpleObject" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SimpleObject.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SimpleObject </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SimpleObject.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.ucc.model.jaxb.StringValue extends org.universAAL.tools.ucc.model.jaxb.SimpleObject
-	c7803311:p -> c7803304:p [dir=back,arrowtail=empty];
+	c7865069:p -> c7865062:p [dir=back,arrowtail=empty];
 }
 

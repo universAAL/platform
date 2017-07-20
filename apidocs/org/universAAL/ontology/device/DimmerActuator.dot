@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.device.DimmerActuator
-	c3518830 [label=<<table title="org.universAAL.ontology.device.DimmerActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DimmerActuator.html">
+	c3548374 [label=<<table title="org.universAAL.ontology.device.DimmerActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DimmerActuator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DimmerActuator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DimmerActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.Actuator
-	c3518837 [label=<<table title="org.universAAL.ontology.device.Actuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Actuator.html">
+	c3548381 [label=<<table title="org.universAAL.ontology.device.Actuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Actuator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Actuator </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Actuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.DimmerController
-	c3518870 [label=<<table title="org.universAAL.ontology.device.DimmerController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DimmerController.html">
+	c3548414 [label=<<table title="org.universAAL.ontology.device.DimmerController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DimmerController.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DimmerController </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DimmerController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.device.DimmerActuator extends org.universAAL.ontology.device.Actuator
-	c3518837:p -> c3518830:p [dir=back,arrowtail=empty];
+	c3548381:p -> c3548374:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.device.DimmerController extends org.universAAL.ontology.device.DimmerActuator
-	c3518830:p -> c3518870:p [dir=back,arrowtail=empty];
+	c3548374:p -> c3548414:p [dir=back,arrowtail=empty];
 }
 
