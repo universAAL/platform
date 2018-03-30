@@ -50,12 +50,12 @@
     <repository>
       <id>releases</id>
       <name>universAAL Releases</name>
-      <url>http://depot.universaal.org/nexus/repository/releases/</url>
+      <url>http://depot.universaal.org/nexus/content/repositories/releases/</url>
     </repository>
     <snapshotRepository>
       <id>snapshots</id>
       <name>universAAL Snapshots</name>
-      <url>http://depot.universaal.org/nexus/repository/snapshots/</url>
+      <url>http://depot.universaal.org/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
     <site>
       <id>depot.universaal.org</id>
@@ -78,7 +78,7 @@
       </snapshots>
       <id>uaal</id>
       <name>universAAL Repositories</name>
-      <url>http://depot.universaal.org/nexus/repository/releases/</url>
+      <url>http://depot.universaal.org/maven-repo/releases/</url>
     </repository>
     <repository>
       <releases>
@@ -86,12 +86,12 @@
       </releases>
       <id>uaal-snapshots</id>
       <name>universAAL Snapshot Repositories</name>
-      <url>http://depot.universaal.org/nexus/repository/snapshots/</url>
+      <url>http://depot.universaal.org/maven-repo/snapshots/</url>
     </repository>
     <repository>
       <id>uaal-thirdparty</id>
       <name>universAAL ThirdParty Repositories</name>
-      <url>http://depot.universaal.org/nexus/repository/thirdparty/</url>
+      <url>http://depot.universaal.org/maven-repo/thirdparty/</url>
     </repository>
     <repository>
       <releases>
@@ -99,7 +99,7 @@
       </releases>
       <id>uaal-thirdparty-snapshots</id>
       <name>universAAL ThirdParty Repositories</name>
-      <url>http://depot.universaal.org/nexus/repository/thirdparty-snapshots/</url>
+      <url>http://depot.universaal.org/maven-repo/thirdparty-snapshots/</url>
     </repository>
     <repository>
       <snapshots>
@@ -139,7 +139,7 @@
       </snapshots>
       <id>uaal-thirdparty</id>
       <name>universAAL thirdparty Repositories</name>
-      <url>http://depot.universaal.org/nexus/repository/thirdparty/</url>
+      <url>http://depot.universaal.org/maven-repo/thirdparty/</url>
     </pluginRepository>
     <pluginRepository>
       <snapshots>
@@ -147,12 +147,12 @@
       </snapshots>
       <id>uaal</id>
       <name>universAAL Repositories</name>
-      <url>http://depot.universaal.org/nexus/repository/releases/</url>
+      <url>http://depot.universaal.org/maven-repo/releases/</url>
     </pluginRepository>
     <pluginRepository>
       <id>uaal-snapshots</id>
       <name>universAAL Snapshot Repositories</name>
-      <url>http://depot.universaal.org/nexus/repository/snapshots/</url>
+      <url>http://depot.universaal.org/maven-repo/snapshots/</url>
     </pluginRepository>
   </pluginRepositories>
   <build>
