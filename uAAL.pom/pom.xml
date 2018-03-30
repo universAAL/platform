@@ -94,14 +94,6 @@
       <url>http://depot.universaal.org/maven-repo/thirdparty/</url>
     </repository>
     <repository>
-      <releases>
-        <enabled>false</enabled>
-      </releases>
-      <id>uaal-thirdparty-snapshots</id>
-      <name>universAAL ThirdParty Repositories</name>
-      <url>http://depot.universaal.org/maven-repo/thirdparty-snapshots/</url>
-    </repository>
-    <repository>
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
