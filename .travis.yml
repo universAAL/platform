@@ -35,6 +35,7 @@ before_script:
 
 script:
  - free -m
+ - mvn org.apache.maven.plugins:maven-dependency-plugin:3.0.1:get -Dartifact=org.springframework.osgi:log4j.osgi:1.2.15-SNAPSHOT
 # - mvn clean install -DskipTests -Dorg.ops4j.pax.logging.DefaultServiceLog.level=WARN | grep -i "INFO] Build"
  - mvn clean install -Dorg.ops4j.pax.logging.DefaultServiceLog.level=WARN -e
 # | grep -i "INFO] Build"
