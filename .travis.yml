@@ -37,15 +37,15 @@ script:
  - free -m
  - mvn org.apache.maven.plugins:maven-dependency-plugin:3.0.1:get -Dartifact=org.springframework.osgi:log4j.osgi:1.2.15-SNAPSHOT
 # - mvn clean install -DskipTests -Dorg.ops4j.pax.logging.DefaultServiceLog.level=WARN | grep -i "INFO] Build"
- - mvn clean install -Dorg.ops4j.pax.logging.DefaultServiceLog.level=WARN -e
+ - mvn clean install -Dorg.ops4j.pax.logging.DefaultServiceLog.level=WARN -e -B
 # | grep -i "INFO] Build"
- - mvn javadoc:aggregate -fae | grep -i "INFO] Build"
+ - mvn javadoc:aggregate -B -fae | grep -i "INFO] Build"
 # - mvn cobertura:cobertura -Dcobertura.aggregate=true -Dcobertura.report.format=xml -fae | grep -i "INFO] Build"
 # - mvn cobertura:cobertura -Dcobertura.aggregate=true -Dcobertura.report.format=html -DskipTests -fae | grep -i "INFO] Build"
- - mvn site:site -DskipTests -Dmaven.javadoc.skip=true -Duaal.report=ci-platform -fn -e || true
+ - mvn site:site -DskipTests -Dmaven.javadoc.skip=true -Duaal.report=ci-platform -fn -e -B || true
  - find ./target/site -type f -print0 | xargs -0 sed -i 's/\/xtras\//\//g'
  - cd feature
- - mvn site:site -DskipTests -Dmaven.javadoc.skip=true -Duaal.report=ci-platform -fn -e || true
+ - mvn site:site -DskipTests -Dmaven.javadoc.skip=true -Duaal.report=ci-platform -fn -e -B || true
  - cd ..
  - find ./target/site -type f -print0 | xargs -0 sed -i 's/\.\.\/uAAL\.karaf\.feature\///g'
 # - mvn site:site -DskipTests -Dcobertura.skip  -Dmaven.javadoc.skip=true -Duaal.report=ci-platform -fn -e
@@ -56,7 +56,7 @@ script:
 # - mv target/site/cobertura/coverage2.xml target/site/cobertura/coverage.xml
 
 after_success:
- - mvn deploy -N -DskipTests -DaltDeploymentRepository=uaal-nightly::default::http://depot.universaal.org/maven-repo/nightly/
+ - mvn deploy -N -DskipTests -DaltDeploymentRepository=uaal-nightly::default::http://depot.universaal.org/maven-repo/nightly/ -B
  - export OLD_DIR=`pwd`
  - src/scripts/push-to-gh-pages.sh
  - cd "$OLD_DIR"
