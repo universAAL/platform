@@ -9,31 +9,31 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ui.dm.userInteraction.mainMenu.AllMainMenuProvider
-	c1075052 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.AllMainMenuProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AllMainMenuProvider.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> AllMainMenuProvider </td></tr>
-		</table></td></tr>
-		</table>>, URL="./AllMainMenuProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.userInteraction.mainMenu.SearchableAggregatedMainMenuProvider
-	c1075053 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.SearchableAggregatedMainMenuProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SearchableAggregatedMainMenuProvider.html">
+	c1112802 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.SearchableAggregatedMainMenuProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SearchableAggregatedMainMenuProvider.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SearchableAggregatedMainMenuProvider </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SearchableAggregatedMainMenuProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ui.dm.userInteraction.mainMenu.UIServiceResponseNotifyer
-	c1075054 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.UIServiceResponseNotifyer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UIServiceResponseNotifyer.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> UIServiceResponseNotifyer </td></tr>
-		</table></td></tr>
-		</table>>, URL="./UIServiceResponseNotifyer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.userInteraction.mainMenu.AggregatedMainMenuProvider
-	c1075055 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.AggregatedMainMenuProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AggregatedMainMenuProvider.html">
+	c1112803 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.AggregatedMainMenuProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AggregatedMainMenuProvider.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AggregatedMainMenuProvider </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AggregatedMainMenuProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ui.dm.userInteraction.mainMenu.UIServiceResponseNotifyer
+	c1112804 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.UIServiceResponseNotifyer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UIServiceResponseNotifyer.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> UIServiceResponseNotifyer </td></tr>
+		</table></td></tr>
+		</table>>, URL="./UIServiceResponseNotifyer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ui.dm.userInteraction.mainMenu.AllMainMenuProvider
+	c1112805 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.AllMainMenuProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AllMainMenuProvider.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> AllMainMenuProvider </td></tr>
+		</table></td></tr>
+		</table>>, URL="./AllMainMenuProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.dm.userInteraction.mainMenu.SearchableAggregatedMainMenuProvider extends org.universAAL.ui.dm.userInteraction.mainMenu.AggregatedMainMenuProvider
-	c1075055:p -> c1075053:p [dir=back,arrowtail=empty];
+	c1112803:p -> c1112802:p [dir=back,arrowtail=empty];
 }
 

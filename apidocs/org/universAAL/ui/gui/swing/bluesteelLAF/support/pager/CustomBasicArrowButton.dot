@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.gui.swing.bluesteelLAF.support.pager.CustomBasicArrowButton
-	c3224091 [label=<<table title="org.universAAL.ui.gui.swing.bluesteelLAF.support.pager.CustomBasicArrowButton" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CustomBasicArrowButton.html">
+	c3319719 [label=<<table title="org.universAAL.ui.gui.swing.bluesteelLAF.support.pager.CustomBasicArrowButton" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CustomBasicArrowButton.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CustomBasicArrowButton </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CustomBasicArrowButton.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.gui.swing.bluesteelLAF.support.pager.CustomBasicArrowButton extends javax.swing.plaf.basic.BasicArrowButton
-	c3224622:p -> c3224091:p [dir=back,arrowtail=empty];
+	c3320255:p -> c3319719:p [dir=back,arrowtail=empty];
 	// javax.swing.plaf.basic.BasicArrowButton
-	c3224622 [label=<<table title="javax.swing.plaf.basic.BasicArrowButton" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/plaf/basic/BasicArrowButton.html">
+	c3320255 [label=<<table title="javax.swing.plaf.basic.BasicArrowButton" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/plaf/basic/BasicArrowButton.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BasicArrowButton </td></tr>
 		</table></td></tr>

@@ -452,6 +452,24 @@
 <td class="colFirst"><a href="#org.universAAL.ui.dm.ui.preferences.editor">org.universAAL.ui.dm.ui.preferences.editor</a></td>
 <td class="colLast">&nbsp;</td>
 </tr>
+<tr class="altColor">
+<td class="colFirst"><a href="#org.universAAL.utilities.api.context">org.universAAL.utilities.api.context</a></td>
+<td class="colLast">
+<div class="block">Contains raw helper classes to deal with Context concepts of universAAL.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a href="#org.universAAL.utilities.api.context.low">org.universAAL.utilities.api.context.low</a></td>
+<td class="colLast">
+<div class="block">Contains low level helper classes to deal with Context concepts of universAAL.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><a href="#org.universAAL.utilities.api.context.mid">org.universAAL.utilities.api.context.mid</a></td>
+<td class="colLast">
+<div class="block">Contains normal helper classes to deal with Context concepts of universAAL.</div>
+</td>
+</tr>
 </tbody>
 </table>
 </li>
@@ -4747,6 +4765,101 @@
 </tbody>
 </table>
 </li>
+<li class="blockList"><a name="org.universAAL.utilities.api.context">
+<!--   -->
+</a>
+<h3>Uses of <a href="../../../../../org/universAAL/middleware/owl/ManagedIndividual.html" title="class in org.universAAL.middleware.owl">ManagedIndividual</a> in <a href="../../../../../org/universAAL/utilities/api/context/package-summary.html">org.universAAL.utilities.api.context</a></h3>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing constructors, and an explanation">
+<caption><span>Constructors in <a href="../../../../../org/universAAL/utilities/api/context/package-summary.html">org.universAAL.utilities.api.context</a> with parameters of type <a href="../../../../../org/universAAL/middleware/owl/ManagedIndividual.html" title="class in org.universAAL.middleware.owl">ManagedIndividual</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colOne" scope="col">Constructor and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/utilities/api/context/Pattern.html#Pattern-org.universAAL.middleware.owl.ManagedIndividual-java.lang.String-java.lang.Object-">Pattern</a></span>(<a href="../../../../../org/universAAL/middleware/owl/ManagedIndividual.html" title="class in org.universAAL.middleware.owl">ManagedIndividual</a>&nbsp;subj,
+       <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;predicate,
+       <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;obj)</code>
+<div class="block">Simple constructor to create a Context Event Pattern with restrictions on
+ the exact subject, the predicate, and the exact object.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/utilities/api/context/Pattern.html#Pattern-org.universAAL.middleware.owl.ManagedIndividual-java.lang.String-java.lang.String-">Pattern</a></span>(<a href="../../../../../org/universAAL/middleware/owl/ManagedIndividual.html" title="class in org.universAAL.middleware.owl">ManagedIndividual</a>&nbsp;subj,
+       <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;predicate,
+       <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;objTypeURI)</code>
+<div class="block">Simple constructor to create a Context Event Pattern with restrictions on
+ the exact subject, the predicate, and the type of object.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList"><a name="org.universAAL.utilities.api.context.low">
+<!--   -->
+</a>
+<h3>Uses of <a href="../../../../../org/universAAL/middleware/owl/ManagedIndividual.html" title="class in org.universAAL.middleware.owl">ManagedIndividual</a> in <a href="../../../../../org/universAAL/utilities/api/context/low/package-summary.html">org.universAAL.utilities.api.context.low</a></h3>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing constructors, and an explanation">
+<caption><span>Constructors in <a href="../../../../../org/universAAL/utilities/api/context/low/package-summary.html">org.universAAL.utilities.api.context.low</a> with parameters of type <a href="../../../../../org/universAAL/middleware/owl/ManagedIndividual.html" title="class in org.universAAL.middleware.owl">ManagedIndividual</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colOne" scope="col">Constructor and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/utilities/api/context/low/Provider.html#Provider-java.lang.String-org.universAAL.middleware.context.owl.ContextProviderType-org.universAAL.middleware.owl.ManagedIndividual-java.lang.String-java.lang.String-">Provider</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;uri,
+        <a href="../../../../../org/universAAL/middleware/context/owl/ContextProviderType.html" title="class in org.universAAL.middleware.context.owl">ContextProviderType</a>&nbsp;type,
+        <a href="../../../../../org/universAAL/middleware/owl/ManagedIndividual.html" title="class in org.universAAL.middleware.owl">ManagedIndividual</a>&nbsp;subj,
+        <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;predicate,
+        <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;objTypeURI)</code>
+<div class="block">Simple constructor to create a Context Provider of a given type with the
+ given restrictions on the subject, the predicate, and the object of the
+ provided events.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList"><a name="org.universAAL.utilities.api.context.mid">
+<!--   -->
+</a>
+<h3>Uses of <a href="../../../../../org/universAAL/middleware/owl/ManagedIndividual.html" title="class in org.universAAL.middleware.owl">ManagedIndividual</a> in <a href="../../../../../org/universAAL/utilities/api/context/mid/package-summary.html">org.universAAL.utilities.api.context.mid</a></h3>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing constructors, and an explanation">
+<caption><span>Constructors in <a href="../../../../../org/universAAL/utilities/api/context/mid/package-summary.html">org.universAAL.utilities.api.context.mid</a> with parameters of type <a href="../../../../../org/universAAL/middleware/owl/ManagedIndividual.html" title="class in org.universAAL.middleware.owl">ManagedIndividual</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colOne" scope="col">Constructor and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/utilities/api/context/mid/UtilPublisher.html#UtilPublisher-org.universAAL.middleware.container.ModuleContext-java.lang.String-org.universAAL.middleware.context.owl.ContextProviderType-org.universAAL.middleware.owl.ManagedIndividual-java.lang.String-java.lang.String-">UtilPublisher</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;context,
+             <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;uri,
+             <a href="../../../../../org/universAAL/middleware/context/owl/ContextProviderType.html" title="class in org.universAAL.middleware.context.owl">ContextProviderType</a>&nbsp;type,
+             <a href="../../../../../org/universAAL/middleware/owl/ManagedIndividual.html" title="class in org.universAAL.middleware.owl">ManagedIndividual</a>&nbsp;sub,
+             <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;predicate,
+             <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;objTypeURI)</code>
+<div class="block">Create a simple Context Publisher of the given type which provided events
+ are described by the arguments and is identified with the given URI.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/utilities/api/context/mid/UtilSubscriber.html#UtilSubscriber-org.universAAL.middleware.container.ModuleContext-org.universAAL.middleware.owl.ManagedIndividual-java.lang.String-java.lang.Object-">UtilSubscriber</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;context,
+              <a href="../../../../../org/universAAL/middleware/owl/ManagedIndividual.html" title="class in org.universAAL.middleware.owl">ManagedIndividual</a>&nbsp;subj,
+              <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;predicate,
+              <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;obj)</code>
+<div class="block">Create a simple Context Subscriber that will listen to the events
+ matching what is specified in the constructor.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/utilities/api/context/mid/UtilSubscriber.html#UtilSubscriber-org.universAAL.middleware.container.ModuleContext-org.universAAL.middleware.owl.ManagedIndividual-java.lang.String-java.lang.String-">UtilSubscriber</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;context,
+              <a href="../../../../../org/universAAL/middleware/owl/ManagedIndividual.html" title="class in org.universAAL.middleware.owl">ManagedIndividual</a>&nbsp;subj,
+              <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;predicate,
+              <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;objTypeURI)</code>
+<div class="block">Create a simple Context Subscriber that will listen to the events
+ matching what is specified in the constructor.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
 </ul>
 </li>
 </ul>
@@ -4798,6 +4911,6 @@
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2017 <a href="http://www.universAAL.org/">universAAL Consortium</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2018 <a href="http://www.universAAL.org/">universAAL Consortium</a>. All rights reserved.</small></p>
 </body>
 </html>

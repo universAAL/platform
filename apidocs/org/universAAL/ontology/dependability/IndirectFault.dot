@@ -9,19 +9,19 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.dependability.Fault
-	c4731165 [label=<<table title="org.universAAL.ontology.dependability.Fault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Fault.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Fault </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Fault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.dependability.IndirectFault
-	c4731169 [label=<<table title="org.universAAL.ontology.dependability.IndirectFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IndirectFault.html">
+	c4857953 [label=<<table title="org.universAAL.ontology.dependability.IndirectFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IndirectFault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> IndirectFault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IndirectFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.dependability.Fault
+	c4857980 [label=<<table title="org.universAAL.ontology.dependability.Fault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Fault.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Fault </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Fault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.dependability.IndirectFault extends org.universAAL.ontology.dependability.Fault
-	c4731165:p -> c4731169:p [dir=back,arrowtail=empty];
+	c4857980:p -> c4857953:p [dir=back,arrowtail=empty];
 }
 

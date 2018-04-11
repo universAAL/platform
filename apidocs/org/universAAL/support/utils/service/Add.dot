@@ -9,19 +9,19 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.support.utils.service.Value
-	c2011132 [label=<<table title="org.universAAL.support.utils.service.Value" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Value.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Value </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./Value.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.utils.service.Add
-	c2011134 [label=<<table title="org.universAAL.support.utils.service.Add" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Add.html">
+	c2081121 [label=<<table title="org.universAAL.support.utils.service.Add" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Add.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Add </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Add.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.support.utils.service.Value
+	c2081126 [label=<<table title="org.universAAL.support.utils.service.Value" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Value.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Value </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./Value.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.support.utils.service.Add extends org.universAAL.support.utils.service.Value
-	c2011132:p -> c2011134:p [dir=back,arrowtail=empty];
+	c2081126:p -> c2081121:p [dir=back,arrowtail=empty];
 }
 

@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.handler.gui.swing.model.FormControl.SubdialogTriggerModel
-	c7879083 [label=<<table title="org.universAAL.ui.handler.gui.swing.model.FormControl.SubdialogTriggerModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../model/FormControl/SubdialogTriggerModel.html">
+	c8076565 [label=<<table title="org.universAAL.ui.handler.gui.swing.model.FormControl.SubdialogTriggerModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../model/FormControl/SubdialogTriggerModel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SubdialogTriggerModel </td></tr>
 		</table></td></tr>
 		</table>>, URL="../model/FormControl/SubdialogTriggerModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.handler.gui.swing.defaultLookAndFeel.SubdialogTriggerLAF
-	c7879119 [label=<<table title="org.universAAL.ui.handler.gui.swing.defaultLookAndFeel.SubdialogTriggerLAF" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SubdialogTriggerLAF.html">
+	c8076609 [label=<<table title="org.universAAL.ui.handler.gui.swing.defaultLookAndFeel.SubdialogTriggerLAF" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SubdialogTriggerLAF.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SubdialogTriggerLAF </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SubdialogTriggerLAF.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.handler.gui.swing.defaultLookAndFeel.SubdialogTriggerLAF extends org.universAAL.ui.handler.gui.swing.model.FormControl.SubdialogTriggerModel
-	c7879083:p -> c7879119:p [dir=back,arrowtail=empty];
+	c8076565:p -> c8076609:p [dir=back,arrowtail=empty];
 }
 

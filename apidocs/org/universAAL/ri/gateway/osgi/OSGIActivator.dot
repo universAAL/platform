@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ri.gateway.osgi.OSGIActivator
-	c5966695 [label=<<table title="org.universAAL.ri.gateway.osgi.OSGIActivator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./OSGIActivator.html">
+	c6122483 [label=<<table title="org.universAAL.ri.gateway.osgi.OSGIActivator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./OSGIActivator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OSGIActivator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OSGIActivator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ri.gateway.osgi.OSGIActivator implements org.osgi.framework.BundleActivator
-	c5967491:p -> c5966695:p [dir=back,arrowtail=empty,style=dashed];
+	c6123295:p -> c6122483:p [dir=back,arrowtail=empty,style=dashed];
 	// org.osgi.framework.BundleActivator
-	c5967491 [label=<<table title="org.osgi.framework.BundleActivator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/osgi/framework/BundleActivator.html">
+	c6123295 [label=<<table title="org.osgi.framework.BundleActivator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/osgi/framework/BundleActivator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> BundleActivator </td></tr>

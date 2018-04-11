@@ -10,42 +10,42 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c3449714 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
+	c3549586 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.sysinfo.SpaceDescriptor
-	c3450762 [label=<<table title="org.universAAL.ontology.sysinfo.SpaceDescriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SpaceDescriptor.html">
+	c3550656 [label=<<table title="org.universAAL.ontology.sysinfo.SpaceDescriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SpaceDescriptor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SpaceDescriptor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SpaceDescriptor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.sysinfo.Descriptor
-	c3450763 [label=<<table title="org.universAAL.ontology.sysinfo.Descriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Descriptor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Descriptor </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Descriptor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.sysinfo.SpaceStatusDescriptor
-	c3450764 [label=<<table title="org.universAAL.ontology.sysinfo.SpaceStatusDescriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SpaceStatusDescriptor.html">
+	c3550658 [label=<<table title="org.universAAL.ontology.sysinfo.SpaceStatusDescriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SpaceStatusDescriptor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SpaceStatusDescriptor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SpaceStatusDescriptor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.sysinfo.PeerCardDescriptor
-	c3450767 [label=<<table title="org.universAAL.ontology.sysinfo.PeerCardDescriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PeerCardDescriptor.html">
+	c3550659 [label=<<table title="org.universAAL.ontology.sysinfo.PeerCardDescriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PeerCardDescriptor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PeerCardDescriptor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PeerCardDescriptor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.sysinfo.Descriptor
+	c3550660 [label=<<table title="org.universAAL.ontology.sysinfo.Descriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Descriptor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Descriptor </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Descriptor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.sysinfo.SpaceDescriptor extends org.universAAL.ontology.sysinfo.Descriptor
-	c3450763:p -> c3450762:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.sysinfo.Descriptor extends org.universAAL.middleware.owl.ManagedIndividual
-	c3449714:p -> c3450763:p [dir=back,arrowtail=empty];
+	c3550660:p -> c3550656:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.sysinfo.SpaceStatusDescriptor extends org.universAAL.ontology.sysinfo.Descriptor
-	c3450763:p -> c3450764:p [dir=back,arrowtail=empty];
+	c3550660:p -> c3550658:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.sysinfo.PeerCardDescriptor extends org.universAAL.ontology.sysinfo.Descriptor
-	c3450763:p -> c3450767:p [dir=back,arrowtail=empty];
+	c3550660:p -> c3550659:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.sysinfo.Descriptor extends org.universAAL.middleware.owl.ManagedIndividual
+	c3549586:p -> c3550660:p [dir=back,arrowtail=empty];
 }
 

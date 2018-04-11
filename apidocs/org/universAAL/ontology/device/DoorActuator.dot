@@ -9,27 +9,27 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.device.Actuator
-	c3637789 [label=<<table title="org.universAAL.ontology.device.Actuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Actuator.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Actuator </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./Actuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.DoorController
-	c3637803 [label=<<table title="org.universAAL.ontology.device.DoorController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DoorController.html">
+	c3741153 [label=<<table title="org.universAAL.ontology.device.DoorController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DoorController.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DoorController </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DoorController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.DoorActuator
-	c3637811 [label=<<table title="org.universAAL.ontology.device.DoorActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DoorActuator.html">
+	c3741177 [label=<<table title="org.universAAL.ontology.device.DoorActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DoorActuator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DoorActuator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DoorActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.Actuator
+	c3741179 [label=<<table title="org.universAAL.ontology.device.Actuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Actuator.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Actuator </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./Actuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.device.DoorController extends org.universAAL.ontology.device.DoorActuator
-	c3637811:p -> c3637803:p [dir=back,arrowtail=empty];
+	c3741177:p -> c3741153:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.device.DoorActuator extends org.universAAL.ontology.device.Actuator
-	c3637789:p -> c3637811:p [dir=back,arrowtail=empty];
+	c3741179:p -> c3741177:p [dir=back,arrowtail=empty];
 }
 

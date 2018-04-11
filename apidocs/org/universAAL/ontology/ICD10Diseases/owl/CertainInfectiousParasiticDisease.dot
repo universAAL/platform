@@ -9,19 +9,19 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.disease.owl.Disease
-	c2628626 [label=<<table title="org.universAAL.ontology.disease.owl.Disease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../disease/owl/Disease.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Disease </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../disease/owl/Disease.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.ICD10Diseases.owl.CertainInfectiousParasiticDisease
-	c2628636 [label=<<table title="org.universAAL.ontology.ICD10Diseases.owl.CertainInfectiousParasiticDisease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CertainInfectiousParasiticDisease.html">
+	c2716071 [label=<<table title="org.universAAL.ontology.ICD10Diseases.owl.CertainInfectiousParasiticDisease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CertainInfectiousParasiticDisease.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CertainInfectiousParasiticDisease </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CertainInfectiousParasiticDisease.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.disease.owl.Disease
+	c2716086 [label=<<table title="org.universAAL.ontology.disease.owl.Disease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../disease/owl/Disease.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Disease </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../disease/owl/Disease.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.ICD10Diseases.owl.CertainInfectiousParasiticDisease extends org.universAAL.ontology.disease.owl.Disease
-	c2628626:p -> c2628636:p [dir=back,arrowtail=empty];
+	c2716086:p -> c2716071:p [dir=back,arrowtail=empty];
 }
 

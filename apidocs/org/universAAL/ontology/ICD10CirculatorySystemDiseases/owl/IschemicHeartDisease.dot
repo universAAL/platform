@@ -9,19 +9,19 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.ICD10Diseases.owl.CirculatorySystemDisease
-	c4846578 [label=<<table title="org.universAAL.ontology.ICD10Diseases.owl.CirculatorySystemDisease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ICD10Diseases/owl/CirculatorySystemDisease.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> CirculatorySystemDisease </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ICD10Diseases/owl/CirculatorySystemDisease.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.IschemicHeartDisease
-	c4846584 [label=<<table title="org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.IschemicHeartDisease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IschemicHeartDisease.html">
+	c4975534 [label=<<table title="org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.IschemicHeartDisease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IschemicHeartDisease.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> IschemicHeartDisease </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IschemicHeartDisease.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.ICD10Diseases.owl.CirculatorySystemDisease
+	c4975541 [label=<<table title="org.universAAL.ontology.ICD10Diseases.owl.CirculatorySystemDisease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ICD10Diseases/owl/CirculatorySystemDisease.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> CirculatorySystemDisease </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ICD10Diseases/owl/CirculatorySystemDisease.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.IschemicHeartDisease extends org.universAAL.ontology.ICD10Diseases.owl.CirculatorySystemDisease
-	c4846578:p -> c4846584:p [dir=back,arrowtail=empty];
+	c4975541:p -> c4975534:p [dir=back,arrowtail=empty];
 }
 

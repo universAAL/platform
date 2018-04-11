@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.rdf.ResourceFactory
-	c4323600 [label=<<table title="org.universAAL.middleware.rdf.ResourceFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/rdf/ResourceFactory.html">
+	c4442750 [label=<<table title="org.universAAL.middleware.rdf.ResourceFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/rdf/ResourceFactory.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ResourceFactory </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/rdf/ResourceFactory.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.healthmeasurement.HealthMeasurementFactory
-	c4324519 [label=<<table title="org.universAAL.ontology.healthmeasurement.HealthMeasurementFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HealthMeasurementFactory.html">
+	c4443715 [label=<<table title="org.universAAL.ontology.healthmeasurement.HealthMeasurementFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HealthMeasurementFactory.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HealthMeasurementFactory </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HealthMeasurementFactory.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.healthmeasurement.HealthMeasurementFactory implements org.universAAL.middleware.rdf.ResourceFactory
-	c4323600:p -> c4324519:p [dir=back,arrowtail=empty,style=dashed];
+	c4442750:p -> c4443715:p [dir=back,arrowtail=empty,style=dashed];
 }
 

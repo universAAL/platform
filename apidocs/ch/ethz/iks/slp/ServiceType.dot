@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// ch.ethz.iks.slp.ServiceType
-	c7454116 [label=<<table title="ch.ethz.iks.slp.ServiceType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ServiceType.html">
+	c7640717 [label=<<table title="ch.ethz.iks.slp.ServiceType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ServiceType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ServiceType </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ServiceType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//ch.ethz.iks.slp.ServiceType implements java.io.Serializable
-	c7455745:p -> c7454116:p [dir=back,arrowtail=empty,style=dashed];
+	c7642350:p -> c7640717:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Serializable
-	c7455745 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c7642350 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>

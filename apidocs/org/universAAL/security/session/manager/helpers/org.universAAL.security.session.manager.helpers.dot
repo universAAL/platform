@@ -9,43 +9,43 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.security.session.manager.helpers.SerializerGetter
-	c898893 [label=<<table title="org.universAAL.security.session.manager.helpers.SerializerGetter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SerializerGetter.html">
+	// org.universAAL.security.session.manager.helpers.UserLocationTree
+	c953936 [label=<<table title="org.universAAL.security.session.manager.helpers.UserLocationTree" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UserLocationTree.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> SerializerGetter </td></tr>
+<tr><td align="center" balign="center"> UserLocationTree </td></tr>
 		</table></td></tr>
-		</table>>, URL="./SerializerGetter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./UserLocationTree.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.security.session.manager.helpers.UserLocationTreeRoot
+	c953937 [label=<<table title="org.universAAL.security.session.manager.helpers.UserLocationTreeRoot" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UserLocationTreeRoot.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> UserLocationTreeRoot </td></tr>
+		</table></td></tr>
+		</table>>, URL="./UserLocationTreeRoot.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.security.session.manager.helpers.LocationTreeWrapper
+	c953938 [label=<<table title="org.universAAL.security.session.manager.helpers.LocationTreeWrapper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LocationTreeWrapper.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> LocationTreeWrapper </td></tr>
+		</table></td></tr>
+		</table>>, URL="./LocationTreeWrapper.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.security.session.manager.helpers.CHeQuery
-	c898894 [label=<<table title="org.universAAL.security.session.manager.helpers.CHeQuery" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CHeQuery.html">
+	c953939 [label=<<table title="org.universAAL.security.session.manager.helpers.CHeQuery" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CHeQuery.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CHeQuery </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CHeQuery.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.security.session.manager.helpers.UserDeviceWrapper
-	c898895 [label=<<table title="org.universAAL.security.session.manager.helpers.UserDeviceWrapper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UserDeviceWrapper.html">
+	c953940 [label=<<table title="org.universAAL.security.session.manager.helpers.UserDeviceWrapper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UserDeviceWrapper.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UserDeviceWrapper </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UserDeviceWrapper.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.security.session.manager.helpers.UserLocationTreeRoot
-	c898896 [label=<<table title="org.universAAL.security.session.manager.helpers.UserLocationTreeRoot" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UserLocationTreeRoot.html">
+	// org.universAAL.security.session.manager.helpers.SerializerGetter
+	c953941 [label=<<table title="org.universAAL.security.session.manager.helpers.SerializerGetter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SerializerGetter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> UserLocationTreeRoot </td></tr>
+<tr><td align="center" balign="center"> SerializerGetter </td></tr>
 		</table></td></tr>
-		</table>>, URL="./UserLocationTreeRoot.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.security.session.manager.helpers.UserLocationTree
-	c898897 [label=<<table title="org.universAAL.security.session.manager.helpers.UserLocationTree" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UserLocationTree.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> UserLocationTree </td></tr>
-		</table></td></tr>
-		</table>>, URL="./UserLocationTree.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.security.session.manager.helpers.LocationTreeWrapper
-	c898898 [label=<<table title="org.universAAL.security.session.manager.helpers.LocationTreeWrapper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LocationTreeWrapper.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> LocationTreeWrapper </td></tr>
-		</table></td></tr>
-		</table>>, URL="./LocationTreeWrapper.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./SerializerGetter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.security.session.manager.helpers.UserLocationTree extends org.universAAL.security.session.manager.helpers.LocationTreeWrapper
-	c898898:p -> c898897:p [dir=back,arrowtail=empty];
+	c953938:p -> c953936:p [dir=back,arrowtail=empty];
 }
 

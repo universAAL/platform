@@ -9,19 +9,19 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.disease.owl.Disease
-	c5899308 [label=<<table title="org.universAAL.ontology.disease.owl.Disease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../disease/owl/Disease.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Disease </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../disease/owl/Disease.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.ICD10Diseases.owl.Neoplasms
-	c5899316 [label=<<table title="org.universAAL.ontology.ICD10Diseases.owl.Neoplasms" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Neoplasms.html">
+	c6053869 [label=<<table title="org.universAAL.ontology.ICD10Diseases.owl.Neoplasms" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Neoplasms.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Neoplasms </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Neoplasms.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.disease.owl.Disease
+	c6053883 [label=<<table title="org.universAAL.ontology.disease.owl.Disease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../disease/owl/Disease.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Disease </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../disease/owl/Disease.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.ICD10Diseases.owl.Neoplasms extends org.universAAL.ontology.disease.owl.Disease
-	c5899308:p -> c5899316:p [dir=back,arrowtail=empty];
+	c6053883:p -> c6053869:p [dir=back,arrowtail=empty];
 }
 

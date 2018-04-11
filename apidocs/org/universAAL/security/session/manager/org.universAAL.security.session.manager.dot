@@ -9,18 +9,18 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
+	// org.universAAL.security.session.manager.ManagerActivator
+	c950996 [label=<<table title="org.universAAL.security.session.manager.ManagerActivator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ManagerActivator.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ManagerActivator </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ManagerActivator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.security.session.manager.SessionManager
-	c904671 [label=<<table title="org.universAAL.security.session.manager.SessionManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SessionManager.html">
+	c950997 [label=<<table title="org.universAAL.security.session.manager.SessionManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SessionManager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> SessionManager </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SessionManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.security.session.manager.ManagerActivator
-	c904672 [label=<<table title="org.universAAL.security.session.manager.ManagerActivator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ManagerActivator.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ManagerActivator </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ManagerActivator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

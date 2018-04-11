@@ -10,34 +10,34 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.cryptographic.CryptographicTechnique
-	c3730477 [label=<<table title="org.universAAL.ontology.cryptographic.CryptographicTechnique" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CryptographicTechnique.html">
+	c3835602 [label=<<table title="org.universAAL.ontology.cryptographic.CryptographicTechnique" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CryptographicTechnique.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> CryptographicTechnique </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./CryptographicTechnique.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.cryptographic.AsymmetricEncryption
-	c3730481 [label=<<table title="org.universAAL.ontology.cryptographic.AsymmetricEncryption" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AsymmetricEncryption.html">
+	c3835605 [label=<<table title="org.universAAL.ontology.cryptographic.AsymmetricEncryption" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AsymmetricEncryption.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AsymmetricEncryption </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AsymmetricEncryption.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.cryptographic.Encryption
-	c3730483 [label=<<table title="org.universAAL.ontology.cryptographic.Encryption" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Encryption.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Encryption </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./Encryption.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.cryptographic.SymmetricEncryption
-	c3730490 [label=<<table title="org.universAAL.ontology.cryptographic.SymmetricEncryption" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SymmetricEncryption.html">
+	c3835614 [label=<<table title="org.universAAL.ontology.cryptographic.SymmetricEncryption" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SymmetricEncryption.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> SymmetricEncryption </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./SymmetricEncryption.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.cryptographic.Encryption
+	c3835622 [label=<<table title="org.universAAL.ontology.cryptographic.Encryption" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Encryption.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Encryption </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./Encryption.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.cryptographic.AsymmetricEncryption extends org.universAAL.ontology.cryptographic.Encryption
-	c3730483:p -> c3730481:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.cryptographic.Encryption extends org.universAAL.ontology.cryptographic.CryptographicTechnique
-	c3730477:p -> c3730483:p [dir=back,arrowtail=empty];
+	c3835622:p -> c3835605:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.cryptographic.SymmetricEncryption extends org.universAAL.ontology.cryptographic.Encryption
-	c3730483:p -> c3730490:p [dir=back,arrowtail=empty];
+	c3835622:p -> c3835614:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.cryptographic.Encryption extends org.universAAL.ontology.cryptographic.CryptographicTechnique
+	c3835602:p -> c3835622:p [dir=back,arrowtail=empty];
 }
 

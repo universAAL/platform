@@ -10,66 +10,66 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c6449278 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../owl/ManagedIndividual.html">
+	c6614126 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.owl.Preference
-	c6449645 [label=<<table title="org.universAAL.middleware.ui.owl.Preference" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Preference.html">
+	c6614463 [label=<<table title="org.universAAL.middleware.ui.owl.Preference" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Preference.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Preference </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Preference.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ui.preferences.GeneralInteractionPreferences
-	c6450084 [label=<<table title="org.universAAL.ontology.ui.preferences.GeneralInteractionPreferences" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/ui/preferences/GeneralInteractionPreferences.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> GeneralInteractionPreferences </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../../ontology/ui/preferences/GeneralInteractionPreferences.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ui.preferences.AccessMode
-	c6450085 [label=<<table title="org.universAAL.ontology.ui.preferences.AccessMode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/ui/preferences/AccessMode.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> AccessMode </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../../ontology/ui/preferences/AccessMode.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ui.preferences.AuditoryPreferences
-	c6450089 [label=<<table title="org.universAAL.ontology.ui.preferences.AuditoryPreferences" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/ui/preferences/AuditoryPreferences.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> AuditoryPreferences </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../../ontology/ui/preferences/AuditoryPreferences.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.ui.preferences.VisualPreferences
-	c6450092 [label=<<table title="org.universAAL.ontology.ui.preferences.VisualPreferences" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/ui/preferences/VisualPreferences.html">
+	c6614954 [label=<<table title="org.universAAL.ontology.ui.preferences.VisualPreferences" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/ui/preferences/VisualPreferences.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> VisualPreferences </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../ontology/ui/preferences/VisualPreferences.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ui.preferences.SystemMenuPreferences
-	c6450094 [label=<<table title="org.universAAL.ontology.ui.preferences.SystemMenuPreferences" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/ui/preferences/SystemMenuPreferences.html">
+	// org.universAAL.ontology.ui.preferences.AccessMode
+	c6614956 [label=<<table title="org.universAAL.ontology.ui.preferences.AccessMode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/ui/preferences/AccessMode.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> SystemMenuPreferences </td></tr>
+<tr><td align="center" balign="center"> AccessMode </td></tr>
 		</table></td></tr>
-		</table>>, URL="../../../ontology/ui/preferences/SystemMenuPreferences.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="../../../ontology/ui/preferences/AccessMode.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.ui.preferences.AlertPreferences
-	c6450099 [label=<<table title="org.universAAL.ontology.ui.preferences.AlertPreferences" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/ui/preferences/AlertPreferences.html">
+	c6614961 [label=<<table title="org.universAAL.ontology.ui.preferences.AlertPreferences" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/ui/preferences/AlertPreferences.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AlertPreferences </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../ontology/ui/preferences/AlertPreferences.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.ui.preferences.AuditoryPreferences
+	c6614965 [label=<<table title="org.universAAL.ontology.ui.preferences.AuditoryPreferences" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/ui/preferences/AuditoryPreferences.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> AuditoryPreferences </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../../ontology/ui/preferences/AuditoryPreferences.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.ui.preferences.GeneralInteractionPreferences
+	c6614968 [label=<<table title="org.universAAL.ontology.ui.preferences.GeneralInteractionPreferences" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/ui/preferences/GeneralInteractionPreferences.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> GeneralInteractionPreferences </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../../ontology/ui/preferences/GeneralInteractionPreferences.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.ui.preferences.SystemMenuPreferences
+	c6614972 [label=<<table title="org.universAAL.ontology.ui.preferences.SystemMenuPreferences" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/ui/preferences/SystemMenuPreferences.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> SystemMenuPreferences </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../../ontology/ui/preferences/SystemMenuPreferences.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.ui.owl.Preference extends org.universAAL.middleware.owl.ManagedIndividual
-	c6449278:p -> c6449645:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.ui.preferences.GeneralInteractionPreferences extends org.universAAL.middleware.ui.owl.Preference
-	c6449645:p -> c6450084:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.ui.preferences.AccessMode extends org.universAAL.middleware.ui.owl.Preference
-	c6449645:p -> c6450085:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.ui.preferences.AuditoryPreferences extends org.universAAL.middleware.ui.owl.Preference
-	c6449645:p -> c6450089:p [dir=back,arrowtail=empty];
+	c6614126:p -> c6614463:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.ui.preferences.VisualPreferences extends org.universAAL.middleware.ui.owl.Preference
-	c6449645:p -> c6450092:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.ui.preferences.SystemMenuPreferences extends org.universAAL.middleware.ui.owl.Preference
-	c6449645:p -> c6450094:p [dir=back,arrowtail=empty];
+	c6614463:p -> c6614954:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.ui.preferences.AccessMode extends org.universAAL.middleware.ui.owl.Preference
+	c6614463:p -> c6614956:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.ui.preferences.AlertPreferences extends org.universAAL.middleware.ui.owl.Preference
-	c6449645:p -> c6450099:p [dir=back,arrowtail=empty];
+	c6614463:p -> c6614961:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.ui.preferences.AuditoryPreferences extends org.universAAL.middleware.ui.owl.Preference
+	c6614463:p -> c6614965:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.ui.preferences.GeneralInteractionPreferences extends org.universAAL.middleware.ui.owl.Preference
+	c6614463:p -> c6614968:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.ui.preferences.SystemMenuPreferences extends org.universAAL.middleware.ui.owl.Preference
+	c6614463:p -> c6614972:p [dir=back,arrowtail=empty];
 }
 

@@ -9,56 +9,56 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.support.directives.api.AbstractCheckMojo
-	c0 [label=<<table title="org.universAAL.support.directives.api.AbstractCheckMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractCheckMojo.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractCheckMojo </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./AbstractCheckMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.support.directives.api.AbstractProcedureMojo
-	c1 [label=<<table title="org.universAAL.support.directives.api.AbstractProcedureMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractProcedureMojo.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractProcedureMojo </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./AbstractProcedureMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.support.directives.api.AbstractFixableCheckMojo
-	c2 [label=<<table title="org.universAAL.support.directives.api.AbstractFixableCheckMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractFixableCheckMojo.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractFixableCheckMojo </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./AbstractFixableCheckMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.support.directives.api.APIProcedure
-	c3 [label=<<table title="org.universAAL.support.directives.api.APIProcedure" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./APIProcedure.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
-<tr><td align="center" balign="center"> APIProcedure </td></tr>
-		</table></td></tr>
-		</table>>, URL="./APIProcedure.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.directives.api.APIFixableCheck
-	c4 [label=<<table title="org.universAAL.support.directives.api.APIFixableCheck" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./APIFixableCheck.html">
+	c5903 [label=<<table title="org.universAAL.support.directives.api.APIFixableCheck" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./APIFixableCheck.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> APIFixableCheck </td></tr>
 		</table></td></tr>
 		</table>>, URL="./APIFixableCheck.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.support.directives.api.AggregatedCheck
-	c5 [label=<<table title="org.universAAL.support.directives.api.AggregatedCheck" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AggregatedCheck.html">
+	// org.universAAL.support.directives.api.AbstractFixableCheckMojo
+	c5904 [label=<<table title="org.universAAL.support.directives.api.AbstractFixableCheckMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractFixableCheckMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AggregatedCheck </font></td></tr>
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractFixableCheckMojo </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="./AggregatedCheck.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./AbstractFixableCheckMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.directives.api.APICheck
-	c6 [label=<<table title="org.universAAL.support.directives.api.APICheck" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./APICheck.html">
+	c5905 [label=<<table title="org.universAAL.support.directives.api.APICheck" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./APICheck.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> APICheck </td></tr>
 		</table></td></tr>
 		</table>>, URL="./APICheck.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.support.directives.api.AbstractFixableCheckMojo extends org.universAAL.support.directives.api.AbstractCheckMojo
-	c0:p -> c2:p [dir=back,arrowtail=empty];
+	// org.universAAL.support.directives.api.AggregatedCheck
+	c5906 [label=<<table title="org.universAAL.support.directives.api.AggregatedCheck" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AggregatedCheck.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AggregatedCheck </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./AggregatedCheck.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.support.directives.api.APIProcedure
+	c5907 [label=<<table title="org.universAAL.support.directives.api.APIProcedure" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./APIProcedure.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
+<tr><td align="center" balign="center"> APIProcedure </td></tr>
+		</table></td></tr>
+		</table>>, URL="./APIProcedure.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.support.directives.api.AbstractCheckMojo
+	c5908 [label=<<table title="org.universAAL.support.directives.api.AbstractCheckMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractCheckMojo.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractCheckMojo </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./AbstractCheckMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.support.directives.api.AbstractProcedureMojo
+	c5909 [label=<<table title="org.universAAL.support.directives.api.AbstractProcedureMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractProcedureMojo.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractProcedureMojo </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./AbstractProcedureMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.support.directives.api.APIFixableCheck implements org.universAAL.support.directives.api.APICheck
-	c6:p -> c4:p [dir=back,arrowtail=empty,style=dashed];
+	c5905:p -> c5903:p [dir=back,arrowtail=empty,style=dashed];
+	//org.universAAL.support.directives.api.AbstractFixableCheckMojo extends org.universAAL.support.directives.api.AbstractCheckMojo
+	c5908:p -> c5904:p [dir=back,arrowtail=empty];
 	//org.universAAL.support.directives.api.AggregatedCheck implements org.universAAL.support.directives.api.APIFixableCheck
-	c4:p -> c5:p [dir=back,arrowtail=empty,style=dashed];
+	c5903:p -> c5906:p [dir=back,arrowtail=empty,style=dashed];
 }
 

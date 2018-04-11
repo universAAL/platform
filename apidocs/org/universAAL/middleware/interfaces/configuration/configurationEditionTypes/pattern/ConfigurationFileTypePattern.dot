@@ -9,20 +9,20 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.ConfigurationFileTypePattern
-	c2904730 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.ConfigurationFileTypePattern" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigurationFileTypePattern.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ConfigurationFileTypePattern </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ConfigurationFileTypePattern.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.EntityPattern
-	c2904738 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.EntityPattern" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EntityPattern.html">
+	c2994374 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.EntityPattern" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EntityPattern.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> EntityPattern </td></tr>
 		</table></td></tr>
 		</table>>, URL="./EntityPattern.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.ConfigurationFileTypePattern
+	c2994376 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.ConfigurationFileTypePattern" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigurationFileTypePattern.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ConfigurationFileTypePattern </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ConfigurationFileTypePattern.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.ConfigurationFileTypePattern implements org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.EntityPattern
-	c2904738:p -> c2904730:p [dir=back,arrowtail=empty,style=dashed];
+	c2994374:p -> c2994376:p [dir=back,arrowtail=empty,style=dashed];
 }
 

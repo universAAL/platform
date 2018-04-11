@@ -358,7 +358,6 @@ org.universAAL.samples.lighting.uiclient.osgi
 org.universAAL.samples.sensor.simulator
 org.universAAL.samples.servbus
 org.universAAL.samples.servserver
-org.universAAL.samples.simple.ui
 org.universAAL.samples.soap.cxf.client
 org.universAAL.samples.soap.cxf.server
 org.universAAL.samples.soap.cxf.service
@@ -484,6 +483,7 @@ org.universAAL.tutorials.context.bus.subscriber
 org.universAAL.tutorials.service.bus.callee
 org.universAAL.tutorials.service.bus.caller
 org.universAAL.tutorials.service.bus.tryout
+org.universAAL.tutorials.ui.bus.uicaller
 org.universAAL.ui.dm
 org.universAAL.ui.dm.adapters
 org.universAAL.ui.dm.dialogManagement
@@ -531,5 +531,16 @@ org.universAAL.ui.handler.web.html.model
 org.universAAL.ui.handler.web.html.osgi
 org.universAAL.ui.internationalization.util
 org.universAAL.ui.resource.server
+org.universAAL.utilities.api
+org.universAAL.utilities.api.context
+org.universAAL.utilities.api.context.low
+org.universAAL.utilities.api.context.mid
+org.universAAL.utilities.api.service
+org.universAAL.utilities.api.service.low
+org.universAAL.utilities.api.service.mid
+org.universAAL.utilities.api.service.top
+org.universAAL.utilities.api.ui
+org.universAAL.utilities.api.ui.low
+org.universAAL.utilities.api.ui.mid
 org.universAAL.utilities.ioc.dependencies
 org.universAAL.utilities.ioc.dependencies.impl

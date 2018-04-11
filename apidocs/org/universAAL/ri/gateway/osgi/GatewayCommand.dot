@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ri.gateway.osgi.GatewayCommand
-	c4112147 [label=<<table title="org.universAAL.ri.gateway.osgi.GatewayCommand" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GatewayCommand.html">
+	c4227339 [label=<<table title="org.universAAL.ri.gateway.osgi.GatewayCommand" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GatewayCommand.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> GatewayCommand </td></tr>
 		</table></td></tr>
 		</table>>, URL="./GatewayCommand.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ri.gateway.osgi.GatewayCommand extends org.apache.karaf.shell.console.OsgiCommandSupport
-	c4112947:p -> c4112147:p [dir=back,arrowtail=empty];
+	c4228153:p -> c4227339:p [dir=back,arrowtail=empty];
 	// org.apache.karaf.shell.console.OsgiCommandSupport
-	c4112947 [label=<<table title="org.apache.karaf.shell.console.OsgiCommandSupport" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/apache/karaf/shell/console/OsgiCommandSupport.html">
+	c4228153 [label=<<table title="org.apache.karaf.shell.console.OsgiCommandSupport" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/apache/karaf/shell/console/OsgiCommandSupport.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> OsgiCommandSupport </font></td></tr>
 		</table></td></tr>

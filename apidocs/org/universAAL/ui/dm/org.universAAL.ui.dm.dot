@@ -9,29 +9,29 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ui.dm.LocalizedMessagesURLProvider
-	c1051952 [label=<<table title="org.universAAL.ui.dm.LocalizedMessagesURLProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LocalizedMessagesURLProvider.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> LocalizedMessagesURLProvider </td></tr>
-		</table></td></tr>
-		</table>>, URL="./LocalizedMessagesURLProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ui.dm.DMServiceCaller
-	c1051953 [label=<<table title="org.universAAL.ui.dm.DMServiceCaller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DMServiceCaller.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DMServiceCaller </td></tr>
-		</table></td></tr>
-		</table>>, URL="./DMServiceCaller.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ui.dm.UserDialogManager
-	c1051954 [label=<<table title="org.universAAL.ui.dm.UserDialogManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UserDialogManager.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> UserDialogManager </td></tr>
-		</table></td></tr>
-		</table>>, URL="./UserDialogManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.DialogManagerImpl
-	c1051955 [label=<<table title="org.universAAL.ui.dm.DialogManagerImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DialogManagerImpl.html">
+	c1121627 [label=<<table title="org.universAAL.ui.dm.DialogManagerImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DialogManagerImpl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DialogManagerImpl </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DialogManagerImpl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ui.dm.UserDialogManager
+	c1121628 [label=<<table title="org.universAAL.ui.dm.UserDialogManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UserDialogManager.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> UserDialogManager </td></tr>
+		</table></td></tr>
+		</table>>, URL="./UserDialogManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ui.dm.DMServiceCaller
+	c1121629 [label=<<table title="org.universAAL.ui.dm.DMServiceCaller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DMServiceCaller.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> DMServiceCaller </td></tr>
+		</table></td></tr>
+		</table>>, URL="./DMServiceCaller.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ui.dm.LocalizedMessagesURLProvider
+	c1121630 [label=<<table title="org.universAAL.ui.dm.LocalizedMessagesURLProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LocalizedMessagesURLProvider.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> LocalizedMessagesURLProvider </td></tr>
+		</table></td></tr>
+		</table>>, URL="./LocalizedMessagesURLProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

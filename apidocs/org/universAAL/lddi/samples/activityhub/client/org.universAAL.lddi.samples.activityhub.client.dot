@@ -9,29 +9,29 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.lddi.samples.activityhub.client.Activator
-	c1222406 [label=<<table title="org.universAAL.lddi.samples.activityhub.client.Activator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Activator.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Activator </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Activator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.samples.activityhub.client.ActivityHubClient
-	c1222407 [label=<<table title="org.universAAL.lddi.samples.activityhub.client.ActivityHubClient" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ActivityHubClient.html">
+	c1274679 [label=<<table title="org.universAAL.lddi.samples.activityhub.client.ActivityHubClient" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ActivityHubClient.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ActivityHubClient </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ActivityHubClient.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.lddi.samples.activityhub.client.MyActivityHubServiceConsumer
-	c1222408 [label=<<table title="org.universAAL.lddi.samples.activityhub.client.MyActivityHubServiceConsumer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MyActivityHubServiceConsumer.html">
+	// org.universAAL.lddi.samples.activityhub.client.Activator
+	c1274680 [label=<<table title="org.universAAL.lddi.samples.activityhub.client.Activator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Activator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> MyActivityHubServiceConsumer </td></tr>
+<tr><td align="center" balign="center"> Activator </td></tr>
 		</table></td></tr>
-		</table>>, URL="./MyActivityHubServiceConsumer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./Activator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.samples.activityhub.client.MyActivityHubContextListener
-	c1222409 [label=<<table title="org.universAAL.lddi.samples.activityhub.client.MyActivityHubContextListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MyActivityHubContextListener.html">
+	c1274681 [label=<<table title="org.universAAL.lddi.samples.activityhub.client.MyActivityHubContextListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MyActivityHubContextListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MyActivityHubContextListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MyActivityHubContextListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.lddi.samples.activityhub.client.MyActivityHubServiceConsumer
+	c1274682 [label=<<table title="org.universAAL.lddi.samples.activityhub.client.MyActivityHubServiceConsumer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MyActivityHubServiceConsumer.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> MyActivityHubServiceConsumer </td></tr>
+		</table></td></tr>
+		</table>>, URL="./MyActivityHubServiceConsumer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

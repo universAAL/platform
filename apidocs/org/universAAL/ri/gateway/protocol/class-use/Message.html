@@ -89,19 +89,27 @@
 </td>
 </tr>
 <tr class="rowColor">
+<td class="colFirst"><a href="#org.universAAL.ri.gateway.communication.cipher">org.universAAL.ri.gateway.communication.cipher</a></td>
+<td class="colLast">&nbsp;</td>
+</tr>
+<tr class="altColor">
 <td class="colFirst"><a href="#org.universAAL.ri.gateway.communicator.service">org.universAAL.ri.gateway.communicator.service</a></td>
 <td class="colLast">&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><a href="#org.universAAL.ri.gateway.communicator.service.impl">org.universAAL.ri.gateway.communicator.service.impl</a></td>
 <td class="colLast">&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><a href="#org.universAAL.ri.gateway.protocol">org.universAAL.ri.gateway.protocol</a></td>
 <td class="colLast">&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><a href="#org.universAAL.ri.gateway.protocol.link">org.universAAL.ri.gateway.protocol.link</a></td>
+<td class="colLast">&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><a href="#org.universAAL.ri.gateway.proxies">org.universAAL.ri.gateway.proxies</a></td>
 <td class="colLast">&nbsp;</td>
 </tr>
 </tbody>
@@ -135,14 +143,14 @@
 <tbody>
 <tr class="altColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">ProxyMessageReceiver.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/ProxyMessageReceiver.html#handleMessage-org.universAAL.ri.gateway.protocol.Message-">handleMessage</a></span>(<a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;msg)</code>&nbsp;</td>
-</tr>
-<tr class="rowColor">
-<td class="colFirst"><code>void</code></td>
 <td class="colLast"><span class="typeNameLabel">Session.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/Session.html#handleMessage-org.universAAL.ri.gateway.protocol.Message-">handleMessage</a></span>(<a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;msg)</code>
 <div class="block">Receives the Message from the communication layer, delivering it to the
  appropriate subcomponent.</div>
 </td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><span class="typeNameLabel">ProxyMessageReceiver.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/ProxyMessageReceiver.html#handleMessage-org.universAAL.ri.gateway.protocol.Message-">handleMessage</a></span>(<a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;msg)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>void</code></td>
@@ -155,26 +163,94 @@
 </tbody>
 </table>
 </li>
-<li class="blockList"><a name="org.universAAL.ri.gateway.communicator.service">
+<li class="blockList"><a name="org.universAAL.ri.gateway.communication.cipher">
 <!--   -->
 </a>
-<h3>Uses of <a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a> in <a href="../../../../../../org/universAAL/ri/gateway/communicator/service/package-summary.html">org.universAAL.ri.gateway.communicator.service</a></h3>
+<h3>Uses of <a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a> in <a href="../../../../../../org/universAAL/ri/gateway/communication/cipher/package-summary.html">org.universAAL.ri.gateway.communication.cipher</a></h3>
 <table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing methods, and an explanation">
-<caption><span>Methods in <a href="../../../../../../org/universAAL/ri/gateway/communicator/service/package-summary.html">org.universAAL.ri.gateway.communicator.service</a> that return <a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a></span><span class="tabEnd">&nbsp;</span></caption>
+<caption><span>Methods in <a href="../../../../../../org/universAAL/ri/gateway/communication/cipher/package-summary.html">org.universAAL.ri.gateway.communication.cipher</a> that return <a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a></span><span class="tabEnd">&nbsp;</span></caption>
 <tr>
 <th class="colFirst" scope="col">Modifier and Type</th>
 <th class="colLast" scope="col">Method and Description</th>
 </tr>
 <tbody>
 <tr class="altColor">
-<td class="colFirst"><code>static <a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a></code></td>
-<td class="colLast"><span class="typeNameLabel">CommunicationHelper.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/communicator/service/CommunicationHelper.html#readAndDecypher-java.io.InputStream-org.universAAL.ri.gateway.communication.cipher.Cipher-">readAndDecypher</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/io/InputStream.html?is-external=true" title="class or interface in java.io">InputStream</a>&nbsp;is,
-               <a href="../../../../../../org/universAAL/ri/gateway/communication/cipher/Cipher.html" title="interface in org.universAAL.ri.gateway.communication.cipher">Cipher</a>&nbsp;cipher)</code>
+<td class="colFirst"><code><a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a></code></td>
+<td class="colLast"><span class="typeNameLabel">LegacyBlowfishCipher.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/communication/cipher/LegacyBlowfishCipher.html#readMessage--">readMessage</a></span>()</code>
 <div class="block">Read data from a stream and decrypt it and convert to a <a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol"><code>Message</code></a>.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a></code></td>
+<td class="colLast"><span class="typeNameLabel">SSLCipher.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/communication/cipher/SSLCipher.html#readMessage--">readMessage</a></span>()</code>
+<div class="block">Read the next message in the socket.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a></code></td>
+<td class="colLast"><span class="typeNameLabel">StreamCipher.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/communication/cipher/StreamCipher.html#readMessage--">readMessage</a></span>()</code>
+<div class="block">Read the next message in the socket.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a></code></td>
+<td class="colLast"><span class="typeNameLabel">ClearTextCipher.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/communication/cipher/ClearTextCipher.html#readMessage--">readMessage</a></span>()</code>
+<div class="block">Read the next message in the socket.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a></code></td>
+<td class="colLast"><span class="typeNameLabel">SocketCipher.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/communication/cipher/SocketCipher.html#readMessage--">readMessage</a></span>()</code>
+<div class="block">Read the next message in the socket.</div>
 </td>
 </tr>
 </tbody>
 </table>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing methods, and an explanation">
+<caption><span>Methods in <a href="../../../../../../org/universAAL/ri/gateway/communication/cipher/package-summary.html">org.universAAL.ri.gateway.communication.cipher</a> with parameters of type <a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">LegacyBlowfishCipher.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/communication/cipher/LegacyBlowfishCipher.html#sendMessage-org.universAAL.ri.gateway.protocol.Message-">sendMessage</a></span>(<a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;m)</code>
+<div class="block">This method encrypt and send the given data by adding at the begging of
+ the encrypted data the length of the data that will be sent</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">SSLCipher.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/communication/cipher/SSLCipher.html#sendMessage-org.universAAL.ri.gateway.protocol.Message-">sendMessage</a></span>(<a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;m)</code>
+<div class="block">Marshalls, ciphers and sends the message.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">StreamCipher.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/communication/cipher/StreamCipher.html#sendMessage-org.universAAL.ri.gateway.protocol.Message-">sendMessage</a></span>(<a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;m)</code>
+<div class="block">Marshalls, ciphers and sends the message.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">ClearTextCipher.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/communication/cipher/ClearTextCipher.html#sendMessage-org.universAAL.ri.gateway.protocol.Message-">sendMessage</a></span>(<a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;m)</code>
+<div class="block">Marshalls, ciphers and sends the message.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">SocketCipher.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/communication/cipher/SocketCipher.html#sendMessage-org.universAAL.ri.gateway.protocol.Message-">sendMessage</a></span>(<a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;m)</code>
+<div class="block">Marshalls, ciphers and sends the message.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList"><a name="org.universAAL.ri.gateway.communicator.service">
+<!--   -->
+</a>
+<h3>Uses of <a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a> in <a href="../../../../../../org/universAAL/ri/gateway/communicator/service/package-summary.html">org.universAAL.ri.gateway.communicator.service</a></h3>
 <table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing methods, and an explanation">
 <caption><span>Methods in <a href="../../../../../../org/universAAL/ri/gateway/communicator/service/package-summary.html">org.universAAL.ri.gateway.communicator.service</a> with parameters of type <a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a></span><span class="tabEnd">&nbsp;</span></caption>
 <tr>
@@ -183,30 +259,10 @@
 </tr>
 <tbody>
 <tr class="altColor">
-<td class="colFirst"><code>static void</code></td>
-<td class="colLast"><span class="typeNameLabel">CommunicationHelper.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/communicator/service/CommunicationHelper.html#cypherAndSend-org.universAAL.ri.gateway.protocol.Message-java.io.OutputStream-org.universAAL.ri.gateway.communication.cipher.Cipher-">cypherAndSend</a></span>(<a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;msg,
-             <a href="http://docs.oracle.com/javase/8/docs/api/java/io/OutputStream.html?is-external=true" title="class or interface in java.io">OutputStream</a>&nbsp;out,
-             <a href="../../../../../../org/universAAL/ri/gateway/communication/cipher/Cipher.html" title="interface in org.universAAL.ri.gateway.communication.cipher">Cipher</a>&nbsp;cipher)</code>
-<div class="block">This method encrypt and send the given data by adding at the begging of
- the encrypted data the length of the data that will be sent</div>
-</td>
-</tr>
-<tr class="rowColor">
-<td class="colFirst"><code>void</code></td>
+<td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><span class="typeNameLabel">CommunicationHandler.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/communicator/service/CommunicationHandler.html#sendMessage-org.universAAL.ri.gateway.protocol.Message-java.lang.String-">sendMessage</a></span>(<a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;msg,
            <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;scope)</code>
 <div class="block">Send the given message to a specific scope</div>
-</td>
-</tr>
-<tr class="altColor">
-<td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">CommunicationHandler.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/communicator/service/CommunicationHandler.html#sendMessage-org.universAAL.ri.gateway.protocol.Message-java.lang.String:A-">sendMessage</a></span>(<a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;msg,
-           <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;scope)</code>
-<div class="block"><span class="deprecatedLabel">Deprecated.</span>&nbsp;
-<div class="block"><span class="deprecationComment"><a href="../../../../../../org/universAAL/ri/gateway/communicator/service/CommunicationHandler.html#sendMessage-org.universAAL.ri.gateway.protocol.Message-java.lang.String-"><code>CommunicationHandler.sendMessage(Message, String)</code></a> should be used because
-             the Gateway will perform security check for simulating
-             multi-casting or broad-casting when needed</span></div>
-</div>
 </td>
 </tr>
 </tbody>
@@ -224,12 +280,8 @@
 </tr>
 <tbody>
 <tr class="altColor">
-<td class="colFirst"><code>protected abstract <a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a></code></td>
-<td class="colLast"><span class="typeNameLabel">AbstractLinkHandler.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/communicator/service/impl/AbstractLinkHandler.html#getNextMessage-java.io.InputStream-">getNextMessage</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/io/InputStream.html?is-external=true" title="class or interface in java.io">InputStream</a>&nbsp;in)</code>&nbsp;</td>
-</tr>
-<tr class="rowColor">
 <td class="colFirst"><code>protected <a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a></code></td>
-<td class="colLast"><span class="typeNameLabel">AbstractSocketCommunicationHandler.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/communicator/service/impl/AbstractSocketCommunicationHandler.html#readMessage-java.io.InputStream-">readMessage</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/io/InputStream.html?is-external=true" title="class or interface in java.io">InputStream</a>&nbsp;in)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">AbstractSocketCommunicationHandler.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/communicator/service/impl/AbstractSocketCommunicationHandler.html#readMessage--">readMessage</a></span>()</code>&nbsp;</td>
 </tr>
 </tbody>
 </table>
@@ -249,14 +301,9 @@
 <td class="colLast"><span class="typeNameLabel">AbstractLinkHandler.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/communicator/service/impl/AbstractLinkHandler.html#handleSessionProtocol-org.universAAL.ri.gateway.protocol.Message-">handleSessionProtocol</a></span>(<a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;msg)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code>void</code></td>
+<td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><span class="typeNameLabel">AbstractSocketCommunicationHandler.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/communicator/service/impl/AbstractSocketCommunicationHandler.html#sendMessage-org.universAAL.ri.gateway.protocol.Message-java.lang.String-">sendMessage</a></span>(<a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;msg,
            <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;scope)</code>&nbsp;</td>
-</tr>
-<tr class="rowColor">
-<td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">AbstractSocketCommunicationHandler.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/communicator/service/impl/AbstractSocketCommunicationHandler.html#sendMessage-org.universAAL.ri.gateway.protocol.Message-java.lang.String:A-">sendMessage</a></span>(<a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;msg,
-           <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;scopes)</code>&nbsp;</td>
 </tr>
 </tbody>
 </table>
@@ -397,6 +444,32 @@
 </tbody>
 </table>
 </li>
+<li class="blockList"><a name="org.universAAL.ri.gateway.proxies">
+<!--   -->
+</a>
+<h3>Uses of <a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a> in <a href="../../../../../../org/universAAL/ri/gateway/proxies/package-summary.html">org.universAAL.ri.gateway.proxies</a></h3>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing methods, and an explanation">
+<caption><span>Methods in <a href="../../../../../../org/universAAL/ri/gateway/proxies/package-summary.html">org.universAAL.ri.gateway.proxies</a> that return <a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a></code></td>
+<td class="colLast"><span class="typeNameLabel">BusMemberReference.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/proxies/BusMemberReference.html#sendRequest-org.universAAL.middleware.rdf.ScopedResource-">sendRequest</a></span>(<a href="../../../../../../org/universAAL/middleware/rdf/ScopedResource.html" title="class in org.universAAL.middleware.rdf">ScopedResource</a>&nbsp;message)</code>
+<div class="block">To be used by <a href="../../../../../../org/universAAL/ri/gateway/proxies/ProxyBusMember.html" title="interface in org.universAAL.ri.gateway.proxies"><code>ProxyBusMember</code></a>s.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a></code></td>
+<td class="colLast"><span class="typeNameLabel">BusMemberReferenceTemporal.</span><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/proxies/BusMemberReferenceTemporal.html#sendRequest-org.universAAL.middleware.rdf.ScopedResource-">sendRequest</a></span>(<a href="../../../../../../org/universAAL/middleware/rdf/ScopedResource.html" title="class in org.universAAL.middleware.rdf">ScopedResource</a>&nbsp;message)</code>
+<div class="block">To be used by <a href="../../../../../../org/universAAL/ri/gateway/proxies/ProxyBusMember.html" title="interface in org.universAAL.ri.gateway.proxies"><code>ProxyBusMember</code></a>s.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
 </ul>
 </li>
 </ul>
@@ -448,6 +521,6 @@
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2017 <a href="http://www.universAAL.org/">universAAL Consortium</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2018 <a href="http://www.universAAL.org/">universAAL Consortium</a>. All rights reserved.</small></p>
 </body>
 </html>

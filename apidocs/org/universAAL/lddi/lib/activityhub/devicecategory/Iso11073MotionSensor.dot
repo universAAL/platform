@@ -10,36 +10,36 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.lddi.lib.activityhub.devicemodel.MotionSensor
-	c4873212 [label=<<table title="org.universAAL.lddi.lib.activityhub.devicemodel.MotionSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../devicemodel/MotionSensor.html">
+	c5002664 [label=<<table title="org.universAAL.lddi.lib.activityhub.devicemodel.MotionSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../devicemodel/MotionSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MotionSensor </td></tr>
 		</table></td></tr>
 		</table>>, URL="../devicemodel/MotionSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.lib.activityhub.devicecategory.ActivityHubBaseDeviceCategory
-	c4873236 [label=<<table title="org.universAAL.lddi.lib.activityhub.devicecategory.ActivityHubBaseDeviceCategory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ActivityHubBaseDeviceCategory.html">
+	c5002681 [label=<<table title="org.universAAL.lddi.lib.activityhub.devicecategory.ActivityHubBaseDeviceCategory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ActivityHubBaseDeviceCategory.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ActivityHubBaseDeviceCategory </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ActivityHubBaseDeviceCategory.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.lib.activityhub.devicecategory.Iso11073MotionSensor
-	c4873239 [label=<<table title="org.universAAL.lddi.lib.activityhub.devicecategory.Iso11073MotionSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Iso11073MotionSensor.html">
+	c5002690 [label=<<table title="org.universAAL.lddi.lib.activityhub.devicecategory.Iso11073MotionSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Iso11073MotionSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Iso11073MotionSensor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Iso11073MotionSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.exporter.activityhub.driver.Iso11073MotionSensorInstance
-	c4873252 [label=<<table title="org.universAAL.lddi.exporter.activityhub.driver.Iso11073MotionSensorInstance" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../exporter/activityhub/driver/Iso11073MotionSensorInstance.html">
+	c5002713 [label=<<table title="org.universAAL.lddi.exporter.activityhub.driver.Iso11073MotionSensorInstance" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../exporter/activityhub/driver/Iso11073MotionSensorInstance.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Iso11073MotionSensorInstance </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../exporter/activityhub/driver/Iso11073MotionSensorInstance.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.lddi.lib.activityhub.devicemodel.MotionSensor implements org.universAAL.lddi.lib.activityhub.devicecategory.Iso11073MotionSensor
-	c4873239:p -> c4873212:p [dir=back,arrowtail=empty,style=dashed];
+	c5002690:p -> c5002664:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.lddi.lib.activityhub.devicecategory.Iso11073MotionSensor implements org.universAAL.lddi.lib.activityhub.devicecategory.ActivityHubBaseDeviceCategory
-	c4873236:p -> c4873239:p [dir=back,arrowtail=empty,style=dashed];
+	c5002681:p -> c5002690:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.lddi.exporter.activityhub.driver.Iso11073MotionSensorInstance implements org.universAAL.lddi.lib.activityhub.devicecategory.Iso11073MotionSensor
-	c4873239:p -> c4873252:p [dir=back,arrowtail=empty,style=dashed];
+	c5002690:p -> c5002713:p [dir=back,arrowtail=empty,style=dashed];
 }
 

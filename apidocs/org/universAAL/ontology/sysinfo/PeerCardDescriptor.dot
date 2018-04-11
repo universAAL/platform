@@ -9,19 +9,19 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.sysinfo.Descriptor
-	c6288817 [label=<<table title="org.universAAL.ontology.sysinfo.Descriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Descriptor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Descriptor </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Descriptor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.sysinfo.PeerCardDescriptor
-	c6288821 [label=<<table title="org.universAAL.ontology.sysinfo.PeerCardDescriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PeerCardDescriptor.html">
+	c6450666 [label=<<table title="org.universAAL.ontology.sysinfo.PeerCardDescriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PeerCardDescriptor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PeerCardDescriptor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PeerCardDescriptor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.sysinfo.Descriptor
+	c6450667 [label=<<table title="org.universAAL.ontology.sysinfo.Descriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Descriptor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Descriptor </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Descriptor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.sysinfo.PeerCardDescriptor extends org.universAAL.ontology.sysinfo.Descriptor
-	c6288817:p -> c6288821:p [dir=back,arrowtail=empty];
+	c6450667:p -> c6450666:p [dir=back,arrowtail=empty];
 }
 

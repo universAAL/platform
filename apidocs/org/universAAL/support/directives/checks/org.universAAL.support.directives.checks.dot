@@ -9,77 +9,77 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.support.directives.checks.DependencyManagementCheckFix
-	c2891 [label=<<table title="org.universAAL.support.directives.checks.DependencyManagementCheckFix" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DependencyManagementCheckFix.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DependencyManagementCheckFix </td></tr>
-		</table></td></tr>
-		</table>>, URL="./DependencyManagementCheckFix.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.support.directives.checks.FelixDepCheckFix
-	c2892 [label=<<table title="org.universAAL.support.directives.checks.FelixDepCheckFix" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FelixDepCheckFix.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> FelixDepCheckFix </td></tr>
-		</table></td></tr>
-		</table>>, URL="./FelixDepCheckFix.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.support.directives.checks.ItestsCheckFix
-	c2893 [label=<<table title="org.universAAL.support.directives.checks.ItestsCheckFix" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ItestsCheckFix.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ItestsCheckFix </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ItestsCheckFix.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.support.directives.checks.ModulesCheckFix
-	c2894 [label=<<table title="org.universAAL.support.directives.checks.ModulesCheckFix" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ModulesCheckFix.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ModulesCheckFix </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ModulesCheckFix.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.support.directives.checks.DecoupleCheck
-	c2895 [label=<<table title="org.universAAL.support.directives.checks.DecoupleCheck" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DecoupleCheck.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DecoupleCheck </td></tr>
-		</table></td></tr>
-		</table>>, URL="./DecoupleCheck.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.support.directives.checks.MavenCoordinateCheck
-	c2896 [label=<<table title="org.universAAL.support.directives.checks.MavenCoordinateCheck" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MavenCoordinateCheck.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> MavenCoordinateCheck </td></tr>
-		</table></td></tr>
-		</table>>, URL="./MavenCoordinateCheck.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.directives.checks.LicenseHeaderCheckFix
-	c2897 [label=<<table title="org.universAAL.support.directives.checks.LicenseHeaderCheckFix" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LicenseHeaderCheckFix.html">
+	c0 [label=<<table title="org.universAAL.support.directives.checks.LicenseHeaderCheckFix" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LicenseHeaderCheckFix.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LicenseHeaderCheckFix </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LicenseHeaderCheckFix.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.directives.checks.LicenseHeaderCheckFix.CommentParserState
-	c2898 [label=<<table title="org.universAAL.support.directives.checks.LicenseHeaderCheckFix.CommentParserState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LicenseHeaderCheckFix.CommentParserState.html">
+	c1 [label=<<table title="org.universAAL.support.directives.checks.LicenseHeaderCheckFix.CommentParserState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LicenseHeaderCheckFix.CommentParserState.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CommentParserState </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LicenseHeaderCheckFix.CommentParserState.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.support.directives.checks.ModulesCheckFix
+	c2 [label=<<table title="org.universAAL.support.directives.checks.ModulesCheckFix" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ModulesCheckFix.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ModulesCheckFix </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ModulesCheckFix.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.support.directives.checks.CodificationCheck
+	c3 [label=<<table title="org.universAAL.support.directives.checks.CodificationCheck" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CodificationCheck.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> CodificationCheck </td></tr>
+		</table></td></tr>
+		</table>>, URL="./CodificationCheck.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.support.directives.checks.FelixDepCheckFix
+	c4 [label=<<table title="org.universAAL.support.directives.checks.FelixDepCheckFix" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FelixDepCheckFix.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> FelixDepCheckFix </td></tr>
+		</table></td></tr>
+		</table>>, URL="./FelixDepCheckFix.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.support.directives.checks.DecoupleCheck
+	c5 [label=<<table title="org.universAAL.support.directives.checks.DecoupleCheck" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DecoupleCheck.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> DecoupleCheck </td></tr>
+		</table></td></tr>
+		</table>>, URL="./DecoupleCheck.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.directives.checks.MainMethodCheck
-	c2899 [label=<<table title="org.universAAL.support.directives.checks.MainMethodCheck" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MainMethodCheck.html">
+	c6 [label=<<table title="org.universAAL.support.directives.checks.MainMethodCheck" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MainMethodCheck.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MainMethodCheck </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MainMethodCheck.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.directives.checks.MainMethodCheck.CommentRemoverStateMachine
-	c2900 [label=<<table title="org.universAAL.support.directives.checks.MainMethodCheck.CommentRemoverStateMachine" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MainMethodCheck.CommentRemoverStateMachine.html">
+	c7 [label=<<table title="org.universAAL.support.directives.checks.MainMethodCheck.CommentRemoverStateMachine" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MainMethodCheck.CommentRemoverStateMachine.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CommentRemoverStateMachine </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MainMethodCheck.CommentRemoverStateMachine.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.support.directives.checks.CodificationCheck
-	c2901 [label=<<table title="org.universAAL.support.directives.checks.CodificationCheck" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CodificationCheck.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> CodificationCheck </td></tr>
-		</table></td></tr>
-		</table>>, URL="./CodificationCheck.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.directives.checks.LicenseFileCheckFix
-	c2902 [label=<<table title="org.universAAL.support.directives.checks.LicenseFileCheckFix" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LicenseFileCheckFix.html">
+	c8 [label=<<table title="org.universAAL.support.directives.checks.LicenseFileCheckFix" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LicenseFileCheckFix.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LicenseFileCheckFix </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LicenseFileCheckFix.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.support.directives.checks.MavenCoordinateCheck
+	c9 [label=<<table title="org.universAAL.support.directives.checks.MavenCoordinateCheck" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MavenCoordinateCheck.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> MavenCoordinateCheck </td></tr>
+		</table></td></tr>
+		</table>>, URL="./MavenCoordinateCheck.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.support.directives.checks.ItestsCheckFix
+	c10 [label=<<table title="org.universAAL.support.directives.checks.ItestsCheckFix" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ItestsCheckFix.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ItestsCheckFix </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ItestsCheckFix.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.support.directives.checks.DependencyManagementCheckFix
+	c11 [label=<<table title="org.universAAL.support.directives.checks.DependencyManagementCheckFix" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DependencyManagementCheckFix.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> DependencyManagementCheckFix </td></tr>
+		</table></td></tr>
+		</table>>, URL="./DependencyManagementCheckFix.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

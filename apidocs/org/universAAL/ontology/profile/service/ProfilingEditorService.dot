@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.service.owl.Service
-	c6553432 [label=<<table title="org.universAAL.middleware.service.owl.Service" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/service/owl/Service.html">
+	c6720189 [label=<<table title="org.universAAL.middleware.service.owl.Service" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/service/owl/Service.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Service </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../middleware/service/owl/Service.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.profile.service.ProfilingEditorService
-	c6553644 [label=<<table title="org.universAAL.ontology.profile.service.ProfilingEditorService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProfilingEditorService.html">
+	c6720428 [label=<<table title="org.universAAL.ontology.profile.service.ProfilingEditorService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProfilingEditorService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProfilingEditorService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ProfilingEditorService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.profile.service.ProfilingEditorService extends org.universAAL.middleware.service.owl.Service
-	c6553432:p -> c6553644:p [dir=back,arrowtail=empty];
+	c6720189:p -> c6720428:p [dir=back,arrowtail=empty];
 }
 

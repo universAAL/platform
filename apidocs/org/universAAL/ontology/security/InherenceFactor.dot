@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.security.InherenceFactor
-	c4739967 [label=<<table title="org.universAAL.ontology.security.InherenceFactor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./InherenceFactor.html">
+	c4866933 [label=<<table title="org.universAAL.ontology.security.InherenceFactor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./InherenceFactor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> InherenceFactor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./InherenceFactor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.security.Factor
-	c4739971 [label=<<table title="org.universAAL.ontology.security.Factor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Factor.html">
+	c4866941 [label=<<table title="org.universAAL.ontology.security.Factor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Factor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Factor </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Factor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.security.InherenceFactor extends org.universAAL.ontology.security.Factor
-	c4739971:p -> c4739967:p [dir=back,arrowtail=empty];
+	c4866941:p -> c4866933:p [dir=back,arrowtail=empty];
 }
 

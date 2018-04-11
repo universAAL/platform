@@ -9,19 +9,19 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.middleware.interfaces.configuration.scope.AppPartScope
-	c2114438 [label=<<table title="org.universAAL.middleware.interfaces.configuration.scope.AppPartScope" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AppPartScope.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> AppPartScope </td></tr>
-		</table></td></tr>
-		</table>>, URL="./AppPartScope.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.interfaces.configuration.scope.ApplicationScope
-	c2114441 [label=<<table title="org.universAAL.middleware.interfaces.configuration.scope.ApplicationScope" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ApplicationScope.html">
+	c2186350 [label=<<table title="org.universAAL.middleware.interfaces.configuration.scope.ApplicationScope" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ApplicationScope.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ApplicationScope </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ApplicationScope.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.interfaces.configuration.scope.AppPartScope
+	c2186352 [label=<<table title="org.universAAL.middleware.interfaces.configuration.scope.AppPartScope" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AppPartScope.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> AppPartScope </td></tr>
+		</table></td></tr>
+		</table>>, URL="./AppPartScope.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.interfaces.configuration.scope.AppPartScope extends org.universAAL.middleware.interfaces.configuration.scope.ApplicationScope
-	c2114441:p -> c2114438:p [dir=back,arrowtail=empty];
+	c2186350:p -> c2186352:p [dir=back,arrowtail=empty];
 }
 

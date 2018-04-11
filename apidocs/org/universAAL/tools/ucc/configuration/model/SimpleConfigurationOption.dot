@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.ucc.configuration.model.SimpleConfigurationOption
-	c7582504 [label=<<table title="org.universAAL.tools.ucc.configuration.model.SimpleConfigurationOption" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SimpleConfigurationOption.html">
+	c7771487 [label=<<table title="org.universAAL.tools.ucc.configuration.model.SimpleConfigurationOption" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SimpleConfigurationOption.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SimpleConfigurationOption </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SimpleConfigurationOption.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.configuration.model.ConfigurationOption
-	c7582510 [label=<<table title="org.universAAL.tools.ucc.configuration.model.ConfigurationOption" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigurationOption.html">
+	c7771490 [label=<<table title="org.universAAL.tools.ucc.configuration.model.ConfigurationOption" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigurationOption.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ConfigurationOption </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConfigurationOption.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.ucc.configuration.model.SimpleConfigurationOption extends org.universAAL.tools.ucc.configuration.model.ConfigurationOption
-	c7582510:p -> c7582504:p [dir=back,arrowtail=empty];
+	c7771490:p -> c7771487:p [dir=back,arrowtail=empty];
 }
 

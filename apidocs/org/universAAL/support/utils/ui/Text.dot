@@ -9,27 +9,27 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.support.utils.ui.Text
-	c8059334 [label=<<table title="org.universAAL.support.utils.ui.Text" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Text.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Text </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Text.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.utils.ui.InputControl
-	c8059343 [label=<<table title="org.universAAL.support.utils.ui.InputControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InputControl.html">
+	c8260149 [label=<<table title="org.universAAL.support.utils.ui.InputControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InputControl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> InputControl </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./InputControl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.utils.ui.Area
-	c8059347 [label=<<table title="org.universAAL.support.utils.ui.Area" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Area.html">
+	c8260153 [label=<<table title="org.universAAL.support.utils.ui.Area" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Area.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Area </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Area.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.support.utils.ui.Text extends org.universAAL.support.utils.ui.InputControl
-	c8059343:p -> c8059334:p [dir=back,arrowtail=empty];
+	// org.universAAL.support.utils.ui.Text
+	c8260160 [label=<<table title="org.universAAL.support.utils.ui.Text" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Text.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Text </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Text.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.support.utils.ui.Area extends org.universAAL.support.utils.ui.Text
-	c8059334:p -> c8059347:p [dir=back,arrowtail=empty];
+	c8260160:p -> c8260153:p [dir=back,arrowtail=empty];
+	//org.universAAL.support.utils.ui.Text extends org.universAAL.support.utils.ui.InputControl
+	c8260149:p -> c8260160:p [dir=back,arrowtail=empty];
 }
 

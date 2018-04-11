@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.Ontology
-	c4291902 [label=<<table title="org.universAAL.middleware.owl.Ontology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/Ontology.html">
+	c4410484 [label=<<table title="org.universAAL.middleware.owl.Ontology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/Ontology.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Ontology </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/owl/Ontology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.handgestures.HandgesturesOntology
-	c4292787 [label=<<table title="org.universAAL.ontology.handgestures.HandgesturesOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HandgesturesOntology.html">
+	c4411391 [label=<<table title="org.universAAL.ontology.handgestures.HandgesturesOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HandgesturesOntology.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HandgesturesOntology </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HandgesturesOntology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.handgestures.HandgesturesOntology extends org.universAAL.middleware.owl.Ontology
-	c4291902:p -> c4292787:p [dir=back,arrowtail=empty];
+	c4410484:p -> c4411391:p [dir=back,arrowtail=empty];
 }
 

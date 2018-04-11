@@ -9,19 +9,19 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.unit.color.ColorModel
-	c2518675 [label=<<table title="org.universAAL.ontology.unit.color.ColorModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ColorModel.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ColorModel </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./ColorModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.unit.color.CMYKColorModel
-	c2518676 [label=<<table title="org.universAAL.ontology.unit.color.CMYKColorModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CMYKColorModel.html">
+	c2604020 [label=<<table title="org.universAAL.ontology.unit.color.CMYKColorModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CMYKColorModel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CMYKColorModel </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CMYKColorModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.unit.color.ColorModel
+	c2604022 [label=<<table title="org.universAAL.ontology.unit.color.ColorModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ColorModel.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ColorModel </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./ColorModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.unit.color.CMYKColorModel extends org.universAAL.ontology.unit.color.ColorModel
-	c2518675:p -> c2518676:p [dir=back,arrowtail=empty];
+	c2604022:p -> c2604020:p [dir=back,arrowtail=empty];
 }
 

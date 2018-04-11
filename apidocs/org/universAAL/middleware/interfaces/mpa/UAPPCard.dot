@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.interfaces.mpa.UAPPCard
-	c8185731 [label=<<table title="org.universAAL.middleware.interfaces.mpa.UAPPCard" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UAPPCard.html">
+	c8388933 [label=<<table title="org.universAAL.middleware.interfaces.mpa.UAPPCard" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UAPPCard.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UAPPCard </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UAPPCard.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.interfaces.mpa.UAPPCard implements java.io.Serializable
-	c8188339:p -> c8185731:p [dir=back,arrowtail=empty,style=dashed];
+	c8391598:p -> c8388933:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Serializable
-	c8188339 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c8391598 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>

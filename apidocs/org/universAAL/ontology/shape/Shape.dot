@@ -10,42 +10,42 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c7527969 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
+	c7715951 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.shape.Shape
-	c7528464 [label=<<table title="org.universAAL.ontology.shape.Shape" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Shape.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Shape </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./Shape.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.shape.BooleanShape
-	c7528470 [label=<<table title="org.universAAL.ontology.shape.BooleanShape" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BooleanShape.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> BooleanShape </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./BooleanShape.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.shape.Shape2D
-	c7528472 [label=<<table title="org.universAAL.ontology.shape.Shape2D" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Shape2D.html">
+	c7716388 [label=<<table title="org.universAAL.ontology.shape.Shape2D" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Shape2D.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Shape2D </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Shape2D.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.shape.Shape3D
-	c7528475 [label=<<table title="org.universAAL.ontology.shape.Shape3D" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Shape3D.html">
+	c7716391 [label=<<table title="org.universAAL.ontology.shape.Shape3D" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Shape3D.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Shape3D </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Shape3D.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.ontology.shape.Shape extends org.universAAL.middleware.owl.ManagedIndividual
-	c7527969:p -> c7528464:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.shape.BooleanShape extends org.universAAL.ontology.shape.Shape
-	c7528464:p -> c7528470:p [dir=back,arrowtail=empty];
+	// org.universAAL.ontology.shape.Shape
+	c7716392 [label=<<table title="org.universAAL.ontology.shape.Shape" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Shape.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Shape </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./Shape.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.shape.BooleanShape
+	c7716399 [label=<<table title="org.universAAL.ontology.shape.BooleanShape" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BooleanShape.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> BooleanShape </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./BooleanShape.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.shape.Shape2D extends org.universAAL.ontology.shape.Shape
-	c7528464:p -> c7528472:p [dir=back,arrowtail=empty];
+	c7716392:p -> c7716388:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.shape.Shape3D extends org.universAAL.ontology.shape.Shape
-	c7528464:p -> c7528475:p [dir=back,arrowtail=empty];
+	c7716392:p -> c7716391:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.shape.Shape extends org.universAAL.middleware.owl.ManagedIndividual
+	c7715951:p -> c7716392:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.shape.BooleanShape extends org.universAAL.ontology.shape.Shape
+	c7716392:p -> c7716399:p [dir=back,arrowtail=empty];
 }
 

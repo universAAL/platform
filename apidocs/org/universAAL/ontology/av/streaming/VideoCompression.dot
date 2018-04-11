@@ -9,19 +9,19 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.av.streaming.VideoCompression
-	c8590115 [label=<<table title="org.universAAL.ontology.av.streaming.VideoCompression" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./VideoCompression.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> VideoCompression </td></tr>
-		</table></td></tr>
-		</table>>, URL="./VideoCompression.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.av.streaming.Compression
-	c8590120 [label=<<table title="org.universAAL.ontology.av.streaming.Compression" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Compression.html">
+	c8800926 [label=<<table title="org.universAAL.ontology.av.streaming.Compression" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Compression.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Compression </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Compression.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.av.streaming.VideoCompression
+	c8800930 [label=<<table title="org.universAAL.ontology.av.streaming.VideoCompression" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./VideoCompression.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> VideoCompression </td></tr>
+		</table></td></tr>
+		</table>>, URL="./VideoCompression.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.av.streaming.VideoCompression extends org.universAAL.ontology.av.streaming.Compression
-	c8590120:p -> c8590115:p [dir=back,arrowtail=empty];
+	c8800926:p -> c8800930:p [dir=back,arrowtail=empty];
 }
 

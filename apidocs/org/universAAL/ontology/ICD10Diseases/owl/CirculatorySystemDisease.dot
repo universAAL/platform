@@ -9,51 +9,51 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.disease.owl.Disease
-	c2694965 [label=<<table title="org.universAAL.ontology.disease.owl.Disease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../disease/owl/Disease.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Disease </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../disease/owl/Disease.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ICD10Diseases.owl.CirculatorySystemDisease
-	c2694978 [label=<<table title="org.universAAL.ontology.ICD10Diseases.owl.CirculatorySystemDisease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CirculatorySystemDisease.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> CirculatorySystemDisease </td></tr>
-		</table></td></tr>
-		</table>>, URL="./CirculatorySystemDisease.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.HypertensiveDisease
-	c2694980 [label=<<table title="org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.HypertensiveDisease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ICD10CirculatorySystemDiseases/owl/HypertensiveDisease.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> HypertensiveDisease </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ICD10CirculatorySystemDiseases/owl/HypertensiveDisease.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.OtherCirculatorySystemDisease
-	c2694981 [label=<<table title="org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.OtherCirculatorySystemDisease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ICD10CirculatorySystemDiseases/owl/OtherCirculatorySystemDisease.html">
+	c2780707 [label=<<table title="org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.OtherCirculatorySystemDisease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ICD10CirculatorySystemDiseases/owl/OtherCirculatorySystemDisease.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OtherCirculatorySystemDisease </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ICD10CirculatorySystemDiseases/owl/OtherCirculatorySystemDisease.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.AcuteRheumaticFever
-	c2694983 [label=<<table title="org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.AcuteRheumaticFever" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ICD10CirculatorySystemDiseases/owl/AcuteRheumaticFever.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> AcuteRheumaticFever </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ICD10CirculatorySystemDiseases/owl/AcuteRheumaticFever.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.IschemicHeartDisease
-	c2694984 [label=<<table title="org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.IschemicHeartDisease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ICD10CirculatorySystemDiseases/owl/IschemicHeartDisease.html">
+	c2780709 [label=<<table title="org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.IschemicHeartDisease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ICD10CirculatorySystemDiseases/owl/IschemicHeartDisease.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> IschemicHeartDisease </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ICD10CirculatorySystemDiseases/owl/IschemicHeartDisease.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.ontology.ICD10Diseases.owl.CirculatorySystemDisease extends org.universAAL.ontology.disease.owl.Disease
-	c2694965:p -> c2694978:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.HypertensiveDisease extends org.universAAL.ontology.ICD10Diseases.owl.CirculatorySystemDisease
-	c2694978:p -> c2694980:p [dir=back,arrowtail=empty];
+	// org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.AcuteRheumaticFever
+	c2780710 [label=<<table title="org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.AcuteRheumaticFever" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ICD10CirculatorySystemDiseases/owl/AcuteRheumaticFever.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> AcuteRheumaticFever </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ICD10CirculatorySystemDiseases/owl/AcuteRheumaticFever.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.HypertensiveDisease
+	c2780711 [label=<<table title="org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.HypertensiveDisease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ICD10CirculatorySystemDiseases/owl/HypertensiveDisease.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> HypertensiveDisease </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ICD10CirculatorySystemDiseases/owl/HypertensiveDisease.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.ICD10Diseases.owl.CirculatorySystemDisease
+	c2780716 [label=<<table title="org.universAAL.ontology.ICD10Diseases.owl.CirculatorySystemDisease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CirculatorySystemDisease.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> CirculatorySystemDisease </td></tr>
+		</table></td></tr>
+		</table>>, URL="./CirculatorySystemDisease.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.disease.owl.Disease
+	c2780729 [label=<<table title="org.universAAL.ontology.disease.owl.Disease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../disease/owl/Disease.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Disease </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../disease/owl/Disease.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.OtherCirculatorySystemDisease extends org.universAAL.ontology.ICD10Diseases.owl.CirculatorySystemDisease
-	c2694978:p -> c2694981:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.AcuteRheumaticFever extends org.universAAL.ontology.ICD10Diseases.owl.CirculatorySystemDisease
-	c2694978:p -> c2694983:p [dir=back,arrowtail=empty];
+	c2780716:p -> c2780707:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.IschemicHeartDisease extends org.universAAL.ontology.ICD10Diseases.owl.CirculatorySystemDisease
-	c2694978:p -> c2694984:p [dir=back,arrowtail=empty];
+	c2780716:p -> c2780709:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.AcuteRheumaticFever extends org.universAAL.ontology.ICD10Diseases.owl.CirculatorySystemDisease
+	c2780716:p -> c2780710:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.HypertensiveDisease extends org.universAAL.ontology.ICD10Diseases.owl.CirculatorySystemDisease
+	c2780716:p -> c2780711:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.ICD10Diseases.owl.CirculatorySystemDisease extends org.universAAL.ontology.disease.owl.Disease
+	c2780729:p -> c2780716:p [dir=back,arrowtail=empty];
 }
 

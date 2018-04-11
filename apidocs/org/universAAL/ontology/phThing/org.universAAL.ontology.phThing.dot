@@ -9,39 +9,39 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.phThing.Device
-	c245750 [label=<<table title="org.universAAL.ontology.phThing.Device" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Device.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Device </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Device.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.phThing.DeviceService
-	c245751 [label=<<table title="org.universAAL.ontology.phThing.DeviceService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DeviceService.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DeviceService </td></tr>
-		</table></td></tr>
-		</table>>, URL="./DeviceService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.phThing.PhysicalContainer
-	c245752 [label=<<table title="org.universAAL.ontology.phThing.PhysicalContainer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PhysicalContainer.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> PhysicalContainer </td></tr>
-		</table></td></tr>
-		</table>>, URL="./PhysicalContainer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.phThing.PhThingOntology
-	c245753 [label=<<table title="org.universAAL.ontology.phThing.PhThingOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PhThingOntology.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> PhThingOntology </td></tr>
-		</table></td></tr>
-		</table>>, URL="./PhThingOntology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.phThing.PhysicalThing
-	c245754 [label=<<table title="org.universAAL.ontology.phThing.PhysicalThing" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PhysicalThing.html">
+	c235620 [label=<<table title="org.universAAL.ontology.phThing.PhysicalThing" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PhysicalThing.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PhysicalThing </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PhysicalThing.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.ontology.phThing.Device extends org.universAAL.ontology.phThing.PhysicalThing
-	c245754:p -> c245750:p [dir=back,arrowtail=empty];
+	// org.universAAL.ontology.phThing.PhThingOntology
+	c235621 [label=<<table title="org.universAAL.ontology.phThing.PhThingOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PhThingOntology.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> PhThingOntology </td></tr>
+		</table></td></tr>
+		</table>>, URL="./PhThingOntology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.phThing.PhysicalContainer
+	c235622 [label=<<table title="org.universAAL.ontology.phThing.PhysicalContainer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PhysicalContainer.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> PhysicalContainer </td></tr>
+		</table></td></tr>
+		</table>>, URL="./PhysicalContainer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.phThing.DeviceService
+	c235623 [label=<<table title="org.universAAL.ontology.phThing.DeviceService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DeviceService.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> DeviceService </td></tr>
+		</table></td></tr>
+		</table>>, URL="./DeviceService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.phThing.Device
+	c235624 [label=<<table title="org.universAAL.ontology.phThing.Device" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Device.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Device </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Device.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.phThing.PhysicalContainer extends org.universAAL.ontology.phThing.PhysicalThing
-	c245754:p -> c245752:p [dir=back,arrowtail=empty];
+	c235620:p -> c235622:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.phThing.Device extends org.universAAL.ontology.phThing.PhysicalThing
+	c235620:p -> c235624:p [dir=back,arrowtail=empty];
 }
 

@@ -9,151 +9,151 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
+	// org.universAAL.middleware.rdf.TypeMapper
+	c44161 [label=<<table title="org.universAAL.middleware.rdf.TypeMapper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TypeMapper.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> TypeMapper </td></tr>
+		</table></td></tr>
+		</table>>, URL="./TypeMapper.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.rdf.RDFClassInfoSetup
-	c43351 [label=<<table title="org.universAAL.middleware.rdf.RDFClassInfoSetup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RDFClassInfoSetup.html">
+	c44162 [label=<<table title="org.universAAL.middleware.rdf.RDFClassInfoSetup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RDFClassInfoSetup.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> RDFClassInfoSetup </td></tr>
 		</table></td></tr>
 		</table>>, URL="./RDFClassInfoSetup.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.rdf.PropertyPath
-	c43352 [label=<<table title="org.universAAL.middleware.rdf.PropertyPath" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PropertyPath.html">
+	c44163 [label=<<table title="org.universAAL.middleware.rdf.PropertyPath" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PropertyPath.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PropertyPath </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PropertyPath.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.rdf.LangString
-	c43353 [label=<<table title="org.universAAL.middleware.rdf.LangString" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LangString.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> LangString </td></tr>
-		</table></td></tr>
-		</table>>, URL="./LangString.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.rdf.UnmodifiableResource
-	c43354 [label=<<table title="org.universAAL.middleware.rdf.UnmodifiableResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UnmodifiableResource.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> UnmodifiableResource </td></tr>
-		</table></td></tr>
-		</table>>, URL="./UnmodifiableResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.rdf.ScopedResource
-	c43355 [label=<<table title="org.universAAL.middleware.rdf.ScopedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ScopedResource.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ScopedResource </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ScopedResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.rdf.ObjectCollection
-	c43356 [label=<<table title="org.universAAL.middleware.rdf.ObjectCollection" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ObjectCollection.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ObjectCollection </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./ObjectCollection.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.rdf.TypeMapper
-	c43357 [label=<<table title="org.universAAL.middleware.rdf.TypeMapper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TypeMapper.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> TypeMapper </td></tr>
-		</table></td></tr>
-		</table>>, URL="./TypeMapper.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.rdf.UnmodifiableResourceList
-	c43358 [label=<<table title="org.universAAL.middleware.rdf.UnmodifiableResourceList" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UnmodifiableResourceList.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> UnmodifiableResourceList </td></tr>
-		</table></td></tr>
-		</table>>, URL="./UnmodifiableResourceList.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.rdf.Variable
-	c43359 [label=<<table title="org.universAAL.middleware.rdf.Variable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Variable.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Variable </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./Variable.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.rdf.Variable.VariableHandler
-	c43360 [label=<<table title="org.universAAL.middleware.rdf.Variable.VariableHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Variable.VariableHandler.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
-<tr><td align="center" balign="center"> VariableHandler </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Variable.VariableHandler.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.rdf.ResourceFactory
-	c43361 [label=<<table title="org.universAAL.middleware.rdf.ResourceFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ResourceFactory.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
-<tr><td align="center" balign="center"> ResourceFactory </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ResourceFactory.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.rdf.FinalizedResource
-	c43362 [label=<<table title="org.universAAL.middleware.rdf.FinalizedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FinalizedResource.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> FinalizedResource </td></tr>
-		</table></td></tr>
-		</table>>, URL="./FinalizedResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.rdf.Property
-	c43363 [label=<<table title="org.universAAL.middleware.rdf.Property" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Property.html">
+	c44164 [label=<<table title="org.universAAL.middleware.rdf.Property" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Property.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Property </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Property.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.rdf.Property.PrivatePropertySetup
-	c43364 [label=<<table title="org.universAAL.middleware.rdf.Property.PrivatePropertySetup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Property.PrivatePropertySetup.html">
+	c44165 [label=<<table title="org.universAAL.middleware.rdf.Property.PrivatePropertySetup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Property.PrivatePropertySetup.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PrivatePropertySetup </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Property.PrivatePropertySetup.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.rdf.UnmodifiableResourceList
+	c44166 [label=<<table title="org.universAAL.middleware.rdf.UnmodifiableResourceList" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UnmodifiableResourceList.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> UnmodifiableResourceList </td></tr>
+		</table></td></tr>
+		</table>>, URL="./UnmodifiableResourceList.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.rdf.ScopedResource
+	c44167 [label=<<table title="org.universAAL.middleware.rdf.ScopedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ScopedResource.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ScopedResource </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ScopedResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.rdf.FinalizedResource
+	c44168 [label=<<table title="org.universAAL.middleware.rdf.FinalizedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FinalizedResource.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> FinalizedResource </td></tr>
+		</table></td></tr>
+		</table>>, URL="./FinalizedResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.rdf.UnmodifiableResource
+	c44169 [label=<<table title="org.universAAL.middleware.rdf.UnmodifiableResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UnmodifiableResource.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> UnmodifiableResource </td></tr>
+		</table></td></tr>
+		</table>>, URL="./UnmodifiableResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.rdf.Resource
-	c43365 [label=<<table title="org.universAAL.middleware.rdf.Resource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Resource.html">
+	c44170 [label=<<table title="org.universAAL.middleware.rdf.Resource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Resource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Resource </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Resource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.rdf.ClosedCollection
+	c44171 [label=<<table title="org.universAAL.middleware.rdf.ClosedCollection" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ClosedCollection.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ClosedCollection </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ClosedCollection.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.rdf.OpenCollection
-	c43366 [label=<<table title="org.universAAL.middleware.rdf.OpenCollection" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OpenCollection.html">
+	c44172 [label=<<table title="org.universAAL.middleware.rdf.OpenCollection" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OpenCollection.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OpenCollection </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OpenCollection.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.rdf.ResourceFactory
+	c44173 [label=<<table title="org.universAAL.middleware.rdf.ResourceFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ResourceFactory.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
+<tr><td align="center" balign="center"> ResourceFactory </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ResourceFactory.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.rdf.Variable
+	c44174 [label=<<table title="org.universAAL.middleware.rdf.Variable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Variable.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Variable </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./Variable.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.rdf.Variable.VariableHandler
+	c44175 [label=<<table title="org.universAAL.middleware.rdf.Variable.VariableHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Variable.VariableHandler.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
+<tr><td align="center" balign="center"> VariableHandler </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Variable.VariableHandler.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.rdf.LangString
+	c44176 [label=<<table title="org.universAAL.middleware.rdf.LangString" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LangString.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> LangString </td></tr>
+		</table></td></tr>
+		</table>>, URL="./LangString.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.rdf.PropertySetup
-	c43367 [label=<<table title="org.universAAL.middleware.rdf.PropertySetup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PropertySetup.html">
+	c44177 [label=<<table title="org.universAAL.middleware.rdf.PropertySetup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PropertySetup.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> PropertySetup </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PropertySetup.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.rdf.ObjectCollection
+	c44178 [label=<<table title="org.universAAL.middleware.rdf.ObjectCollection" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ObjectCollection.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ObjectCollection </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./ObjectCollection.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.rdf.RDFClassInfo
-	c43368 [label=<<table title="org.universAAL.middleware.rdf.RDFClassInfo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RDFClassInfo.html">
+	c44179 [label=<<table title="org.universAAL.middleware.rdf.RDFClassInfo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RDFClassInfo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RDFClassInfo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./RDFClassInfo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.rdf.RDFClassInfo.PrivateRDFSetup
-	c43369 [label=<<table title="org.universAAL.middleware.rdf.RDFClassInfo.PrivateRDFSetup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RDFClassInfo.PrivateRDFSetup.html">
+	c44180 [label=<<table title="org.universAAL.middleware.rdf.RDFClassInfo.PrivateRDFSetup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RDFClassInfo.PrivateRDFSetup.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PrivateRDFSetup </td></tr>
 		</table></td></tr>
 		</table>>, URL="./RDFClassInfo.PrivateRDFSetup.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.rdf.ClosedCollection
-	c43370 [label=<<table title="org.universAAL.middleware.rdf.ClosedCollection" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ClosedCollection.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ClosedCollection </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ClosedCollection.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.rdf.PropertyPath extends org.universAAL.middleware.rdf.FinalizedResource
-	c43362:p -> c43352:p [dir=back,arrowtail=empty];
-	//org.universAAL.middleware.rdf.UnmodifiableResource extends org.universAAL.middleware.rdf.Resource
-	c43365:p -> c43354:p [dir=back,arrowtail=empty];
-	//org.universAAL.middleware.rdf.ScopedResource extends org.universAAL.middleware.rdf.FinalizedResource
-	c43362:p -> c43355:p [dir=back,arrowtail=empty];
-	//org.universAAL.middleware.rdf.Variable extends org.universAAL.middleware.rdf.FinalizedResource
-	c43362:p -> c43359:p [dir=back,arrowtail=empty];
-	//org.universAAL.middleware.rdf.FinalizedResource extends org.universAAL.middleware.rdf.Resource
-	c43365:p -> c43362:p [dir=back,arrowtail=empty];
+	c44168:p -> c44163:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.rdf.Property extends org.universAAL.middleware.rdf.FinalizedResource
-	c43362:p -> c43363:p [dir=back,arrowtail=empty];
+	c44168:p -> c44164:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.rdf.Property.PrivatePropertySetup implements org.universAAL.middleware.rdf.PropertySetup
-	c43367:p -> c43364:p [dir=back,arrowtail=empty,style=dashed];
-	//org.universAAL.middleware.rdf.OpenCollection extends org.universAAL.middleware.rdf.ObjectCollection
-	c43356:p -> c43366:p [dir=back,arrowtail=empty];
-	//org.universAAL.middleware.rdf.RDFClassInfo extends org.universAAL.middleware.rdf.FinalizedResource
-	c43362:p -> c43368:p [dir=back,arrowtail=empty];
-	//org.universAAL.middleware.rdf.RDFClassInfo.PrivateRDFSetup implements org.universAAL.middleware.rdf.RDFClassInfoSetup
-	c43351:p -> c43369:p [dir=back,arrowtail=empty,style=dashed];
+	c44177:p -> c44165:p [dir=back,arrowtail=empty,style=dashed];
+	//org.universAAL.middleware.rdf.ScopedResource extends org.universAAL.middleware.rdf.FinalizedResource
+	c44168:p -> c44167:p [dir=back,arrowtail=empty];
+	//org.universAAL.middleware.rdf.FinalizedResource extends org.universAAL.middleware.rdf.Resource
+	c44170:p -> c44168:p [dir=back,arrowtail=empty];
+	//org.universAAL.middleware.rdf.UnmodifiableResource extends org.universAAL.middleware.rdf.Resource
+	c44170:p -> c44169:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.rdf.ClosedCollection extends org.universAAL.middleware.rdf.ObjectCollection
-	c43356:p -> c43370:p [dir=back,arrowtail=empty];
+	c44178:p -> c44171:p [dir=back,arrowtail=empty];
+	//org.universAAL.middleware.rdf.OpenCollection extends org.universAAL.middleware.rdf.ObjectCollection
+	c44178:p -> c44172:p [dir=back,arrowtail=empty];
+	//org.universAAL.middleware.rdf.Variable extends org.universAAL.middleware.rdf.FinalizedResource
+	c44168:p -> c44174:p [dir=back,arrowtail=empty];
+	//org.universAAL.middleware.rdf.RDFClassInfo extends org.universAAL.middleware.rdf.FinalizedResource
+	c44168:p -> c44179:p [dir=back,arrowtail=empty];
+	//org.universAAL.middleware.rdf.RDFClassInfo.PrivateRDFSetup implements org.universAAL.middleware.rdf.RDFClassInfoSetup
+	c44162:p -> c44180:p [dir=back,arrowtail=empty,style=dashed];
 }
 

@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.cryptographic.StreamEncryption
-	c7854889 [label=<<table title="org.universAAL.ontology.cryptographic.StreamEncryption" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./StreamEncryption.html">
+	c8051930 [label=<<table title="org.universAAL.ontology.cryptographic.StreamEncryption" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./StreamEncryption.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> StreamEncryption </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./StreamEncryption.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.cryptographic.SymmetricEncryption
-	c7854895 [label=<<table title="org.universAAL.ontology.cryptographic.SymmetricEncryption" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SymmetricEncryption.html">
+	c8051931 [label=<<table title="org.universAAL.ontology.cryptographic.SymmetricEncryption" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SymmetricEncryption.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> SymmetricEncryption </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./SymmetricEncryption.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.cryptographic.StreamEncryption extends org.universAAL.ontology.cryptographic.SymmetricEncryption
-	c7854895:p -> c7854889:p [dir=back,arrowtail=empty];
+	c8051931:p -> c8051930:p [dir=back,arrowtail=empty];
 }
 

@@ -9,19 +9,19 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.activityhub.ActivityHubSensorEvent
-	c6576886 [label=<<table title="org.universAAL.ontology.activityhub.ActivityHubSensorEvent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ActivityHubSensorEvent.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ActivityHubSensorEvent </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./ActivityHubSensorEvent.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.activityhub.PropertyExitSensorEvent
-	c6576890 [label=<<table title="org.universAAL.ontology.activityhub.PropertyExitSensorEvent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PropertyExitSensorEvent.html">
+	c6744132 [label=<<table title="org.universAAL.ontology.activityhub.PropertyExitSensorEvent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PropertyExitSensorEvent.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PropertyExitSensorEvent </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PropertyExitSensorEvent.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.activityhub.ActivityHubSensorEvent
+	c6744141 [label=<<table title="org.universAAL.ontology.activityhub.ActivityHubSensorEvent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ActivityHubSensorEvent.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ActivityHubSensorEvent </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./ActivityHubSensorEvent.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.activityhub.PropertyExitSensorEvent extends org.universAAL.ontology.activityhub.ActivityHubSensorEvent
-	c6576886:p -> c6576890:p [dir=back,arrowtail=empty];
+	c6744141:p -> c6744132:p [dir=back,arrowtail=empty];
 }
 

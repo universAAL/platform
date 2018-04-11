@@ -18,8 +18,8 @@
     catch(err) {
     }
 //-->
-var methods = {"i0":6,"i1":38,"i2":6,"i3":6};
-var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],4:["t3","Abstract Methods"],32:["t6","Deprecated Methods"]};
+var methods = {"i0":6,"i1":6,"i2":6};
+var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],4:["t3","Abstract Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
 var tableTab = "tableTab";
@@ -50,7 +50,7 @@ var activeTableTab = "activeTableTab";
 <div class="subNav">
 <ul class="navList">
 <li>Prev&nbsp;Class</li>
-<li><a href="../../../../../../org/universAAL/ri/gateway/communicator/service/CommunicationHelper.html" title="class in org.universAAL.ri.gateway.communicator.service"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
+<li>Next&nbsp;Class</li>
 </ul>
 <ul class="navList">
 <li><a href="../../../../../../index.html?org/universAAL/ri/gateway/communicator/service/CommunicationHandler.html" target="_top">Frames</a></li>
@@ -75,13 +75,13 @@ var activeTableTab = "activeTableTab";
 <ul class="subNavList">
 <li>Summary:&nbsp;</li>
 <li>Nested&nbsp;|&nbsp;</li>
-<li><a href="#field.summary">Field</a>&nbsp;|&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
 <li>Constr&nbsp;|&nbsp;</li>
 <li><a href="#method.summary">Method</a></li>
 </ul>
 <ul class="subNavList">
 <li>Detail:&nbsp;</li>
-<li><a href="#field.detail">Field</a>&nbsp;|&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
 <li>Constr&nbsp;|&nbsp;</li>
 <li><a href="#method.detail">Method</a></li>
 </ul>
@@ -95,10 +95,10 @@ var activeTableTab = "activeTableTab";
 <div class="subTitle">org.universAAL.ri.gateway.communicator.service</div>
 <h2 title="Interface CommunicationHandler" class="title">Interface CommunicationHandler</h2>
 <map id="G" name="G">
-<area shape="rect" id="c2779664" href="./CommunicationHandler.html" title="org.universAAL.ri.gateway.communicator.service.CommunicationHandler" alt="" coords="60,11,217,53"/>
-<area shape="rect" id="node1" href="./CommunicationHandler.html" title="&lt;TABLE&gt;" alt="" coords="49,6,228,58"/>
-<area shape="rect" id="c2779670" href="./impl/AbstractSocketCommunicationHandler.html" title="org.universAAL.ri.gateway.communicator.service.impl.AbstractSocketCommunicationHandler" alt="" coords="15,118,262,143"/>
-<area shape="rect" id="node2" href="./impl/AbstractSocketCommunicationHandler.html" title="&lt;TABLE&gt;" alt="" coords="5,107,272,155"/>
+<area shape="rect" id="node1_0" href="./impl/AbstractSocketCommunicationHandler.html" title="org.universAAL.ri.gateway.communicator.service.impl.AbstractSocketCommunicationHandler" alt="" coords="15,120,262,147"/>
+<area shape="rect" id="node1" href="./impl/AbstractSocketCommunicationHandler.html" title="&lt;TABLE&gt;" alt="" coords="5,109,273,157"/>
+<area shape="rect" id="node2_1" href="./CommunicationHandler.html" title="org.universAAL.ri.gateway.communicator.service.CommunicationHandler" alt="" coords="60,11,217,55"/>
+<area shape="rect" id="node2" href="./CommunicationHandler.html" title="&lt;TABLE&gt;" alt="" coords="49,6,228,61"/>
 </map>
 <!-- UML diagram added by UMLGraph version R5_6-24-gf6e263 (http://www.umlgraph.org/) -->
 <div align="center"><img src="CommunicationHandler.png" alt="Package class diagram package CommunicationHandler" usemap="#G" border=0/></div>
@@ -126,30 +126,6 @@ var activeTableTab = "activeTableTab";
 <div class="summary">
 <ul class="blockList">
 <li class="blockList">
-<!-- =========== FIELD SUMMARY =========== -->
-<ul class="blockList">
-<li class="blockList"><a name="field.summary">
-<!--   -->
-</a>
-<h3>Field Summary</h3>
-<table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Field Summary table, listing fields, and an explanation">
-<caption><span>Fields</span><span class="tabEnd">&nbsp;</span></caption>
-<tr>
-<th class="colFirst" scope="col">Modifier and Type</th>
-<th class="colLast" scope="col">Field and Description</th>
-</tr>
-<tr class="altColor">
-<td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/communicator/service/CommunicationHandler.html#BROADCAST_SESSION">BROADCAST_SESSION</a></span></code>
-<div class="block"><span class="deprecatedLabel">Deprecated.</span>&nbsp;
-<div class="block"><span class="deprecationComment">Broadcasting is now perfomed by the high level part of the
-             Gateway by inspecting the message</span></div>
-</div>
-</td>
-</tr>
-</table>
-</li>
-</ul>
 <!-- ========== METHOD SUMMARY =========== -->
 <ul class="blockList">
 <li class="blockList"><a name="method.summary">
@@ -157,13 +133,13 @@ var activeTableTab = "activeTableTab";
 </a>
 <h3>Method Summary</h3>
 <table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Method Summary table, listing methods, and an explanation">
-<caption><span id="t0" class="activeTableTab"><span>All Methods</span><span class="tabEnd">&nbsp;</span></span><span id="t2" class="tableTab"><span><a href="javascript:show(2);">Instance Methods</a></span><span class="tabEnd">&nbsp;</span></span><span id="t3" class="tableTab"><span><a href="javascript:show(4);">Abstract Methods</a></span><span class="tabEnd">&nbsp;</span></span><span id="t6" class="tableTab"><span><a href="javascript:show(32);">Deprecated Methods</a></span><span class="tabEnd">&nbsp;</span></span></caption>
+<caption><span id="t0" class="activeTableTab"><span>All Methods</span><span class="tabEnd">&nbsp;</span></span><span id="t2" class="tableTab"><span><a href="javascript:show(2);">Instance Methods</a></span><span class="tabEnd">&nbsp;</span></span><span id="t3" class="tableTab"><span><a href="javascript:show(4);">Abstract Methods</a></span><span class="tabEnd">&nbsp;</span></span></caption>
 <tr>
 <th class="colFirst" scope="col">Modifier and Type</th>
 <th class="colLast" scope="col">Method and Description</th>
 </tr>
 <tr id="i0" class="altColor">
-<td class="colFirst"><code>void</code></td>
+<td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/communicator/service/CommunicationHandler.html#sendMessage-org.universAAL.ri.gateway.protocol.Message-java.lang.String-">sendMessage</a></span>(<a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;msg,
            <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;scope)</code>
 <div class="block">Send the given message to a specific scope</div>
@@ -171,20 +147,9 @@ var activeTableTab = "activeTableTab";
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/communicator/service/CommunicationHandler.html#sendMessage-org.universAAL.ri.gateway.protocol.Message-java.lang.String:A-">sendMessage</a></span>(<a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;msg,
-           <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;scope)</code>
-<div class="block"><span class="deprecatedLabel">Deprecated.</span>&nbsp;
-<div class="block"><span class="deprecationComment"><a href="../../../../../../org/universAAL/ri/gateway/communicator/service/CommunicationHandler.html#sendMessage-org.universAAL.ri.gateway.protocol.Message-java.lang.String-"><code>sendMessage(Message, String)</code></a> should be used because
-             the Gateway will perform security check for simulating
-             multi-casting or broad-casting when needed</span></div>
-</div>
-</td>
-</tr>
-<tr id="i2" class="altColor">
-<td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/communicator/service/CommunicationHandler.html#start--">start</a></span>()</code>&nbsp;</td>
 </tr>
-<tr id="i3" class="rowColor">
+<tr id="i2" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/universAAL/ri/gateway/communicator/service/CommunicationHandler.html#stop--">stop</a></span>()</code>&nbsp;</td>
 </tr>
@@ -197,29 +162,6 @@ var activeTableTab = "activeTableTab";
 <div class="details">
 <ul class="blockList">
 <li class="blockList">
-<!-- ============ FIELD DETAIL =========== -->
-<ul class="blockList">
-<li class="blockList"><a name="field.detail">
-<!--   -->
-</a>
-<h3>Field Detail</h3>
-<a name="BROADCAST_SESSION">
-<!--   -->
-</a>
-<ul class="blockListLast">
-<li class="blockList">
-<h4>BROADCAST_SESSION</h4>
-<pre>static final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> BROADCAST_SESSION</pre>
-<div class="block"><span class="deprecatedLabel">Deprecated.</span>&nbsp;<span class="deprecationComment">Broadcasting is now perfomed by the high level part of the
-             Gateway by inspecting the message</span></div>
-<dl>
-<dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../../../constant-values.html#org.universAAL.ri.gateway.communicator.service.CommunicationHandler.BROADCAST_SESSION">Constant Field Values</a></dd>
-</dl>
-</li>
-</ul>
-</li>
-</ul>
 <!-- ============ METHOD DETAIL ========== -->
 <ul class="blockList">
 <li class="blockList"><a name="method.detail">
@@ -232,32 +174,14 @@ var activeTableTab = "activeTableTab";
 <ul class="blockList">
 <li class="blockList">
 <h4>sendMessage</h4>
-<pre>void&nbsp;sendMessage(<a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;msg,
-                 <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;scope)</pre>
+<pre>boolean&nbsp;sendMessage(<a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;msg,
+                    <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;scope)</pre>
 <div class="block">Send the given message to a specific scope</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>msg</code> - the <a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol"><code>Message</code></a> to send</dd>
 <dd><code>scope</code> - the scope of the destination of the message</dd>
-</dl>
-</li>
-</ul>
-<a name="sendMessage-org.universAAL.ri.gateway.protocol.Message-java.lang.String:A-">
-<!--   -->
-</a>
-<ul class="blockList">
-<li class="blockList">
-<h4>sendMessage</h4>
-<pre>void&nbsp;sendMessage(<a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;msg,
-                 <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;scope)</pre>
-<div class="block"><span class="deprecatedLabel">Deprecated.</span>&nbsp;<span class="deprecationComment"><a href="../../../../../../org/universAAL/ri/gateway/communicator/service/CommunicationHandler.html#sendMessage-org.universAAL.ri.gateway.protocol.Message-java.lang.String-"><code>sendMessage(Message, String)</code></a> should be used because
-             the Gateway will perform security check for simulating
-             multi-casting or broad-casting when needed</span></div>
-<div class="block">Send the given message to a set of scope</div>
-<dl>
-<dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>msg</code> - the <a href="../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol"><code>Message</code></a> to send</dd>
-<dd><code>scope</code> - the set of scope as destination of the message</dd>
+<dt><span class="returnLabel">Returns:</span></dt>
 </dl>
 </li>
 </ul>
@@ -313,7 +237,7 @@ var activeTableTab = "activeTableTab";
 <div class="subNav">
 <ul class="navList">
 <li>Prev&nbsp;Class</li>
-<li><a href="../../../../../../org/universAAL/ri/gateway/communicator/service/CommunicationHelper.html" title="class in org.universAAL.ri.gateway.communicator.service"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
+<li>Next&nbsp;Class</li>
 </ul>
 <ul class="navList">
 <li><a href="../../../../../../index.html?org/universAAL/ri/gateway/communicator/service/CommunicationHandler.html" target="_top">Frames</a></li>
@@ -338,13 +262,13 @@ var activeTableTab = "activeTableTab";
 <ul class="subNavList">
 <li>Summary:&nbsp;</li>
 <li>Nested&nbsp;|&nbsp;</li>
-<li><a href="#field.summary">Field</a>&nbsp;|&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
 <li>Constr&nbsp;|&nbsp;</li>
 <li><a href="#method.summary">Method</a></li>
 </ul>
 <ul class="subNavList">
 <li>Detail:&nbsp;</li>
-<li><a href="#field.detail">Field</a>&nbsp;|&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
 <li>Constr&nbsp;|&nbsp;</li>
 <li><a href="#method.detail">Method</a></li>
 </ul>
@@ -353,6 +277,6 @@ var activeTableTab = "activeTableTab";
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2017 <a href="http://www.universAAL.org/">universAAL Consortium</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2018 <a href="http://www.universAAL.org/">universAAL Consortium</a>. All rights reserved.</small></p>
 </body>
 </html>

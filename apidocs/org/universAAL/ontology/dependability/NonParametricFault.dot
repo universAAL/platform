@@ -9,19 +9,19 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.dependability.Fault
-	c5931005 [label=<<table title="org.universAAL.ontology.dependability.Fault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Fault.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Fault </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Fault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.dependability.NonParametricFault
-	c5931007 [label=<<table title="org.universAAL.ontology.dependability.NonParametricFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./NonParametricFault.html">
+	c6086136 [label=<<table title="org.universAAL.ontology.dependability.NonParametricFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./NonParametricFault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> NonParametricFault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./NonParametricFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.dependability.Fault
+	c6086160 [label=<<table title="org.universAAL.ontology.dependability.Fault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Fault.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Fault </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Fault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.dependability.NonParametricFault extends org.universAAL.ontology.dependability.Fault
-	c5931005:p -> c5931007:p [dir=back,arrowtail=empty];
+	c6086160:p -> c6086136:p [dir=back,arrowtail=empty];
 }
 

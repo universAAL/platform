@@ -9,35 +9,35 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.SimpleConfigItem
-	c2832257 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.SimpleConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SimpleConfigItem.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> SimpleConfigItem </td></tr>
-		</table></td></tr>
-		</table>>, URL="./SimpleConfigItem.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.ConfigItem
-	c2832258 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.ConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigItem.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ConfigItem </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ConfigItem.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.MapConfigItem
-	c2832261 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.MapConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MapConfigItem.html">
+	c2920532 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.MapConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MapConfigItem.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MapConfigItem </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MapConfigItem.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.SPARQLConfigItem
-	c2832265 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.SPARQLConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SPARQLConfigItem.html">
+	c2920536 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.SPARQLConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SPARQLConfigItem.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SPARQLConfigItem </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SPARQLConfigItem.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.tools.ucc.configuration.model.configurationdefinition.SimpleConfigItem extends org.universAAL.tools.ucc.configuration.model.configurationdefinition.ConfigItem
-	c2832258:p -> c2832257:p [dir=back,arrowtail=empty];
+	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.SimpleConfigItem
+	c2920541 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.SimpleConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SimpleConfigItem.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> SimpleConfigItem </td></tr>
+		</table></td></tr>
+		</table>>, URL="./SimpleConfigItem.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.ConfigItem
+	c2920542 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.ConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigItem.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ConfigItem </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ConfigItem.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.ucc.configuration.model.configurationdefinition.MapConfigItem extends org.universAAL.tools.ucc.configuration.model.configurationdefinition.ConfigItem
-	c2832258:p -> c2832261:p [dir=back,arrowtail=empty];
+	c2920542:p -> c2920532:p [dir=back,arrowtail=empty];
 	//org.universAAL.tools.ucc.configuration.model.configurationdefinition.SPARQLConfigItem extends org.universAAL.tools.ucc.configuration.model.configurationdefinition.ConfigItem
-	c2832258:p -> c2832265:p [dir=back,arrowtail=empty];
+	c2920542:p -> c2920536:p [dir=back,arrowtail=empty];
+	//org.universAAL.tools.ucc.configuration.model.configurationdefinition.SimpleConfigItem extends org.universAAL.tools.ucc.configuration.model.configurationdefinition.ConfigItem
+	c2920542:p -> c2920541:p [dir=back,arrowtail=empty];
 }
 

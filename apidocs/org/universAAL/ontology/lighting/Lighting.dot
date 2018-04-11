@@ -10,66 +10,66 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.service.owl.Service
-	c5177675 [label=<<table title="org.universAAL.middleware.service.owl.Service" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/service/owl/Service.html">
+	c5315737 [label=<<table title="org.universAAL.middleware.service.owl.Service" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/service/owl/Service.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Service </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/service/owl/Service.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.lighting.Beaming
-	c5178139 [label=<<table title="org.universAAL.ontology.lighting.Beaming" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Beaming.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Beaming </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Beaming.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.Lighting
-	c5178142 [label=<<table title="org.universAAL.ontology.lighting.Lighting" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Lighting.html">
+	c5316260 [label=<<table title="org.universAAL.ontology.lighting.Lighting" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Lighting.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Lighting </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Lighting.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.lighting.Beaming
+	c5316264 [label=<<table title="org.universAAL.ontology.lighting.Beaming" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Beaming.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Beaming </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Beaming.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.BlinkableLighting
-	c5178144 [label=<<table title="org.universAAL.ontology.lighting.BlinkableLighting" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BlinkableLighting.html">
+	c5316265 [label=<<table title="org.universAAL.ontology.lighting.BlinkableLighting" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BlinkableLighting.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BlinkableLighting </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BlinkableLighting.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.samples.servserver.ProvidedService
-	c5179666 [label=<<table title="org.universAAL.samples.servserver.ProvidedService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../samples/servserver/ProvidedService.html">
+	c5317791 [label=<<table title="org.universAAL.samples.servserver.ProvidedService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../samples/servserver/ProvidedService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProvidedService </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../samples/servserver/ProvidedService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.samples.lighting.server.ProvidedLightingService
-	c5179673 [label=<<table title="org.universAAL.samples.lighting.server.ProvidedLightingService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../samples/lighting/server/ProvidedLightingService.html">
+	c5317796 [label=<<table title="org.universAAL.samples.lighting.server.ProvidedLightingService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../samples/lighting/server/ProvidedLightingService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProvidedLightingService </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../samples/lighting/server/ProvidedLightingService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.samples.lighting.server_regular.ProvidedLightingServiceLevel2
-	c5179746 [label=<<table title="org.universAAL.samples.lighting.server_regular.ProvidedLightingServiceLevel2" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../samples/lighting/server_regular/ProvidedLightingServiceLevel2.html">
+	c5317868 [label=<<table title="org.universAAL.samples.lighting.server_regular.ProvidedLightingServiceLevel2" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../samples/lighting/server_regular/ProvidedLightingServiceLevel2.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProvidedLightingServiceLevel2 </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../samples/lighting/server_regular/ProvidedLightingServiceLevel2.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.samples.lighting.server_regular.ProvidedLightingServiceLevel1
-	c5179750 [label=<<table title="org.universAAL.samples.lighting.server_regular.ProvidedLightingServiceLevel1" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../samples/lighting/server_regular/ProvidedLightingServiceLevel1.html">
+	c5317869 [label=<<table title="org.universAAL.samples.lighting.server_regular.ProvidedLightingServiceLevel1" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../samples/lighting/server_regular/ProvidedLightingServiceLevel1.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProvidedLightingServiceLevel1 </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../samples/lighting/server_regular/ProvidedLightingServiceLevel1.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.ontology.lighting.Beaming extends org.universAAL.ontology.lighting.Lighting
-	c5178142:p -> c5178139:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.lighting.Lighting extends org.universAAL.middleware.service.owl.Service
-	c5177675:p -> c5178142:p [dir=back,arrowtail=empty];
+	c5315737:p -> c5316260:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.lighting.Beaming extends org.universAAL.ontology.lighting.Lighting
+	c5316260:p -> c5316264:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.lighting.BlinkableLighting extends org.universAAL.ontology.lighting.Lighting
-	c5178142:p -> c5178144:p [dir=back,arrowtail=empty];
+	c5316260:p -> c5316265:p [dir=back,arrowtail=empty];
 	//org.universAAL.samples.servserver.ProvidedService extends org.universAAL.ontology.lighting.Lighting
-	c5178142:p -> c5179666:p [dir=back,arrowtail=empty];
+	c5316260:p -> c5317791:p [dir=back,arrowtail=empty];
 	//org.universAAL.samples.lighting.server.ProvidedLightingService extends org.universAAL.ontology.lighting.Lighting
-	c5178142:p -> c5179673:p [dir=back,arrowtail=empty];
+	c5316260:p -> c5317796:p [dir=back,arrowtail=empty];
 	//org.universAAL.samples.lighting.server_regular.ProvidedLightingServiceLevel2 extends org.universAAL.ontology.lighting.Lighting
-	c5178142:p -> c5179746:p [dir=back,arrowtail=empty];
+	c5316260:p -> c5317868:p [dir=back,arrowtail=empty];
 	//org.universAAL.samples.lighting.server_regular.ProvidedLightingServiceLevel1 extends org.universAAL.ontology.lighting.Lighting
-	c5178142:p -> c5179750:p [dir=back,arrowtail=empty];
+	c5316260:p -> c5317869:p [dir=back,arrowtail=empty];
 }
 

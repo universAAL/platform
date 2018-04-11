@@ -10,46 +10,46 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.DynamicDescribedEntityListener
-	c2927798 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.DynamicDescribedEntityListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../interfaces/configuration/configurationDefinitionTypes/DynamicDescribedEntityListener.html">
+	c3017888 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.DynamicDescribedEntityListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../interfaces/configuration/configurationDefinitionTypes/DynamicDescribedEntityListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> DynamicDescribedEntityListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../../interfaces/configuration/configurationDefinitionTypes/DynamicDescribedEntityListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.managers.api.ConfigurationEditor
-	c2927852 [label=<<table title="org.universAAL.middleware.managers.api.ConfigurationEditor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../api/ConfigurationEditor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
-<tr><td align="center" balign="center"> ConfigurationEditor </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../../api/ConfigurationEditor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.managers.api.ConfigurationManager
-	c2927858 [label=<<table title="org.universAAL.middleware.managers.api.ConfigurationManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../api/ConfigurationManager.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
-<tr><td align="center" balign="center"> ConfigurationManager </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../../api/ConfigurationManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.api.ConfigurationManagerConnector
-	c2927859 [label=<<table title="org.universAAL.middleware.managers.api.ConfigurationManagerConnector" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../api/ConfigurationManagerConnector.html">
+	c3017922 [label=<<table title="org.universAAL.middleware.managers.api.ConfigurationManagerConnector" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../api/ConfigurationManagerConnector.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ConfigurationManagerConnector </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../api/ConfigurationManagerConnector.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.managers.api.ConfigurationManager
+	c3017923 [label=<<table title="org.universAAL.middleware.managers.api.ConfigurationManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../api/ConfigurationManager.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
+<tr><td align="center" balign="center"> ConfigurationManager </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../../api/ConfigurationManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.managers.api.ConfigurationEditor
+	c3017932 [label=<<table title="org.universAAL.middleware.managers.api.ConfigurationEditor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../api/ConfigurationEditor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
+<tr><td align="center" balign="center"> ConfigurationEditor </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../../api/ConfigurationEditor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.configuration.core.impl.ConfigurationManagerImpl
-	c2928756 [label=<<table title="org.universAAL.middleware.managers.configuration.core.impl.ConfigurationManagerImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigurationManagerImpl.html">
+	c3018877 [label=<<table title="org.universAAL.middleware.managers.configuration.core.impl.ConfigurationManagerImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigurationManagerImpl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConfigurationManagerImpl </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConfigurationManagerImpl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.managers.configuration.core.impl.ConfigurationManagerImpl implements org.universAAL.middleware.managers.api.ConfigurationManager
-	c2927858:p -> c2928756:p [dir=back,arrowtail=empty,style=dashed];
+	c3017923:p -> c3018877:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.managers.configuration.core.impl.ConfigurationManagerImpl implements org.universAAL.middleware.managers.api.ConfigurationManagerConnector
-	c2927859:p -> c2928756:p [dir=back,arrowtail=empty,style=dashed];
+	c3017922:p -> c3018877:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.managers.configuration.core.impl.ConfigurationManagerImpl implements org.universAAL.middleware.managers.api.ConfigurationEditor
-	c2927852:p -> c2928756:p [dir=back,arrowtail=empty,style=dashed];
+	c3017932:p -> c3018877:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.managers.configuration.core.impl.ConfigurationManagerImpl implements org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.DynamicDescribedEntityListener
-	c2927798:p -> c2928756:p [dir=back,arrowtail=empty,style=dashed];
+	c3017888:p -> c3018877:p [dir=back,arrowtail=empty,style=dashed];
 }
 

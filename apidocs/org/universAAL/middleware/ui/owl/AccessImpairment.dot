@@ -10,50 +10,50 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c1900885 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../owl/ManagedIndividual.html">
+	c1968818 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.owl.AccessImpairment
-	c1901251 [label=<<table title="org.universAAL.middleware.ui.owl.AccessImpairment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AccessImpairment.html">
+	c1969157 [label=<<table title="org.universAAL.middleware.ui.owl.AccessImpairment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AccessImpairment.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AccessImpairment </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AccessImpairment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.impairment.SightImpairment
-	c1901661 [label=<<table title="org.universAAL.ontology.impairment.SightImpairment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/impairment/SightImpairment.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> SightImpairment </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../../ontology/impairment/SightImpairment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.impairment.PhysicalImpairment
-	c1901663 [label=<<table title="org.universAAL.ontology.impairment.PhysicalImpairment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/impairment/PhysicalImpairment.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> PhysicalImpairment </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../../ontology/impairment/PhysicalImpairment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.impairment.SpeakingImpairment
-	c1901664 [label=<<table title="org.universAAL.ontology.impairment.SpeakingImpairment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/impairment/SpeakingImpairment.html">
+	c1969622 [label=<<table title="org.universAAL.ontology.impairment.SpeakingImpairment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/impairment/SpeakingImpairment.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SpeakingImpairment </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../ontology/impairment/SpeakingImpairment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.impairment.HearingImpairment
-	c1901666 [label=<<table title="org.universAAL.ontology.impairment.HearingImpairment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/impairment/HearingImpairment.html">
+	c1969623 [label=<<table title="org.universAAL.ontology.impairment.HearingImpairment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/impairment/HearingImpairment.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HearingImpairment </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../ontology/impairment/HearingImpairment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.impairment.PhysicalImpairment
+	c1969624 [label=<<table title="org.universAAL.ontology.impairment.PhysicalImpairment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/impairment/PhysicalImpairment.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> PhysicalImpairment </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../../ontology/impairment/PhysicalImpairment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.impairment.SightImpairment
+	c1969625 [label=<<table title="org.universAAL.ontology.impairment.SightImpairment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../ontology/impairment/SightImpairment.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> SightImpairment </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../../ontology/impairment/SightImpairment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.ui.owl.AccessImpairment extends org.universAAL.middleware.owl.ManagedIndividual
-	c1900885:p -> c1901251:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.impairment.SightImpairment extends org.universAAL.middleware.ui.owl.AccessImpairment
-	c1901251:p -> c1901661:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.impairment.PhysicalImpairment extends org.universAAL.middleware.ui.owl.AccessImpairment
-	c1901251:p -> c1901663:p [dir=back,arrowtail=empty];
+	c1968818:p -> c1969157:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.impairment.SpeakingImpairment extends org.universAAL.middleware.ui.owl.AccessImpairment
-	c1901251:p -> c1901664:p [dir=back,arrowtail=empty];
+	c1969157:p -> c1969622:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.impairment.HearingImpairment extends org.universAAL.middleware.ui.owl.AccessImpairment
-	c1901251:p -> c1901666:p [dir=back,arrowtail=empty];
+	c1969157:p -> c1969623:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.impairment.PhysicalImpairment extends org.universAAL.middleware.ui.owl.AccessImpairment
+	c1969157:p -> c1969624:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.impairment.SightImpairment extends org.universAAL.middleware.ui.owl.AccessImpairment
+	c1969157:p -> c1969625:p [dir=back,arrowtail=empty];
 }
 

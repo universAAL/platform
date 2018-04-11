@@ -31685,7 +31685,7 @@
 <ul class="blockList">
 <li class="blockList">
 <table class="constantsSummary" border="0" cellpadding="3" cellspacing="0" summary="Constant Field Values table, listing constant fields, and values">
-<caption><span>org.universAAL.ri.gateway.communicator.service.<a href="org/universAAL/ri/gateway/communicator/service/CommunicationHandler.html" title="interface in org.universAAL.ri.gateway.communicator.service">CommunicationHandler</a></span><span class="tabEnd">&nbsp;</span></caption>
+<caption><span>org.universAAL.ri.gateway.communication.cipher.<a href="org/universAAL/ri/gateway/communication/cipher/LegacyBlowfishCipher.html" title="class in org.universAAL.ri.gateway.communication.cipher">LegacyBlowfishCipher</a></span><span class="tabEnd">&nbsp;</span></caption>
 <tr>
 <th class="colFirst" scope="col">Modifier and Type</th>
 <th scope="col">Constant Field</th>
@@ -31693,11 +31693,51 @@
 </tr>
 <tbody>
 <tr class="altColor">
-<td class="colFirst"><a name="org.universAAL.ri.gateway.communicator.service.CommunicationHandler.BROADCAST_SESSION">
+<td class="colFirst"><a name="org.universAAL.ri.gateway.communication.cipher.LegacyBlowfishCipher.HASH_KEY">
 <!--   -->
 </a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
-<td><code><a href="org/universAAL/ri/gateway/communicator/service/CommunicationHandler.html#BROADCAST_SESSION">BROADCAST_SESSION</a></code></td>
-<td class="colLast"><code>"#BROADCAST"</code></td>
+<td><code><a href="org/universAAL/ri/gateway/communication/cipher/LegacyBlowfishCipher.html#HASH_KEY">HASH_KEY</a></code></td>
+<td class="colLast"><code>"hash-key"</code></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList">
+<table class="constantsSummary" border="0" cellpadding="3" cellspacing="0" summary="Constant Field Values table, listing constant fields, and values">
+<caption><span>org.universAAL.ri.gateway.communication.cipher.<a href="org/universAAL/ri/gateway/communication/cipher/SSLCipher.html" title="class in org.universAAL.ri.gateway.communication.cipher">SSLCipher</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th scope="col">Constant Field</th>
+<th class="colLast" scope="col">Value</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><a name="org.universAAL.ri.gateway.communication.cipher.SSLCipher.KEYSTORE">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/ri/gateway/communication/cipher/SSLCipher.html#KEYSTORE">KEYSTORE</a></code></td>
+<td class="colLast"><code>"javax.net.ssl.keyStore"</code></td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a name="org.universAAL.ri.gateway.communication.cipher.SSLCipher.KEYSTORE_PASS">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/ri/gateway/communication/cipher/SSLCipher.html#KEYSTORE_PASS">KEYSTORE_PASS</a></code></td>
+<td class="colLast"><code>"javax.net.ssl.keyStorePassword"</code></td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><a name="org.universAAL.ri.gateway.communication.cipher.SSLCipher.TRUSTSTORE">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/ri/gateway/communication/cipher/SSLCipher.html#TRUSTSTORE">TRUSTSTORE</a></code></td>
+<td class="colLast"><code>"javax.net.ssl.trustStore"</code></td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a name="org.universAAL.ri.gateway.communication.cipher.SSLCipher.TRUSTSTORE_PASS">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/ri/gateway/communication/cipher/SSLCipher.html#TRUSTSTORE_PASS">TRUSTSTORE_PASS</a></code></td>
+<td class="colLast"><code>"javax.net.ssl.trustStorePassword"</code></td>
 </tr>
 </tbody>
 </table>
@@ -31735,32 +31775,60 @@
 </tr>
 <tbody>
 <tr class="altColor">
+<td class="colFirst"><a name="org.universAAL.ri.gateway.configuration.PropertiesFileKeys.CHIPER_CLASS">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#CHIPER_CLASS">CHIPER_CLASS</a></code></td>
+<td class="colLast"><code>"cipher.class"</code></td>
+</tr>
+<tr class="rowColor">
 <td class="colFirst"><a name="org.universAAL.ri.gateway.configuration.PropertiesFileKeys.CONNECTION_MODE">
 <!--   -->
 </a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td><code><a href="org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#CONNECTION_MODE">CONNECTION_MODE</a></code></td>
 <td class="colLast"><code>"connection-mode"</code></td>
 </tr>
-<tr class="rowColor">
-<td class="colFirst"><a name="org.universAAL.ri.gateway.configuration.PropertiesFileKeys.HASH_KEY">
+<tr class="altColor">
+<td class="colFirst"><a name="org.universAAL.ri.gateway.configuration.PropertiesFileKeys.EXPORT_ATTEMPTS">
 <!--   -->
 </a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
-<td><code><a href="org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#HASH_KEY">HASH_KEY</a></code></td>
-<td class="colLast"><code>"hash-key"</code></td>
+<td><code><a href="org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#EXPORT_ATTEMPTS">EXPORT_ATTEMPTS</a></code></td>
+<td class="colLast"><code>"export-attempts"</code></td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a name="org.universAAL.ri.gateway.configuration.PropertiesFileKeys.PRE_CONN_CACHE">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#PRE_CONN_CACHE">PRE_CONN_CACHE</a></code></td>
+<td class="colLast"><code>"pre-connection-cache"</code></td>
 </tr>
 <tr class="altColor">
+<td class="colFirst"><a name="org.universAAL.ri.gateway.configuration.PropertiesFileKeys.QUEUES">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#QUEUES">QUEUES</a></code></td>
+<td class="colLast"><code>"cache-max-size"</code></td>
+</tr>
+<tr class="rowColor">
 <td class="colFirst"><a name="org.universAAL.ri.gateway.configuration.PropertiesFileKeys.REMOTE_HOST">
 <!--   -->
 </a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td><code><a href="org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#REMOTE_HOST">REMOTE_HOST</a></code></td>
 <td class="colLast"><code>"remote-gateway-host"</code></td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><a name="org.universAAL.ri.gateway.configuration.PropertiesFileKeys.SECURITY_DEFINITION">
 <!--   -->
 </a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td><code><a href="org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#SECURITY_DEFINITION">SECURITY_DEFINITION</a></code></td>
 <td class="colLast"><code>"security-definition-file"</code></td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a name="org.universAAL.ri.gateway.configuration.PropertiesFileKeys.SERVER_THREADS">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#SERVER_THREADS">SERVER_THREADS</a></code></td>
+<td class="colLast"><code>"server-threads"</code></td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><a name="org.universAAL.ri.gateway.configuration.PropertiesFileKeys.SOCKET_PORT">
@@ -31768,6 +31836,13 @@
 </a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td><code><a href="org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#SOCKET_PORT">SOCKET_PORT</a></code></td>
 <td class="colLast"><code>"socket-port"</code></td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a name="org.universAAL.ri.gateway.configuration.PropertiesFileKeys.TIMEOUT">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#TIMEOUT">TIMEOUT</a></code></td>
+<td class="colLast"><code>"timeout"</code></td>
 </tr>
 </tbody>
 </table>
@@ -34621,6 +34696,271 @@
 </table>
 </li>
 </ul>
+<ul class="blockList">
+<li class="blockList">
+<table class="constantsSummary" border="0" cellpadding="3" cellspacing="0" summary="Constant Field Values table, listing constant fields, and values">
+<caption><span>org.universAAL.utilities.api.service.low.<a href="org/universAAL/utilities/api/service/low/Profile.html" title="class in org.universAAL.utilities.api.service.low">Profile</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th scope="col">Constant Field</th>
+<th class="colLast" scope="col">Value</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><a name="org.universAAL.utilities.api.service.low.Profile.MY_NAMESPACE">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/utilities/api/service/low/Profile.html#MY_NAMESPACE">MY_NAMESPACE</a></code></td>
+<td class="colLast"><code>"http://org.universAAL.ontology/SimpleUtils.owl#"</code></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList">
+<table class="constantsSummary" border="0" cellpadding="3" cellspacing="0" summary="Constant Field Values table, listing constant fields, and values">
+<caption><span>org.universAAL.utilities.api.service.low.<a href="org/universAAL/utilities/api/service/low/Request.html" title="class in org.universAAL.utilities.api.service.low">Request</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th scope="col">Constant Field</th>
+<th class="colLast" scope="col">Value</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><a name="org.universAAL.utilities.api.service.low.Request.MY_NAMESPACE">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/utilities/api/service/low/Request.html#MY_NAMESPACE">MY_NAMESPACE</a></code></td>
+<td class="colLast"><code>"http://org.universAAL.ontology/SimpleUtils.owl#"</code></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<ul class="blockList">
+<li class="blockList">
+<table class="constantsSummary" border="0" cellpadding="3" cellspacing="0" summary="Constant Field Values table, listing constant fields, and values">
+<caption><span>org.universAAL.utilities.api.service.mid.<a href="org/universAAL/utilities/api/service/mid/UtilActuator.html" title="class in org.universAAL.utilities.api.service.mid">UtilActuator</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th scope="col">Constant Field</th>
+<th class="colLast" scope="col">Value</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><a name="org.universAAL.utilities.api.service.mid.UtilActuator.IN_DEVICE">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/utilities/api/service/mid/UtilActuator.html#IN_DEVICE">IN_DEVICE</a></code></td>
+<td class="colLast"><code>"inputActuatorAll"</code></td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a name="org.universAAL.utilities.api.service.mid.UtilActuator.OUT_GET_ON_OFF">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/utilities/api/service/mid/UtilActuator.html#OUT_GET_ON_OFF">OUT_GET_ON_OFF</a></code></td>
+<td class="colLast"><code>"outputActuatorGet"</code></td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><a name="org.universAAL.utilities.api.service.mid.UtilActuator.SERVICE_GET_ON_OFF">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/utilities/api/service/mid/UtilActuator.html#SERVICE_GET_ON_OFF">SERVICE_GET_ON_OFF</a></code></td>
+<td class="colLast"><code>"servActuatorGet"</code></td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a name="org.universAAL.utilities.api.service.mid.UtilActuator.SERVICE_TURN_OFF">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/utilities/api/service/mid/UtilActuator.html#SERVICE_TURN_OFF">SERVICE_TURN_OFF</a></code></td>
+<td class="colLast"><code>"servActuatorOff"</code></td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><a name="org.universAAL.utilities.api.service.mid.UtilActuator.SERVICE_TURN_ON">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/utilities/api/service/mid/UtilActuator.html#SERVICE_TURN_ON">SERVICE_TURN_ON</a></code></td>
+<td class="colLast"><code>"servActuatorOn"</code></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList">
+<table class="constantsSummary" border="0" cellpadding="3" cellspacing="0" summary="Constant Field Values table, listing constant fields, and values">
+<caption><span>org.universAAL.utilities.api.service.mid.<a href="org/universAAL/utilities/api/service/mid/UtilEditor.html" title="class in org.universAAL.utilities.api.service.mid">UtilEditor</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th scope="col">Constant Field</th>
+<th class="colLast" scope="col">Value</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><a name="org.universAAL.utilities.api.service.mid.UtilEditor.FAKE_URI">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/utilities/api/service/mid/UtilEditor.html#FAKE_URI">FAKE_URI</a></code></td>
+<td class="colLast"><code>"placeholderURI"</code></td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a name="org.universAAL.utilities.api.service.mid.UtilEditor.IN_ADD">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/utilities/api/service/mid/UtilEditor.html#IN_ADD">IN_ADD</a></code></td>
+<td class="colLast"><code>"inputEditorAdd"</code></td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><a name="org.universAAL.utilities.api.service.mid.UtilEditor.IN_CHANGE">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/utilities/api/service/mid/UtilEditor.html#IN_CHANGE">IN_CHANGE</a></code></td>
+<td class="colLast"><code>"inputEditorChange"</code></td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a name="org.universAAL.utilities.api.service.mid.UtilEditor.IN_GET">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/utilities/api/service/mid/UtilEditor.html#IN_GET">IN_GET</a></code></td>
+<td class="colLast"><code>"inputEditorGet"</code></td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><a name="org.universAAL.utilities.api.service.mid.UtilEditor.IN_REMOVE">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/utilities/api/service/mid/UtilEditor.html#IN_REMOVE">IN_REMOVE</a></code></td>
+<td class="colLast"><code>"inputEditorRemove"</code></td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a name="org.universAAL.utilities.api.service.mid.UtilEditor.OUT_GET">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/utilities/api/service/mid/UtilEditor.html#OUT_GET">OUT_GET</a></code></td>
+<td class="colLast"><code>"outputEditorGet"</code></td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><a name="org.universAAL.utilities.api.service.mid.UtilEditor.SERVICE_ADD">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/utilities/api/service/mid/UtilEditor.html#SERVICE_ADD">SERVICE_ADD</a></code></td>
+<td class="colLast"><code>"servEditorAdd"</code></td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a name="org.universAAL.utilities.api.service.mid.UtilEditor.SERVICE_CHANGE">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/utilities/api/service/mid/UtilEditor.html#SERVICE_CHANGE">SERVICE_CHANGE</a></code></td>
+<td class="colLast"><code>"servEditorChange"</code></td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><a name="org.universAAL.utilities.api.service.mid.UtilEditor.SERVICE_GET">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/utilities/api/service/mid/UtilEditor.html#SERVICE_GET">SERVICE_GET</a></code></td>
+<td class="colLast"><code>"servEditorGet"</code></td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a name="org.universAAL.utilities.api.service.mid.UtilEditor.SERVICE_REMOVE">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/utilities/api/service/mid/UtilEditor.html#SERVICE_REMOVE">SERVICE_REMOVE</a></code></td>
+<td class="colLast"><code>"servEditorRemove"</code></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList">
+<table class="constantsSummary" border="0" cellpadding="3" cellspacing="0" summary="Constant Field Values table, listing constant fields, and values">
+<caption><span>org.universAAL.utilities.api.service.mid.<a href="org/universAAL/utilities/api/service/mid/UtilSensor.html" title="class in org.universAAL.utilities.api.service.mid">UtilSensor</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th scope="col">Constant Field</th>
+<th class="colLast" scope="col">Value</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><a name="org.universAAL.utilities.api.service.mid.UtilSensor.IN_DEVICE">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/utilities/api/service/mid/UtilSensor.html#IN_DEVICE">IN_DEVICE</a></code></td>
+<td class="colLast"><code>"inputSensorAll"</code></td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a name="org.universAAL.utilities.api.service.mid.UtilSensor.OUT_GET_ON_OFF">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/utilities/api/service/mid/UtilSensor.html#OUT_GET_ON_OFF">OUT_GET_ON_OFF</a></code></td>
+<td class="colLast"><code>"outputSensorGet"</code></td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><a name="org.universAAL.utilities.api.service.mid.UtilSensor.SERVICE_GET_ON_OFF">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/utilities/api/service/mid/UtilSensor.html#SERVICE_GET_ON_OFF">SERVICE_GET_ON_OFF</a></code></td>
+<td class="colLast"><code>"servSensorGet"</code></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<ul class="blockList">
+<li class="blockList">
+<table class="constantsSummary" border="0" cellpadding="3" cellspacing="0" summary="Constant Field Values table, listing constant fields, and values">
+<caption><span>org.universAAL.utilities.api.ui.<a href="org/universAAL/utilities/api/ui/Control.html" title="class in org.universAAL.utilities.api.ui">Control</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th scope="col">Constant Field</th>
+<th class="colLast" scope="col">Value</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><a name="org.universAAL.utilities.api.ui.Control.MY_NAMESPACE">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/utilities/api/ui/Control.html#MY_NAMESPACE">MY_NAMESPACE</a></code></td>
+<td class="colLast"><code>"http://org.universAAL.ontology/SimpleUtils.owl#"</code></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList">
+<table class="constantsSummary" border="0" cellpadding="3" cellspacing="0" summary="Constant Field Values table, listing constant fields, and values">
+<caption><span>org.universAAL.utilities.api.ui.<a href="org/universAAL/utilities/api/ui/SubmitCmd.html" title="class in org.universAAL.utilities.api.ui">SubmitCmd</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th scope="col">Constant Field</th>
+<th class="colLast" scope="col">Value</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><a name="org.universAAL.utilities.api.ui.SubmitCmd.HIDDENREF">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/utilities/api/ui/SubmitCmd.html#HIDDENREF">HIDDENREF</a></code></td>
+<td class="colLast"><code>"http://org.universAAL.ontology/SimpleUtils.owl#hiddenRef"</code></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<ul class="blockList">
+<li class="blockList">
+<table class="constantsSummary" border="0" cellpadding="3" cellspacing="0" summary="Constant Field Values table, listing constant fields, and values">
+<caption><span>org.universAAL.utilities.api.ui.mid.<a href="org/universAAL/utilities/api/ui/mid/UtilUICaller.html" title="class in org.universAAL.utilities.api.ui.mid">UtilUICaller</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th scope="col">Constant Field</th>
+<th class="colLast" scope="col">Value</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><a name="org.universAAL.utilities.api.ui.mid.UtilUICaller.CONF_ROOT_DIR">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/universAAL/utilities/api/ui/mid/UtilUICaller.html#CONF_ROOT_DIR">CONF_ROOT_DIR</a></code></td>
+<td class="colLast"><code>"bundles.configuration.location"</code></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
 </div>
 <!-- ======= START OF BOTTOM NAVBAR ====== -->
 <div class="bottomNav"><a name="navbar.bottom">
@@ -34669,6 +35009,6 @@
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2017 <a href="http://www.universAAL.org/">universAAL Consortium</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2018 <a href="http://www.universAAL.org/">universAAL Consortium</a>. All rights reserved.</small></p>
 </body>
 </html>

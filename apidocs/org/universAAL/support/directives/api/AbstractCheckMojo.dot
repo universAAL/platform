@@ -9,48 +9,48 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.support.directives.api.AbstractCheckMojo
-	c1837302 [label=<<table title="org.universAAL.support.directives.api.AbstractCheckMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractCheckMojo.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractCheckMojo </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./AbstractCheckMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.support.directives.api.AbstractFixableCheckMojo
-	c1837304 [label=<<table title="org.universAAL.support.directives.api.AbstractFixableCheckMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractFixableCheckMojo.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractFixableCheckMojo </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./AbstractFixableCheckMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.support.directives.mojos.MainMethodCheckMojo
-	c1837325 [label=<<table title="org.universAAL.support.directives.mojos.MainMethodCheckMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../mojos/MainMethodCheckMojo.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> MainMethodCheckMojo </td></tr>
-		</table></td></tr>
-		</table>>, URL="../mojos/MainMethodCheckMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.directives.mojos.DecoupleCheckMojo
-	c1837332 [label=<<table title="org.universAAL.support.directives.mojos.DecoupleCheckMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../mojos/DecoupleCheckMojo.html">
+	c1904038 [label=<<table title="org.universAAL.support.directives.mojos.DecoupleCheckMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../mojos/DecoupleCheckMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DecoupleCheckMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="../mojos/DecoupleCheckMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.directives.mojos.NamingCheckMojo
-	c1837334 [label=<<table title="org.universAAL.support.directives.mojos.NamingCheckMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../mojos/NamingCheckMojo.html">
+	c1904040 [label=<<table title="org.universAAL.support.directives.mojos.NamingCheckMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../mojos/NamingCheckMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> NamingCheckMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="../mojos/NamingCheckMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.support.directives.api.AbstractCheckMojo extends org.apache.maven.plugin.AbstractMojo
-	c1840188:p -> c1837302:p [dir=back,arrowtail=empty];
-	//org.universAAL.support.directives.api.AbstractFixableCheckMojo extends org.universAAL.support.directives.api.AbstractCheckMojo
-	c1837302:p -> c1837304:p [dir=back,arrowtail=empty];
-	//org.universAAL.support.directives.mojos.MainMethodCheckMojo extends org.universAAL.support.directives.api.AbstractCheckMojo
-	c1837302:p -> c1837325:p [dir=back,arrowtail=empty];
+	// org.universAAL.support.directives.mojos.MainMethodCheckMojo
+	c1904041 [label=<<table title="org.universAAL.support.directives.mojos.MainMethodCheckMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../mojos/MainMethodCheckMojo.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> MainMethodCheckMojo </td></tr>
+		</table></td></tr>
+		</table>>, URL="../mojos/MainMethodCheckMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.support.directives.api.AbstractFixableCheckMojo
+	c1904048 [label=<<table title="org.universAAL.support.directives.api.AbstractFixableCheckMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractFixableCheckMojo.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractFixableCheckMojo </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./AbstractFixableCheckMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.support.directives.api.AbstractCheckMojo
+	c1904052 [label=<<table title="org.universAAL.support.directives.api.AbstractCheckMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractCheckMojo.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractCheckMojo </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./AbstractCheckMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.support.directives.mojos.DecoupleCheckMojo extends org.universAAL.support.directives.api.AbstractCheckMojo
-	c1837302:p -> c1837332:p [dir=back,arrowtail=empty];
+	c1904052:p -> c1904038:p [dir=back,arrowtail=empty];
 	//org.universAAL.support.directives.mojos.NamingCheckMojo extends org.universAAL.support.directives.api.AbstractCheckMojo
-	c1837302:p -> c1837334:p [dir=back,arrowtail=empty];
+	c1904052:p -> c1904040:p [dir=back,arrowtail=empty];
+	//org.universAAL.support.directives.mojos.MainMethodCheckMojo extends org.universAAL.support.directives.api.AbstractCheckMojo
+	c1904052:p -> c1904041:p [dir=back,arrowtail=empty];
+	//org.universAAL.support.directives.api.AbstractFixableCheckMojo extends org.universAAL.support.directives.api.AbstractCheckMojo
+	c1904052:p -> c1904048:p [dir=back,arrowtail=empty];
+	//org.universAAL.support.directives.api.AbstractCheckMojo extends org.apache.maven.plugin.AbstractMojo
+	c1906960:p -> c1904052:p [dir=back,arrowtail=empty];
 	// org.apache.maven.plugin.AbstractMojo
-	c1840188 [label=<<table title="org.apache.maven.plugin.AbstractMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/apache/maven/plugin/AbstractMojo.html">
+	c1906960 [label=<<table title="org.apache.maven.plugin.AbstractMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/apache/maven/plugin/AbstractMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractMojo </font></td></tr>
 		</table></td></tr>

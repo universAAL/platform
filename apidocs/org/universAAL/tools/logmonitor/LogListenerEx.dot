@@ -10,68 +10,68 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.container.LogListener
-	c5353237 [label=<<table title="org.universAAL.middleware.container.LogListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/container/LogListener.html">
+	c5494598 [label=<<table title="org.universAAL.middleware.container.LogListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/container/LogListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> LogListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/container/LogListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.tools.logmonitor.rdfvis.LogMonitor
+	c5497148 [label=<<table title="org.universAAL.tools.logmonitor.rdfvis.LogMonitor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./rdfvis/LogMonitor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> LogMonitor </td></tr>
+		</table></td></tr>
+		</table>>, URL="./rdfvis/LogMonitor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.tools.logmonitor.ontology.LogMonitor
+	c5497154 [label=<<table title="org.universAAL.tools.logmonitor.ontology.LogMonitor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ontology/LogMonitor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> LogMonitor </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ontology/LogMonitor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.logmonitor.LogListenerEx
-	c5355733 [label=<<table title="org.universAAL.tools.logmonitor.LogListenerEx" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LogListenerEx.html">
+	c5497164 [label=<<table title="org.universAAL.tools.logmonitor.LogListenerEx" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LogListenerEx.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> LogListenerEx </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LogListenerEx.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.tools.logmonitor.rdfvis.LogMonitor
-	c5355741 [label=<<table title="org.universAAL.tools.logmonitor.rdfvis.LogMonitor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./rdfvis/LogMonitor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> LogMonitor </td></tr>
-		</table></td></tr>
-		</table>>, URL="./rdfvis/LogMonitor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.tools.logmonitor.msgflow.LogMonitor
-	c5355746 [label=<<table title="org.universAAL.tools.logmonitor.msgflow.LogMonitor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./msgflow/LogMonitor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> LogMonitor </td></tr>
-		</table></td></tr>
-		</table>>, URL="./msgflow/LogMonitor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.tools.logmonitor.all_log.LogMonitor
-	c5355752 [label=<<table title="org.universAAL.tools.logmonitor.all_log.LogMonitor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./all_log/LogMonitor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> LogMonitor </td></tr>
-		</table></td></tr>
-		</table>>, URL="./all_log/LogMonitor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.logmonitor.service_bus_matching.LogMonitor
-	c5355761 [label=<<table title="org.universAAL.tools.logmonitor.service_bus_matching.LogMonitor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./service_bus_matching/LogMonitor.html">
+	c5497166 [label=<<table title="org.universAAL.tools.logmonitor.service_bus_matching.LogMonitor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./service_bus_matching/LogMonitor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LogMonitor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./service_bus_matching/LogMonitor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.logmonitor.bus_member.LogMonitor
-	c5355764 [label=<<table title="org.universAAL.tools.logmonitor.bus_member.LogMonitor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./bus_member/LogMonitor.html">
+	c5497174 [label=<<table title="org.universAAL.tools.logmonitor.bus_member.LogMonitor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./bus_member/LogMonitor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LogMonitor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./bus_member/LogMonitor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.tools.logmonitor.ontology.LogMonitor
-	c5355768 [label=<<table title="org.universAAL.tools.logmonitor.ontology.LogMonitor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ontology/LogMonitor.html">
+	// org.universAAL.tools.logmonitor.all_log.LogMonitor
+	c5497184 [label=<<table title="org.universAAL.tools.logmonitor.all_log.LogMonitor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./all_log/LogMonitor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LogMonitor </td></tr>
 		</table></td></tr>
-		</table>>, URL="./ontology/LogMonitor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.tools.logmonitor.LogListenerEx implements org.universAAL.middleware.container.LogListener
-	c5353237:p -> c5355733:p [dir=back,arrowtail=empty,style=dashed];
+		</table>>, URL="./all_log/LogMonitor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.tools.logmonitor.msgflow.LogMonitor
+	c5497188 [label=<<table title="org.universAAL.tools.logmonitor.msgflow.LogMonitor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./msgflow/LogMonitor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> LogMonitor </td></tr>
+		</table></td></tr>
+		</table>>, URL="./msgflow/LogMonitor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.logmonitor.rdfvis.LogMonitor implements org.universAAL.tools.logmonitor.LogListenerEx
-	c5355733:p -> c5355741:p [dir=back,arrowtail=empty,style=dashed];
-	//org.universAAL.tools.logmonitor.msgflow.LogMonitor implements org.universAAL.tools.logmonitor.LogListenerEx
-	c5355733:p -> c5355746:p [dir=back,arrowtail=empty,style=dashed];
-	//org.universAAL.tools.logmonitor.all_log.LogMonitor implements org.universAAL.tools.logmonitor.LogListenerEx
-	c5355733:p -> c5355752:p [dir=back,arrowtail=empty,style=dashed];
-	//org.universAAL.tools.logmonitor.service_bus_matching.LogMonitor implements org.universAAL.tools.logmonitor.LogListenerEx
-	c5355733:p -> c5355761:p [dir=back,arrowtail=empty,style=dashed];
-	//org.universAAL.tools.logmonitor.bus_member.LogMonitor implements org.universAAL.tools.logmonitor.LogListenerEx
-	c5355733:p -> c5355764:p [dir=back,arrowtail=empty,style=dashed];
+	c5497164:p -> c5497148:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.tools.logmonitor.ontology.LogMonitor implements org.universAAL.tools.logmonitor.LogListenerEx
-	c5355733:p -> c5355768:p [dir=back,arrowtail=empty,style=dashed];
+	c5497164:p -> c5497154:p [dir=back,arrowtail=empty,style=dashed];
+	//org.universAAL.tools.logmonitor.LogListenerEx implements org.universAAL.middleware.container.LogListener
+	c5494598:p -> c5497164:p [dir=back,arrowtail=empty,style=dashed];
+	//org.universAAL.tools.logmonitor.service_bus_matching.LogMonitor implements org.universAAL.tools.logmonitor.LogListenerEx
+	c5497164:p -> c5497166:p [dir=back,arrowtail=empty,style=dashed];
+	//org.universAAL.tools.logmonitor.bus_member.LogMonitor implements org.universAAL.tools.logmonitor.LogListenerEx
+	c5497164:p -> c5497174:p [dir=back,arrowtail=empty,style=dashed];
+	//org.universAAL.tools.logmonitor.all_log.LogMonitor implements org.universAAL.tools.logmonitor.LogListenerEx
+	c5497164:p -> c5497184:p [dir=back,arrowtail=empty,style=dashed];
+	//org.universAAL.tools.logmonitor.msgflow.LogMonitor implements org.universAAL.tools.logmonitor.LogListenerEx
+	c5497164:p -> c5497188:p [dir=back,arrowtail=empty,style=dashed];
 }
 

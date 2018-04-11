@@ -10,66 +10,66 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.rdf.ScopedResource
-	c7204914 [label=<<table title="org.universAAL.middleware.rdf.ScopedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ScopedResource.html">
+	c7386823 [label=<<table title="org.universAAL.middleware.rdf.ScopedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ScopedResource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ScopedResource </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ScopedResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.rdf.FinalizedResource
-	c7204921 [label=<<table title="org.universAAL.middleware.rdf.FinalizedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FinalizedResource.html">
+	c7386824 [label=<<table title="org.universAAL.middleware.rdf.FinalizedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FinalizedResource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> FinalizedResource </td></tr>
 		</table></td></tr>
 		</table>>, URL="./FinalizedResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.context.ContextEvent
-	c7205198 [label=<<table title="org.universAAL.middleware.context.ContextEvent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../context/ContextEvent.html">
+	c7387102 [label=<<table title="org.universAAL.middleware.context.ContextEvent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../context/ContextEvent.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ContextEvent </td></tr>
 		</table></td></tr>
 		</table>>, URL="../context/ContextEvent.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.service.ServiceRequest
-	c7205222 [label=<<table title="org.universAAL.middleware.service.ServiceRequest" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../service/ServiceRequest.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ServiceRequest </td></tr>
-		</table></td></tr>
-		</table>>, URL="../service/ServiceRequest.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.service.ServiceCall
-	c7205229 [label=<<table title="org.universAAL.middleware.service.ServiceCall" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../service/ServiceCall.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ServiceCall </td></tr>
-		</table></td></tr>
-		</table>>, URL="../service/ServiceCall.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.service.ServiceResponse
-	c7205235 [label=<<table title="org.universAAL.middleware.service.ServiceResponse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../service/ServiceResponse.html">
+	c7387135 [label=<<table title="org.universAAL.middleware.service.ServiceResponse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../service/ServiceResponse.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ServiceResponse </td></tr>
 		</table></td></tr>
 		</table>>, URL="../service/ServiceResponse.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.ui.UIResponse
-	c7205279 [label=<<table title="org.universAAL.middleware.ui.UIResponse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ui/UIResponse.html">
+	// org.universAAL.middleware.service.ServiceCall
+	c7387137 [label=<<table title="org.universAAL.middleware.service.ServiceCall" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../service/ServiceCall.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> UIResponse </td></tr>
+<tr><td align="center" balign="center"> ServiceCall </td></tr>
 		</table></td></tr>
-		</table>>, URL="../ui/UIResponse.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="../service/ServiceCall.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.service.ServiceRequest
+	c7387138 [label=<<table title="org.universAAL.middleware.service.ServiceRequest" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../service/ServiceRequest.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ServiceRequest </td></tr>
+		</table></td></tr>
+		</table>>, URL="../service/ServiceRequest.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.UIRequest
-	c7205285 [label=<<table title="org.universAAL.middleware.ui.UIRequest" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ui/UIRequest.html">
+	c7387186 [label=<<table title="org.universAAL.middleware.ui.UIRequest" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ui/UIRequest.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UIRequest </td></tr>
 		</table></td></tr>
 		</table>>, URL="../ui/UIRequest.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.ui.UIResponse
+	c7387191 [label=<<table title="org.universAAL.middleware.ui.UIResponse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ui/UIResponse.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> UIResponse </td></tr>
+		</table></td></tr>
+		</table>>, URL="../ui/UIResponse.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.rdf.ScopedResource extends org.universAAL.middleware.rdf.FinalizedResource
-	c7204921:p -> c7204914:p [dir=back,arrowtail=empty];
+	c7386824:p -> c7386823:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.context.ContextEvent extends org.universAAL.middleware.rdf.ScopedResource
-	c7204914:p -> c7205198:p [dir=back,arrowtail=empty];
-	//org.universAAL.middleware.service.ServiceRequest extends org.universAAL.middleware.rdf.ScopedResource
-	c7204914:p -> c7205222:p [dir=back,arrowtail=empty];
-	//org.universAAL.middleware.service.ServiceCall extends org.universAAL.middleware.rdf.ScopedResource
-	c7204914:p -> c7205229:p [dir=back,arrowtail=empty];
+	c7386823:p -> c7387102:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.service.ServiceResponse extends org.universAAL.middleware.rdf.ScopedResource
-	c7204914:p -> c7205235:p [dir=back,arrowtail=empty];
-	//org.universAAL.middleware.ui.UIResponse extends org.universAAL.middleware.rdf.ScopedResource
-	c7204914:p -> c7205279:p [dir=back,arrowtail=empty];
+	c7386823:p -> c7387135:p [dir=back,arrowtail=empty];
+	//org.universAAL.middleware.service.ServiceCall extends org.universAAL.middleware.rdf.ScopedResource
+	c7386823:p -> c7387137:p [dir=back,arrowtail=empty];
+	//org.universAAL.middleware.service.ServiceRequest extends org.universAAL.middleware.rdf.ScopedResource
+	c7386823:p -> c7387138:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.ui.UIRequest extends org.universAAL.middleware.rdf.ScopedResource
-	c7204914:p -> c7205285:p [dir=back,arrowtail=empty];
+	c7386823:p -> c7387186:p [dir=back,arrowtail=empty];
+	//org.universAAL.middleware.ui.UIResponse extends org.universAAL.middleware.rdf.ScopedResource
+	c7386823:p -> c7387191:p [dir=back,arrowtail=empty];
 }
 

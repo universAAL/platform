@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.resource.server.ResourceServer
-	c6999387 [label=<<table title="org.universAAL.ui.resource.server.ResourceServer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ResourceServer.html">
+	c7174522 [label=<<table title="org.universAAL.ui.resource.server.ResourceServer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ResourceServer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ResourceServer </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ResourceServer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.resource.server.ResourceServer extends javax.servlet.http.HttpServlet
-	c7000041:p -> c6999387:p [dir=back,arrowtail=empty];
+	c7175176:p -> c7174522:p [dir=back,arrowtail=empty];
 	// javax.servlet.http.HttpServlet
-	c7000041 [label=<<table title="javax.servlet.http.HttpServlet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/servlet/http/HttpServlet.html">
+	c7175176 [label=<<table title="javax.servlet.http.HttpServlet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/servlet/http/HttpServlet.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> HttpServlet </font></td></tr>
 		</table></td></tr>

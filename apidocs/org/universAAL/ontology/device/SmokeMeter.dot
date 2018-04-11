@@ -9,19 +9,19 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.device.SmokeMeter
-	c7672764 [label=<<table title="org.universAAL.ontology.device.SmokeMeter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SmokeMeter.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> SmokeMeter </td></tr>
-		</table></td></tr>
-		</table>>, URL="./SmokeMeter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.EnvironmentMeter
-	c7672768 [label=<<table title="org.universAAL.ontology.device.EnvironmentMeter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EnvironmentMeter.html">
+	c7860484 [label=<<table title="org.universAAL.ontology.device.EnvironmentMeter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EnvironmentMeter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> EnvironmentMeter </td></tr>
 		</table></td></tr>
 		</table>>, URL="./EnvironmentMeter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.SmokeMeter
+	c7860519 [label=<<table title="org.universAAL.ontology.device.SmokeMeter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SmokeMeter.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> SmokeMeter </td></tr>
+		</table></td></tr>
+		</table>>, URL="./SmokeMeter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.device.SmokeMeter extends org.universAAL.ontology.device.EnvironmentMeter
-	c7672768:p -> c7672764:p [dir=back,arrowtail=empty];
+	c7860484:p -> c7860519:p [dir=back,arrowtail=empty];
 }
 

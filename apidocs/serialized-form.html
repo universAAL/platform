@@ -2453,6 +2453,16 @@
 </ul>
 </li>
 <li class="blockList">
+<h2 title="Package">Package&nbsp;org.universAAL.ri.gateway</h2>
+<ul class="blockList">
+<li class="blockList"><a name="org.universAAL.ri.gateway.Exporter.NullConcurrentHashMap">
+<!--   -->
+</a>
+<h3>Class <a href="org/universAAL/ri/gateway/Exporter.NullConcurrentHashMap.html" title="class in org.universAAL.ri.gateway">org.universAAL.ri.gateway.Exporter.NullConcurrentHashMap</a> extends <a href="http://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ConcurrentHashMap.html?is-external=true" title="class or interface in java.util.concurrent">ConcurrentHashMap</a>&lt;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>,<a href="org/universAAL/middleware/rdf/Resource.html" title="class in org.universAAL.middleware.rdf">Resource</a>[]&gt; implements Serializable</h3>
+</li>
+</ul>
+</li>
+<li class="blockList">
 <h2 title="Package">Package&nbsp;org.universAAL.ri.gateway.configuration</h2>
 <ul class="blockList">
 <li class="blockList"><a name="org.universAAL.ri.gateway.configuration.ConfigurationFile">
@@ -2473,7 +2483,7 @@
 </li>
 <li class="blockListLast">
 <h4>cipher</h4>
-<pre><a href="org/universAAL/ri/gateway/communication/cipher/Blowfish.html" title="class in org.universAAL.ri.gateway.communication.cipher">Blowfish</a> cipher</pre>
+<pre><a href="org/universAAL/ri/gateway/communication/cipher/SocketCipher.html" title="interface in org.universAAL.ri.gateway.communication.cipher">SocketCipher</a> cipher</pre>
 </li>
 </ul>
 </li>
@@ -2774,6 +2784,51 @@
 <h4>busMemberid</h4>
 <pre><a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> busMemberid</pre>
 <div class="block">The <a href="org/universAAL/middleware/bus/member/BusMember.html" title="class in org.universAAL.middleware.bus.member"><code>BusMember</code></a> id at the remote side identified.</div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="blockList"><a name="org.universAAL.ri.gateway.proxies.BusMemberReferenceTemporal">
+<!--   -->
+</a>
+<h3>Class <a href="org/universAAL/ri/gateway/proxies/BusMemberReferenceTemporal.html" title="class in org.universAAL.ri.gateway.proxies">org.universAAL.ri.gateway.proxies.BusMemberReferenceTemporal</a> extends <a href="org/universAAL/ri/gateway/proxies/BusMemberReference.html" title="class in org.universAAL.ri.gateway.proxies">BusMemberReference</a> implements Serializable</h3>
+<dl class="nameValue">
+<dt>serialVersionUID:</dt>
+<dd>1L</dd>
+</dl>
+<ul class="blockList">
+<li class="blockList">
+<h3>Serialized Fields</h3>
+<ul class="blockList">
+<li class="blockListLast">
+<h4>mq</h4>
+<pre><a href="http://docs.oracle.com/javase/8/docs/api/java/util/Queue.html?is-external=true" title="class or interface in java.util">Queue</a>&lt;<a href="http://docs.oracle.com/javase/8/docs/api/java/util/Queue.html?is-external=true" title="class or interface in java.util">E</a>&gt; mq</pre>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="blockList">
+<h2 title="Package">Package&nbsp;org.universAAL.ri.gateway.utils</h2>
+<ul class="blockList">
+<li class="blockList"><a name="org.universAAL.ri.gateway.utils.BufferedQueue">
+<!--   -->
+</a>
+<h3>Class <a href="org/universAAL/ri/gateway/utils/BufferedQueue.html" title="class in org.universAAL.ri.gateway.utils">org.universAAL.ri.gateway.utils.BufferedQueue</a> extends <a href="http://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ConcurrentLinkedQueue.html?is-external=true" title="class or interface in java.util.concurrent">ConcurrentLinkedQueue</a>&lt;<a href="org/universAAL/ri/gateway/utils/BufferedQueue.html" title="type parameter in BufferedQueue">A</a>&gt; implements Serializable</h3>
+<dl class="nameValue">
+<dt>serialVersionUID:</dt>
+<dd>1L</dd>
+</dl>
+<ul class="blockList">
+<li class="blockList">
+<h3>Serialized Fields</h3>
+<ul class="blockList">
+<li class="blockListLast">
+<h4>maxSize</h4>
+<pre>long maxSize</pre>
 </li>
 </ul>
 </li>
@@ -9046,6 +9101,20 @@
 </li>
 </ul>
 </li>
+<li class="blockList">
+<h2 title="Package">Package&nbsp;org.universAAL.utilities.api.service.mid</h2>
+<ul class="blockList">
+<li class="blockList"><a name="org.universAAL.utilities.api.service.mid.InvalidOntologyUtilException">
+<!--   -->
+</a>
+<h3>Class <a href="org/universAAL/utilities/api/service/mid/InvalidOntologyUtilException.html" title="class in org.universAAL.utilities.api.service.mid">org.universAAL.utilities.api.service.mid.InvalidOntologyUtilException</a> extends <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Exception.html?is-external=true" title="class or interface in java.lang">Exception</a> implements Serializable</h3>
+<dl class="nameValue">
+<dt>serialVersionUID:</dt>
+<dd>-3166461804890824040L</dd>
+</dl>
+</li>
+</ul>
+</li>
 </ul>
 </div>
 <!-- ======= START OF BOTTOM NAVBAR ====== -->
@@ -9095,6 +9164,6 @@
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2017 <a href="http://www.universAAL.org/">universAAL Consortium</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2018 <a href="http://www.universAAL.org/">universAAL Consortium</a>. All rights reserved.</small></p>
 </body>
 </html>

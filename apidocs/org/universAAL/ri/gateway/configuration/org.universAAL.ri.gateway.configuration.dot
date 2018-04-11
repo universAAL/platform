@@ -9,56 +9,56 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ri.gateway.configuration.ConfigurationFile
-	c953753 [label=<<table title="org.universAAL.ri.gateway.configuration.ConfigurationFile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigurationFile.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ConfigurationFile </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ConfigurationFile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.gateway.configuration.TurtleFileSecurityDefinition
-	c953754 [label=<<table title="org.universAAL.ri.gateway.configuration.TurtleFileSecurityDefinition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TurtleFileSecurityDefinition.html">
+	c1015717 [label=<<table title="org.universAAL.ri.gateway.configuration.TurtleFileSecurityDefinition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TurtleFileSecurityDefinition.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TurtleFileSecurityDefinition </td></tr>
 		</table></td></tr>
 		</table>>, URL="./TurtleFileSecurityDefinition.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ri.gateway.configuration.UpdatedPropertiesFile
-	c953755 [label=<<table title="org.universAAL.ri.gateway.configuration.UpdatedPropertiesFile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UpdatedPropertiesFile.html">
+	// org.universAAL.ri.gateway.configuration.PropertiesFileKeys
+	c1015718 [label=<<table title="org.universAAL.ri.gateway.configuration.PropertiesFileKeys" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PropertiesFileKeys.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> UpdatedPropertiesFile </font></td></tr>
+<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
+<tr><td align="center" balign="center"> PropertiesFileKeys </td></tr>
 		</table></td></tr>
-		</table>>, URL="./UpdatedPropertiesFile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./PropertiesFileKeys.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.gateway.configuration.NoSecurityDefinition
-	c953756 [label=<<table title="org.universAAL.ri.gateway.configuration.NoSecurityDefinition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NoSecurityDefinition.html">
+	c1015719 [label=<<table title="org.universAAL.ri.gateway.configuration.NoSecurityDefinition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NoSecurityDefinition.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> NoSecurityDefinition </td></tr>
 		</table></td></tr>
 		</table>>, URL="./NoSecurityDefinition.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ri.gateway.configuration.ConfigurationFile
+	c1015720 [label=<<table title="org.universAAL.ri.gateway.configuration.ConfigurationFile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigurationFile.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ConfigurationFile </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ConfigurationFile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.gateway.configuration.Configuration
-	c953757 [label=<<table title="org.universAAL.ri.gateway.configuration.Configuration" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Configuration.html">
+	c1015721 [label=<<table title="org.universAAL.ri.gateway.configuration.Configuration" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Configuration.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Configuration </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Configuration.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.gateway.configuration.Configuration.ConnectionMode
-	c953758 [label=<<table title="org.universAAL.ri.gateway.configuration.Configuration.ConnectionMode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Configuration.ConnectionMode.html">
+	c1015722 [label=<<table title="org.universAAL.ri.gateway.configuration.Configuration.ConnectionMode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Configuration.ConnectionMode.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
 <tr><td align="center" balign="center"> ConnectionMode </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Configuration.ConnectionMode.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ri.gateway.configuration.PropertiesFileKeys
-	c953759 [label=<<table title="org.universAAL.ri.gateway.configuration.PropertiesFileKeys" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PropertiesFileKeys.html">
+	// org.universAAL.ri.gateway.configuration.UpdatedPropertiesFile
+	c1015723 [label=<<table title="org.universAAL.ri.gateway.configuration.UpdatedPropertiesFile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UpdatedPropertiesFile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
-<tr><td align="center" balign="center"> PropertiesFileKeys </td></tr>
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> UpdatedPropertiesFile </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="./PropertiesFileKeys.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./UpdatedPropertiesFile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ri.gateway.configuration.ConfigurationFile extends org.universAAL.ri.gateway.configuration.UpdatedPropertiesFile
-	c953755:p -> c953753:p [dir=back,arrowtail=empty];
+	c1015723:p -> c1015720:p [dir=back,arrowtail=empty];
 	//org.universAAL.ri.gateway.configuration.ConfigurationFile implements org.universAAL.ri.gateway.configuration.Configuration
-	c953757:p -> c953753:p [dir=back,arrowtail=empty,style=dashed];
+	c1015721:p -> c1015720:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.ri.gateway.configuration.ConfigurationFile implements org.universAAL.ri.gateway.configuration.PropertiesFileKeys
-	c953759:p -> c953753:p [dir=back,arrowtail=empty,style=dashed];
+	c1015718:p -> c1015720:p [dir=back,arrowtail=empty,style=dashed];
 }
 

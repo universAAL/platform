@@ -9,20 +9,20 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.support.utils.ISListener
-	c6897006 [label=<<table title="org.universAAL.support.utils.ISListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../support/utils/ISListener.html">
+	// org.universAAL.utilities.api.ISListener
+	c7070227 [label=<<table title="org.universAAL.utilities.api.ISListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../utilities/api/ISListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ISListener </td></tr>
 		</table></td></tr>
-		</table>>, URL="../../../support/utils/ISListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="../../../utilities/api/ISListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.api.manager.RemoteUAAL.SListener
-	c6898303 [label=<<table title="org.universAAL.ri.api.manager.RemoteUAAL.SListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RemoteUAAL.SListener.html">
+	c7071558 [label=<<table title="org.universAAL.ri.api.manager.RemoteUAAL.SListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RemoteUAAL.SListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="./RemoteUAAL.SListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.ri.api.manager.RemoteUAAL.SListener implements org.universAAL.support.utils.ISListener
-	c6897006:p -> c6898303:p [dir=back,arrowtail=empty,style=dashed];
+	//org.universAAL.ri.api.manager.RemoteUAAL.SListener implements org.universAAL.utilities.api.ISListener
+	c7070227:p -> c7071558:p [dir=back,arrowtail=empty,style=dashed];
 }
 

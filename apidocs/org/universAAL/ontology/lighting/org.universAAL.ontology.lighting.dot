@@ -9,101 +9,101 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.lighting.Beaming
-	c361411 [label=<<table title="org.universAAL.ontology.lighting.Beaming" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Beaming.html">
+	// org.universAAL.ontology.lighting.ElectricLight
+	c400528 [label=<<table title="org.universAAL.ontology.lighting.ElectricLight" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ElectricLight.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Beaming </td></tr>
+<tr><td align="center" balign="center"> ElectricLight </td></tr>
 		</table></td></tr>
-		</table>>, URL="./Beaming.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.lighting.BlinkableBeaming
-	c361412 [label=<<table title="org.universAAL.ontology.lighting.BlinkableBeaming" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BlinkableBeaming.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> BlinkableBeaming </td></tr>
-		</table></td></tr>
-		</table>>, URL="./BlinkableBeaming.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./ElectricLight.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.LightSource
-	c361413 [label=<<table title="org.universAAL.ontology.lighting.LightSource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightSource.html">
+	c400529 [label=<<table title="org.universAAL.ontology.lighting.LightSource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightSource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LightSource </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LightSource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.Lighting
-	c361414 [label=<<table title="org.universAAL.ontology.lighting.Lighting" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Lighting.html">
+	c400530 [label=<<table title="org.universAAL.ontology.lighting.Lighting" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Lighting.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Lighting </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Lighting.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.lighting.BlinkableLightSource
-	c361415 [label=<<table title="org.universAAL.ontology.lighting.BlinkableLightSource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BlinkableLightSource.html">
+	// org.universAAL.ontology.lighting.LightingOntology
+	c400531 [label=<<table title="org.universAAL.ontology.lighting.LightingOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingOntology.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> BlinkableLightSource </td></tr>
+<tr><td align="center" balign="center"> LightingOntology </td></tr>
 		</table></td></tr>
-		</table>>, URL="./BlinkableLightSource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.lighting.BlinkableLighting
-	c361416 [label=<<table title="org.universAAL.ontology.lighting.BlinkableLighting" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BlinkableLighting.html">
+		</table>>, URL="./LightingOntology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.lighting.LightType
+	c400532 [label=<<table title="org.universAAL.ontology.lighting.LightType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> BlinkableLighting </td></tr>
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> LightType </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="./BlinkableLighting.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./LightType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.BeamingSource
-	c361417 [label=<<table title="org.universAAL.ontology.lighting.BeamingSource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BeamingSource.html">
+	c400533 [label=<<table title="org.universAAL.ontology.lighting.BeamingSource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BeamingSource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BeamingSource </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BeamingSource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.lighting.Beaming
+	c400534 [label=<<table title="org.universAAL.ontology.lighting.Beaming" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Beaming.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Beaming </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Beaming.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.lighting.BlinkableLighting
+	c400535 [label=<<table title="org.universAAL.ontology.lighting.BlinkableLighting" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BlinkableLighting.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> BlinkableLighting </td></tr>
+		</table></td></tr>
+		</table>>, URL="./BlinkableLighting.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.lighting.BlinkableLightSource
+	c400536 [label=<<table title="org.universAAL.ontology.lighting.BlinkableLightSource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BlinkableLightSource.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> BlinkableLightSource </td></tr>
+		</table></td></tr>
+		</table>>, URL="./BlinkableLightSource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.lighting.BlinkableBeamingSource
+	c400537 [label=<<table title="org.universAAL.ontology.lighting.BlinkableBeamingSource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BlinkableBeamingSource.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> BlinkableBeamingSource </td></tr>
+		</table></td></tr>
+		</table>>, URL="./BlinkableBeamingSource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.NaturalLight
-	c361418 [label=<<table title="org.universAAL.ontology.lighting.NaturalLight" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NaturalLight.html">
+	c400538 [label=<<table title="org.universAAL.ontology.lighting.NaturalLight" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NaturalLight.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> NaturalLight </td></tr>
 		</table></td></tr>
 		</table>>, URL="./NaturalLight.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.FlamingLight
-	c361419 [label=<<table title="org.universAAL.ontology.lighting.FlamingLight" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FlamingLight.html">
+	c400539 [label=<<table title="org.universAAL.ontology.lighting.FlamingLight" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FlamingLight.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> FlamingLight </td></tr>
 		</table></td></tr>
 		</table>>, URL="./FlamingLight.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.lighting.LightingOntology
-	c361420 [label=<<table title="org.universAAL.ontology.lighting.LightingOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingOntology.html">
+	// org.universAAL.ontology.lighting.BlinkableBeaming
+	c400540 [label=<<table title="org.universAAL.ontology.lighting.BlinkableBeaming" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BlinkableBeaming.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> LightingOntology </td></tr>
+<tr><td align="center" balign="center"> BlinkableBeaming </td></tr>
 		</table></td></tr>
-		</table>>, URL="./LightingOntology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.lighting.ElectricLight
-	c361421 [label=<<table title="org.universAAL.ontology.lighting.ElectricLight" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ElectricLight.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ElectricLight </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ElectricLight.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.lighting.BlinkableBeamingSource
-	c361422 [label=<<table title="org.universAAL.ontology.lighting.BlinkableBeamingSource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BlinkableBeamingSource.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> BlinkableBeamingSource </td></tr>
-		</table></td></tr>
-		</table>>, URL="./BlinkableBeamingSource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.lighting.LightType
-	c361423 [label=<<table title="org.universAAL.ontology.lighting.LightType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightType.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> LightType </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./LightType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.ontology.lighting.Beaming extends org.universAAL.ontology.lighting.Lighting
-	c361414:p -> c361411:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.lighting.BlinkableBeaming extends org.universAAL.ontology.lighting.Beaming
-	c361411:p -> c361412:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.lighting.BlinkableLightSource extends org.universAAL.ontology.lighting.LightSource
-	c361413:p -> c361415:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.lighting.BlinkableLighting extends org.universAAL.ontology.lighting.Lighting
-	c361414:p -> c361416:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.lighting.BeamingSource extends org.universAAL.ontology.lighting.LightSource
-	c361413:p -> c361417:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.lighting.NaturalLight extends org.universAAL.ontology.lighting.LightType
-	c361423:p -> c361418:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.lighting.FlamingLight extends org.universAAL.ontology.lighting.LightType
-	c361423:p -> c361419:p [dir=back,arrowtail=empty];
+		</table>>, URL="./BlinkableBeaming.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.lighting.ElectricLight extends org.universAAL.ontology.lighting.LightType
-	c361423:p -> c361421:p [dir=back,arrowtail=empty];
+	c400532:p -> c400528:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.lighting.BeamingSource extends org.universAAL.ontology.lighting.LightSource
+	c400529:p -> c400533:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.lighting.Beaming extends org.universAAL.ontology.lighting.Lighting
+	c400530:p -> c400534:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.lighting.BlinkableLighting extends org.universAAL.ontology.lighting.Lighting
+	c400530:p -> c400535:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.lighting.BlinkableLightSource extends org.universAAL.ontology.lighting.LightSource
+	c400529:p -> c400536:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.lighting.BlinkableBeamingSource extends org.universAAL.ontology.lighting.BeamingSource
-	c361417:p -> c361422:p [dir=back,arrowtail=empty];
+	c400533:p -> c400537:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.lighting.NaturalLight extends org.universAAL.ontology.lighting.LightType
+	c400532:p -> c400538:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.lighting.FlamingLight extends org.universAAL.ontology.lighting.LightType
+	c400532:p -> c400539:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.lighting.BlinkableBeaming extends org.universAAL.ontology.lighting.Beaming
+	c400534:p -> c400540:p [dir=back,arrowtail=empty];
 }
 

@@ -9,30 +9,30 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.tools.ucc.startup.model.UccUsers
-	c1430319 [label=<<table title="org.universAAL.tools.ucc.startup.model.UccUsers" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UccUsers.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> UccUsers </td></tr>
-		</table></td></tr>
-		</table>>, URL="./UccUsers.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.tools.ucc.startup.model.UserAccountInfo
-	c1430320 [label=<<table title="org.universAAL.tools.ucc.startup.model.UserAccountInfo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UserAccountInfo.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> UserAccountInfo </td></tr>
-		</table></td></tr>
-		</table>>, URL="./UserAccountInfo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.tools.ucc.startup.model.User
-	c1430321 [label=<<table title="org.universAAL.tools.ucc.startup.model.User" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./User.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> User </td></tr>
-		</table></td></tr>
-		</table>>, URL="./User.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.startup.model.Role
-	c1430322 [label=<<table title="org.universAAL.tools.ucc.startup.model.Role" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Role.html">
+	c1489421 [label=<<table title="org.universAAL.tools.ucc.startup.model.Role" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Role.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
 <tr><td align="center" balign="center"> Role </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Role.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.tools.ucc.startup.model.UserAccountInfo
+	c1489422 [label=<<table title="org.universAAL.tools.ucc.startup.model.UserAccountInfo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UserAccountInfo.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> UserAccountInfo </td></tr>
+		</table></td></tr>
+		</table>>, URL="./UserAccountInfo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.tools.ucc.startup.model.User
+	c1489423 [label=<<table title="org.universAAL.tools.ucc.startup.model.User" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./User.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> User </td></tr>
+		</table></td></tr>
+		</table>>, URL="./User.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.tools.ucc.startup.model.UccUsers
+	c1489424 [label=<<table title="org.universAAL.tools.ucc.startup.model.UccUsers" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UccUsers.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> UccUsers </td></tr>
+		</table></td></tr>
+		</table>>, URL="./UccUsers.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

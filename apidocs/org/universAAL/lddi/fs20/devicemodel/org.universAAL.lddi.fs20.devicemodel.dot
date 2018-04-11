@@ -9,64 +9,64 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.lddi.fs20.devicemodel.FS20PIRxDevice
-	c783348 [label=<<table title="org.universAAL.lddi.fs20.devicemodel.FS20PIRxDevice" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FS20PIRxDevice.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> FS20PIRxDevice </td></tr>
-		</table></td></tr>
-		</table>>, URL="./FS20PIRxDevice.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.lddi.fs20.devicemodel.FS20RGBSADevice
-	c783349 [label=<<table title="org.universAAL.lddi.fs20.devicemodel.FS20RGBSADevice" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FS20RGBSADevice.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> FS20RGBSADevice </td></tr>
-		</table></td></tr>
-		</table>>, URL="./FS20RGBSADevice.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.lddi.fs20.devicemodel.FS20SIGDevice
-	c783350 [label=<<table title="org.universAAL.lddi.fs20.devicemodel.FS20SIGDevice" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FS20SIGDevice.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> FS20SIGDevice </td></tr>
-		</table></td></tr>
-		</table>>, URL="./FS20SIGDevice.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.fs20.devicemodel.FS20FMSDevice
-	c783351 [label=<<table title="org.universAAL.lddi.fs20.devicemodel.FS20FMSDevice" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FS20FMSDevice.html">
+	c839173 [label=<<table title="org.universAAL.lddi.fs20.devicemodel.FS20FMSDevice" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FS20FMSDevice.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> FS20FMSDevice </td></tr>
 		</table></td></tr>
 		</table>>, URL="./FS20FMSDevice.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.lddi.fs20.devicemodel.FS20STDevice
-	c783352 [label=<<table title="org.universAAL.lddi.fs20.devicemodel.FS20STDevice" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FS20STDevice.html">
+	// org.universAAL.lddi.fs20.devicemodel.FS20PIRxDevice
+	c839174 [label=<<table title="org.universAAL.lddi.fs20.devicemodel.FS20PIRxDevice" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FS20PIRxDevice.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> FS20STDevice </td></tr>
+<tr><td align="center" balign="center"> FS20PIRxDevice </td></tr>
 		</table></td></tr>
-		</table>>, URL="./FS20STDevice.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.lddi.fs20.devicemodel.FS20DeviceProperties
-	c783353 [label=<<table title="org.universAAL.lddi.fs20.devicemodel.FS20DeviceProperties" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FS20DeviceProperties.html">
+		</table>>, URL="./FS20PIRxDevice.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.lddi.fs20.devicemodel.FS20SIGDevice
+	c839175 [label=<<table title="org.universAAL.lddi.fs20.devicemodel.FS20SIGDevice" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FS20SIGDevice.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> FS20DeviceProperties </td></tr>
+<tr><td align="center" balign="center"> FS20SIGDevice </td></tr>
 		</table></td></tr>
-		</table>>, URL="./FS20DeviceProperties.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./FS20SIGDevice.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.fs20.devicemodel.FS20Device
-	c783354 [label=<<table title="org.universAAL.lddi.fs20.devicemodel.FS20Device" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FS20Device.html">
+	c839176 [label=<<table title="org.universAAL.lddi.fs20.devicemodel.FS20Device" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FS20Device.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> FS20Device </td></tr>
 		</table></td></tr>
 		</table>>, URL="./FS20Device.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.lddi.fs20.devicemodel.FS20RGBSADevice
+	c839177 [label=<<table title="org.universAAL.lddi.fs20.devicemodel.FS20RGBSADevice" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FS20RGBSADevice.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> FS20RGBSADevice </td></tr>
+		</table></td></tr>
+		</table>>, URL="./FS20RGBSADevice.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.lddi.fs20.devicemodel.FS20STDevice
+	c839178 [label=<<table title="org.universAAL.lddi.fs20.devicemodel.FS20STDevice" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FS20STDevice.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> FS20STDevice </td></tr>
+		</table></td></tr>
+		</table>>, URL="./FS20STDevice.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.fs20.devicemodel.FS20DeviceTypes
-	c783355 [label=<<table title="org.universAAL.lddi.fs20.devicemodel.FS20DeviceTypes" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FS20DeviceTypes.html">
+	c839179 [label=<<table title="org.universAAL.lddi.fs20.devicemodel.FS20DeviceTypes" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FS20DeviceTypes.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
 <tr><td align="center" balign="center"> FS20DeviceTypes </td></tr>
 		</table></td></tr>
 		</table>>, URL="./FS20DeviceTypes.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.lddi.fs20.devicemodel.FS20PIRxDevice extends org.universAAL.lddi.fs20.devicemodel.FS20Device
-	c783354:p -> c783348:p [dir=back,arrowtail=empty];
-	//org.universAAL.lddi.fs20.devicemodel.FS20RGBSADevice extends org.universAAL.lddi.fs20.devicemodel.FS20Device
-	c783354:p -> c783349:p [dir=back,arrowtail=empty];
-	//org.universAAL.lddi.fs20.devicemodel.FS20SIGDevice extends org.universAAL.lddi.fs20.devicemodel.FS20Device
-	c783354:p -> c783350:p [dir=back,arrowtail=empty];
+	// org.universAAL.lddi.fs20.devicemodel.FS20DeviceProperties
+	c839180 [label=<<table title="org.universAAL.lddi.fs20.devicemodel.FS20DeviceProperties" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FS20DeviceProperties.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> FS20DeviceProperties </td></tr>
+		</table></td></tr>
+		</table>>, URL="./FS20DeviceProperties.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.lddi.fs20.devicemodel.FS20FMSDevice extends org.universAAL.lddi.fs20.devicemodel.FS20Device
-	c783354:p -> c783351:p [dir=back,arrowtail=empty];
+	c839176:p -> c839173:p [dir=back,arrowtail=empty];
+	//org.universAAL.lddi.fs20.devicemodel.FS20PIRxDevice extends org.universAAL.lddi.fs20.devicemodel.FS20Device
+	c839176:p -> c839174:p [dir=back,arrowtail=empty];
+	//org.universAAL.lddi.fs20.devicemodel.FS20SIGDevice extends org.universAAL.lddi.fs20.devicemodel.FS20Device
+	c839176:p -> c839175:p [dir=back,arrowtail=empty];
+	//org.universAAL.lddi.fs20.devicemodel.FS20RGBSADevice extends org.universAAL.lddi.fs20.devicemodel.FS20Device
+	c839176:p -> c839177:p [dir=back,arrowtail=empty];
 	//org.universAAL.lddi.fs20.devicemodel.FS20STDevice extends org.universAAL.lddi.fs20.devicemodel.FS20Device
-	c783354:p -> c783352:p [dir=back,arrowtail=empty];
+	c839176:p -> c839178:p [dir=back,arrowtail=empty];
 }
 

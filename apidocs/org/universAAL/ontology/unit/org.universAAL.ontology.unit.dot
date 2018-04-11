@@ -9,59 +9,59 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.unit.MultipliedUnit
-	c260239 [label=<<table title="org.universAAL.ontology.unit.MultipliedUnit" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MultipliedUnit.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> MultipliedUnit </td></tr>
-		</table></td></tr>
-		</table>>, URL="./MultipliedUnit.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.unit.Unit
-	c260240 [label=<<table title="org.universAAL.ontology.unit.Unit" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Unit.html">
+	c265099 [label=<<table title="org.universAAL.ontology.unit.Unit" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Unit.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Unit </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Unit.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.unit.UnitOntology
-	c260241 [label=<<table title="org.universAAL.ontology.unit.UnitOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UnitOntology.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> UnitOntology </td></tr>
-		</table></td></tr>
-		</table>>, URL="./UnitOntology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.unit.MeasurableDimension
-	c260242 [label=<<table title="org.universAAL.ontology.unit.MeasurableDimension" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MeasurableDimension.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> MeasurableDimension </td></tr>
-		</table></td></tr>
-		</table>>, URL="./MeasurableDimension.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.unit.UnitSystem
-	c260243 [label=<<table title="org.universAAL.ontology.unit.UnitSystem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UnitSystem.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> UnitSystem </td></tr>
-		</table></td></tr>
-		</table>>, URL="./UnitSystem.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.unit.DividedUnit
-	c260244 [label=<<table title="org.universAAL.ontology.unit.DividedUnit" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DividedUnit.html">
+	c265100 [label=<<table title="org.universAAL.ontology.unit.DividedUnit" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DividedUnit.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DividedUnit </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DividedUnit.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.unit.DerivedUnit
-	c260245 [label=<<table title="org.universAAL.ontology.unit.DerivedUnit" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DerivedUnit.html">
+	c265101 [label=<<table title="org.universAAL.ontology.unit.DerivedUnit" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DerivedUnit.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> DerivedUnit </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./DerivedUnit.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.unit.Prefix
-	c260246 [label=<<table title="org.universAAL.ontology.unit.Prefix" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Prefix.html">
+	c265102 [label=<<table title="org.universAAL.ontology.unit.Prefix" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Prefix.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Prefix </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Prefix.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.ontology.unit.MultipliedUnit extends org.universAAL.ontology.unit.DerivedUnit
-	c260245:p -> c260239:p [dir=back,arrowtail=empty];
+	// org.universAAL.ontology.unit.UnitOntology
+	c265103 [label=<<table title="org.universAAL.ontology.unit.UnitOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UnitOntology.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> UnitOntology </td></tr>
+		</table></td></tr>
+		</table>>, URL="./UnitOntology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.unit.UnitSystem
+	c265104 [label=<<table title="org.universAAL.ontology.unit.UnitSystem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UnitSystem.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> UnitSystem </td></tr>
+		</table></td></tr>
+		</table>>, URL="./UnitSystem.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.unit.MultipliedUnit
+	c265105 [label=<<table title="org.universAAL.ontology.unit.MultipliedUnit" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MultipliedUnit.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> MultipliedUnit </td></tr>
+		</table></td></tr>
+		</table>>, URL="./MultipliedUnit.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.unit.MeasurableDimension
+	c265106 [label=<<table title="org.universAAL.ontology.unit.MeasurableDimension" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MeasurableDimension.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> MeasurableDimension </td></tr>
+		</table></td></tr>
+		</table>>, URL="./MeasurableDimension.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.unit.DividedUnit extends org.universAAL.ontology.unit.DerivedUnit
-	c260245:p -> c260244:p [dir=back,arrowtail=empty];
+	c265101:p -> c265100:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.unit.DerivedUnit extends org.universAAL.ontology.unit.Unit
-	c260240:p -> c260245:p [dir=back,arrowtail=empty];
+	c265099:p -> c265101:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.unit.MultipliedUnit extends org.universAAL.ontology.unit.DerivedUnit
+	c265101:p -> c265105:p [dir=back,arrowtail=empty];
 }
 

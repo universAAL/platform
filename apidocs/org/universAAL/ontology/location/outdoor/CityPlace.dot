@@ -9,27 +9,27 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.location.outdoor.Building
-	c2700228 [label=<<table title="org.universAAL.ontology.location.outdoor.Building" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Building.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Building </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Building.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.location.outdoor.OutdoorPlace
-	c2700230 [label=<<table title="org.universAAL.ontology.location.outdoor.OutdoorPlace" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OutdoorPlace.html">
+	c2786105 [label=<<table title="org.universAAL.ontology.location.outdoor.OutdoorPlace" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OutdoorPlace.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OutdoorPlace </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OutdoorPlace.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.location.outdoor.Building
+	c2786106 [label=<<table title="org.universAAL.ontology.location.outdoor.Building" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Building.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Building </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Building.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.location.outdoor.CityPlace
-	c2700231 [label=<<table title="org.universAAL.ontology.location.outdoor.CityPlace" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CityPlace.html">
+	c2786107 [label=<<table title="org.universAAL.ontology.location.outdoor.CityPlace" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CityPlace.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CityPlace </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CityPlace.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.location.outdoor.Building extends org.universAAL.ontology.location.outdoor.CityPlace
-	c2700231:p -> c2700228:p [dir=back,arrowtail=empty];
+	c2786107:p -> c2786106:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.location.outdoor.CityPlace extends org.universAAL.ontology.location.outdoor.OutdoorPlace
-	c2700230:p -> c2700231:p [dir=back,arrowtail=empty];
+	c2786105:p -> c2786107:p [dir=back,arrowtail=empty];
 }
 

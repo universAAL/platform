@@ -9,43 +9,43 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.middleware.bus.member.Callee
-	c2452003 [label=<<table title="org.universAAL.middleware.bus.member.Callee" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Callee.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Callee </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./Callee.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.bus.member.Caller
-	c2452005 [label=<<table title="org.universAAL.middleware.bus.member.Caller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Caller.html">
+	c2533170 [label=<<table title="org.universAAL.middleware.bus.member.Caller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Caller.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Caller </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Caller.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.bus.member.Publisher
-	c2452006 [label=<<table title="org.universAAL.middleware.bus.member.Publisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Publisher.html">
+	// org.universAAL.middleware.bus.member.Callee
+	c2533171 [label=<<table title="org.universAAL.middleware.bus.member.Callee" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Callee.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Publisher </font></td></tr>
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Callee </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="./Publisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.bus.member.BusMember
-	c2452007 [label=<<table title="org.universAAL.middleware.bus.member.BusMember" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BusMember.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> BusMember </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./BusMember.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./Callee.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.bus.member.Subscriber
-	c2452008 [label=<<table title="org.universAAL.middleware.bus.member.Subscriber" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Subscriber.html">
+	c2533173 [label=<<table title="org.universAAL.middleware.bus.member.Subscriber" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Subscriber.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Subscriber </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Subscriber.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.middleware.bus.member.Callee extends org.universAAL.middleware.bus.member.BusMember
-	c2452007:p -> c2452003:p [dir=back,arrowtail=empty];
+	// org.universAAL.middleware.bus.member.BusMember
+	c2533174 [label=<<table title="org.universAAL.middleware.bus.member.BusMember" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BusMember.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> BusMember </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./BusMember.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.bus.member.Publisher
+	c2533175 [label=<<table title="org.universAAL.middleware.bus.member.Publisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Publisher.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Publisher </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./Publisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.bus.member.Caller extends org.universAAL.middleware.bus.member.BusMember
-	c2452007:p -> c2452005:p [dir=back,arrowtail=empty];
-	//org.universAAL.middleware.bus.member.Publisher extends org.universAAL.middleware.bus.member.BusMember
-	c2452007:p -> c2452006:p [dir=back,arrowtail=empty];
+	c2533174:p -> c2533170:p [dir=back,arrowtail=empty];
+	//org.universAAL.middleware.bus.member.Callee extends org.universAAL.middleware.bus.member.BusMember
+	c2533174:p -> c2533171:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.bus.member.Subscriber extends org.universAAL.middleware.bus.member.BusMember
-	c2452007:p -> c2452008:p [dir=back,arrowtail=empty];
+	c2533174:p -> c2533173:p [dir=back,arrowtail=empty];
+	//org.universAAL.middleware.bus.member.Publisher extends org.universAAL.middleware.bus.member.BusMember
+	c2533174:p -> c2533175:p [dir=back,arrowtail=empty];
 }
 

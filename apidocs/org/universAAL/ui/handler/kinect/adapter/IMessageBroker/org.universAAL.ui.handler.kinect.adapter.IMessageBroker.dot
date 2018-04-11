@@ -9,18 +9,18 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
+	// org.universAAL.ui.handler.kinect.adapter.IMessageBroker.AdapterException
+	c1224676 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.IMessageBroker.AdapterException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AdapterException.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> AdapterException </td></tr>
+		</table></td></tr>
+		</table>>, URL="./AdapterException.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.handler.kinect.adapter.IMessageBroker.IMessageBroker
-	c1167547 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.IMessageBroker.IMessageBroker" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IMessageBroker.html">
+	c1224677 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.IMessageBroker.IMessageBroker" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IMessageBroker.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IMessageBroker </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IMessageBroker.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ui.handler.kinect.adapter.IMessageBroker.AdapterException
-	c1167548 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.IMessageBroker.AdapterException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AdapterException.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> AdapterException </td></tr>
-		</table></td></tr>
-		</table>>, URL="./AdapterException.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

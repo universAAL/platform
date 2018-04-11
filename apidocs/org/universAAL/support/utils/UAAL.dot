@@ -10,18 +10,10 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.support.utils.UAAL
-	c8177609 [label=<<table title="org.universAAL.support.utils.UAAL" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UAAL.html">
+	c8380640 [label=<<table title="org.universAAL.support.utils.UAAL" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UAAL.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UAAL </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UAAL.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ri.api.manager.RemoteUAAL
-	c8178909 [label=<<table title="org.universAAL.ri.api.manager.RemoteUAAL" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ri/api/manager/RemoteUAAL.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> RemoteUAAL </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ri/api/manager/RemoteUAAL.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.ri.api.manager.RemoteUAAL extends org.universAAL.support.utils.UAAL
-	c8177609:p -> c8178909:p [dir=back,arrowtail=empty];
 }
 

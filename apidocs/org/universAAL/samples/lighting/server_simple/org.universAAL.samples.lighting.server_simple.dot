@@ -10,38 +10,38 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.samples.lighting.server_simple.Activator
-	c1265726 [label=<<table title="org.universAAL.samples.lighting.server_simple.Activator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Activator.html">
+	c1318809 [label=<<table title="org.universAAL.samples.lighting.server_simple.Activator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Activator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Activator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Activator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.samples.lighting.server_simple.MyLightingOntologified
-	c1265727 [label=<<table title="org.universAAL.samples.lighting.server_simple.MyLightingOntologified" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MyLightingOntologified.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> MyLightingOntologified </td></tr>
-		</table></td></tr>
-		</table>>, URL="./MyLightingOntologified.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel3
-	c1265728 [label=<<table title="org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel3" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingSimplifiedServiceLevel3.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> LightingSimplifiedServiceLevel3 </td></tr>
-		</table></td></tr>
-		</table>>, URL="./LightingSimplifiedServiceLevel3.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel2
-	c1265729 [label=<<table title="org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel2" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingSimplifiedServiceLevel2.html">
+	c1318810 [label=<<table title="org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel2" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingSimplifiedServiceLevel2.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LightingSimplifiedServiceLevel2 </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LightingSimplifiedServiceLevel2.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel3
+	c1318811 [label=<<table title="org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel3" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingSimplifiedServiceLevel3.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> LightingSimplifiedServiceLevel3 </td></tr>
+		</table></td></tr>
+		</table>>, URL="./LightingSimplifiedServiceLevel3.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel1
-	c1265730 [label=<<table title="org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel1" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingSimplifiedServiceLevel1.html">
+	c1318812 [label=<<table title="org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel1" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingSimplifiedServiceLevel1.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LightingSimplifiedServiceLevel1 </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LightingSimplifiedServiceLevel1.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.samples.lighting.server_simple.MyLightingOntologified
+	c1318813 [label=<<table title="org.universAAL.samples.lighting.server_simple.MyLightingOntologified" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MyLightingOntologified.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> MyLightingOntologified </td></tr>
+		</table></td></tr>
+		</table>>, URL="./MyLightingOntologified.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel2 extends org.universAAL.samples.lighting.server_simple.MyLightingOntologified
-	c1265727:p -> c1265729:p [dir=back,arrowtail=empty];
+	c1318813:p -> c1318810:p [dir=back,arrowtail=empty];
 	//org.universAAL.samples.lighting.server_simple.LightingSimplifiedServiceLevel1 extends org.universAAL.samples.lighting.server_simple.MyLightingOntologified
-	c1265727:p -> c1265730:p [dir=back,arrowtail=empty];
+	c1318813:p -> c1318812:p [dir=back,arrowtail=empty];
 }
 

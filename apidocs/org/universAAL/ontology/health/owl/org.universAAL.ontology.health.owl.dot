@@ -9,171 +9,171 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.health.owl.PlannedSession
-	c422126 [label=<<table title="org.universAAL.ontology.health.owl.PlannedSession" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PlannedSession.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> PlannedSession </td></tr>
-		</table></td></tr>
-		</table>>, URL="./PlannedSession.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.health.owl.PerformedMeasurementSession
-	c422127 [label=<<table title="org.universAAL.ontology.health.owl.PerformedMeasurementSession" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PerformedMeasurementSession.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> PerformedMeasurementSession </td></tr>
-		</table></td></tr>
-		</table>>, URL="./PerformedMeasurementSession.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.health.owl.WeightMeasurementTreatment
-	c422128 [label=<<table title="org.universAAL.ontology.health.owl.WeightMeasurementTreatment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WeightMeasurementTreatment.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> WeightMeasurementTreatment </td></tr>
-		</table></td></tr>
-		</table>>, URL="./WeightMeasurementTreatment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.health.owl.MeasuredPhysicalActivity
-	c422129 [label=<<table title="org.universAAL.ontology.health.owl.MeasuredPhysicalActivity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MeasuredPhysicalActivity.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> MeasuredPhysicalActivity </td></tr>
-		</table></td></tr>
-		</table>>, URL="./MeasuredPhysicalActivity.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.health.owl.Diet
-	c422130 [label=<<table title="org.universAAL.ontology.health.owl.Diet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Diet.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Diet </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Diet.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.health.owl.TreatmentPlanning
-	c422131 [label=<<table title="org.universAAL.ontology.health.owl.TreatmentPlanning" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TreatmentPlanning.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> TreatmentPlanning </td></tr>
-		</table></td></tr>
-		</table>>, URL="./TreatmentPlanning.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.health.owl.Treatment
-	c422132 [label=<<table title="org.universAAL.ontology.health.owl.Treatment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Treatment.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Treatment </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./Treatment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.health.owl.MeasurementRequirements
-	c422133 [label=<<table title="org.universAAL.ontology.health.owl.MeasurementRequirements" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MeasurementRequirements.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> MeasurementRequirements </td></tr>
-		</table></td></tr>
-		</table>>, URL="./MeasurementRequirements.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.health.owl.WeightRequirement
-	c422134 [label=<<table title="org.universAAL.ontology.health.owl.WeightRequirement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WeightRequirement.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> WeightRequirement </td></tr>
-		</table></td></tr>
-		</table>>, URL="./WeightRequirement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.health.owl.MotivationalStatusType
-	c422135 [label=<<table title="org.universAAL.ontology.health.owl.MotivationalStatusType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MotivationalStatusType.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> MotivationalStatusType </td></tr>
-		</table></td></tr>
-		</table>>, URL="./MotivationalStatusType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.health.owl.ReposeHeartRateRequirement
-	c422136 [label=<<table title="org.universAAL.ontology.health.owl.ReposeHeartRateRequirement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ReposeHeartRateRequirement.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ReposeHeartRateRequirement </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ReposeHeartRateRequirement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.health.owl.HeartRateRequirement
-	c422137 [label=<<table title="org.universAAL.ontology.health.owl.HeartRateRequirement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HeartRateRequirement.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> HeartRateRequirement </td></tr>
-		</table></td></tr>
-		</table>>, URL="./HeartRateRequirement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.health.owl.HealthProfile
-	c422138 [label=<<table title="org.universAAL.ontology.health.owl.HealthProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HealthProfile.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> HealthProfile </td></tr>
-		</table></td></tr>
-		</table>>, URL="./HealthProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.health.owl.PerformedSession
-	c422139 [label=<<table title="org.universAAL.ontology.health.owl.PerformedSession" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PerformedSession.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> PerformedSession </td></tr>
-		</table></td></tr>
-		</table>>, URL="./PerformedSession.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.health.owl.HeartRateMeasurementTreatment
-	c422140 [label=<<table title="org.universAAL.ontology.health.owl.HeartRateMeasurementTreatment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HeartRateMeasurementTreatment.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> HeartRateMeasurementTreatment </td></tr>
-		</table></td></tr>
-		</table>>, URL="./HeartRateMeasurementTreatment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.health.owl.TakeMeasurementActivity
-	c422141 [label=<<table title="org.universAAL.ontology.health.owl.TakeMeasurementActivity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TakeMeasurementActivity.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> TakeMeasurementActivity </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./TakeMeasurementActivity.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.health.owl.HealthProfileOntology
-	c422142 [label=<<table title="org.universAAL.ontology.health.owl.HealthProfileOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HealthProfileOntology.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> HealthProfileOntology </td></tr>
-		</table></td></tr>
-		</table>>, URL="./HealthProfileOntology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.health.owl.BloodPressureMeasurementTreatment
-	c422143 [label=<<table title="org.universAAL.ontology.health.owl.BloodPressureMeasurementTreatment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BloodPressureMeasurementTreatment.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> BloodPressureMeasurementTreatment </td></tr>
-		</table></td></tr>
-		</table>>, URL="./BloodPressureMeasurementTreatment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.health.owl.ActivityHeartRateRequirement
-	c422144 [label=<<table title="org.universAAL.ontology.health.owl.ActivityHeartRateRequirement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ActivityHeartRateRequirement.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ActivityHeartRateRequirement </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ActivityHeartRateRequirement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.health.owl.Walking
-	c422145 [label=<<table title="org.universAAL.ontology.health.owl.Walking" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Walking.html">
+	c462377 [label=<<table title="org.universAAL.ontology.health.owl.Walking" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Walking.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Walking </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Walking.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.health.owl.HeartRateMeasurementTreatment
+	c462378 [label=<<table title="org.universAAL.ontology.health.owl.HeartRateMeasurementTreatment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HeartRateMeasurementTreatment.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> HeartRateMeasurementTreatment </td></tr>
+		</table></td></tr>
+		</table>>, URL="./HeartRateMeasurementTreatment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.health.owl.ActivityHeartRateRequirement
+	c462379 [label=<<table title="org.universAAL.ontology.health.owl.ActivityHeartRateRequirement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ActivityHeartRateRequirement.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ActivityHeartRateRequirement </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ActivityHeartRateRequirement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.health.owl.WeightRequirement
+	c462380 [label=<<table title="org.universAAL.ontology.health.owl.WeightRequirement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WeightRequirement.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> WeightRequirement </td></tr>
+		</table></td></tr>
+		</table>>, URL="./WeightRequirement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.health.owl.MeasurementRequirements
+	c462381 [label=<<table title="org.universAAL.ontology.health.owl.MeasurementRequirements" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MeasurementRequirements.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> MeasurementRequirements </td></tr>
+		</table></td></tr>
+		</table>>, URL="./MeasurementRequirements.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.health.owl.Diet
+	c462382 [label=<<table title="org.universAAL.ontology.health.owl.Diet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Diet.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Diet </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Diet.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.health.owl.ReposeHeartRateRequirement
+	c462383 [label=<<table title="org.universAAL.ontology.health.owl.ReposeHeartRateRequirement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ReposeHeartRateRequirement.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ReposeHeartRateRequirement </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ReposeHeartRateRequirement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.health.owl.MotivationalStatusType
+	c462384 [label=<<table title="org.universAAL.ontology.health.owl.MotivationalStatusType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MotivationalStatusType.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> MotivationalStatusType </td></tr>
+		</table></td></tr>
+		</table>>, URL="./MotivationalStatusType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.health.owl.StatusType
-	c422146 [label=<<table title="org.universAAL.ontology.health.owl.StatusType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./StatusType.html">
+	c462385 [label=<<table title="org.universAAL.ontology.health.owl.StatusType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./StatusType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> StatusType </td></tr>
 		</table></td></tr>
 		</table>>, URL="./StatusType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.health.owl.HealthyHabitsAdoption
-	c422147 [label=<<table title="org.universAAL.ontology.health.owl.HealthyHabitsAdoption" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HealthyHabitsAdoption.html">
+	// org.universAAL.ontology.health.owl.HealthProfile
+	c462386 [label=<<table title="org.universAAL.ontology.health.owl.HealthProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HealthProfile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> HealthyHabitsAdoption </font></td></tr>
+<tr><td align="center" balign="center"> HealthProfile </td></tr>
 		</table></td></tr>
-		</table>>, URL="./HealthyHabitsAdoption.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./HealthProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.health.owl.Treatment
+	c462387 [label=<<table title="org.universAAL.ontology.health.owl.Treatment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Treatment.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Treatment </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./Treatment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.health.owl.HeartRateRequirement
+	c462388 [label=<<table title="org.universAAL.ontology.health.owl.HeartRateRequirement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HeartRateRequirement.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> HeartRateRequirement </td></tr>
+		</table></td></tr>
+		</table>>, URL="./HeartRateRequirement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.health.owl.TakeMeasurementActivity
+	c462389 [label=<<table title="org.universAAL.ontology.health.owl.TakeMeasurementActivity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TakeMeasurementActivity.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> TakeMeasurementActivity </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./TakeMeasurementActivity.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.health.owl.BloodPressureRequirement
-	c422148 [label=<<table title="org.universAAL.ontology.health.owl.BloodPressureRequirement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BloodPressureRequirement.html">
+	c462390 [label=<<table title="org.universAAL.ontology.health.owl.BloodPressureRequirement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BloodPressureRequirement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BloodPressureRequirement </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BloodPressureRequirement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.ontology.health.owl.PerformedMeasurementSession extends org.universAAL.ontology.health.owl.PerformedSession
-	c422139:p -> c422127:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.health.owl.WeightMeasurementTreatment extends org.universAAL.ontology.health.owl.TakeMeasurementActivity
-	c422141:p -> c422128:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.health.owl.MeasuredPhysicalActivity extends org.universAAL.ontology.health.owl.TakeMeasurementActivity
-	c422141:p -> c422129:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.health.owl.Diet extends org.universAAL.ontology.health.owl.HealthyHabitsAdoption
-	c422147:p -> c422130:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.health.owl.WeightRequirement extends org.universAAL.ontology.health.owl.MeasurementRequirements
-	c422133:p -> c422134:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.health.owl.ReposeHeartRateRequirement extends org.universAAL.ontology.health.owl.HeartRateRequirement
-	c422137:p -> c422136:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.health.owl.HeartRateRequirement extends org.universAAL.ontology.health.owl.MeasurementRequirements
-	c422133:p -> c422137:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.health.owl.HeartRateMeasurementTreatment extends org.universAAL.ontology.health.owl.TakeMeasurementActivity
-	c422141:p -> c422140:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.health.owl.TakeMeasurementActivity extends org.universAAL.ontology.health.owl.Treatment
-	c422132:p -> c422141:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.health.owl.BloodPressureMeasurementTreatment extends org.universAAL.ontology.health.owl.TakeMeasurementActivity
-	c422141:p -> c422143:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.health.owl.ActivityHeartRateRequirement extends org.universAAL.ontology.health.owl.HeartRateRequirement
-	c422137:p -> c422144:p [dir=back,arrowtail=empty];
+	// org.universAAL.ontology.health.owl.PerformedMeasurementSession
+	c462391 [label=<<table title="org.universAAL.ontology.health.owl.PerformedMeasurementSession" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PerformedMeasurementSession.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> PerformedMeasurementSession </td></tr>
+		</table></td></tr>
+		</table>>, URL="./PerformedMeasurementSession.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.health.owl.BloodPressureMeasurementTreatment
+	c462392 [label=<<table title="org.universAAL.ontology.health.owl.BloodPressureMeasurementTreatment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BloodPressureMeasurementTreatment.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> BloodPressureMeasurementTreatment </td></tr>
+		</table></td></tr>
+		</table>>, URL="./BloodPressureMeasurementTreatment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.health.owl.HealthProfileOntology
+	c462393 [label=<<table title="org.universAAL.ontology.health.owl.HealthProfileOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HealthProfileOntology.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> HealthProfileOntology </td></tr>
+		</table></td></tr>
+		</table>>, URL="./HealthProfileOntology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.health.owl.MeasuredPhysicalActivity
+	c462394 [label=<<table title="org.universAAL.ontology.health.owl.MeasuredPhysicalActivity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MeasuredPhysicalActivity.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> MeasuredPhysicalActivity </td></tr>
+		</table></td></tr>
+		</table>>, URL="./MeasuredPhysicalActivity.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.health.owl.PlannedSession
+	c462395 [label=<<table title="org.universAAL.ontology.health.owl.PlannedSession" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PlannedSession.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> PlannedSession </td></tr>
+		</table></td></tr>
+		</table>>, URL="./PlannedSession.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.health.owl.WeightMeasurementTreatment
+	c462396 [label=<<table title="org.universAAL.ontology.health.owl.WeightMeasurementTreatment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WeightMeasurementTreatment.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> WeightMeasurementTreatment </td></tr>
+		</table></td></tr>
+		</table>>, URL="./WeightMeasurementTreatment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.health.owl.PerformedSession
+	c462397 [label=<<table title="org.universAAL.ontology.health.owl.PerformedSession" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PerformedSession.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> PerformedSession </td></tr>
+		</table></td></tr>
+		</table>>, URL="./PerformedSession.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.health.owl.TreatmentPlanning
+	c462398 [label=<<table title="org.universAAL.ontology.health.owl.TreatmentPlanning" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TreatmentPlanning.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> TreatmentPlanning </td></tr>
+		</table></td></tr>
+		</table>>, URL="./TreatmentPlanning.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.health.owl.HealthyHabitsAdoption
+	c462399 [label=<<table title="org.universAAL.ontology.health.owl.HealthyHabitsAdoption" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HealthyHabitsAdoption.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> HealthyHabitsAdoption </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./HealthyHabitsAdoption.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.health.owl.Walking extends org.universAAL.ontology.health.owl.HealthyHabitsAdoption
-	c422147:p -> c422145:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.health.owl.HealthyHabitsAdoption extends org.universAAL.ontology.health.owl.Treatment
-	c422132:p -> c422147:p [dir=back,arrowtail=empty];
+	c462399:p -> c462377:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.health.owl.HeartRateMeasurementTreatment extends org.universAAL.ontology.health.owl.TakeMeasurementActivity
+	c462389:p -> c462378:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.health.owl.ActivityHeartRateRequirement extends org.universAAL.ontology.health.owl.HeartRateRequirement
+	c462388:p -> c462379:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.health.owl.WeightRequirement extends org.universAAL.ontology.health.owl.MeasurementRequirements
+	c462381:p -> c462380:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.health.owl.Diet extends org.universAAL.ontology.health.owl.HealthyHabitsAdoption
+	c462399:p -> c462382:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.health.owl.ReposeHeartRateRequirement extends org.universAAL.ontology.health.owl.HeartRateRequirement
+	c462388:p -> c462383:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.health.owl.HeartRateRequirement extends org.universAAL.ontology.health.owl.MeasurementRequirements
+	c462381:p -> c462388:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.health.owl.TakeMeasurementActivity extends org.universAAL.ontology.health.owl.Treatment
+	c462387:p -> c462389:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.health.owl.BloodPressureRequirement extends org.universAAL.ontology.health.owl.MeasurementRequirements
-	c422133:p -> c422148:p [dir=back,arrowtail=empty];
+	c462381:p -> c462390:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.health.owl.PerformedMeasurementSession extends org.universAAL.ontology.health.owl.PerformedSession
+	c462397:p -> c462391:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.health.owl.BloodPressureMeasurementTreatment extends org.universAAL.ontology.health.owl.TakeMeasurementActivity
+	c462389:p -> c462392:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.health.owl.MeasuredPhysicalActivity extends org.universAAL.ontology.health.owl.TakeMeasurementActivity
+	c462389:p -> c462394:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.health.owl.WeightMeasurementTreatment extends org.universAAL.ontology.health.owl.TakeMeasurementActivity
+	c462389:p -> c462396:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.health.owl.HealthyHabitsAdoption extends org.universAAL.ontology.health.owl.Treatment
+	c462387:p -> c462399:p [dir=back,arrowtail=empty];
 }
 

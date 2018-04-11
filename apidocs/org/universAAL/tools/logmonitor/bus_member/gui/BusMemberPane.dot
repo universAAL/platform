@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.logmonitor.bus_member.gui.BusMemberPane
-	c2483099 [label=<<table title="org.universAAL.tools.logmonitor.bus_member.gui.BusMemberPane" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BusMemberPane.html">
+	c2564846 [label=<<table title="org.universAAL.tools.logmonitor.bus_member.gui.BusMemberPane" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BusMemberPane.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BusMemberPane </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BusMemberPane.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.logmonitor.util.HTMLBusOperationsPane
-	c2483105 [label=<<table title="org.universAAL.tools.logmonitor.util.HTMLBusOperationsPane" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../util/HTMLBusOperationsPane.html">
+	c2564849 [label=<<table title="org.universAAL.tools.logmonitor.util.HTMLBusOperationsPane" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../util/HTMLBusOperationsPane.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HTMLBusOperationsPane </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../util/HTMLBusOperationsPane.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.logmonitor.bus_member.gui.BusMemberPane extends org.universAAL.tools.logmonitor.util.HTMLBusOperationsPane
-	c2483105:p -> c2483099:p [dir=back,arrowtail=empty];
+	c2564849:p -> c2564846:p [dir=back,arrowtail=empty];
 }
 

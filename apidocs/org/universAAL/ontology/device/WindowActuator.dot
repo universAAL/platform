@@ -9,27 +9,27 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.device.Actuator
-	c8664956 [label=<<table title="org.universAAL.ontology.device.Actuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Actuator.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Actuator </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./Actuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.WindowActuator
-	c8664959 [label=<<table title="org.universAAL.ontology.device.WindowActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./WindowActuator.html">
+	c8877138 [label=<<table title="org.universAAL.ontology.device.WindowActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./WindowActuator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> WindowActuator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./WindowActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.WindowController
-	c8664987 [label=<<table title="org.universAAL.ontology.device.WindowController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WindowController.html">
+	c8877152 [label=<<table title="org.universAAL.ontology.device.WindowController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WindowController.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> WindowController </td></tr>
 		</table></td></tr>
 		</table>>, URL="./WindowController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.Actuator
+	c8877160 [label=<<table title="org.universAAL.ontology.device.Actuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Actuator.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Actuator </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./Actuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.device.WindowActuator extends org.universAAL.ontology.device.Actuator
-	c8664956:p -> c8664959:p [dir=back,arrowtail=empty];
+	c8877160:p -> c8877138:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.device.WindowController extends org.universAAL.ontology.device.WindowActuator
-	c8664959:p -> c8664987:p [dir=back,arrowtail=empty];
+	c8877138:p -> c8877152:p [dir=back,arrowtail=empty];
 }
 

@@ -10,26 +10,34 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c3103612 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../owl/ManagedIndividual.html">
+	c3197004 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.context.owl.ContextProvider
-	c3103888 [label=<<table title="org.universAAL.middleware.context.owl.ContextProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ContextProvider.html">
+	c3197237 [label=<<table title="org.universAAL.middleware.context.owl.ContextProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ContextProvider.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ContextProvider </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ContextProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.utils.context.low.Provider
-	c3104293 [label=<<table title="org.universAAL.support.utils.context.low.Provider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../support/utils/context/low/Provider.html">
+	c3197622 [label=<<table title="org.universAAL.support.utils.context.low.Provider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../support/utils/context/low/Provider.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Provider </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../support/utils/context/low/Provider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.utilities.api.context.low.Provider
+	c3197671 [label=<<table title="org.universAAL.utilities.api.context.low.Provider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../utilities/api/context/low/Provider.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Provider </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../../utilities/api/context/low/Provider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.context.owl.ContextProvider extends org.universAAL.middleware.owl.ManagedIndividual
-	c3103612:p -> c3103888:p [dir=back,arrowtail=empty];
+	c3197004:p -> c3197237:p [dir=back,arrowtail=empty];
 	//org.universAAL.support.utils.context.low.Provider extends org.universAAL.middleware.context.owl.ContextProvider
-	c3103888:p -> c3104293:p [dir=back,arrowtail=empty];
+	c3197237:p -> c3197622:p [dir=back,arrowtail=empty];
+	//org.universAAL.utilities.api.context.low.Provider extends org.universAAL.middleware.context.owl.ContextProvider
+	c3197237:p -> c3197671:p [dir=back,arrowtail=empty];
 }
 

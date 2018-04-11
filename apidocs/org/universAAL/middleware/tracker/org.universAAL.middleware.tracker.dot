@@ -9,26 +9,26 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.middleware.tracker.IBusMemberRegistryListener
-	c474163 [label=<<table title="org.universAAL.middleware.tracker.IBusMemberRegistryListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IBusMemberRegistryListener.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
-<tr><td align="center" balign="center"> IBusMemberRegistryListener </td></tr>
-		</table></td></tr>
-		</table>>, URL="./IBusMemberRegistryListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.tracker.IBusMemberRegistry
-	c474164 [label=<<table title="org.universAAL.middleware.tracker.IBusMemberRegistry" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IBusMemberRegistry.html">
+	c515386 [label=<<table title="org.universAAL.middleware.tracker.IBusMemberRegistry" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IBusMemberRegistry.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IBusMemberRegistry </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IBusMemberRegistry.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.tracker.IBusMemberRegistry.BusType
-	c474165 [label=<<table title="org.universAAL.middleware.tracker.IBusMemberRegistry.BusType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IBusMemberRegistry.BusType.html">
+	c515387 [label=<<table title="org.universAAL.middleware.tracker.IBusMemberRegistry.BusType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IBusMemberRegistry.BusType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
 <tr><td align="center" balign="center"> BusType </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IBusMemberRegistry.BusType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.tracker.IBusMemberRegistryListener
+	c515388 [label=<<table title="org.universAAL.middleware.tracker.IBusMemberRegistryListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IBusMemberRegistryListener.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
+<tr><td align="center" balign="center"> IBusMemberRegistryListener </td></tr>
+		</table></td></tr>
+		</table>>, URL="./IBusMemberRegistryListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

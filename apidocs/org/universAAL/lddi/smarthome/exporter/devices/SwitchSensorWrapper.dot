@@ -9,19 +9,19 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.lddi.smarthome.exporter.devices.AbstractStatusValueCallee
-	c7942222 [label=<<table title="org.universAAL.lddi.smarthome.exporter.devices.AbstractStatusValueCallee" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractStatusValueCallee.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractStatusValueCallee </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./AbstractStatusValueCallee.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.smarthome.exporter.devices.SwitchSensorWrapper
-	c7942224 [label=<<table title="org.universAAL.lddi.smarthome.exporter.devices.SwitchSensorWrapper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SwitchSensorWrapper.html">
+	c8140892 [label=<<table title="org.universAAL.lddi.smarthome.exporter.devices.SwitchSensorWrapper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SwitchSensorWrapper.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SwitchSensorWrapper </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SwitchSensorWrapper.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.lddi.smarthome.exporter.devices.AbstractStatusValueCallee
+	c8140895 [label=<<table title="org.universAAL.lddi.smarthome.exporter.devices.AbstractStatusValueCallee" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractStatusValueCallee.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractStatusValueCallee </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./AbstractStatusValueCallee.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.lddi.smarthome.exporter.devices.SwitchSensorWrapper extends org.universAAL.lddi.smarthome.exporter.devices.AbstractStatusValueCallee
-	c7942222:p -> c7942224:p [dir=back,arrowtail=empty];
+	c8140895:p -> c8140892:p [dir=back,arrowtail=empty];
 }
 

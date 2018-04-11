@@ -10,23 +10,23 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.logmonitor.all_log.gui.AllLogPanel
-	c2076417 [label=<<table title="org.universAAL.tools.logmonitor.all_log.gui.AllLogPanel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AllLogPanel.html">
+	c2147632 [label=<<table title="org.universAAL.tools.logmonitor.all_log.gui.AllLogPanel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AllLogPanel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AllLogPanel </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AllLogPanel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.logmonitor.all_log.gui.AllLogPanel extends javax.swing.JPanel
-	c2076704:p -> c2076417:p [dir=back,arrowtail=empty];
+	c2147904:p -> c2147632:p [dir=back,arrowtail=empty];
 	//org.universAAL.tools.logmonitor.all_log.gui.AllLogPanel implements javax.swing.event.ListSelectionListener
-	c2076706:p -> c2076417:p [dir=back,arrowtail=empty,style=dashed];
+	c2147906:p -> c2147632:p [dir=back,arrowtail=empty,style=dashed];
 	// javax.swing.JPanel
-	c2076704 [label=<<table title="javax.swing.JPanel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/JPanel.html">
+	c2147904 [label=<<table title="javax.swing.JPanel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/JPanel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> JPanel </td></tr>
 		</table></td></tr>
 		</table>>, URL="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/JPanel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// javax.swing.event.ListSelectionListener
-	c2076706 [label=<<table title="javax.swing.event.ListSelectionListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/event/ListSelectionListener.html">
+	c2147906 [label=<<table title="javax.swing.event.ListSelectionListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/event/ListSelectionListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ListSelectionListener </td></tr>

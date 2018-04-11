@@ -9,19 +9,19 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.health.owl.services.HealthService
-	c6404100 [label=<<table title="org.universAAL.ontology.health.owl.services.HealthService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HealthService.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> HealthService </td></tr>
-		</table></td></tr>
-		</table>>, URL="./HealthService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.health.owl.services.PlannedSessionManagementService
-	c6404101 [label=<<table title="org.universAAL.ontology.health.owl.services.PlannedSessionManagementService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PlannedSessionManagementService.html">
+	c6568103 [label=<<table title="org.universAAL.ontology.health.owl.services.PlannedSessionManagementService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PlannedSessionManagementService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PlannedSessionManagementService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PlannedSessionManagementService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.health.owl.services.HealthService
+	c6568106 [label=<<table title="org.universAAL.ontology.health.owl.services.HealthService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HealthService.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> HealthService </td></tr>
+		</table></td></tr>
+		</table>>, URL="./HealthService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.health.owl.services.PlannedSessionManagementService extends org.universAAL.ontology.health.owl.services.HealthService
-	c6404100:p -> c6404101:p [dir=back,arrowtail=empty];
+	c6568106:p -> c6568103:p [dir=back,arrowtail=empty];
 }
 

@@ -9,19 +9,19 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.tools.ucc.model.jaxb.BooleanValue
-	c2411028 [label=<<table title="org.universAAL.tools.ucc.model.jaxb.BooleanValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BooleanValue.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> BooleanValue </td></tr>
-		</table></td></tr>
-		</table>>, URL="./BooleanValue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.model.jaxb.SimpleObject
-	c2411031 [label=<<table title="org.universAAL.tools.ucc.model.jaxb.SimpleObject" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SimpleObject.html">
+	c2488548 [label=<<table title="org.universAAL.tools.ucc.model.jaxb.SimpleObject" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SimpleObject.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SimpleObject </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SimpleObject.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.tools.ucc.model.jaxb.BooleanValue
+	c2488549 [label=<<table title="org.universAAL.tools.ucc.model.jaxb.BooleanValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BooleanValue.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> BooleanValue </td></tr>
+		</table></td></tr>
+		</table>>, URL="./BooleanValue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.ucc.model.jaxb.BooleanValue extends org.universAAL.tools.ucc.model.jaxb.SimpleObject
-	c2411031:p -> c2411028:p [dir=back,arrowtail=empty];
+	c2488548:p -> c2488549:p [dir=back,arrowtail=empty];
 }
 

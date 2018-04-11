@@ -9,21 +9,21 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.lddi.lib.activityhub.devicecategory.Iso11073CoSensor
-	c4850158 [label=<<table title="org.universAAL.lddi.lib.activityhub.devicecategory.Iso11073CoSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Iso11073CoSensor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
-<tr><td align="center" balign="center"> Iso11073CoSensor </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Iso11073CoSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.lib.activityhub.devicecategory.ActivityHubBaseDeviceCategory
-	c4850161 [label=<<table title="org.universAAL.lddi.lib.activityhub.devicecategory.ActivityHubBaseDeviceCategory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ActivityHubBaseDeviceCategory.html">
+	c4979174 [label=<<table title="org.universAAL.lddi.lib.activityhub.devicecategory.ActivityHubBaseDeviceCategory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ActivityHubBaseDeviceCategory.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ActivityHubBaseDeviceCategory </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ActivityHubBaseDeviceCategory.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.lddi.lib.activityhub.devicecategory.Iso11073CoSensor
+	c4979182 [label=<<table title="org.universAAL.lddi.lib.activityhub.devicecategory.Iso11073CoSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Iso11073CoSensor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
+<tr><td align="center" balign="center"> Iso11073CoSensor </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Iso11073CoSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.lddi.lib.activityhub.devicecategory.Iso11073CoSensor implements org.universAAL.lddi.lib.activityhub.devicecategory.ActivityHubBaseDeviceCategory
-	c4850161:p -> c4850158:p [dir=back,arrowtail=empty,style=dashed];
+	c4979174:p -> c4979182:p [dir=back,arrowtail=empty,style=dashed];
 }
 

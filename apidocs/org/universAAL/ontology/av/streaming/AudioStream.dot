@@ -9,19 +9,19 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.av.streaming.Stream
-	c2213121 [label=<<table title="org.universAAL.ontology.av.streaming.Stream" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Stream.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Stream </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./Stream.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.av.streaming.AudioStream
-	c2213125 [label=<<table title="org.universAAL.ontology.av.streaming.AudioStream" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AudioStream.html">
+	c2286904 [label=<<table title="org.universAAL.ontology.av.streaming.AudioStream" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AudioStream.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AudioStream </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AudioStream.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.av.streaming.Stream
+	c2286909 [label=<<table title="org.universAAL.ontology.av.streaming.Stream" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Stream.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Stream </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./Stream.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.av.streaming.AudioStream extends org.universAAL.ontology.av.streaming.Stream
-	c2213121:p -> c2213125:p [dir=back,arrowtail=empty];
+	c2286909:p -> c2286904:p [dir=back,arrowtail=empty];
 }
 

@@ -9,29 +9,29 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
+	// org.universAAL.support.directives.checks.ModulesCheckFix
+	c5873536 [label=<<table title="org.universAAL.support.directives.checks.ModulesCheckFix" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ModulesCheckFix.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ModulesCheckFix </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ModulesCheckFix.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.directives.api.APIFixableCheck
-	c5725208 [label=<<table title="org.universAAL.support.directives.api.APIFixableCheck" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../api/APIFixableCheck.html">
+	c5873561 [label=<<table title="org.universAAL.support.directives.api.APIFixableCheck" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../api/APIFixableCheck.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> APIFixableCheck </td></tr>
 		</table></td></tr>
 		</table>>, URL="../api/APIFixableCheck.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.support.directives.checks.ModulesCheckFix
-	c5725214 [label=<<table title="org.universAAL.support.directives.checks.ModulesCheckFix" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ModulesCheckFix.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ModulesCheckFix </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ModulesCheckFix.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.directives.util.PomFixer
-	c5725246 [label=<<table title="org.universAAL.support.directives.util.PomFixer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../util/PomFixer.html">
+	c5873571 [label=<<table title="org.universAAL.support.directives.util.PomFixer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../util/PomFixer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> PomFixer </td></tr>
 		</table></td></tr>
 		</table>>, URL="../util/PomFixer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.support.directives.checks.ModulesCheckFix implements org.universAAL.support.directives.api.APIFixableCheck
-	c5725208:p -> c5725214:p [dir=back,arrowtail=empty,style=dashed];
+	c5873561:p -> c5873536:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.support.directives.checks.ModulesCheckFix implements org.universAAL.support.directives.util.PomFixer
-	c5725246:p -> c5725214:p [dir=back,arrowtail=empty,style=dashed];
+	c5873571:p -> c5873536:p [dir=back,arrowtail=empty,style=dashed];
 }
 

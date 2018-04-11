@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.lighting.Lighting
-	c6620231 [label=<<table title="org.universAAL.ontology.lighting.Lighting" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/lighting/Lighting.html">
+	c6788286 [label=<<table title="org.universAAL.ontology.lighting.Lighting" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/lighting/Lighting.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Lighting </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/lighting/Lighting.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.samples.servserver.ProvidedService
-	c6621755 [label=<<table title="org.universAAL.samples.servserver.ProvidedService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProvidedService.html">
+	c6789817 [label=<<table title="org.universAAL.samples.servserver.ProvidedService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProvidedService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProvidedService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ProvidedService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.samples.servserver.ProvidedService extends org.universAAL.ontology.lighting.Lighting
-	c6620231:p -> c6621755:p [dir=back,arrowtail=empty];
+	c6788286:p -> c6789817:p [dir=back,arrowtail=empty];
 }
 

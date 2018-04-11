@@ -9,35 +9,35 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
+	// org.universAAL.tools.ucc.controller.install.DeploymentInfoController
+	c1595325 [label=<<table title="org.universAAL.tools.ucc.controller.install.DeploymentInfoController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DeploymentInfoController.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> DeploymentInfoController </td></tr>
+		</table></td></tr>
+		</table>>, URL="./DeploymentInfoController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.tools.ucc.controller.install.LicenseController
+	c1595326 [label=<<table title="org.universAAL.tools.ucc.controller.install.LicenseController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LicenseController.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> LicenseController </td></tr>
+		</table></td></tr>
+		</table>>, URL="./LicenseController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.controller.install.DeinstallController
-	c1519829 [label=<<table title="org.universAAL.tools.ucc.controller.install.DeinstallController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DeinstallController.html">
+	c1595327 [label=<<table title="org.universAAL.tools.ucc.controller.install.DeinstallController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DeinstallController.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DeinstallController </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DeinstallController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.controller.install.ServiceReceiver
-	c1519830 [label=<<table title="org.universAAL.tools.ucc.controller.install.ServiceReceiver" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ServiceReceiver.html">
+	c1595328 [label=<<table title="org.universAAL.tools.ucc.controller.install.ServiceReceiver" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ServiceReceiver.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ServiceReceiver </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ServiceReceiver.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.controller.install.UsrvInfoController
-	c1519831 [label=<<table title="org.universAAL.tools.ucc.controller.install.UsrvInfoController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UsrvInfoController.html">
+	c1595329 [label=<<table title="org.universAAL.tools.ucc.controller.install.UsrvInfoController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UsrvInfoController.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UsrvInfoController </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UsrvInfoController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.tools.ucc.controller.install.LicenseController
-	c1519832 [label=<<table title="org.universAAL.tools.ucc.controller.install.LicenseController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LicenseController.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> LicenseController </td></tr>
-		</table></td></tr>
-		</table>>, URL="./LicenseController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.tools.ucc.controller.install.DeploymentInfoController
-	c1519833 [label=<<table title="org.universAAL.tools.ucc.controller.install.DeploymentInfoController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DeploymentInfoController.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DeploymentInfoController </td></tr>
-		</table></td></tr>
-		</table>>, URL="./DeploymentInfoController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

@@ -9,117 +9,117 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
+	// org.universAAL.ontology.lighting.simple.LightingInterfaceLevel1
+	c1307025 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingInterfaceLevel1" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingInterfaceLevel1.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
+<tr><td align="center" balign="center"> LightingInterfaceLevel1 </td></tr>
+		</table></td></tr>
+		</table>>, URL="./LightingInterfaceLevel1.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.lighting.simple.LightingInterfaceLevel3
+	c1307026 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingInterfaceLevel3" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingInterfaceLevel3.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
+<tr><td align="center" balign="center"> LightingInterfaceLevel3 </td></tr>
+		</table></td></tr>
+		</table>>, URL="./LightingInterfaceLevel3.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.simple.Activator
-	c1254158 [label=<<table title="org.universAAL.ontology.lighting.simple.Activator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Activator.html">
+	c1307027 [label=<<table title="org.universAAL.ontology.lighting.simple.Activator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Activator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Activator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Activator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.simple.LightingServerURIs
-	c1254159 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingServerURIs" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingServerURIs.html">
+	c1307028 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingServerURIs" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingServerURIs.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> LightingServerURIs </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LightingServerURIs.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.simple.LightingServerURIs.GetControlledLamps
-	c1254160 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingServerURIs.GetControlledLamps" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingServerURIs.GetControlledLamps.html">
+	c1307029 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingServerURIs.GetControlledLamps" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingServerURIs.GetControlledLamps.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> GetControlledLamps </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LightingServerURIs.GetControlledLamps.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.simple.LightingServerURIs.GetControlledLamps.Output
-	c1254161 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingServerURIs.GetControlledLamps.Output" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingServerURIs.GetControlledLamps.Output.html">
+	c1307030 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingServerURIs.GetControlledLamps.Output" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingServerURIs.GetControlledLamps.Output.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Output </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LightingServerURIs.GetControlledLamps.Output.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.simple.LightingServerURIs.GetLampInfo
-	c1254162 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingServerURIs.GetLampInfo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingServerURIs.GetLampInfo.html">
+	c1307031 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingServerURIs.GetLampInfo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingServerURIs.GetLampInfo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> GetLampInfo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LightingServerURIs.GetLampInfo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.simple.LightingServerURIs.GetLampInfo.Input
-	c1254163 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingServerURIs.GetLampInfo.Input" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingServerURIs.GetLampInfo.Input.html">
+	c1307032 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingServerURIs.GetLampInfo.Input" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingServerURIs.GetLampInfo.Input.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Input </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LightingServerURIs.GetLampInfo.Input.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.simple.LightingServerURIs.GetLampInfo.Output
-	c1254164 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingServerURIs.GetLampInfo.Output" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingServerURIs.GetLampInfo.Output.html">
+	c1307033 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingServerURIs.GetLampInfo.Output" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingServerURIs.GetLampInfo.Output.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Output </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LightingServerURIs.GetLampInfo.Output.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.simple.LightingServerURIs.TurnOn
-	c1254165 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingServerURIs.TurnOn" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingServerURIs.TurnOn.html">
+	c1307034 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingServerURIs.TurnOn" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingServerURIs.TurnOn.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> TurnOn </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LightingServerURIs.TurnOn.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.simple.LightingServerURIs.TurnOn.Input
-	c1254166 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingServerURIs.TurnOn.Input" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingServerURIs.TurnOn.Input.html">
+	c1307035 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingServerURIs.TurnOn.Input" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingServerURIs.TurnOn.Input.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Input </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LightingServerURIs.TurnOn.Input.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.simple.LightingServerURIs.TurnOff
-	c1254167 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingServerURIs.TurnOff" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingServerURIs.TurnOff.html">
+	c1307036 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingServerURIs.TurnOff" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingServerURIs.TurnOff.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> TurnOff </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LightingServerURIs.TurnOff.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.simple.LightingServerURIs.TurnOff.Input
-	c1254168 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingServerURIs.TurnOff.Input" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingServerURIs.TurnOff.Input.html">
+	c1307037 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingServerURIs.TurnOff.Input" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingServerURIs.TurnOff.Input.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Input </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LightingServerURIs.TurnOff.Input.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.lighting.simple.LightingInterfaceLevel3
-	c1254169 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingInterfaceLevel3" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingInterfaceLevel3.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
-<tr><td align="center" balign="center"> LightingInterfaceLevel3 </td></tr>
-		</table></td></tr>
-		</table>>, URL="./LightingInterfaceLevel3.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.lighting.simple.LightingOntologySimplified
-	c1254170 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingOntologySimplified" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingOntologySimplified.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> LightingOntologySimplified </td></tr>
-		</table></td></tr>
-		</table>>, URL="./LightingOntologySimplified.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.lighting.simple.LightingSimplified
-	c1254171 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingSimplified" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingSimplified.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> LightingSimplified </td></tr>
-		</table></td></tr>
-		</table>>, URL="./LightingSimplified.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.simple.LightingInterface
-	c1254172 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingInterface.html">
+	c1307038 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> LightingInterface </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LightingInterface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.lighting.simple.LightingInterfaceLevel1
-	c1254173 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingInterfaceLevel1" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingInterfaceLevel1.html">
+	// org.universAAL.ontology.lighting.simple.LightingSimplified
+	c1307039 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingSimplified" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingSimplified.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
-<tr><td align="center" balign="center"> LightingInterfaceLevel1 </td></tr>
+<tr><td align="center" balign="center"> LightingSimplified </td></tr>
 		</table></td></tr>
-		</table>>, URL="./LightingInterfaceLevel1.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./LightingSimplified.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.lighting.simple.LightingOntologySimplified
+	c1307040 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingOntologySimplified" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingOntologySimplified.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> LightingOntologySimplified </td></tr>
+		</table></td></tr>
+		</table>>, URL="./LightingOntologySimplified.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.simple.LightingInterfaceLevel2
-	c1254174 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingInterfaceLevel2" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingInterfaceLevel2.html">
+	c1307041 [label=<<table title="org.universAAL.ontology.lighting.simple.LightingInterfaceLevel2" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingInterfaceLevel2.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> LightingInterfaceLevel2 </td></tr>

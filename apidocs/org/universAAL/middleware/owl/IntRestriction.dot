@@ -9,19 +9,19 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.middleware.owl.BoundedValueRestriction
-	c4790867 [label=<<table title="org.universAAL.middleware.owl.BoundedValueRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BoundedValueRestriction.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> BoundedValueRestriction </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./BoundedValueRestriction.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.owl.IntRestriction
-	c4790880 [label=<<table title="org.universAAL.middleware.owl.IntRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IntRestriction.html">
+	c4918761 [label=<<table title="org.universAAL.middleware.owl.IntRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IntRestriction.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> IntRestriction </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IntRestriction.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.owl.BoundedValueRestriction
+	c4918772 [label=<<table title="org.universAAL.middleware.owl.BoundedValueRestriction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BoundedValueRestriction.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> BoundedValueRestriction </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./BoundedValueRestriction.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.owl.IntRestriction extends org.universAAL.middleware.owl.BoundedValueRestriction
-	c4790867:p -> c4790880:p [dir=back,arrowtail=empty];
+	c4918772:p -> c4918761:p [dir=back,arrowtail=empty];
 }
 

@@ -10,22 +10,22 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.samples.servserver.Activator
-	c1193531 [label=<<table title="org.universAAL.samples.servserver.Activator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Activator.html">
+	c1248205 [label=<<table title="org.universAAL.samples.servserver.Activator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Activator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Activator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Activator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.samples.servserver.ProvidedService
-	c1193532 [label=<<table title="org.universAAL.samples.servserver.ProvidedService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProvidedService.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ProvidedService </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ProvidedService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.samples.servserver.SCallee
-	c1193533 [label=<<table title="org.universAAL.samples.servserver.SCallee" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SCallee.html">
+	c1248206 [label=<<table title="org.universAAL.samples.servserver.SCallee" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SCallee.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SCallee </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SCallee.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.samples.servserver.ProvidedService
+	c1248207 [label=<<table title="org.universAAL.samples.servserver.ProvidedService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProvidedService.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ProvidedService </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ProvidedService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

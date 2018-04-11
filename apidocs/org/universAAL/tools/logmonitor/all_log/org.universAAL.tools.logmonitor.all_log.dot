@@ -9,17 +9,17 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.tools.logmonitor.all_log.LogEntry
-	c1335005 [label=<<table title="org.universAAL.tools.logmonitor.all_log.LogEntry" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LogEntry.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> LogEntry </td></tr>
-		</table></td></tr>
-		</table>>, URL="./LogEntry.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.logmonitor.all_log.LogMonitor
-	c1335006 [label=<<table title="org.universAAL.tools.logmonitor.all_log.LogMonitor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LogMonitor.html">
+	c1407030 [label=<<table title="org.universAAL.tools.logmonitor.all_log.LogMonitor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LogMonitor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LogMonitor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LogMonitor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.tools.logmonitor.all_log.LogEntry
+	c1407031 [label=<<table title="org.universAAL.tools.logmonitor.all_log.LogEntry" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LogEntry.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> LogEntry </td></tr>
+		</table></td></tr>
+		</table>>, URL="./LogEntry.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

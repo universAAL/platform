@@ -9,23 +9,23 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ui.handler.kinect.adapter.defaultComponents.DefaultAdapter
-	c1179095 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.defaultComponents.DefaultAdapter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DefaultAdapter.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DefaultAdapter </td></tr>
-		</table></td></tr>
-		</table>>, URL="./DefaultAdapter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ui.handler.kinect.adapter.defaultComponents.DefaultBroker
-	c1179096 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.defaultComponents.DefaultBroker" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DefaultBroker.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DefaultBroker </td></tr>
-		</table></td></tr>
-		</table>>, URL="./DefaultBroker.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.handler.kinect.adapter.defaultComponents.DefaultContextSubscriber
-	c1179097 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.defaultComponents.DefaultContextSubscriber" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DefaultContextSubscriber.html">
+	c1218796 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.defaultComponents.DefaultContextSubscriber" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DefaultContextSubscriber.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DefaultContextSubscriber </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DefaultContextSubscriber.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ui.handler.kinect.adapter.defaultComponents.DefaultBroker
+	c1218797 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.defaultComponents.DefaultBroker" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DefaultBroker.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> DefaultBroker </td></tr>
+		</table></td></tr>
+		</table>>, URL="./DefaultBroker.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ui.handler.kinect.adapter.defaultComponents.DefaultAdapter
+	c1218798 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.defaultComponents.DefaultAdapter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DefaultAdapter.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> DefaultAdapter </td></tr>
+		</table></td></tr>
+		</table>>, URL="./DefaultAdapter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

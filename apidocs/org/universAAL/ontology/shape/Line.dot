@@ -9,27 +9,27 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
+	// org.universAAL.ontology.shape.Path
+	c5415785 [label=<<table title="org.universAAL.ontology.shape.Path" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Path.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Path </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./Path.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.shape.LineSegment
-	c5275902 [label=<<table title="org.universAAL.ontology.shape.LineSegment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LineSegment.html">
+	c5415786 [label=<<table title="org.universAAL.ontology.shape.LineSegment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LineSegment.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LineSegment </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LineSegment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.shape.Line
-	c5275913 [label=<<table title="org.universAAL.ontology.shape.Line" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Line.html">
+	c5415790 [label=<<table title="org.universAAL.ontology.shape.Line" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Line.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Line </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Line.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.shape.Path
-	c5275916 [label=<<table title="org.universAAL.ontology.shape.Path" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Path.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Path </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./Path.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.shape.LineSegment extends org.universAAL.ontology.shape.Line
-	c5275913:p -> c5275902:p [dir=back,arrowtail=empty];
+	c5415790:p -> c5415786:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.shape.Line extends org.universAAL.ontology.shape.Path
-	c5275916:p -> c5275913:p [dir=back,arrowtail=empty];
+	c5415785:p -> c5415790:p [dir=back,arrowtail=empty];
 }
 

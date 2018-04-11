@@ -9,19 +9,19 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.activityhub.ActivityHubSensorEvent
-	c3017797 [label=<<table title="org.universAAL.ontology.activityhub.ActivityHubSensorEvent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ActivityHubSensorEvent.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ActivityHubSensorEvent </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./ActivityHubSensorEvent.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.activityhub.ContactClosureSensorEvent
-	c3017813 [label=<<table title="org.universAAL.ontology.activityhub.ContactClosureSensorEvent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ContactClosureSensorEvent.html">
+	c3109596 [label=<<table title="org.universAAL.ontology.activityhub.ContactClosureSensorEvent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ContactClosureSensorEvent.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ContactClosureSensorEvent </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ContactClosureSensorEvent.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.activityhub.ActivityHubSensorEvent
+	c3109600 [label=<<table title="org.universAAL.ontology.activityhub.ActivityHubSensorEvent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ActivityHubSensorEvent.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ActivityHubSensorEvent </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./ActivityHubSensorEvent.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.activityhub.ContactClosureSensorEvent extends org.universAAL.ontology.activityhub.ActivityHubSensorEvent
-	c3017797:p -> c3017813:p [dir=back,arrowtail=empty];
+	c3109600:p -> c3109596:p [dir=back,arrowtail=empty];
 }
 

@@ -10,34 +10,34 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.lddi.exporter.activityhub.Activator
-	c768914 [label=<<table title="org.universAAL.lddi.exporter.activityhub.Activator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Activator.html">
+	c812698 [label=<<table title="org.universAAL.lddi.exporter.activityhub.Activator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Activator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Activator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Activator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.lddi.exporter.activityhub.AHServiceOntology
-	c768915 [label=<<table title="org.universAAL.lddi.exporter.activityhub.AHServiceOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AHServiceOntology.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> AHServiceOntology </td></tr>
-		</table></td></tr>
-		</table>>, URL="./AHServiceOntology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.exporter.activityhub.AHManager
-	c768916 [label=<<table title="org.universAAL.lddi.exporter.activityhub.AHManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AHManager.html">
+	c812699 [label=<<table title="org.universAAL.lddi.exporter.activityhub.AHManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AHManager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AHManager </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AHManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.lddi.exporter.activityhub.AHServiceProvider
-	c768917 [label=<<table title="org.universAAL.lddi.exporter.activityhub.AHServiceProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AHServiceProvider.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> AHServiceProvider </td></tr>
-		</table></td></tr>
-		</table>>, URL="./AHServiceProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.exporter.activityhub.AHContextPublisher
-	c768918 [label=<<table title="org.universAAL.lddi.exporter.activityhub.AHContextPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AHContextPublisher.html">
+	c812700 [label=<<table title="org.universAAL.lddi.exporter.activityhub.AHContextPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AHContextPublisher.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AHContextPublisher </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AHContextPublisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.lddi.exporter.activityhub.AHServiceOntology
+	c812701 [label=<<table title="org.universAAL.lddi.exporter.activityhub.AHServiceOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AHServiceOntology.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> AHServiceOntology </td></tr>
+		</table></td></tr>
+		</table>>, URL="./AHServiceOntology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.lddi.exporter.activityhub.AHServiceProvider
+	c812702 [label=<<table title="org.universAAL.lddi.exporter.activityhub.AHServiceProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AHServiceProvider.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> AHServiceProvider </td></tr>
+		</table></td></tr>
+		</table>>, URL="./AHServiceProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

@@ -9,68 +9,68 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.middleware.brokers.message.configuration.ConfigurationMessage
-	c2428844 [label=<<table title="org.universAAL.middleware.brokers.message.configuration.ConfigurationMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./configuration/ConfigurationMessage.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ConfigurationMessage </td></tr>
-		</table></td></tr>
-		</table>>, URL="./configuration/ConfigurationMessage.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.brokers.message.BrokerMessage
-	c2428846 [label=<<table title="org.universAAL.middleware.brokers.message.BrokerMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BrokerMessage.html">
+	c2506634 [label=<<table title="org.universAAL.middleware.brokers.message.BrokerMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BrokerMessage.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> BrokerMessage </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BrokerMessage.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.brokers.message.space.SpaceMessage
-	c2428850 [label=<<table title="org.universAAL.middleware.brokers.message.space.SpaceMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./space/SpaceMessage.html">
+	c2506636 [label=<<table title="org.universAAL.middleware.brokers.message.space.SpaceMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./space/SpaceMessage.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SpaceMessage </td></tr>
 		</table></td></tr>
 		</table>>, URL="./space/SpaceMessage.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.brokers.message.deploy.DeployMessage
-	c2428857 [label=<<table title="org.universAAL.middleware.brokers.message.deploy.DeployMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./deploy/DeployMessage.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DeployMessage </td></tr>
-		</table></td></tr>
-		</table>>, URL="./deploy/DeployMessage.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.brokers.message.distributedmw.DistributedMWMessage
-	c2428859 [label=<<table title="org.universAAL.middleware.brokers.message.distributedmw.DistributedMWMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./distributedmw/DistributedMWMessage.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DistributedMWMessage </td></tr>
-		</table></td></tr>
-		</table>>, URL="./distributedmw/DistributedMWMessage.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.brokers.message.control.ControlMessage
-	c2428860 [label=<<table title="org.universAAL.middleware.brokers.message.control.ControlMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./control/ControlMessage.html">
+	c2506639 [label=<<table title="org.universAAL.middleware.brokers.message.control.ControlMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./control/ControlMessage.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ControlMessage </td></tr>
 		</table></td></tr>
 		</table>>, URL="./control/ControlMessage.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.brokers.message.configuration.ConfigurationMessage
+	c2506644 [label=<<table title="org.universAAL.middleware.brokers.message.configuration.ConfigurationMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./configuration/ConfigurationMessage.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ConfigurationMessage </td></tr>
+		</table></td></tr>
+		</table>>, URL="./configuration/ConfigurationMessage.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.brokers.message.distributedmw.DistributedMWMessage
+	c2506646 [label=<<table title="org.universAAL.middleware.brokers.message.distributedmw.DistributedMWMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./distributedmw/DistributedMWMessage.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> DistributedMWMessage </td></tr>
+		</table></td></tr>
+		</table>>, URL="./distributedmw/DistributedMWMessage.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.brokers.message.deploy.DeployMessage
+	c2506651 [label=<<table title="org.universAAL.middleware.brokers.message.deploy.DeployMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./deploy/DeployMessage.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> DeployMessage </td></tr>
+		</table></td></tr>
+		</table>>, URL="./deploy/DeployMessage.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.bus.msg.BusMessage
-	c2428934 [label=<<table title="org.universAAL.middleware.bus.msg.BusMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../bus/msg/BusMessage.html">
+	c2506716 [label=<<table title="org.universAAL.middleware.bus.msg.BusMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../bus/msg/BusMessage.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BusMessage </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../bus/msg/BusMessage.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.broker.client.SimpleMessage
-	c2431053 [label=<<table title="org.universAAL.middleware.broker.client.SimpleMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../broker/client/SimpleMessage.html">
+	c2508891 [label=<<table title="org.universAAL.middleware.broker.client.SimpleMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../broker/client/SimpleMessage.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SimpleMessage </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../broker/client/SimpleMessage.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.middleware.brokers.message.configuration.ConfigurationMessage implements org.universAAL.middleware.brokers.message.BrokerMessage
-	c2428846:p -> c2428844:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.brokers.message.space.SpaceMessage implements org.universAAL.middleware.brokers.message.BrokerMessage
-	c2428846:p -> c2428850:p [dir=back,arrowtail=empty,style=dashed];
-	//org.universAAL.middleware.brokers.message.deploy.DeployMessage implements org.universAAL.middleware.brokers.message.BrokerMessage
-	c2428846:p -> c2428857:p [dir=back,arrowtail=empty,style=dashed];
-	//org.universAAL.middleware.brokers.message.distributedmw.DistributedMWMessage implements org.universAAL.middleware.brokers.message.BrokerMessage
-	c2428846:p -> c2428859:p [dir=back,arrowtail=empty,style=dashed];
+	c2506634:p -> c2506636:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.brokers.message.control.ControlMessage implements org.universAAL.middleware.brokers.message.BrokerMessage
-	c2428846:p -> c2428860:p [dir=back,arrowtail=empty,style=dashed];
+	c2506634:p -> c2506639:p [dir=back,arrowtail=empty,style=dashed];
+	//org.universAAL.middleware.brokers.message.configuration.ConfigurationMessage implements org.universAAL.middleware.brokers.message.BrokerMessage
+	c2506634:p -> c2506644:p [dir=back,arrowtail=empty,style=dashed];
+	//org.universAAL.middleware.brokers.message.distributedmw.DistributedMWMessage implements org.universAAL.middleware.brokers.message.BrokerMessage
+	c2506634:p -> c2506646:p [dir=back,arrowtail=empty,style=dashed];
+	//org.universAAL.middleware.brokers.message.deploy.DeployMessage implements org.universAAL.middleware.brokers.message.BrokerMessage
+	c2506634:p -> c2506651:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.bus.msg.BusMessage implements org.universAAL.middleware.brokers.message.BrokerMessage
-	c2428846:p -> c2428934:p [dir=back,arrowtail=empty,style=dashed];
+	c2506634:p -> c2506716:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.broker.client.SimpleMessage implements org.universAAL.middleware.brokers.message.BrokerMessage
-	c2428846:p -> c2431053:p [dir=back,arrowtail=empty,style=dashed];
+	c2506634:p -> c2508891:p [dir=back,arrowtail=empty,style=dashed];
 }
 

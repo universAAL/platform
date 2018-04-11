@@ -9,19 +9,19 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.shape.Triangle
-	c8105322 [label=<<table title="org.universAAL.ontology.shape.Triangle" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Triangle.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Triangle </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Triangle.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.shape.Polygon
-	c8105323 [label=<<table title="org.universAAL.ontology.shape.Polygon" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Polygon.html">
+	c8306992 [label=<<table title="org.universAAL.ontology.shape.Polygon" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Polygon.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Polygon </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Polygon.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.shape.Triangle
+	c8306996 [label=<<table title="org.universAAL.ontology.shape.Triangle" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Triangle.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Triangle </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Triangle.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.shape.Triangle extends org.universAAL.ontology.shape.Polygon
-	c8105323:p -> c8105322:p [dir=back,arrowtail=empty];
+	c8306992:p -> c8306996:p [dir=back,arrowtail=empty];
 }
 

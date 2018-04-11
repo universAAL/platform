@@ -10,28 +10,28 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.connectors.DiscoveryConnector
-	c3579698 [label=<<table title="org.universAAL.middleware.connectors.DiscoveryConnector" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DiscoveryConnector.html">
+	c3681977 [label=<<table title="org.universAAL.middleware.connectors.DiscoveryConnector" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DiscoveryConnector.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> DiscoveryConnector </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DiscoveryConnector.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.connectors.Connector
-	c3579701 [label=<<table title="org.universAAL.middleware.connectors.Connector" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Connector.html">
+	c3681978 [label=<<table title="org.universAAL.middleware.connectors.Connector" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Connector.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Connector </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Connector.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.connectors.discovery.slp.SLPDiscoveryConnector
-	c3580662 [label=<<table title="org.universAAL.middleware.connectors.discovery.slp.SLPDiscoveryConnector" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./discovery/slp/SLPDiscoveryConnector.html">
+	c3682987 [label=<<table title="org.universAAL.middleware.connectors.discovery.slp.SLPDiscoveryConnector" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./discovery/slp/SLPDiscoveryConnector.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SLPDiscoveryConnector </td></tr>
 		</table></td></tr>
 		</table>>, URL="./discovery/slp/SLPDiscoveryConnector.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.connectors.DiscoveryConnector implements org.universAAL.middleware.connectors.Connector
-	c3579701:p -> c3579698:p [dir=back,arrowtail=empty,style=dashed];
+	c3681978:p -> c3681977:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.connectors.discovery.slp.SLPDiscoveryConnector implements org.universAAL.middleware.connectors.DiscoveryConnector
-	c3579698:p -> c3580662:p [dir=back,arrowtail=empty,style=dashed];
+	c3681977:p -> c3682987:p [dir=back,arrowtail=empty,style=dashed];
 }
 

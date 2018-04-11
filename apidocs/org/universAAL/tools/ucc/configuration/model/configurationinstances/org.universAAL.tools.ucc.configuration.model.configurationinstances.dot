@@ -9,29 +9,29 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.tools.ucc.configuration.model.configurationinstances.Value
-	c1456313 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationinstances.Value" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Value.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Value </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Value.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.tools.ucc.configuration.model.configurationinstances.ConfigOption
-	c1456314 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationinstances.ConfigOption" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigOption.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ConfigOption </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ConfigOption.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.tools.ucc.configuration.model.configurationinstances.ConfigurationInstance
-	c1456315 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationinstances.ConfigurationInstance" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigurationInstance.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ConfigurationInstance </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ConfigurationInstance.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.configuration.model.configurationinstances.ObjectFactory
-	c1456316 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationinstances.ObjectFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ObjectFactory.html">
+	c1507078 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationinstances.ObjectFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ObjectFactory.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ObjectFactory </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ObjectFactory.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.tools.ucc.configuration.model.configurationinstances.ConfigurationInstance
+	c1507079 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationinstances.ConfigurationInstance" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigurationInstance.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ConfigurationInstance </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ConfigurationInstance.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.tools.ucc.configuration.model.configurationinstances.ConfigOption
+	c1507080 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationinstances.ConfigOption" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigOption.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ConfigOption </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ConfigOption.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.tools.ucc.configuration.model.configurationinstances.Value
+	c1507081 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationinstances.Value" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Value.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Value </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Value.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

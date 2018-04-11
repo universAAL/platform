@@ -230,6 +230,12 @@ package.</div>
 <td class="colFirst"><a href="#org.universAAL.ui.internationalization.util">org.universAAL.ui.internationalization.util</a></td>
 <td class="colLast">&nbsp;</td>
 </tr>
+<tr class="altColor">
+<td class="colFirst"><a href="#org.universAAL.utilities.api.ui.low">org.universAAL.utilities.api.ui.low</a></td>
+<td class="colLast">
+<div class="block">Contains low level helper classes to deal with UI concepts of universAAL.</div>
+</td>
+</tr>
 </tbody>
 </table>
 </li>
@@ -576,13 +582,13 @@ package.</div>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code><a href="http://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="../../../../../org/universAAL/ontology/security/AccessType.html" title="class in org.universAAL.ontology.security">AccessType</a>&gt;</code></td>
-<td class="colLast"><span class="typeNameLabel">AssetDefaultAccessChecker.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/security/authorisator/access_checkers/AssetDefaultAccessChecker.html#checkAccess-org.universAAL.middleware.container.ModuleContext-org.universAAL.ontology.profile.User-org.universAAL.middleware.rdf.Resource-">checkAccess</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;mc,
+<td class="colLast"><span class="typeNameLabel">CheckUserRoles.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/security/authorisator/access_checkers/CheckUserRoles.html#checkAccess-org.universAAL.middleware.container.ModuleContext-org.universAAL.ontology.profile.User-org.universAAL.middleware.rdf.Resource-">checkAccess</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;mc,
            <a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;usr,
            <a href="../../../../../org/universAAL/middleware/rdf/Resource.html" title="class in org.universAAL.middleware.rdf">Resource</a>&nbsp;asset)</code></td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code><a href="http://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="../../../../../org/universAAL/ontology/security/AccessType.html" title="class in org.universAAL.ontology.security">AccessType</a>&gt;</code></td>
-<td class="colLast"><span class="typeNameLabel">CheckUserRoles.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/security/authorisator/access_checkers/CheckUserRoles.html#checkAccess-org.universAAL.middleware.container.ModuleContext-org.universAAL.ontology.profile.User-org.universAAL.middleware.rdf.Resource-">checkAccess</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;mc,
+<td class="colLast"><span class="typeNameLabel">AssetDefaultAccessChecker.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/security/authorisator/access_checkers/AssetDefaultAccessChecker.html#checkAccess-org.universAAL.middleware.container.ModuleContext-org.universAAL.ontology.profile.User-org.universAAL.middleware.rdf.Resource-">checkAccess</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;mc,
            <a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;usr,
            <a href="../../../../../org/universAAL/middleware/rdf/Resource.html" title="class in org.universAAL.middleware.rdf">Resource</a>&nbsp;asset)</code></td>
 </tr>
@@ -721,25 +727,25 @@ package.</div>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code><a href="http://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&gt;</code></td>
-<td class="colLast"><span class="typeNameLabel">UserLocationTreeRoot.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/security/session/manager/helpers/UserLocationTreeRoot.html#deallocateUser-org.universAAL.ontology.profile.User-">deallocateUser</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;u)</code>&nbsp;</td>
-</tr>
-<tr class="altColor">
-<td class="colFirst"><code><a href="http://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&gt;</code></td>
 <td class="colLast"><span class="typeNameLabel">UserLocationTree.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/security/session/manager/helpers/UserLocationTree.html#deallocateUser-org.universAAL.ontology.profile.User-">deallocateUser</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;u)</code>
 <div class="block">Remove the <a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile"><code>User</code></a> from the whole <a href="../../../../../org/universAAL/ontology/location/Location.html" title="class in org.universAAL.ontology.location"><code>Location</code></a> tree.</div>
 </td>
 </tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="http://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&gt;</code></td>
+<td class="colLast"><span class="typeNameLabel">UserLocationTreeRoot.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/security/session/manager/helpers/UserLocationTreeRoot.html#deallocateUser-org.universAAL.ontology.profile.User-">deallocateUser</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;u)</code>&nbsp;</td>
+</tr>
 <tr class="rowColor">
 <td class="colFirst"><code><a href="http://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&gt;</code></td>
-<td class="colLast"><span class="typeNameLabel">UserDeviceWrapper.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/security/session/manager/helpers/UserDeviceWrapper.html#getUserSet--">getUserSet</a></span>()</code>
-<div class="block">The user set is stored as a <a href="http://docs.oracle.com/javase/8/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util"><code>List</code></a> in the actual <a href="../../../../../org/universAAL/ontology/phThing/Device.html" title="class in org.universAAL.ontology.phThing"><code>Device</code></a>
+<td class="colLast"><span class="typeNameLabel">UserLocationTree.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/security/session/manager/helpers/UserLocationTree.html#getUserSet--">getUserSet</a></span>()</code>
+<div class="block">The user set is stored as a <a href="http://docs.oracle.com/javase/8/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util"><code>List</code></a> in the actual <a href="../../../../../org/universAAL/ontology/location/Location.html" title="class in org.universAAL.ontology.location"><code>Location</code></a>
  instance, so this methods helps reformat that into a <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util"><code>Set</code></a>.</div>
 </td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code><a href="http://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&gt;</code></td>
-<td class="colLast"><span class="typeNameLabel">UserLocationTree.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/security/session/manager/helpers/UserLocationTree.html#getUserSet--">getUserSet</a></span>()</code>
-<div class="block">The user set is stored as a <a href="http://docs.oracle.com/javase/8/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util"><code>List</code></a> in the actual <a href="../../../../../org/universAAL/ontology/location/Location.html" title="class in org.universAAL.ontology.location"><code>Location</code></a>
+<td class="colLast"><span class="typeNameLabel">UserDeviceWrapper.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/security/session/manager/helpers/UserDeviceWrapper.html#getUserSet--">getUserSet</a></span>()</code>
+<div class="block">The user set is stored as a <a href="http://docs.oracle.com/javase/8/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util"><code>List</code></a> in the actual <a href="../../../../../org/universAAL/ontology/phThing/Device.html" title="class in org.universAAL.ontology.phThing"><code>Device</code></a>
  instance, so this methods helps reformat that into a <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util"><code>Set</code></a>.</div>
 </td>
 </tr>
@@ -754,14 +760,14 @@ package.</div>
 <tbody>
 <tr class="altColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">UserDeviceWrapper.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/security/session/manager/helpers/UserDeviceWrapper.html#addUser-org.universAAL.ontology.profile.User-">addUser</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;u)</code>
-<div class="block">Add a single <a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile"><code>User</code></a> to this <a href="../../../../../org/universAAL/ontology/phThing/Device.html" title="class in org.universAAL.ontology.phThing"><code>Device</code></a>.</div>
+<td class="colLast"><span class="typeNameLabel">UserLocationTree.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/security/session/manager/helpers/UserLocationTree.html#addUser-org.universAAL.ontology.profile.User-">addUser</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;u)</code>
+<div class="block">Add a single <a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile"><code>User</code></a> to this <a href="../../../../../org/universAAL/ontology/location/Location.html" title="class in org.universAAL.ontology.location"><code>Location</code></a>.</div>
 </td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">UserLocationTree.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/security/session/manager/helpers/UserLocationTree.html#addUser-org.universAAL.ontology.profile.User-">addUser</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;u)</code>
-<div class="block">Add a single <a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile"><code>User</code></a> to this <a href="../../../../../org/universAAL/ontology/location/Location.html" title="class in org.universAAL.ontology.location"><code>Location</code></a>.</div>
+<td class="colLast"><span class="typeNameLabel">UserDeviceWrapper.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/security/session/manager/helpers/UserDeviceWrapper.html#addUser-org.universAAL.ontology.profile.User-">addUser</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;u)</code>
+<div class="block">Add a single <a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile"><code>User</code></a> to this <a href="../../../../../org/universAAL/ontology/phThing/Device.html" title="class in org.universAAL.ontology.phThing"><code>Device</code></a>.</div>
 </td>
 </tr>
 <tr class="altColor">
@@ -773,24 +779,24 @@ package.</div>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code><a href="http://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&gt;</code></td>
-<td class="colLast"><span class="typeNameLabel">UserLocationTreeRoot.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/security/session/manager/helpers/UserLocationTreeRoot.html#deallocateUser-org.universAAL.ontology.profile.User-">deallocateUser</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;u)</code>&nbsp;</td>
-</tr>
-<tr class="altColor">
-<td class="colFirst"><code><a href="http://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&gt;</code></td>
 <td class="colLast"><span class="typeNameLabel">UserLocationTree.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/security/session/manager/helpers/UserLocationTree.html#deallocateUser-org.universAAL.ontology.profile.User-">deallocateUser</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;u)</code>
 <div class="block">Remove the <a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile"><code>User</code></a> from the whole <a href="../../../../../org/universAAL/ontology/location/Location.html" title="class in org.universAAL.ontology.location"><code>Location</code></a> tree.</div>
 </td>
 </tr>
-<tr class="rowColor">
-<td class="colFirst"><code><a href="../../../../../org/universAAL/security/session/manager/helpers/UserLocationTree.html" title="class in org.universAAL.security.session.manager.helpers">UserLocationTree</a></code></td>
-<td class="colLast"><span class="typeNameLabel">UserLocationTreeRoot.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/security/session/manager/helpers/UserLocationTreeRoot.html#getMaxUser-org.universAAL.ontology.profile.User-">getMaxUser</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;u)</code>&nbsp;</td>
-</tr>
 <tr class="altColor">
+<td class="colFirst"><code><a href="http://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&gt;</code></td>
+<td class="colLast"><span class="typeNameLabel">UserLocationTreeRoot.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/security/session/manager/helpers/UserLocationTreeRoot.html#deallocateUser-org.universAAL.ontology.profile.User-">deallocateUser</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;u)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
 <td class="colFirst"><code><a href="../../../../../org/universAAL/security/session/manager/helpers/UserLocationTree.html" title="class in org.universAAL.security.session.manager.helpers">UserLocationTree</a></code></td>
 <td class="colLast"><span class="typeNameLabel">UserLocationTree.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/security/session/manager/helpers/UserLocationTree.html#getMaxUser-org.universAAL.ontology.profile.User-">getMaxUser</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;u)</code>
 <div class="block">Calculate the uppermost <a href="../../../../../org/universAAL/ontology/location/Location.html" title="class in org.universAAL.ontology.location"><code>Location</code></a> in which the <a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile"><code>User</code></a> is
  alone.</div>
 </td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../../org/universAAL/security/session/manager/helpers/UserLocationTree.html" title="class in org.universAAL.security.session.manager.helpers">UserLocationTree</a></code></td>
+<td class="colLast"><span class="typeNameLabel">UserLocationTreeRoot.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/security/session/manager/helpers/UserLocationTreeRoot.html#getMaxUser-org.universAAL.ontology.profile.User-">getMaxUser</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;u)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>void</code></td>
@@ -809,14 +815,14 @@ package.</div>
 <tbody>
 <tr class="altColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">UserDeviceWrapper.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/security/session/manager/helpers/UserDeviceWrapper.html#setUserSet-java.util.Set-">setUserSet</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&gt;&nbsp;users)</code>
-<div class="block">Complement to <a href="../../../../../org/universAAL/security/session/manager/helpers/UserDeviceWrapper.html#getUserSet--"><code>UserDeviceWrapper.getUserSet()</code></a>.</div>
+<td class="colLast"><span class="typeNameLabel">UserLocationTree.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/security/session/manager/helpers/UserLocationTree.html#setUserSet-java.util.Set-">setUserSet</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&gt;&nbsp;users)</code>
+<div class="block">Complement to <a href="../../../../../org/universAAL/security/session/manager/helpers/UserLocationTree.html#getUserSet--"><code>UserLocationTree.getUserSet()</code></a>.</div>
 </td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">UserLocationTree.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/security/session/manager/helpers/UserLocationTree.html#setUserSet-java.util.Set-">setUserSet</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&gt;&nbsp;users)</code>
-<div class="block">Complement to <a href="../../../../../org/universAAL/security/session/manager/helpers/UserLocationTree.html#getUserSet--"><code>UserLocationTree.getUserSet()</code></a>.</div>
+<td class="colLast"><span class="typeNameLabel">UserDeviceWrapper.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/security/session/manager/helpers/UserDeviceWrapper.html#setUserSet-java.util.Set-">setUserSet</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&gt;&nbsp;users)</code>
+<div class="block">Complement to <a href="../../../../../org/universAAL/security/session/manager/helpers/UserDeviceWrapper.html#getUserSet--"><code>UserDeviceWrapper.getUserSet()</code></a>.</div>
 </td>
 </tr>
 </tbody>
@@ -1278,11 +1284,11 @@ package.</div>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">UIPreferencesBufferPoller.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/ui/preferences/buffer/UIPreferencesBufferPoller.html#addUser-org.universAAL.ontology.profile.User-">addUser</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;user)</code></td>
+<td class="colLast"><span class="typeNameLabel">UIPreferencesBufferNoUpdate.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/ui/preferences/buffer/UIPreferencesBufferNoUpdate.html#addUser-org.universAAL.ontology.profile.User-">addUser</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;user)</code></td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">UIPreferencesBufferNoUpdate.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/ui/preferences/buffer/UIPreferencesBufferNoUpdate.html#addUser-org.universAAL.ontology.profile.User-">addUser</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;user)</code></td>
+<td class="colLast"><span class="typeNameLabel">UIPreferencesBufferPoller.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/ui/preferences/buffer/UIPreferencesBufferPoller.html#addUser-org.universAAL.ontology.profile.User-">addUser</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;user)</code></td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code><a href="../../../../../org/universAAL/ontology/ui/preferences/UIPreferencesSubProfile.html" title="class in org.universAAL.ontology.ui.preferences">UIPreferencesSubProfile</a></code></td>
@@ -1291,12 +1297,12 @@ package.</div>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code><a href="../../../../../org/universAAL/ontology/ui/preferences/UIPreferencesSubProfile.html" title="class in org.universAAL.ontology.ui.preferences">UIPreferencesSubProfile</a></code></td>
-<td class="colLast"><span class="typeNameLabel">UIPreferencesBufferPoller.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/ui/preferences/buffer/UIPreferencesBufferPoller.html#changeCurrentUIPreferencesSubProfileForUser-org.universAAL.ontology.profile.User-org.universAAL.ontology.ui.preferences.UIPreferencesSubProfile-">changeCurrentUIPreferencesSubProfileForUser</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;key,
+<td class="colLast"><span class="typeNameLabel">UIPreferencesBufferNoUpdate.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/ui/preferences/buffer/UIPreferencesBufferNoUpdate.html#changeCurrentUIPreferencesSubProfileForUser-org.universAAL.ontology.profile.User-org.universAAL.ontology.ui.preferences.UIPreferencesSubProfile-">changeCurrentUIPreferencesSubProfileForUser</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;key,
                                            <a href="../../../../../org/universAAL/ontology/ui/preferences/UIPreferencesSubProfile.html" title="class in org.universAAL.ontology.ui.preferences">UIPreferencesSubProfile</a>&nbsp;uiPrefSubprof)</code></td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code><a href="../../../../../org/universAAL/ontology/ui/preferences/UIPreferencesSubProfile.html" title="class in org.universAAL.ontology.ui.preferences">UIPreferencesSubProfile</a></code></td>
-<td class="colLast"><span class="typeNameLabel">UIPreferencesBufferNoUpdate.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/ui/preferences/buffer/UIPreferencesBufferNoUpdate.html#changeCurrentUIPreferencesSubProfileForUser-org.universAAL.ontology.profile.User-org.universAAL.ontology.ui.preferences.UIPreferencesSubProfile-">changeCurrentUIPreferencesSubProfileForUser</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;key,
+<td class="colLast"><span class="typeNameLabel">UIPreferencesBufferPoller.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/ui/preferences/buffer/UIPreferencesBufferPoller.html#changeCurrentUIPreferencesSubProfileForUser-org.universAAL.ontology.profile.User-org.universAAL.ontology.ui.preferences.UIPreferencesSubProfile-">changeCurrentUIPreferencesSubProfileForUser</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;key,
                                            <a href="../../../../../org/universAAL/ontology/ui/preferences/UIPreferencesSubProfile.html" title="class in org.universAAL.ontology.ui.preferences">UIPreferencesSubProfile</a>&nbsp;uiPrefSubprof)</code></td>
 </tr>
 <tr class="altColor">
@@ -1305,11 +1311,11 @@ package.</div>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code><a href="../../../../../org/universAAL/ontology/ui/preferences/UIPreferencesSubProfile.html" title="class in org.universAAL.ontology.ui.preferences">UIPreferencesSubProfile</a></code></td>
-<td class="colLast"><span class="typeNameLabel">UIPreferencesBufferPoller.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/ui/preferences/buffer/UIPreferencesBufferPoller.html#getUIPreferencesSubprofileForUser-org.universAAL.ontology.profile.User-">getUIPreferencesSubprofileForUser</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;user)</code></td>
+<td class="colLast"><span class="typeNameLabel">UIPreferencesBufferNoUpdate.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/ui/preferences/buffer/UIPreferencesBufferNoUpdate.html#getUIPreferencesSubprofileForUser-org.universAAL.ontology.profile.User-">getUIPreferencesSubprofileForUser</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;user)</code></td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code><a href="../../../../../org/universAAL/ontology/ui/preferences/UIPreferencesSubProfile.html" title="class in org.universAAL.ontology.ui.preferences">UIPreferencesSubProfile</a></code></td>
-<td class="colLast"><span class="typeNameLabel">UIPreferencesBufferNoUpdate.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/ui/preferences/buffer/UIPreferencesBufferNoUpdate.html#getUIPreferencesSubprofileForUser-org.universAAL.ontology.profile.User-">getUIPreferencesSubprofileForUser</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;user)</code></td>
+<td class="colLast"><span class="typeNameLabel">UIPreferencesBufferPoller.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/ui/preferences/buffer/UIPreferencesBufferPoller.html#getUIPreferencesSubprofileForUser-org.universAAL.ontology.profile.User-">getUIPreferencesSubprofileForUser</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;user)</code></td>
 </tr>
 </tbody>
 </table>
@@ -1606,15 +1612,15 @@ package.</div>
 <tbody>
 <tr class="altColor">
 <td class="colFirst"><code><a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a></code></td>
-<td class="colLast"><span class="typeNameLabel">HTMLUserGenerator.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/handler/web/html/HTMLUserGenerator.html#getCurrentUser--">getCurrentUser</a></span>()</code>
-<div class="block">Get the logged in user, the one that is in theory receiving and
- manipulating the dialogs.</div>
+<td class="colLast"><span class="typeNameLabel">Handler.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/handler/web/html/Handler.html#getCurrentUser--">getCurrentUser</a></span>()</code>
+<div class="block">Get the current user that is inputing information.</div>
 </td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code><a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a></code></td>
-<td class="colLast"><span class="typeNameLabel">Handler.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/handler/web/html/Handler.html#getCurrentUser--">getCurrentUser</a></span>()</code>
-<div class="block">Get the current user that is inputing information.</div>
+<td class="colLast"><span class="typeNameLabel">HTMLUserGenerator.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/handler/web/html/HTMLUserGenerator.html#getCurrentUser--">getCurrentUser</a></span>()</code>
+<div class="block">Get the logged in user, the one that is in theory receiving and
+ manipulating the dialogs.</div>
 </td>
 </tr>
 </tbody>
@@ -1650,6 +1656,81 @@ package.</div>
                    <a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;user,
                    <a href="http://docs.oracle.com/javase/8/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="http://docs.oracle.com/javase/8/docs/api/java/net/URL.html?is-external=true" title="class or interface in java.net">URL</a>&gt;&nbsp;urlList)</code>
 <div class="block">This constructor should be used by Applications.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList"><a name="org.universAAL.utilities.api.ui.low">
+<!--   -->
+</a>
+<h3>Uses of <a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a> in <a href="../../../../../org/universAAL/utilities/api/ui/low/package-summary.html">org.universAAL.utilities.api.ui.low</a></h3>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing constructors, and an explanation">
+<caption><span>Constructors in <a href="../../../../../org/universAAL/utilities/api/ui/low/package-summary.html">org.universAAL.utilities.api.ui.low</a> with parameters of type <a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colOne" scope="col">Constructor and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/utilities/api/ui/low/Dialog.html#Dialog-org.universAAL.ontology.profile.User-java.lang.String-">Dialog</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;user,
+      <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;title)</code>
+<div class="block">Use this helper class to create a UIRequest that is easy to use.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/utilities/api/ui/low/Dialog.html#Dialog-org.universAAL.ontology.profile.User-java.lang.String-org.universAAL.middleware.owl.supply.LevelRating-org.universAAL.middleware.ui.owl.PrivacyLevel-">Dialog</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;user,
+      <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;title,
+      <a href="../../../../../org/universAAL/middleware/owl/supply/LevelRating.html" title="class in org.universAAL.middleware.owl.supply">LevelRating</a>&nbsp;priority,
+      <a href="../../../../../org/universAAL/middleware/ui/owl/PrivacyLevel.html" title="class in org.universAAL.middleware.ui.owl">PrivacyLevel</a>&nbsp;privacy)</code>
+<div class="block">Use this helper class to create a UIRequest that is easy to use.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/utilities/api/ui/low/Dialog.html#Dialog-org.universAAL.ontology.profile.User-java.lang.String-org.universAAL.middleware.rdf.Resource-">Dialog</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;user,
+      <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;title,
+      <a href="../../../../../org/universAAL/middleware/rdf/Resource.html" title="class in org.universAAL.middleware.rdf">Resource</a>&nbsp;root)</code>
+<div class="block">Use this helper class to create a UIRequest that is easy to use.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/utilities/api/ui/low/Dialog.html#Dialog-org.universAAL.ontology.profile.User-java.lang.String-org.universAAL.middleware.rdf.Resource-org.universAAL.middleware.owl.supply.LevelRating-org.universAAL.middleware.ui.owl.PrivacyLevel-">Dialog</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;user,
+      <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;title,
+      <a href="../../../../../org/universAAL/middleware/rdf/Resource.html" title="class in org.universAAL.middleware.rdf">Resource</a>&nbsp;root,
+      <a href="../../../../../org/universAAL/middleware/owl/supply/LevelRating.html" title="class in org.universAAL.middleware.owl.supply">LevelRating</a>&nbsp;priority,
+      <a href="../../../../../org/universAAL/middleware/ui/owl/PrivacyLevel.html" title="class in org.universAAL.middleware.ui.owl">PrivacyLevel</a>&nbsp;privacy)</code>
+<div class="block">Use this helper class to create a UIRequest that is easy to use.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/utilities/api/ui/low/Message.html#Message-org.universAAL.ontology.profile.User-java.lang.String-java.lang.String-">Message</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;user,
+       <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;title,
+       <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;message)</code>
+<div class="block">Use this helper class to create a UIRequest that is easy to use.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/utilities/api/ui/low/Message.html#Message-org.universAAL.ontology.profile.User-java.lang.String-java.lang.String-org.universAAL.middleware.owl.supply.LevelRating-org.universAAL.middleware.ui.owl.PrivacyLevel-">Message</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;user,
+       <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;title,
+       <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;message,
+       <a href="../../../../../org/universAAL/middleware/owl/supply/LevelRating.html" title="class in org.universAAL.middleware.owl.supply">LevelRating</a>&nbsp;priority,
+       <a href="../../../../../org/universAAL/middleware/ui/owl/PrivacyLevel.html" title="class in org.universAAL.middleware.ui.owl">PrivacyLevel</a>&nbsp;privacy)</code>
+<div class="block">Use this helper class to create a UIRequest that is easy to use.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/utilities/api/ui/low/SubDialog.html#SubDialog-org.universAAL.ontology.profile.User-java.lang.String-java.lang.String-">SubDialog</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;user,
+         <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;title,
+         <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;parentDialogURI)</code>
+<div class="block">Use this helper class to create a UIRequest that is easy to use.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/utilities/api/ui/low/SubDialog.html#SubDialog-org.universAAL.ontology.profile.User-java.lang.String-java.lang.String-org.universAAL.middleware.owl.supply.LevelRating-org.universAAL.middleware.ui.owl.PrivacyLevel-">SubDialog</a></span>(<a href="../../../../../org/universAAL/ontology/profile/User.html" title="class in org.universAAL.ontology.profile">User</a>&nbsp;user,
+         <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;title,
+         <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;parentDialogURI,
+         <a href="../../../../../org/universAAL/middleware/owl/supply/LevelRating.html" title="class in org.universAAL.middleware.owl.supply">LevelRating</a>&nbsp;priority,
+         <a href="../../../../../org/universAAL/middleware/ui/owl/PrivacyLevel.html" title="class in org.universAAL.middleware.ui.owl">PrivacyLevel</a>&nbsp;privacy)</code>
+<div class="block">Use this helper class to create a UIRequest that is easy to use.</div>
 </td>
 </tr>
 </tbody>
@@ -1706,6 +1787,6 @@ package.</div>
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2017 <a href="http://www.universAAL.org/">universAAL Consortium</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2018 <a href="http://www.universAAL.org/">universAAL Consortium</a>. All rights reserved.</small></p>
 </body>
 </html>

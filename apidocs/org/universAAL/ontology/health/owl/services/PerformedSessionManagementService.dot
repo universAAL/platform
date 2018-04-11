@@ -9,19 +9,19 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.health.owl.services.PerformedSessionManagementService
-	c6317572 [label=<<table title="org.universAAL.ontology.health.owl.services.PerformedSessionManagementService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PerformedSessionManagementService.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> PerformedSessionManagementService </td></tr>
-		</table></td></tr>
-		</table>>, URL="./PerformedSessionManagementService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.health.owl.services.HealthService
-	c6317575 [label=<<table title="org.universAAL.ontology.health.owl.services.HealthService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HealthService.html">
+	c6479962 [label=<<table title="org.universAAL.ontology.health.owl.services.HealthService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HealthService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HealthService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HealthService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.health.owl.services.PerformedSessionManagementService
+	c6479963 [label=<<table title="org.universAAL.ontology.health.owl.services.PerformedSessionManagementService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PerformedSessionManagementService.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> PerformedSessionManagementService </td></tr>
+		</table></td></tr>
+		</table>>, URL="./PerformedSessionManagementService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.health.owl.services.PerformedSessionManagementService extends org.universAAL.ontology.health.owl.services.HealthService
-	c6317575:p -> c6317572:p [dir=back,arrowtail=empty];
+	c6479962:p -> c6479963:p [dir=back,arrowtail=empty];
 }
 

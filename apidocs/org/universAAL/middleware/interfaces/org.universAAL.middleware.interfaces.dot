@@ -9,24 +9,24 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.middleware.interfaces.ChannelDescriptor
-	c95437 [label=<<table title="org.universAAL.middleware.interfaces.ChannelDescriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ChannelDescriptor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ChannelDescriptor </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ChannelDescriptor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.interfaces.PeerCard
-	c95438 [label=<<table title="org.universAAL.middleware.interfaces.PeerCard" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PeerCard.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> PeerCard </td></tr>
-		</table></td></tr>
-		</table>>, URL="./PeerCard.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.interfaces.PeerRole
-	c95439 [label=<<table title="org.universAAL.middleware.interfaces.PeerRole" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PeerRole.html">
+	c82507 [label=<<table title="org.universAAL.middleware.interfaces.PeerRole" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PeerRole.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
 <tr><td align="center" balign="center"> PeerRole </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PeerRole.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.interfaces.PeerCard
+	c82508 [label=<<table title="org.universAAL.middleware.interfaces.PeerCard" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PeerCard.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> PeerCard </td></tr>
+		</table></td></tr>
+		</table>>, URL="./PeerCard.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.interfaces.ChannelDescriptor
+	c82509 [label=<<table title="org.universAAL.middleware.interfaces.ChannelDescriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ChannelDescriptor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ChannelDescriptor </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ChannelDescriptor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

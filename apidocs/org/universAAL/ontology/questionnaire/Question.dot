@@ -10,50 +10,50 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c6705961 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
+	c6875615 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.questionnaire.QuestionWithMedia
-	c6706788 [label=<<table title="org.universAAL.ontology.questionnaire.QuestionWithMedia" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./QuestionWithMedia.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> QuestionWithMedia </td></tr>
-		</table></td></tr>
-		</table>>, URL="./QuestionWithMedia.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.questionnaire.MultiChoiceQuestion
-	c6706792 [label=<<table title="org.universAAL.ontology.questionnaire.MultiChoiceQuestion" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MultiChoiceQuestion.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> MultiChoiceQuestion </td></tr>
-		</table></td></tr>
-		</table>>, URL="./MultiChoiceQuestion.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.questionnaire.Question
-	c6706793 [label=<<table title="org.universAAL.ontology.questionnaire.Question" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Question.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Question </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./Question.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.questionnaire.SingleChoiceQuestion
-	c6706795 [label=<<table title="org.universAAL.ontology.questionnaire.SingleChoiceQuestion" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SingleChoiceQuestion.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> SingleChoiceQuestion </td></tr>
-		</table></td></tr>
-		</table>>, URL="./SingleChoiceQuestion.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.questionnaire.ConditionalQuestion
-	c6706797 [label=<<table title="org.universAAL.ontology.questionnaire.ConditionalQuestion" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConditionalQuestion.html">
+	c6876463 [label=<<table title="org.universAAL.ontology.questionnaire.ConditionalQuestion" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConditionalQuestion.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConditionalQuestion </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConditionalQuestion.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.ontology.questionnaire.QuestionWithMedia extends org.universAAL.ontology.questionnaire.Question
-	c6706793:p -> c6706788:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.questionnaire.MultiChoiceQuestion extends org.universAAL.ontology.questionnaire.Question
-	c6706793:p -> c6706792:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.questionnaire.Question extends org.universAAL.middleware.owl.ManagedIndividual
-	c6705961:p -> c6706793:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.questionnaire.SingleChoiceQuestion extends org.universAAL.ontology.questionnaire.Question
-	c6706793:p -> c6706795:p [dir=back,arrowtail=empty];
+	// org.universAAL.ontology.questionnaire.QuestionWithMedia
+	c6876467 [label=<<table title="org.universAAL.ontology.questionnaire.QuestionWithMedia" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./QuestionWithMedia.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> QuestionWithMedia </td></tr>
+		</table></td></tr>
+		</table>>, URL="./QuestionWithMedia.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.questionnaire.SingleChoiceQuestion
+	c6876470 [label=<<table title="org.universAAL.ontology.questionnaire.SingleChoiceQuestion" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SingleChoiceQuestion.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> SingleChoiceQuestion </td></tr>
+		</table></td></tr>
+		</table>>, URL="./SingleChoiceQuestion.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.questionnaire.Question
+	c6876471 [label=<<table title="org.universAAL.ontology.questionnaire.Question" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Question.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Question </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./Question.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.questionnaire.MultiChoiceQuestion
+	c6876472 [label=<<table title="org.universAAL.ontology.questionnaire.MultiChoiceQuestion" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MultiChoiceQuestion.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> MultiChoiceQuestion </td></tr>
+		</table></td></tr>
+		</table>>, URL="./MultiChoiceQuestion.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.questionnaire.ConditionalQuestion extends org.universAAL.ontology.questionnaire.Question
-	c6706793:p -> c6706797:p [dir=back,arrowtail=empty];
+	c6876471:p -> c6876463:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.questionnaire.QuestionWithMedia extends org.universAAL.ontology.questionnaire.Question
+	c6876471:p -> c6876467:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.questionnaire.SingleChoiceQuestion extends org.universAAL.ontology.questionnaire.Question
+	c6876471:p -> c6876470:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.questionnaire.Question extends org.universAAL.middleware.owl.ManagedIndividual
+	c6875615:p -> c6876471:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.questionnaire.MultiChoiceQuestion extends org.universAAL.ontology.questionnaire.Question
+	c6876471:p -> c6876472:p [dir=back,arrowtail=empty];
 }
 

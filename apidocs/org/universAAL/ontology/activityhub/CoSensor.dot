@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.activityhub.ActivityHubSensor
-	c2726479 [label=<<table title="org.universAAL.ontology.activityhub.ActivityHubSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ActivityHubSensor.html">
+	c2815760 [label=<<table title="org.universAAL.ontology.activityhub.ActivityHubSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ActivityHubSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ActivityHubSensor </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./ActivityHubSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.activityhub.CoSensor
-	c2726483 [label=<<table title="org.universAAL.ontology.activityhub.CoSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CoSensor.html">
+	c2815761 [label=<<table title="org.universAAL.ontology.activityhub.CoSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CoSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CoSensor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CoSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.activityhub.CoSensor extends org.universAAL.ontology.activityhub.ActivityHubSensor
-	c2726479:p -> c2726483:p [dir=back,arrowtail=empty];
+	c2815760:p -> c2815761:p [dir=back,arrowtail=empty];
 }
 

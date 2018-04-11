@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.location.outdoor.OutdoorPlace
-	c3176128 [label=<<table title="org.universAAL.ontology.location.outdoor.OutdoorPlace" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OutdoorPlace.html">
+	c3270913 [label=<<table title="org.universAAL.ontology.location.outdoor.OutdoorPlace" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OutdoorPlace.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OutdoorPlace </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OutdoorPlace.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.location.outdoor.Country
-	c3176132 [label=<<table title="org.universAAL.ontology.location.outdoor.Country" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Country.html">
+	c3270918 [label=<<table title="org.universAAL.ontology.location.outdoor.Country" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Country.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Country </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Country.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.location.outdoor.Country extends org.universAAL.ontology.location.outdoor.OutdoorPlace
-	c3176128:p -> c3176132:p [dir=back,arrowtail=empty];
+	c3270913:p -> c3270918:p [dir=back,arrowtail=empty];
 }
 

@@ -73,34 +73,12 @@
 <h1 title="Deprecated API" class="title">Deprecated API</h1>
 <h2 title="Contents">Contents</h2>
 <ul>
-<li><a href="#field">Deprecated Fields</a></li>
 <li><a href="#method">Deprecated Methods</a></li>
 <li><a href="#constructor">Deprecated Constructors</a></li>
 <li><a href="#enum.constant">Deprecated Enum Constants</a></li>
 </ul>
 </div>
-<div class="contentContainer"><a name="field">
-<!--   -->
-</a>
-<ul class="blockList">
-<li class="blockList">
-<table class="deprecatedSummary" border="0" cellpadding="3" cellspacing="0" summary="Deprecated Fields table, listing deprecated fields, and an explanation">
-<caption><span>Deprecated Fields</span><span class="tabEnd">&nbsp;</span></caption>
-<tr>
-<th class="colOne" scope="col">Field and Description</th>
-</tr>
-<tbody>
-<tr class="altColor">
-<td class="colOne"><a href="org/universAAL/ri/gateway/communicator/service/CommunicationHandler.html#BROADCAST_SESSION">org.universAAL.ri.gateway.communicator.service.CommunicationHandler.BROADCAST_SESSION</a>
-<div class="block"><span class="deprecationComment">Broadcasting is now perfomed by the high level part of the
-             Gateway by inspecting the message</span></div>
-</td>
-</tr>
-</tbody>
-</table>
-</li>
-</ul>
-<a name="method">
+<div class="contentContainer"><a name="method">
 <!--   -->
 </a>
 <ul class="blockList">
@@ -171,35 +149,31 @@
 <td class="colOne"><a href="org/universAAL/middleware/container/ModuleContext.html#registerConfigFile-java.lang.Object:A-">org.universAAL.middleware.container.ModuleContext.registerConfigFile(Object[])</a>&nbsp;</td>
 </tr>
 <tr class="rowColor">
-<td class="colOne"><a href="org/universAAL/ri/gateway/communicator/service/CommunicationHandler.html#sendMessage-org.universAAL.ri.gateway.protocol.Message-java.lang.String:A-">org.universAAL.ri.gateway.communicator.service.CommunicationHandler.sendMessage(Message, String[])</a>
-<div class="block"><span class="deprecationComment"><a href="org/universAAL/ri/gateway/communicator/service/CommunicationHandler.html#sendMessage-org.universAAL.ri.gateway.protocol.Message-java.lang.String-"><code>CommunicationHandler.sendMessage(Message, String)</code></a> should be used because
-             the Gateway will perform security check for simulating
-             multi-casting or broad-casting when needed</span></div>
-</td>
-</tr>
-<tr class="altColor">
 <td class="colOne"><a href="org/universAAL/middleware/ui/rdf/MediaObject.html#setMaxResolution-int-int-">org.universAAL.middleware.ui.rdf.MediaObject.setMaxResolution(int, int)</a>
 <div class="block"><span class="deprecationComment">use the
              <a href="org/universAAL/middleware/ui/rdf/FormElement.html#addAppearanceRecommendation-org.universAAL.middleware.ui.owl.Recommendation-"><code>FormElement.addAppearanceRecommendation(org.universAAL.middleware.ui.owl.Recommendation)</code></a>
              generalized method to provide the same information.</span></div>
 </td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colOne"><a href="org/universAAL/middleware/ui/rdf/MediaObject.html#setMinResolution-int-int-">org.universAAL.middleware.ui.rdf.MediaObject.setMinResolution(int, int)</a>
 <div class="block"><span class="deprecationComment">use the
              <a href="org/universAAL/middleware/ui/rdf/FormElement.html#addAppearanceRecommendation-org.universAAL.middleware.ui.owl.Recommendation-"><code>FormElement.addAppearanceRecommendation(org.universAAL.middleware.ui.owl.Recommendation)</code></a>
              generalized method to provide the same information.</span></div>
 </td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colOne"><a href="org/universAAL/middleware/ui/rdf/MediaObject.html#setPreferredResolution-int-int-">org.universAAL.middleware.ui.rdf.MediaObject.setPreferredResolution(int, int)</a>
 <div class="block"><span class="deprecationComment">use the
              <a href="org/universAAL/middleware/ui/rdf/FormElement.html#addAppearanceRecommendation-org.universAAL.middleware.ui.owl.Recommendation-"><code>FormElement.addAppearanceRecommendation(org.universAAL.middleware.ui.owl.Recommendation)</code></a>
              generalized method to provide the same information.</span></div>
 </td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colOne"><a href="org/universAAL/support/utils/service/Path.html#start-java.lang.String-">org.universAAL.support.utils.service.Path.start(String)</a></td>
+</tr>
+<tr class="rowColor">
+<td class="colOne"><a href="org/universAAL/utilities/api/service/Path.html#start-java.lang.String-">org.universAAL.utilities.api.service.Path.start(String)</a></td>
 </tr>
 </tbody>
 </table>
@@ -223,10 +197,16 @@
 <td class="colOne"><a href="org/universAAL/support/utils/service/Output.html#Output-java.lang.Object-">org.universAAL.support.utils.service.Output(Object)</a></td>
 </tr>
 <tr class="altColor">
-<td class="colOne"><a href="org/universAAL/middleware/interfaces/PeerCard.html#PeerCard-java.lang.String-">org.universAAL.middleware.interfaces.PeerCard(String)</a>&nbsp;</td>
+<td class="colOne"><a href="org/universAAL/utilities/api/service/Output.html#Output-java.lang.Object-">org.universAAL.utilities.api.service.Output(Object)</a></td>
 </tr>
 <tr class="rowColor">
+<td class="colOne"><a href="org/universAAL/middleware/interfaces/PeerCard.html#PeerCard-java.lang.String-">org.universAAL.middleware.interfaces.PeerCard(String)</a>&nbsp;</td>
+</tr>
+<tr class="altColor">
 <td class="colOne"><a href="org/universAAL/support/utils/service/Typematch.html#Typematch-java.lang.Object-">org.universAAL.support.utils.service.Typematch(Object)</a></td>
+</tr>
+<tr class="rowColor">
+<td class="colOne"><a href="org/universAAL/utilities/api/service/Typematch.html#Typematch-java.lang.Object-">org.universAAL.utilities.api.service.Typematch(Object)</a></td>
 </tr>
 </tbody>
 </table>
@@ -298,6 +278,6 @@
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2017 <a href="http://www.universAAL.org/">universAAL Consortium</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2018 <a href="http://www.universAAL.org/">universAAL Consortium</a>. All rights reserved.</small></p>
 </body>
 </html>

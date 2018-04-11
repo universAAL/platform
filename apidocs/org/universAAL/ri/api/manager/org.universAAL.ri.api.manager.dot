@@ -9,50 +9,50 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ri.api.manager.Activator
-	c1008622 [label=<<table title="org.universAAL.ri.api.manager.Activator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Activator.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Activator </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Activator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ri.api.manager.RemoteAPIImpl
-	c1008623 [label=<<table title="org.universAAL.ri.api.manager.RemoteAPIImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RemoteAPIImpl.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> RemoteAPIImpl </td></tr>
-		</table></td></tr>
-		</table>>, URL="./RemoteAPIImpl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ri.api.manager.RemoteUAAL
-	c1008624 [label=<<table title="org.universAAL.ri.api.manager.RemoteUAAL" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RemoteUAAL.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> RemoteUAAL </td></tr>
-		</table></td></tr>
-		</table>>, URL="./RemoteUAAL.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ri.api.manager.RemoteUAAL.CListener
-	c1008625 [label=<<table title="org.universAAL.ri.api.manager.RemoteUAAL.CListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RemoteUAAL.CListener.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> CListener </td></tr>
-		</table></td></tr>
-		</table>>, URL="./RemoteUAAL.CListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ri.api.manager.RemoteUAAL.SListener
-	c1008626 [label=<<table title="org.universAAL.ri.api.manager.RemoteUAAL.SListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RemoteUAAL.SListener.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> SListener </td></tr>
-		</table></td></tr>
-		</table>>, URL="./RemoteUAAL.SListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ri.api.manager.Configuration
-	c1008627 [label=<<table title="org.universAAL.ri.api.manager.Configuration" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Configuration.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Configuration </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Configuration.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.api.manager.RemoteAPI
-	c1008628 [label=<<table title="org.universAAL.ri.api.manager.RemoteAPI" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RemoteAPI.html">
+	c1065724 [label=<<table title="org.universAAL.ri.api.manager.RemoteAPI" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RemoteAPI.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> RemoteAPI </td></tr>
 		</table></td></tr>
 		</table>>, URL="./RemoteAPI.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ri.api.manager.Activator
+	c1065725 [label=<<table title="org.universAAL.ri.api.manager.Activator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Activator.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Activator </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Activator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ri.api.manager.RemoteAPIImpl
+	c1065726 [label=<<table title="org.universAAL.ri.api.manager.RemoteAPIImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RemoteAPIImpl.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> RemoteAPIImpl </td></tr>
+		</table></td></tr>
+		</table>>, URL="./RemoteAPIImpl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ri.api.manager.Configuration
+	c1065727 [label=<<table title="org.universAAL.ri.api.manager.Configuration" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Configuration.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Configuration </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Configuration.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ri.api.manager.RemoteUAAL
+	c1065728 [label=<<table title="org.universAAL.ri.api.manager.RemoteUAAL" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RemoteUAAL.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> RemoteUAAL </td></tr>
+		</table></td></tr>
+		</table>>, URL="./RemoteUAAL.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ri.api.manager.RemoteUAAL.CListener
+	c1065729 [label=<<table title="org.universAAL.ri.api.manager.RemoteUAAL.CListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RemoteUAAL.CListener.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> CListener </td></tr>
+		</table></td></tr>
+		</table>>, URL="./RemoteUAAL.CListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ri.api.manager.RemoteUAAL.SListener
+	c1065730 [label=<<table title="org.universAAL.ri.api.manager.RemoteUAAL.SListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RemoteUAAL.SListener.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> SListener </td></tr>
+		</table></td></tr>
+		</table>>, URL="./RemoteUAAL.SListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ri.api.manager.RemoteAPIImpl implements org.universAAL.ri.api.manager.RemoteAPI
-	c1008628:p -> c1008623:p [dir=back,arrowtail=empty,style=dashed];
+	c1065724:p -> c1065726:p [dir=back,arrowtail=empty,style=dashed];
 }
 

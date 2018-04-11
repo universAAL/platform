@@ -9,20 +9,20 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ri.gateway.configuration.TurtleFileSecurityDefinition
-	c8124039 [label=<<table title="org.universAAL.ri.gateway.configuration.TurtleFileSecurityDefinition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TurtleFileSecurityDefinition.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> TurtleFileSecurityDefinition </td></tr>
-		</table></td></tr>
-		</table>>, URL="./TurtleFileSecurityDefinition.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.gateway.operations.OperationChainManager
-	c8124067 [label=<<table title="org.universAAL.ri.gateway.operations.OperationChainManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../operations/OperationChainManager.html">
+	c8326118 [label=<<table title="org.universAAL.ri.gateway.operations.OperationChainManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../operations/OperationChainManager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> OperationChainManager </td></tr>
 		</table></td></tr>
 		</table>>, URL="../operations/OperationChainManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ri.gateway.configuration.TurtleFileSecurityDefinition
+	c8326129 [label=<<table title="org.universAAL.ri.gateway.configuration.TurtleFileSecurityDefinition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TurtleFileSecurityDefinition.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> TurtleFileSecurityDefinition </td></tr>
+		</table></td></tr>
+		</table>>, URL="./TurtleFileSecurityDefinition.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ri.gateway.configuration.TurtleFileSecurityDefinition implements org.universAAL.ri.gateway.operations.OperationChainManager
-	c8124067:p -> c8124039:p [dir=back,arrowtail=empty,style=dashed];
+	c8326118:p -> c8326129:p [dir=back,arrowtail=empty,style=dashed];
 }
 

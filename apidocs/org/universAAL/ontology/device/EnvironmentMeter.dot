@@ -9,51 +9,51 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.device.CO2Meter
-	c3784862 [label=<<table title="org.universAAL.ontology.device.CO2Meter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CO2Meter.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> CO2Meter </td></tr>
-		</table></td></tr>
-		</table>>, URL="./CO2Meter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.SmokeMeter
-	c3784864 [label=<<table title="org.universAAL.ontology.device.SmokeMeter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SmokeMeter.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> SmokeMeter </td></tr>
-		</table></td></tr>
-		</table>>, URL="./SmokeMeter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.EnvironmentMeter
-	c3784868 [label=<<table title="org.universAAL.ontology.device.EnvironmentMeter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./EnvironmentMeter.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> EnvironmentMeter </td></tr>
-		</table></td></tr>
-		</table>>, URL="./EnvironmentMeter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.COMeter
-	c3784894 [label=<<table title="org.universAAL.ontology.device.COMeter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./COMeter.html">
+	c3890964 [label=<<table title="org.universAAL.ontology.device.COMeter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./COMeter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> COMeter </td></tr>
 		</table></td></tr>
 		</table>>, URL="./COMeter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.Sensor
-	c3784900 [label=<<table title="org.universAAL.ontology.device.Sensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Sensor.html">
+	c3890975 [label=<<table title="org.universAAL.ontology.device.Sensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Sensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Sensor </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Sensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.EnvironmentMeter
+	c3890976 [label=<<table title="org.universAAL.ontology.device.EnvironmentMeter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./EnvironmentMeter.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> EnvironmentMeter </td></tr>
+		</table></td></tr>
+		</table>>, URL="./EnvironmentMeter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.CO2Meter
+	c3890981 [label=<<table title="org.universAAL.ontology.device.CO2Meter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CO2Meter.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> CO2Meter </td></tr>
+		</table></td></tr>
+		</table>>, URL="./CO2Meter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.GasMeter
-	c3784909 [label=<<table title="org.universAAL.ontology.device.GasMeter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GasMeter.html">
+	c3890993 [label=<<table title="org.universAAL.ontology.device.GasMeter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GasMeter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> GasMeter </td></tr>
 		</table></td></tr>
 		</table>>, URL="./GasMeter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.ontology.device.CO2Meter extends org.universAAL.ontology.device.EnvironmentMeter
-	c3784868:p -> c3784862:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.SmokeMeter extends org.universAAL.ontology.device.EnvironmentMeter
-	c3784868:p -> c3784864:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.EnvironmentMeter extends org.universAAL.ontology.device.Sensor
-	c3784900:p -> c3784868:p [dir=back,arrowtail=empty];
+	// org.universAAL.ontology.device.SmokeMeter
+	c3891011 [label=<<table title="org.universAAL.ontology.device.SmokeMeter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SmokeMeter.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> SmokeMeter </td></tr>
+		</table></td></tr>
+		</table>>, URL="./SmokeMeter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.device.COMeter extends org.universAAL.ontology.device.EnvironmentMeter
-	c3784868:p -> c3784894:p [dir=back,arrowtail=empty];
+	c3890976:p -> c3890964:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.EnvironmentMeter extends org.universAAL.ontology.device.Sensor
+	c3890975:p -> c3890976:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.CO2Meter extends org.universAAL.ontology.device.EnvironmentMeter
+	c3890976:p -> c3890981:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.device.GasMeter extends org.universAAL.ontology.device.EnvironmentMeter
-	c3784868:p -> c3784909:p [dir=back,arrowtail=empty];
+	c3890976:p -> c3890993:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.SmokeMeter extends org.universAAL.ontology.device.EnvironmentMeter
+	c3890976:p -> c3891011:p [dir=back,arrowtail=empty];
 }
 

@@ -9,53 +9,53 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
+	// org.universAAL.support.directives.checks.CodificationCheck
+	c1633685 [label=<<table title="org.universAAL.support.directives.checks.CodificationCheck" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../checks/CodificationCheck.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> CodificationCheck </td></tr>
+		</table></td></tr>
+		</table>>, URL="../checks/CodificationCheck.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.support.directives.checks.DecoupleCheck
+	c1633687 [label=<<table title="org.universAAL.support.directives.checks.DecoupleCheck" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../checks/DecoupleCheck.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> DecoupleCheck </td></tr>
+		</table></td></tr>
+		</table>>, URL="../checks/DecoupleCheck.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.support.directives.checks.MainMethodCheck
+	c1633688 [label=<<table title="org.universAAL.support.directives.checks.MainMethodCheck" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../checks/MainMethodCheck.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> MainMethodCheck </td></tr>
+		</table></td></tr>
+		</table>>, URL="../checks/MainMethodCheck.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.support.directives.checks.MavenCoordinateCheck
+	c1633691 [label=<<table title="org.universAAL.support.directives.checks.MavenCoordinateCheck" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../checks/MavenCoordinateCheck.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> MavenCoordinateCheck </td></tr>
+		</table></td></tr>
+		</table>>, URL="../checks/MavenCoordinateCheck.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.directives.api.APIFixableCheck
-	c1571936 [label=<<table title="org.universAAL.support.directives.api.APIFixableCheck" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./APIFixableCheck.html">
+	c1633709 [label=<<table title="org.universAAL.support.directives.api.APIFixableCheck" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./APIFixableCheck.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> APIFixableCheck </td></tr>
 		</table></td></tr>
 		</table>>, URL="./APIFixableCheck.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.directives.api.APICheck
-	c1571938 [label=<<table title="org.universAAL.support.directives.api.APICheck" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./APICheck.html">
+	c1633711 [label=<<table title="org.universAAL.support.directives.api.APICheck" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./APICheck.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> APICheck </td></tr>
 		</table></td></tr>
 		</table>>, URL="./APICheck.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.support.directives.checks.DecoupleCheck
-	c1571943 [label=<<table title="org.universAAL.support.directives.checks.DecoupleCheck" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../checks/DecoupleCheck.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DecoupleCheck </td></tr>
-		</table></td></tr>
-		</table>>, URL="../checks/DecoupleCheck.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.support.directives.checks.MavenCoordinateCheck
-	c1571944 [label=<<table title="org.universAAL.support.directives.checks.MavenCoordinateCheck" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../checks/MavenCoordinateCheck.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> MavenCoordinateCheck </td></tr>
-		</table></td></tr>
-		</table>>, URL="../checks/MavenCoordinateCheck.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.support.directives.checks.MainMethodCheck
-	c1571947 [label=<<table title="org.universAAL.support.directives.checks.MainMethodCheck" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../checks/MainMethodCheck.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> MainMethodCheck </td></tr>
-		</table></td></tr>
-		</table>>, URL="../checks/MainMethodCheck.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.support.directives.checks.CodificationCheck
-	c1571949 [label=<<table title="org.universAAL.support.directives.checks.CodificationCheck" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../checks/CodificationCheck.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> CodificationCheck </td></tr>
-		</table></td></tr>
-		</table>>, URL="../checks/CodificationCheck.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.support.directives.api.APIFixableCheck implements org.universAAL.support.directives.api.APICheck
-	c1571938:p -> c1571936:p [dir=back,arrowtail=empty,style=dashed];
-	//org.universAAL.support.directives.checks.DecoupleCheck implements org.universAAL.support.directives.api.APICheck
-	c1571938:p -> c1571943:p [dir=back,arrowtail=empty,style=dashed];
-	//org.universAAL.support.directives.checks.MavenCoordinateCheck implements org.universAAL.support.directives.api.APICheck
-	c1571938:p -> c1571944:p [dir=back,arrowtail=empty,style=dashed];
-	//org.universAAL.support.directives.checks.MainMethodCheck implements org.universAAL.support.directives.api.APICheck
-	c1571938:p -> c1571947:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.support.directives.checks.CodificationCheck implements org.universAAL.support.directives.api.APICheck
-	c1571938:p -> c1571949:p [dir=back,arrowtail=empty,style=dashed];
+	c1633711:p -> c1633685:p [dir=back,arrowtail=empty,style=dashed];
+	//org.universAAL.support.directives.checks.DecoupleCheck implements org.universAAL.support.directives.api.APICheck
+	c1633711:p -> c1633687:p [dir=back,arrowtail=empty,style=dashed];
+	//org.universAAL.support.directives.checks.MainMethodCheck implements org.universAAL.support.directives.api.APICheck
+	c1633711:p -> c1633688:p [dir=back,arrowtail=empty,style=dashed];
+	//org.universAAL.support.directives.checks.MavenCoordinateCheck implements org.universAAL.support.directives.api.APICheck
+	c1633711:p -> c1633691:p [dir=back,arrowtail=empty,style=dashed];
+	//org.universAAL.support.directives.api.APIFixableCheck implements org.universAAL.support.directives.api.APICheck
+	c1633711:p -> c1633709:p [dir=back,arrowtail=empty,style=dashed];
 }
 

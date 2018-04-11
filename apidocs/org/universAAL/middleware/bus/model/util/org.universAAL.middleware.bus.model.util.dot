@@ -9,27 +9,27 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.middleware.bus.model.util.IRegistryListener
-	c158977 [label=<<table title="org.universAAL.middleware.bus.model.util.IRegistryListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IRegistryListener.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
-<tr><td align="center" balign="center"> IRegistryListener </td></tr>
-		</table></td></tr>
-		</table>>, URL="./IRegistryListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.bus.model.util.IRegistry
-	c158978 [label=<<table title="org.universAAL.middleware.bus.model.util.IRegistry" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IRegistry.html">
+	c161947 [label=<<table title="org.universAAL.middleware.bus.model.util.IRegistry" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IRegistry.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IRegistry </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IRegistry.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.bus.model.util.IRegistryListener
+	c161948 [label=<<table title="org.universAAL.middleware.bus.model.util.IRegistryListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IRegistryListener.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
+<tr><td align="center" balign="center"> IRegistryListener </td></tr>
+		</table></td></tr>
+		</table>>, URL="./IRegistryListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.bus.model.util.RegistryMap
-	c158979 [label=<<table title="org.universAAL.middleware.bus.model.util.RegistryMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RegistryMap.html">
+	c161949 [label=<<table title="org.universAAL.middleware.bus.model.util.RegistryMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RegistryMap.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RegistryMap </td></tr>
 		</table></td></tr>
 		</table>>, URL="./RegistryMap.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.bus.model.util.RegistryMap implements org.universAAL.middleware.bus.model.util.IRegistry
-	c158978:p -> c158979:p [dir=back,arrowtail=empty,style=dashed];
+	c161947:p -> c161949:p [dir=back,arrowtail=empty,style=dashed];
 }
 

@@ -9,29 +9,29 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.middleware.context.impl.ContextBusFactory
-	c182091 [label=<<table title="org.universAAL.middleware.context.impl.ContextBusFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ContextBusFactory.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ContextBusFactory </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ContextBusFactory.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.context.impl.ContextStrategy
-	c182092 [label=<<table title="org.universAAL.middleware.context.impl.ContextStrategy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ContextStrategy.html">
+	c179601 [label=<<table title="org.universAAL.middleware.context.impl.ContextStrategy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ContextStrategy.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ContextStrategy </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ContextStrategy.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.context.impl.ContextStrategy.ContextFilterer
-	c182093 [label=<<table title="org.universAAL.middleware.context.impl.ContextStrategy.ContextFilterer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ContextStrategy.ContextFilterer.html">
+	c179602 [label=<<table title="org.universAAL.middleware.context.impl.ContextStrategy.ContextFilterer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ContextStrategy.ContextFilterer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ContextFilterer </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ContextStrategy.ContextFilterer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.context.impl.ContextBusImpl
-	c182094 [label=<<table title="org.universAAL.middleware.context.impl.ContextBusImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ContextBusImpl.html">
+	c179603 [label=<<table title="org.universAAL.middleware.context.impl.ContextBusImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ContextBusImpl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ContextBusImpl </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ContextBusImpl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.context.impl.ContextBusFactory
+	c179604 [label=<<table title="org.universAAL.middleware.context.impl.ContextBusFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ContextBusFactory.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ContextBusFactory </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ContextBusFactory.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

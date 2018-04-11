@@ -9,36 +9,36 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferSubscriptor
-	c4683314 [label=<<table title="org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferSubscriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ui/preferences/buffer/UIPreferencesBufferSubscriptor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> UIPreferencesBufferSubscriptor </td></tr>
-		</table></td></tr>
-		</table>>, URL="../ui/preferences/buffer/UIPreferencesBufferSubscriptor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferPoller
-	c4683315 [label=<<table title="org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferPoller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ui/preferences/buffer/UIPreferencesBufferPoller.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> UIPreferencesBufferPoller </td></tr>
-		</table></td></tr>
-		</table>>, URL="../ui/preferences/buffer/UIPreferencesBufferPoller.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferNoUpdate
-	c4683316 [label=<<table title="org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferNoUpdate" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ui/preferences/buffer/UIPreferencesBufferNoUpdate.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> UIPreferencesBufferNoUpdate </td></tr>
-		</table></td></tr>
-		</table>>, URL="../ui/preferences/buffer/UIPreferencesBufferNoUpdate.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.interfaces.IUIPreferencesBuffer
-	c4683349 [label=<<table title="org.universAAL.ui.dm.interfaces.IUIPreferencesBuffer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IUIPreferencesBuffer.html">
+	c4809240 [label=<<table title="org.universAAL.ui.dm.interfaces.IUIPreferencesBuffer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IUIPreferencesBuffer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IUIPreferencesBuffer </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IUIPreferencesBuffer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferSubscriptor
+	c4809243 [label=<<table title="org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferSubscriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ui/preferences/buffer/UIPreferencesBufferSubscriptor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> UIPreferencesBufferSubscriptor </td></tr>
+		</table></td></tr>
+		</table>>, URL="../ui/preferences/buffer/UIPreferencesBufferSubscriptor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferNoUpdate
+	c4809244 [label=<<table title="org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferNoUpdate" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ui/preferences/buffer/UIPreferencesBufferNoUpdate.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> UIPreferencesBufferNoUpdate </td></tr>
+		</table></td></tr>
+		</table>>, URL="../ui/preferences/buffer/UIPreferencesBufferNoUpdate.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferPoller
+	c4809245 [label=<<table title="org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferPoller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ui/preferences/buffer/UIPreferencesBufferPoller.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> UIPreferencesBufferPoller </td></tr>
+		</table></td></tr>
+		</table>>, URL="../ui/preferences/buffer/UIPreferencesBufferPoller.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferSubscriptor implements org.universAAL.ui.dm.interfaces.IUIPreferencesBuffer
-	c4683349:p -> c4683314:p [dir=back,arrowtail=empty,style=dashed];
-	//org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferPoller implements org.universAAL.ui.dm.interfaces.IUIPreferencesBuffer
-	c4683349:p -> c4683315:p [dir=back,arrowtail=empty,style=dashed];
+	c4809240:p -> c4809243:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferNoUpdate implements org.universAAL.ui.dm.interfaces.IUIPreferencesBuffer
-	c4683349:p -> c4683316:p [dir=back,arrowtail=empty,style=dashed];
+	c4809240:p -> c4809244:p [dir=back,arrowtail=empty,style=dashed];
+	//org.universAAL.ui.dm.ui.preferences.buffer.UIPreferencesBufferPoller implements org.universAAL.ui.dm.interfaces.IUIPreferencesBuffer
+	c4809240:p -> c4809245:p [dir=back,arrowtail=empty,style=dashed];
 }
 

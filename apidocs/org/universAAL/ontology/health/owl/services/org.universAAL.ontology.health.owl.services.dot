@@ -9,49 +9,49 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.health.owl.services.TreatmentManagementService
-	c425033 [label=<<table title="org.universAAL.ontology.health.owl.services.TreatmentManagementService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TreatmentManagementService.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> TreatmentManagementService </td></tr>
-		</table></td></tr>
-		</table>>, URL="./TreatmentManagementService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.health.owl.services.PerformedSessionManagementService
-	c425034 [label=<<table title="org.universAAL.ontology.health.owl.services.PerformedSessionManagementService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PerformedSessionManagementService.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> PerformedSessionManagementService </td></tr>
-		</table></td></tr>
-		</table>>, URL="./PerformedSessionManagementService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.health.owl.services.ProfileManagementService
-	c425035 [label=<<table title="org.universAAL.ontology.health.owl.services.ProfileManagementService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProfileManagementService.html">
+	c465338 [label=<<table title="org.universAAL.ontology.health.owl.services.ProfileManagementService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProfileManagementService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProfileManagementService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ProfileManagementService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.health.owl.services.DisplayTreatmentService
-	c425036 [label=<<table title="org.universAAL.ontology.health.owl.services.DisplayTreatmentService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DisplayTreatmentService.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DisplayTreatmentService </td></tr>
-		</table></td></tr>
-		</table>>, URL="./DisplayTreatmentService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.health.owl.services.HealthService
-	c425037 [label=<<table title="org.universAAL.ontology.health.owl.services.HealthService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HealthService.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> HealthService </td></tr>
-		</table></td></tr>
-		</table>>, URL="./HealthService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.health.owl.services.PlannedSessionManagementService
-	c425038 [label=<<table title="org.universAAL.ontology.health.owl.services.PlannedSessionManagementService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PlannedSessionManagementService.html">
+	c465339 [label=<<table title="org.universAAL.ontology.health.owl.services.PlannedSessionManagementService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PlannedSessionManagementService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PlannedSessionManagementService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PlannedSessionManagementService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.ontology.health.owl.services.TreatmentManagementService extends org.universAAL.ontology.health.owl.services.HealthService
-	c425037:p -> c425033:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.health.owl.services.PerformedSessionManagementService extends org.universAAL.ontology.health.owl.services.HealthService
-	c425037:p -> c425034:p [dir=back,arrowtail=empty];
+	// org.universAAL.ontology.health.owl.services.DisplayTreatmentService
+	c465340 [label=<<table title="org.universAAL.ontology.health.owl.services.DisplayTreatmentService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DisplayTreatmentService.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> DisplayTreatmentService </td></tr>
+		</table></td></tr>
+		</table>>, URL="./DisplayTreatmentService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.health.owl.services.TreatmentManagementService
+	c465341 [label=<<table title="org.universAAL.ontology.health.owl.services.TreatmentManagementService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TreatmentManagementService.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> TreatmentManagementService </td></tr>
+		</table></td></tr>
+		</table>>, URL="./TreatmentManagementService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.health.owl.services.HealthService
+	c465342 [label=<<table title="org.universAAL.ontology.health.owl.services.HealthService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HealthService.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> HealthService </td></tr>
+		</table></td></tr>
+		</table>>, URL="./HealthService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.health.owl.services.PerformedSessionManagementService
+	c465343 [label=<<table title="org.universAAL.ontology.health.owl.services.PerformedSessionManagementService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PerformedSessionManagementService.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> PerformedSessionManagementService </td></tr>
+		</table></td></tr>
+		</table>>, URL="./PerformedSessionManagementService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.health.owl.services.ProfileManagementService extends org.universAAL.ontology.health.owl.services.HealthService
-	c425037:p -> c425035:p [dir=back,arrowtail=empty];
+	c465342:p -> c465338:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.health.owl.services.PlannedSessionManagementService extends org.universAAL.ontology.health.owl.services.HealthService
-	c425037:p -> c425038:p [dir=back,arrowtail=empty];
+	c465342:p -> c465339:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.health.owl.services.TreatmentManagementService extends org.universAAL.ontology.health.owl.services.HealthService
+	c465342:p -> c465341:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.health.owl.services.PerformedSessionManagementService extends org.universAAL.ontology.health.owl.services.HealthService
+	c465342:p -> c465343:p [dir=back,arrowtail=empty];
 }
 

@@ -9,19 +9,19 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.middleware.owl.TypeURI
-	c8165397 [label=<<table title="org.universAAL.middleware.owl.TypeURI" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TypeURI.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> TypeURI </td></tr>
-		</table></td></tr>
-		</table>>, URL="./TypeURI.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.owl.TypeExpression
-	c8165416 [label=<<table title="org.universAAL.middleware.owl.TypeExpression" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TypeExpression.html">
+	c8368233 [label=<<table title="org.universAAL.middleware.owl.TypeExpression" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TypeExpression.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> TypeExpression </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./TypeExpression.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.owl.TypeURI
+	c8368259 [label=<<table title="org.universAAL.middleware.owl.TypeURI" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TypeURI.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> TypeURI </td></tr>
+		</table></td></tr>
+		</table>>, URL="./TypeURI.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.owl.TypeURI extends org.universAAL.middleware.owl.TypeExpression
-	c8165416:p -> c8165397:p [dir=back,arrowtail=empty];
+	c8368233:p -> c8368259:p [dir=back,arrowtail=empty];
 }
 

@@ -9,26 +9,26 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ui.handler.kinect.adapter.contextBus.AbstractContext
-	c1170433 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.contextBus.AbstractContext" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractContext.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
-<tr><td align="center" balign="center"> AbstractContext </td></tr>
-		</table></td></tr>
-		</table>>, URL="./AbstractContext.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ui.handler.kinect.adapter.contextBus.IContextPublisher
-	c1170434 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.contextBus.IContextPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IContextPublisher.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
-<tr><td align="center" balign="center"> IContextPublisher </td></tr>
-		</table></td></tr>
-		</table>>, URL="./IContextPublisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.handler.kinect.adapter.contextBus.IContextCallback
-	c1170435 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.contextBus.IContextCallback" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IContextCallback.html">
+	c1233499 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.contextBus.IContextCallback" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IContextCallback.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IContextCallback </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IContextCallback.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ui.handler.kinect.adapter.contextBus.IContextPublisher
+	c1233500 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.contextBus.IContextPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IContextPublisher.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
+<tr><td align="center" balign="center"> IContextPublisher </td></tr>
+		</table></td></tr>
+		</table>>, URL="./IContextPublisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ui.handler.kinect.adapter.contextBus.AbstractContext
+	c1233501 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.contextBus.AbstractContext" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractContext.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
+<tr><td align="center" balign="center"> AbstractContext </td></tr>
+		</table></td></tr>
+		</table>>, URL="./AbstractContext.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

@@ -9,29 +9,29 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.middleware.modules.SpaceModule
-	c7747376 [label=<<table title="org.universAAL.middleware.modules.SpaceModule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SpaceModule.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
-<tr><td align="center" balign="center"> SpaceModule </td></tr>
-		</table></td></tr>
-		</table>>, URL="./SpaceModule.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.modules.Module
-	c7747377 [label=<<table title="org.universAAL.middleware.modules.Module" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Module.html">
+	c7939438 [label=<<table title="org.universAAL.middleware.modules.Module" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Module.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Module </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Module.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.modules.SpaceModule
+	c7939439 [label=<<table title="org.universAAL.middleware.modules.SpaceModule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SpaceModule.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
+<tr><td align="center" balign="center"> SpaceModule </td></tr>
+		</table></td></tr>
+		</table>>, URL="./SpaceModule.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.modules.space.SpaceModuleImpl
-	c7748322 [label=<<table title="org.universAAL.middleware.modules.space.SpaceModuleImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./space/SpaceModuleImpl.html">
+	c7940430 [label=<<table title="org.universAAL.middleware.modules.space.SpaceModuleImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./space/SpaceModuleImpl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SpaceModuleImpl </td></tr>
 		</table></td></tr>
 		</table>>, URL="./space/SpaceModuleImpl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.modules.SpaceModule implements org.universAAL.middleware.modules.Module
-	c7747377:p -> c7747376:p [dir=back,arrowtail=empty,style=dashed];
+	c7939438:p -> c7939439:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.modules.space.SpaceModuleImpl implements org.universAAL.middleware.modules.SpaceModule
-	c7747376:p -> c7748322:p [dir=back,arrowtail=empty,style=dashed];
+	c7939439:p -> c7940430:p [dir=back,arrowtail=empty,style=dashed];
 }
 

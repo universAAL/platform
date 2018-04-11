@@ -164,6 +164,12 @@ Simple (by default).</div>
 <td class="colFirst"><a href="#org.universAAL.ui.handler.web.html.fm">org.universAAL.ui.handler.web.html.fm</a></td>
 <td class="colLast">&nbsp;</td>
 </tr>
+<tr class="rowColor">
+<td class="colFirst"><a href="#org.universAAL.utilities.api">org.universAAL.utilities.api</a></td>
+<td class="colLast">
+<div class="block">Contains the most basic helper utility for using the universAAL simplified API.</div>
+</td>
+</tr>
 </tbody>
 </table>
 </li>
@@ -403,13 +409,13 @@ Simple (by default).</div>
 <tbody>
 <tr class="altColor">
 <td class="colFirst"><code><a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a></code></td>
-<td class="colLast"><span class="typeNameLabel">UserDialogManager.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/UserDialogManager.html#getSuspendedDialog-java.lang.String-">getSuspendedDialog</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;dialogID)</code>
+<td class="colLast"><span class="typeNameLabel">DialogManagerImpl.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/DialogManagerImpl.html#getSuspendedDialog-java.lang.String-">getSuspendedDialog</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;dialogID)</code>
 <div class="block">Get a suspended dialog.</div>
 </td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code><a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a></code></td>
-<td class="colLast"><span class="typeNameLabel">DialogManagerImpl.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/DialogManagerImpl.html#getSuspendedDialog-java.lang.String-">getSuspendedDialog</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;dialogID)</code>
+<td class="colLast"><span class="typeNameLabel">UserDialogManager.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/UserDialogManager.html#getSuspendedDialog-java.lang.String-">getSuspendedDialog</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;dialogID)</code>
 <div class="block">Get a suspended dialog.</div>
 </td>
 </tr>
@@ -424,14 +430,14 @@ Simple (by default).</div>
 <tbody>
 <tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">UserDialogManager.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/UserDialogManager.html#checkNewDialog-org.universAAL.middleware.ui.UIRequest-">checkNewDialog</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;request)</code>
+<td class="colLast"><span class="typeNameLabel">DialogManagerImpl.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/DialogManagerImpl.html#checkNewDialog-org.universAAL.middleware.ui.UIRequest-">checkNewDialog</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;request)</code>
 <div class="block">This method is called by the UI bus and determines whether a dialog can
  be shown directly (e.g.</div>
 </td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">DialogManagerImpl.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/DialogManagerImpl.html#checkNewDialog-org.universAAL.middleware.ui.UIRequest-">checkNewDialog</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;request)</code>
+<td class="colLast"><span class="typeNameLabel">UserDialogManager.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/UserDialogManager.html#checkNewDialog-org.universAAL.middleware.ui.UIRequest-">checkNewDialog</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;request)</code>
 <div class="block">This method is called by the UI bus and determines whether a dialog can
  be shown directly (e.g.</div>
 </td>
@@ -468,7 +474,7 @@ Simple (by default).</div>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">AdapterMessageInternationalization.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/adapters/AdapterMessageInternationalization.html#adapt-org.universAAL.middleware.ui.UIRequest-">adapt</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;request)</code></td>
+<td class="colLast"><span class="typeNameLabel">AdapterDialogPrivacyLevel.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/adapters/AdapterDialogPrivacyLevel.html#adapt-org.universAAL.middleware.ui.UIRequest-">adapt</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;request)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>void</code></td>
@@ -476,11 +482,11 @@ Simple (by default).</div>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">AdapterUserImpairments.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/adapters/AdapterUserImpairments.html#adapt-org.universAAL.middleware.ui.UIRequest-">adapt</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;request)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">AdapterMessageInternationalization.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/adapters/AdapterMessageInternationalization.html#adapt-org.universAAL.middleware.ui.UIRequest-">adapt</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;request)</code></td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">AdapterDialogPrivacyLevel.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/adapters/AdapterDialogPrivacyLevel.html#adapt-org.universAAL.middleware.ui.UIRequest-">adapt</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;request)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">AdapterUserImpairments.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/adapters/AdapterUserImpairments.html#adapt-org.universAAL.middleware.ui.UIRequest-">adapt</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;request)</code>&nbsp;</td>
 </tr>
 </tbody>
 </table>
@@ -578,13 +584,13 @@ Simple (by default).</div>
 <tbody>
 <tr class="altColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">NonRedundantDialogPriorityQueue.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/dialogManagement/NonRedundantDialogPriorityQueue.html#add-org.universAAL.middleware.ui.UIRequest-">add</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;UIReq)</code>
+<td class="colLast"><span class="typeNameLabel">DialogPriorityQueueVerbosity.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/dialogManagement/DialogPriorityQueueVerbosity.html#add-org.universAAL.middleware.ui.UIRequest-">add</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;UIReq)</code>
 <div class="block">Add a new <a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui"><code>UIRequest</code></a>.</div>
 </td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">DialogPriorityQueueVerbosity.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/dialogManagement/DialogPriorityQueueVerbosity.html#add-org.universAAL.middleware.ui.UIRequest-">add</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;UIReq)</code>
+<td class="colLast"><span class="typeNameLabel">NonRedundantDialogPriorityQueue.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/dialogManagement/NonRedundantDialogPriorityQueue.html#add-org.universAAL.middleware.ui.UIRequest-">add</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;UIReq)</code>
 <div class="block">Add a new <a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui"><code>UIRequest</code></a>.</div>
 </td>
 </tr>
@@ -696,15 +702,15 @@ Simple (by default).</div>
 <tbody>
 <tr class="altColor">
 <td class="colFirst"><code><a href="../../../../../org/universAAL/middleware/ui/rdf/Group.html" title="class in org.universAAL.middleware.ui.rdf">Group</a></code></td>
-<td class="colLast"><span class="typeNameLabel">TaskBarSystemMenuProvider.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/userInteraction/systemMenu/TaskBarSystemMenuProvider.html#getSystemMenu-org.universAAL.middleware.ui.UIRequest-">getSystemMenu</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;request)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">ClassicSystemMenuProvider.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/userInteraction/systemMenu/ClassicSystemMenuProvider.html#getSystemMenu-org.universAAL.middleware.ui.UIRequest-">getSystemMenu</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;request)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code><a href="../../../../../org/universAAL/middleware/ui/rdf/Group.html" title="class in org.universAAL.middleware.ui.rdf">Group</a></code></td>
-<td class="colLast"><span class="typeNameLabel">ClassicSystemMenuProvider.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/userInteraction/systemMenu/ClassicSystemMenuProvider.html#getSystemMenu-org.universAAL.middleware.ui.UIRequest-">getSystemMenu</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;request)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">SmartPendingSystemMenuProvider.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/userInteraction/systemMenu/SmartPendingSystemMenuProvider.html#getSystemMenu-org.universAAL.middleware.ui.UIRequest-">getSystemMenu</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;request)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code><a href="../../../../../org/universAAL/middleware/ui/rdf/Group.html" title="class in org.universAAL.middleware.ui.rdf">Group</a></code></td>
-<td class="colLast"><span class="typeNameLabel">SmartPendingSystemMenuProvider.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/userInteraction/systemMenu/SmartPendingSystemMenuProvider.html#getSystemMenu-org.universAAL.middleware.ui.UIRequest-">getSystemMenu</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;request)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">TaskBarSystemMenuProvider.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/dm/userInteraction/systemMenu/TaskBarSystemMenuProvider.html#getSystemMenu-org.universAAL.middleware.ui.UIRequest-">getSystemMenu</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;request)</code>&nbsp;</td>
 </tr>
 </tbody>
 </table>
@@ -760,19 +766,7 @@ Simple (by default).</div>
 <tbody>
 <tr class="altColor">
 <td class="colFirst"><code><a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a></code></td>
-<td class="colLast"><span class="typeNameLabel">SimpleFormManager.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/handler/gui/swing/formManagement/SimpleFormManager.html#getCurrentDialog--">getCurrentDialog</a></span>()</code>
-<div class="block">get the Dialog Being currently displayed.</div>
-</td>
-</tr>
-<tr class="rowColor">
-<td class="colFirst"><code><a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a></code></td>
 <td class="colLast"><span class="typeNameLabel">OverlayFormManager.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/handler/gui/swing/formManagement/OverlayFormManager.html#getCurrentDialog--">getCurrentDialog</a></span>()</code>
-<div class="block">get the Dialog Being currently displayed.</div>
-</td>
-</tr>
-<tr class="altColor">
-<td class="colFirst"><code><a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a></code></td>
-<td class="colLast"><span class="typeNameLabel">HierarchicalFormManager.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/handler/gui/swing/formManagement/HierarchicalFormManager.html#getCurrentDialog--">getCurrentDialog</a></span>()</code>
 <div class="block">get the Dialog Being currently displayed.</div>
 </td>
 </tr>
@@ -788,6 +782,18 @@ Simple (by default).</div>
 <div class="block">get the Dialog Being currently displayed.</div>
 </td>
 </tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a></code></td>
+<td class="colLast"><span class="typeNameLabel">SimpleFormManager.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/handler/gui/swing/formManagement/SimpleFormManager.html#getCurrentDialog--">getCurrentDialog</a></span>()</code>
+<div class="block">get the Dialog Being currently displayed.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a></code></td>
+<td class="colLast"><span class="typeNameLabel">HierarchicalFormManager.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/handler/gui/swing/formManagement/HierarchicalFormManager.html#getCurrentDialog--">getCurrentDialog</a></span>()</code>
+<div class="block">get the Dialog Being currently displayed.</div>
+</td>
+</tr>
 </tbody>
 </table>
 <table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing methods, and an explanation">
@@ -799,19 +805,7 @@ Simple (by default).</div>
 <tbody>
 <tr class="altColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">SimpleFormManager.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/handler/gui/swing/formManagement/SimpleFormManager.html#addDialog-org.universAAL.middleware.ui.UIRequest-">addDialog</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;oe)</code>
-<div class="block">Callback for incoming dialogs.</div>
-</td>
-</tr>
-<tr class="rowColor">
-<td class="colFirst"><code>void</code></td>
 <td class="colLast"><span class="typeNameLabel">OverlayFormManager.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/handler/gui/swing/formManagement/OverlayFormManager.html#addDialog-org.universAAL.middleware.ui.UIRequest-">addDialog</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;oe)</code>
-<div class="block">Callback for incoming dialogs.</div>
-</td>
-</tr>
-<tr class="altColor">
-<td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">HierarchicalFormManager.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/handler/gui/swing/formManagement/HierarchicalFormManager.html#addDialog-org.universAAL.middleware.ui.UIRequest-">addDialog</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;oe)</code>
 <div class="block">Callback for incoming dialogs.</div>
 </td>
 </tr>
@@ -824,6 +818,18 @@ Simple (by default).</div>
 <tr class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><span class="typeNameLabel">FormManager.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/handler/gui/swing/formManagement/FormManager.html#addDialog-org.universAAL.middleware.ui.UIRequest-">addDialog</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;oe)</code>
+<div class="block">Callback for incoming dialogs.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><span class="typeNameLabel">SimpleFormManager.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/handler/gui/swing/formManagement/SimpleFormManager.html#addDialog-org.universAAL.middleware.ui.UIRequest-">addDialog</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;oe)</code>
+<div class="block">Callback for incoming dialogs.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><span class="typeNameLabel">HierarchicalFormManager.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/handler/gui/swing/formManagement/HierarchicalFormManager.html#addDialog-org.universAAL.middleware.ui.UIRequest-">addDialog</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;oe)</code>
 <div class="block">Callback for incoming dialogs.</div>
 </td>
 </tr>
@@ -936,13 +942,13 @@ Simple (by default).</div>
 <tbody>
 <tr class="altColor">
 <td class="colFirst"><code><a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a></code></td>
-<td class="colLast"><span class="typeNameLabel">SimpleFormManager.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/handler/web/html/fm/SimpleFormManager.html#getCurrentDialog--">getCurrentDialog</a></span>()</code>
+<td class="colLast"><span class="typeNameLabel">FormManager.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/handler/web/html/fm/FormManager.html#getCurrentDialog--">getCurrentDialog</a></span>()</code>
 <div class="block">get the Dialog Being currently displayed.</div>
 </td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code><a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a></code></td>
-<td class="colLast"><span class="typeNameLabel">FormManager.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/handler/web/html/fm/FormManager.html#getCurrentDialog--">getCurrentDialog</a></span>()</code>
+<td class="colLast"><span class="typeNameLabel">SimpleFormManager.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/handler/web/html/fm/SimpleFormManager.html#getCurrentDialog--">getCurrentDialog</a></span>()</code>
 <div class="block">get the Dialog Being currently displayed.</div>
 </td>
 </tr>
@@ -957,14 +963,36 @@ Simple (by default).</div>
 <tbody>
 <tr class="altColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">SimpleFormManager.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/handler/web/html/fm/SimpleFormManager.html#addDialog-org.universAAL.middleware.ui.UIRequest-">addDialog</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;oe)</code>
+<td class="colLast"><span class="typeNameLabel">FormManager.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/handler/web/html/fm/FormManager.html#addDialog-org.universAAL.middleware.ui.UIRequest-">addDialog</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;oe)</code>
 <div class="block">Callback for incoming dialogs.</div>
 </td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">FormManager.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/handler/web/html/fm/FormManager.html#addDialog-org.universAAL.middleware.ui.UIRequest-">addDialog</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;oe)</code>
+<td class="colLast"><span class="typeNameLabel">SimpleFormManager.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ui/handler/web/html/fm/SimpleFormManager.html#addDialog-org.universAAL.middleware.ui.UIRequest-">addDialog</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;oe)</code>
 <div class="block">Callback for incoming dialogs.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList"><a name="org.universAAL.utilities.api">
+<!--   -->
+</a>
+<h3>Uses of <a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a> in <a href="../../../../../org/universAAL/utilities/api/package-summary.html">org.universAAL.utilities.api</a></h3>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing methods, and an explanation">
+<caption><span>Methods in <a href="../../../../../org/universAAL/utilities/api/package-summary.html">org.universAAL.utilities.api</a> with parameters of type <a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><span class="typeNameLabel">UAAL.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/utilities/api/UAAL.html#requestUI-org.universAAL.middleware.ui.UIRequest-org.universAAL.utilities.api.IUIListener-">requestUI</a></span>(<a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui">UIRequest</a>&nbsp;ui,
+         <a href="../../../../../org/universAAL/utilities/api/IUIListener.html" title="interface in org.universAAL.utilities.api">IUIListener</a>&nbsp;l)</code>
+<div class="block">Requests User Interaction and specifies how the response would be
+ handled.</div>
 </td>
 </tr>
 </tbody>
@@ -1021,6 +1049,6 @@ Simple (by default).</div>
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2017 <a href="http://www.universAAL.org/">universAAL Consortium</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2018 <a href="http://www.universAAL.org/">universAAL Consortium</a>. All rights reserved.</small></p>
 </body>
 </html>

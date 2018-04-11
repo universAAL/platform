@@ -10,1062 +10,1062 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.rdf.FinalizedResource
-	c5448439 [label=<<table title="org.universAAL.middleware.rdf.FinalizedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../rdf/FinalizedResource.html">
+	c5591581 [label=<<table title="org.universAAL.middleware.rdf.FinalizedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../rdf/FinalizedResource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> FinalizedResource </td></tr>
 		</table></td></tr>
 		</table>>, URL="../rdf/FinalizedResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.owl.ComparableIndividual
+	c5591614 [label=<<table title="org.universAAL.middleware.owl.ComparableIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ComparableIndividual.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ComparableIndividual </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./ComparableIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c5448459 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ManagedIndividual.html">
+	c5591632 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.owl.PrivateResource
-	c5448465 [label=<<table title="org.universAAL.middleware.owl.PrivateResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PrivateResource.html">
+	c5591646 [label=<<table title="org.universAAL.middleware.owl.PrivateResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PrivateResource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> PrivateResource </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./PrivateResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.owl.ComparableIndividual
-	c5448491 [label=<<table title="org.universAAL.middleware.owl.ComparableIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ComparableIndividual.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ComparableIndividual </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./ComparableIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.owl.generic.GenericManagedIndividual
-	c5448500 [label=<<table title="org.universAAL.middleware.owl.generic.GenericManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./generic/GenericManagedIndividual.html">
+	c5591657 [label=<<table title="org.universAAL.middleware.owl.generic.GenericManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./generic/GenericManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> GenericManagedIndividual </td></tr>
 		</table></td></tr>
 		</table>>, URL="./generic/GenericManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.context.owl.ContextProviderType
-	c5448734 [label=<<table title="org.universAAL.middleware.context.owl.ContextProviderType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../context/owl/ContextProviderType.html">
+	c5591863 [label=<<table title="org.universAAL.middleware.context.owl.ContextProviderType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../context/owl/ContextProviderType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ContextProviderType </td></tr>
 		</table></td></tr>
 		</table>>, URL="../context/owl/ContextProviderType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.context.owl.ContextProvider
-	c5448735 [label=<<table title="org.universAAL.middleware.context.owl.ContextProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../context/owl/ContextProvider.html">
+	c5591865 [label=<<table title="org.universAAL.middleware.context.owl.ContextProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../context/owl/ContextProvider.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ContextProvider </td></tr>
 		</table></td></tr>
 		</table>>, URL="../context/owl/ContextProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.service.owl.Service
-	c5448784 [label=<<table title="org.universAAL.middleware.service.owl.Service" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../service/owl/Service.html">
+	c5591922 [label=<<table title="org.universAAL.middleware.service.owl.Service" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../service/owl/Service.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Service </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../service/owl/Service.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.ui.owl.AccessImpairment
-	c5448825 [label=<<table title="org.universAAL.middleware.ui.owl.AccessImpairment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ui/owl/AccessImpairment.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> AccessImpairment </td></tr>
-		</table></td></tr>
-		</table>>, URL="../ui/owl/AccessImpairment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.owl.Preference
-	c5448826 [label=<<table title="org.universAAL.middleware.ui.owl.Preference" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ui/owl/Preference.html">
+	c5591969 [label=<<table title="org.universAAL.middleware.ui.owl.Preference" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ui/owl/Preference.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Preference </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../ui/owl/Preference.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.ui.owl.AccessImpairment
+	c5591971 [label=<<table title="org.universAAL.middleware.ui.owl.AccessImpairment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ui/owl/AccessImpairment.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> AccessImpairment </td></tr>
+		</table></td></tr>
+		</table>>, URL="../ui/owl/AccessImpairment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.ui.owl.Modality
+	c5591972 [label=<<table title="org.universAAL.middleware.ui.owl.Modality" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ui/owl/Modality.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Modality </td></tr>
+		</table></td></tr>
+		</table>>, URL="../ui/owl/Modality.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.owl.Recommendation
-	c5448827 [label=<<table title="org.universAAL.middleware.ui.owl.Recommendation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ui/owl/Recommendation.html">
+	c5591974 [label=<<table title="org.universAAL.middleware.ui.owl.Recommendation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ui/owl/Recommendation.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Recommendation </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../ui/owl/Recommendation.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.owl.DialogType
-	c5448828 [label=<<table title="org.universAAL.middleware.ui.owl.DialogType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ui/owl/DialogType.html">
+	c5591975 [label=<<table title="org.universAAL.middleware.ui.owl.DialogType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ui/owl/DialogType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DialogType </td></tr>
 		</table></td></tr>
 		</table>>, URL="../ui/owl/DialogType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.ui.owl.Modality
-	c5448829 [label=<<table title="org.universAAL.middleware.ui.owl.Modality" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../ui/owl/Modality.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Modality </td></tr>
-		</table></td></tr>
-		</table>>, URL="../ui/owl/Modality.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.location.indoor.RoomFunction
-	c5448861 [label=<<table title="org.universAAL.ontology.location.indoor.RoomFunction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/location/indoor/RoomFunction.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> RoomFunction </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/location/indoor/RoomFunction.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.location.position.CoordinateSystem
-	c5448866 [label=<<table title="org.universAAL.ontology.location.position.CoordinateSystem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/location/position/CoordinateSystem.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> CoordinateSystem </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/location/position/CoordinateSystem.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.location.address.Address
-	c5448868 [label=<<table title="org.universAAL.ontology.location.address.Address" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/location/address/Address.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Address </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/location/address/Address.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.phThing.PhysicalThing
-	c5448951 [label=<<table title="org.universAAL.ontology.phThing.PhysicalThing" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/phThing/PhysicalThing.html">
+	c5592063 [label=<<table title="org.universAAL.ontology.phThing.PhysicalThing" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/phThing/PhysicalThing.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PhysicalThing </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/phThing/PhysicalThing.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.shape.Shape
-	c5448954 [label=<<table title="org.universAAL.ontology.shape.Shape" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/shape/Shape.html">
+	c5592073 [label=<<table title="org.universAAL.ontology.shape.Shape" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/shape/Shape.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Shape </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/shape/Shape.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.profile.SubProfile
-	c5448975 [label=<<table title="org.universAAL.ontology.profile.SubProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/profile/SubProfile.html">
+	// org.universAAL.ontology.location.position.CoordinateSystem
+	c5592099 [label=<<table title="org.universAAL.ontology.location.position.CoordinateSystem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/location/position/CoordinateSystem.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> SubProfile </td></tr>
+<tr><td align="center" balign="center"> CoordinateSystem </td></tr>
 		</table></td></tr>
-		</table>>, URL="../../ontology/profile/SubProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.profile.Profilable
-	c5448979 [label=<<table title="org.universAAL.ontology.profile.Profilable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/profile/Profilable.html">
+		</table>>, URL="../../ontology/location/position/CoordinateSystem.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.location.indoor.RoomFunction
+	c5592109 [label=<<table title="org.universAAL.ontology.location.indoor.RoomFunction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/location/indoor/RoomFunction.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Profilable </td></tr>
+<tr><td align="center" balign="center"> RoomFunction </td></tr>
 		</table></td></tr>
-		</table>>, URL="../../ontology/profile/Profilable.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.profile.ConnectionDetails
-	c5448980 [label=<<table title="org.universAAL.ontology.profile.ConnectionDetails" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/profile/ConnectionDetails.html">
+		</table>>, URL="../../ontology/location/indoor/RoomFunction.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.location.address.Address
+	c5592115 [label=<<table title="org.universAAL.ontology.location.address.Address" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/location/address/Address.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ConnectionDetails </td></tr>
+<tr><td align="center" balign="center"> Address </td></tr>
 		</table></td></tr>
-		</table>>, URL="../../ontology/profile/ConnectionDetails.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.profile.AppService
-	c5448981 [label=<<table title="org.universAAL.ontology.profile.AppService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/profile/AppService.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> AppService </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/profile/AppService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.profile.Profile
-	c5448984 [label=<<table title="org.universAAL.ontology.profile.Profile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/profile/Profile.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Profile </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/profile/Profile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.profile.OntologyEntry
-	c5448987 [label=<<table title="org.universAAL.ontology.profile.OntologyEntry" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/profile/OntologyEntry.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> OntologyEntry </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/profile/OntologyEntry.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.profile.Gender
-	c5448989 [label=<<table title="org.universAAL.ontology.profile.Gender" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/profile/Gender.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Gender </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/profile/Gender.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.profile.Property
-	c5448991 [label=<<table title="org.universAAL.ontology.profile.Property" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/profile/Property.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Property </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/profile/Property.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.profile.Requirement
-	c5448993 [label=<<table title="org.universAAL.ontology.profile.Requirement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/profile/Requirement.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Requirement </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/profile/Requirement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="../../ontology/location/address/Address.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.vcard.Tel
-	c5449004 [label=<<table title="org.universAAL.ontology.vcard.Tel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/vcard/Tel.html">
+	c5592122 [label=<<table title="org.universAAL.ontology.vcard.Tel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/vcard/Tel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Tel </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/vcard/Tel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.vcard.Organization
-	c5449007 [label=<<table title="org.universAAL.ontology.vcard.Organization" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/vcard/Organization.html">
+	c5592127 [label=<<table title="org.universAAL.ontology.vcard.Organization" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/vcard/Organization.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Organization </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/vcard/Organization.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.vcard.Name
-	c5449008 [label=<<table title="org.universAAL.ontology.vcard.Name" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/vcard/Name.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Name </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/vcard/Name.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.vcard.VCard
-	c5449009 [label=<<table title="org.universAAL.ontology.vcard.VCard" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/vcard/VCard.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> VCard </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/vcard/VCard.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.vcard.Email
-	c5449010 [label=<<table title="org.universAAL.ontology.vcard.Email" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/vcard/Email.html">
+	c5592128 [label=<<table title="org.universAAL.ontology.vcard.Email" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/vcard/Email.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Email </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/vcard/Email.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.vcard.VCard
+	c5592131 [label=<<table title="org.universAAL.ontology.vcard.VCard" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/vcard/VCard.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> VCard </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/vcard/VCard.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.vcard.Name
+	c5592133 [label=<<table title="org.universAAL.ontology.vcard.Name" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/vcard/Name.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Name </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/vcard/Name.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.profile.Profile
+	c5592137 [label=<<table title="org.universAAL.ontology.profile.Profile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/profile/Profile.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Profile </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/profile/Profile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.profile.ConnectionDetails
+	c5592139 [label=<<table title="org.universAAL.ontology.profile.ConnectionDetails" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/profile/ConnectionDetails.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ConnectionDetails </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/profile/ConnectionDetails.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.profile.Property
+	c5592140 [label=<<table title="org.universAAL.ontology.profile.Property" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/profile/Property.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Property </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/profile/Property.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.profile.AppService
+	c5592141 [label=<<table title="org.universAAL.ontology.profile.AppService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/profile/AppService.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> AppService </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/profile/AppService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.profile.Requirement
+	c5592143 [label=<<table title="org.universAAL.ontology.profile.Requirement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/profile/Requirement.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Requirement </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/profile/Requirement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.profile.OntologyEntry
+	c5592146 [label=<<table title="org.universAAL.ontology.profile.OntologyEntry" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/profile/OntologyEntry.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> OntologyEntry </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/profile/OntologyEntry.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.profile.Profilable
+	c5592148 [label=<<table title="org.universAAL.ontology.profile.Profilable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/profile/Profilable.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Profilable </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/profile/Profilable.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.profile.SubProfile
+	c5592149 [label=<<table title="org.universAAL.ontology.profile.SubProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/profile/SubProfile.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> SubProfile </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/profile/SubProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.profile.Gender
+	c5592150 [label=<<table title="org.universAAL.ontology.profile.Gender" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/profile/Gender.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Gender </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/profile/Gender.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.unit.Unit
-	c5449017 [label=<<table title="org.universAAL.ontology.unit.Unit" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/unit/Unit.html">
+	c5592162 [label=<<table title="org.universAAL.ontology.unit.Unit" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/unit/Unit.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Unit </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/unit/Unit.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.unit.MeasurableDimension
-	c5449019 [label=<<table title="org.universAAL.ontology.unit.MeasurableDimension" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/unit/MeasurableDimension.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> MeasurableDimension </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/unit/MeasurableDimension.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.unit.UnitSystem
-	c5449020 [label=<<table title="org.universAAL.ontology.unit.UnitSystem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/unit/UnitSystem.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> UnitSystem </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/unit/UnitSystem.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.unit.Prefix
-	c5449023 [label=<<table title="org.universAAL.ontology.unit.Prefix" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/unit/Prefix.html">
+	c5592165 [label=<<table title="org.universAAL.ontology.unit.Prefix" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/unit/Prefix.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Prefix </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/unit/Prefix.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.unit.UnitSystem
+	c5592167 [label=<<table title="org.universAAL.ontology.unit.UnitSystem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/unit/UnitSystem.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> UnitSystem </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/unit/UnitSystem.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.unit.MeasurableDimension
+	c5592169 [label=<<table title="org.universAAL.ontology.unit.MeasurableDimension" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/unit/MeasurableDimension.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> MeasurableDimension </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/unit/MeasurableDimension.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.unit.color.ColorModel
-	c5449026 [label=<<table title="org.universAAL.ontology.unit.color.ColorModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/unit/color/ColorModel.html">
+	c5592178 [label=<<table title="org.universAAL.ontology.unit.color.ColorModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/unit/color/ColorModel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ColorModel </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/unit/color/ColorModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.measurement.Measurement
-	c5449037 [label=<<table title="org.universAAL.ontology.measurement.Measurement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/measurement/Measurement.html">
+	c5592183 [label=<<table title="org.universAAL.ontology.measurement.Measurement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/measurement/Measurement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Measurement </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/measurement/Measurement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.ValueType
-	c5449046 [label=<<table title="org.universAAL.ontology.device.ValueType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/device/ValueType.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ValueType </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/device/ValueType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.StatusValue
-	c5449060 [label=<<table title="org.universAAL.ontology.device.StatusValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/device/StatusValue.html">
+	c5592195 [label=<<table title="org.universAAL.ontology.device.StatusValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/device/StatusValue.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> StatusValue </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/device/StatusValue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.MotionValue
-	c5449063 [label=<<table title="org.universAAL.ontology.device.MotionValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/device/MotionValue.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> MotionValue </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/device/MotionValue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.DosageValue
-	c5449083 [label=<<table title="org.universAAL.ontology.device.DosageValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/device/DosageValue.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DosageValue </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/device/DosageValue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.TemperatureLevelValue
-	c5449087 [label=<<table title="org.universAAL.ontology.device.TemperatureLevelValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/device/TemperatureLevelValue.html">
+	c5592208 [label=<<table title="org.universAAL.ontology.device.TemperatureLevelValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/device/TemperatureLevelValue.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TemperatureLevelValue </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/device/TemperatureLevelValue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.ExitValue
-	c5449099 [label=<<table title="org.universAAL.ontology.device.ExitValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/device/ExitValue.html">
+	c5592211 [label=<<table title="org.universAAL.ontology.device.ExitValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/device/ExitValue.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ExitValue </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/device/ExitValue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.MotionValue
+	c5592240 [label=<<table title="org.universAAL.ontology.device.MotionValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/device/MotionValue.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> MotionValue </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/device/MotionValue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.DosageValue
+	c5592245 [label=<<table title="org.universAAL.ontology.device.DosageValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/device/DosageValue.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> DosageValue </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/device/DosageValue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.ValueType
+	c5592246 [label=<<table title="org.universAAL.ontology.device.ValueType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/device/ValueType.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ValueType </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/device/ValueType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.activityhub.ActivityHubSensorEvent
-	c5449166 [label=<<table title="org.universAAL.ontology.activityhub.ActivityHubSensorEvent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/activityhub/ActivityHubSensorEvent.html">
+	c5592370 [label=<<table title="org.universAAL.ontology.activityhub.ActivityHubSensorEvent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/activityhub/ActivityHubSensorEvent.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ActivityHubSensorEvent </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/activityhub/ActivityHubSensorEvent.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.orchestration.ScriptEngine
-	c5449190 [label=<<table title="org.universAAL.ontology.orchestration.ScriptEngine" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/orchestration/ScriptEngine.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ScriptEngine </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/orchestration/ScriptEngine.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.orchestration.Script
-	c5449191 [label=<<table title="org.universAAL.ontology.orchestration.Script" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/orchestration/Script.html">
+	c5592384 [label=<<table title="org.universAAL.ontology.orchestration.Script" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/orchestration/Script.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Script </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/orchestration/Script.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.orchestration.ScriptEngine
+	c5592386 [label=<<table title="org.universAAL.ontology.orchestration.ScriptEngine" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/orchestration/ScriptEngine.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ScriptEngine </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/orchestration/ScriptEngine.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.orchestration.LanguageClassifier
-	c5449192 [label=<<table title="org.universAAL.ontology.orchestration.LanguageClassifier" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/orchestration/LanguageClassifier.html">
+	c5592388 [label=<<table title="org.universAAL.ontology.orchestration.LanguageClassifier" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/orchestration/LanguageClassifier.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LanguageClassifier </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/orchestration/LanguageClassifier.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.av.streaming.Stream
-	c5449201 [label=<<table title="org.universAAL.ontology.av.streaming.Stream" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/av/streaming/Stream.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Stream </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/av/streaming/Stream.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.av.streaming.Format
-	c5449203 [label=<<table title="org.universAAL.ontology.av.streaming.Format" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/av/streaming/Format.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Format </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/av/streaming/Format.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.av.streaming.EndPoint
-	c5449204 [label=<<table title="org.universAAL.ontology.av.streaming.EndPoint" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/av/streaming/EndPoint.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> EndPoint </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/av/streaming/EndPoint.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.av.streaming.AudioFile
-	c5449210 [label=<<table title="org.universAAL.ontology.av.streaming.AudioFile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/av/streaming/AudioFile.html">
+	c5592394 [label=<<table title="org.universAAL.ontology.av.streaming.AudioFile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/av/streaming/AudioFile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AudioFile </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/av/streaming/AudioFile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.av.streaming.Format
+	c5592395 [label=<<table title="org.universAAL.ontology.av.streaming.Format" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/av/streaming/Format.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Format </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/av/streaming/Format.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.av.streaming.Stream
+	c5592397 [label=<<table title="org.universAAL.ontology.av.streaming.Stream" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/av/streaming/Stream.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Stream </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/av/streaming/Stream.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.av.streaming.Compression
-	c5449211 [label=<<table title="org.universAAL.ontology.av.streaming.Compression" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/av/streaming/Compression.html">
+	c5592398 [label=<<table title="org.universAAL.ontology.av.streaming.Compression" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/av/streaming/Compression.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Compression </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/av/streaming/Compression.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.av.streaming.EndPoint
+	c5592400 [label=<<table title="org.universAAL.ontology.av.streaming.EndPoint" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/av/streaming/EndPoint.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> EndPoint </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/av/streaming/EndPoint.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.che.ContextEvent
-	c5449214 [label=<<table title="org.universAAL.ontology.che.ContextEvent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/che/ContextEvent.html">
+	c5592408 [label=<<table title="org.universAAL.ontology.che.ContextEvent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/che/ContextEvent.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ContextEvent </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/che/ContextEvent.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.furniture.FurnitureType
-	c5449220 [label=<<table title="org.universAAL.ontology.furniture.FurnitureType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/furniture/FurnitureType.html">
+	c5592415 [label=<<table title="org.universAAL.ontology.furniture.FurnitureType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/furniture/FurnitureType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> FurnitureType </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/furniture/FurnitureType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.gesture.pointing.GestureRecognition
-	c5449224 [label=<<table title="org.universAAL.ontology.gesture.pointing.GestureRecognition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/gesture/pointing/GestureRecognition.html">
+	c5592419 [label=<<table title="org.universAAL.ontology.gesture.pointing.GestureRecognition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/gesture/pointing/GestureRecognition.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> GestureRecognition </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/gesture/pointing/GestureRecognition.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.hvac.Mode
-	c5449231 [label=<<table title="org.universAAL.ontology.hvac.Mode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/hvac/Mode.html">
+	c5592429 [label=<<table title="org.universAAL.ontology.hvac.Mode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/hvac/Mode.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Mode </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/hvac/Mode.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.language.Language
-	c5449245 [label=<<table title="org.universAAL.ontology.language.Language" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/language/Language.html">
+	c5592440 [label=<<table title="org.universAAL.ontology.language.Language" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/language/Language.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Language </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/language/Language.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.lighting.LightType
-	c5449260 [label=<<table title="org.universAAL.ontology.lighting.LightType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/lighting/LightType.html">
+	c5592447 [label=<<table title="org.universAAL.ontology.lighting.LightType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/lighting/LightType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> LightType </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/lighting/LightType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ui.preferences.PendingDialogsBuilderType
-	c5449264 [label=<<table title="org.universAAL.ontology.ui.preferences.PendingDialogsBuilderType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/ui/preferences/PendingDialogsBuilderType.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> PendingDialogsBuilderType </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/ui/preferences/PendingDialogsBuilderType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ui.preferences.VoiceGender
-	c5449267 [label=<<table title="org.universAAL.ontology.ui.preferences.VoiceGender" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/ui/preferences/VoiceGender.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> VoiceGender </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/ui/preferences/VoiceGender.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ui.preferences.Intensity
-	c5449268 [label=<<table title="org.universAAL.ontology.ui.preferences.Intensity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/ui/preferences/Intensity.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Intensity </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/ui/preferences/Intensity.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ui.preferences.ContentDensityType
-	c5449269 [label=<<table title="org.universAAL.ontology.ui.preferences.ContentDensityType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/ui/preferences/ContentDensityType.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ContentDensityType </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/ui/preferences/ContentDensityType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ui.preferences.AlertType
-	c5449271 [label=<<table title="org.universAAL.ontology.ui.preferences.AlertType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/ui/preferences/AlertType.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> AlertType </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/ui/preferences/AlertType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ui.preferences.MainMenuConfigurationType
-	c5449272 [label=<<table title="org.universAAL.ontology.ui.preferences.MainMenuConfigurationType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/ui/preferences/MainMenuConfigurationType.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> MainMenuConfigurationType </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/ui/preferences/MainMenuConfigurationType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ui.preferences.GenericFontFamily
-	c5449274 [label=<<table title="org.universAAL.ontology.ui.preferences.GenericFontFamily" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/ui/preferences/GenericFontFamily.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> GenericFontFamily </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/ui/preferences/GenericFontFamily.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ui.preferences.Size
-	c5449276 [label=<<table title="org.universAAL.ontology.ui.preferences.Size" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/ui/preferences/Size.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Size </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/ui/preferences/Size.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ui.preferences.Status
-	c5449277 [label=<<table title="org.universAAL.ontology.ui.preferences.Status" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/ui/preferences/Status.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Status </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/ui/preferences/Status.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ui.preferences.WindowLayoutType
-	c5449278 [label=<<table title="org.universAAL.ontology.ui.preferences.WindowLayoutType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/ui/preferences/WindowLayoutType.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> WindowLayoutType </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/ui/preferences/WindowLayoutType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.ui.preferences.ColorType
-	c5449281 [label=<<table title="org.universAAL.ontology.ui.preferences.ColorType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/ui/preferences/ColorType.html">
+	c5592459 [label=<<table title="org.universAAL.ontology.ui.preferences.ColorType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/ui/preferences/ColorType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ColorType </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/ui/preferences/ColorType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.ui.preferences.PendingMessageBuilderType
-	c5449283 [label=<<table title="org.universAAL.ontology.ui.preferences.PendingMessageBuilderType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/ui/preferences/PendingMessageBuilderType.html">
+	c5592461 [label=<<table title="org.universAAL.ontology.ui.preferences.PendingMessageBuilderType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/ui/preferences/PendingMessageBuilderType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PendingMessageBuilderType </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/ui/preferences/PendingMessageBuilderType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.ui.preferences.Status
+	c5592463 [label=<<table title="org.universAAL.ontology.ui.preferences.Status" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/ui/preferences/Status.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Status </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/ui/preferences/Status.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.ui.preferences.VoiceGender
+	c5592464 [label=<<table title="org.universAAL.ontology.ui.preferences.VoiceGender" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/ui/preferences/VoiceGender.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> VoiceGender </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/ui/preferences/VoiceGender.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.ui.preferences.AlertType
+	c5592465 [label=<<table title="org.universAAL.ontology.ui.preferences.AlertType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/ui/preferences/AlertType.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> AlertType </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/ui/preferences/AlertType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.ui.preferences.MainMenuConfigurationType
+	c5592468 [label=<<table title="org.universAAL.ontology.ui.preferences.MainMenuConfigurationType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/ui/preferences/MainMenuConfigurationType.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> MainMenuConfigurationType </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/ui/preferences/MainMenuConfigurationType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.ui.preferences.ContentDensityType
+	c5592469 [label=<<table title="org.universAAL.ontology.ui.preferences.ContentDensityType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/ui/preferences/ContentDensityType.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ContentDensityType </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/ui/preferences/ContentDensityType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.ui.preferences.WindowLayoutType
+	c5592470 [label=<<table title="org.universAAL.ontology.ui.preferences.WindowLayoutType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/ui/preferences/WindowLayoutType.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> WindowLayoutType </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/ui/preferences/WindowLayoutType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.ui.preferences.Size
+	c5592472 [label=<<table title="org.universAAL.ontology.ui.preferences.Size" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/ui/preferences/Size.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Size </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/ui/preferences/Size.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.ui.preferences.Intensity
+	c5592475 [label=<<table title="org.universAAL.ontology.ui.preferences.Intensity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/ui/preferences/Intensity.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Intensity </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/ui/preferences/Intensity.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.ui.preferences.GenericFontFamily
+	c5592476 [label=<<table title="org.universAAL.ontology.ui.preferences.GenericFontFamily" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/ui/preferences/GenericFontFamily.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> GenericFontFamily </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/ui/preferences/GenericFontFamily.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.ui.preferences.PendingDialogsBuilderType
+	c5592477 [label=<<table title="org.universAAL.ontology.ui.preferences.PendingDialogsBuilderType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/ui/preferences/PendingDialogsBuilderType.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> PendingDialogsBuilderType </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/ui/preferences/PendingDialogsBuilderType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.questionnaire.Answer
+	c5592481 [label=<<table title="org.universAAL.ontology.questionnaire.Answer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/questionnaire/Answer.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Answer </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/questionnaire/Answer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.questionnaire.Questionnaire
-	c5449285 [label=<<table title="org.universAAL.ontology.questionnaire.Questionnaire" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/questionnaire/Questionnaire.html">
+	c5592483 [label=<<table title="org.universAAL.ontology.questionnaire.Questionnaire" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/questionnaire/Questionnaire.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Questionnaire </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/questionnaire/Questionnaire.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.questionnaire.AnsweredQuestionnaire
-	c5449289 [label=<<table title="org.universAAL.ontology.questionnaire.AnsweredQuestionnaire" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/questionnaire/AnsweredQuestionnaire.html">
+	c5592485 [label=<<table title="org.universAAL.ontology.questionnaire.AnsweredQuestionnaire" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/questionnaire/AnsweredQuestionnaire.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AnsweredQuestionnaire </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/questionnaire/AnsweredQuestionnaire.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.questionnaire.Question
-	c5449291 [label=<<table title="org.universAAL.ontology.questionnaire.Question" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/questionnaire/Question.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Question </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/questionnaire/Question.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.questionnaire.Answer
-	c5449292 [label=<<table title="org.universAAL.ontology.questionnaire.Answer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/questionnaire/Answer.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Answer </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/questionnaire/Answer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.questionnaire.ChoiceLabel
-	c5449294 [label=<<table title="org.universAAL.ontology.questionnaire.ChoiceLabel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/questionnaire/ChoiceLabel.html">
+	c5592486 [label=<<table title="org.universAAL.ontology.questionnaire.ChoiceLabel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/questionnaire/ChoiceLabel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ChoiceLabel </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/questionnaire/ChoiceLabel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.questionnaire.Question
+	c5592488 [label=<<table title="org.universAAL.ontology.questionnaire.Question" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/questionnaire/Question.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Question </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/questionnaire/Question.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.X73.MDSAttribute
+	c5592491 [label=<<table title="org.universAAL.ontology.X73.MDSAttribute" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/X73/MDSAttribute.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> MDSAttribute </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/X73/MDSAttribute.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.X73.AbsoluteTimeStamp
-	c5449301 [label=<<table title="org.universAAL.ontology.X73.AbsoluteTimeStamp" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/X73/AbsoluteTimeStamp.html">
+	c5592495 [label=<<table title="org.universAAL.ontology.X73.AbsoluteTimeStamp" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/X73/AbsoluteTimeStamp.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AbsoluteTimeStamp </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/X73/AbsoluteTimeStamp.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.X73.SystemModel
-	c5449304 [label=<<table title="org.universAAL.ontology.X73.SystemModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/X73/SystemModel.html">
+	c5592498 [label=<<table title="org.universAAL.ontology.X73.SystemModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/X73/SystemModel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SystemModel </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/X73/SystemModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.X73.MDSAttribute
-	c5449306 [label=<<table title="org.universAAL.ontology.X73.MDSAttribute" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/X73/MDSAttribute.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> MDSAttribute </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/X73/MDSAttribute.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.X73.compoundBasicNuValue
-	c5449307 [label=<<table title="org.universAAL.ontology.X73.compoundBasicNuValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/X73/compoundBasicNuValue.html">
+	c5592503 [label=<<table title="org.universAAL.ontology.X73.compoundBasicNuValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/X73/compoundBasicNuValue.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> compoundBasicNuValue </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/X73/compoundBasicNuValue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.profile.ui.mainmenu.MenuEntry
-	c5449309 [label=<<table title="org.universAAL.ontology.profile.ui.mainmenu.MenuEntry" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/profile/ui/mainmenu/MenuEntry.html">
+	c5592505 [label=<<table title="org.universAAL.ontology.profile.ui.mainmenu.MenuEntry" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/profile/ui/mainmenu/MenuEntry.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MenuEntry </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/profile/ui/mainmenu/MenuEntry.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.reasoner.Persistent
-	c5449313 [label=<<table title="org.universAAL.ontology.reasoner.Persistent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/reasoner/Persistent.html">
+	c5592512 [label=<<table title="org.universAAL.ontology.reasoner.Persistent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/reasoner/Persistent.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Persistent </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/reasoner/Persistent.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.profile.contact.ContactListSubProfile
-	c5449321 [label=<<table title="org.universAAL.ontology.profile.contact.ContactListSubProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/profile/contact/ContactListSubProfile.html">
+	c5592514 [label=<<table title="org.universAAL.ontology.profile.contact.ContactListSubProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/profile/contact/ContactListSubProfile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ContactListSubProfile </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/profile/contact/ContactListSubProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.dependability.Symptom
-	c5449323 [label=<<table title="org.universAAL.ontology.dependability.Symptom" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/dependability/Symptom.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Symptom </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/dependability/Symptom.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.dependability.FCR
-	c5449330 [label=<<table title="org.universAAL.ontology.dependability.FCR" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/dependability/FCR.html">
+	c5592519 [label=<<table title="org.universAAL.ontology.dependability.FCR" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/dependability/FCR.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> FCR </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/dependability/FCR.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.dependability.ErrorDetector
-	c5449333 [label=<<table title="org.universAAL.ontology.dependability.ErrorDetector" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/dependability/ErrorDetector.html">
+	// org.universAAL.ontology.dependability.Symptom
+	c5592522 [label=<<table title="org.universAAL.ontology.dependability.Symptom" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/dependability/Symptom.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ErrorDetector </td></tr>
+<tr><td align="center" balign="center"> Symptom </td></tr>
 		</table></td></tr>
-		</table>>, URL="../../ontology/dependability/ErrorDetector.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="../../ontology/dependability/Symptom.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.dependability.RecoveryAction
-	c5449344 [label=<<table title="org.universAAL.ontology.dependability.RecoveryAction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/dependability/RecoveryAction.html">
+	c5592523 [label=<<table title="org.universAAL.ontology.dependability.RecoveryAction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/dependability/RecoveryAction.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RecoveryAction </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/dependability/RecoveryAction.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.dependability.Fault
-	c5449345 [label=<<table title="org.universAAL.ontology.dependability.Fault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/dependability/Fault.html">
+	c5592544 [label=<<table title="org.universAAL.ontology.dependability.Fault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/dependability/Fault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Fault </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/dependability/Fault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.handgestures.HandGestureType
-	c5449352 [label=<<table title="org.universAAL.ontology.handgestures.HandGestureType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/handgestures/HandGestureType.html">
+	// org.universAAL.ontology.dependability.ErrorDetector
+	c5592546 [label=<<table title="org.universAAL.ontology.dependability.ErrorDetector" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/dependability/ErrorDetector.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> HandGestureType </td></tr>
+<tr><td align="center" balign="center"> ErrorDetector </td></tr>
 		</table></td></tr>
-		</table>>, URL="../../ontology/handgestures/HandGestureType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="../../ontology/dependability/ErrorDetector.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.handgestures.HandGestures
-	c5449355 [label=<<table title="org.universAAL.ontology.handgestures.HandGestures" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/handgestures/HandGestures.html">
+	c5592547 [label=<<table title="org.universAAL.ontology.handgestures.HandGestures" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/handgestures/HandGestures.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HandGestures </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/handgestures/HandGestures.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.handgestures.HandGestureType
+	c5592548 [label=<<table title="org.universAAL.ontology.handgestures.HandGestureType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/handgestures/HandGestureType.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> HandGestureType </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/handgestures/HandGestureType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.healthmeasurement.owl.HealthMeasurement
-	c5449362 [label=<<table title="org.universAAL.ontology.healthmeasurement.owl.HealthMeasurement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/healthmeasurement/owl/HealthMeasurement.html">
+	c5592554 [label=<<table title="org.universAAL.ontology.healthmeasurement.owl.HealthMeasurement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/healthmeasurement/owl/HealthMeasurement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HealthMeasurement </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/healthmeasurement/owl/HealthMeasurement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.continua.ContinuaHealthDevice
-	c5449372 [label=<<table title="org.universAAL.ontology.continua.ContinuaHealthDevice" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/continua/ContinuaHealthDevice.html">
+	c5592567 [label=<<table title="org.universAAL.ontology.continua.ContinuaHealthDevice" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/continua/ContinuaHealthDevice.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ContinuaHealthDevice </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/continua/ContinuaHealthDevice.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.disease.owl.Diagnostic
-	c5449375 [label=<<table title="org.universAAL.ontology.disease.owl.Diagnostic" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/disease/owl/Diagnostic.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Diagnostic </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/disease/owl/Diagnostic.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.disease.owl.Disease
-	c5449377 [label=<<table title="org.universAAL.ontology.disease.owl.Disease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/disease/owl/Disease.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Disease </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/disease/owl/Disease.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.disease.owl.Epidemiology
-	c5449378 [label=<<table title="org.universAAL.ontology.disease.owl.Epidemiology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/disease/owl/Epidemiology.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Epidemiology </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/disease/owl/Epidemiology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.disease.owl.Patogeny
-	c5449379 [label=<<table title="org.universAAL.ontology.disease.owl.Patogeny" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/disease/owl/Patogeny.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Patogeny </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/disease/owl/Patogeny.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.disease.owl.Pronostic
-	c5449380 [label=<<table title="org.universAAL.ontology.disease.owl.Pronostic" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/disease/owl/Pronostic.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Pronostic </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/disease/owl/Pronostic.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.disease.owl.DiseaseTimeEvolvingStatus
-	c5449381 [label=<<table title="org.universAAL.ontology.disease.owl.DiseaseTimeEvolvingStatus" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/disease/owl/DiseaseTimeEvolvingStatus.html">
+	c5592582 [label=<<table title="org.universAAL.ontology.disease.owl.DiseaseTimeEvolvingStatus" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/disease/owl/DiseaseTimeEvolvingStatus.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DiseaseTimeEvolvingStatus </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/disease/owl/DiseaseTimeEvolvingStatus.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.disease.owl.Sympthom
-	c5449382 [label=<<table title="org.universAAL.ontology.disease.owl.Sympthom" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/disease/owl/Sympthom.html">
+	c5592583 [label=<<table title="org.universAAL.ontology.disease.owl.Sympthom" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/disease/owl/Sympthom.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Sympthom </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/disease/owl/Sympthom.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.disease.owl.Etiology
-	c5449383 [label=<<table title="org.universAAL.ontology.disease.owl.Etiology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/disease/owl/Etiology.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Etiology </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/disease/owl/Etiology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.disease.owl.DiseaseSeverityStatus
-	c5449384 [label=<<table title="org.universAAL.ontology.disease.owl.DiseaseSeverityStatus" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/disease/owl/DiseaseSeverityStatus.html">
+	c5592584 [label=<<table title="org.universAAL.ontology.disease.owl.DiseaseSeverityStatus" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/disease/owl/DiseaseSeverityStatus.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DiseaseSeverityStatus </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/disease/owl/DiseaseSeverityStatus.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.health.owl.PlannedSession
-	c5449399 [label=<<table title="org.universAAL.ontology.health.owl.PlannedSession" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/health/owl/PlannedSession.html">
+	// org.universAAL.ontology.disease.owl.Etiology
+	c5592585 [label=<<table title="org.universAAL.ontology.disease.owl.Etiology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/disease/owl/Etiology.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> PlannedSession </td></tr>
+<tr><td align="center" balign="center"> Etiology </td></tr>
 		</table></td></tr>
-		</table>>, URL="../../ontology/health/owl/PlannedSession.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.health.owl.TreatmentPlanning
-	c5449404 [label=<<table title="org.universAAL.ontology.health.owl.TreatmentPlanning" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/health/owl/TreatmentPlanning.html">
+		</table>>, URL="../../ontology/disease/owl/Etiology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.disease.owl.Pronostic
+	c5592586 [label=<<table title="org.universAAL.ontology.disease.owl.Pronostic" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/disease/owl/Pronostic.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> TreatmentPlanning </td></tr>
+<tr><td align="center" balign="center"> Pronostic </td></tr>
 		</table></td></tr>
-		</table>>, URL="../../ontology/health/owl/TreatmentPlanning.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.health.owl.Treatment
-	c5449405 [label=<<table title="org.universAAL.ontology.health.owl.Treatment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/health/owl/Treatment.html">
+		</table>>, URL="../../ontology/disease/owl/Pronostic.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.disease.owl.Epidemiology
+	c5592587 [label=<<table title="org.universAAL.ontology.disease.owl.Epidemiology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/disease/owl/Epidemiology.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Treatment </font></td></tr>
+<tr><td align="center" balign="center"> Epidemiology </td></tr>
 		</table></td></tr>
-		</table>>, URL="../../ontology/health/owl/Treatment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="../../ontology/disease/owl/Epidemiology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.disease.owl.Diagnostic
+	c5592588 [label=<<table title="org.universAAL.ontology.disease.owl.Diagnostic" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/disease/owl/Diagnostic.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Diagnostic </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/disease/owl/Diagnostic.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.disease.owl.Patogeny
+	c5592589 [label=<<table title="org.universAAL.ontology.disease.owl.Patogeny" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/disease/owl/Patogeny.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Patogeny </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/disease/owl/Patogeny.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.disease.owl.Disease
+	c5592590 [label=<<table title="org.universAAL.ontology.disease.owl.Disease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/disease/owl/Disease.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Disease </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/disease/owl/Disease.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.health.owl.MeasurementRequirements
-	c5449406 [label=<<table title="org.universAAL.ontology.health.owl.MeasurementRequirements" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/health/owl/MeasurementRequirements.html">
+	c5592598 [label=<<table title="org.universAAL.ontology.health.owl.MeasurementRequirements" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/health/owl/MeasurementRequirements.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MeasurementRequirements </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/health/owl/MeasurementRequirements.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.health.owl.MotivationalStatusType
-	c5449408 [label=<<table title="org.universAAL.ontology.health.owl.MotivationalStatusType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/health/owl/MotivationalStatusType.html">
+	c5592601 [label=<<table title="org.universAAL.ontology.health.owl.MotivationalStatusType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/health/owl/MotivationalStatusType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MotivationalStatusType </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/health/owl/MotivationalStatusType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.health.owl.PerformedSession
-	c5449412 [label=<<table title="org.universAAL.ontology.health.owl.PerformedSession" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/health/owl/PerformedSession.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> PerformedSession </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/health/owl/PerformedSession.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.health.owl.StatusType
-	c5449419 [label=<<table title="org.universAAL.ontology.health.owl.StatusType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/health/owl/StatusType.html">
+	c5592602 [label=<<table title="org.universAAL.ontology.health.owl.StatusType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/health/owl/StatusType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> StatusType </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/health/owl/StatusType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.health.owl.Treatment
+	c5592604 [label=<<table title="org.universAAL.ontology.health.owl.Treatment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/health/owl/Treatment.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Treatment </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/health/owl/Treatment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.health.owl.PlannedSession
+	c5592612 [label=<<table title="org.universAAL.ontology.health.owl.PlannedSession" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/health/owl/PlannedSession.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> PlannedSession </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/health/owl/PlannedSession.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.health.owl.PerformedSession
+	c5592614 [label=<<table title="org.universAAL.ontology.health.owl.PerformedSession" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/health/owl/PerformedSession.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> PerformedSession </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/health/owl/PerformedSession.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.health.owl.TreatmentPlanning
+	c5592615 [label=<<table title="org.universAAL.ontology.health.owl.TreatmentPlanning" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/health/owl/TreatmentPlanning.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> TreatmentPlanning </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/health/owl/TreatmentPlanning.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.recommendations.SizeUnit
-	c5449431 [label=<<table title="org.universAAL.ontology.recommendations.SizeUnit" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/recommendations/SizeUnit.html">
+	c5592631 [label=<<table title="org.universAAL.ontology.recommendations.SizeUnit" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/recommendations/SizeUnit.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SizeUnit </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/recommendations/SizeUnit.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.drools.Rule
-	c5449444 [label=<<table title="org.universAAL.ontology.drools.Rule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/drools/Rule.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Rule </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/drools/Rule.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.drools.FactProperty
-	c5449446 [label=<<table title="org.universAAL.ontology.drools.FactProperty" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/drools/FactProperty.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> FactProperty </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/drools/FactProperty.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.drools.ConsequenceProperty
-	c5449447 [label=<<table title="org.universAAL.ontology.drools.ConsequenceProperty" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/drools/ConsequenceProperty.html">
+	c5592640 [label=<<table title="org.universAAL.ontology.drools.ConsequenceProperty" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/drools/ConsequenceProperty.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConsequenceProperty </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/drools/ConsequenceProperty.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.drools.Fact
-	c5449449 [label=<<table title="org.universAAL.ontology.drools.Fact" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/drools/Fact.html">
+	// org.universAAL.ontology.drools.Rule
+	c5592641 [label=<<table title="org.universAAL.ontology.drools.Rule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/drools/Rule.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Fact </td></tr>
+<tr><td align="center" balign="center"> Rule </td></tr>
 		</table></td></tr>
-		</table>>, URL="../../ontology/drools/Fact.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="../../ontology/drools/Rule.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.drools.Consequence
-	c5449450 [label=<<table title="org.universAAL.ontology.drools.Consequence" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/drools/Consequence.html">
+	c5592642 [label=<<table title="org.universAAL.ontology.drools.Consequence" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/drools/Consequence.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Consequence </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/drools/Consequence.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.cryptographic.ChainMode
-	c5449452 [label=<<table title="org.universAAL.ontology.cryptographic.ChainMode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/cryptographic/ChainMode.html">
+	// org.universAAL.ontology.drools.FactProperty
+	c5592643 [label=<<table title="org.universAAL.ontology.drools.FactProperty" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/drools/FactProperty.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ChainMode </td></tr>
+<tr><td align="center" balign="center"> FactProperty </td></tr>
 		</table></td></tr>
-		</table>>, URL="../../ontology/cryptographic/ChainMode.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.cryptographic.SignedResource
-	c5449455 [label=<<table title="org.universAAL.ontology.cryptographic.SignedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/cryptographic/SignedResource.html">
+		</table>>, URL="../../ontology/drools/FactProperty.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.drools.Fact
+	c5592644 [label=<<table title="org.universAAL.ontology.drools.Fact" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/drools/Fact.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> SignedResource </td></tr>
+<tr><td align="center" balign="center"> Fact </td></tr>
 		</table></td></tr>
-		</table>>, URL="../../ontology/cryptographic/SignedResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="../../ontology/drools/Fact.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.cryptographic.CryptographicTechnique
-	c5449458 [label=<<table title="org.universAAL.ontology.cryptographic.CryptographicTechnique" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/cryptographic/CryptographicTechnique.html">
+	c5592646 [label=<<table title="org.universAAL.ontology.cryptographic.CryptographicTechnique" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/cryptographic/CryptographicTechnique.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> CryptographicTechnique </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/cryptographic/CryptographicTechnique.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.cryptographic.EncryptionKey
-	c5449461 [label=<<table title="org.universAAL.ontology.cryptographic.EncryptionKey" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/cryptographic/EncryptionKey.html">
+	c5592651 [label=<<table title="org.universAAL.ontology.cryptographic.EncryptionKey" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/cryptographic/EncryptionKey.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> EncryptionKey </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/cryptographic/EncryptionKey.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.cryptographic.EncryptedResource
-	c5449467 [label=<<table title="org.universAAL.ontology.cryptographic.EncryptedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/cryptographic/EncryptedResource.html">
+	c5592652 [label=<<table title="org.universAAL.ontology.cryptographic.EncryptedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/cryptographic/EncryptedResource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> EncryptedResource </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/cryptographic/EncryptedResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.security.Credentials
-	c5449483 [label=<<table title="org.universAAL.ontology.security.Credentials" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/security/Credentials.html">
+	// org.universAAL.ontology.cryptographic.ChainMode
+	c5592655 [label=<<table title="org.universAAL.ontology.cryptographic.ChainMode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/cryptographic/ChainMode.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Credentials </td></tr>
+<tr><td align="center" balign="center"> ChainMode </td></tr>
 		</table></td></tr>
-		</table>>, URL="../../ontology/security/Credentials.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.security.Asset
-	c5449484 [label=<<table title="org.universAAL.ontology.security.Asset" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/security/Asset.html">
+		</table>>, URL="../../ontology/cryptographic/ChainMode.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.cryptographic.SignedResource
+	c5592665 [label=<<table title="org.universAAL.ontology.cryptographic.SignedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/cryptographic/SignedResource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Asset </td></tr>
+<tr><td align="center" balign="center"> SignedResource </td></tr>
 		</table></td></tr>
-		</table>>, URL="../../ontology/security/Asset.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.security.Anonymizable
-	c5449486 [label=<<table title="org.universAAL.ontology.security.Anonymizable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/security/Anonymizable.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Anonymizable </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/security/Anonymizable.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.security.AccessType
-	c5449494 [label=<<table title="org.universAAL.ontology.security.AccessType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/security/AccessType.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> AccessType </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/security/AccessType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="../../ontology/cryptographic/SignedResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.security.AccessRight
-	c5449498 [label=<<table title="org.universAAL.ontology.security.AccessRight" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/security/AccessRight.html">
+	c5592677 [label=<<table title="org.universAAL.ontology.security.AccessRight" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/security/AccessRight.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AccessRight </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/security/AccessRight.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.security.Factor
-	c5449499 [label=<<table title="org.universAAL.ontology.security.Factor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/security/Factor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Factor </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/security/Factor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.security.Session
-	c5449501 [label=<<table title="org.universAAL.ontology.security.Session" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/security/Session.html">
+	c5592690 [label=<<table title="org.universAAL.ontology.security.Session" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/security/Session.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Session </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/security/Session.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.security.Factor
+	c5592691 [label=<<table title="org.universAAL.ontology.security.Factor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/security/Factor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Factor </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/security/Factor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.security.AccessType
+	c5592692 [label=<<table title="org.universAAL.ontology.security.AccessType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/security/AccessType.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> AccessType </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/security/AccessType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.security.Role
-	c5449503 [label=<<table title="org.universAAL.ontology.security.Role" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/security/Role.html">
+	c5592693 [label=<<table title="org.universAAL.ontology.security.Role" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/security/Role.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Role </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/security/Role.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.sysinfo.Descriptor
-	c5449508 [label=<<table title="org.universAAL.ontology.sysinfo.Descriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/sysinfo/Descriptor.html">
+	// org.universAAL.ontology.security.Credentials
+	c5592694 [label=<<table title="org.universAAL.ontology.security.Credentials" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/security/Credentials.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Descriptor </td></tr>
+<tr><td align="center" balign="center"> Credentials </td></tr>
 		</table></td></tr>
-		</table>>, URL="../../ontology/sysinfo/Descriptor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="../../ontology/security/Credentials.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.security.Anonymizable
+	c5592698 [label=<<table title="org.universAAL.ontology.security.Anonymizable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/security/Anonymizable.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Anonymizable </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/security/Anonymizable.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.security.Asset
+	c5592701 [label=<<table title="org.universAAL.ontology.security.Asset" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/security/Asset.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Asset </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/security/Asset.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.sysinfo.SystemInfo
-	c5449510 [label=<<table title="org.universAAL.ontology.sysinfo.SystemInfo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/sysinfo/SystemInfo.html">
+	c5592703 [label=<<table title="org.universAAL.ontology.sysinfo.SystemInfo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/sysinfo/SystemInfo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SystemInfo </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/sysinfo/SystemInfo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.sysinfo.Descriptor
+	c5592706 [label=<<table title="org.universAAL.ontology.sysinfo.Descriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/sysinfo/Descriptor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Descriptor </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/sysinfo/Descriptor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.configuration.core.owl.Entity
-	c5449538 [label=<<table title="org.universAAL.middleware.managers.configuration.core.owl.Entity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../managers/configuration/core/owl/Entity.html">
+	c5592732 [label=<<table title="org.universAAL.middleware.managers.configuration.core.owl.Entity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../managers/configuration/core/owl/Entity.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Entity </td></tr>
 		</table></td></tr>
 		</table>>, URL="../managers/configuration/core/owl/Entity.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.tutorial.MyConcept
-	c5450795 [label=<<table title="org.universAAL.ontology.tutorial.MyConcept" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/tutorial/MyConcept.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> MyConcept </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../ontology/tutorial/MyConcept.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.tutorial.MyEnumeration
-	c5450796 [label=<<table title="org.universAAL.ontology.tutorial.MyEnumeration" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/tutorial/MyEnumeration.html">
+	c5593995 [label=<<table title="org.universAAL.ontology.tutorial.MyEnumeration" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/tutorial/MyEnumeration.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MyEnumeration </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ontology/tutorial/MyEnumeration.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.middleware.owl.ManagedIndividual extends org.universAAL.middleware.rdf.FinalizedResource
-	c5448439:p -> c5448459:p [dir=back,arrowtail=empty];
-	//org.universAAL.middleware.owl.PrivateResource extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5448465:p [dir=back,arrowtail=empty];
+	// org.universAAL.ontology.tutorial.MyConcept
+	c5593997 [label=<<table title="org.universAAL.ontology.tutorial.MyConcept" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ontology/tutorial/MyConcept.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> MyConcept </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../ontology/tutorial/MyConcept.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.owl.ComparableIndividual extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5448491:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5591614:p [dir=back,arrowtail=empty];
+	//org.universAAL.middleware.owl.ManagedIndividual extends org.universAAL.middleware.rdf.FinalizedResource
+	c5591581:p -> c5591632:p [dir=back,arrowtail=empty];
+	//org.universAAL.middleware.owl.PrivateResource extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5591646:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.owl.generic.GenericManagedIndividual extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5448500:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5591657:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.context.owl.ContextProviderType extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5448734:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5591863:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.context.owl.ContextProvider extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5448735:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5591865:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.service.owl.Service extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5448784:p [dir=back,arrowtail=empty];
-	//org.universAAL.middleware.ui.owl.AccessImpairment extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5448825:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5591922:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.ui.owl.Preference extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5448826:p [dir=back,arrowtail=empty];
-	//org.universAAL.middleware.ui.owl.Recommendation extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5448827:p [dir=back,arrowtail=empty];
-	//org.universAAL.middleware.ui.owl.DialogType extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5448828:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5591969:p [dir=back,arrowtail=empty];
+	//org.universAAL.middleware.ui.owl.AccessImpairment extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5591971:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.ui.owl.Modality extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5448829:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.location.indoor.RoomFunction extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5448861:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.location.position.CoordinateSystem extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5448866:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.location.address.Address extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5448868:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5591972:p [dir=back,arrowtail=empty];
+	//org.universAAL.middleware.ui.owl.Recommendation extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5591974:p [dir=back,arrowtail=empty];
+	//org.universAAL.middleware.ui.owl.DialogType extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5591975:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.phThing.PhysicalThing extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5448951:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592063:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.shape.Shape extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5448954:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.profile.SubProfile extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5448975:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.profile.Profilable extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5448979:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.profile.ConnectionDetails extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5448980:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.profile.AppService extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5448981:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.profile.Profile extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5448984:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.profile.OntologyEntry extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5448987:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.profile.Gender extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5448989:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.profile.Property extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5448991:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.profile.Requirement extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5448993:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592073:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.location.position.CoordinateSystem extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592099:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.location.indoor.RoomFunction extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592109:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.location.address.Address extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592115:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.vcard.Tel extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449004:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592122:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.vcard.Organization extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449007:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.vcard.Name extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449008:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.vcard.VCard extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449009:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592127:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.vcard.Email extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449010:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592128:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.vcard.VCard extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592131:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.vcard.Name extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592133:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.profile.Profile extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592137:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.profile.ConnectionDetails extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592139:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.profile.Property extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592140:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.profile.AppService extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592141:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.profile.Requirement extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592143:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.profile.OntologyEntry extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592146:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.profile.Profilable extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592148:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.profile.SubProfile extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592149:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.profile.Gender extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592150:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.unit.Unit extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449017:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.unit.MeasurableDimension extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449019:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.unit.UnitSystem extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449020:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592162:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.unit.Prefix extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449023:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592165:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.unit.UnitSystem extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592167:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.unit.MeasurableDimension extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592169:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.unit.color.ColorModel extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449026:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592178:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.measurement.Measurement extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449037:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592183:p [dir=back,arrowtail=empty];
 	// org.universAAL.ontology.measurement.Measurement NAVASSOC org.universAAL.ontology.unit.Prefix
-	c5449037:p -> c5449023:p [taillabel="", label="hasPrefix", headlabel="[0..1]", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c5592183:p -> c5592165:p [taillabel="", label="hasPrefix", headlabel="[0..1]", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.universAAL.ontology.measurement.Measurement NAVASSOC org.universAAL.ontology.unit.Unit
-	c5449037:p -> c5449017:p [taillabel="", label="hasUnit", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	//org.universAAL.ontology.device.ValueType extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449046:p [dir=back,arrowtail=empty];
+	c5592183:p -> c5592162:p [taillabel="", label="hasUnit", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	//org.universAAL.ontology.device.StatusValue extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449060:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.MotionValue extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449063:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.DosageValue extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449083:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592195:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.device.TemperatureLevelValue extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449087:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592208:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.device.ExitValue extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449099:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592211:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.MotionValue extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592240:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.DosageValue extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592245:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.ValueType extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592246:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.activityhub.ActivityHubSensorEvent extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449166:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.orchestration.ScriptEngine extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449190:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592370:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.orchestration.Script extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449191:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592384:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.orchestration.ScriptEngine extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592386:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.orchestration.LanguageClassifier extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449192:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.av.streaming.Stream extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449201:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.av.streaming.Format extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449203:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.av.streaming.EndPoint extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449204:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592388:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.av.streaming.AudioFile extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449210:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592394:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.av.streaming.Format extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592395:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.av.streaming.Stream extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592397:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.av.streaming.Compression extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449211:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592398:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.av.streaming.EndPoint extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592400:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.che.ContextEvent extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449214:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592408:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.furniture.FurnitureType extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449220:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592415:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.gesture.pointing.GestureRecognition extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449224:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592419:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.hvac.Mode extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449231:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592429:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.language.Language extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449245:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592440:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.lighting.LightType extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449260:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.ui.preferences.PendingDialogsBuilderType extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449264:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.ui.preferences.VoiceGender extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449267:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.ui.preferences.Intensity extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449268:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.ui.preferences.ContentDensityType extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449269:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.ui.preferences.AlertType extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449271:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.ui.preferences.MainMenuConfigurationType extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449272:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.ui.preferences.GenericFontFamily extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449274:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.ui.preferences.Size extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449276:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.ui.preferences.Status extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449277:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.ui.preferences.WindowLayoutType extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449278:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592447:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.ui.preferences.ColorType extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449281:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592459:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.ui.preferences.PendingMessageBuilderType extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449283:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.questionnaire.Questionnaire extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449285:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.questionnaire.AnsweredQuestionnaire extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449289:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.questionnaire.Question extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449291:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592461:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.ui.preferences.Status extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592463:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.ui.preferences.VoiceGender extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592464:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.ui.preferences.AlertType extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592465:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.ui.preferences.MainMenuConfigurationType extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592468:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.ui.preferences.ContentDensityType extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592469:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.ui.preferences.WindowLayoutType extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592470:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.ui.preferences.Size extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592472:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.ui.preferences.Intensity extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592475:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.ui.preferences.GenericFontFamily extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592476:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.ui.preferences.PendingDialogsBuilderType extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592477:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.questionnaire.Answer extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449292:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592481:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.questionnaire.Questionnaire extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592483:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.questionnaire.AnsweredQuestionnaire extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592485:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.questionnaire.ChoiceLabel extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449294:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.X73.AbsoluteTimeStamp extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449301:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.X73.SystemModel extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449304:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592486:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.questionnaire.Question extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592488:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.X73.MDSAttribute extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449306:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592491:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.X73.AbsoluteTimeStamp extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592495:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.X73.SystemModel extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592498:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.X73.compoundBasicNuValue extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449307:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592503:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.profile.ui.mainmenu.MenuEntry extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449309:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592505:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.reasoner.Persistent extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449313:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592512:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.profile.contact.ContactListSubProfile extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449321:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.dependability.Symptom extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449323:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592514:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.dependability.FCR extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449330:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.dependability.ErrorDetector extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449333:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592519:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.dependability.Symptom extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592522:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.dependability.RecoveryAction extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449344:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592523:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.dependability.Fault extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449345:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.handgestures.HandGestureType extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449352:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592544:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.dependability.ErrorDetector extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592546:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.handgestures.HandGestures extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449355:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592547:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.handgestures.HandGestureType extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592548:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.healthmeasurement.owl.HealthMeasurement extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449362:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592554:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.continua.ContinuaHealthDevice extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449372:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.disease.owl.Diagnostic extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449375:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.disease.owl.Disease extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449377:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.disease.owl.Epidemiology extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449378:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.disease.owl.Patogeny extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449379:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.disease.owl.Pronostic extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449380:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592567:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.disease.owl.DiseaseTimeEvolvingStatus extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449381:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592582:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.disease.owl.Sympthom extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449382:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.disease.owl.Etiology extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449383:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592583:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.disease.owl.DiseaseSeverityStatus extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449384:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.health.owl.PlannedSession extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449399:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.health.owl.TreatmentPlanning extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449404:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.health.owl.Treatment extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449405:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592584:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.disease.owl.Etiology extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592585:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.disease.owl.Pronostic extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592586:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.disease.owl.Epidemiology extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592587:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.disease.owl.Diagnostic extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592588:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.disease.owl.Patogeny extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592589:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.disease.owl.Disease extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592590:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.health.owl.MeasurementRequirements extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449406:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592598:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.health.owl.MotivationalStatusType extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449408:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.health.owl.PerformedSession extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449412:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592601:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.health.owl.StatusType extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449419:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592602:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.health.owl.Treatment extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592604:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.health.owl.PlannedSession extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592612:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.health.owl.PerformedSession extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592614:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.health.owl.TreatmentPlanning extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592615:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.recommendations.SizeUnit extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449431:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.drools.Rule extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449444:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.drools.FactProperty extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449446:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592631:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.drools.ConsequenceProperty extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449447:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.drools.Fact extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449449:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592640:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.drools.Rule extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592641:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.drools.Consequence extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449450:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.cryptographic.ChainMode extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449452:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.cryptographic.SignedResource extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449455:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592642:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.drools.FactProperty extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592643:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.drools.Fact extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592644:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.cryptographic.CryptographicTechnique extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449458:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592646:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.cryptographic.EncryptionKey extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449461:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592651:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.cryptographic.EncryptedResource extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449467:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.security.Credentials extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449483:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.security.Asset extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449484:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.security.Anonymizable extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449486:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.security.AccessType extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449494:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592652:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.cryptographic.ChainMode extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592655:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.cryptographic.SignedResource extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592665:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.security.AccessRight extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449498:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.security.Factor extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449499:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592677:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.security.Session extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449501:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592690:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.security.Factor extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592691:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.security.AccessType extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592692:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.security.Role extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449503:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.sysinfo.Descriptor extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449508:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592693:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.security.Credentials extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592694:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.security.Anonymizable extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592698:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.security.Asset extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592701:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.sysinfo.SystemInfo extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449510:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592703:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.sysinfo.Descriptor extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5592706:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.managers.configuration.core.owl.Entity extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5449538:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.tutorial.MyConcept extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5450795:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5592732:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.tutorial.MyEnumeration extends org.universAAL.middleware.owl.ManagedIndividual
-	c5448459:p -> c5450796:p [dir=back,arrowtail=empty];
+	c5591632:p -> c5593995:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.tutorial.MyConcept extends org.universAAL.middleware.owl.ManagedIndividual
+	c5591632:p -> c5593997:p [dir=back,arrowtail=empty];
 }
 

@@ -9,19 +9,19 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.vcard.Tel
-	c6175829 [label=<<table title="org.universAAL.ontology.vcard.Tel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Tel.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Tel </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Tel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.vcard.PCS
-	c6175838 [label=<<table title="org.universAAL.ontology.vcard.PCS" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PCS.html">
+	c6335491 [label=<<table title="org.universAAL.ontology.vcard.PCS" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PCS.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PCS </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PCS.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.vcard.Tel
+	c6335493 [label=<<table title="org.universAAL.ontology.vcard.Tel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Tel.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Tel </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Tel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.vcard.PCS extends org.universAAL.ontology.vcard.Tel
-	c6175829:p -> c6175838:p [dir=back,arrowtail=empty];
+	c6335493:p -> c6335491:p [dir=back,arrowtail=empty];
 }
 

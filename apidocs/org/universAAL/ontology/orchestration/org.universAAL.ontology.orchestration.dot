@@ -9,35 +9,35 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.orchestration.OrchestrationOntology
-	c326744 [label=<<table title="org.universAAL.ontology.orchestration.OrchestrationOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OrchestrationOntology.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> OrchestrationOntology </td></tr>
-		</table></td></tr>
-		</table>>, URL="./OrchestrationOntology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.orchestration.ScriptEngine
-	c326745 [label=<<table title="org.universAAL.ontology.orchestration.ScriptEngine" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ScriptEngine.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ScriptEngine </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ScriptEngine.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.orchestration.Script
-	c326746 [label=<<table title="org.universAAL.ontology.orchestration.Script" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Script.html">
+	c365213 [label=<<table title="org.universAAL.ontology.orchestration.Script" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Script.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Script </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Script.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.orchestration.LanguageClassifier
-	c326747 [label=<<table title="org.universAAL.ontology.orchestration.LanguageClassifier" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LanguageClassifier.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> LanguageClassifier </td></tr>
-		</table></td></tr>
-		</table>>, URL="./LanguageClassifier.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.orchestration.Orchestrator
-	c326748 [label=<<table title="org.universAAL.ontology.orchestration.Orchestrator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Orchestrator.html">
+	c365214 [label=<<table title="org.universAAL.ontology.orchestration.Orchestrator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Orchestrator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Orchestrator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Orchestrator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.orchestration.ScriptEngine
+	c365215 [label=<<table title="org.universAAL.ontology.orchestration.ScriptEngine" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ScriptEngine.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ScriptEngine </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ScriptEngine.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.orchestration.OrchestrationOntology
+	c365216 [label=<<table title="org.universAAL.ontology.orchestration.OrchestrationOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OrchestrationOntology.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> OrchestrationOntology </td></tr>
+		</table></td></tr>
+		</table>>, URL="./OrchestrationOntology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.orchestration.LanguageClassifier
+	c365217 [label=<<table title="org.universAAL.ontology.orchestration.LanguageClassifier" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LanguageClassifier.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> LanguageClassifier </td></tr>
+		</table></td></tr>
+		</table>>, URL="./LanguageClassifier.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

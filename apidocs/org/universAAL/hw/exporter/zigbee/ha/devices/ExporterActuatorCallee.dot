@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.service.ServiceCallee
-	c3868201 [label=<<table title="org.universAAL.middleware.service.ServiceCallee" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../../middleware/service/ServiceCallee.html">
+	c3978820 [label=<<table title="org.universAAL.middleware.service.ServiceCallee" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../../middleware/service/ServiceCallee.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ServiceCallee </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../../../middleware/service/ServiceCallee.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.hw.exporter.zigbee.ha.devices.ExporterActuatorCallee
-	c3869676 [label=<<table title="org.universAAL.hw.exporter.zigbee.ha.devices.ExporterActuatorCallee" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ExporterActuatorCallee.html">
+	c3980340 [label=<<table title="org.universAAL.hw.exporter.zigbee.ha.devices.ExporterActuatorCallee" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ExporterActuatorCallee.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ExporterActuatorCallee </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./ExporterActuatorCallee.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.hw.exporter.zigbee.ha.devices.OnOffLightCallee
-	c3869678 [label=<<table title="org.universAAL.hw.exporter.zigbee.ha.devices.OnOffLightCallee" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OnOffLightCallee.html">
+	c3980345 [label=<<table title="org.universAAL.hw.exporter.zigbee.ha.devices.OnOffLightCallee" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OnOffLightCallee.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OnOffLightCallee </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OnOffLightCallee.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.hw.exporter.zigbee.ha.devices.ExporterActuatorCallee extends org.universAAL.middleware.service.ServiceCallee
-	c3868201:p -> c3869676:p [dir=back,arrowtail=empty];
+	c3978820:p -> c3980340:p [dir=back,arrowtail=empty];
 	//org.universAAL.hw.exporter.zigbee.ha.devices.OnOffLightCallee extends org.universAAL.hw.exporter.zigbee.ha.devices.ExporterActuatorCallee
-	c3869676:p -> c3869678:p [dir=back,arrowtail=empty];
+	c3980340:p -> c3980345:p [dir=back,arrowtail=empty];
 }
 

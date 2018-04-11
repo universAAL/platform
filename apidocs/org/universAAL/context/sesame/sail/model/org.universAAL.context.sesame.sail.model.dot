@@ -9,45 +9,45 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
+	// org.universAAL.context.sesame.sail.model.NativeLiteral
+	c671262 [label=<<table title="org.universAAL.context.sesame.sail.model.NativeLiteral" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NativeLiteral.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> NativeLiteral </td></tr>
+		</table></td></tr>
+		</table>>, URL="./NativeLiteral.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.context.sesame.sail.model.NativeValue
-	c627183 [label=<<table title="org.universAAL.context.sesame.sail.model.NativeValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NativeValue.html">
+	c671263 [label=<<table title="org.universAAL.context.sesame.sail.model.NativeValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NativeValue.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> NativeValue </td></tr>
 		</table></td></tr>
 		</table>>, URL="./NativeValue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.context.sesame.sail.model.NativeLiteral
-	c627184 [label=<<table title="org.universAAL.context.sesame.sail.model.NativeLiteral" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NativeLiteral.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> NativeLiteral </td></tr>
-		</table></td></tr>
-		</table>>, URL="./NativeLiteral.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.context.sesame.sail.model.NativeBNode
-	c627185 [label=<<table title="org.universAAL.context.sesame.sail.model.NativeBNode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NativeBNode.html">
+	c671264 [label=<<table title="org.universAAL.context.sesame.sail.model.NativeBNode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NativeBNode.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> NativeBNode </td></tr>
 		</table></td></tr>
 		</table>>, URL="./NativeBNode.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.context.sesame.sail.model.NativeResource
-	c627186 [label=<<table title="org.universAAL.context.sesame.sail.model.NativeResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NativeResource.html">
+	c671265 [label=<<table title="org.universAAL.context.sesame.sail.model.NativeResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NativeResource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> NativeResource </td></tr>
 		</table></td></tr>
 		</table>>, URL="./NativeResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.context.sesame.sail.model.NativeURI
-	c627187 [label=<<table title="org.universAAL.context.sesame.sail.model.NativeURI" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NativeURI.html">
+	c671266 [label=<<table title="org.universAAL.context.sesame.sail.model.NativeURI" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NativeURI.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> NativeURI </td></tr>
 		</table></td></tr>
 		</table>>, URL="./NativeURI.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.context.sesame.sail.model.NativeLiteral implements org.universAAL.context.sesame.sail.model.NativeValue
-	c627183:p -> c627184:p [dir=back,arrowtail=empty,style=dashed];
+	c671263:p -> c671262:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.context.sesame.sail.model.NativeBNode implements org.universAAL.context.sesame.sail.model.NativeResource
-	c627186:p -> c627185:p [dir=back,arrowtail=empty,style=dashed];
+	c671265:p -> c671264:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.context.sesame.sail.model.NativeResource implements org.universAAL.context.sesame.sail.model.NativeValue
-	c627183:p -> c627186:p [dir=back,arrowtail=empty,style=dashed];
+	c671263:p -> c671265:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.context.sesame.sail.model.NativeURI implements org.universAAL.context.sesame.sail.model.NativeResource
-	c627186:p -> c627187:p [dir=back,arrowtail=empty,style=dashed];
+	c671265:p -> c671266:p [dir=back,arrowtail=empty,style=dashed];
 }
 

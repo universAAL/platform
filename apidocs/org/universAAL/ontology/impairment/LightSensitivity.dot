@@ -9,19 +9,19 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.impairment.SightImpairment
-	c5157938 [label=<<table title="org.universAAL.ontology.impairment.SightImpairment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SightImpairment.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> SightImpairment </td></tr>
-		</table></td></tr>
-		</table>>, URL="./SightImpairment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.impairment.LightSensitivity
-	c5157939 [label=<<table title="org.universAAL.ontology.impairment.LightSensitivity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LightSensitivity.html">
+	c5295680 [label=<<table title="org.universAAL.ontology.impairment.LightSensitivity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LightSensitivity.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LightSensitivity </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LightSensitivity.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.impairment.SightImpairment
+	c5295688 [label=<<table title="org.universAAL.ontology.impairment.SightImpairment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SightImpairment.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> SightImpairment </td></tr>
+		</table></td></tr>
+		</table>>, URL="./SightImpairment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.impairment.LightSensitivity extends org.universAAL.ontology.impairment.SightImpairment
-	c5157938:p -> c5157939:p [dir=back,arrowtail=empty];
+	c5295688:p -> c5295680:p [dir=back,arrowtail=empty];
 }
 

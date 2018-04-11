@@ -186,6 +186,24 @@
 <td class="colFirst"><a href="#org.universAAL.ui.handler.kinect.adapter.defaultComponents">org.universAAL.ui.handler.kinect.adapter.defaultComponents</a></td>
 <td class="colLast">&nbsp;</td>
 </tr>
+<tr class="rowColor">
+<td class="colFirst"><a href="#org.universAAL.utilities.api">org.universAAL.utilities.api</a></td>
+<td class="colLast">
+<div class="block">Contains the most basic helper utility for using the universAAL simplified API.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><a href="#org.universAAL.utilities.api.context.low">org.universAAL.utilities.api.context.low</a></td>
+<td class="colLast">
+<div class="block">Contains low level helper classes to deal with Context concepts of universAAL.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a href="#org.universAAL.utilities.api.context.mid">org.universAAL.utilities.api.context.mid</a></td>
+<td class="colLast">
+<div class="block">Contains normal helper classes to deal with Context concepts of universAAL.</div>
+</td>
+</tr>
 </tbody>
 </table>
 </li>
@@ -452,8 +470,8 @@
 <tbody>
 <tr class="altColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">RemoteUAAL.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/api/manager/RemoteUAAL.html#subscribeC-org.universAAL.middleware.context.ContextEventPattern:A-org.universAAL.support.utils.ICListener-">subscribeC</a></span>(<a href="../../../../../org/universAAL/middleware/context/ContextEventPattern.html" title="class in org.universAAL.middleware.context">ContextEventPattern</a>[]&nbsp;p,
-          <a href="../../../../../org/universAAL/support/utils/ICListener.html" title="interface in org.universAAL.support.utils">ICListener</a>&nbsp;l)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">RemoteUAAL.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/api/manager/RemoteUAAL.html#subscribeC-org.universAAL.middleware.context.ContextEventPattern:A-org.universAAL.utilities.api.ICListener-">subscribeC</a></span>(<a href="../../../../../org/universAAL/middleware/context/ContextEventPattern.html" title="class in org.universAAL.middleware.context">ContextEventPattern</a>[]&nbsp;p,
+          <a href="../../../../../org/universAAL/utilities/api/ICListener.html" title="interface in org.universAAL.utilities.api">ICListener</a>&nbsp;l)</code>&nbsp;</td>
 </tr>
 </tbody>
 </table>
@@ -809,6 +827,86 @@
 </tbody>
 </table>
 </li>
+<li class="blockList"><a name="org.universAAL.utilities.api">
+<!--   -->
+</a>
+<h3>Uses of <a href="../../../../../org/universAAL/middleware/context/ContextEventPattern.html" title="class in org.universAAL.middleware.context">ContextEventPattern</a> in <a href="../../../../../org/universAAL/utilities/api/package-summary.html">org.universAAL.utilities.api</a></h3>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing methods, and an explanation">
+<caption><span>Methods in <a href="../../../../../org/universAAL/utilities/api/package-summary.html">org.universAAL.utilities.api</a> with parameters of type <a href="../../../../../org/universAAL/middleware/context/ContextEventPattern.html" title="class in org.universAAL.middleware.context">ContextEventPattern</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><span class="typeNameLabel">UAAL.</span><code><span class="memberNameLink"><a href="../../../../../org/universAAL/utilities/api/UAAL.html#subscribeC-org.universAAL.middleware.context.ContextEventPattern:A-org.universAAL.utilities.api.ICListener-">subscribeC</a></span>(<a href="../../../../../org/universAAL/middleware/context/ContextEventPattern.html" title="class in org.universAAL.middleware.context">ContextEventPattern</a>[]&nbsp;p,
+          <a href="../../../../../org/universAAL/utilities/api/ICListener.html" title="interface in org.universAAL.utilities.api">ICListener</a>&nbsp;l)</code>
+<div class="block">Subscribes for Context Events and specifies how the events would be
+ handled.</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing constructors, and an explanation">
+<caption><span>Constructors in <a href="../../../../../org/universAAL/utilities/api/package-summary.html">org.universAAL.utilities.api</a> with parameters of type <a href="../../../../../org/universAAL/middleware/context/ContextEventPattern.html" title="class in org.universAAL.middleware.context">ContextEventPattern</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colOne" scope="col">Constructor and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/utilities/api/WrapperC.html#WrapperC-org.universAAL.middleware.container.ModuleContext-org.universAAL.middleware.context.ContextEventPattern:A-org.universAAL.utilities.api.ICListener-">WrapperC</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;context,
+        <a href="../../../../../org/universAAL/middleware/context/ContextEventPattern.html" title="class in org.universAAL.middleware.context">ContextEventPattern</a>[]&nbsp;initialSubscriptions,
+        <a href="../../../../../org/universAAL/utilities/api/ICListener.html" title="interface in org.universAAL.utilities.api">ICListener</a>&nbsp;l)</code>
+<div class="block">Constructor that takes the listener to associate.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList"><a name="org.universAAL.utilities.api.context.low">
+<!--   -->
+</a>
+<h3>Uses of <a href="../../../../../org/universAAL/middleware/context/ContextEventPattern.html" title="class in org.universAAL.middleware.context">ContextEventPattern</a> in <a href="../../../../../org/universAAL/utilities/api/context/low/package-summary.html">org.universAAL.utilities.api.context.low</a></h3>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing constructors, and an explanation">
+<caption><span>Constructors in <a href="../../../../../org/universAAL/utilities/api/context/low/package-summary.html">org.universAAL.utilities.api.context.low</a> with parameters of type <a href="../../../../../org/universAAL/middleware/context/ContextEventPattern.html" title="class in org.universAAL.middleware.context">ContextEventPattern</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colOne" scope="col">Constructor and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/utilities/api/context/low/Provider.html#Provider-java.lang.String-org.universAAL.middleware.context.owl.ContextProviderType-org.universAAL.middleware.context.ContextEventPattern:A-">Provider</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;uri,
+        <a href="../../../../../org/universAAL/middleware/context/owl/ContextProviderType.html" title="class in org.universAAL.middleware.context.owl">ContextProviderType</a>&nbsp;type,
+        <a href="../../../../../org/universAAL/middleware/context/ContextEventPattern.html" title="class in org.universAAL.middleware.context">ContextEventPattern</a>[]&nbsp;events)</code>
+<div class="block">Simple constructor to create a Context Provider of a given type with the
+ given restrictions on the provided events.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList"><a name="org.universAAL.utilities.api.context.mid">
+<!--   -->
+</a>
+<h3>Uses of <a href="../../../../../org/universAAL/middleware/context/ContextEventPattern.html" title="class in org.universAAL.middleware.context">ContextEventPattern</a> in <a href="../../../../../org/universAAL/utilities/api/context/mid/package-summary.html">org.universAAL.utilities.api.context.mid</a></h3>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing constructors, and an explanation">
+<caption><span>Constructors in <a href="../../../../../org/universAAL/utilities/api/context/mid/package-summary.html">org.universAAL.utilities.api.context.mid</a> with parameters of type <a href="../../../../../org/universAAL/middleware/context/ContextEventPattern.html" title="class in org.universAAL.middleware.context">ContextEventPattern</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colOne" scope="col">Constructor and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/utilities/api/context/mid/UtilPublisher.html#UtilPublisher-org.universAAL.middleware.container.ModuleContext-java.lang.String-org.universAAL.middleware.context.owl.ContextProviderType-org.universAAL.middleware.context.ContextEventPattern:A-">UtilPublisher</a></span>(<a href="../../../../../org/universAAL/middleware/container/ModuleContext.html" title="interface in org.universAAL.middleware.container">ModuleContext</a>&nbsp;context,
+             <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;uri,
+             <a href="../../../../../org/universAAL/middleware/context/owl/ContextProviderType.html" title="class in org.universAAL.middleware.context.owl">ContextProviderType</a>&nbsp;type,
+             <a href="../../../../../org/universAAL/middleware/context/ContextEventPattern.html" title="class in org.universAAL.middleware.context">ContextEventPattern</a>[]&nbsp;pattern)</code>
+<div class="block">Create a simple Context Publisher of the given type which provided events
+ are described by a pattern and is identified with the given URI.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
 </ul>
 </li>
 </ul>
@@ -860,6 +958,6 @@
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2017 <a href="http://www.universAAL.org/">universAAL Consortium</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2018 <a href="http://www.universAAL.org/">universAAL Consortium</a>. All rights reserved.</small></p>
 </body>
 </html>

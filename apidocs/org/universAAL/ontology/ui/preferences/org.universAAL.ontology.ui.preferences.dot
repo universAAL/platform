@@ -9,125 +9,125 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.ui.preferences.PendingDialogsBuilderType
-	c367195 [label=<<table title="org.universAAL.ontology.ui.preferences.PendingDialogsBuilderType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PendingDialogsBuilderType.html">
+	// org.universAAL.ontology.ui.preferences.ColorType
+	c406420 [label=<<table title="org.universAAL.ontology.ui.preferences.ColorType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ColorType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> PendingDialogsBuilderType </td></tr>
+<tr><td align="center" balign="center"> ColorType </td></tr>
 		</table></td></tr>
-		</table>>, URL="./PendingDialogsBuilderType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ui.preferences.GeneralInteractionPreferences
-	c367196 [label=<<table title="org.universAAL.ontology.ui.preferences.GeneralInteractionPreferences" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GeneralInteractionPreferences.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> GeneralInteractionPreferences </td></tr>
-		</table></td></tr>
-		</table>>, URL="./GeneralInteractionPreferences.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ui.preferences.AccessMode
-	c367197 [label=<<table title="org.universAAL.ontology.ui.preferences.AccessMode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AccessMode.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> AccessMode </td></tr>
-		</table></td></tr>
-		</table>>, URL="./AccessMode.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ui.preferences.VoiceGender
-	c367198 [label=<<table title="org.universAAL.ontology.ui.preferences.VoiceGender" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./VoiceGender.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> VoiceGender </td></tr>
-		</table></td></tr>
-		</table>>, URL="./VoiceGender.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ui.preferences.Intensity
-	c367199 [label=<<table title="org.universAAL.ontology.ui.preferences.Intensity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Intensity.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Intensity </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Intensity.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ui.preferences.ContentDensityType
-	c367200 [label=<<table title="org.universAAL.ontology.ui.preferences.ContentDensityType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ContentDensityType.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ContentDensityType </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ContentDensityType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ui.preferences.AuditoryPreferences
-	c367201 [label=<<table title="org.universAAL.ontology.ui.preferences.AuditoryPreferences" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AuditoryPreferences.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> AuditoryPreferences </td></tr>
-		</table></td></tr>
-		</table>>, URL="./AuditoryPreferences.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ui.preferences.AlertType
-	c367202 [label=<<table title="org.universAAL.ontology.ui.preferences.AlertType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AlertType.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> AlertType </td></tr>
-		</table></td></tr>
-		</table>>, URL="./AlertType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ui.preferences.MainMenuConfigurationType
-	c367203 [label=<<table title="org.universAAL.ontology.ui.preferences.MainMenuConfigurationType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MainMenuConfigurationType.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> MainMenuConfigurationType </td></tr>
-		</table></td></tr>
-		</table>>, URL="./MainMenuConfigurationType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./ColorType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.ui.preferences.VisualPreferences
-	c367204 [label=<<table title="org.universAAL.ontology.ui.preferences.VisualPreferences" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./VisualPreferences.html">
+	c406421 [label=<<table title="org.universAAL.ontology.ui.preferences.VisualPreferences" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./VisualPreferences.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> VisualPreferences </td></tr>
 		</table></td></tr>
 		</table>>, URL="./VisualPreferences.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ui.preferences.GenericFontFamily
-	c367205 [label=<<table title="org.universAAL.ontology.ui.preferences.GenericFontFamily" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GenericFontFamily.html">
+	// org.universAAL.ontology.ui.preferences.PendingMessageBuilderType
+	c406422 [label=<<table title="org.universAAL.ontology.ui.preferences.PendingMessageBuilderType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PendingMessageBuilderType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> GenericFontFamily </td></tr>
+<tr><td align="center" balign="center"> PendingMessageBuilderType </td></tr>
 		</table></td></tr>
-		</table>>, URL="./GenericFontFamily.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ui.preferences.SystemMenuPreferences
-	c367206 [label=<<table title="org.universAAL.ontology.ui.preferences.SystemMenuPreferences" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SystemMenuPreferences.html">
+		</table>>, URL="./PendingMessageBuilderType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.ui.preferences.AccessMode
+	c406423 [label=<<table title="org.universAAL.ontology.ui.preferences.AccessMode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AccessMode.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> SystemMenuPreferences </td></tr>
+<tr><td align="center" balign="center"> AccessMode </td></tr>
 		</table></td></tr>
-		</table>>, URL="./SystemMenuPreferences.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ui.preferences.Size
-	c367207 [label=<<table title="org.universAAL.ontology.ui.preferences.Size" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Size.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Size </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Size.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./AccessMode.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.ui.preferences.Status
-	c367208 [label=<<table title="org.universAAL.ontology.ui.preferences.Status" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Status.html">
+	c406424 [label=<<table title="org.universAAL.ontology.ui.preferences.Status" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Status.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Status </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Status.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ui.preferences.WindowLayoutType
-	c367209 [label=<<table title="org.universAAL.ontology.ui.preferences.WindowLayoutType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WindowLayoutType.html">
+	// org.universAAL.ontology.ui.preferences.VoiceGender
+	c406425 [label=<<table title="org.universAAL.ontology.ui.preferences.VoiceGender" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./VoiceGender.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> WindowLayoutType </td></tr>
+<tr><td align="center" balign="center"> VoiceGender </td></tr>
 		</table></td></tr>
-		</table>>, URL="./WindowLayoutType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./VoiceGender.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.ui.preferences.AlertType
+	c406426 [label=<<table title="org.universAAL.ontology.ui.preferences.AlertType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AlertType.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> AlertType </td></tr>
+		</table></td></tr>
+		</table>>, URL="./AlertType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.ui.preferences.UIPreferencesProfileOntology
-	c367210 [label=<<table title="org.universAAL.ontology.ui.preferences.UIPreferencesProfileOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UIPreferencesProfileOntology.html">
+	c406427 [label=<<table title="org.universAAL.ontology.ui.preferences.UIPreferencesProfileOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UIPreferencesProfileOntology.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UIPreferencesProfileOntology </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UIPreferencesProfileOntology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.ui.preferences.AlertPreferences
-	c367211 [label=<<table title="org.universAAL.ontology.ui.preferences.AlertPreferences" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AlertPreferences.html">
+	c406428 [label=<<table title="org.universAAL.ontology.ui.preferences.AlertPreferences" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AlertPreferences.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AlertPreferences </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AlertPreferences.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ui.preferences.ColorType
-	c367212 [label=<<table title="org.universAAL.ontology.ui.preferences.ColorType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ColorType.html">
+	// org.universAAL.ontology.ui.preferences.MainMenuConfigurationType
+	c406429 [label=<<table title="org.universAAL.ontology.ui.preferences.MainMenuConfigurationType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MainMenuConfigurationType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ColorType </td></tr>
+<tr><td align="center" balign="center"> MainMenuConfigurationType </td></tr>
 		</table></td></tr>
-		</table>>, URL="./ColorType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./MainMenuConfigurationType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.ui.preferences.ContentDensityType
+	c406430 [label=<<table title="org.universAAL.ontology.ui.preferences.ContentDensityType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ContentDensityType.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ContentDensityType </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ContentDensityType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.ui.preferences.WindowLayoutType
+	c406431 [label=<<table title="org.universAAL.ontology.ui.preferences.WindowLayoutType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WindowLayoutType.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> WindowLayoutType </td></tr>
+		</table></td></tr>
+		</table>>, URL="./WindowLayoutType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.ui.preferences.AuditoryPreferences
+	c406432 [label=<<table title="org.universAAL.ontology.ui.preferences.AuditoryPreferences" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AuditoryPreferences.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> AuditoryPreferences </td></tr>
+		</table></td></tr>
+		</table>>, URL="./AuditoryPreferences.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.ui.preferences.Size
+	c406433 [label=<<table title="org.universAAL.ontology.ui.preferences.Size" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Size.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Size </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Size.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.ui.preferences.UIPreferencesSubProfile
-	c367213 [label=<<table title="org.universAAL.ontology.ui.preferences.UIPreferencesSubProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UIPreferencesSubProfile.html">
+	c406434 [label=<<table title="org.universAAL.ontology.ui.preferences.UIPreferencesSubProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UIPreferencesSubProfile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UIPreferencesSubProfile </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UIPreferencesSubProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.ui.preferences.PendingMessageBuilderType
-	c367214 [label=<<table title="org.universAAL.ontology.ui.preferences.PendingMessageBuilderType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PendingMessageBuilderType.html">
+	// org.universAAL.ontology.ui.preferences.GeneralInteractionPreferences
+	c406435 [label=<<table title="org.universAAL.ontology.ui.preferences.GeneralInteractionPreferences" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GeneralInteractionPreferences.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> PendingMessageBuilderType </td></tr>
+<tr><td align="center" balign="center"> GeneralInteractionPreferences </td></tr>
 		</table></td></tr>
-		</table>>, URL="./PendingMessageBuilderType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./GeneralInteractionPreferences.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.ui.preferences.Intensity
+	c406436 [label=<<table title="org.universAAL.ontology.ui.preferences.Intensity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Intensity.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Intensity </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Intensity.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.ui.preferences.GenericFontFamily
+	c406437 [label=<<table title="org.universAAL.ontology.ui.preferences.GenericFontFamily" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GenericFontFamily.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> GenericFontFamily </td></tr>
+		</table></td></tr>
+		</table>>, URL="./GenericFontFamily.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.ui.preferences.PendingDialogsBuilderType
+	c406438 [label=<<table title="org.universAAL.ontology.ui.preferences.PendingDialogsBuilderType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PendingDialogsBuilderType.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> PendingDialogsBuilderType </td></tr>
+		</table></td></tr>
+		</table>>, URL="./PendingDialogsBuilderType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.ui.preferences.SystemMenuPreferences
+	c406439 [label=<<table title="org.universAAL.ontology.ui.preferences.SystemMenuPreferences" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SystemMenuPreferences.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> SystemMenuPreferences </td></tr>
+		</table></td></tr>
+		</table>>, URL="./SystemMenuPreferences.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

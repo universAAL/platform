@@ -10,27 +10,27 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.rdf.FinalizedResource
-	c7421238 [label=<<table title="org.universAAL.middleware.rdf.FinalizedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../rdf/FinalizedResource.html">
+	c7607191 [label=<<table title="org.universAAL.middleware.rdf.FinalizedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../rdf/FinalizedResource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> FinalizedResource </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../rdf/FinalizedResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.bus.model.matchable.UtilityAdvertisement
-	c7421490 [label=<<table title="org.universAAL.middleware.bus.model.matchable.UtilityAdvertisement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../bus/model/matchable/UtilityAdvertisement.html">
+	c7607440 [label=<<table title="org.universAAL.middleware.bus.model.matchable.UtilityAdvertisement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../bus/model/matchable/UtilityAdvertisement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> UtilityAdvertisement </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../bus/model/matchable/UtilityAdvertisement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.service.owls.profile.ServiceProfile
-	c7421570 [label=<<table title="org.universAAL.middleware.service.owls.profile.ServiceProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ServiceProfile.html">
+	c7607527 [label=<<table title="org.universAAL.middleware.service.owls.profile.ServiceProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ServiceProfile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ServiceProfile </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ServiceProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.service.owls.profile.ServiceProfile extends org.universAAL.middleware.rdf.FinalizedResource
-	c7421238:p -> c7421570:p [dir=back,arrowtail=empty];
+	c7607191:p -> c7607527:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.service.owls.profile.ServiceProfile implements org.universAAL.middleware.bus.model.matchable.UtilityAdvertisement
-	c7421490:p -> c7421570:p [dir=back,arrowtail=empty,style=dashed];
+	c7607440:p -> c7607527:p [dir=back,arrowtail=empty,style=dashed];
 }
 

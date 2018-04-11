@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.container.ModuleActivator
-	c4421636 [label=<<table title="org.universAAL.middleware.container.ModuleActivator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../middleware/container/ModuleActivator.html">
+	c4542619 [label=<<table title="org.universAAL.middleware.container.ModuleActivator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../middleware/container/ModuleActivator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ModuleActivator </td></tr>
 		</table></td></tr>
 		</table>>, URL="../middleware/container/ModuleActivator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.HvacActivator
-	c4422139 [label=<<table title="org.universAAL.ontology.HvacActivator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HvacActivator.html">
+	c4543092 [label=<<table title="org.universAAL.ontology.HvacActivator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HvacActivator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HvacActivator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HvacActivator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.HvacActivator implements org.universAAL.middleware.container.ModuleActivator
-	c4421636:p -> c4422139:p [dir=back,arrowtail=empty,style=dashed];
+	c4542619:p -> c4543092:p [dir=back,arrowtail=empty,style=dashed];
 }
 

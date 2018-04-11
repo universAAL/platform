@@ -9,19 +9,19 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.middleware.ui.impl.UIStrategyCaller
-	c8301317 [label=<<table title="org.universAAL.middleware.ui.impl.UIStrategyCaller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UIStrategyCaller.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> UIStrategyCaller </td></tr>
-		</table></td></tr>
-		</table>>, URL="./UIStrategyCaller.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.impl.UIStrategyHandler
-	c8301319 [label=<<table title="org.universAAL.middleware.ui.impl.UIStrategyHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UIStrategyHandler.html">
+	c8506683 [label=<<table title="org.universAAL.middleware.ui.impl.UIStrategyHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UIStrategyHandler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> UIStrategyHandler </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./UIStrategyHandler.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.ui.impl.UIStrategyCaller
+	c8506685 [label=<<table title="org.universAAL.middleware.ui.impl.UIStrategyCaller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UIStrategyCaller.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> UIStrategyCaller </td></tr>
+		</table></td></tr>
+		</table>>, URL="./UIStrategyCaller.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.ui.impl.UIStrategyCaller extends org.universAAL.middleware.ui.impl.UIStrategyHandler
-	c8301319:p -> c8301317:p [dir=back,arrowtail=empty];
+	c8506683:p -> c8506685:p [dir=back,arrowtail=empty];
 }
 

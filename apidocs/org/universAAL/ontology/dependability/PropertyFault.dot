@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.dependability.PhysicalFault
-	c6579929 [label=<<table title="org.universAAL.ontology.dependability.PhysicalFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PhysicalFault.html">
+	c6747238 [label=<<table title="org.universAAL.ontology.dependability.PhysicalFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PhysicalFault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PhysicalFault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PhysicalFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.dependability.PropertyFault
-	c6579940 [label=<<table title="org.universAAL.ontology.dependability.PropertyFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PropertyFault.html">
+	c6747240 [label=<<table title="org.universAAL.ontology.dependability.PropertyFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PropertyFault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PropertyFault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PropertyFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.dependability.PropertyFault extends org.universAAL.ontology.dependability.PhysicalFault
-	c6579929:p -> c6579940:p [dir=back,arrowtail=empty];
+	c6747238:p -> c6747240:p [dir=back,arrowtail=empty];
 }
 

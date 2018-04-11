@@ -9,485 +9,485 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.device.ValueDevice
-	c274683 [label=<<table title="org.universAAL.ontology.device.ValueDevice" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ValueDevice.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ValueDevice </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./ValueDevice.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.ColorLightController
-	c274684 [label=<<table title="org.universAAL.ontology.device.ColorLightController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ColorLightController.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ColorLightController </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ColorLightController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.EnuresisSensor
-	c274685 [label=<<table title="org.universAAL.ontology.device.EnuresisSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EnuresisSensor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> EnuresisSensor </td></tr>
-		</table></td></tr>
-		</table>>, URL="./EnuresisSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.HeaterSensor
-	c274686 [label=<<table title="org.universAAL.ontology.device.HeaterSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HeaterSensor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> HeaterSensor </td></tr>
-		</table></td></tr>
-		</table>>, URL="./HeaterSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.WaterFlowController
-	c274687 [label=<<table title="org.universAAL.ontology.device.WaterFlowController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WaterFlowController.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> WaterFlowController </td></tr>
-		</table></td></tr>
-		</table>>, URL="./WaterFlowController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.GasSensor
-	c274688 [label=<<table title="org.universAAL.ontology.device.GasSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GasSensor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> GasSensor </td></tr>
-		</table></td></tr>
-		</table>>, URL="./GasSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.ValueType
-	c274689 [label=<<table title="org.universAAL.ontology.device.ValueType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ValueType.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ValueType </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ValueType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.CO2Meter
-	c274690 [label=<<table title="org.universAAL.ontology.device.CO2Meter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CO2Meter.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> CO2Meter </td></tr>
-		</table></td></tr>
-		</table>>, URL="./CO2Meter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.TemperatureLevelSensor
-	c274691 [label=<<table title="org.universAAL.ontology.device.TemperatureLevelSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TemperatureLevelSensor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> TemperatureLevelSensor </td></tr>
-		</table></td></tr>
-		</table>>, URL="./TemperatureLevelSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.SmokeMeter
-	c274692 [label=<<table title="org.universAAL.ontology.device.SmokeMeter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SmokeMeter.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> SmokeMeter </td></tr>
-		</table></td></tr>
-		</table>>, URL="./SmokeMeter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.WaterFlowSensor
-	c274693 [label=<<table title="org.universAAL.ontology.device.WaterFlowSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WaterFlowSensor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> WaterFlowSensor </td></tr>
-		</table></td></tr>
-		</table>>, URL="./WaterFlowSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.CurtainSensor
-	c274694 [label=<<table title="org.universAAL.ontology.device.CurtainSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CurtainSensor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> CurtainSensor </td></tr>
-		</table></td></tr>
-		</table>>, URL="./CurtainSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.CurtainActuator
-	c274695 [label=<<table title="org.universAAL.ontology.device.CurtainActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CurtainActuator.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> CurtainActuator </td></tr>
-		</table></td></tr>
-		</table>>, URL="./CurtainActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.EnvironmentMeter
-	c274696 [label=<<table title="org.universAAL.ontology.device.EnvironmentMeter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EnvironmentMeter.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> EnvironmentMeter </td></tr>
-		</table></td></tr>
-		</table>>, URL="./EnvironmentMeter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.CO2Sensor
-	c274697 [label=<<table title="org.universAAL.ontology.device.CO2Sensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CO2Sensor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> CO2Sensor </td></tr>
-		</table></td></tr>
-		</table>>, URL="./CO2Sensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.DimmerActuator
-	c274698 [label=<<table title="org.universAAL.ontology.device.DimmerActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DimmerActuator.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DimmerActuator </td></tr>
-		</table></td></tr>
-		</table>>, URL="./DimmerActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.PanicButtonSensor
-	c274699 [label=<<table title="org.universAAL.ontology.device.PanicButtonSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PanicButtonSensor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> PanicButtonSensor </td></tr>
-		</table></td></tr>
-		</table>>, URL="./PanicButtonSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.HeaterController
-	c274700 [label=<<table title="org.universAAL.ontology.device.HeaterController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HeaterController.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> HeaterController </td></tr>
-		</table></td></tr>
-		</table>>, URL="./HeaterController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.BlindActuator
-	c274701 [label=<<table title="org.universAAL.ontology.device.BlindActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BlindActuator.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> BlindActuator </td></tr>
-		</table></td></tr>
-		</table>>, URL="./BlindActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.LightActuator
-	c274702 [label=<<table title="org.universAAL.ontology.device.LightActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightActuator.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> LightActuator </td></tr>
-		</table></td></tr>
-		</table>>, URL="./LightActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.StatusValue
-	c274703 [label=<<table title="org.universAAL.ontology.device.StatusValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./StatusValue.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> StatusValue </td></tr>
-		</table></td></tr>
-		</table>>, URL="./StatusValue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.PresenceSensor
-	c274704 [label=<<table title="org.universAAL.ontology.device.PresenceSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PresenceSensor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> PresenceSensor </td></tr>
-		</table></td></tr>
-		</table>>, URL="./PresenceSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.Actuator
-	c274705 [label=<<table title="org.universAAL.ontology.device.Actuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Actuator.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Actuator </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./Actuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.MotionValue
-	c274706 [label=<<table title="org.universAAL.ontology.device.MotionValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MotionValue.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> MotionValue </td></tr>
-		</table></td></tr>
-		</table>>, URL="./MotionValue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.GlassBreakSensor
-	c274707 [label=<<table title="org.universAAL.ontology.device.GlassBreakSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GlassBreakSensor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> GlassBreakSensor </td></tr>
-		</table></td></tr>
-		</table>>, URL="./GlassBreakSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.WindowActuator
-	c274708 [label=<<table title="org.universAAL.ontology.device.WindowActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WindowActuator.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> WindowActuator </td></tr>
-		</table></td></tr>
-		</table>>, URL="./WindowActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.SwitchSensor
-	c274709 [label=<<table title="org.universAAL.ontology.device.SwitchSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SwitchSensor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> SwitchSensor </td></tr>
-		</table></td></tr>
-		</table>>, URL="./SwitchSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.HeaterActuator
-	c274710 [label=<<table title="org.universAAL.ontology.device.HeaterActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HeaterActuator.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> HeaterActuator </td></tr>
-		</table></td></tr>
-		</table>>, URL="./HeaterActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.SwitchActuator
-	c274711 [label=<<table title="org.universAAL.ontology.device.SwitchActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SwitchActuator.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> SwitchActuator </td></tr>
-		</table></td></tr>
-		</table>>, URL="./SwitchActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.LightController
-	c274712 [label=<<table title="org.universAAL.ontology.device.LightController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightController.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> LightController </td></tr>
-		</table></td></tr>
-		</table>>, URL="./LightController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.WaterFlowActuator
-	c274713 [label=<<table title="org.universAAL.ontology.device.WaterFlowActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WaterFlowActuator.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> WaterFlowActuator </td></tr>
-		</table></td></tr>
-		</table>>, URL="./WaterFlowActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.BlindController
-	c274714 [label=<<table title="org.universAAL.ontology.device.BlindController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BlindController.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> BlindController </td></tr>
-		</table></td></tr>
-		</table>>, URL="./BlindController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.FloodSensor
-	c274715 [label=<<table title="org.universAAL.ontology.device.FloodSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FloodSensor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> FloodSensor </td></tr>
-		</table></td></tr>
-		</table>>, URL="./FloodSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.COSensor
-	c274716 [label=<<table title="org.universAAL.ontology.device.COSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./COSensor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> COSensor </td></tr>
-		</table></td></tr>
-		</table>>, URL="./COSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.FallSensor
-	c274717 [label=<<table title="org.universAAL.ontology.device.FallSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FallSensor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> FallSensor </td></tr>
-		</table></td></tr>
-		</table>>, URL="./FallSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.SmokeSensor
-	c274718 [label=<<table title="org.universAAL.ontology.device.SmokeSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SmokeSensor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> SmokeSensor </td></tr>
-		</table></td></tr>
-		</table>>, URL="./SmokeSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.DoorController
-	c274719 [label=<<table title="org.universAAL.ontology.device.DoorController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DoorController.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DoorController </td></tr>
-		</table></td></tr>
-		</table>>, URL="./DoorController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.DoorSensor
-	c274720 [label=<<table title="org.universAAL.ontology.device.DoorSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DoorSensor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DoorSensor </td></tr>
-		</table></td></tr>
-		</table>>, URL="./DoorSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.ExitSensor
-	c274721 [label=<<table title="org.universAAL.ontology.device.ExitSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ExitSensor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ExitSensor </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ExitSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.COMeter
-	c274722 [label=<<table title="org.universAAL.ontology.device.COMeter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./COMeter.html">
+	c279813 [label=<<table title="org.universAAL.ontology.device.COMeter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./COMeter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> COMeter </td></tr>
 		</table></td></tr>
 		</table>>, URL="./COMeter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.DimmerSensor
-	c274723 [label=<<table title="org.universAAL.ontology.device.DimmerSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DimmerSensor.html">
+	// org.universAAL.ontology.device.DosageSensor
+	c279814 [label=<<table title="org.universAAL.ontology.device.DosageSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DosageSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DimmerSensor </td></tr>
+<tr><td align="center" balign="center"> DosageSensor </td></tr>
 		</table></td></tr>
-		</table>>, URL="./DimmerSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.CurtainController
-	c274724 [label=<<table title="org.universAAL.ontology.device.CurtainController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CurtainController.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> CurtainController </td></tr>
-		</table></td></tr>
-		</table>>, URL="./CurtainController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./DosageSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.WindowSensor
-	c274725 [label=<<table title="org.universAAL.ontology.device.WindowSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WindowSensor.html">
+	c279815 [label=<<table title="org.universAAL.ontology.device.WindowSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WindowSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> WindowSensor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./WindowSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.DosageValue
-	c274726 [label=<<table title="org.universAAL.ontology.device.DosageValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DosageValue.html">
+	// org.universAAL.ontology.device.GasSensor
+	c279816 [label=<<table title="org.universAAL.ontology.device.GasSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GasSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DosageValue </td></tr>
+<tr><td align="center" balign="center"> GasSensor </td></tr>
 		</table></td></tr>
-		</table>>, URL="./DosageValue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.DoorActuator
-	c274727 [label=<<table title="org.universAAL.ontology.device.DoorActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DoorActuator.html">
+		</table>>, URL="./GasSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.CurtainSensor
+	c279817 [label=<<table title="org.universAAL.ontology.device.CurtainSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CurtainSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DoorActuator </td></tr>
+<tr><td align="center" balign="center"> CurtainSensor </td></tr>
 		</table></td></tr>
-		</table>>, URL="./DoorActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.Sensor
-	c274728 [label=<<table title="org.universAAL.ontology.device.Sensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Sensor.html">
+		</table>>, URL="./CurtainSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.SwitchActuator
+	c279818 [label=<<table title="org.universAAL.ontology.device.SwitchActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SwitchActuator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Sensor </font></td></tr>
+<tr><td align="center" balign="center"> SwitchActuator </td></tr>
 		</table></td></tr>
-		</table>>, URL="./Sensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./SwitchActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.MotionSensor
-	c274729 [label=<<table title="org.universAAL.ontology.device.MotionSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MotionSensor.html">
+	c279819 [label=<<table title="org.universAAL.ontology.device.MotionSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MotionSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MotionSensor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MotionSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.TemperatureLevelValue
-	c274730 [label=<<table title="org.universAAL.ontology.device.TemperatureLevelValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TemperatureLevelValue.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> TemperatureLevelValue </td></tr>
-		</table></td></tr>
-		</table>>, URL="./TemperatureLevelValue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.BlindSensor
-	c274731 [label=<<table title="org.universAAL.ontology.device.BlindSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BlindSensor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> BlindSensor </td></tr>
-		</table></td></tr>
-		</table>>, URL="./BlindSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.EnvironmentSensor
-	c274732 [label=<<table title="org.universAAL.ontology.device.EnvironmentSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EnvironmentSensor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> EnvironmentSensor </td></tr>
-		</table></td></tr>
-		</table>>, URL="./EnvironmentSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.HumiditySensor
-	c274733 [label=<<table title="org.universAAL.ontology.device.HumiditySensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HumiditySensor.html">
+	c279820 [label=<<table title="org.universAAL.ontology.device.HumiditySensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HumiditySensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HumiditySensor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HumiditySensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.TemperatureLevelSensor
+	c279821 [label=<<table title="org.universAAL.ontology.device.TemperatureLevelSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TemperatureLevelSensor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> TemperatureLevelSensor </td></tr>
+		</table></td></tr>
+		</table>>, URL="./TemperatureLevelSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.StatusValue
+	c279822 [label=<<table title="org.universAAL.ontology.device.StatusValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./StatusValue.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> StatusValue </td></tr>
+		</table></td></tr>
+		</table>>, URL="./StatusValue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.SmokeSensor
+	c279823 [label=<<table title="org.universAAL.ontology.device.SmokeSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SmokeSensor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> SmokeSensor </td></tr>
+		</table></td></tr>
+		</table>>, URL="./SmokeSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.Sensor
+	c279824 [label=<<table title="org.universAAL.ontology.device.Sensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Sensor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Sensor </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./Sensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.EnvironmentMeter
+	c279825 [label=<<table title="org.universAAL.ontology.device.EnvironmentMeter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EnvironmentMeter.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> EnvironmentMeter </td></tr>
+		</table></td></tr>
+		</table>>, URL="./EnvironmentMeter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.DimmerSensor
+	c279826 [label=<<table title="org.universAAL.ontology.device.DimmerSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DimmerSensor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> DimmerSensor </td></tr>
+		</table></td></tr>
+		</table>>, URL="./DimmerSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.TemperatureSensor
-	c274734 [label=<<table title="org.universAAL.ontology.device.TemperatureSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TemperatureSensor.html">
+	c279827 [label=<<table title="org.universAAL.ontology.device.TemperatureSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TemperatureSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TemperatureSensor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./TemperatureSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.COSensor
+	c279828 [label=<<table title="org.universAAL.ontology.device.COSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./COSensor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> COSensor </td></tr>
+		</table></td></tr>
+		</table>>, URL="./COSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.PresenceSensor
+	c279829 [label=<<table title="org.universAAL.ontology.device.PresenceSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PresenceSensor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> PresenceSensor </td></tr>
+		</table></td></tr>
+		</table>>, URL="./PresenceSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.CO2Meter
+	c279830 [label=<<table title="org.universAAL.ontology.device.CO2Meter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CO2Meter.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> CO2Meter </td></tr>
+		</table></td></tr>
+		</table>>, URL="./CO2Meter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.BlindActuator
+	c279831 [label=<<table title="org.universAAL.ontology.device.BlindActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BlindActuator.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> BlindActuator </td></tr>
+		</table></td></tr>
+		</table>>, URL="./BlindActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.HeaterActuator
+	c279832 [label=<<table title="org.universAAL.ontology.device.HeaterActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HeaterActuator.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> HeaterActuator </td></tr>
+		</table></td></tr>
+		</table>>, URL="./HeaterActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.BlindController
+	c279833 [label=<<table title="org.universAAL.ontology.device.BlindController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BlindController.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> BlindController </td></tr>
+		</table></td></tr>
+		</table>>, URL="./BlindController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.LightSensor
-	c274735 [label=<<table title="org.universAAL.ontology.device.LightSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightSensor.html">
+	c279834 [label=<<table title="org.universAAL.ontology.device.LightSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LightSensor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LightSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.WindowController
-	c274736 [label=<<table title="org.universAAL.ontology.device.WindowController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WindowController.html">
+	// org.universAAL.ontology.device.TemperatureLevelValue
+	c279835 [label=<<table title="org.universAAL.ontology.device.TemperatureLevelValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TemperatureLevelValue.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> WindowController </td></tr>
+<tr><td align="center" balign="center"> TemperatureLevelValue </td></tr>
 		</table></td></tr>
-		</table>>, URL="./WindowController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./TemperatureLevelValue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.DoorSensor
+	c279836 [label=<<table title="org.universAAL.ontology.device.DoorSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DoorSensor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> DoorSensor </td></tr>
+		</table></td></tr>
+		</table>>, URL="./DoorSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.BlindSensor
+	c279837 [label=<<table title="org.universAAL.ontology.device.BlindSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BlindSensor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> BlindSensor </td></tr>
+		</table></td></tr>
+		</table>>, URL="./BlindSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.ExitValue
+	c279838 [label=<<table title="org.universAAL.ontology.device.ExitValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ExitValue.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ExitValue </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ExitValue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.HeaterController
+	c279839 [label=<<table title="org.universAAL.ontology.device.HeaterController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HeaterController.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> HeaterController </td></tr>
+		</table></td></tr>
+		</table>>, URL="./HeaterController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.ExitSensor
+	c279840 [label=<<table title="org.universAAL.ontology.device.ExitSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ExitSensor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ExitSensor </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ExitSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.LightActuator
+	c279841 [label=<<table title="org.universAAL.ontology.device.LightActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightActuator.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> LightActuator </td></tr>
+		</table></td></tr>
+		</table>>, URL="./LightActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.GasMeter
-	c274737 [label=<<table title="org.universAAL.ontology.device.GasMeter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GasMeter.html">
+	c279842 [label=<<table title="org.universAAL.ontology.device.GasMeter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GasMeter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> GasMeter </td></tr>
 		</table></td></tr>
 		</table>>, URL="./GasMeter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.DimmerController
-	c274738 [label=<<table title="org.universAAL.ontology.device.DimmerController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DimmerController.html">
+	c279843 [label=<<table title="org.universAAL.ontology.device.DimmerController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DimmerController.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DimmerController </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DimmerController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.ColorLightActuator
-	c274739 [label=<<table title="org.universAAL.ontology.device.ColorLightActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ColorLightActuator.html">
+	// org.universAAL.ontology.device.DoorController
+	c279844 [label=<<table title="org.universAAL.ontology.device.DoorController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DoorController.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ColorLightActuator </td></tr>
+<tr><td align="center" balign="center"> DoorController </td></tr>
 		</table></td></tr>
-		</table>>, URL="./ColorLightActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.DeviceOntology
-	c274740 [label=<<table title="org.universAAL.ontology.device.DeviceOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DeviceOntology.html">
+		</table>>, URL="./DoorController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.PanicButtonSensor
+	c279845 [label=<<table title="org.universAAL.ontology.device.PanicButtonSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PanicButtonSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DeviceOntology </td></tr>
+<tr><td align="center" balign="center"> PanicButtonSensor </td></tr>
 		</table></td></tr>
-		</table>>, URL="./DeviceOntology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./PanicButtonSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.WaterFlowController
+	c279846 [label=<<table title="org.universAAL.ontology.device.WaterFlowController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WaterFlowController.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> WaterFlowController </td></tr>
+		</table></td></tr>
+		</table>>, URL="./WaterFlowController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.ValueDevice
+	c279847 [label=<<table title="org.universAAL.ontology.device.ValueDevice" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ValueDevice.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ValueDevice </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./ValueDevice.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.WindowActuator
+	c279848 [label=<<table title="org.universAAL.ontology.device.WindowActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WindowActuator.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> WindowActuator </td></tr>
+		</table></td></tr>
+		</table>>, URL="./WindowActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.FloodSensor
+	c279849 [label=<<table title="org.universAAL.ontology.device.FloodSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FloodSensor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> FloodSensor </td></tr>
+		</table></td></tr>
+		</table>>, URL="./FloodSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.DimmerActuator
+	c279850 [label=<<table title="org.universAAL.ontology.device.DimmerActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DimmerActuator.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> DimmerActuator </td></tr>
+		</table></td></tr>
+		</table>>, URL="./DimmerActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.SwitchController
-	c274741 [label=<<table title="org.universAAL.ontology.device.SwitchController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SwitchController.html">
+	c279851 [label=<<table title="org.universAAL.ontology.device.SwitchController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SwitchController.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SwitchController </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SwitchController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.ExitValue
-	c274742 [label=<<table title="org.universAAL.ontology.device.ExitValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ExitValue.html">
+	// org.universAAL.ontology.device.ColorLightController
+	c279852 [label=<<table title="org.universAAL.ontology.device.ColorLightController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ColorLightController.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ExitValue </td></tr>
+<tr><td align="center" balign="center"> ColorLightController </td></tr>
 		</table></td></tr>
-		</table>>, URL="./ExitValue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.device.DosageSensor
-	c274743 [label=<<table title="org.universAAL.ontology.device.DosageSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DosageSensor.html">
+		</table>>, URL="./ColorLightController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.EnvironmentSensor
+	c279853 [label=<<table title="org.universAAL.ontology.device.EnvironmentSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EnvironmentSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DosageSensor </td></tr>
+<tr><td align="center" balign="center"> EnvironmentSensor </td></tr>
 		</table></td></tr>
-		</table>>, URL="./DosageSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./EnvironmentSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.CurtainController
+	c279854 [label=<<table title="org.universAAL.ontology.device.CurtainController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CurtainController.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> CurtainController </td></tr>
+		</table></td></tr>
+		</table>>, URL="./CurtainController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.ColorLightActuator
+	c279855 [label=<<table title="org.universAAL.ontology.device.ColorLightActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ColorLightActuator.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ColorLightActuator </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ColorLightActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.GlassBreakSensor
+	c279856 [label=<<table title="org.universAAL.ontology.device.GlassBreakSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GlassBreakSensor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> GlassBreakSensor </td></tr>
+		</table></td></tr>
+		</table>>, URL="./GlassBreakSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.LightController
+	c279857 [label=<<table title="org.universAAL.ontology.device.LightController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightController.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> LightController </td></tr>
+		</table></td></tr>
+		</table>>, URL="./LightController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.CurtainActuator
+	c279858 [label=<<table title="org.universAAL.ontology.device.CurtainActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CurtainActuator.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> CurtainActuator </td></tr>
+		</table></td></tr>
+		</table>>, URL="./CurtainActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.WaterFlowSensor
+	c279859 [label=<<table title="org.universAAL.ontology.device.WaterFlowSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WaterFlowSensor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> WaterFlowSensor </td></tr>
+		</table></td></tr>
+		</table>>, URL="./WaterFlowSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.SmokeMeter
+	c279860 [label=<<table title="org.universAAL.ontology.device.SmokeMeter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SmokeMeter.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> SmokeMeter </td></tr>
+		</table></td></tr>
+		</table>>, URL="./SmokeMeter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.EnuresisSensor
+	c279861 [label=<<table title="org.universAAL.ontology.device.EnuresisSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EnuresisSensor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> EnuresisSensor </td></tr>
+		</table></td></tr>
+		</table>>, URL="./EnuresisSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.WindowController
+	c279862 [label=<<table title="org.universAAL.ontology.device.WindowController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WindowController.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> WindowController </td></tr>
+		</table></td></tr>
+		</table>>, URL="./WindowController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.ContactSensor
-	c274744 [label=<<table title="org.universAAL.ontology.device.ContactSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ContactSensor.html">
+	c279863 [label=<<table title="org.universAAL.ontology.device.ContactSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ContactSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ContactSensor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ContactSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.ontology.device.ColorLightController extends org.universAAL.ontology.device.ColorLightActuator
-	c274739:p -> c274684:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.EnuresisSensor extends org.universAAL.ontology.device.Sensor
-	c274728:p -> c274685:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.HeaterSensor extends org.universAAL.ontology.device.Sensor
-	c274728:p -> c274686:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.WaterFlowController extends org.universAAL.ontology.device.WaterFlowActuator
-	c274713:p -> c274687:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.GasSensor extends org.universAAL.ontology.device.EnvironmentSensor
-	c274732:p -> c274688:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.CO2Meter extends org.universAAL.ontology.device.EnvironmentMeter
-	c274696:p -> c274690:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.TemperatureLevelSensor extends org.universAAL.ontology.device.Sensor
-	c274728:p -> c274691:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.SmokeMeter extends org.universAAL.ontology.device.EnvironmentMeter
-	c274696:p -> c274692:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.WaterFlowSensor extends org.universAAL.ontology.device.Sensor
-	c274728:p -> c274693:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.CurtainSensor extends org.universAAL.ontology.device.Sensor
-	c274728:p -> c274694:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.CurtainActuator extends org.universAAL.ontology.device.Actuator
-	c274705:p -> c274695:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.EnvironmentMeter extends org.universAAL.ontology.device.Sensor
-	c274728:p -> c274696:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.CO2Sensor extends org.universAAL.ontology.device.EnvironmentSensor
-	c274732:p -> c274697:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.DimmerActuator extends org.universAAL.ontology.device.Actuator
-	c274705:p -> c274698:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.PanicButtonSensor extends org.universAAL.ontology.device.Sensor
-	c274728:p -> c274699:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.HeaterController extends org.universAAL.ontology.device.HeaterActuator
-	c274710:p -> c274700:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.BlindActuator extends org.universAAL.ontology.device.Actuator
-	c274705:p -> c274701:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.LightActuator extends org.universAAL.ontology.device.Actuator
-	c274705:p -> c274702:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.PresenceSensor extends org.universAAL.ontology.device.Sensor
-	c274728:p -> c274704:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.Actuator extends org.universAAL.ontology.device.ValueDevice
-	c274683:p -> c274705:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.GlassBreakSensor extends org.universAAL.ontology.device.Sensor
-	c274728:p -> c274707:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.WindowActuator extends org.universAAL.ontology.device.Actuator
-	c274705:p -> c274708:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.SwitchSensor extends org.universAAL.ontology.device.Sensor
-	c274728:p -> c274709:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.HeaterActuator extends org.universAAL.ontology.device.Actuator
-	c274705:p -> c274710:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.SwitchActuator extends org.universAAL.ontology.device.Actuator
-	c274705:p -> c274711:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.LightController extends org.universAAL.ontology.device.LightActuator
-	c274702:p -> c274712:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.WaterFlowActuator extends org.universAAL.ontology.device.Actuator
-	c274705:p -> c274713:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.BlindController extends org.universAAL.ontology.device.BlindActuator
-	c274701:p -> c274714:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.FloodSensor extends org.universAAL.ontology.device.Sensor
-	c274728:p -> c274715:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.COSensor extends org.universAAL.ontology.device.EnvironmentSensor
-	c274732:p -> c274716:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.FallSensor extends org.universAAL.ontology.device.Sensor
-	c274728:p -> c274717:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.SmokeSensor extends org.universAAL.ontology.device.EnvironmentSensor
-	c274732:p -> c274718:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.DoorController extends org.universAAL.ontology.device.DoorActuator
-	c274727:p -> c274719:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.DoorSensor extends org.universAAL.ontology.device.Sensor
-	c274728:p -> c274720:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.ExitSensor extends org.universAAL.ontology.device.Sensor
-	c274728:p -> c274721:p [dir=back,arrowtail=empty];
+	// org.universAAL.ontology.device.HeaterSensor
+	c279864 [label=<<table title="org.universAAL.ontology.device.HeaterSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HeaterSensor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> HeaterSensor </td></tr>
+		</table></td></tr>
+		</table>>, URL="./HeaterSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.SwitchSensor
+	c279865 [label=<<table title="org.universAAL.ontology.device.SwitchSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SwitchSensor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> SwitchSensor </td></tr>
+		</table></td></tr>
+		</table>>, URL="./SwitchSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.WaterFlowActuator
+	c279866 [label=<<table title="org.universAAL.ontology.device.WaterFlowActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WaterFlowActuator.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> WaterFlowActuator </td></tr>
+		</table></td></tr>
+		</table>>, URL="./WaterFlowActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.MotionValue
+	c279867 [label=<<table title="org.universAAL.ontology.device.MotionValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MotionValue.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> MotionValue </td></tr>
+		</table></td></tr>
+		</table>>, URL="./MotionValue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.DoorActuator
+	c279868 [label=<<table title="org.universAAL.ontology.device.DoorActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DoorActuator.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> DoorActuator </td></tr>
+		</table></td></tr>
+		</table>>, URL="./DoorActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.FallSensor
+	c279869 [label=<<table title="org.universAAL.ontology.device.FallSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FallSensor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> FallSensor </td></tr>
+		</table></td></tr>
+		</table>>, URL="./FallSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.Actuator
+	c279870 [label=<<table title="org.universAAL.ontology.device.Actuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Actuator.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Actuator </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./Actuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.CO2Sensor
+	c279871 [label=<<table title="org.universAAL.ontology.device.CO2Sensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CO2Sensor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> CO2Sensor </td></tr>
+		</table></td></tr>
+		</table>>, URL="./CO2Sensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.DosageValue
+	c279872 [label=<<table title="org.universAAL.ontology.device.DosageValue" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DosageValue.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> DosageValue </td></tr>
+		</table></td></tr>
+		</table>>, URL="./DosageValue.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.ValueType
+	c279873 [label=<<table title="org.universAAL.ontology.device.ValueType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ValueType.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ValueType </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ValueType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.DeviceOntology
+	c279874 [label=<<table title="org.universAAL.ontology.device.DeviceOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DeviceOntology.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> DeviceOntology </td></tr>
+		</table></td></tr>
+		</table>>, URL="./DeviceOntology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.device.COMeter extends org.universAAL.ontology.device.EnvironmentMeter
-	c274696:p -> c274722:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.DimmerSensor extends org.universAAL.ontology.device.Sensor
-	c274728:p -> c274723:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.CurtainController extends org.universAAL.ontology.device.CurtainActuator
-	c274695:p -> c274724:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.WindowSensor extends org.universAAL.ontology.device.Sensor
-	c274728:p -> c274725:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.DoorActuator extends org.universAAL.ontology.device.Actuator
-	c274705:p -> c274727:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.Sensor extends org.universAAL.ontology.device.ValueDevice
-	c274683:p -> c274728:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.MotionSensor extends org.universAAL.ontology.device.Sensor
-	c274728:p -> c274729:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.BlindSensor extends org.universAAL.ontology.device.Sensor
-	c274728:p -> c274731:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.EnvironmentSensor extends org.universAAL.ontology.device.Sensor
-	c274728:p -> c274732:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.HumiditySensor extends org.universAAL.ontology.device.Sensor
-	c274728:p -> c274733:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.TemperatureSensor extends org.universAAL.ontology.device.Sensor
-	c274728:p -> c274734:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.LightSensor extends org.universAAL.ontology.device.Sensor
-	c274728:p -> c274735:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.WindowController extends org.universAAL.ontology.device.WindowActuator
-	c274708:p -> c274736:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.GasMeter extends org.universAAL.ontology.device.EnvironmentMeter
-	c274696:p -> c274737:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.DimmerController extends org.universAAL.ontology.device.DimmerActuator
-	c274698:p -> c274738:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.ColorLightActuator extends org.universAAL.ontology.device.LightActuator
-	c274702:p -> c274739:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.device.SwitchController extends org.universAAL.ontology.device.SwitchActuator
-	c274711:p -> c274741:p [dir=back,arrowtail=empty];
+	c279825:p -> c279813:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.device.DosageSensor extends org.universAAL.ontology.device.Sensor
-	c274728:p -> c274743:p [dir=back,arrowtail=empty];
+	c279824:p -> c279814:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.WindowSensor extends org.universAAL.ontology.device.Sensor
+	c279824:p -> c279815:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.GasSensor extends org.universAAL.ontology.device.EnvironmentSensor
+	c279853:p -> c279816:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.CurtainSensor extends org.universAAL.ontology.device.Sensor
+	c279824:p -> c279817:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.SwitchActuator extends org.universAAL.ontology.device.Actuator
+	c279870:p -> c279818:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.MotionSensor extends org.universAAL.ontology.device.Sensor
+	c279824:p -> c279819:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.HumiditySensor extends org.universAAL.ontology.device.Sensor
+	c279824:p -> c279820:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.TemperatureLevelSensor extends org.universAAL.ontology.device.Sensor
+	c279824:p -> c279821:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.SmokeSensor extends org.universAAL.ontology.device.EnvironmentSensor
+	c279853:p -> c279823:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.Sensor extends org.universAAL.ontology.device.ValueDevice
+	c279847:p -> c279824:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.EnvironmentMeter extends org.universAAL.ontology.device.Sensor
+	c279824:p -> c279825:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.DimmerSensor extends org.universAAL.ontology.device.Sensor
+	c279824:p -> c279826:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.TemperatureSensor extends org.universAAL.ontology.device.Sensor
+	c279824:p -> c279827:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.COSensor extends org.universAAL.ontology.device.EnvironmentSensor
+	c279853:p -> c279828:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.PresenceSensor extends org.universAAL.ontology.device.Sensor
+	c279824:p -> c279829:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.CO2Meter extends org.universAAL.ontology.device.EnvironmentMeter
+	c279825:p -> c279830:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.BlindActuator extends org.universAAL.ontology.device.Actuator
+	c279870:p -> c279831:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.HeaterActuator extends org.universAAL.ontology.device.Actuator
+	c279870:p -> c279832:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.BlindController extends org.universAAL.ontology.device.BlindActuator
+	c279831:p -> c279833:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.LightSensor extends org.universAAL.ontology.device.Sensor
+	c279824:p -> c279834:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.DoorSensor extends org.universAAL.ontology.device.Sensor
+	c279824:p -> c279836:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.BlindSensor extends org.universAAL.ontology.device.Sensor
+	c279824:p -> c279837:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.HeaterController extends org.universAAL.ontology.device.HeaterActuator
+	c279832:p -> c279839:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.ExitSensor extends org.universAAL.ontology.device.Sensor
+	c279824:p -> c279840:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.LightActuator extends org.universAAL.ontology.device.Actuator
+	c279870:p -> c279841:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.GasMeter extends org.universAAL.ontology.device.EnvironmentMeter
+	c279825:p -> c279842:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.DimmerController extends org.universAAL.ontology.device.DimmerActuator
+	c279850:p -> c279843:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.DoorController extends org.universAAL.ontology.device.DoorActuator
+	c279868:p -> c279844:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.PanicButtonSensor extends org.universAAL.ontology.device.Sensor
+	c279824:p -> c279845:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.WaterFlowController extends org.universAAL.ontology.device.WaterFlowActuator
+	c279866:p -> c279846:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.WindowActuator extends org.universAAL.ontology.device.Actuator
+	c279870:p -> c279848:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.FloodSensor extends org.universAAL.ontology.device.Sensor
+	c279824:p -> c279849:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.DimmerActuator extends org.universAAL.ontology.device.Actuator
+	c279870:p -> c279850:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.SwitchController extends org.universAAL.ontology.device.SwitchActuator
+	c279818:p -> c279851:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.ColorLightController extends org.universAAL.ontology.device.ColorLightActuator
+	c279855:p -> c279852:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.EnvironmentSensor extends org.universAAL.ontology.device.Sensor
+	c279824:p -> c279853:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.CurtainController extends org.universAAL.ontology.device.CurtainActuator
+	c279858:p -> c279854:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.ColorLightActuator extends org.universAAL.ontology.device.LightActuator
+	c279841:p -> c279855:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.GlassBreakSensor extends org.universAAL.ontology.device.Sensor
+	c279824:p -> c279856:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.LightController extends org.universAAL.ontology.device.LightActuator
+	c279841:p -> c279857:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.CurtainActuator extends org.universAAL.ontology.device.Actuator
+	c279870:p -> c279858:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.WaterFlowSensor extends org.universAAL.ontology.device.Sensor
+	c279824:p -> c279859:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.SmokeMeter extends org.universAAL.ontology.device.EnvironmentMeter
+	c279825:p -> c279860:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.EnuresisSensor extends org.universAAL.ontology.device.Sensor
+	c279824:p -> c279861:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.WindowController extends org.universAAL.ontology.device.WindowActuator
+	c279848:p -> c279862:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.device.ContactSensor extends org.universAAL.ontology.device.Sensor
-	c274728:p -> c274744:p [dir=back,arrowtail=empty];
+	c279824:p -> c279863:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.HeaterSensor extends org.universAAL.ontology.device.Sensor
+	c279824:p -> c279864:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.SwitchSensor extends org.universAAL.ontology.device.Sensor
+	c279824:p -> c279865:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.WaterFlowActuator extends org.universAAL.ontology.device.Actuator
+	c279870:p -> c279866:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.DoorActuator extends org.universAAL.ontology.device.Actuator
+	c279870:p -> c279868:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.FallSensor extends org.universAAL.ontology.device.Sensor
+	c279824:p -> c279869:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.Actuator extends org.universAAL.ontology.device.ValueDevice
+	c279847:p -> c279870:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.device.CO2Sensor extends org.universAAL.ontology.device.EnvironmentSensor
+	c279853:p -> c279871:p [dir=back,arrowtail=empty];
 }
 

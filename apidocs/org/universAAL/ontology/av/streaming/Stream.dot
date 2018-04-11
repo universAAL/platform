@@ -10,34 +10,34 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c7850999 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/owl/ManagedIndividual.html">
+	c8045029 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../middleware/owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.av.streaming.Stream
-	c7851741 [label=<<table title="org.universAAL.ontology.av.streaming.Stream" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Stream.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Stream </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./Stream.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.av.streaming.AudioStream
-	c7851745 [label=<<table title="org.universAAL.ontology.av.streaming.AudioStream" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AudioStream.html">
+	c8045789 [label=<<table title="org.universAAL.ontology.av.streaming.AudioStream" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AudioStream.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AudioStream </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AudioStream.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.av.streaming.VideoStream
-	c7851749 [label=<<table title="org.universAAL.ontology.av.streaming.VideoStream" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./VideoStream.html">
+	c8045790 [label=<<table title="org.universAAL.ontology.av.streaming.VideoStream" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./VideoStream.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> VideoStream </td></tr>
 		</table></td></tr>
 		</table>>, URL="./VideoStream.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.ontology.av.streaming.Stream extends org.universAAL.middleware.owl.ManagedIndividual
-	c7850999:p -> c7851741:p [dir=back,arrowtail=empty];
+	// org.universAAL.ontology.av.streaming.Stream
+	c8045794 [label=<<table title="org.universAAL.ontology.av.streaming.Stream" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Stream.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Stream </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./Stream.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.av.streaming.AudioStream extends org.universAAL.ontology.av.streaming.Stream
-	c7851741:p -> c7851745:p [dir=back,arrowtail=empty];
+	c8045794:p -> c8045789:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.av.streaming.VideoStream extends org.universAAL.ontology.av.streaming.Stream
-	c7851741:p -> c7851749:p [dir=back,arrowtail=empty];
+	c8045794:p -> c8045790:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.av.streaming.Stream extends org.universAAL.middleware.owl.ManagedIndividual
+	c8045029:p -> c8045794:p [dir=back,arrowtail=empty];
 }
 

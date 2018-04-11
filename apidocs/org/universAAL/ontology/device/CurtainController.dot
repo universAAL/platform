@@ -9,19 +9,19 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.device.CurtainActuator
-	c3208031 [label=<<table title="org.universAAL.ontology.device.CurtainActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CurtainActuator.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> CurtainActuator </td></tr>
-		</table></td></tr>
-		</table>>, URL="./CurtainActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.device.CurtainController
-	c3208060 [label=<<table title="org.universAAL.ontology.device.CurtainController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CurtainController.html">
+	c3303369 [label=<<table title="org.universAAL.ontology.device.CurtainController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CurtainController.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CurtainController </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CurtainController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.device.CurtainActuator
+	c3303373 [label=<<table title="org.universAAL.ontology.device.CurtainActuator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CurtainActuator.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> CurtainActuator </td></tr>
+		</table></td></tr>
+		</table>>, URL="./CurtainActuator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.device.CurtainController extends org.universAAL.ontology.device.CurtainActuator
-	c3208031:p -> c3208060:p [dir=back,arrowtail=empty];
+	c3303373:p -> c3303369:p [dir=back,arrowtail=empty];
 }
 

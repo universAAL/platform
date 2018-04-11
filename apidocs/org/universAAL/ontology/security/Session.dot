@@ -10,34 +10,34 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c7484709 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
+	c7671881 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.security.DeviceBoundSession
-	c7485740 [label=<<table title="org.universAAL.ontology.security.DeviceBoundSession" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DeviceBoundSession.html">
+	c7672937 [label=<<table title="org.universAAL.ontology.security.DeviceBoundSession" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DeviceBoundSession.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DeviceBoundSession </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DeviceBoundSession.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.security.LocationBoundSession
-	c7485743 [label=<<table title="org.universAAL.ontology.security.LocationBoundSession" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LocationBoundSession.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> LocationBoundSession </td></tr>
-		</table></td></tr>
-		</table>>, URL="./LocationBoundSession.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.security.Session
-	c7485751 [label=<<table title="org.universAAL.ontology.security.Session" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Session.html">
+	c7672939 [label=<<table title="org.universAAL.ontology.security.Session" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Session.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Session </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Session.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.security.LocationBoundSession
+	c7672944 [label=<<table title="org.universAAL.ontology.security.LocationBoundSession" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LocationBoundSession.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> LocationBoundSession </td></tr>
+		</table></td></tr>
+		</table>>, URL="./LocationBoundSession.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.security.DeviceBoundSession extends org.universAAL.ontology.security.Session
-	c7485751:p -> c7485740:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.security.LocationBoundSession extends org.universAAL.ontology.security.Session
-	c7485751:p -> c7485743:p [dir=back,arrowtail=empty];
+	c7672939:p -> c7672937:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.security.Session extends org.universAAL.middleware.owl.ManagedIndividual
-	c7484709:p -> c7485751:p [dir=back,arrowtail=empty];
+	c7671881:p -> c7672939:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.security.LocationBoundSession extends org.universAAL.ontology.security.Session
+	c7672939:p -> c7672944:p [dir=back,arrowtail=empty];
 }
 

@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.container.SharedObjectListener
-	c7545230 [label=<<table title="org.universAAL.middleware.container.SharedObjectListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../../container/SharedObjectListener.html">
+	c7733512 [label=<<table title="org.universAAL.middleware.container.SharedObjectListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../../container/SharedObjectListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> SharedObjectListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../../../container/SharedObjectListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.configuration.core.impl.secondaryManagers.SharedObjectConnector
-	c7546367 [label=<<table title="org.universAAL.middleware.managers.configuration.core.impl.secondaryManagers.SharedObjectConnector" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SharedObjectConnector.html">
+	c7734694 [label=<<table title="org.universAAL.middleware.managers.configuration.core.impl.secondaryManagers.SharedObjectConnector" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SharedObjectConnector.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SharedObjectConnector </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SharedObjectConnector.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.managers.configuration.core.impl.secondaryManagers.SharedObjectConnector implements org.universAAL.middleware.container.SharedObjectListener
-	c7545230:p -> c7546367:p [dir=back,arrowtail=empty,style=dashed];
+	c7733512:p -> c7734694:p [dir=back,arrowtail=empty,style=dashed];
 }
 

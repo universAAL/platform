@@ -9,37 +9,37 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.middleware.interfaces.space.SpaceDescriptor
-	c98324 [label=<<table title="org.universAAL.middleware.interfaces.space.SpaceDescriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SpaceDescriptor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> SpaceDescriptor </td></tr>
-		</table></td></tr>
-		</table>>, URL="./SpaceDescriptor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.interfaces.space.SpaceCard
-	c98325 [label=<<table title="org.universAAL.middleware.interfaces.space.SpaceCard" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SpaceCard.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> SpaceCard </td></tr>
-		</table></td></tr>
-		</table>>, URL="./SpaceCard.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.interfaces.space.Consts
-	c98326 [label=<<table title="org.universAAL.middleware.interfaces.space.Consts" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Consts.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Consts </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Consts.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.interfaces.space.SpaceType
-	c98327 [label=<<table title="org.universAAL.middleware.interfaces.space.SpaceType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SpaceType.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
-<tr><td align="center" balign="center"> SpaceType </td></tr>
-		</table></td></tr>
-		</table>>, URL="./SpaceType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.interfaces.space.SpaceStatus
-	c98328 [label=<<table title="org.universAAL.middleware.interfaces.space.SpaceStatus" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SpaceStatus.html">
+	c79564 [label=<<table title="org.universAAL.middleware.interfaces.space.SpaceStatus" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SpaceStatus.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
 <tr><td align="center" balign="center"> SpaceStatus </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SpaceStatus.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.interfaces.space.SpaceType
+	c79565 [label=<<table title="org.universAAL.middleware.interfaces.space.SpaceType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SpaceType.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
+<tr><td align="center" balign="center"> SpaceType </td></tr>
+		</table></td></tr>
+		</table>>, URL="./SpaceType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.interfaces.space.SpaceDescriptor
+	c79566 [label=<<table title="org.universAAL.middleware.interfaces.space.SpaceDescriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SpaceDescriptor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> SpaceDescriptor </td></tr>
+		</table></td></tr>
+		</table>>, URL="./SpaceDescriptor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.interfaces.space.Consts
+	c79567 [label=<<table title="org.universAAL.middleware.interfaces.space.Consts" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Consts.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Consts </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Consts.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.interfaces.space.SpaceCard
+	c79568 [label=<<table title="org.universAAL.middleware.interfaces.space.SpaceCard" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SpaceCard.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> SpaceCard </td></tr>
+		</table></td></tr>
+		</table>>, URL="./SpaceCard.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

@@ -9,28 +9,28 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ui.dm.userInteraction.mainMenu.profilable.ProfilableFileMainMenuProvider
-	c4002669 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.profilable.ProfilableFileMainMenuProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../profilable/ProfilableFileMainMenuProvider.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ProfilableFileMainMenuProvider </td></tr>
-		</table></td></tr>
-		</table>>, URL="../profilable/ProfilableFileMainMenuProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.userInteraction.mainMenu.file.FileMainMenuProvider
-	c4002671 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.file.FileMainMenuProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./FileMainMenuProvider.html">
+	c4115802 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.file.FileMainMenuProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./FileMainMenuProvider.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> FileMainMenuProvider </td></tr>
 		</table></td></tr>
 		</table>>, URL="./FileMainMenuProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ui.dm.userInteraction.mainMenu.profilable.ProfilableFileMainMenuProvider
+	c4115806 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.profilable.ProfilableFileMainMenuProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../profilable/ProfilableFileMainMenuProvider.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ProfilableFileMainMenuProvider </td></tr>
+		</table></td></tr>
+		</table>>, URL="../profilable/ProfilableFileMainMenuProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.interfaces.IMainMenuProvider
-	c4002686 [label=<<table title="org.universAAL.ui.dm.interfaces.IMainMenuProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../interfaces/IMainMenuProvider.html">
+	c4115826 [label=<<table title="org.universAAL.ui.dm.interfaces.IMainMenuProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../interfaces/IMainMenuProvider.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IMainMenuProvider </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../interfaces/IMainMenuProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.ui.dm.userInteraction.mainMenu.profilable.ProfilableFileMainMenuProvider extends org.universAAL.ui.dm.userInteraction.mainMenu.file.FileMainMenuProvider
-	c4002671:p -> c4002669:p [dir=back,arrowtail=empty];
 	//org.universAAL.ui.dm.userInteraction.mainMenu.file.FileMainMenuProvider implements org.universAAL.ui.dm.interfaces.IMainMenuProvider
-	c4002686:p -> c4002671:p [dir=back,arrowtail=empty,style=dashed];
+	c4115826:p -> c4115802:p [dir=back,arrowtail=empty,style=dashed];
+	//org.universAAL.ui.dm.userInteraction.mainMenu.profilable.ProfilableFileMainMenuProvider extends org.universAAL.ui.dm.userInteraction.mainMenu.file.FileMainMenuProvider
+	c4115802:p -> c4115806:p [dir=back,arrowtail=empty];
 }
 

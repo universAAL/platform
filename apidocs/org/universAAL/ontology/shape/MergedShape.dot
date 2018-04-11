@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.shape.MergedShape
-	c5607579 [label=<<table title="org.universAAL.ontology.shape.MergedShape" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MergedShape.html">
+	c5753662 [label=<<table title="org.universAAL.ontology.shape.MergedShape" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MergedShape.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MergedShape </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MergedShape.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.shape.BooleanShape
-	c5607582 [label=<<table title="org.universAAL.ontology.shape.BooleanShape" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BooleanShape.html">
+	c5753672 [label=<<table title="org.universAAL.ontology.shape.BooleanShape" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BooleanShape.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> BooleanShape </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./BooleanShape.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.shape.MergedShape extends org.universAAL.ontology.shape.BooleanShape
-	c5607582:p -> c5607579:p [dir=back,arrowtail=empty];
+	c5753672:p -> c5753662:p [dir=back,arrowtail=empty];
 }
 

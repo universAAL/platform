@@ -10,74 +10,90 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.bus.member.Caller
-	c8220427 [label=<<table title="org.universAAL.middleware.bus.member.Caller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../bus/member/Caller.html">
+	c8424284 [label=<<table title="org.universAAL.middleware.bus.member.Caller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../bus/member/Caller.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Caller </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../bus/member/Caller.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.ui.UICaller
-	c8220529 [label=<<table title="org.universAAL.middleware.ui.UICaller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UICaller.html">
+	c8424380 [label=<<table title="org.universAAL.middleware.ui.UICaller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UICaller.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> UICaller </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./UICaller.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.utils.ui.mid.UtilUICaller
-	c8220867 [label=<<table title="org.universAAL.support.utils.ui.mid.UtilUICaller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../support/utils/ui/mid/UtilUICaller.html">
+	c8424687 [label=<<table title="org.universAAL.support.utils.ui.mid.UtilUICaller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../support/utils/ui/mid/UtilUICaller.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> UtilUICaller </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../support/utils/ui/mid/UtilUICaller.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.support.utils.WrapperUI
-	c8220874 [label=<<table title="org.universAAL.support.utils.WrapperUI" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../support/utils/WrapperUI.html">
+	c8424712 [label=<<table title="org.universAAL.support.utils.WrapperUI" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../support/utils/WrapperUI.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> WrapperUI </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../support/utils/WrapperUI.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.utilities.api.ui.mid.UtilUICaller
+	c8424736 [label=<<table title="org.universAAL.utilities.api.ui.mid.UtilUICaller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../utilities/api/ui/mid/UtilUICaller.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> UtilUICaller </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="../../utilities/api/ui/mid/UtilUICaller.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.utilities.api.WrapperUI
+	c8424761 [label=<<table title="org.universAAL.utilities.api.WrapperUI" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../utilities/api/WrapperUI.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> WrapperUI </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../utilities/api/WrapperUI.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.DialogManagerImpl
-	c8222243 [label=<<table title="org.universAAL.ui.dm.DialogManagerImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ui/dm/DialogManagerImpl.html">
+	c8426166 [label=<<table title="org.universAAL.ui.dm.DialogManagerImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ui/dm/DialogManagerImpl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DialogManagerImpl </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ui/dm/DialogManagerImpl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.ui.preferences.editor.UIPreferencesUICaller
-	c8222259 [label=<<table title="org.universAAL.ui.dm.ui.preferences.editor.UIPreferencesUICaller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ui/dm/ui/preferences/editor/UIPreferencesUICaller.html">
+	c8426197 [label=<<table title="org.universAAL.ui.dm.ui.preferences.editor.UIPreferencesUICaller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ui/dm/ui/preferences/editor/UIPreferencesUICaller.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UIPreferencesUICaller </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ui/dm/ui/preferences/editor/UIPreferencesUICaller.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.samples.uibus.OPublisher
-	c8222507 [label=<<table title="org.universAAL.samples.uibus.OPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../samples/uibus/OPublisher.html">
+	c8426413 [label=<<table title="org.universAAL.samples.uibus.OPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../samples/uibus/OPublisher.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OPublisher </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../samples/uibus/OPublisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.samples.lighting.uiclient.UIProvider
-	c8222520 [label=<<table title="org.universAAL.samples.lighting.uiclient.UIProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../samples/lighting/uiclient/UIProvider.html">
+	c8426425 [label=<<table title="org.universAAL.samples.lighting.uiclient.UIProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../samples/lighting/uiclient/UIProvider.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UIProvider </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../samples/lighting/uiclient/UIProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.samples.simple.ui.SimpleUI
-	c8222527 [label=<<table title="org.universAAL.samples.simple.ui.SimpleUI" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../samples/simple/ui/SimpleUI.html">
+	// org.universAAL.tutorials.ui.bus.uicaller.MyUICaller
+	c8426540 [label=<<table title="org.universAAL.tutorials.ui.bus.uicaller.MyUICaller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../tutorials/ui/bus/uicaller/MyUICaller.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> SimpleUI </td></tr>
+<tr><td align="center" balign="center"> MyUICaller </td></tr>
 		</table></td></tr>
-		</table>>, URL="../../samples/simple/ui/SimpleUI.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="../../tutorials/ui/bus/uicaller/MyUICaller.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.ui.UICaller extends org.universAAL.middleware.bus.member.Caller
-	c8220427:p -> c8220529:p [dir=back,arrowtail=empty];
+	c8424284:p -> c8424380:p [dir=back,arrowtail=empty];
 	//org.universAAL.support.utils.ui.mid.UtilUICaller extends org.universAAL.middleware.ui.UICaller
-	c8220529:p -> c8220867:p [dir=back,arrowtail=empty];
+	c8424380:p -> c8424687:p [dir=back,arrowtail=empty];
 	//org.universAAL.support.utils.WrapperUI extends org.universAAL.middleware.ui.UICaller
-	c8220529:p -> c8220874:p [dir=back,arrowtail=empty];
+	c8424380:p -> c8424712:p [dir=back,arrowtail=empty];
+	//org.universAAL.utilities.api.ui.mid.UtilUICaller extends org.universAAL.middleware.ui.UICaller
+	c8424380:p -> c8424736:p [dir=back,arrowtail=empty];
+	//org.universAAL.utilities.api.WrapperUI extends org.universAAL.middleware.ui.UICaller
+	c8424380:p -> c8424761:p [dir=back,arrowtail=empty];
 	//org.universAAL.ui.dm.DialogManagerImpl extends org.universAAL.middleware.ui.UICaller
-	c8220529:p -> c8222243:p [dir=back,arrowtail=empty];
+	c8424380:p -> c8426166:p [dir=back,arrowtail=empty];
 	//org.universAAL.ui.dm.ui.preferences.editor.UIPreferencesUICaller extends org.universAAL.middleware.ui.UICaller
-	c8220529:p -> c8222259:p [dir=back,arrowtail=empty];
+	c8424380:p -> c8426197:p [dir=back,arrowtail=empty];
 	//org.universAAL.samples.uibus.OPublisher extends org.universAAL.middleware.ui.UICaller
-	c8220529:p -> c8222507:p [dir=back,arrowtail=empty];
+	c8424380:p -> c8426413:p [dir=back,arrowtail=empty];
 	//org.universAAL.samples.lighting.uiclient.UIProvider extends org.universAAL.middleware.ui.UICaller
-	c8220529:p -> c8222520:p [dir=back,arrowtail=empty];
-	//org.universAAL.samples.simple.ui.SimpleUI extends org.universAAL.middleware.ui.UICaller
-	c8220529:p -> c8222527:p [dir=back,arrowtail=empty];
+	c8424380:p -> c8426425:p [dir=back,arrowtail=empty];
+	//org.universAAL.tutorials.ui.bus.uicaller.MyUICaller extends org.universAAL.middleware.ui.UICaller
+	c8424380:p -> c8426540:p [dir=back,arrowtail=empty];
 }
 

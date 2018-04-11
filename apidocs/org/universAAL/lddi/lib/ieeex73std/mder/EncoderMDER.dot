@@ -9,19 +9,19 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.lddi.lib.ieeex73std.org.bn.coders.Encoder<T>
-	c3722177 [label=<<table title="org.universAAL.lddi.lib.ieeex73std.org.bn.coders.Encoder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../org/bn/coders/Encoder.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Encoder&lt;T&gt; </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="../org/bn/coders/Encoder.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.lib.ieeex73std.mder.EncoderMDER<T>
-	c3722192 [label=<<table title="org.universAAL.lddi.lib.ieeex73std.mder.EncoderMDER" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./EncoderMDER.html">
+	c3827101 [label=<<table title="org.universAAL.lddi.lib.ieeex73std.mder.EncoderMDER" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./EncoderMDER.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> EncoderMDER&lt;T&gt; </td></tr>
 		</table></td></tr>
 		</table>>, URL="./EncoderMDER.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.lddi.lib.ieeex73std.org.bn.coders.Encoder<T>
+	c3827170 [label=<<table title="org.universAAL.lddi.lib.ieeex73std.org.bn.coders.Encoder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../org/bn/coders/Encoder.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Encoder&lt;T&gt; </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="../org/bn/coders/Encoder.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.lddi.lib.ieeex73std.mder.EncoderMDER<T> extends org.universAAL.lddi.lib.ieeex73std.org.bn.coders.Encoder<T>
-	c3722177:p -> c3722192:p [dir=back,arrowtail=empty];
+	c3827170:p -> c3827101:p [dir=back,arrowtail=empty];
 }
 

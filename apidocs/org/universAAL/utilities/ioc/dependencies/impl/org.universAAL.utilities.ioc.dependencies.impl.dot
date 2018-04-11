@@ -9,20 +9,20 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.utilities.ioc.dependencies.impl.NPEDependencyProxy<T>
-	c312287 [label=<<table title="org.universAAL.utilities.ioc.dependencies.impl.NPEDependencyProxy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NPEDependencyProxy.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> NPEDependencyProxy&lt;T&gt; </td></tr>
-		</table></td></tr>
-		</table>>, URL="./NPEDependencyProxy.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.utilities.ioc.dependencies.impl.WaitingDependencyProxy<T>
-	c312288 [label=<<table title="org.universAAL.utilities.ioc.dependencies.impl.WaitingDependencyProxy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WaitingDependencyProxy.html">
+	c347547 [label=<<table title="org.universAAL.utilities.ioc.dependencies.impl.WaitingDependencyProxy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WaitingDependencyProxy.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> WaitingDependencyProxy&lt;T&gt; </td></tr>
 		</table></td></tr>
 		</table>>, URL="./WaitingDependencyProxy.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.utilities.ioc.dependencies.impl.NPEDependencyProxy<T>
+	c347548 [label=<<table title="org.universAAL.utilities.ioc.dependencies.impl.NPEDependencyProxy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NPEDependencyProxy.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> NPEDependencyProxy&lt;T&gt; </td></tr>
+		</table></td></tr>
+		</table>>, URL="./NPEDependencyProxy.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.utilities.ioc.dependencies.impl.PassiveDependencyProxy<T>
-	c312289 [label=<<table title="org.universAAL.utilities.ioc.dependencies.impl.PassiveDependencyProxy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PassiveDependencyProxy.html">
+	c347549 [label=<<table title="org.universAAL.utilities.ioc.dependencies.impl.PassiveDependencyProxy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PassiveDependencyProxy.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PassiveDependencyProxy&lt;T&gt; </td></tr>
 		</table></td></tr>

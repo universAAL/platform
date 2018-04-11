@@ -18,7 +18,7 @@
     catch(err) {
     }
 //-->
-var methods = {"i0":10,"i1":10,"i2":10};
+var methods = {"i0":10,"i1":10};
 var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -95,14 +95,14 @@ var activeTableTab = "activeTableTab";
 <div class="subTitle">org.universAAL.ri.gateway.communicator.service.impl</div>
 <h2 title="Class AbstractSocketCommunicationHandler" class="title">Class AbstractSocketCommunicationHandler</h2>
 <map id="G" name="G">
-<area shape="rect" id="c1876890" href="../CommunicationHandler.html" title="org.universAAL.ri.gateway.communicator.service.CommunicationHandler" alt="" coords="193,11,351,53"/>
-<area shape="rect" id="node1" href="../CommunicationHandler.html" title="&lt;TABLE&gt;" alt="" coords="183,6,361,58"/>
-<area shape="rect" id="c1876896" href="./AbstractSocketCommunicationHandler.html" title="org.universAAL.ri.gateway.communicator.service.impl.AbstractSocketCommunicationHandler" alt="" coords="149,118,395,143"/>
-<area shape="rect" id="node3" href="./AbstractSocketCommunicationHandler.html" title="&lt;TABLE&gt;" alt="" coords="139,107,405,155"/>
-<area shape="rect" id="c1876894" href="./ServerSocketCommunicationHandler.html" title="org.universAAL.ri.gateway.communicator.service.impl.ServerSocketCommunicationHandler" alt="" coords="15,214,251,239"/>
-<area shape="rect" id="node2" href="./ServerSocketCommunicationHandler.html" title="&lt;TABLE&gt;" alt="" coords="5,203,261,251"/>
-<area shape="rect" id="c1876897" href="./ClientSocketCommunicationHandler.html" title="org.universAAL.ri.gateway.communicator.service.impl.ClientSocketCommunicationHandler" alt="" coords="296,214,528,239"/>
-<area shape="rect" id="node4" href="./ClientSocketCommunicationHandler.html" title="&lt;TABLE&gt;" alt="" coords="285,203,539,251"/>
+<area shape="rect" id="node1_0" href="./ServerSocketCommunicationHandler.html" title="org.universAAL.ri.gateway.communicator.service.impl.ServerSocketCommunicationHandler" alt="" coords="15,216,251,243"/>
+<area shape="rect" id="node1" href="./ServerSocketCommunicationHandler.html" title="&lt;TABLE&gt;" alt="" coords="5,205,262,253"/>
+<area shape="rect" id="node2_1" href="./ClientSocketCommunicationHandler.html" title="org.universAAL.ri.gateway.communicator.service.impl.ClientSocketCommunicationHandler" alt="" coords="297,216,529,243"/>
+<area shape="rect" id="node2" href="./ClientSocketCommunicationHandler.html" title="&lt;TABLE&gt;" alt="" coords="287,205,540,253"/>
+<area shape="rect" id="node3_2" href="./AbstractSocketCommunicationHandler.html" title="org.universAAL.ri.gateway.communicator.service.impl.AbstractSocketCommunicationHandler" alt="" coords="150,120,397,147"/>
+<area shape="rect" id="node3" href="./AbstractSocketCommunicationHandler.html" title="&lt;TABLE&gt;" alt="" coords="139,109,407,157"/>
+<area shape="rect" id="node4_3" href="../CommunicationHandler.html" title="org.universAAL.ri.gateway.communicator.service.CommunicationHandler" alt="" coords="195,11,352,55"/>
+<area shape="rect" id="node4" href="../CommunicationHandler.html" title="&lt;TABLE&gt;" alt="" coords="184,6,363,61"/>
 </map>
 <!-- UML diagram added by UMLGraph version R5_6-24-gf6e263 (http://www.umlgraph.org/) -->
 <div align="center"><img src="AbstractSocketCommunicationHandler.png" alt="Package class diagram package AbstractSocketCommunicationHandler" usemap="#G" border=0/></div>
@@ -159,7 +159,7 @@ implements <a href="../../../../../../../org/universAAL/ri/gateway/communicator/
 <th class="colLast" scope="col">Field and Description</th>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code>protected <a href="../../../../../../../org/universAAL/ri/gateway/communication/cipher/Cipher.html" title="interface in org.universAAL.ri.gateway.communication.cipher">Cipher</a></code></td>
+<td class="colFirst"><code>protected <a href="../../../../../../../org/universAAL/ri/gateway/communication/cipher/SocketCipher.html" title="interface in org.universAAL.ri.gateway.communication.cipher">SocketCipher</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/ri/gateway/communicator/service/impl/AbstractSocketCommunicationHandler.html#cipher">cipher</a></span></code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
@@ -167,13 +167,6 @@ implements <a href="../../../../../../../org/universAAL/ri/gateway/communicator/
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/ri/gateway/communicator/service/impl/AbstractSocketCommunicationHandler.html#log">log</a></span></code>&nbsp;</td>
 </tr>
 </table>
-<ul class="blockList">
-<li class="blockList"><a name="fields.inherited.from.class.org.universAAL.ri.gateway.communicator.service.CommunicationHandler">
-<!--   -->
-</a>
-<h3>Fields inherited from interface&nbsp;org.universAAL.ri.gateway.communicator.service.<a href="../../../../../../../org/universAAL/ri/gateway/communicator/service/CommunicationHandler.html" title="interface in org.universAAL.ri.gateway.communicator.service">CommunicationHandler</a></h3>
-<code><a href="../../../../../../../org/universAAL/ri/gateway/communicator/service/CommunicationHandler.html#BROADCAST_SESSION">BROADCAST_SESSION</a></code></li>
-</ul>
 </li>
 </ul>
 <!-- ======== CONSTRUCTOR SUMMARY ======== -->
@@ -188,7 +181,7 @@ implements <a href="../../../../../../../org/universAAL/ri/gateway/communicator/
 <th class="colOne" scope="col">Constructor and Description</th>
 </tr>
 <tr class="altColor">
-<td class="colOne"><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/ri/gateway/communicator/service/impl/AbstractSocketCommunicationHandler.html#AbstractSocketCommunicationHandler-org.universAAL.ri.gateway.communication.cipher.Cipher-">AbstractSocketCommunicationHandler</a></span>(<a href="../../../../../../../org/universAAL/ri/gateway/communication/cipher/Cipher.html" title="interface in org.universAAL.ri.gateway.communication.cipher">Cipher</a>&nbsp;cipher)</code>&nbsp;</td>
+<td class="colOne"><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/ri/gateway/communicator/service/impl/AbstractSocketCommunicationHandler.html#AbstractSocketCommunicationHandler-org.universAAL.ri.gateway.communication.cipher.SocketCipher-">AbstractSocketCommunicationHandler</a></span>(<a href="../../../../../../../org/universAAL/ri/gateway/communication/cipher/SocketCipher.html" title="interface in org.universAAL.ri.gateway.communication.cipher">SocketCipher</a>&nbsp;cipher)</code>&nbsp;</td>
 </tr>
 </table>
 </li>
@@ -207,20 +200,13 @@ implements <a href="../../../../../../../org/universAAL/ri/gateway/communicator/
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>protected <a href="../../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a></code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/ri/gateway/communicator/service/impl/AbstractSocketCommunicationHandler.html#readMessage-java.io.InputStream-">readMessage</a></span>(<a href="http://docs.oracle.com/javase/8/docs/api/java/io/InputStream.html?is-external=true" title="class or interface in java.io">InputStream</a>&nbsp;in)</code>&nbsp;</td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/ri/gateway/communicator/service/impl/AbstractSocketCommunicationHandler.html#readMessage--">readMessage</a></span>()</code>&nbsp;</td>
 </tr>
 <tr id="i1" class="rowColor">
-<td class="colFirst"><code>void</code></td>
+<td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/ri/gateway/communicator/service/impl/AbstractSocketCommunicationHandler.html#sendMessage-org.universAAL.ri.gateway.protocol.Message-java.lang.String-">sendMessage</a></span>(<a href="../../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;msg,
            <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;scope)</code>
 <div class="block">Send the given message to a specific scope</div>
-</td>
-</tr>
-<tr id="i2" class="altColor">
-<td class="colFirst"><code>void</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../org/universAAL/ri/gateway/communicator/service/impl/AbstractSocketCommunicationHandler.html#sendMessage-org.universAAL.ri.gateway.protocol.Message-java.lang.String:A-">sendMessage</a></span>(<a href="../../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;msg,
-           <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;scopes)</code>
-<div class="block">Send the given message to a set of scope</div>
 </td>
 </tr>
 </table>
@@ -267,7 +253,7 @@ implements <a href="../../../../../../../org/universAAL/ri/gateway/communicator/
 <ul class="blockListLast">
 <li class="blockList">
 <h4>cipher</h4>
-<pre>protected&nbsp;<a href="../../../../../../../org/universAAL/ri/gateway/communication/cipher/Cipher.html" title="interface in org.universAAL.ri.gateway.communication.cipher">Cipher</a> cipher</pre>
+<pre>protected&nbsp;<a href="../../../../../../../org/universAAL/ri/gateway/communication/cipher/SocketCipher.html" title="interface in org.universAAL.ri.gateway.communication.cipher">SocketCipher</a> cipher</pre>
 </li>
 </ul>
 </li>
@@ -278,13 +264,13 @@ implements <a href="../../../../../../../org/universAAL/ri/gateway/communicator/
 <!--   -->
 </a>
 <h3>Constructor Detail</h3>
-<a name="AbstractSocketCommunicationHandler-org.universAAL.ri.gateway.communication.cipher.Cipher-">
+<a name="AbstractSocketCommunicationHandler-org.universAAL.ri.gateway.communication.cipher.SocketCipher-">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>AbstractSocketCommunicationHandler</h4>
-<pre>public&nbsp;AbstractSocketCommunicationHandler(<a href="../../../../../../../org/universAAL/ri/gateway/communication/cipher/Cipher.html" title="interface in org.universAAL.ri.gateway.communication.cipher">Cipher</a>&nbsp;cipher)</pre>
+<pre>public&nbsp;AbstractSocketCommunicationHandler(<a href="../../../../../../../org/universAAL/ri/gateway/communication/cipher/SocketCipher.html" title="interface in org.universAAL.ri.gateway.communication.cipher">SocketCipher</a>&nbsp;cipher)</pre>
 </li>
 </ul>
 </li>
@@ -295,13 +281,13 @@ implements <a href="../../../../../../../org/universAAL/ri/gateway/communicator/
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a name="readMessage-java.io.InputStream-">
+<a name="readMessage--">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>readMessage</h4>
-<pre>protected&nbsp;<a href="../../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;readMessage(<a href="http://docs.oracle.com/javase/8/docs/api/java/io/InputStream.html?is-external=true" title="class or interface in java.io">InputStream</a>&nbsp;in)
+<pre>protected&nbsp;<a href="../../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;readMessage()
                        throws <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Exception.html?is-external=true" title="class or interface in java.lang">Exception</a></pre>
 <dl>
 <dt><span class="throwsLabel">Throws:</span></dt>
@@ -312,11 +298,11 @@ implements <a href="../../../../../../../org/universAAL/ri/gateway/communicator/
 <a name="sendMessage-org.universAAL.ri.gateway.protocol.Message-java.lang.String-">
 <!--   -->
 </a>
-<ul class="blockList">
+<ul class="blockListLast">
 <li class="blockList">
 <h4>sendMessage</h4>
-<pre>public&nbsp;void&nbsp;sendMessage(<a href="../../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;msg,
-                        <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;scope)</pre>
+<pre>public&nbsp;boolean&nbsp;sendMessage(<a href="../../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;msg,
+                           <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;scope)</pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="../../../../../../../org/universAAL/ri/gateway/communicator/service/CommunicationHandler.html#sendMessage-org.universAAL.ri.gateway.protocol.Message-java.lang.String-">CommunicationHandler</a></code></span></div>
 <div class="block">Send the given message to a specific scope</div>
 <dl>
@@ -325,25 +311,7 @@ implements <a href="../../../../../../../org/universAAL/ri/gateway/communicator/
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>msg</code> - the <a href="../../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol"><code>Message</code></a> to send</dd>
 <dd><code>scope</code> - the scope of the destination of the message</dd>
-</dl>
-</li>
-</ul>
-<a name="sendMessage-org.universAAL.ri.gateway.protocol.Message-java.lang.String:A-">
-<!--   -->
-</a>
-<ul class="blockListLast">
-<li class="blockList">
-<h4>sendMessage</h4>
-<pre>public&nbsp;void&nbsp;sendMessage(<a href="../../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;msg,
-                        <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;scopes)</pre>
-<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="../../../../../../../org/universAAL/ri/gateway/communicator/service/CommunicationHandler.html#sendMessage-org.universAAL.ri.gateway.protocol.Message-java.lang.String:A-">CommunicationHandler</a></code></span></div>
-<div class="block">Send the given message to a set of scope</div>
-<dl>
-<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="../../../../../../../org/universAAL/ri/gateway/communicator/service/CommunicationHandler.html#sendMessage-org.universAAL.ri.gateway.protocol.Message-java.lang.String:A-">sendMessage</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../../../org/universAAL/ri/gateway/communicator/service/CommunicationHandler.html" title="interface in org.universAAL.ri.gateway.communicator.service">CommunicationHandler</a></code></dd>
-<dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>msg</code> - the <a href="../../../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol"><code>Message</code></a> to send</dd>
-<dd><code>scopes</code> - the set of scope as destination of the message</dd>
+<dt><span class="returnLabel">Returns:</span></dt>
 </dl>
 </li>
 </ul>
@@ -416,6 +384,6 @@ implements <a href="../../../../../../../org/universAAL/ri/gateway/communicator/
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2017 <a href="http://www.universAAL.org/">universAAL Consortium</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2018 <a href="http://www.universAAL.org/">universAAL Consortium</a>. All rights reserved.</small></p>
 </body>
 </html>

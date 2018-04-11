@@ -9,20 +9,20 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.tools.ucc.configuration.model.validators.DoubleValidator
-	c3660005 [label=<<table title="org.universAAL.tools.ucc.configuration.model.validators.DoubleValidator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DoubleValidator.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DoubleValidator </td></tr>
-		</table></td></tr>
-		</table>>, URL="./DoubleValidator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.configuration.model.interfaces.ConfigurationValidator
-	c3660033 [label=<<table title="org.universAAL.tools.ucc.configuration.model.interfaces.ConfigurationValidator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../interfaces/ConfigurationValidator.html">
+	c3763813 [label=<<table title="org.universAAL.tools.ucc.configuration.model.interfaces.ConfigurationValidator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../interfaces/ConfigurationValidator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ConfigurationValidator </td></tr>
 		</table></td></tr>
 		</table>>, URL="../interfaces/ConfigurationValidator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.tools.ucc.configuration.model.validators.DoubleValidator
+	c3763816 [label=<<table title="org.universAAL.tools.ucc.configuration.model.validators.DoubleValidator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DoubleValidator.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> DoubleValidator </td></tr>
+		</table></td></tr>
+		</table>>, URL="./DoubleValidator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.ucc.configuration.model.validators.DoubleValidator implements org.universAAL.tools.ucc.configuration.model.interfaces.ConfigurationValidator
-	c3660033:p -> c3660005:p [dir=back,arrowtail=empty,style=dashed];
+	c3763813:p -> c3763816:p [dir=back,arrowtail=empty,style=dashed];
 }
 

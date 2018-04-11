@@ -9,29 +9,29 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.samples.lighting.uiclient.LightingConsumer
-	c1207967 [label=<<table title="org.universAAL.samples.lighting.uiclient.LightingConsumer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingConsumer.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> LightingConsumer </td></tr>
-		</table></td></tr>
-		</table>>, URL="./LightingConsumer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.samples.lighting.uiclient.ServiceProvider
-	c1207968 [label=<<table title="org.universAAL.samples.lighting.uiclient.ServiceProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ServiceProvider.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ServiceProvider </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ServiceProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.samples.lighting.uiclient.UIProvider
-	c1207969 [label=<<table title="org.universAAL.samples.lighting.uiclient.UIProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UIProvider.html">
+	c1262911 [label=<<table title="org.universAAL.samples.lighting.uiclient.UIProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UIProvider.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UIProvider </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UIProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.samples.lighting.uiclient.LightingConsumer
+	c1262912 [label=<<table title="org.universAAL.samples.lighting.uiclient.LightingConsumer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingConsumer.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> LightingConsumer </td></tr>
+		</table></td></tr>
+		</table>>, URL="./LightingConsumer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.samples.lighting.uiclient.SharedResources
-	c1207970 [label=<<table title="org.universAAL.samples.lighting.uiclient.SharedResources" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SharedResources.html">
+	c1262913 [label=<<table title="org.universAAL.samples.lighting.uiclient.SharedResources" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SharedResources.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SharedResources </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SharedResources.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.samples.lighting.uiclient.ServiceProvider
+	c1262914 [label=<<table title="org.universAAL.samples.lighting.uiclient.ServiceProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ServiceProvider.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ServiceProvider </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ServiceProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

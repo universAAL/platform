@@ -9,35 +9,35 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
+	// org.universAAL.ontology.recommendations.HorizontalAlignment
+	c2143168 [label=<<table title="org.universAAL.ontology.recommendations.HorizontalAlignment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HorizontalAlignment.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> HorizontalAlignment </td></tr>
+		</table></td></tr>
+		</table>>, URL="./HorizontalAlignment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.recommendations.VisualRecommendation
-	c2072028 [label=<<table title="org.universAAL.ontology.recommendations.VisualRecommendation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./VisualRecommendation.html">
+	c2143171 [label=<<table title="org.universAAL.ontology.recommendations.VisualRecommendation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./VisualRecommendation.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> VisualRecommendation </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./VisualRecommendation.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.recommendations.Alignment
-	c2072031 [label=<<table title="org.universAAL.ontology.recommendations.Alignment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Alignment.html">
+	c2143178 [label=<<table title="org.universAAL.ontology.recommendations.Alignment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Alignment.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Alignment </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Alignment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.recommendations.HorizontalAlignment
-	c2072036 [label=<<table title="org.universAAL.ontology.recommendations.HorizontalAlignment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HorizontalAlignment.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> HorizontalAlignment </td></tr>
-		</table></td></tr>
-		</table>>, URL="./HorizontalAlignment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.recommendations.VerticalAlignment
-	c2072042 [label=<<table title="org.universAAL.ontology.recommendations.VerticalAlignment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./VerticalAlignment.html">
+	c2143182 [label=<<table title="org.universAAL.ontology.recommendations.VerticalAlignment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./VerticalAlignment.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> VerticalAlignment </td></tr>
 		</table></td></tr>
 		</table>>, URL="./VerticalAlignment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.ontology.recommendations.Alignment extends org.universAAL.ontology.recommendations.VisualRecommendation
-	c2072028:p -> c2072031:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.recommendations.HorizontalAlignment extends org.universAAL.ontology.recommendations.Alignment
-	c2072031:p -> c2072036:p [dir=back,arrowtail=empty];
+	c2143178:p -> c2143168:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.recommendations.Alignment extends org.universAAL.ontology.recommendations.VisualRecommendation
+	c2143171:p -> c2143178:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.recommendations.VerticalAlignment extends org.universAAL.ontology.recommendations.Alignment
-	c2072031:p -> c2072042:p [dir=back,arrowtail=empty];
+	c2143178:p -> c2143182:p [dir=back,arrowtail=empty];
 }
 

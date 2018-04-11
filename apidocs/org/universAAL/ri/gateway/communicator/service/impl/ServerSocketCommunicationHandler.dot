@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ri.gateway.communicator.service.impl.ServerSocketCommunicationHandler
-	c7354010 [label=<<table title="org.universAAL.ri.gateway.communicator.service.impl.ServerSocketCommunicationHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ServerSocketCommunicationHandler.html">
+	c7538676 [label=<<table title="org.universAAL.ri.gateway.communicator.service.impl.ServerSocketCommunicationHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ServerSocketCommunicationHandler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ServerSocketCommunicationHandler </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ServerSocketCommunicationHandler.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.gateway.communicator.service.impl.AbstractSocketCommunicationHandler
-	c7354012 [label=<<table title="org.universAAL.ri.gateway.communicator.service.impl.AbstractSocketCommunicationHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractSocketCommunicationHandler.html">
+	c7538680 [label=<<table title="org.universAAL.ri.gateway.communicator.service.impl.AbstractSocketCommunicationHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractSocketCommunicationHandler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractSocketCommunicationHandler </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractSocketCommunicationHandler.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ri.gateway.communicator.service.impl.ServerSocketCommunicationHandler extends org.universAAL.ri.gateway.communicator.service.impl.AbstractSocketCommunicationHandler
-	c7354012:p -> c7354010:p [dir=back,arrowtail=empty];
+	c7538680:p -> c7538676:p [dir=back,arrowtail=empty];
 }
 

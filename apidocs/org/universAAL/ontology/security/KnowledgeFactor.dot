@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.security.KnowledgeFactor
-	c4950520 [label=<<table title="org.universAAL.ontology.security.KnowledgeFactor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./KnowledgeFactor.html">
+	c5081437 [label=<<table title="org.universAAL.ontology.security.KnowledgeFactor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./KnowledgeFactor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> KnowledgeFactor </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./KnowledgeFactor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.security.Password
-	c4950522 [label=<<table title="org.universAAL.ontology.security.Password" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Password.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Password </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Password.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.security.Factor
-	c4950530 [label=<<table title="org.universAAL.ontology.security.Factor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Factor.html">
+	c5081442 [label=<<table title="org.universAAL.ontology.security.Factor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Factor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Factor </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Factor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.security.Password
+	c5081448 [label=<<table title="org.universAAL.ontology.security.Password" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Password.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Password </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Password.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.security.KnowledgeFactor extends org.universAAL.ontology.security.Factor
-	c4950530:p -> c4950520:p [dir=back,arrowtail=empty];
+	c5081442:p -> c5081437:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.security.Password extends org.universAAL.ontology.security.KnowledgeFactor
-	c4950520:p -> c4950522:p [dir=back,arrowtail=empty];
+	c5081437:p -> c5081448:p [dir=back,arrowtail=empty];
 }
 

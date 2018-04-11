@@ -9,35 +9,35 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.middleware.managers.space.util.RefreshSpaceThread
-	c563665 [label=<<table title="org.universAAL.middleware.managers.space.util.RefreshSpaceThread" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RefreshSpaceThread.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> RefreshSpaceThread </td></tr>
-		</table></td></tr>
-		</table>>, URL="./RefreshSpaceThread.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.managers.space.util.Joiner
-	c563666 [label=<<table title="org.universAAL.middleware.managers.space.util.Joiner" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Joiner.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Joiner </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Joiner.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.space.util.CheckPeerThread
-	c563667 [label=<<table title="org.universAAL.middleware.managers.space.util.CheckPeerThread" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CheckPeerThread.html">
+	c603622 [label=<<table title="org.universAAL.middleware.managers.space.util.CheckPeerThread" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CheckPeerThread.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CheckPeerThread </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CheckPeerThread.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.managers.space.util.Joiner
+	c603623 [label=<<table title="org.universAAL.middleware.managers.space.util.Joiner" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Joiner.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Joiner </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Joiner.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.space.util.Consts
-	c563668 [label=<<table title="org.universAAL.middleware.managers.space.util.Consts" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Consts.html">
+	c603624 [label=<<table title="org.universAAL.middleware.managers.space.util.Consts" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Consts.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Consts </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Consts.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.space.util.SpaceSchemaEventHandler
-	c563669 [label=<<table title="org.universAAL.middleware.managers.space.util.SpaceSchemaEventHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SpaceSchemaEventHandler.html">
+	c603625 [label=<<table title="org.universAAL.middleware.managers.space.util.SpaceSchemaEventHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SpaceSchemaEventHandler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SpaceSchemaEventHandler </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SpaceSchemaEventHandler.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.managers.space.util.RefreshSpaceThread
+	c603626 [label=<<table title="org.universAAL.middleware.managers.space.util.RefreshSpaceThread" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RefreshSpaceThread.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> RefreshSpaceThread </td></tr>
+		</table></td></tr>
+		</table>>, URL="./RefreshSpaceThread.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

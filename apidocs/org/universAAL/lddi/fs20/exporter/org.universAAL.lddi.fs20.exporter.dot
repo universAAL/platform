@@ -9,29 +9,29 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.lddi.fs20.exporter.Activator
-	c794902 [label=<<table title="org.universAAL.lddi.fs20.exporter.Activator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Activator.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Activator </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Activator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.lddi.fs20.exporter.FS20ContextPublisher
-	c794903 [label=<<table title="org.universAAL.lddi.fs20.exporter.FS20ContextPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FS20ContextPublisher.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> FS20ContextPublisher </td></tr>
-		</table></td></tr>
-		</table>>, URL="./FS20ContextPublisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.lddi.fs20.exporter.FS20Server
-	c794904 [label=<<table title="org.universAAL.lddi.fs20.exporter.FS20Server" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FS20Server.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> FS20Server </td></tr>
-		</table></td></tr>
-		</table>>, URL="./FS20Server.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.fs20.exporter.ProvidedFS20Service
-	c794905 [label=<<table title="org.universAAL.lddi.fs20.exporter.ProvidedFS20Service" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProvidedFS20Service.html">
+	c842119 [label=<<table title="org.universAAL.lddi.fs20.exporter.ProvidedFS20Service" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProvidedFS20Service.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProvidedFS20Service </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ProvidedFS20Service.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.lddi.fs20.exporter.Activator
+	c842120 [label=<<table title="org.universAAL.lddi.fs20.exporter.Activator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Activator.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Activator </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Activator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.lddi.fs20.exporter.FS20Server
+	c842121 [label=<<table title="org.universAAL.lddi.fs20.exporter.FS20Server" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FS20Server.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> FS20Server </td></tr>
+		</table></td></tr>
+		</table>>, URL="./FS20Server.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.lddi.fs20.exporter.FS20ContextPublisher
+	c842122 [label=<<table title="org.universAAL.lddi.fs20.exporter.FS20ContextPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FS20ContextPublisher.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> FS20ContextPublisher </td></tr>
+		</table></td></tr>
+		</table>>, URL="./FS20ContextPublisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

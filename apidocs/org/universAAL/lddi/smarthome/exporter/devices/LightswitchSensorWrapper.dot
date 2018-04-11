@@ -9,19 +9,19 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.lddi.smarthome.exporter.devices.AbstractIntegerCallee
-	c5274332 [label=<<table title="org.universAAL.lddi.smarthome.exporter.devices.AbstractIntegerCallee" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractIntegerCallee.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractIntegerCallee </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./AbstractIntegerCallee.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.smarthome.exporter.devices.LightswitchSensorWrapper
-	c5274341 [label=<<table title="org.universAAL.lddi.smarthome.exporter.devices.LightswitchSensorWrapper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LightswitchSensorWrapper.html">
+	c5414224 [label=<<table title="org.universAAL.lddi.smarthome.exporter.devices.LightswitchSensorWrapper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LightswitchSensorWrapper.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LightswitchSensorWrapper </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LightswitchSensorWrapper.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.lddi.smarthome.exporter.devices.AbstractIntegerCallee
+	c5414240 [label=<<table title="org.universAAL.lddi.smarthome.exporter.devices.AbstractIntegerCallee" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractIntegerCallee.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractIntegerCallee </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./AbstractIntegerCallee.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.lddi.smarthome.exporter.devices.LightswitchSensorWrapper extends org.universAAL.lddi.smarthome.exporter.devices.AbstractIntegerCallee
-	c5274332:p -> c5274341:p [dir=back,arrowtail=empty];
+	c5414240:p -> c5414224:p [dir=back,arrowtail=empty];
 }
 

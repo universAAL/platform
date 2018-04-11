@@ -10,34 +10,34 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.phThing.Device
-	c5405682 [label=<<table title="org.universAAL.ontology.phThing.Device" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../phThing/Device.html">
+	c5547992 [label=<<table title="org.universAAL.ontology.phThing.Device" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../phThing/Device.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Device </td></tr>
 		</table></td></tr>
 		</table>>, URL="../phThing/Device.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.X73.MDS
+	c5548418 [label=<<table title="org.universAAL.ontology.X73.MDS" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MDS.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> MDS </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./MDS.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.X73.BloodPressureMonitor
-	c5406031 [label=<<table title="org.universAAL.ontology.X73.BloodPressureMonitor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BloodPressureMonitor.html">
+	c5548422 [label=<<table title="org.universAAL.ontology.X73.BloodPressureMonitor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BloodPressureMonitor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BloodPressureMonitor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BloodPressureMonitor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.X73.WeighingScale
-	c5406037 [label=<<table title="org.universAAL.ontology.X73.WeighingScale" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WeighingScale.html">
+	c5548425 [label=<<table title="org.universAAL.ontology.X73.WeighingScale" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WeighingScale.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> WeighingScale </td></tr>
 		</table></td></tr>
 		</table>>, URL="./WeighingScale.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.X73.MDS
-	c5406043 [label=<<table title="org.universAAL.ontology.X73.MDS" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MDS.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> MDS </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./MDS.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.ontology.X73.BloodPressureMonitor extends org.universAAL.ontology.X73.MDS
-	c5406043:p -> c5406031:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.X73.WeighingScale extends org.universAAL.ontology.X73.MDS
-	c5406043:p -> c5406037:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.X73.MDS extends org.universAAL.ontology.phThing.Device
-	c5405682:p -> c5406043:p [dir=back,arrowtail=empty];
+	c5547992:p -> c5548418:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.X73.BloodPressureMonitor extends org.universAAL.ontology.X73.MDS
+	c5548418:p -> c5548422:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.X73.WeighingScale extends org.universAAL.ontology.X73.MDS
+	c5548418:p -> c5548425:p [dir=back,arrowtail=empty];
 }
 

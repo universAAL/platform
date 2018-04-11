@@ -9,42 +9,42 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.lddi.lib.activityhub.driver.interfaces.ActivityHubDriver
-	c4896298 [label=<<table title="org.universAAL.lddi.lib.activityhub.driver.interfaces.ActivityHubDriver" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../lib/activityhub/driver/interfaces/ActivityHubDriver.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ActivityHubDriver </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="../../../lib/activityhub/driver/interfaces/ActivityHubDriver.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.lib.activityhub.devicecategory.Iso11073SwitchSensor
-	c4896317 [label=<<table title="org.universAAL.lddi.lib.activityhub.devicecategory.Iso11073SwitchSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../lib/activityhub/devicecategory/Iso11073SwitchSensor.html">
+	c5026196 [label=<<table title="org.universAAL.lddi.lib.activityhub.devicecategory.Iso11073SwitchSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../lib/activityhub/devicecategory/Iso11073SwitchSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Iso11073SwitchSensor </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../lib/activityhub/devicecategory/Iso11073SwitchSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.lddi.lib.activityhub.driver.interfaces.ActivityHubDriver
+	c5026203 [label=<<table title="org.universAAL.lddi.lib.activityhub.driver.interfaces.ActivityHubDriver" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../lib/activityhub/driver/interfaces/ActivityHubDriver.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ActivityHubDriver </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="../../../lib/activityhub/driver/interfaces/ActivityHubDriver.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.exporter.activityhub.driver.Iso11073SwitchSensorInstance
-	c4896320 [label=<<table title="org.universAAL.lddi.exporter.activityhub.driver.Iso11073SwitchSensorInstance" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Iso11073SwitchSensorInstance.html">
+	c5026217 [label=<<table title="org.universAAL.lddi.exporter.activityhub.driver.Iso11073SwitchSensorInstance" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Iso11073SwitchSensorInstance.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Iso11073SwitchSensorInstance </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Iso11073SwitchSensorInstance.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.lddi.exporter.activityhub.driver.Iso11073SwitchSensorInstance extends org.universAAL.lddi.lib.activityhub.driver.interfaces.ActivityHubDriver
-	c4896298:p -> c4896320:p [dir=back,arrowtail=empty];
+	c5026203:p -> c5026217:p [dir=back,arrowtail=empty];
 	//org.universAAL.lddi.exporter.activityhub.driver.Iso11073SwitchSensorInstance implements org.universAAL.lddi.lib.activityhub.devicecategory.Iso11073SwitchSensor
-	c4896317:p -> c4896320:p [dir=back,arrowtail=empty,style=dashed];
+	c5026196:p -> c5026217:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.lddi.exporter.activityhub.driver.Iso11073SwitchSensorInstance implements org.osgi.util.tracker.ServiceTrackerCustomizer
-	c4897444:p -> c4896320:p [dir=back,arrowtail=empty,style=dashed];
+	c5027338:p -> c5026217:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.lddi.exporter.activityhub.driver.Iso11073SwitchSensorInstance implements org.osgi.service.device.Constants
-	c4897445:p -> c4896320:p [dir=back,arrowtail=empty,style=dashed];
+	c5027339:p -> c5026217:p [dir=back,arrowtail=empty,style=dashed];
 	// org.osgi.service.device.Constants
-	c4897445 [label=<<table title="org.osgi.service.device.Constants" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/osgi/service/device/Constants.html">
+	c5027339 [label=<<table title="org.osgi.service.device.Constants" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/osgi/service/device/Constants.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Constants </td></tr>
 		</table></td></tr>
 		</table>>, URL="http://java.sun.com/j2se/1.4.2/docs/api/org/osgi/service/device/Constants.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.osgi.util.tracker.ServiceTrackerCustomizer
-	c4897444 [label=<<table title="org.osgi.util.tracker.ServiceTrackerCustomizer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/osgi/util/tracker/ServiceTrackerCustomizer.html">
+	c5027338 [label=<<table title="org.osgi.util.tracker.ServiceTrackerCustomizer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/osgi/util/tracker/ServiceTrackerCustomizer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ServiceTrackerCustomizer </td></tr>

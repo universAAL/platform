@@ -10,42 +10,42 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c6515613 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
+	c6681703 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.profile.SpaceProfile
-	c6516126 [label=<<table title="org.universAAL.ontology.profile.SpaceProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SpaceProfile.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> SpaceProfile </td></tr>
-		</table></td></tr>
-		</table>>, URL="./SpaceProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.profile.Profile
-	c6516138 [label=<<table title="org.universAAL.ontology.profile.Profile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Profile.html">
+	c6682208 [label=<<table title="org.universAAL.ontology.profile.Profile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Profile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Profile </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Profile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.profile.AppServiceProfile
-	c6516140 [label=<<table title="org.universAAL.ontology.profile.AppServiceProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AppServiceProfile.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> AppServiceProfile </td></tr>
-		</table></td></tr>
-		</table>>, URL="./AppServiceProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.profile.UserProfile
-	c6516146 [label=<<table title="org.universAAL.ontology.profile.UserProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UserProfile.html">
+	c6682218 [label=<<table title="org.universAAL.ontology.profile.UserProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UserProfile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UserProfile </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UserProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.ontology.profile.SpaceProfile extends org.universAAL.ontology.profile.Profile
-	c6516138:p -> c6516126:p [dir=back,arrowtail=empty];
+	// org.universAAL.ontology.profile.AppServiceProfile
+	c6682225 [label=<<table title="org.universAAL.ontology.profile.AppServiceProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AppServiceProfile.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> AppServiceProfile </td></tr>
+		</table></td></tr>
+		</table>>, URL="./AppServiceProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.profile.SpaceProfile
+	c6682227 [label=<<table title="org.universAAL.ontology.profile.SpaceProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SpaceProfile.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> SpaceProfile </td></tr>
+		</table></td></tr>
+		</table>>, URL="./SpaceProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.profile.Profile extends org.universAAL.middleware.owl.ManagedIndividual
-	c6515613:p -> c6516138:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.profile.AppServiceProfile extends org.universAAL.ontology.profile.Profile
-	c6516138:p -> c6516140:p [dir=back,arrowtail=empty];
+	c6681703:p -> c6682208:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.profile.UserProfile extends org.universAAL.ontology.profile.Profile
-	c6516138:p -> c6516146:p [dir=back,arrowtail=empty];
+	c6682208:p -> c6682218:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.profile.AppServiceProfile extends org.universAAL.ontology.profile.Profile
+	c6682208:p -> c6682225:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.profile.SpaceProfile extends org.universAAL.ontology.profile.Profile
+	c6682208:p -> c6682227:p [dir=back,arrowtail=empty];
 }
 

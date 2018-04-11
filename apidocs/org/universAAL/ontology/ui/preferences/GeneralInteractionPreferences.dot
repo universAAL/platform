@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.ui.owl.Preference
-	c4122093 [label=<<table title="org.universAAL.middleware.ui.owl.Preference" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/ui/owl/Preference.html">
+	c4237458 [label=<<table title="org.universAAL.middleware.ui.owl.Preference" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../middleware/ui/owl/Preference.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Preference </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../middleware/ui/owl/Preference.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.ui.preferences.GeneralInteractionPreferences
-	c4122532 [label=<<table title="org.universAAL.ontology.ui.preferences.GeneralInteractionPreferences" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GeneralInteractionPreferences.html">
+	c4237963 [label=<<table title="org.universAAL.ontology.ui.preferences.GeneralInteractionPreferences" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GeneralInteractionPreferences.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> GeneralInteractionPreferences </td></tr>
 		</table></td></tr>
 		</table>>, URL="./GeneralInteractionPreferences.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.ui.preferences.GeneralInteractionPreferences extends org.universAAL.middleware.ui.owl.Preference
-	c4122093:p -> c4122532:p [dir=back,arrowtail=empty];
+	c4237458:p -> c4237963:p [dir=back,arrowtail=empty];
 }
 

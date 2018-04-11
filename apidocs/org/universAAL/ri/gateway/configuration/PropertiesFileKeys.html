@@ -89,10 +89,10 @@
 <div class="subTitle">org.universAAL.ri.gateway.configuration</div>
 <h2 title="Interface PropertiesFileKeys" class="title">Interface PropertiesFileKeys</h2>
 <map id="G" name="G">
-<area shape="rect" id="c6566553" href="./ConfigurationFile.html" title="org.universAAL.ri.gateway.configuration.ConfigurationFile" alt="" coords="22,118,141,143"/>
-<area shape="rect" id="node1" href="./ConfigurationFile.html" title="&lt;TABLE&gt;" alt="" coords="12,107,151,155"/>
-<area shape="rect" id="c6566559" href="./PropertiesFileKeys.html" title="org.universAAL.ri.gateway.configuration.PropertiesFileKeys" alt="" coords="16,11,147,53"/>
-<area shape="rect" id="node2" href="./PropertiesFileKeys.html" title="&lt;TABLE&gt;" alt="" coords="5,6,157,58"/>
+<area shape="rect" id="node1_0" href="./PropertiesFileKeys.html" title="org.universAAL.ri.gateway.configuration.PropertiesFileKeys" alt="" coords="16,11,147,55"/>
+<area shape="rect" id="node1" href="./PropertiesFileKeys.html" title="&lt;TABLE&gt;" alt="" coords="5,6,157,61"/>
+<area shape="rect" id="node2_1" href="./ConfigurationFile.html" title="org.universAAL.ri.gateway.configuration.ConfigurationFile" alt="" coords="22,120,141,147"/>
+<area shape="rect" id="node2" href="./ConfigurationFile.html" title="&lt;TABLE&gt;" alt="" coords="11,109,151,157"/>
 </map>
 <!-- UML diagram added by UMLGraph version R5_6-24-gf6e263 (http://www.umlgraph.org/) -->
 <div align="center"><img src="PropertiesFileKeys.png" alt="Package class diagram package PropertiesFileKeys" usemap="#G" border=0/></div>
@@ -133,37 +133,71 @@
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#CHIPER_CLASS">CHIPER_CLASS</a></span></code>
+<div class="block">System property indicating the <a href="../../../../../org/universAAL/ri/gateway/communication/cipher/SocketCipher.html" title="interface in org.universAAL.ri.gateway.communication.cipher"><code>SocketCipher</code></a> that should be loaded
+ to manage channel encryption.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#CONNECTION_MODE">CONNECTION_MODE</a></span></code>
 <div class="block">System property used to determine if the connection should be set up as a
  client (use value CLIENT) or as a server (use value SERVER).</div>
 </td>
 </tr>
+<tr class="altColor">
+<td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#EXPORT_ATTEMPTS">EXPORT_ATTEMPTS</a></span></code>
+<div class="block">System property indicating the maximum number of export attempts.</div>
+</td>
+</tr>
 <tr class="rowColor">
 <td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#HASH_KEY">HASH_KEY</a></span></code>
-<div class="block">The Key for encryption.</div>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#PRE_CONN_CACHE">PRE_CONN_CACHE</a></span></code>
+<div class="block">System property indicating if the gateway should cache messages before
+ the connection is actually established.</div>
 </td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#REMOTE_HOST">REMOTE_HOST</a></span></code>
-<div class="block">System property used for specifying remote Space Gateways addresses
- that is running in Server Mode and that we should connect to</div>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#QUEUES">QUEUES</a></span></code>
+<div class="block">System property indicating the maximum size of message queues</div>
 </td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#REMOTE_HOST">REMOTE_HOST</a></span></code>
+<div class="block">System property used for specifying remote Space Gateways addresses that
+ is running in Server Mode and that we should connect to</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#SECURITY_DEFINITION">SECURITY_DEFINITION</a></span></code>
 <div class="block">System property that defines the turtle file that defines which imports,
- exports, and messages are allowed or denyed.</div>
+ exports, and messages are allowed or denied.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#SERVER_THREADS">SERVER_THREADS</a></span></code>
+<div class="block">System property indicating the number of threads to be used for server
+ mode.</div>
 </td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#SOCKET_PORT">SOCKET_PORT</a></span></code>
-<div class="block">System property used for specifying the socket port of the Space
- Gateway to connec to, in case that it is running in Server-Mode it is the
- socket to listen to.</div>
+<div class="block">System property used for specifying the socket port of the Space Gateway
+ to connec to, in case that it is running in Server-Mode it is the socket
+ to listen to.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>static <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#TIMEOUT">TIMEOUT</a></span></code>
+<div class="block">System property defining the time in milliseconds for which the gateway
+ should wait.</div>
 </td>
 </tr>
 </table>
@@ -188,8 +222,8 @@
 <li class="blockList">
 <h4>REMOTE_HOST</h4>
 <pre>static final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> REMOTE_HOST</pre>
-<div class="block">System property used for specifying remote Space Gateways addresses
- that is running in Server Mode and that we should connect to</div>
+<div class="block">System property used for specifying remote Space Gateways addresses that
+ is running in Server Mode and that we should connect to</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
 <dd><a href="../../../../../constant-values.html#org.universAAL.ri.gateway.configuration.PropertiesFileKeys.REMOTE_HOST">Constant Field Values</a></dd>
@@ -203,9 +237,9 @@
 <li class="blockList">
 <h4>SOCKET_PORT</h4>
 <pre>static final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> SOCKET_PORT</pre>
-<div class="block">System property used for specifying the socket port of the Space
- Gateway to connec to, in case that it is running in Server-Mode it is the
- socket to listen to.</div>
+<div class="block">System property used for specifying the socket port of the Space Gateway
+ to connec to, in case that it is running in Server-Mode it is the socket
+ to listen to.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
 <dd><a href="../../../../../constant-values.html#org.universAAL.ri.gateway.configuration.PropertiesFileKeys.SOCKET_PORT">Constant Field Values</a></dd>
@@ -235,24 +269,99 @@
 <h4>SECURITY_DEFINITION</h4>
 <pre>static final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> SECURITY_DEFINITION</pre>
 <div class="block">System property that defines the turtle file that defines which imports,
- exports, and messages are allowed or denyed.</div>
+ exports, and messages are allowed or denied.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
 <dd><a href="../../../../../constant-values.html#org.universAAL.ri.gateway.configuration.PropertiesFileKeys.SECURITY_DEFINITION">Constant Field Values</a></dd>
 </dl>
 </li>
 </ul>
-<a name="HASH_KEY">
+<a name="CHIPER_CLASS">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>CHIPER_CLASS</h4>
+<pre>static final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> CHIPER_CLASS</pre>
+<div class="block">System property indicating the <a href="../../../../../org/universAAL/ri/gateway/communication/cipher/SocketCipher.html" title="interface in org.universAAL.ri.gateway.communication.cipher"><code>SocketCipher</code></a> that should be loaded
+ to manage channel encryption. Each <a href="../../../../../org/universAAL/ri/gateway/communication/cipher/SocketCipher.html" title="interface in org.universAAL.ri.gateway.communication.cipher"><code>SocketCipher</code></a> should have its
+ own configuration entries.</div>
+<dl>
+<dt><span class="seeLabel">See Also:</span></dt>
+<dd><a href="../../../../../constant-values.html#org.universAAL.ri.gateway.configuration.PropertiesFileKeys.CHIPER_CLASS">Constant Field Values</a></dd>
+</dl>
+</li>
+</ul>
+<a name="TIMEOUT">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>TIMEOUT</h4>
+<pre>static final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> TIMEOUT</pre>
+<div class="block">System property defining the time in milliseconds for which the gateway
+ should wait.</div>
+<dl>
+<dt><span class="seeLabel">See Also:</span></dt>
+<dd><a href="../../../../../constant-values.html#org.universAAL.ri.gateway.configuration.PropertiesFileKeys.TIMEOUT">Constant Field Values</a></dd>
+</dl>
+</li>
+</ul>
+<a name="PRE_CONN_CACHE">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>PRE_CONN_CACHE</h4>
+<pre>static final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> PRE_CONN_CACHE</pre>
+<div class="block">System property indicating if the gateway should cache messages before
+ the connection is actually established. "true" or "false".</div>
+<dl>
+<dt><span class="seeLabel">See Also:</span></dt>
+<dd><a href="../../../../../constant-values.html#org.universAAL.ri.gateway.configuration.PropertiesFileKeys.PRE_CONN_CACHE">Constant Field Values</a></dd>
+</dl>
+</li>
+</ul>
+<a name="QUEUES">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>QUEUES</h4>
+<pre>static final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> QUEUES</pre>
+<div class="block">System property indicating the maximum size of message queues</div>
+<dl>
+<dt><span class="seeLabel">See Also:</span></dt>
+<dd><a href="../../../../../constant-values.html#org.universAAL.ri.gateway.configuration.PropertiesFileKeys.QUEUES">Constant Field Values</a></dd>
+</dl>
+</li>
+</ul>
+<a name="EXPORT_ATTEMPTS">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>EXPORT_ATTEMPTS</h4>
+<pre>static final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> EXPORT_ATTEMPTS</pre>
+<div class="block">System property indicating the maximum number of export attempts.</div>
+<dl>
+<dt><span class="seeLabel">See Also:</span></dt>
+<dd><a href="../../../../../constant-values.html#org.universAAL.ri.gateway.configuration.PropertiesFileKeys.EXPORT_ATTEMPTS">Constant Field Values</a></dd>
+</dl>
+</li>
+</ul>
+<a name="SERVER_THREADS">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
-<h4>HASH_KEY</h4>
-<pre>static final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> HASH_KEY</pre>
-<div class="block">The Key for encryption.</div>
+<h4>SERVER_THREADS</h4>
+<pre>static final&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> SERVER_THREADS</pre>
+<div class="block">System property indicating the number of threads to be used for server
+ mode.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../../constant-values.html#org.universAAL.ri.gateway.configuration.PropertiesFileKeys.HASH_KEY">Constant Field Values</a></dd>
+<dd><a href="../../../../../constant-values.html#org.universAAL.ri.gateway.configuration.PropertiesFileKeys.SERVER_THREADS">Constant Field Values</a></dd>
 </dl>
 </li>
 </ul>
@@ -325,6 +434,6 @@
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2017 <a href="http://www.universAAL.org/">universAAL Consortium</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2018 <a href="http://www.universAAL.org/">universAAL Consortium</a>. All rights reserved.</small></p>
 </body>
 </html>

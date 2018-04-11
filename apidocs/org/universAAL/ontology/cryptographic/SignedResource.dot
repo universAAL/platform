@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c7568345 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
+	c7757083 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.cryptographic.SignedResource
-	c7569341 [label=<<table title="org.universAAL.ontology.cryptographic.SignedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SignedResource.html">
+	c7758116 [label=<<table title="org.universAAL.ontology.cryptographic.SignedResource" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SignedResource.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SignedResource </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SignedResource.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.security.DelegationForm
-	c7569391 [label=<<table title="org.universAAL.ontology.security.DelegationForm" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../security/DelegationForm.html">
+	c7758140 [label=<<table title="org.universAAL.ontology.security.DelegationForm" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../security/DelegationForm.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DelegationForm </td></tr>
 		</table></td></tr>
 		</table>>, URL="../security/DelegationForm.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.cryptographic.SignedResource extends org.universAAL.middleware.owl.ManagedIndividual
-	c7568345:p -> c7569341:p [dir=back,arrowtail=empty];
+	c7757083:p -> c7758116:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.security.DelegationForm extends org.universAAL.ontology.cryptographic.SignedResource
-	c7569341:p -> c7569391:p [dir=back,arrowtail=empty];
+	c7758116:p -> c7758140:p [dir=back,arrowtail=empty];
 }
 

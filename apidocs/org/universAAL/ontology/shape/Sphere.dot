@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.shape.Shape3D
-	c7805359 [label=<<table title="org.universAAL.ontology.shape.Shape3D" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Shape3D.html">
+	c7998459 [label=<<table title="org.universAAL.ontology.shape.Shape3D" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Shape3D.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Shape3D </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Shape3D.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.shape.Sphere
-	c7805362 [label=<<table title="org.universAAL.ontology.shape.Sphere" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Sphere.html">
+	c7998462 [label=<<table title="org.universAAL.ontology.shape.Sphere" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Sphere.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Sphere </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Sphere.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.shape.Sphere extends org.universAAL.ontology.shape.Shape3D
-	c7805359:p -> c7805362:p [dir=back,arrowtail=empty];
+	c7998459:p -> c7998462:p [dir=back,arrowtail=empty];
 }
 

@@ -9,71 +9,71 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ri.gateway.protocol.ImportMessage
-	c965319 [label=<<table title="org.universAAL.ri.gateway.protocol.ImportMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ImportMessage.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ImportMessage </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ImportMessage.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ri.gateway.protocol.ImportMessage.ImportMessageType
-	c965320 [label=<<table title="org.universAAL.ri.gateway.protocol.ImportMessage.ImportMessageType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ImportMessage.ImportMessageType.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
-<tr><td align="center" balign="center"> ImportMessageType </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ImportMessage.ImportMessageType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ri.gateway.protocol.ErrorMessage
-	c965321 [label=<<table title="org.universAAL.ri.gateway.protocol.ErrorMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ErrorMessage.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ErrorMessage </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ErrorMessage.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ri.gateway.protocol.WrappedBusMessage
-	c965322 [label=<<table title="org.universAAL.ri.gateway.protocol.WrappedBusMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WrappedBusMessage.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> WrappedBusMessage </td></tr>
-		</table></td></tr>
-		</table>>, URL="./WrappedBusMessage.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ri.gateway.protocol.Message
-	c965323 [label=<<table title="org.universAAL.ri.gateway.protocol.Message" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Message.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Message </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./Message.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ri.gateway.protocol.LinkMessage
-	c965324 [label=<<table title="org.universAAL.ri.gateway.protocol.LinkMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LinkMessage.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> LinkMessage </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./LinkMessage.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ri.gateway.protocol.LinkMessage.LinkMessageType
-	c965325 [label=<<table title="org.universAAL.ri.gateway.protocol.LinkMessage.LinkMessageType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LinkMessage.LinkMessageType.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
-<tr><td align="center" balign="center"> LinkMessageType </td></tr>
-		</table></td></tr>
-		</table>>, URL="./LinkMessage.LinkMessageType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.gateway.protocol.MessageSender
-	c965326 [label=<<table title="org.universAAL.ri.gateway.protocol.MessageSender" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MessageSender.html">
+	c1036307 [label=<<table title="org.universAAL.ri.gateway.protocol.MessageSender" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MessageSender.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> MessageSender </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MessageSender.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.gateway.protocol.MessageReceiver
-	c965327 [label=<<table title="org.universAAL.ri.gateway.protocol.MessageReceiver" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MessageReceiver.html">
+	c1036308 [label=<<table title="org.universAAL.ri.gateway.protocol.MessageReceiver" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MessageReceiver.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> MessageReceiver </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MessageReceiver.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ri.gateway.protocol.ImportMessage
+	c1036309 [label=<<table title="org.universAAL.ri.gateway.protocol.ImportMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ImportMessage.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ImportMessage </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ImportMessage.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ri.gateway.protocol.ImportMessage.ImportMessageType
+	c1036310 [label=<<table title="org.universAAL.ri.gateway.protocol.ImportMessage.ImportMessageType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ImportMessage.ImportMessageType.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
+<tr><td align="center" balign="center"> ImportMessageType </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ImportMessage.ImportMessageType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ri.gateway.protocol.LinkMessage
+	c1036311 [label=<<table title="org.universAAL.ri.gateway.protocol.LinkMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LinkMessage.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> LinkMessage </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./LinkMessage.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ri.gateway.protocol.LinkMessage.LinkMessageType
+	c1036312 [label=<<table title="org.universAAL.ri.gateway.protocol.LinkMessage.LinkMessageType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LinkMessage.LinkMessageType.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
+<tr><td align="center" balign="center"> LinkMessageType </td></tr>
+		</table></td></tr>
+		</table>>, URL="./LinkMessage.LinkMessageType.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ri.gateway.protocol.WrappedBusMessage
+	c1036313 [label=<<table title="org.universAAL.ri.gateway.protocol.WrappedBusMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WrappedBusMessage.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> WrappedBusMessage </td></tr>
+		</table></td></tr>
+		</table>>, URL="./WrappedBusMessage.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ri.gateway.protocol.ErrorMessage
+	c1036314 [label=<<table title="org.universAAL.ri.gateway.protocol.ErrorMessage" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ErrorMessage.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ErrorMessage </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ErrorMessage.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ri.gateway.protocol.Message
+	c1036315 [label=<<table title="org.universAAL.ri.gateway.protocol.Message" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Message.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Message </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./Message.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ri.gateway.protocol.ImportMessage extends org.universAAL.ri.gateway.protocol.Message
-	c965323:p -> c965319:p [dir=back,arrowtail=empty];
-	//org.universAAL.ri.gateway.protocol.ErrorMessage extends org.universAAL.ri.gateway.protocol.Message
-	c965323:p -> c965321:p [dir=back,arrowtail=empty];
-	//org.universAAL.ri.gateway.protocol.WrappedBusMessage extends org.universAAL.ri.gateway.protocol.Message
-	c965323:p -> c965322:p [dir=back,arrowtail=empty];
+	c1036315:p -> c1036309:p [dir=back,arrowtail=empty];
 	//org.universAAL.ri.gateway.protocol.LinkMessage extends org.universAAL.ri.gateway.protocol.Message
-	c965323:p -> c965324:p [dir=back,arrowtail=empty];
+	c1036315:p -> c1036311:p [dir=back,arrowtail=empty];
+	//org.universAAL.ri.gateway.protocol.WrappedBusMessage extends org.universAAL.ri.gateway.protocol.Message
+	c1036315:p -> c1036313:p [dir=back,arrowtail=empty];
+	//org.universAAL.ri.gateway.protocol.ErrorMessage extends org.universAAL.ri.gateway.protocol.Message
+	c1036315:p -> c1036314:p [dir=back,arrowtail=empty];
 }
 

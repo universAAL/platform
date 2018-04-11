@@ -18,7 +18,7 @@
     catch(err) {
     }
 //-->
-var methods = {"i0":10,"i1":10,"i2":10};
+var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10};
 var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -50,7 +50,7 @@ var activeTableTab = "activeTableTab";
 <div class="subNav">
 <ul class="navList">
 <li>Prev&nbsp;Class</li>
-<li><a href="../../../../../org/universAAL/ri/gateway/proxies/ProxyBusMember.html" title="interface in org.universAAL.ri.gateway.proxies"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
+<li><a href="../../../../../org/universAAL/ri/gateway/proxies/BusMemberReferenceTemporal.html" title="class in org.universAAL.ri.gateway.proxies"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
 </ul>
 <ul class="navList">
 <li><a href="../../../../../index.html?org/universAAL/ri/gateway/proxies/BusMemberReference.html" target="_top">Frames</a></li>
@@ -75,13 +75,13 @@ var activeTableTab = "activeTableTab";
 <ul class="subNavList">
 <li>Summary:&nbsp;</li>
 <li>Nested&nbsp;|&nbsp;</li>
-<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#field.summary">Field</a>&nbsp;|&nbsp;</li>
 <li><a href="#constructor.summary">Constr</a>&nbsp;|&nbsp;</li>
 <li><a href="#method.summary">Method</a></li>
 </ul>
 <ul class="subNavList">
 <li>Detail:&nbsp;</li>
-<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#field.detail">Field</a>&nbsp;|&nbsp;</li>
 <li><a href="#constructor.detail">Constr</a>&nbsp;|&nbsp;</li>
 <li><a href="#method.detail">Method</a></li>
 </ul>
@@ -95,10 +95,12 @@ var activeTableTab = "activeTableTab";
 <div class="subTitle">org.universAAL.ri.gateway.proxies</div>
 <h2 title="Class BusMemberReference" class="title">Class BusMemberReference</h2>
 <map id="G" name="G">
-<area shape="rect" id="c2485449" href="./BusMemberReference.html" title="org.universAAL.ri.gateway.proxies.BusMemberReference" alt="" coords="15,118,166,143"/>
-<area shape="rect" id="node1" href="./BusMemberReference.html" title="&lt;TABLE&gt;" alt="" coords="5,107,176,155"/>
-<area shape="rect" id="c2486257" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html" title="java.io.Serializable" alt="" coords="47,11,135,53"/>
-<area shape="rect" id="node2" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html" title="&lt;TABLE&gt;" alt="" coords="36,6,145,58"/>
+<area shape="rect" id="node1_0" href="./BusMemberReference.html" title="org.universAAL.ri.gateway.proxies.BusMemberReference" alt="" coords="43,120,194,147"/>
+<area shape="rect" id="node1" href="./BusMemberReference.html" title="&lt;TABLE&gt;" alt="" coords="33,109,205,157"/>
+<area shape="rect" id="node2_1" href="./BusMemberReferenceTemporal.html" title="org.universAAL.ri.gateway.proxies.BusMemberReferenceTemporal" alt="" coords="16,216,221,243"/>
+<area shape="rect" id="node2" href="./BusMemberReferenceTemporal.html" title="&lt;TABLE&gt;" alt="" coords="5,205,232,253"/>
+<area shape="rect" id="node3_2" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html" title="java.io.Serializable" alt="" coords="75,11,163,55"/>
+<area shape="rect" id="node3" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html" title="&lt;TABLE&gt;" alt="" coords="64,6,173,61"/>
 </map>
 <!-- UML diagram added by UMLGraph version R5_6-24-gf6e263 (http://www.umlgraph.org/) -->
 <div align="center"><img src="BusMemberReference.png" alt="Package class diagram package BusMemberReference" usemap="#G" border=0/></div>
@@ -119,6 +121,10 @@ var activeTableTab = "activeTableTab";
 <dt>All Implemented Interfaces:</dt>
 <dd><a href="http://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html?is-external=true" title="class or interface in java.io">Serializable</a></dd>
 </dl>
+<dl>
+<dt>Direct Known Subclasses:</dt>
+<dd><a href="../../../../../org/universAAL/ri/gateway/proxies/BusMemberReferenceTemporal.html" title="class in org.universAAL.ri.gateway.proxies">BusMemberReferenceTemporal</a></dd>
+</dl>
 <hr>
 <br>
 <pre>public class <span class="typeNameLabel">BusMemberReference</span>
@@ -137,6 +143,33 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/io/Serializabl
 <div class="summary">
 <ul class="blockList">
 <li class="blockList">
+<!-- =========== FIELD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="field.summary">
+<!--   -->
+</a>
+<h3>Field Summary</h3>
+<table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Field Summary table, listing fields, and an explanation">
+<caption><span>Fields</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Field and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>protected <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/proxies/BusMemberReference.html#busMemberid">busMemberid</a></span></code>
+<div class="block">The <a href="../../../../../org/universAAL/middleware/bus/member/BusMember.html" title="class in org.universAAL.middleware.bus.member"><code>BusMember</code></a> id at the remote side identified.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>protected <a href="../../../../../org/universAAL/ri/gateway/Session.html" title="class in org.universAAL.ri.gateway">Session</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/proxies/BusMemberReference.html#sender">sender</a></span></code>
+<div class="block"><a href="../../../../../org/universAAL/ri/gateway/Session.html" title="class in org.universAAL.ri.gateway"><code>Session</code></a> to use in order to reach the <a href="../../../../../org/universAAL/middleware/bus/member/BusMember.html" title="class in org.universAAL.middleware.bus.member"><code>BusMember</code></a></div>
+</td>
+</tr>
+</table>
+</li>
+</ul>
 <!-- ======== CONSTRUCTOR SUMMARY ======== -->
 <ul class="blockList">
 <li class="blockList"><a name="constructor.summary">
@@ -146,10 +179,18 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/io/Serializabl
 <table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Constructor Summary table, listing constructors, and an explanation">
 <caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
 <tr>
-<th class="colOne" scope="col">Constructor and Description</th>
+<th class="colFirst" scope="col">Modifier</th>
+<th class="colLast" scope="col">Constructor and Description</th>
 </tr>
 <tr class="altColor">
-<td class="colOne"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/proxies/BusMemberReference.html#BusMemberReference-org.universAAL.ri.gateway.Session-java.lang.String-">BusMemberReference</a></span>(<a href="../../../../../org/universAAL/ri/gateway/Session.html" title="class in org.universAAL.ri.gateway">Session</a>&nbsp;session,
+<td class="colFirst"><code>protected </code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/proxies/BusMemberReference.html#BusMemberReference-org.universAAL.ri.gateway.Session-">BusMemberReference</a></span>(<a href="../../../../../org/universAAL/ri/gateway/Session.html" title="class in org.universAAL.ri.gateway">Session</a>&nbsp;session)</code>
+<div class="block">To be used only by subclasses.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/proxies/BusMemberReference.html#BusMemberReference-org.universAAL.ri.gateway.Session-java.lang.String-">BusMemberReference</a></span>(<a href="../../../../../org/universAAL/ri/gateway/Session.html" title="class in org.universAAL.ri.gateway">Session</a>&nbsp;session,
                   <a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;busMemberid)</code>
 <div class="block">Constructor for a <a href="../../../../../org/universAAL/middleware/bus/member/BusMember.html" title="class in org.universAAL.middleware.bus.member"><code>BusMember</code></a> identifier.</div>
 </td>
@@ -185,6 +226,18 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/io/Serializabl
 <div class="block">Get the <a href="../../../../../org/universAAL/ri/gateway/Session.html" title="class in org.universAAL.ri.gateway"><code>Session</code></a> to reach the <a href="../../../../../org/universAAL/middleware/bus/member/BusMember.html" title="class in org.universAAL.middleware.bus.member"><code>BusMember</code></a>.</div>
 </td>
 </tr>
+<tr id="i3" class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/proxies/BusMemberReference.html#send-org.universAAL.middleware.rdf.ScopedResource-">send</a></span>(<a href="../../../../../org/universAAL/middleware/rdf/ScopedResource.html" title="class in org.universAAL.middleware.rdf">ScopedResource</a>&nbsp;message)</code>
+<div class="block">To be used by <a href="../../../../../org/universAAL/ri/gateway/proxies/ProxyBusMember.html" title="interface in org.universAAL.ri.gateway.proxies"><code>ProxyBusMember</code></a>s.</div>
+</td>
+</tr>
+<tr id="i4" class="altColor">
+<td class="colFirst"><code><a href="../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/proxies/BusMemberReference.html#sendRequest-org.universAAL.middleware.rdf.ScopedResource-">sendRequest</a></span>(<a href="../../../../../org/universAAL/middleware/rdf/ScopedResource.html" title="class in org.universAAL.middleware.rdf">ScopedResource</a>&nbsp;message)</code>
+<div class="block">To be used by <a href="../../../../../org/universAAL/ri/gateway/proxies/ProxyBusMember.html" title="interface in org.universAAL.ri.gateway.proxies"><code>ProxyBusMember</code></a>s.</div>
+</td>
+</tr>
 </table>
 <ul class="blockList">
 <li class="blockList"><a name="methods.inherited.from.class.java.lang.Object">
@@ -201,6 +254,34 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/io/Serializabl
 <div class="details">
 <ul class="blockList">
 <li class="blockList">
+<!-- ============ FIELD DETAIL =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="field.detail">
+<!--   -->
+</a>
+<h3>Field Detail</h3>
+<a name="sender">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>sender</h4>
+<pre>protected final&nbsp;<a href="../../../../../org/universAAL/ri/gateway/Session.html" title="class in org.universAAL.ri.gateway">Session</a> sender</pre>
+<div class="block"><a href="../../../../../org/universAAL/ri/gateway/Session.html" title="class in org.universAAL.ri.gateway"><code>Session</code></a> to use in order to reach the <a href="../../../../../org/universAAL/middleware/bus/member/BusMember.html" title="class in org.universAAL.middleware.bus.member"><code>BusMember</code></a></div>
+</li>
+</ul>
+<a name="busMemberid">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>busMemberid</h4>
+<pre>protected&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> busMemberid</pre>
+<div class="block">The <a href="../../../../../org/universAAL/middleware/bus/member/BusMember.html" title="class in org.universAAL.middleware.bus.member"><code>BusMember</code></a> id at the remote side identified.</div>
+</li>
+</ul>
+</li>
+</ul>
 <!-- ========= CONSTRUCTOR DETAIL ======== -->
 <ul class="blockList">
 <li class="blockList"><a name="constructor.detail">
@@ -210,7 +291,7 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/io/Serializabl
 <a name="BusMemberReference-org.universAAL.ri.gateway.Session-java.lang.String-">
 <!--   -->
 </a>
-<ul class="blockListLast">
+<ul class="blockList">
 <li class="blockList">
 <h4>BusMemberReference</h4>
 <pre>public&nbsp;BusMemberReference(<a href="../../../../../org/universAAL/ri/gateway/Session.html" title="class in org.universAAL.ri.gateway">Session</a>&nbsp;session,
@@ -220,6 +301,20 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/io/Serializabl
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>session</code> - </dd>
 <dd><code>busMemberid</code> - </dd>
+</dl>
+</li>
+</ul>
+<a name="BusMemberReference-org.universAAL.ri.gateway.Session-">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>BusMemberReference</h4>
+<pre>protected&nbsp;BusMemberReference(<a href="../../../../../org/universAAL/ri/gateway/Session.html" title="class in org.universAAL.ri.gateway">Session</a>&nbsp;session)</pre>
+<div class="block">To be used only by subclasses.</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>session</code> - </dd>
 </dl>
 </li>
 </ul>
@@ -262,13 +357,44 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/io/Serializabl
 <a name="equals-java.lang.Object-">
 <!--   -->
 </a>
-<ul class="blockListLast">
+<ul class="blockList">
 <li class="blockList">
 <h4>equals</h4>
 <pre>public&nbsp;boolean&nbsp;equals(<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;obj)</pre>
 <dl>
 <dt><span class="overrideSpecifyLabel">Overrides:</span></dt>
 <dd><code><a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true#equals-java.lang.Object-" title="class or interface in java.lang">equals</a></code>&nbsp;in class&nbsp;<code><a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="send-org.universAAL.middleware.rdf.ScopedResource-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>send</h4>
+<pre>public&nbsp;void&nbsp;send(<a href="../../../../../org/universAAL/middleware/rdf/ScopedResource.html" title="class in org.universAAL.middleware.rdf">ScopedResource</a>&nbsp;message)</pre>
+<div class="block">To be used by <a href="../../../../../org/universAAL/ri/gateway/proxies/ProxyBusMember.html" title="interface in org.universAAL.ri.gateway.proxies"><code>ProxyBusMember</code></a>s.</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>message</code> - The <a href="../../../../../org/universAAL/middleware/context/ContextEvent.html" title="class in org.universAAL.middleware.context"><code>ContextEvent</code></a> to be sent</dd>
+</dl>
+</li>
+</ul>
+<a name="sendRequest-org.universAAL.middleware.rdf.ScopedResource-">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>sendRequest</h4>
+<pre>public&nbsp;<a href="../../../../../org/universAAL/ri/gateway/protocol/Message.html" title="class in org.universAAL.ri.gateway.protocol">Message</a>&nbsp;sendRequest(<a href="../../../../../org/universAAL/middleware/rdf/ScopedResource.html" title="class in org.universAAL.middleware.rdf">ScopedResource</a>&nbsp;message)
+                    throws <a href="http://docs.oracle.com/javase/8/docs/api/java/util/concurrent/TimeoutException.html?is-external=true" title="class or interface in java.util.concurrent">TimeoutException</a></pre>
+<div class="block">To be used by <a href="../../../../../org/universAAL/ri/gateway/proxies/ProxyBusMember.html" title="interface in org.universAAL.ri.gateway.proxies"><code>ProxyBusMember</code></a>s.</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>message</code> - The <a href="../../../../../org/universAAL/middleware/service/ServiceRequest.html" title="class in org.universAAL.middleware.service"><code>ServiceRequest</code></a> or <a href="../../../../../org/universAAL/middleware/ui/UIRequest.html" title="class in org.universAAL.middleware.ui"><code>UIRequest</code></a> to be sent.</dd>
+<dt><span class="throwsLabel">Throws:</span></dt>
+<dd><code><a href="http://docs.oracle.com/javase/8/docs/api/java/util/concurrent/TimeoutException.html?is-external=true" title="class or interface in java.util.concurrent">TimeoutException</a></code></dd>
 </dl>
 </li>
 </ul>
@@ -301,7 +427,7 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/io/Serializabl
 <div class="subNav">
 <ul class="navList">
 <li>Prev&nbsp;Class</li>
-<li><a href="../../../../../org/universAAL/ri/gateway/proxies/ProxyBusMember.html" title="interface in org.universAAL.ri.gateway.proxies"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
+<li><a href="../../../../../org/universAAL/ri/gateway/proxies/BusMemberReferenceTemporal.html" title="class in org.universAAL.ri.gateway.proxies"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
 </ul>
 <ul class="navList">
 <li><a href="../../../../../index.html?org/universAAL/ri/gateway/proxies/BusMemberReference.html" target="_top">Frames</a></li>
@@ -326,13 +452,13 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/io/Serializabl
 <ul class="subNavList">
 <li>Summary:&nbsp;</li>
 <li>Nested&nbsp;|&nbsp;</li>
-<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#field.summary">Field</a>&nbsp;|&nbsp;</li>
 <li><a href="#constructor.summary">Constr</a>&nbsp;|&nbsp;</li>
 <li><a href="#method.summary">Method</a></li>
 </ul>
 <ul class="subNavList">
 <li>Detail:&nbsp;</li>
-<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#field.detail">Field</a>&nbsp;|&nbsp;</li>
 <li><a href="#constructor.detail">Constr</a>&nbsp;|&nbsp;</li>
 <li><a href="#method.detail">Method</a></li>
 </ul>
@@ -341,6 +467,6 @@ implements <a href="http://docs.oracle.com/javase/8/docs/api/java/io/Serializabl
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2017 <a href="http://www.universAAL.org/">universAAL Consortium</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2018 <a href="http://www.universAAL.org/">universAAL Consortium</a>. All rights reserved.</small></p>
 </body>
 </html>

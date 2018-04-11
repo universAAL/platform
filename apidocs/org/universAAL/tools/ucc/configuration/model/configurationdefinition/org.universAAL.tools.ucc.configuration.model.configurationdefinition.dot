@@ -9,95 +9,95 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.OnConfigurationModelChangedListener
-	c1453415 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.OnConfigurationModelChangedListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OnConfigurationModelChangedListener.html">
+	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.MapConfigItem
+	c1504126 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.MapConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MapConfigItem.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> OnConfigurationModelChangedListener </td></tr>
+<tr><td align="center" balign="center"> MapConfigItem </td></tr>
 		</table></td></tr>
-		</table>>, URL="./OnConfigurationModelChangedListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.Option
-	c1453416 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.Option" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Option.html">
+		</table>>, URL="./MapConfigItem.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.ObjectFactory
+	c1504127 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.ObjectFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ObjectFactory.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Option </td></tr>
+<tr><td align="center" balign="center"> ObjectFactory </td></tr>
 		</table></td></tr>
-		</table>>, URL="./Option.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.Category
-	c1453417 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.Category" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Category.html">
+		</table>>, URL="./ObjectFactory.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.Validator
+	c1504128 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.Validator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Validator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Category </td></tr>
+<tr><td align="center" balign="center"> Validator </td></tr>
 		</table></td></tr>
-		</table>>, URL="./Category.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./Validator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.Validators
-	c1453418 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.Validators" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Validators.html">
+	c1504129 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.Validators" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Validators.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Validators </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Validators.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.SPARQLConfigItem
+	c1504130 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.SPARQLConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SPARQLConfigItem.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> SPARQLConfigItem </td></tr>
+		</table></td></tr>
+		</table>>, URL="./SPARQLConfigItem.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.Option
+	c1504131 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.Option" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Option.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Option </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Option.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.OnConfigurationModelChangedListener
+	c1504132 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.OnConfigurationModelChangedListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OnConfigurationModelChangedListener.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> OnConfigurationModelChangedListener </td></tr>
+		</table></td></tr>
+		</table>>, URL="./OnConfigurationModelChangedListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.Category
+	c1504133 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.Category" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Category.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Category </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Category.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.Options
-	c1453419 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.Options" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Options.html">
+	c1504134 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.Options" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Options.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Options </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Options.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.SimpleConfigItem
-	c1453420 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.SimpleConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SimpleConfigItem.html">
+	c1504135 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.SimpleConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SimpleConfigItem.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SimpleConfigItem </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SimpleConfigItem.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.ConfigItem
-	c1453421 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.ConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigItem.html">
+	c1504136 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.ConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigItem.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConfigItem </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConfigItem.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.Item
-	c1453422 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.Item" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Item.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Item </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Item.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.Validator
-	c1453423 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.Validator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Validator.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Validator </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Validator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.MapConfigItem
-	c1453424 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.MapConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MapConfigItem.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> MapConfigItem </td></tr>
-		</table></td></tr>
-		</table>>, URL="./MapConfigItem.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.Dependency
-	c1453425 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.Dependency" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Dependency.html">
+	c1504137 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.Dependency" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Dependency.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Dependency </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Dependency.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.ObjectFactory
-	c1453426 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.ObjectFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ObjectFactory.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ObjectFactory </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ObjectFactory.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.Configuration
-	c1453427 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.Configuration" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Configuration.html">
+	c1504138 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.Configuration" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Configuration.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Configuration </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Configuration.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.SPARQLConfigItem
-	c1453428 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.SPARQLConfigItem" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SPARQLConfigItem.html">
+	// org.universAAL.tools.ucc.configuration.model.configurationdefinition.Item
+	c1504139 [label=<<table title="org.universAAL.tools.ucc.configuration.model.configurationdefinition.Item" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Item.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> SPARQLConfigItem </td></tr>
+<tr><td align="center" balign="center"> Item </td></tr>
 		</table></td></tr>
-		</table>>, URL="./SPARQLConfigItem.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.tools.ucc.configuration.model.configurationdefinition.SimpleConfigItem extends org.universAAL.tools.ucc.configuration.model.configurationdefinition.ConfigItem
-	c1453421:p -> c1453420:p [dir=back,arrowtail=empty];
+		</table>>, URL="./Item.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.ucc.configuration.model.configurationdefinition.MapConfigItem extends org.universAAL.tools.ucc.configuration.model.configurationdefinition.ConfigItem
-	c1453421:p -> c1453424:p [dir=back,arrowtail=empty];
+	c1504136:p -> c1504126:p [dir=back,arrowtail=empty];
 	//org.universAAL.tools.ucc.configuration.model.configurationdefinition.SPARQLConfigItem extends org.universAAL.tools.ucc.configuration.model.configurationdefinition.ConfigItem
-	c1453421:p -> c1453428:p [dir=back,arrowtail=empty];
+	c1504136:p -> c1504130:p [dir=back,arrowtail=empty];
+	//org.universAAL.tools.ucc.configuration.model.configurationdefinition.SimpleConfigItem extends org.universAAL.tools.ucc.configuration.model.configurationdefinition.ConfigItem
+	c1504136:p -> c1504135:p [dir=back,arrowtail=empty];
 }
 

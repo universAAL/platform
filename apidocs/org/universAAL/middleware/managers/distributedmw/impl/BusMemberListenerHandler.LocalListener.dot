@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.tracker.IBusMemberRegistryListener
-	c2470138 [label=<<table title="org.universAAL.middleware.tracker.IBusMemberRegistryListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../tracker/IBusMemberRegistryListener.html">
+	c2551674 [label=<<table title="org.universAAL.middleware.tracker.IBusMemberRegistryListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../tracker/IBusMemberRegistryListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IBusMemberRegistryListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../tracker/IBusMemberRegistryListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.distributedmw.impl.BusMemberListenerHandler.LocalListener
-	c2470201 [label=<<table title="org.universAAL.middleware.managers.distributedmw.impl.BusMemberListenerHandler.LocalListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BusMemberListenerHandler.LocalListener.html">
+	c2551737 [label=<<table title="org.universAAL.middleware.managers.distributedmw.impl.BusMemberListenerHandler.LocalListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BusMemberListenerHandler.LocalListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LocalListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BusMemberListenerHandler.LocalListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.managers.distributedmw.impl.BusMemberListenerHandler.LocalListener implements org.universAAL.middleware.tracker.IBusMemberRegistryListener
-	c2470138:p -> c2470201:p [dir=back,arrowtail=empty,style=dashed];
+	c2551674:p -> c2551737:p [dir=back,arrowtail=empty,style=dashed];
 }
 

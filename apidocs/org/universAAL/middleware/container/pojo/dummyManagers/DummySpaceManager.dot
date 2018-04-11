@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.managers.api.SpaceManager
-	c3677755 [label=<<table title="org.universAAL.middleware.managers.api.SpaceManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../managers/api/SpaceManager.html">
+	c3781857 [label=<<table title="org.universAAL.middleware.managers.api.SpaceManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../managers/api/SpaceManager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> SpaceManager </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../managers/api/SpaceManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.container.pojo.dummyManagers.DummySpaceManager
-	c3678758 [label=<<table title="org.universAAL.middleware.container.pojo.dummyManagers.DummySpaceManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DummySpaceManager.html">
+	c3782910 [label=<<table title="org.universAAL.middleware.container.pojo.dummyManagers.DummySpaceManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DummySpaceManager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DummySpaceManager </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DummySpaceManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.container.pojo.dummyManagers.DummySpaceManager implements org.universAAL.middleware.managers.api.SpaceManager
-	c3677755:p -> c3678758:p [dir=back,arrowtail=empty,style=dashed];
+	c3781857:p -> c3782910:p [dir=back,arrowtail=empty,style=dashed];
 }
 

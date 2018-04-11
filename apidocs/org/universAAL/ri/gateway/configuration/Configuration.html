@@ -18,7 +18,7 @@
     catch(err) {
     }
 //-->
-var methods = {"i0":6,"i1":6,"i2":6,"i3":6};
+var methods = {"i0":6,"i1":6,"i2":6,"i3":6,"i4":6,"i5":6,"i6":6,"i7":6,"i8":6};
 var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],4:["t3","Abstract Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -95,12 +95,12 @@ var activeTableTab = "activeTableTab";
 <div class="subTitle">org.universAAL.ri.gateway.configuration</div>
 <h2 title="Interface Configuration" class="title">Interface Configuration</h2>
 <map id="G" name="G">
-<area shape="rect" id="c2869015" href="./ConfigurationFile.html" title="org.universAAL.ri.gateway.configuration.ConfigurationFile" alt="" coords="37,219,155,245"/>
-<area shape="rect" id="node1" href="./ConfigurationFile.html" title="&lt;TABLE&gt;" alt="" coords="27,208,165,256"/>
-<area shape="rect" id="c2869019" href="./Configuration.html" title="org.universAAL.ri.gateway.configuration.Configuration" alt="" coords="47,113,145,154"/>
-<area shape="rect" id="node2" href="./Configuration.html" title="&lt;TABLE&gt;" alt="" coords="37,107,155,159"/>
-<area shape="rect" id="c2869044" href="../operations/OperationChainManager.html" title="org.universAAL.ri.gateway.operations.OperationChainManager" alt="" coords="15,11,177,53"/>
-<area shape="rect" id="node3" href="../operations/OperationChainManager.html" title="&lt;TABLE&gt;" alt="" coords="5,6,187,58"/>
+<area shape="rect" id="node1_0" href="../operations/OperationChainManager.html" title="org.universAAL.ri.gateway.operations.OperationChainManager" alt="" coords="15,11,177,55"/>
+<area shape="rect" id="node1" href="../operations/OperationChainManager.html" title="&lt;TABLE&gt;" alt="" coords="5,6,187,61"/>
+<area shape="rect" id="node3_1" href="./Configuration.html" title="org.universAAL.ri.gateway.configuration.Configuration" alt="" coords="47,115,145,159"/>
+<area shape="rect" id="node3" href="./Configuration.html" title="&lt;TABLE&gt;" alt="" coords="37,110,155,165"/>
+<area shape="rect" id="node2_2" href="./ConfigurationFile.html" title="org.universAAL.ri.gateway.configuration.ConfigurationFile" alt="" coords="37,224,155,251"/>
+<area shape="rect" id="node2" href="./ConfigurationFile.html" title="&lt;TABLE&gt;" alt="" coords="26,213,166,261"/>
 </map>
 <!-- UML diagram added by UMLGraph version R5_6-24-gf6e263 (http://www.umlgraph.org/) -->
 <div align="center"><img src="Configuration.png" alt="Package class diagram package Configuration" usemap="#G" border=0/></div>
@@ -166,28 +166,59 @@ extends <a href="../../../../../org/universAAL/ri/gateway/operations/OperationCh
 <th class="colLast" scope="col">Method and Description</th>
 </tr>
 <tr id="i0" class="altColor">
-<td class="colFirst"><code><a href="../../../../../org/universAAL/ri/gateway/communication/cipher/Cipher.html" title="interface in org.universAAL.ri.gateway.communication.cipher">Cipher</a></code></td>
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/Configuration.html#getCacheBeforeConnect--">getCacheBeforeConnect</a></span>()</code>
+<div class="block">Get the configuration that states that the gateway should cache messages
+ before actual connection.</div>
+</td>
+</tr>
+<tr id="i1" class="rowColor">
+<td class="colFirst"><code><a href="../../../../../org/universAAL/ri/gateway/communication/cipher/SocketCipher.html" title="interface in org.universAAL.ri.gateway.communication.cipher">SocketCipher</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/Configuration.html#getCipher--">getCipher</a></span>()</code>
 <div class="block">Get the encryption cipher to be used for the communication link.</div>
 </td>
 </tr>
-<tr id="i1" class="rowColor">
+<tr id="i2" class="altColor">
 <td class="colFirst"><code><a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/Configuration.html#getConnectionHost--">getConnectionHost</a></span>()</code>
 <div class="block">Get the Host the Session should connect to.</div>
 </td>
 </tr>
-<tr id="i2" class="altColor">
+<tr id="i3" class="rowColor">
 <td class="colFirst"><code><a href="../../../../../org/universAAL/ri/gateway/configuration/Configuration.ConnectionMode.html" title="enum in org.universAAL.ri.gateway.configuration">Configuration.ConnectionMode</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/Configuration.html#getConnectionMode--">getConnectionMode</a></span>()</code>
 <div class="block">Get the Connection mode intended for the <a href="../../../../../org/universAAL/ri/gateway/Session.html" title="class in org.universAAL.ri.gateway"><code>Session</code></a> represented by
  this configuration.</div>
 </td>
 </tr>
-<tr id="i3" class="rowColor">
+<tr id="i4" class="altColor">
 <td class="colFirst"><code>int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/Configuration.html#getConnectionPort--">getConnectionPort</a></span>()</code>
 <div class="block">Get the port to connect to.</div>
+</td>
+</tr>
+<tr id="i5" class="rowColor">
+<td class="colFirst"><code>int</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/Configuration.html#getMaxExportAttempts--">getMaxExportAttempts</a></span>()</code>
+<div class="block">Get the max Export Attempts.</div>
+</td>
+</tr>
+<tr id="i6" class="altColor">
+<td class="colFirst"><code>long</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/Configuration.html#getMaxQueueSize--">getMaxQueueSize</a></span>()</code>
+<div class="block">Get the max message queue size.</div>
+</td>
+</tr>
+<tr id="i7" class="rowColor">
+<td class="colFirst"><code>int</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/Configuration.html#getServerThreads--">getServerThreads</a></span>()</code>
+<div class="block">Get the configuration of threads for the server.</div>
+</td>
+</tr>
+<tr id="i8" class="altColor">
+<td class="colFirst"><code>long</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/Configuration.html#getTimeout--">getTimeout</a></span>()</code>
+<div class="block">Get the configured maximum time for timeouts.</div>
 </td>
 </tr>
 </table>
@@ -266,14 +297,83 @@ extends <a href="../../../../../org/universAAL/ri/gateway/operations/OperationCh
 <a name="getCipher--">
 <!--   -->
 </a>
-<ul class="blockListLast">
+<ul class="blockList">
 <li class="blockList">
 <h4>getCipher</h4>
-<pre><a href="../../../../../org/universAAL/ri/gateway/communication/cipher/Cipher.html" title="interface in org.universAAL.ri.gateway.communication.cipher">Cipher</a>&nbsp;getCipher()</pre>
+<pre><a href="../../../../../org/universAAL/ri/gateway/communication/cipher/SocketCipher.html" title="interface in org.universAAL.ri.gateway.communication.cipher">SocketCipher</a>&nbsp;getCipher()</pre>
 <div class="block">Get the encryption cipher to be used for the communication link.</div>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>the <a href="../../../../../org/universAAL/ri/gateway/communication/cipher/Cipher.html" title="interface in org.universAAL.ri.gateway.communication.cipher"><code>Cipher</code></a> implementation configured for this link.</dd>
+<dd>the <a href="../../../../../org/universAAL/ri/gateway/communication/cipher/SocketCipher.html" title="interface in org.universAAL.ri.gateway.communication.cipher"><code>SocketCipher</code></a> implementation configured for this link.</dd>
+</dl>
+</li>
+</ul>
+<a name="getTimeout--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getTimeout</h4>
+<pre>long&nbsp;getTimeout()</pre>
+<div class="block">Get the configured maximum time for timeouts.</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>The configured maximum time in miliseconds to wait before
+         timeouts, negative indicates for ever.</dd>
+</dl>
+</li>
+</ul>
+<a name="getCacheBeforeConnect--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getCacheBeforeConnect</h4>
+<pre>boolean&nbsp;getCacheBeforeConnect()</pre>
+<div class="block">Get the configuration that states that the gateway should cache messages
+ before actual connection.</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>true IFF the messages should be cached before connection</dd>
+</dl>
+</li>
+</ul>
+<a name="getMaxQueueSize--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getMaxQueueSize</h4>
+<pre>long&nbsp;getMaxQueueSize()</pre>
+<div class="block">Get the max message queue size. Configuration to optimize memory usage.</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+</dl>
+</li>
+</ul>
+<a name="getMaxExportAttempts--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getMaxExportAttempts</h4>
+<pre>int&nbsp;getMaxExportAttempts()</pre>
+<div class="block">Get the max Export Attempts.</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+</dl>
+</li>
+</ul>
+<a name="getServerThreads--">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>getServerThreads</h4>
+<pre>int&nbsp;getServerThreads()</pre>
+<div class="block">Get the configuration of threads for the server.</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
 </dl>
 </li>
 </ul>
@@ -346,6 +446,6 @@ extends <a href="../../../../../org/universAAL/ri/gateway/operations/OperationCh
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2017 <a href="http://www.universAAL.org/">universAAL Consortium</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2018 <a href="http://www.universAAL.org/">universAAL Consortium</a>. All rights reserved.</small></p>
 </body>
 </html>

@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.container.ModuleActivator
-	c8698918 [label=<<table title="org.universAAL.middleware.container.ModuleActivator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../middleware/container/ModuleActivator.html">
+	c8911734 [label=<<table title="org.universAAL.middleware.container.ModuleActivator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../middleware/container/ModuleActivator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ModuleActivator </td></tr>
 		</table></td></tr>
 		</table>>, URL="../middleware/container/ModuleActivator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.X73Activator
-	c8699406 [label=<<table title="org.universAAL.ontology.X73Activator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./X73Activator.html">
+	c8912193 [label=<<table title="org.universAAL.ontology.X73Activator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./X73Activator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> X73Activator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./X73Activator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.X73Activator implements org.universAAL.middleware.container.ModuleActivator
-	c8698918:p -> c8699406:p [dir=back,arrowtail=empty,style=dashed];
+	c8911734:p -> c8912193:p [dir=back,arrowtail=empty,style=dashed];
 }
 

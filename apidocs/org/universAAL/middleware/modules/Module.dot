@@ -10,38 +10,38 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.modules.DeployModule
-	c5708229 [label=<<table title="org.universAAL.middleware.modules.DeployModule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DeployModule.html">
+	c5856239 [label=<<table title="org.universAAL.middleware.modules.DeployModule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DeployModule.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> DeployModule </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DeployModule.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.modules.CommunicationModule
-	c5708230 [label=<<table title="org.universAAL.middleware.modules.CommunicationModule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CommunicationModule.html">
+	c5856240 [label=<<table title="org.universAAL.middleware.modules.CommunicationModule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CommunicationModule.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> CommunicationModule </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CommunicationModule.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.modules.SpaceModule
-	c5708232 [label=<<table title="org.universAAL.middleware.modules.SpaceModule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SpaceModule.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
-<tr><td align="center" balign="center"> SpaceModule </td></tr>
-		</table></td></tr>
-		</table>>, URL="./SpaceModule.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.modules.Module
-	c5708233 [label=<<table title="org.universAAL.middleware.modules.Module" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Module.html">
+	c5856241 [label=<<table title="org.universAAL.middleware.modules.Module" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Module.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Module </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Module.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.modules.SpaceModule
+	c5856242 [label=<<table title="org.universAAL.middleware.modules.SpaceModule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SpaceModule.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
+<tr><td align="center" balign="center"> SpaceModule </td></tr>
+		</table></td></tr>
+		</table>>, URL="./SpaceModule.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.modules.DeployModule implements org.universAAL.middleware.modules.Module
-	c5708233:p -> c5708229:p [dir=back,arrowtail=empty,style=dashed];
+	c5856241:p -> c5856239:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.modules.CommunicationModule implements org.universAAL.middleware.modules.Module
-	c5708233:p -> c5708230:p [dir=back,arrowtail=empty,style=dashed];
+	c5856241:p -> c5856240:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.modules.SpaceModule implements org.universAAL.middleware.modules.Module
-	c5708233:p -> c5708232:p [dir=back,arrowtail=empty,style=dashed];
+	c5856241:p -> c5856242:p [dir=back,arrowtail=empty,style=dashed];
 }
 

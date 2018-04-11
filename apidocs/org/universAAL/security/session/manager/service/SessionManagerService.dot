@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.security.SessionManagementService
-	c7508826 [label=<<table title="org.universAAL.ontology.security.SessionManagementService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../ontology/security/SessionManagementService.html">
+	c7696449 [label=<<table title="org.universAAL.ontology.security.SessionManagementService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../ontology/security/SessionManagementService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SessionManagementService </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../../ontology/security/SessionManagementService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.security.session.manager.service.SessionManagerService
-	c7509625 [label=<<table title="org.universAAL.security.session.manager.service.SessionManagerService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SessionManagerService.html">
+	c7697256 [label=<<table title="org.universAAL.security.session.manager.service.SessionManagerService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SessionManagerService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SessionManagerService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SessionManagerService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.security.session.manager.service.SessionManagerService extends org.universAAL.ontology.security.SessionManagementService
-	c7508826:p -> c7509625:p [dir=back,arrowtail=empty];
+	c7696449:p -> c7697256:p [dir=back,arrowtail=empty];
 }
 

@@ -9,17 +9,17 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.middleware.container.osgi.run.Activator
-	c453967 [label=<<table title="org.universAAL.middleware.container.osgi.run.Activator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Activator.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Activator </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Activator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.container.osgi.run.OSGiExtender
-	c453968 [label=<<table title="org.universAAL.middleware.container.osgi.run.OSGiExtender" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OSGiExtender.html">
+	c494812 [label=<<table title="org.universAAL.middleware.container.osgi.run.OSGiExtender" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OSGiExtender.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OSGiExtender </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OSGiExtender.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.container.osgi.run.Activator
+	c494813 [label=<<table title="org.universAAL.middleware.container.osgi.run.Activator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Activator.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Activator </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Activator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

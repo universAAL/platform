@@ -9,20 +9,20 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.ApplicationPattern
-	c2128877 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.ApplicationPattern" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ApplicationPattern.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ApplicationPattern </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ApplicationPattern.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.EntityPattern
-	c2128881 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.EntityPattern" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EntityPattern.html">
+	c2201050 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.EntityPattern" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EntityPattern.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> EntityPattern </td></tr>
 		</table></td></tr>
 		</table>>, URL="./EntityPattern.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.ApplicationPattern
+	c2201053 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.ApplicationPattern" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ApplicationPattern.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ApplicationPattern </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ApplicationPattern.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.ApplicationPattern implements org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.pattern.EntityPattern
-	c2128881:p -> c2128877:p [dir=back,arrowtail=empty,style=dashed];
+	c2201050:p -> c2201053:p [dir=back,arrowtail=empty,style=dashed];
 }
 

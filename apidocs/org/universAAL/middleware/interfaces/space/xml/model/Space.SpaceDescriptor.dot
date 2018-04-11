@@ -10,24 +10,24 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.interfaces.space.model.ISpaceDescriptor
-	c7706844 [label=<<table title="org.universAAL.middleware.interfaces.space.model.ISpaceDescriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../model/ISpaceDescriptor.html">
+	c7898198 [label=<<table title="org.universAAL.middleware.interfaces.space.model.ISpaceDescriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../model/ISpaceDescriptor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ISpaceDescriptor </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../model/ISpaceDescriptor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.interfaces.space.xml.model.Space.SpaceDescriptor
-	c7706852 [label=<<table title="org.universAAL.middleware.interfaces.space.xml.model.Space.SpaceDescriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Space.SpaceDescriptor.html">
+	c7898204 [label=<<table title="org.universAAL.middleware.interfaces.space.xml.model.Space.SpaceDescriptor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Space.SpaceDescriptor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SpaceDescriptor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Space.SpaceDescriptor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.interfaces.space.xml.model.Space.SpaceDescriptor implements java.io.Serializable
-	c7709548:p -> c7706852:p [dir=back,arrowtail=empty,style=dashed];
+	c7900905:p -> c7898204:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.interfaces.space.xml.model.Space.SpaceDescriptor implements org.universAAL.middleware.interfaces.space.model.ISpaceDescriptor
-	c7706844:p -> c7706852:p [dir=back,arrowtail=empty,style=dashed];
+	c7898198:p -> c7898204:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Serializable
-	c7709548 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c7900905 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>

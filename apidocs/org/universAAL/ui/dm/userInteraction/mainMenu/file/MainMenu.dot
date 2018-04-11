@@ -9,19 +9,19 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ui.dm.userInteraction.mainMenu.profilable.RDFMainMenu
-	c5427468 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.profilable.RDFMainMenu" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../profilable/RDFMainMenu.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> RDFMainMenu </td></tr>
-		</table></td></tr>
-		</table>>, URL="../profilable/RDFMainMenu.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.userInteraction.mainMenu.file.MainMenu
-	c5427474 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.file.MainMenu" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MainMenu.html">
+	c5570216 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.file.MainMenu" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MainMenu.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MainMenu </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MainMenu.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ui.dm.userInteraction.mainMenu.profilable.RDFMainMenu
+	c5570220 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.profilable.RDFMainMenu" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../profilable/RDFMainMenu.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> RDFMainMenu </td></tr>
+		</table></td></tr>
+		</table>>, URL="../profilable/RDFMainMenu.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.dm.userInteraction.mainMenu.profilable.RDFMainMenu extends org.universAAL.ui.dm.userInteraction.mainMenu.file.MainMenu
-	c5427474:p -> c5427468:p [dir=back,arrowtail=empty];
+	c5570216:p -> c5570220:p [dir=back,arrowtail=empty];
 }
 

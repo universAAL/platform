@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.ucc.windows.HumansWindow
-	c4415725 [label=<<table title="org.universAAL.tools.ucc.windows.HumansWindow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HumansWindow.html">
+	c4536636 [label=<<table title="org.universAAL.tools.ucc.windows.HumansWindow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HumansWindow.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HumansWindow </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HumansWindow.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.ucc.windows.HumansWindow extends com.vaadin.ui.Window
-	c4415789:p -> c4415725:p [dir=back,arrowtail=empty];
+	c4536665:p -> c4536636:p [dir=back,arrowtail=empty];
 	// com.vaadin.ui.Window
-	c4415789 [label=<<table title="com.vaadin.ui.Window" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/vaadin/ui/Window.html">
+	c4536665 [label=<<table title="com.vaadin.ui.Window" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/vaadin/ui/Window.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Window </td></tr>
 		</table></td></tr>

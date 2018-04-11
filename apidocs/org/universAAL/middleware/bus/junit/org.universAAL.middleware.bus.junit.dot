@@ -10,32 +10,32 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.bus.junit.BusTestCase
-	c222576 [label=<<table title="org.universAAL.middleware.bus.junit.BusTestCase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BusTestCase.html">
+	c226734 [label=<<table title="org.universAAL.middleware.bus.junit.BusTestCase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BusTestCase.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BusTestCase </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BusTestCase.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.bus.junit.ManifestTestCase
-	c222577 [label=<<table title="org.universAAL.middleware.bus.junit.ManifestTestCase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ManifestTestCase.html">
+	c226735 [label=<<table title="org.universAAL.middleware.bus.junit.ManifestTestCase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ManifestTestCase.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ManifestTestCase </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ManifestTestCase.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.bus.junit.ManifestTestCase.Element<T extends org.universAAL.middleware.rdf.Resource>
-	c222578 [label=<<table title="org.universAAL.middleware.bus.junit.ManifestTestCase.Element" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ManifestTestCase.Element.html">
+	c226736 [label=<<table title="org.universAAL.middleware.bus.junit.ManifestTestCase.Element" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ManifestTestCase.Element.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Element&lt;T extends Resource&gt; </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ManifestTestCase.Element.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.bus.junit.OntTestCase
-	c222579 [label=<<table title="org.universAAL.middleware.bus.junit.OntTestCase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OntTestCase.html">
+	c226737 [label=<<table title="org.universAAL.middleware.bus.junit.OntTestCase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OntTestCase.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OntTestCase </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OntTestCase.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.bus.junit.ManifestTestCase extends org.universAAL.middleware.bus.junit.BusTestCase
-	c222576:p -> c222577:p [dir=back,arrowtail=empty];
+	c226734:p -> c226735:p [dir=back,arrowtail=empty];
 	//org.universAAL.middleware.bus.junit.OntTestCase extends org.universAAL.middleware.bus.junit.BusTestCase
-	c222576:p -> c222579:p [dir=back,arrowtail=empty];
+	c226734:p -> c226737:p [dir=back,arrowtail=empty];
 }
 

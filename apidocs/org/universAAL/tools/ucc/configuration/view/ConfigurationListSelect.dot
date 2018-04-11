@@ -10,24 +10,24 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.tools.ucc.configuration.model.interfaces.OnConfigurationChangedListener
-	c2921679 [label=<<table title="org.universAAL.tools.ucc.configuration.model.interfaces.OnConfigurationChangedListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../model/interfaces/OnConfigurationChangedListener.html">
+	c3011633 [label=<<table title="org.universAAL.tools.ucc.configuration.model.interfaces.OnConfigurationChangedListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../model/interfaces/OnConfigurationChangedListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> OnConfigurationChangedListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="../model/interfaces/OnConfigurationChangedListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.configuration.view.ConfigurationListSelect
-	c2921702 [label=<<table title="org.universAAL.tools.ucc.configuration.view.ConfigurationListSelect" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigurationListSelect.html">
+	c3011666 [label=<<table title="org.universAAL.tools.ucc.configuration.view.ConfigurationListSelect" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigurationListSelect.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConfigurationListSelect </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConfigurationListSelect.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.ucc.configuration.view.ConfigurationListSelect extends com.vaadin.ui.ListSelect
-	c2921782:p -> c2921702:p [dir=back,arrowtail=empty];
+	c3011745:p -> c3011666:p [dir=back,arrowtail=empty];
 	//org.universAAL.tools.ucc.configuration.view.ConfigurationListSelect implements org.universAAL.tools.ucc.configuration.model.interfaces.OnConfigurationChangedListener
-	c2921679:p -> c2921702:p [dir=back,arrowtail=empty,style=dashed];
+	c3011633:p -> c3011666:p [dir=back,arrowtail=empty,style=dashed];
 	// com.vaadin.ui.ListSelect
-	c2921782 [label=<<table title="com.vaadin.ui.ListSelect" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/vaadin/ui/ListSelect.html">
+	c3011745 [label=<<table title="com.vaadin.ui.ListSelect" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/vaadin/ui/ListSelect.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ListSelect </td></tr>
 		</table></td></tr>

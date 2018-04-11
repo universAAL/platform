@@ -9,145 +9,145 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.shape.QuasiCylinder
-	c248639 [label=<<table title="org.universAAL.ontology.shape.QuasiCylinder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./QuasiCylinder.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> QuasiCylinder </td></tr>
-		</table></td></tr>
-		</table>>, URL="./QuasiCylinder.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.shape.Circle
-	c248640 [label=<<table title="org.universAAL.ontology.shape.Circle" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Circle.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Circle </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Circle.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.shape.Shape
-	c248641 [label=<<table title="org.universAAL.ontology.shape.Shape" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Shape.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Shape </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./Shape.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.shape.LineSegment
-	c248642 [label=<<table title="org.universAAL.ontology.shape.LineSegment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LineSegment.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> LineSegment </td></tr>
-		</table></td></tr>
-		</table>>, URL="./LineSegment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.shape.Polyhedron
-	c248643 [label=<<table title="org.universAAL.ontology.shape.Polyhedron" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Polyhedron.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Polyhedron </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Polyhedron.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.shape.MergedShape
-	c248644 [label=<<table title="org.universAAL.ontology.shape.MergedShape" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MergedShape.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> MergedShape </td></tr>
-		</table></td></tr>
-		</table>>, URL="./MergedShape.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.shape.Triangle
-	c248645 [label=<<table title="org.universAAL.ontology.shape.Triangle" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Triangle.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Triangle </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Triangle.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.shape.Polygon
-	c248646 [label=<<table title="org.universAAL.ontology.shape.Polygon" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Polygon.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Polygon </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Polygon.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.shape.BooleanShape
-	c248647 [label=<<table title="org.universAAL.ontology.shape.BooleanShape" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BooleanShape.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> BooleanShape </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./BooleanShape.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.shape.ConeSegment
-	c248648 [label=<<table title="org.universAAL.ontology.shape.ConeSegment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConeSegment.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ConeSegment </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ConeSegment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.shape.Shape2D
-	c248649 [label=<<table title="org.universAAL.ontology.shape.Shape2D" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Shape2D.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Shape2D </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./Shape2D.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.shape.Box
-	c248650 [label=<<table title="org.universAAL.ontology.shape.Box" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Box.html">
+	c238563 [label=<<table title="org.universAAL.ontology.shape.Box" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Box.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Box </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Box.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.shape.ShapeOntology
-	c248651 [label=<<table title="org.universAAL.ontology.shape.ShapeOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ShapeOntology.html">
+	// org.universAAL.ontology.shape.Shape2D
+	c238564 [label=<<table title="org.universAAL.ontology.shape.Shape2D" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Shape2D.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ShapeOntology </td></tr>
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Shape2D </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="./ShapeOntology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./Shape2D.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.shape.MergedShape
+	c238565 [label=<<table title="org.universAAL.ontology.shape.MergedShape" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MergedShape.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> MergedShape </td></tr>
+		</table></td></tr>
+		</table>>, URL="./MergedShape.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.shape.Polyhedron
+	c238566 [label=<<table title="org.universAAL.ontology.shape.Polyhedron" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Polyhedron.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Polyhedron </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Polyhedron.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.shape.Shape3D
-	c248652 [label=<<table title="org.universAAL.ontology.shape.Shape3D" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Shape3D.html">
+	c238567 [label=<<table title="org.universAAL.ontology.shape.Shape3D" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Shape3D.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Shape3D </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Shape3D.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.shape.Line
-	c248653 [label=<<table title="org.universAAL.ontology.shape.Line" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Line.html">
+	// org.universAAL.ontology.shape.Shape
+	c238568 [label=<<table title="org.universAAL.ontology.shape.Shape" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Shape.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Line </td></tr>
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Shape </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="./Line.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.shape.Ellipse
-	c248654 [label=<<table title="org.universAAL.ontology.shape.Ellipse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Ellipse.html">
+		</table>>, URL="./Shape.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.shape.QuasiCylinder
+	c238569 [label=<<table title="org.universAAL.ontology.shape.QuasiCylinder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./QuasiCylinder.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Ellipse </td></tr>
+<tr><td align="center" balign="center"> QuasiCylinder </td></tr>
 		</table></td></tr>
-		</table>>, URL="./Ellipse.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./QuasiCylinder.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.shape.Sphere
-	c248655 [label=<<table title="org.universAAL.ontology.shape.Sphere" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Sphere.html">
+	c238570 [label=<<table title="org.universAAL.ontology.shape.Sphere" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Sphere.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Sphere </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Sphere.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.shape.Ellipse
+	c238571 [label=<<table title="org.universAAL.ontology.shape.Ellipse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Ellipse.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Ellipse </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Ellipse.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.shape.Circle
+	c238572 [label=<<table title="org.universAAL.ontology.shape.Circle" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Circle.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Circle </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Circle.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.shape.Path
-	c248656 [label=<<table title="org.universAAL.ontology.shape.Path" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Path.html">
+	c238573 [label=<<table title="org.universAAL.ontology.shape.Path" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Path.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Path </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Path.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.ontology.shape.QuasiCylinder extends org.universAAL.ontology.shape.Shape3D
-	c248652:p -> c248639:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.shape.Circle extends org.universAAL.ontology.shape.Ellipse
-	c248654:p -> c248640:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.shape.LineSegment extends org.universAAL.ontology.shape.Line
-	c248653:p -> c248642:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.shape.Polyhedron extends org.universAAL.ontology.shape.Shape3D
-	c248652:p -> c248643:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.shape.MergedShape extends org.universAAL.ontology.shape.BooleanShape
-	c248647:p -> c248644:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.shape.Triangle extends org.universAAL.ontology.shape.Polygon
-	c248646:p -> c248645:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.shape.Polygon extends org.universAAL.ontology.shape.Shape3D
-	c248652:p -> c248646:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.shape.BooleanShape extends org.universAAL.ontology.shape.Shape
-	c248641:p -> c248647:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.shape.ConeSegment extends org.universAAL.ontology.shape.LineSegment
-	c248642:p -> c248648:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.shape.Shape2D extends org.universAAL.ontology.shape.Shape
-	c248641:p -> c248649:p [dir=back,arrowtail=empty];
+	// org.universAAL.ontology.shape.LineSegment
+	c238574 [label=<<table title="org.universAAL.ontology.shape.LineSegment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LineSegment.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> LineSegment </td></tr>
+		</table></td></tr>
+		</table>>, URL="./LineSegment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.shape.BooleanShape
+	c238575 [label=<<table title="org.universAAL.ontology.shape.BooleanShape" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BooleanShape.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> BooleanShape </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./BooleanShape.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.shape.Polygon
+	c238576 [label=<<table title="org.universAAL.ontology.shape.Polygon" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Polygon.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Polygon </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Polygon.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.shape.ConeSegment
+	c238577 [label=<<table title="org.universAAL.ontology.shape.ConeSegment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConeSegment.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ConeSegment </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ConeSegment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.shape.Line
+	c238578 [label=<<table title="org.universAAL.ontology.shape.Line" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Line.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Line </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Line.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.shape.ShapeOntology
+	c238579 [label=<<table title="org.universAAL.ontology.shape.ShapeOntology" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ShapeOntology.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ShapeOntology </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ShapeOntology.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.shape.Triangle
+	c238580 [label=<<table title="org.universAAL.ontology.shape.Triangle" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Triangle.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Triangle </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Triangle.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.shape.Box extends org.universAAL.ontology.shape.Shape3D
-	c248652:p -> c248650:p [dir=back,arrowtail=empty];
+	c238567:p -> c238563:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.shape.Shape2D extends org.universAAL.ontology.shape.Shape
+	c238568:p -> c238564:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.shape.MergedShape extends org.universAAL.ontology.shape.BooleanShape
+	c238575:p -> c238565:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.shape.Polyhedron extends org.universAAL.ontology.shape.Shape3D
+	c238567:p -> c238566:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.shape.Shape3D extends org.universAAL.ontology.shape.Shape
-	c248641:p -> c248652:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.shape.Line extends org.universAAL.ontology.shape.Path
-	c248656:p -> c248653:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.shape.Ellipse extends org.universAAL.ontology.shape.Shape2D
-	c248649:p -> c248654:p [dir=back,arrowtail=empty];
+	c238568:p -> c238567:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.shape.QuasiCylinder extends org.universAAL.ontology.shape.Shape3D
+	c238567:p -> c238569:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.shape.Sphere extends org.universAAL.ontology.shape.Shape3D
-	c248652:p -> c248655:p [dir=back,arrowtail=empty];
+	c238567:p -> c238570:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.shape.Ellipse extends org.universAAL.ontology.shape.Shape2D
+	c238564:p -> c238571:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.shape.Circle extends org.universAAL.ontology.shape.Ellipse
+	c238571:p -> c238572:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.shape.Path extends org.universAAL.ontology.shape.Shape3D
-	c248652:p -> c248656:p [dir=back,arrowtail=empty];
+	c238567:p -> c238573:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.shape.LineSegment extends org.universAAL.ontology.shape.Line
+	c238578:p -> c238574:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.shape.BooleanShape extends org.universAAL.ontology.shape.Shape
+	c238568:p -> c238575:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.shape.Polygon extends org.universAAL.ontology.shape.Shape3D
+	c238567:p -> c238576:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.shape.ConeSegment extends org.universAAL.ontology.shape.LineSegment
+	c238574:p -> c238577:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.shape.Line extends org.universAAL.ontology.shape.Path
+	c238573:p -> c238578:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.shape.Triangle extends org.universAAL.ontology.shape.Polygon
+	c238576:p -> c238580:p [dir=back,arrowtail=empty];
 }
 

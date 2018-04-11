@@ -10,24 +10,24 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.lddi.zigbee.commissioning.devices.api.OccupancySensorBridge
-	c6024177 [label=<<table title="org.universAAL.lddi.zigbee.commissioning.devices.api.OccupancySensorBridge" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../api/OccupancySensorBridge.html">
+	c6181049 [label=<<table title="org.universAAL.lddi.zigbee.commissioning.devices.api.OccupancySensorBridge" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../api/OccupancySensorBridge.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> OccupancySensorBridge </td></tr>
 		</table></td></tr>
 		</table>>, URL="../api/OccupancySensorBridge.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.zigbee.commissioning.devices.impl.OccupancySensorDevice
-	c6024180 [label=<<table title="org.universAAL.lddi.zigbee.commissioning.devices.impl.OccupancySensorDevice" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./OccupancySensorDevice.html">
+	c6181052 [label=<<table title="org.universAAL.lddi.zigbee.commissioning.devices.impl.OccupancySensorDevice" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./OccupancySensorDevice.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OccupancySensorDevice </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OccupancySensorDevice.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.lddi.zigbee.commissioning.devices.impl.OccupancySensorDevice extends it.cnr.isti.zigbee.ha.driver.core.HADeviceBase
-	c6025184:p -> c6024180:p [dir=back,arrowtail=empty];
+	c6182068:p -> c6181052:p [dir=back,arrowtail=empty];
 	//org.universAAL.lddi.zigbee.commissioning.devices.impl.OccupancySensorDevice implements org.universAAL.lddi.zigbee.commissioning.devices.api.OccupancySensorBridge
-	c6024177:p -> c6024180:p [dir=back,arrowtail=empty,style=dashed];
+	c6181049:p -> c6181052:p [dir=back,arrowtail=empty,style=dashed];
 	// it.cnr.isti.zigbee.ha.driver.core.HADeviceBase
-	c6025184 [label=<<table title="it.cnr.isti.zigbee.ha.driver.core.HADeviceBase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/it/cnr/isti/zigbee/ha/driver/core/HADeviceBase.html">
+	c6182068 [label=<<table title="it.cnr.isti.zigbee.ha.driver.core.HADeviceBase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/it/cnr/isti/zigbee/ha/driver/core/HADeviceBase.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> HADeviceBase </font></td></tr>
 		</table></td></tr>

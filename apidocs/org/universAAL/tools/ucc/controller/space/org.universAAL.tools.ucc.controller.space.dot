@@ -9,35 +9,35 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.tools.ucc.controller.space.HardwareWindowController
-	c1525606 [label=<<table title="org.universAAL.tools.ucc.controller.space.HardwareWindowController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HardwareWindowController.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> HardwareWindowController </td></tr>
-		</table></td></tr>
-		</table>>, URL="./HardwareWindowController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.tools.ucc.controller.space.RoomsWindowController
-	c1525607 [label=<<table title="org.universAAL.tools.ucc.controller.space.RoomsWindowController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RoomsWindowController.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> RoomsWindowController </td></tr>
-		</table></td></tr>
-		</table>>, URL="./RoomsWindowController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.controller.space.AddNewPersonController
-	c1525608 [label=<<table title="org.universAAL.tools.ucc.controller.space.AddNewPersonController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AddNewPersonController.html">
+	c1589440 [label=<<table title="org.universAAL.tools.ucc.controller.space.AddNewPersonController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AddNewPersonController.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AddNewPersonController </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AddNewPersonController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.tools.ucc.controller.space.PersonWindowController
-	c1525609 [label=<<table title="org.universAAL.tools.ucc.controller.space.PersonWindowController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PersonWindowController.html">
+	// org.universAAL.tools.ucc.controller.space.HardwareWindowController
+	c1589441 [label=<<table title="org.universAAL.tools.ucc.controller.space.HardwareWindowController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HardwareWindowController.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> PersonWindowController </td></tr>
+<tr><td align="center" balign="center"> HardwareWindowController </td></tr>
 		</table></td></tr>
-		</table>>, URL="./PersonWindowController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./HardwareWindowController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.controller.space.AddNewHardwareController
-	c1525610 [label=<<table title="org.universAAL.tools.ucc.controller.space.AddNewHardwareController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AddNewHardwareController.html">
+	c1589442 [label=<<table title="org.universAAL.tools.ucc.controller.space.AddNewHardwareController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AddNewHardwareController.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AddNewHardwareController </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AddNewHardwareController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.tools.ucc.controller.space.PersonWindowController
+	c1589443 [label=<<table title="org.universAAL.tools.ucc.controller.space.PersonWindowController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PersonWindowController.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> PersonWindowController </td></tr>
+		</table></td></tr>
+		</table>>, URL="./PersonWindowController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.tools.ucc.controller.space.RoomsWindowController
+	c1589444 [label=<<table title="org.universAAL.tools.ucc.controller.space.RoomsWindowController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RoomsWindowController.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> RoomsWindowController </td></tr>
+		</table></td></tr>
+		</table>>, URL="./RoomsWindowController.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

@@ -9,46 +9,46 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.ConfigurationParameter
-	c2953762 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.ConfigurationParameter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../configurationDefinitionTypes/ConfigurationParameter.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
-<tr><td align="center" balign="center"> ConfigurationParameter </td></tr>
-		</table></td></tr>
-		</table>>, URL="../configurationDefinitionTypes/ConfigurationParameter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurableEntityEditor
-	c2953768 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurableEntityEditor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigurableEntityEditor.html">
+	c3044325 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurableEntityEditor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigurableEntityEditor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ConfigurableEntityEditor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConfigurableEntityEditor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurationParameterEditor
-	c2953769 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurationParameterEditor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigurationParameterEditor.html">
+	c3044327 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurationParameterEditor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigurationParameterEditor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ConfigurationParameterEditor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConfigurationParameterEditor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.middleware.managers.configuration.core.impl.LocalConfigurationParameterEditor
-	c2954725 [label=<<table title="org.universAAL.middleware.managers.configuration.core.impl.LocalConfigurationParameterEditor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../managers/configuration/core/impl/LocalConfigurationParameterEditor.html">
+	// org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.ConfigurationParameter
+	c3044338 [label=<<table title="org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.ConfigurationParameter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../configurationDefinitionTypes/ConfigurationParameter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> LocalConfigurationParameterEditor </td></tr>
+<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
+<tr><td align="center" balign="center"> ConfigurationParameter </td></tr>
 		</table></td></tr>
-		</table>>, URL="../../../managers/configuration/core/impl/LocalConfigurationParameterEditor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="../configurationDefinitionTypes/ConfigurationParameter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.middleware.managers.configuration.core.impl.RemoteConfigurationParamaterEditor
-	c2954727 [label=<<table title="org.universAAL.middleware.managers.configuration.core.impl.RemoteConfigurationParamaterEditor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../managers/configuration/core/impl/RemoteConfigurationParamaterEditor.html">
+	c3045332 [label=<<table title="org.universAAL.middleware.managers.configuration.core.impl.RemoteConfigurationParamaterEditor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../managers/configuration/core/impl/RemoteConfigurationParamaterEditor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RemoteConfigurationParamaterEditor </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../managers/configuration/core/impl/RemoteConfigurationParamaterEditor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.middleware.managers.configuration.core.impl.LocalConfigurationParameterEditor
+	c3045333 [label=<<table title="org.universAAL.middleware.managers.configuration.core.impl.LocalConfigurationParameterEditor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../managers/configuration/core/impl/LocalConfigurationParameterEditor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> LocalConfigurationParameterEditor </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../../managers/configuration/core/impl/LocalConfigurationParameterEditor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurationParameterEditor implements org.universAAL.middleware.interfaces.configuration.configurationDefinitionTypes.ConfigurationParameter
-	c2953762:p -> c2953769:p [dir=back,arrowtail=empty,style=dashed];
+	c3044338:p -> c3044327:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurationParameterEditor implements org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurableEntityEditor
-	c2953768:p -> c2953769:p [dir=back,arrowtail=empty,style=dashed];
-	//org.universAAL.middleware.managers.configuration.core.impl.LocalConfigurationParameterEditor implements org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurationParameterEditor
-	c2953769:p -> c2954725:p [dir=back,arrowtail=empty,style=dashed];
+	c3044325:p -> c3044327:p [dir=back,arrowtail=empty,style=dashed];
 	//org.universAAL.middleware.managers.configuration.core.impl.RemoteConfigurationParamaterEditor implements org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurationParameterEditor
-	c2953769:p -> c2954727:p [dir=back,arrowtail=empty,style=dashed];
+	c3044327:p -> c3045332:p [dir=back,arrowtail=empty,style=dashed];
+	//org.universAAL.middleware.managers.configuration.core.impl.LocalConfigurationParameterEditor implements org.universAAL.middleware.interfaces.configuration.configurationEditionTypes.ConfigurationParameterEditor
+	c3044327:p -> c3045333:p [dir=back,arrowtail=empty,style=dashed];
 }
 

@@ -9,23 +9,23 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.security.authorisator.profiles.RoleMngServiceProfile
-	c916217 [label=<<table title="org.universAAL.security.authorisator.profiles.RoleMngServiceProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RoleMngServiceProfile.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> RoleMngServiceProfile </td></tr>
-		</table></td></tr>
-		</table>>, URL="./RoleMngServiceProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.security.authorisator.profiles.SecuritySubProfileRoleManagement
-	c916218 [label=<<table title="org.universAAL.security.authorisator.profiles.SecuritySubProfileRoleManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SecuritySubProfileRoleManagement.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> SecuritySubProfileRoleManagement </td></tr>
-		</table></td></tr>
-		</table>>, URL="./SecuritySubProfileRoleManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.security.authorisator.profiles.AuthorisationServiceProfile
-	c916219 [label=<<table title="org.universAAL.security.authorisator.profiles.AuthorisationServiceProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AuthorisationServiceProfile.html">
+	c965700 [label=<<table title="org.universAAL.security.authorisator.profiles.AuthorisationServiceProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AuthorisationServiceProfile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AuthorisationServiceProfile </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AuthorisationServiceProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.security.authorisator.profiles.SecuritySubProfileRoleManagement
+	c965701 [label=<<table title="org.universAAL.security.authorisator.profiles.SecuritySubProfileRoleManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SecuritySubProfileRoleManagement.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> SecuritySubProfileRoleManagement </td></tr>
+		</table></td></tr>
+		</table>>, URL="./SecuritySubProfileRoleManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.security.authorisator.profiles.RoleMngServiceProfile
+	c965702 [label=<<table title="org.universAAL.security.authorisator.profiles.RoleMngServiceProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RoleMngServiceProfile.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> RoleMngServiceProfile </td></tr>
+		</table></td></tr>
+		</table>>, URL="./RoleMngServiceProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

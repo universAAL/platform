@@ -9,20 +9,20 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ri.gateway.proxies.updating.RegistrationParametersAdder
-	c6846361 [label=<<table title="org.universAAL.ri.gateway.proxies.updating.RegistrationParametersAdder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RegistrationParametersAdder.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> RegistrationParametersAdder </td></tr>
-		</table></td></tr>
-		</table>>, URL="./RegistrationParametersAdder.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ri.gateway.proxies.updating.Updater
-	c6846362 [label=<<table title="org.universAAL.ri.gateway.proxies.updating.Updater" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Updater.html">
+	c7018620 [label=<<table title="org.universAAL.ri.gateway.proxies.updating.Updater" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Updater.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Updater </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Updater.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ri.gateway.proxies.updating.RegistrationParametersAdder
+	c7018621 [label=<<table title="org.universAAL.ri.gateway.proxies.updating.RegistrationParametersAdder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RegistrationParametersAdder.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> RegistrationParametersAdder </td></tr>
+		</table></td></tr>
+		</table>>, URL="./RegistrationParametersAdder.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ri.gateway.proxies.updating.RegistrationParametersAdder implements org.universAAL.ri.gateway.proxies.updating.Updater
-	c6846362:p -> c6846361:p [dir=back,arrowtail=empty,style=dashed];
+	c7018620:p -> c7018621:p [dir=back,arrowtail=empty,style=dashed];
 }
 

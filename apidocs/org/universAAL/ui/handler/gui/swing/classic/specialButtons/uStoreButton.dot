@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ui.handler.gui.swing.model.special.SpecialButtonInterface
-	c8758793 [label=<<table title="org.universAAL.ui.handler.gui.swing.model.special.SpecialButtonInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../model/special/SpecialButtonInterface.html">
+	c8972712 [label=<<table title="org.universAAL.ui.handler.gui.swing.model.special.SpecialButtonInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../model/special/SpecialButtonInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> SpecialButtonInterface </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../model/special/SpecialButtonInterface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.handler.gui.swing.classic.specialButtons.uStoreButton
-	c8758900 [label=<<table title="org.universAAL.ui.handler.gui.swing.classic.specialButtons.uStoreButton" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./uStoreButton.html">
+	c8972850 [label=<<table title="org.universAAL.ui.handler.gui.swing.classic.specialButtons.uStoreButton" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./uStoreButton.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> uStoreButton </td></tr>
 		</table></td></tr>
 		</table>>, URL="./uStoreButton.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.handler.gui.swing.classic.specialButtons.uStoreButton implements org.universAAL.ui.handler.gui.swing.model.special.SpecialButtonInterface
-	c8758793:p -> c8758900:p [dir=back,arrowtail=empty,style=dashed];
+	c8972712:p -> c8972850:p [dir=back,arrowtail=empty,style=dashed];
 }
 

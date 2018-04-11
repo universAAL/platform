@@ -10,146 +10,146 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.owl.ManagedIndividual
-	c3980391 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
+	c4093140 [label=<<table title="org.universAAL.middleware.owl.ManagedIndividual" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/owl/ManagedIndividual.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ManagedIndividual </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/owl/ManagedIndividual.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.dependability.PermanentFault
-	c3981254 [label=<<table title="org.universAAL.ontology.dependability.PermanentFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PermanentFault.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> PermanentFault </td></tr>
-		</table></td></tr>
-		</table>>, URL="./PermanentFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.dependability.IntermittentFault
-	c3981256 [label=<<table title="org.universAAL.ontology.dependability.IntermittentFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IntermittentFault.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> IntermittentFault </td></tr>
-		</table></td></tr>
-		</table>>, URL="./IntermittentFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.dependability.PhysicalFault
-	c3981257 [label=<<table title="org.universAAL.ontology.dependability.PhysicalFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PhysicalFault.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> PhysicalFault </td></tr>
-		</table></td></tr>
-		</table>>, URL="./PhysicalFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.dependability.ContinuedFault
-	c3981259 [label=<<table title="org.universAAL.ontology.dependability.ContinuedFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ContinuedFault.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ContinuedFault </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ContinuedFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.dependability.OperationalFault
-	c3981261 [label=<<table title="org.universAAL.ontology.dependability.OperationalFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OperationalFault.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> OperationalFault </td></tr>
-		</table></td></tr>
-		</table>>, URL="./OperationalFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.dependability.ParametricFault
-	c3981264 [label=<<table title="org.universAAL.ontology.dependability.ParametricFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ParametricFault.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ParametricFault </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ParametricFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.dependability.SoftwareFault
-	c3981267 [label=<<table title="org.universAAL.ontology.dependability.SoftwareFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SoftwareFault.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> SoftwareFault </td></tr>
-		</table></td></tr>
-		</table>>, URL="./SoftwareFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.dependability.DevelopmentFault
-	c3981270 [label=<<table title="org.universAAL.ontology.dependability.DevelopmentFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DevelopmentFault.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DevelopmentFault </td></tr>
-		</table></td></tr>
-		</table>>, URL="./DevelopmentFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.dependability.DirectFault
-	c3981271 [label=<<table title="org.universAAL.ontology.dependability.DirectFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DirectFault.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DirectFault </td></tr>
-		</table></td></tr>
-		</table>>, URL="./DirectFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.dependability.TransientFault
-	c3981272 [label=<<table title="org.universAAL.ontology.dependability.TransientFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TransientFault.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> TransientFault </td></tr>
-		</table></td></tr>
-		</table>>, URL="./TransientFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.dependability.NonMaliciousFault
-	c3981273 [label=<<table title="org.universAAL.ontology.dependability.NonMaliciousFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NonMaliciousFault.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> NonMaliciousFault </td></tr>
-		</table></td></tr>
-		</table>>, URL="./NonMaliciousFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.dependability.ValueFault
-	c3981275 [label=<<table title="org.universAAL.ontology.dependability.ValueFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ValueFault.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ValueFault </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ValueFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.dependability.Fault
-	c3981277 [label=<<table title="org.universAAL.ontology.dependability.Fault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Fault.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Fault </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Fault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.dependability.NonParametricFault
-	c3981279 [label=<<table title="org.universAAL.ontology.dependability.NonParametricFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NonParametricFault.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> NonParametricFault </td></tr>
-		</table></td></tr>
-		</table>>, URL="./NonParametricFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.dependability.IndirectFault
-	c3981281 [label=<<table title="org.universAAL.ontology.dependability.IndirectFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IndirectFault.html">
+	c4094025 [label=<<table title="org.universAAL.ontology.dependability.IndirectFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IndirectFault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> IndirectFault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IndirectFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.dependability.NonParametricFault
+	c4094028 [label=<<table title="org.universAAL.ontology.dependability.NonParametricFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NonParametricFault.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> NonParametricFault </td></tr>
+		</table></td></tr>
+		</table>>, URL="./NonParametricFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.dependability.ParametricFault
+	c4094034 [label=<<table title="org.universAAL.ontology.dependability.ParametricFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ParametricFault.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ParametricFault </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ParametricFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.dependability.ValueFault
+	c4094035 [label=<<table title="org.universAAL.ontology.dependability.ValueFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ValueFault.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ValueFault </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ValueFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.dependability.DevelopmentFault
+	c4094036 [label=<<table title="org.universAAL.ontology.dependability.DevelopmentFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DevelopmentFault.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> DevelopmentFault </td></tr>
+		</table></td></tr>
+		</table>>, URL="./DevelopmentFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.dependability.PhysicalFault
+	c4094037 [label=<<table title="org.universAAL.ontology.dependability.PhysicalFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PhysicalFault.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> PhysicalFault </td></tr>
+		</table></td></tr>
+		</table>>, URL="./PhysicalFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.dependability.TransientFault
+	c4094038 [label=<<table title="org.universAAL.ontology.dependability.TransientFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TransientFault.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> TransientFault </td></tr>
+		</table></td></tr>
+		</table>>, URL="./TransientFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.dependability.InternalCauseFault
-	c3981282 [label=<<table title="org.universAAL.ontology.dependability.InternalCauseFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InternalCauseFault.html">
+	c4094040 [label=<<table title="org.universAAL.ontology.dependability.InternalCauseFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InternalCauseFault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> InternalCauseFault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./InternalCauseFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.dependability.ContinuedFault
+	c4094043 [label=<<table title="org.universAAL.ontology.dependability.ContinuedFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ContinuedFault.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ContinuedFault </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ContinuedFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.dependability.DirectFault
+	c4094045 [label=<<table title="org.universAAL.ontology.dependability.DirectFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DirectFault.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> DirectFault </td></tr>
+		</table></td></tr>
+		</table>>, URL="./DirectFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.dependability.IntermittentFault
+	c4094046 [label=<<table title="org.universAAL.ontology.dependability.IntermittentFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IntermittentFault.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> IntermittentFault </td></tr>
+		</table></td></tr>
+		</table>>, URL="./IntermittentFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.dependability.OperationalFault
+	c4094048 [label=<<table title="org.universAAL.ontology.dependability.OperationalFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OperationalFault.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> OperationalFault </td></tr>
+		</table></td></tr>
+		</table>>, URL="./OperationalFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.dependability.SoftwareFault
+	c4094049 [label=<<table title="org.universAAL.ontology.dependability.SoftwareFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SoftwareFault.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> SoftwareFault </td></tr>
+		</table></td></tr>
+		</table>>, URL="./SoftwareFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.dependability.TimingFault
-	c3981283 [label=<<table title="org.universAAL.ontology.dependability.TimingFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TimingFault.html">
+	c4094050 [label=<<table title="org.universAAL.ontology.dependability.TimingFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TimingFault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TimingFault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./TimingFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.ontology.dependability.PermanentFault extends org.universAAL.ontology.dependability.Fault
-	c3981277:p -> c3981254:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.dependability.IntermittentFault extends org.universAAL.ontology.dependability.Fault
-	c3981277:p -> c3981256:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.dependability.PhysicalFault extends org.universAAL.ontology.dependability.Fault
-	c3981277:p -> c3981257:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.dependability.ContinuedFault extends org.universAAL.ontology.dependability.Fault
-	c3981277:p -> c3981259:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.dependability.OperationalFault extends org.universAAL.ontology.dependability.Fault
-	c3981277:p -> c3981261:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.dependability.ParametricFault extends org.universAAL.ontology.dependability.Fault
-	c3981277:p -> c3981264:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.dependability.SoftwareFault extends org.universAAL.ontology.dependability.Fault
-	c3981277:p -> c3981267:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.dependability.DevelopmentFault extends org.universAAL.ontology.dependability.Fault
-	c3981277:p -> c3981270:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.dependability.DirectFault extends org.universAAL.ontology.dependability.Fault
-	c3981277:p -> c3981271:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.dependability.TransientFault extends org.universAAL.ontology.dependability.Fault
-	c3981277:p -> c3981272:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.dependability.NonMaliciousFault extends org.universAAL.ontology.dependability.Fault
-	c3981277:p -> c3981273:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.dependability.ValueFault extends org.universAAL.ontology.dependability.Fault
-	c3981277:p -> c3981275:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.dependability.Fault extends org.universAAL.middleware.owl.ManagedIndividual
-	c3980391:p -> c3981277:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.dependability.NonParametricFault extends org.universAAL.ontology.dependability.Fault
-	c3981277:p -> c3981279:p [dir=back,arrowtail=empty];
+	// org.universAAL.ontology.dependability.PermanentFault
+	c4094051 [label=<<table title="org.universAAL.ontology.dependability.PermanentFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PermanentFault.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> PermanentFault </td></tr>
+		</table></td></tr>
+		</table>>, URL="./PermanentFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.dependability.Fault
+	c4094052 [label=<<table title="org.universAAL.ontology.dependability.Fault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Fault.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Fault </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Fault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.dependability.NonMaliciousFault
+	c4094053 [label=<<table title="org.universAAL.ontology.dependability.NonMaliciousFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NonMaliciousFault.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> NonMaliciousFault </td></tr>
+		</table></td></tr>
+		</table>>, URL="./NonMaliciousFault.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.dependability.IndirectFault extends org.universAAL.ontology.dependability.Fault
-	c3981277:p -> c3981281:p [dir=back,arrowtail=empty];
+	c4094052:p -> c4094025:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.dependability.NonParametricFault extends org.universAAL.ontology.dependability.Fault
+	c4094052:p -> c4094028:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.dependability.ParametricFault extends org.universAAL.ontology.dependability.Fault
+	c4094052:p -> c4094034:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.dependability.ValueFault extends org.universAAL.ontology.dependability.Fault
+	c4094052:p -> c4094035:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.dependability.DevelopmentFault extends org.universAAL.ontology.dependability.Fault
+	c4094052:p -> c4094036:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.dependability.PhysicalFault extends org.universAAL.ontology.dependability.Fault
+	c4094052:p -> c4094037:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.dependability.TransientFault extends org.universAAL.ontology.dependability.Fault
+	c4094052:p -> c4094038:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.dependability.InternalCauseFault extends org.universAAL.ontology.dependability.Fault
-	c3981277:p -> c3981282:p [dir=back,arrowtail=empty];
+	c4094052:p -> c4094040:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.dependability.ContinuedFault extends org.universAAL.ontology.dependability.Fault
+	c4094052:p -> c4094043:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.dependability.DirectFault extends org.universAAL.ontology.dependability.Fault
+	c4094052:p -> c4094045:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.dependability.IntermittentFault extends org.universAAL.ontology.dependability.Fault
+	c4094052:p -> c4094046:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.dependability.OperationalFault extends org.universAAL.ontology.dependability.Fault
+	c4094052:p -> c4094048:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.dependability.SoftwareFault extends org.universAAL.ontology.dependability.Fault
+	c4094052:p -> c4094049:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.dependability.TimingFault extends org.universAAL.ontology.dependability.Fault
-	c3981277:p -> c3981283:p [dir=back,arrowtail=empty];
+	c4094052:p -> c4094050:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.dependability.PermanentFault extends org.universAAL.ontology.dependability.Fault
+	c4094052:p -> c4094051:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.dependability.Fault extends org.universAAL.middleware.owl.ManagedIndividual
+	c4093140:p -> c4094052:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.dependability.NonMaliciousFault extends org.universAAL.ontology.dependability.Fault
+	c4094052:p -> c4094053:p [dir=back,arrowtail=empty];
 }
 

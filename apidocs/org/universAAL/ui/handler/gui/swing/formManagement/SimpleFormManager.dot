@@ -9,20 +9,20 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ui.handler.gui.swing.formManagement.SimpleFormManager
-	c7590691 [label=<<table title="org.universAAL.ui.handler.gui.swing.formManagement.SimpleFormManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SimpleFormManager.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> SimpleFormManager </td></tr>
-		</table></td></tr>
-		</table>>, URL="./SimpleFormManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.handler.gui.swing.formManagement.FormManager
-	c7590696 [label=<<table title="org.universAAL.ui.handler.gui.swing.formManagement.FormManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FormManager.html">
+	c7779835 [label=<<table title="org.universAAL.ui.handler.gui.swing.formManagement.FormManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FormManager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> FormManager </td></tr>
 		</table></td></tr>
 		</table>>, URL="./FormManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ui.handler.gui.swing.formManagement.SimpleFormManager
+	c7779837 [label=<<table title="org.universAAL.ui.handler.gui.swing.formManagement.SimpleFormManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SimpleFormManager.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> SimpleFormManager </td></tr>
+		</table></td></tr>
+		</table>>, URL="./SimpleFormManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.handler.gui.swing.formManagement.SimpleFormManager implements org.universAAL.ui.handler.gui.swing.formManagement.FormManager
-	c7590696:p -> c7590691:p [dir=back,arrowtail=empty,style=dashed];
+	c7779835:p -> c7779837:p [dir=back,arrowtail=empty,style=dashed];
 }
 

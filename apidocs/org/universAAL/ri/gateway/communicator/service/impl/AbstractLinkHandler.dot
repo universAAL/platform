@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ri.gateway.communicator.service.impl.AbstractLinkHandler
-	c1859586 [label=<<table title="org.universAAL.ri.gateway.communicator.service.impl.AbstractLinkHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractLinkHandler.html">
+	c1926691 [label=<<table title="org.universAAL.ri.gateway.communicator.service.impl.AbstractLinkHandler" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractLinkHandler.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractLinkHandler </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractLinkHandler.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ri.gateway.communicator.service.impl.AbstractLinkHandler implements java.lang.Runnable
-	c1860377:p -> c1859586:p [dir=back,arrowtail=empty,style=dashed];
+	c1927527:p -> c1926691:p [dir=back,arrowtail=empty,style=dashed];
 	// java.lang.Runnable
-	c1860377 [label=<<table title="java.lang.Runnable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Runnable.html">
+	c1927527 [label=<<table title="java.lang.Runnable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Runnable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Runnable </td></tr>

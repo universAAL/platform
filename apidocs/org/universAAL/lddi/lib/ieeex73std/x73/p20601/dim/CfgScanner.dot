@@ -9,35 +9,35 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim.Scanner
-	c2635023 [label=<<table title="org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim.Scanner" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Scanner.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Scanner </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./Scanner.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim.PeriCfgScanner
-	c2635024 [label=<<table title="org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim.PeriCfgScanner" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PeriCfgScanner.html">
+	c2722590 [label=<<table title="org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim.PeriCfgScanner" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PeriCfgScanner.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PeriCfgScanner </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PeriCfgScanner.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim.EpiCfgscanner
-	c2635026 [label=<<table title="org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim.EpiCfgscanner" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EpiCfgscanner.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> EpiCfgscanner </td></tr>
-		</table></td></tr>
-		</table>>, URL="./EpiCfgscanner.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim.CfgScanner
-	c2635030 [label=<<table title="org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim.CfgScanner" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CfgScanner.html">
+	c2722592 [label=<<table title="org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim.CfgScanner" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CfgScanner.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> CfgScanner </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./CfgScanner.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim.EpiCfgscanner
+	c2722600 [label=<<table title="org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim.EpiCfgscanner" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EpiCfgscanner.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> EpiCfgscanner </td></tr>
+		</table></td></tr>
+		</table>>, URL="./EpiCfgscanner.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim.Scanner
+	c2722602 [label=<<table title="org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim.Scanner" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Scanner.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Scanner </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./Scanner.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim.PeriCfgScanner extends org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim.CfgScanner
-	c2635030:p -> c2635024:p [dir=back,arrowtail=empty];
-	//org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim.EpiCfgscanner extends org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim.CfgScanner
-	c2635030:p -> c2635026:p [dir=back,arrowtail=empty];
+	c2722592:p -> c2722590:p [dir=back,arrowtail=empty];
 	//org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim.CfgScanner extends org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim.Scanner
-	c2635023:p -> c2635030:p [dir=back,arrowtail=empty];
+	c2722602:p -> c2722592:p [dir=back,arrowtail=empty];
+	//org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim.EpiCfgscanner extends org.universAAL.lddi.lib.ieeex73std.x73.p20601.dim.CfgScanner
+	c2722592:p -> c2722600:p [dir=back,arrowtail=empty];
 }
 

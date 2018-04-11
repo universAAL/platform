@@ -18,7 +18,7 @@
     catch(err) {
     }
 //-->
-var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10};
+var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10};
 var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -75,7 +75,7 @@ var activeTableTab = "activeTableTab";
 <ul class="subNavList">
 <li>Summary:&nbsp;</li>
 <li>Nested&nbsp;|&nbsp;</li>
-<li><a href="#fields.inherited.from.class.java.util.Properties">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#fields.inherited.from.class.org.universAAL.ri.gateway.configuration.UpdatedPropertiesFile">Field</a>&nbsp;|&nbsp;</li>
 <li><a href="#constructor.summary">Constr</a>&nbsp;|&nbsp;</li>
 <li><a href="#method.summary">Method</a></li>
 </ul>
@@ -170,6 +170,13 @@ implements <a href="../../../../../org/universAAL/ri/gateway/configuration/Confi
 </a>
 <h3>Field Summary</h3>
 <ul class="blockList">
+<li class="blockList"><a name="fields.inherited.from.class.org.universAAL.ri.gateway.configuration.UpdatedPropertiesFile">
+<!--   -->
+</a>
+<h3>Fields inherited from class&nbsp;org.universAAL.ri.gateway.configuration.<a href="../../../../../org/universAAL/ri/gateway/configuration/UpdatedPropertiesFile.html" title="class in org.universAAL.ri.gateway.configuration">UpdatedPropertiesFile</a></h3>
+<code><a href="../../../../../org/universAAL/ri/gateway/configuration/UpdatedPropertiesFile.html#propertiesFile">propertiesFile</a></code></li>
+</ul>
+<ul class="blockList">
 <li class="blockList"><a name="fields.inherited.from.class.java.util.Properties">
 <!--   -->
 </a>
@@ -181,7 +188,7 @@ implements <a href="../../../../../org/universAAL/ri/gateway/configuration/Confi
 <!--   -->
 </a>
 <h3>Fields inherited from interface&nbsp;org.universAAL.ri.gateway.configuration.<a href="../../../../../org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html" title="interface in org.universAAL.ri.gateway.configuration">PropertiesFileKeys</a></h3>
-<code><a href="../../../../../org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#CONNECTION_MODE">CONNECTION_MODE</a>, <a href="../../../../../org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#HASH_KEY">HASH_KEY</a>, <a href="../../../../../org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#REMOTE_HOST">REMOTE_HOST</a>, <a href="../../../../../org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#SECURITY_DEFINITION">SECURITY_DEFINITION</a>, <a href="../../../../../org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#SOCKET_PORT">SOCKET_PORT</a></code></li>
+<code><a href="../../../../../org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#CHIPER_CLASS">CHIPER_CLASS</a>, <a href="../../../../../org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#CONNECTION_MODE">CONNECTION_MODE</a>, <a href="../../../../../org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#EXPORT_ATTEMPTS">EXPORT_ATTEMPTS</a>, <a href="../../../../../org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#PRE_CONN_CACHE">PRE_CONN_CACHE</a>, <a href="../../../../../org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#QUEUES">QUEUES</a>, <a href="../../../../../org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#REMOTE_HOST">REMOTE_HOST</a>, <a href="../../../../../org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#SECURITY_DEFINITION">SECURITY_DEFINITION</a>, <a href="../../../../../org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#SERVER_THREADS">SERVER_THREADS</a>, <a href="../../../../../org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#SOCKET_PORT">SOCKET_PORT</a>, <a href="../../../../../org/universAAL/ri/gateway/configuration/PropertiesFileKeys.html#TIMEOUT">TIMEOUT</a></code></li>
 </ul>
 </li>
 </ul>
@@ -222,39 +229,42 @@ implements <a href="../../../../../org/universAAL/ri/gateway/configuration/Confi
 </td>
 </tr>
 <tr id="i1" class="rowColor">
-<td class="colFirst"><code><a href="../../../../../org/universAAL/ri/gateway/communication/cipher/Cipher.html" title="interface in org.universAAL.ri.gateway.communication.cipher">Cipher</a></code></td>
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/ConfigurationFile.html#getCacheBeforeConnect--">getCacheBeforeConnect</a></span>()</code>
+<div class="block">Get the configuration that states that the gateway should cache messages
+ before actual connection.</div>
+</td>
+</tr>
+<tr id="i2" class="altColor">
+<td class="colFirst"><code><a href="../../../../../org/universAAL/ri/gateway/communication/cipher/SocketCipher.html" title="interface in org.universAAL.ri.gateway.communication.cipher">SocketCipher</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/ConfigurationFile.html#getCipher--">getCipher</a></span>()</code>
 <div class="block">Get the encryption cipher to be used for the communication link.</div>
 </td>
 </tr>
-<tr id="i2" class="altColor">
+<tr id="i3" class="rowColor">
 <td class="colFirst"><code><a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/ConfigurationFile.html#getComments--">getComments</a></span>()</code>
 <div class="block">Get the comments for the Property file.</div>
 </td>
 </tr>
-<tr id="i3" class="rowColor">
+<tr id="i4" class="altColor">
 <td class="colFirst"><code><a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/ConfigurationFile.html#getConnectionHost--">getConnectionHost</a></span>()</code>
 <div class="block">Get the Host the Session should connect to.</div>
 </td>
 </tr>
-<tr id="i4" class="altColor">
+<tr id="i5" class="rowColor">
 <td class="colFirst"><code><a href="../../../../../org/universAAL/ri/gateway/configuration/Configuration.ConnectionMode.html" title="enum in org.universAAL.ri.gateway.configuration">Configuration.ConnectionMode</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/ConfigurationFile.html#getConnectionMode--">getConnectionMode</a></span>()</code>
 <div class="block">Get the Connection mode intended for the <a href="../../../../../org/universAAL/ri/gateway/Session.html" title="class in org.universAAL.ri.gateway"><code>Session</code></a> represented by
  this configuration.</div>
 </td>
 </tr>
-<tr id="i5" class="rowColor">
+<tr id="i6" class="altColor">
 <td class="colFirst"><code>int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/ConfigurationFile.html#getConnectionPort--">getConnectionPort</a></span>()</code>
 <div class="block">Get the port to connect to.</div>
 </td>
-</tr>
-<tr id="i6" class="altColor">
-<td class="colFirst"><code><a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/ConfigurationFile.html#getEncryptionKey--">getEncryptionKey</a></span>()</code>&nbsp;</td>
 </tr>
 <tr id="i7" class="rowColor">
 <td class="colFirst"><code><a href="../../../../../org/universAAL/ri/gateway/operations/ParameterCheckOpertaionChain.html" title="interface in org.universAAL.ri.gateway.operations">ParameterCheckOpertaionChain</a></code></td>
@@ -278,11 +288,39 @@ implements <a href="../../../../../org/universAAL/ri/gateway/configuration/Confi
 </td>
 </tr>
 <tr id="i10" class="altColor">
+<td class="colFirst"><code>int</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/ConfigurationFile.html#getMaxExportAttempts--">getMaxExportAttempts</a></span>()</code>
+<div class="block">Get the max Export Attempts.</div>
+</td>
+</tr>
+<tr id="i11" class="rowColor">
+<td class="colFirst"><code>long</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/ConfigurationFile.html#getMaxQueueSize--">getMaxQueueSize</a></span>()</code>
+<div class="block">Get the max message queue size.</div>
+</td>
+</tr>
+<tr id="i12" class="altColor">
 <td class="colFirst"><code><a href="../../../../../org/universAAL/ri/gateway/operations/MessageOperationChain.html" title="interface in org.universAAL.ri.gateway.operations">MessageOperationChain</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/ConfigurationFile.html#getOutgoingMessageOperationChain--">getOutgoingMessageOperationChain</a></span>()</code>
 <div class="block">The security checks that an outgoing <a href="../../../../../org/universAAL/ri/gateway/protocol/WrappedBusMessage.html" title="class in org.universAAL.ri.gateway.protocol"><code>WrappedBusMessage</code></a> has to
  pass in order to be allowed to transmitted to peer.</div>
 </td>
+</tr>
+<tr id="i13" class="rowColor">
+<td class="colFirst"><code>int</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/ConfigurationFile.html#getServerThreads--">getServerThreads</a></span>()</code>
+<div class="block">Get the configuration of threads for the server.</div>
+</td>
+</tr>
+<tr id="i14" class="altColor">
+<td class="colFirst"><code>long</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/ConfigurationFile.html#getTimeout--">getTimeout</a></span>()</code>
+<div class="block">Get the configured maximum time for timeouts.</div>
+</td>
+</tr>
+<tr id="i15" class="rowColor">
+<td class="colFirst"><code><a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/universAAL/ri/gateway/configuration/ConfigurationFile.html#toString--">toString</a></span>()</code></td>
 </tr>
 </table>
 <ul class="blockList">
@@ -304,7 +342,7 @@ implements <a href="../../../../../org/universAAL/ri/gateway/configuration/Confi
 <!--   -->
 </a>
 <h3>Methods inherited from class&nbsp;java.util.<a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true" title="class or interface in java.util">Hashtable</a></h3>
-<code><a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#clear--" title="class or interface in java.util">clear</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#clone--" title="class or interface in java.util">clone</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#compute-K-java.util.function.BiFunction-" title="class or interface in java.util">compute</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#computeIfAbsent-K-java.util.function.Function-" title="class or interface in java.util">computeIfAbsent</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#computeIfPresent-K-java.util.function.BiFunction-" title="class or interface in java.util">computeIfPresent</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#contains-java.lang.Object-" title="class or interface in java.util">contains</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#containsKey-java.lang.Object-" title="class or interface in java.util">containsKey</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#containsValue-java.lang.Object-" title="class or interface in java.util">containsValue</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#elements--" title="class or interface in java.util">elements</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#entrySet--" title="class or interface in java.util">entrySet</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#equals-java.lang.Object-" title="class or interface in java.util">equals</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#forEach-java.util.function.BiConsumer-" title="class or interface in java.util">forEach</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#get-java.lang.Object-" title="class or interface in java.util">get</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#getOrDefault-java.lang.Object-V-" title="class or interface in java.util">getOrDefault</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#hashCode--" title="class or interface in java.util">hashCode</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#isEmpty--" title="class or interface in java.util">isEmpty</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#keys--" title="class or interface in java.util">keys</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#keySet--" title="class or interface in java.util">keySet</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#merge-K-V-java.util.function.BiFunction-" title="class or interface in java.util">merge</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#put-K-V-" title="class or interface in java.util">put</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#putAll-java.util.Map-" title="class or interface in java.util">putAll</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#putIfAbsent-K-V-" title="class or interface in java.util">putIfAbsent</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#rehash--" title="class or interface in java.util">rehash</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#remove-java.lang.Object-" title="class or interface in java.util">remove</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#remove-java.lang.Object-java.lang.Object-" title="class or interface in java.util">remove</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#replace-K-V-" title="class or interface in java.util">replace</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#replace-K-V-V-" title="class or interface in java.util">replace</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#replaceAll-java.util.function.BiFunction-" title="class or interface in java.util">replaceAll</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#size--" title="class or interface in java.util">size</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#toString--" title="class or interface in java.util">toString</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#values--" title="class or interface in java.util">values</a></code></li>
+<code><a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#clear--" title="class or interface in java.util">clear</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#clone--" title="class or interface in java.util">clone</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#compute-K-java.util.function.BiFunction-" title="class or interface in java.util">compute</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#computeIfAbsent-K-java.util.function.Function-" title="class or interface in java.util">computeIfAbsent</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#computeIfPresent-K-java.util.function.BiFunction-" title="class or interface in java.util">computeIfPresent</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#contains-java.lang.Object-" title="class or interface in java.util">contains</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#containsKey-java.lang.Object-" title="class or interface in java.util">containsKey</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#containsValue-java.lang.Object-" title="class or interface in java.util">containsValue</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#elements--" title="class or interface in java.util">elements</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#entrySet--" title="class or interface in java.util">entrySet</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#equals-java.lang.Object-" title="class or interface in java.util">equals</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#forEach-java.util.function.BiConsumer-" title="class or interface in java.util">forEach</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#get-java.lang.Object-" title="class or interface in java.util">get</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#getOrDefault-java.lang.Object-V-" title="class or interface in java.util">getOrDefault</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#hashCode--" title="class or interface in java.util">hashCode</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#isEmpty--" title="class or interface in java.util">isEmpty</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#keys--" title="class or interface in java.util">keys</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#keySet--" title="class or interface in java.util">keySet</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#merge-K-V-java.util.function.BiFunction-" title="class or interface in java.util">merge</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#put-K-V-" title="class or interface in java.util">put</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#putAll-java.util.Map-" title="class or interface in java.util">putAll</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#putIfAbsent-K-V-" title="class or interface in java.util">putIfAbsent</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#rehash--" title="class or interface in java.util">rehash</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#remove-java.lang.Object-" title="class or interface in java.util">remove</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#remove-java.lang.Object-java.lang.Object-" title="class or interface in java.util">remove</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#replace-K-V-" title="class or interface in java.util">replace</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#replace-K-V-V-" title="class or interface in java.util">replace</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#replaceAll-java.util.function.BiFunction-" title="class or interface in java.util">replaceAll</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#size--" title="class or interface in java.util">size</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#values--" title="class or interface in java.util">values</a></code></li>
 </ul>
 <ul class="blockList">
 <li class="blockList"><a name="methods.inherited.from.class.java.lang.Object">
@@ -497,28 +535,111 @@ implements <a href="../../../../../org/universAAL/ri/gateway/configuration/Confi
 </dl>
 </li>
 </ul>
-<a name="getEncryptionKey--">
+<a name="getCipher--">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
-<h4>getEncryptionKey</h4>
-<pre>public&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;getEncryptionKey()</pre>
-</li>
-</ul>
-<a name="getCipher--">
-<!--   -->
-</a>
-<ul class="blockListLast">
-<li class="blockList">
 <h4>getCipher</h4>
-<pre>public&nbsp;<a href="../../../../../org/universAAL/ri/gateway/communication/cipher/Cipher.html" title="interface in org.universAAL.ri.gateway.communication.cipher">Cipher</a>&nbsp;getCipher()</pre>
+<pre>public&nbsp;<a href="../../../../../org/universAAL/ri/gateway/communication/cipher/SocketCipher.html" title="interface in org.universAAL.ri.gateway.communication.cipher">SocketCipher</a>&nbsp;getCipher()</pre>
 <div class="block">Get the encryption cipher to be used for the communication link.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code><a href="../../../../../org/universAAL/ri/gateway/configuration/Configuration.html#getCipher--">getCipher</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/universAAL/ri/gateway/configuration/Configuration.html" title="interface in org.universAAL.ri.gateway.configuration">Configuration</a></code></dd>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>the <a href="../../../../../org/universAAL/ri/gateway/communication/cipher/Cipher.html" title="interface in org.universAAL.ri.gateway.communication.cipher"><code>Cipher</code></a> implementation configured for this link.</dd>
+<dd>the <a href="../../../../../org/universAAL/ri/gateway/communication/cipher/SocketCipher.html" title="interface in org.universAAL.ri.gateway.communication.cipher"><code>SocketCipher</code></a> implementation configured for this link.</dd>
+</dl>
+</li>
+</ul>
+<a name="toString--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>toString</h4>
+<pre>public&nbsp;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;toString()</pre>
+<dl>
+<dt><span class="overrideSpecifyLabel">Overrides:</span></dt>
+<dd><code><a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true#toString--" title="class or interface in java.util">toString</a></code>&nbsp;in class&nbsp;<code><a href="http://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html?is-external=true" title="class or interface in java.util">Hashtable</a>&lt;<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>,<a href="http://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&gt;</code></dd>
+</dl>
+</li>
+</ul>
+<a name="getTimeout--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getTimeout</h4>
+<pre>public&nbsp;long&nbsp;getTimeout()</pre>
+<div class="block">Get the configured maximum time for timeouts.</div>
+<dl>
+<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
+<dd><code><a href="../../../../../org/universAAL/ri/gateway/configuration/Configuration.html#getTimeout--">getTimeout</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/universAAL/ri/gateway/configuration/Configuration.html" title="interface in org.universAAL.ri.gateway.configuration">Configuration</a></code></dd>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>The configured maximum time in miliseconds to wait before
+         timeouts, negative indicates for ever.</dd>
+</dl>
+</li>
+</ul>
+<a name="getCacheBeforeConnect--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getCacheBeforeConnect</h4>
+<pre>public&nbsp;boolean&nbsp;getCacheBeforeConnect()</pre>
+<div class="block">Get the configuration that states that the gateway should cache messages
+ before actual connection.</div>
+<dl>
+<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
+<dd><code><a href="../../../../../org/universAAL/ri/gateway/configuration/Configuration.html#getCacheBeforeConnect--">getCacheBeforeConnect</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/universAAL/ri/gateway/configuration/Configuration.html" title="interface in org.universAAL.ri.gateway.configuration">Configuration</a></code></dd>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>true IFF the messages should be cached before connection</dd>
+</dl>
+</li>
+</ul>
+<a name="getMaxQueueSize--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getMaxQueueSize</h4>
+<pre>public&nbsp;long&nbsp;getMaxQueueSize()</pre>
+<div class="block">Get the max message queue size. Configuration to optimize memory usage.</div>
+<dl>
+<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
+<dd><code><a href="../../../../../org/universAAL/ri/gateway/configuration/Configuration.html#getMaxQueueSize--">getMaxQueueSize</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/universAAL/ri/gateway/configuration/Configuration.html" title="interface in org.universAAL.ri.gateway.configuration">Configuration</a></code></dd>
+<dt><span class="returnLabel">Returns:</span></dt>
+</dl>
+</li>
+</ul>
+<a name="getMaxExportAttempts--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getMaxExportAttempts</h4>
+<pre>public&nbsp;int&nbsp;getMaxExportAttempts()</pre>
+<div class="block">Get the max Export Attempts.</div>
+<dl>
+<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
+<dd><code><a href="../../../../../org/universAAL/ri/gateway/configuration/Configuration.html#getMaxExportAttempts--">getMaxExportAttempts</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/universAAL/ri/gateway/configuration/Configuration.html" title="interface in org.universAAL.ri.gateway.configuration">Configuration</a></code></dd>
+<dt><span class="returnLabel">Returns:</span></dt>
+</dl>
+</li>
+</ul>
+<a name="getServerThreads--">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>getServerThreads</h4>
+<pre>public&nbsp;int&nbsp;getServerThreads()</pre>
+<div class="block">Get the configuration of threads for the server.</div>
+<dl>
+<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
+<dd><code><a href="../../../../../org/universAAL/ri/gateway/configuration/Configuration.html#getServerThreads--">getServerThreads</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/universAAL/ri/gateway/configuration/Configuration.html" title="interface in org.universAAL.ri.gateway.configuration">Configuration</a></code></dd>
+<dt><span class="returnLabel">Returns:</span></dt>
 </dl>
 </li>
 </ul>
@@ -576,7 +697,7 @@ implements <a href="../../../../../org/universAAL/ri/gateway/configuration/Confi
 <ul class="subNavList">
 <li>Summary:&nbsp;</li>
 <li>Nested&nbsp;|&nbsp;</li>
-<li><a href="#fields.inherited.from.class.java.util.Properties">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#fields.inherited.from.class.org.universAAL.ri.gateway.configuration.UpdatedPropertiesFile">Field</a>&nbsp;|&nbsp;</li>
 <li><a href="#constructor.summary">Constr</a>&nbsp;|&nbsp;</li>
 <li><a href="#method.summary">Method</a></li>
 </ul>
@@ -591,6 +712,6 @@ implements <a href="../../../../../org/universAAL/ri/gateway/configuration/Confi
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2017 <a href="http://www.universAAL.org/">universAAL Consortium</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2018 <a href="http://www.universAAL.org/">universAAL Consortium</a>. All rights reserved.</small></p>
 </body>
 </html>

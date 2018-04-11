@@ -9,19 +9,19 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ui.handler.kinect.adapter.serviceBus.AbstractService
-	c6970730 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.serviceBus.AbstractService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractService.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractService </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./AbstractService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.handler.kinect.adapter.serviceBus.RequestService
-	c6970731 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.serviceBus.RequestService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RequestService.html">
+	c7145323 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.serviceBus.RequestService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RequestService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> RequestService </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./RequestService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ui.handler.kinect.adapter.serviceBus.AbstractService
+	c7145324 [label=<<table title="org.universAAL.ui.handler.kinect.adapter.serviceBus.AbstractService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractService.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractService </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./AbstractService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ui.handler.kinect.adapter.serviceBus.RequestService extends org.universAAL.ui.handler.kinect.adapter.serviceBus.AbstractService
-	c6970730:p -> c6970731:p [dir=back,arrowtail=empty];
+	c7145324:p -> c7145323:p [dir=back,arrowtail=empty];
 }
 

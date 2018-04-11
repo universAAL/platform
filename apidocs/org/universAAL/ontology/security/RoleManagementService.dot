@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.service.owl.Service
-	c7043753 [label=<<table title="org.universAAL.middleware.service.owl.Service" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/service/owl/Service.html">
+	c7219690 [label=<<table title="org.universAAL.middleware.service.owl.Service" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/service/owl/Service.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Service </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/service/owl/Service.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.security.RoleManagementService
-	c7044454 [label=<<table title="org.universAAL.ontology.security.RoleManagementService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RoleManagementService.html">
+	c7220447 [label=<<table title="org.universAAL.ontology.security.RoleManagementService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RoleManagementService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RoleManagementService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./RoleManagementService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.security.authorisator.profiles.RoleMngServiceProfile
-	c7045294 [label=<<table title="org.universAAL.security.authorisator.profiles.RoleMngServiceProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../security/authorisator/profiles/RoleMngServiceProfile.html">
+	c7221288 [label=<<table title="org.universAAL.security.authorisator.profiles.RoleMngServiceProfile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../security/authorisator/profiles/RoleMngServiceProfile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RoleMngServiceProfile </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../security/authorisator/profiles/RoleMngServiceProfile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.security.RoleManagementService extends org.universAAL.middleware.service.owl.Service
-	c7043753:p -> c7044454:p [dir=back,arrowtail=empty];
+	c7219690:p -> c7220447:p [dir=back,arrowtail=empty];
 	//org.universAAL.security.authorisator.profiles.RoleMngServiceProfile extends org.universAAL.ontology.security.RoleManagementService
-	c7044454:p -> c7045294:p [dir=back,arrowtail=empty];
+	c7220447:p -> c7221288:p [dir=back,arrowtail=empty];
 }
 

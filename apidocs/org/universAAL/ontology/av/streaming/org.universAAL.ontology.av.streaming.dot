@@ -9,83 +9,83 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ontology.av.streaming.Stream
-	c338292 [label=<<table title="org.universAAL.ontology.av.streaming.Stream" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Stream.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Stream </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./Stream.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.av.streaming.AudioCompression
-	c338293 [label=<<table title="org.universAAL.ontology.av.streaming.AudioCompression" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AudioCompression.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> AudioCompression </td></tr>
-		</table></td></tr>
-		</table>>, URL="./AudioCompression.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.av.streaming.Format
-	c338294 [label=<<table title="org.universAAL.ontology.av.streaming.Format" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Format.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Format </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./Format.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.av.streaming.EndPoint
-	c338295 [label=<<table title="org.universAAL.ontology.av.streaming.EndPoint" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EndPoint.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> EndPoint </td></tr>
-		</table></td></tr>
-		</table>>, URL="./EndPoint.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.av.streaming.AudioStream
-	c338296 [label=<<table title="org.universAAL.ontology.av.streaming.AudioStream" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AudioStream.html">
+	c371097 [label=<<table title="org.universAAL.ontology.av.streaming.AudioStream" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AudioStream.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AudioStream </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AudioStream.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.av.streaming.VideoCompression
-	c338297 [label=<<table title="org.universAAL.ontology.av.streaming.VideoCompression" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./VideoCompression.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> VideoCompression </td></tr>
-		</table></td></tr>
-		</table>>, URL="./VideoCompression.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.av.streaming.VideoFormat
-	c338298 [label=<<table title="org.universAAL.ontology.av.streaming.VideoFormat" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./VideoFormat.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> VideoFormat </td></tr>
-		</table></td></tr>
-		</table>>, URL="./VideoFormat.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.av.streaming.AudioFormat
-	c338299 [label=<<table title="org.universAAL.ontology.av.streaming.AudioFormat" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AudioFormat.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> AudioFormat </td></tr>
-		</table></td></tr>
-		</table>>, URL="./AudioFormat.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.av.streaming.VideoStream
-	c338300 [label=<<table title="org.universAAL.ontology.av.streaming.VideoStream" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./VideoStream.html">
+	c371098 [label=<<table title="org.universAAL.ontology.av.streaming.VideoStream" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./VideoStream.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> VideoStream </td></tr>
 		</table></td></tr>
 		</table>>, URL="./VideoStream.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.av.streaming.AudioFile
-	c338301 [label=<<table title="org.universAAL.ontology.av.streaming.AudioFile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AudioFile.html">
+	c371099 [label=<<table title="org.universAAL.ontology.av.streaming.AudioFile" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AudioFile.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AudioFile </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AudioFile.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.av.streaming.Format
+	c371100 [label=<<table title="org.universAAL.ontology.av.streaming.Format" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Format.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Format </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./Format.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.av.streaming.AudioFormat
+	c371101 [label=<<table title="org.universAAL.ontology.av.streaming.AudioFormat" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AudioFormat.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> AudioFormat </td></tr>
+		</table></td></tr>
+		</table>>, URL="./AudioFormat.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.av.streaming.Stream
+	c371102 [label=<<table title="org.universAAL.ontology.av.streaming.Stream" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Stream.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Stream </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./Stream.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.av.streaming.Compression
-	c338302 [label=<<table title="org.universAAL.ontology.av.streaming.Compression" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Compression.html">
+	c371103 [label=<<table title="org.universAAL.ontology.av.streaming.Compression" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Compression.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Compression </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./Compression.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.ontology.av.streaming.AudioCompression extends org.universAAL.ontology.av.streaming.Compression
-	c338302:p -> c338293:p [dir=back,arrowtail=empty];
+	// org.universAAL.ontology.av.streaming.VideoFormat
+	c371104 [label=<<table title="org.universAAL.ontology.av.streaming.VideoFormat" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./VideoFormat.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> VideoFormat </td></tr>
+		</table></td></tr>
+		</table>>, URL="./VideoFormat.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.av.streaming.EndPoint
+	c371105 [label=<<table title="org.universAAL.ontology.av.streaming.EndPoint" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EndPoint.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> EndPoint </td></tr>
+		</table></td></tr>
+		</table>>, URL="./EndPoint.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.av.streaming.AudioCompression
+	c371106 [label=<<table title="org.universAAL.ontology.av.streaming.AudioCompression" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AudioCompression.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> AudioCompression </td></tr>
+		</table></td></tr>
+		</table>>, URL="./AudioCompression.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.av.streaming.VideoCompression
+	c371107 [label=<<table title="org.universAAL.ontology.av.streaming.VideoCompression" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./VideoCompression.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> VideoCompression </td></tr>
+		</table></td></tr>
+		</table>>, URL="./VideoCompression.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.av.streaming.AudioStream extends org.universAAL.ontology.av.streaming.Stream
-	c338292:p -> c338296:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.av.streaming.VideoCompression extends org.universAAL.ontology.av.streaming.Compression
-	c338302:p -> c338297:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.av.streaming.VideoFormat extends org.universAAL.ontology.av.streaming.Format
-	c338294:p -> c338298:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.av.streaming.AudioFormat extends org.universAAL.ontology.av.streaming.Format
-	c338294:p -> c338299:p [dir=back,arrowtail=empty];
+	c371102:p -> c371097:p [dir=back,arrowtail=empty];
 	//org.universAAL.ontology.av.streaming.VideoStream extends org.universAAL.ontology.av.streaming.Stream
-	c338292:p -> c338300:p [dir=back,arrowtail=empty];
+	c371102:p -> c371098:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.av.streaming.AudioFormat extends org.universAAL.ontology.av.streaming.Format
+	c371100:p -> c371101:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.av.streaming.VideoFormat extends org.universAAL.ontology.av.streaming.Format
+	c371100:p -> c371104:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.av.streaming.AudioCompression extends org.universAAL.ontology.av.streaming.Compression
+	c371103:p -> c371106:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.av.streaming.VideoCompression extends org.universAAL.ontology.av.streaming.Compression
+	c371103:p -> c371107:p [dir=back,arrowtail=empty];
 }
 

@@ -10,58 +10,58 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.middleware.ui.owl.AccessImpairment
-	c7554291 [label=<<table title="org.universAAL.middleware.ui.owl.AccessImpairment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/ui/owl/AccessImpairment.html">
+	c7742732 [label=<<table title="org.universAAL.middleware.ui.owl.AccessImpairment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../middleware/ui/owl/AccessImpairment.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AccessImpairment </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../middleware/ui/owl/AccessImpairment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.impairment.SightImpairment
-	c7554701 [label=<<table title="org.universAAL.ontology.impairment.SightImpairment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SightImpairment.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> SightImpairment </td></tr>
-		</table></td></tr>
-		</table>>, URL="./SightImpairment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.impairment.LightSensitivity
-	c7554702 [label=<<table title="org.universAAL.ontology.impairment.LightSensitivity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightSensitivity.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> LightSensitivity </td></tr>
-		</table></td></tr>
-		</table>>, URL="./LightSensitivity.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.impairment.ColorBlindness
-	c7554705 [label=<<table title="org.universAAL.ontology.impairment.ColorBlindness" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ColorBlindness.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ColorBlindness </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ColorBlindness.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.impairment.NearSightedness
-	c7554707 [label=<<table title="org.universAAL.ontology.impairment.NearSightedness" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NearSightedness.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> NearSightedness </td></tr>
-		</table></td></tr>
-		</table>>, URL="./NearSightedness.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ontology.impairment.FarSightedness
-	c7554709 [label=<<table title="org.universAAL.ontology.impairment.FarSightedness" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FarSightedness.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> FarSightedness </td></tr>
-		</table></td></tr>
-		</table>>, URL="./FarSightedness.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.impairment.Astigmatism
-	c7554710 [label=<<table title="org.universAAL.ontology.impairment.Astigmatism" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Astigmatism.html">
+	c7743191 [label=<<table title="org.universAAL.ontology.impairment.Astigmatism" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Astigmatism.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Astigmatism </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Astigmatism.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.ontology.impairment.SightImpairment extends org.universAAL.middleware.ui.owl.AccessImpairment
-	c7554291:p -> c7554701:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.impairment.LightSensitivity extends org.universAAL.ontology.impairment.SightImpairment
-	c7554701:p -> c7554702:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.impairment.ColorBlindness extends org.universAAL.ontology.impairment.SightImpairment
-	c7554701:p -> c7554705:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.impairment.NearSightedness extends org.universAAL.ontology.impairment.SightImpairment
-	c7554701:p -> c7554707:p [dir=back,arrowtail=empty];
-	//org.universAAL.ontology.impairment.FarSightedness extends org.universAAL.ontology.impairment.SightImpairment
-	c7554701:p -> c7554709:p [dir=back,arrowtail=empty];
+	// org.universAAL.ontology.impairment.LightSensitivity
+	c7743192 [label=<<table title="org.universAAL.ontology.impairment.LightSensitivity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightSensitivity.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> LightSensitivity </td></tr>
+		</table></td></tr>
+		</table>>, URL="./LightSensitivity.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.impairment.FarSightedness
+	c7743194 [label=<<table title="org.universAAL.ontology.impairment.FarSightedness" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FarSightedness.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> FarSightedness </td></tr>
+		</table></td></tr>
+		</table>>, URL="./FarSightedness.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.impairment.NearSightedness
+	c7743195 [label=<<table title="org.universAAL.ontology.impairment.NearSightedness" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NearSightedness.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> NearSightedness </td></tr>
+		</table></td></tr>
+		</table>>, URL="./NearSightedness.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.impairment.ColorBlindness
+	c7743196 [label=<<table title="org.universAAL.ontology.impairment.ColorBlindness" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ColorBlindness.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ColorBlindness </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ColorBlindness.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ontology.impairment.SightImpairment
+	c7743200 [label=<<table title="org.universAAL.ontology.impairment.SightImpairment" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SightImpairment.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> SightImpairment </td></tr>
+		</table></td></tr>
+		</table>>, URL="./SightImpairment.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.impairment.Astigmatism extends org.universAAL.ontology.impairment.SightImpairment
-	c7554701:p -> c7554710:p [dir=back,arrowtail=empty];
+	c7743200:p -> c7743191:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.impairment.LightSensitivity extends org.universAAL.ontology.impairment.SightImpairment
+	c7743200:p -> c7743192:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.impairment.FarSightedness extends org.universAAL.ontology.impairment.SightImpairment
+	c7743200:p -> c7743194:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.impairment.NearSightedness extends org.universAAL.ontology.impairment.SightImpairment
+	c7743200:p -> c7743195:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.impairment.ColorBlindness extends org.universAAL.ontology.impairment.SightImpairment
+	c7743200:p -> c7743196:p [dir=back,arrowtail=empty];
+	//org.universAAL.ontology.impairment.SightImpairment extends org.universAAL.middleware.ui.owl.AccessImpairment
+	c7742732:p -> c7743200:p [dir=back,arrowtail=empty];
 }
 

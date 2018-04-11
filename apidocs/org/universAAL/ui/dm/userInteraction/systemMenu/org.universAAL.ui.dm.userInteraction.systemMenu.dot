@@ -9,23 +9,23 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ui.dm.userInteraction.systemMenu.TaskBarSystemMenuProvider
-	c1072165 [label=<<table title="org.universAAL.ui.dm.userInteraction.systemMenu.TaskBarSystemMenuProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TaskBarSystemMenuProvider.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> TaskBarSystemMenuProvider </td></tr>
-		</table></td></tr>
-		</table>>, URL="./TaskBarSystemMenuProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.userInteraction.systemMenu.ClassicSystemMenuProvider
-	c1072166 [label=<<table title="org.universAAL.ui.dm.userInteraction.systemMenu.ClassicSystemMenuProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ClassicSystemMenuProvider.html">
+	c1109861 [label=<<table title="org.universAAL.ui.dm.userInteraction.systemMenu.ClassicSystemMenuProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ClassicSystemMenuProvider.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ClassicSystemMenuProvider </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ClassicSystemMenuProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.userInteraction.systemMenu.SmartPendingSystemMenuProvider
-	c1072167 [label=<<table title="org.universAAL.ui.dm.userInteraction.systemMenu.SmartPendingSystemMenuProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SmartPendingSystemMenuProvider.html">
+	c1109862 [label=<<table title="org.universAAL.ui.dm.userInteraction.systemMenu.SmartPendingSystemMenuProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SmartPendingSystemMenuProvider.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SmartPendingSystemMenuProvider </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SmartPendingSystemMenuProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ui.dm.userInteraction.systemMenu.TaskBarSystemMenuProvider
+	c1109863 [label=<<table title="org.universAAL.ui.dm.userInteraction.systemMenu.TaskBarSystemMenuProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TaskBarSystemMenuProvider.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> TaskBarSystemMenuProvider </td></tr>
+		</table></td></tr>
+		</table>>, URL="./TaskBarSystemMenuProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

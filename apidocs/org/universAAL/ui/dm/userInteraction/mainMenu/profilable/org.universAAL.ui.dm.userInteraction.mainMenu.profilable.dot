@@ -9,29 +9,29 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.ui.dm.userInteraction.mainMenu.profilable.RDFMainMenu
-	c1077940 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.profilable.RDFMainMenu" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RDFMainMenu.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> RDFMainMenu </td></tr>
-		</table></td></tr>
-		</table>>, URL="./RDFMainMenu.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ui.dm.userInteraction.mainMenu.profilable.RDFMenuNode
-	c1077941 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.profilable.RDFMenuNode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RDFMenuNode.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> RDFMenuNode </td></tr>
-		</table></td></tr>
-		</table>>, URL="./RDFMenuNode.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.ui.dm.userInteraction.mainMenu.profilable.ProfilableFileMainMenuProvider
-	c1077942 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.profilable.ProfilableFileMainMenuProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProfilableFileMainMenuProvider.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ProfilableFileMainMenuProvider </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ProfilableFileMainMenuProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ui.dm.userInteraction.mainMenu.profilable.SCallee
-	c1077943 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.profilable.SCallee" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SCallee.html">
+	c1118685 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.profilable.SCallee" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SCallee.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SCallee </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SCallee.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ui.dm.userInteraction.mainMenu.profilable.RDFMainMenu
+	c1118686 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.profilable.RDFMainMenu" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RDFMainMenu.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> RDFMainMenu </td></tr>
+		</table></td></tr>
+		</table>>, URL="./RDFMainMenu.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ui.dm.userInteraction.mainMenu.profilable.ProfilableFileMainMenuProvider
+	c1118687 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.profilable.ProfilableFileMainMenuProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProfilableFileMainMenuProvider.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ProfilableFileMainMenuProvider </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ProfilableFileMainMenuProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.ui.dm.userInteraction.mainMenu.profilable.RDFMenuNode
+	c1118688 [label=<<table title="org.universAAL.ui.dm.userInteraction.mainMenu.profilable.RDFMenuNode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RDFMenuNode.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> RDFMenuNode </td></tr>
+		</table></td></tr>
+		</table>>, URL="./RDFMenuNode.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

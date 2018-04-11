@@ -9,20 +9,20 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.tools.ucc.configuration.model.validators.IntMinMaxValidator
-	c4790597 [label=<<table title="org.universAAL.tools.ucc.configuration.model.validators.IntMinMaxValidator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IntMinMaxValidator.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> IntMinMaxValidator </td></tr>
-		</table></td></tr>
-		</table>>, URL="./IntMinMaxValidator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.tools.ucc.configuration.model.interfaces.ConfigurationValidator
-	c4790621 [label=<<table title="org.universAAL.tools.ucc.configuration.model.interfaces.ConfigurationValidator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../interfaces/ConfigurationValidator.html">
+	c4918510 [label=<<table title="org.universAAL.tools.ucc.configuration.model.interfaces.ConfigurationValidator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../interfaces/ConfigurationValidator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ConfigurationValidator </td></tr>
 		</table></td></tr>
 		</table>>, URL="../interfaces/ConfigurationValidator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.tools.ucc.configuration.model.validators.IntMinMaxValidator
+	c4918511 [label=<<table title="org.universAAL.tools.ucc.configuration.model.validators.IntMinMaxValidator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IntMinMaxValidator.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> IntMinMaxValidator </td></tr>
+		</table></td></tr>
+		</table>>, URL="./IntMinMaxValidator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.tools.ucc.configuration.model.validators.IntMinMaxValidator implements org.universAAL.tools.ucc.configuration.model.interfaces.ConfigurationValidator
-	c4790621:p -> c4790597:p [dir=back,arrowtail=empty,style=dashed];
+	c4918510:p -> c4918511:p [dir=back,arrowtail=empty,style=dashed];
 }
 

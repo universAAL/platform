@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.OtherCirculatorySystemDisease
-	c4347627 [label=<<table title="org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.OtherCirculatorySystemDisease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OtherCirculatorySystemDisease.html">
+	c4467236 [label=<<table title="org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.OtherCirculatorySystemDisease" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OtherCirculatorySystemDisease.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OtherCirculatorySystemDisease </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OtherCirculatorySystemDisease.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.HeartFailure
-	c4347628 [label=<<table title="org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.HeartFailure" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HeartFailure.html">
+	c4467237 [label=<<table title="org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.HeartFailure" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HeartFailure.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HeartFailure </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HeartFailure.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.HeartFailure extends org.universAAL.ontology.ICD10CirculatorySystemDiseases.owl.OtherCirculatorySystemDisease
-	c4347627:p -> c4347628:p [dir=back,arrowtail=empty];
+	c4467236:p -> c4467237:p [dir=back,arrowtail=empty];
 }
 

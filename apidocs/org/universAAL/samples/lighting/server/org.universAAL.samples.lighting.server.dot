@@ -10,22 +10,22 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.samples.lighting.server.Activator
-	c1199305 [label=<<table title="org.universAAL.samples.lighting.server.Activator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Activator.html">
+	c1254087 [label=<<table title="org.universAAL.samples.lighting.server.Activator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Activator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Activator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Activator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.samples.lighting.server.LightingProvider
-	c1199306 [label=<<table title="org.universAAL.samples.lighting.server.LightingProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingProvider.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> LightingProvider </td></tr>
-		</table></td></tr>
-		</table>>, URL="./LightingProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.samples.lighting.server.ProvidedLightingService
-	c1199307 [label=<<table title="org.universAAL.samples.lighting.server.ProvidedLightingService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProvidedLightingService.html">
+	c1254088 [label=<<table title="org.universAAL.samples.lighting.server.ProvidedLightingService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProvidedLightingService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProvidedLightingService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ProvidedLightingService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.samples.lighting.server.LightingProvider
+	c1254089 [label=<<table title="org.universAAL.samples.lighting.server.LightingProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LightingProvider.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> LightingProvider </td></tr>
+		</table></td></tr>
+		</table>>, URL="./LightingProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

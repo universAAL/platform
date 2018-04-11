@@ -10,31 +10,31 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.universAAL.lddi.weighingscale.publisher.Activator
-	c1285933 [label=<<table title="org.universAAL.lddi.weighingscale.publisher.Activator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Activator.html">
+	c1339394 [label=<<table title="org.universAAL.lddi.weighingscale.publisher.Activator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Activator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Activator </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Activator.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.lddi.weighingscale.publisher.Publisher
-	c1285934 [label=<<table title="org.universAAL.lddi.weighingscale.publisher.Publisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Publisher.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Publisher </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Publisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.weighingscale.publisher.hdpManager
-	c1285935 [label=<<table title="org.universAAL.lddi.weighingscale.publisher.hdpManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./hdpManager.html">
+	c1339395 [label=<<table title="org.universAAL.lddi.weighingscale.publisher.hdpManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./hdpManager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> hdpManager </td></tr>
 		</table></td></tr>
 		</table>>, URL="./hdpManager.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// org.universAAL.lddi.weighingscale.publisher.Publisher
+	c1339396 [label=<<table title="org.universAAL.lddi.weighingscale.publisher.Publisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Publisher.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Publisher </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Publisher.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.lddi.weighingscale.publisher.hdpManagerListener
-	c1285936 [label=<<table title="org.universAAL.lddi.weighingscale.publisher.hdpManagerListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./hdpManagerListener.html">
+	c1339397 [label=<<table title="org.universAAL.lddi.weighingscale.publisher.hdpManagerListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./hdpManagerListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> hdpManagerListener </td></tr>
 		</table></td></tr>
 		</table>>, URL="./hdpManagerListener.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.lddi.weighingscale.publisher.hdpManager implements org.universAAL.lddi.weighingscale.publisher.hdpManagerListener
-	c1285936:p -> c1285935:p [dir=back,arrowtail=empty,style=dashed];
+	c1339397:p -> c1339395:p [dir=back,arrowtail=empty,style=dashed];
 }
 
