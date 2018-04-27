@@ -54,7 +54,8 @@ do_script() {
 
 do_success() {
   echo -e "do_success"
-  travis_wait mvn deploy -DskipTests -DaltDeploymentRepository=uaal-nightly::default::http://depot.universaal.org/maven-repo/nightly/ -fn | grep -i "INFO] Build"
+#  travis_wait
+  mvn deploy -DskipTests -DaltDeploymentRepository=uaal-nightly::default::http://depot.universaal.org/maven-repo/nightly/ -fn | grep -i "INFO] Build"
   export OLD_DIR=`pwd`
   publish_site
   cd "$OLD_DIR"
