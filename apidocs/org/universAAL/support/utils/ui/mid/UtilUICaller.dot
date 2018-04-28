@@ -21,23 +21,7 @@ digraph G {
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> UtilUICaller </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./UtilUICaller.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.samples.utils.client.UIExample
-	c8708531 [label=<<table title="org.universAAL.samples.utils.client.UIExample" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../samples/utils/client/UIExample.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> UIExample </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../../../samples/utils/client/UIExample.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.samples.utils.app.UIExample
-	c8708534 [label=<<table title="org.universAAL.samples.utils.app.UIExample" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../samples/utils/app/UIExample.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> UIExample </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../../../samples/utils/app/UIExample.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.universAAL.support.utils.ui.mid.UtilUICaller extends org.universAAL.middleware.ui.UICaller
 	c8706448:p -> c8706755:p [dir=back,arrowtail=empty];
-	//org.universAAL.samples.utils.client.UIExample extends org.universAAL.support.utils.ui.mid.UtilUICaller
-	c8706755:p -> c8708531:p [dir=back,arrowtail=empty];
-	//org.universAAL.samples.utils.app.UIExample extends org.universAAL.support.utils.ui.mid.UtilUICaller
-	c8706755:p -> c8708534:p [dir=back,arrowtail=empty];
 }
 

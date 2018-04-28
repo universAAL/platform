@@ -39,12 +39,6 @@ digraph G {
 <tr><td align="center" balign="center"> ProvidedService </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../samples/servserver/ProvidedService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// org.universAAL.samples.lighting.server.ProvidedLightingService
-	c5317796 [label=<<table title="org.universAAL.samples.lighting.server.ProvidedLightingService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../samples/lighting/server/ProvidedLightingService.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ProvidedLightingService </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../samples/lighting/server/ProvidedLightingService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.samples.lighting.server_regular.ProvidedLightingServiceLevel2
 	c5317868 [label=<<table title="org.universAAL.samples.lighting.server_regular.ProvidedLightingServiceLevel2" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../samples/lighting/server_regular/ProvidedLightingServiceLevel2.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
@@ -65,8 +59,6 @@ digraph G {
 	c5316260:p -> c5316265:p [dir=back,arrowtail=empty];
 	//org.universAAL.samples.servserver.ProvidedService extends org.universAAL.ontology.lighting.Lighting
 	c5316260:p -> c5317791:p [dir=back,arrowtail=empty];
-	//org.universAAL.samples.lighting.server.ProvidedLightingService extends org.universAAL.ontology.lighting.Lighting
-	c5316260:p -> c5317796:p [dir=back,arrowtail=empty];
 	//org.universAAL.samples.lighting.server_regular.ProvidedLightingServiceLevel2 extends org.universAAL.ontology.lighting.Lighting
 	c5316260:p -> c5317868:p [dir=back,arrowtail=empty];
 	//org.universAAL.samples.lighting.server_regular.ProvidedLightingServiceLevel1 extends org.universAAL.ontology.lighting.Lighting

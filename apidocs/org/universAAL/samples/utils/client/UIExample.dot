@@ -9,19 +9,19 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.universAAL.support.utils.ui.mid.UtilUICaller
-	c8427625 [label=<<table title="org.universAAL.support.utils.ui.mid.UtilUICaller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../support/utils/ui/mid/UtilUICaller.html">
+	// org.universAAL.utilities.api.ui.mid.UtilUICaller
+	c8427674 [label=<<table title="org.universAAL.utilities.api.ui.mid.UtilUICaller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../utilities/api/ui/mid/UtilUICaller.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> UtilUICaller </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="../../../support/utils/ui/mid/UtilUICaller.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="../../../utilities/api/ui/mid/UtilUICaller.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.universAAL.samples.utils.client.UIExample
 	c8429401 [label=<<table title="org.universAAL.samples.utils.client.UIExample" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UIExample.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UIExample </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UIExample.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//org.universAAL.samples.utils.client.UIExample extends org.universAAL.support.utils.ui.mid.UtilUICaller
-	c8427625:p -> c8429401:p [dir=back,arrowtail=empty];
+	//org.universAAL.samples.utils.client.UIExample extends org.universAAL.utilities.api.ui.mid.UtilUICaller
+	c8427674:p -> c8429401:p [dir=back,arrowtail=empty];
 }
 
