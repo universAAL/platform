@@ -11,8 +11,9 @@
 	<repository>mvn:org.universAAL.service/srvc.karaf.feature/${uaal.parent.version}/xml/features</repository>
 	<repository>mvn:org.universAAL.support/utilities.karaf.feature/${uaal.parent.version}/xml/features</repository>
 	<repository>mvn:org.universAAL.tools/tools.karaf.feature/${uaal.parent.version}/xml/features</repository>
-<!-- 	<repository>mvn:org.universAAL.lddi/lddi.karaf.feature/${uaal.parent.version}/xml/features</repository> 
-	<repository>mvn:org.universAAL.tools.ucc/ucc.karaf.feature/3.0.0/xml/features</repository>-->
+ 	<repository>mvn:org.universAAL.lddi/lddi.karaf.feature/${uaal.parent.version}/xml/features</repository> 
+ 	<repository>mvn:org.universAAL.lddi/lddi.smarthome.karaf.feature/${uaal.parent.version}/xml/features</repository> 
+	<!-- <repository>mvn:org.universAAL.tools.ucc/ucc.karaf.feature/3.0.0/xml/features</repository>-->
 	
 	<feature name="uAAL-Minimal.Coordinator" description="Feature collection of a coordinator node, containing the minimal number of components for the Space to be fully functional."
 		version="${pom.version}" resolver='(obr)'>
