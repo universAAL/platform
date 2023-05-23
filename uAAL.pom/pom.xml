@@ -50,12 +50,12 @@
     <repository>
       <id>releases</id>
       <name>universAAL Releases</name>
-      <url>http://depot.universaal.org/nexus/content/repositories/releases/</url>
+      <url>https://depot.universaal.org/nexus/content/repositories/releases/</url>
     </repository>
     <snapshotRepository>
       <id>snapshots</id>
       <name>universAAL Snapshots</name>
-      <url>http://depot.universaal.org/nexus/content/repositories/snapshots/</url>
+      <url>https://depot.universaal.org/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
     <site>
       <id>depot.universaal.org</id>
@@ -64,7 +64,7 @@
   </distributionManagement>
   <properties>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <uaal.site.url.base>ftp://depot.universaal.org/www/Resources/maven-site/${project.version}</uaal.site.url.base>
+    <uaal.site.url.base>https://depot.universaal.org/www/Resources/maven-site/${project.version}</uaal.site.url.base>
     <targetJdk>1.5</targetJdk>
     <maven.compile.testSource>1.5</maven.compile.testSource>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -78,7 +78,7 @@
       </snapshots>
       <id>uaal</id>
       <name>universAAL Repositories</name>
-      <url>http://depot.universaal.org/maven-repo/releases/</url>
+      <url>https://depot.universaal.org/maven-repo/releases/</url>
     </repository>
     <repository>
       <releases>
@@ -86,12 +86,12 @@
       </releases>
       <id>uaal-snapshots</id>
       <name>universAAL Snapshot Repositories</name>
-      <url>http://depot.universaal.org/maven-repo/snapshots/</url>
+      <url>https://depot.universaal.org/maven-repo/snapshots/</url>
     </repository>
     <repository>
       <id>uaal-thirdparty</id>
       <name>universAAL ThirdParty Repositories</name>
-      <url>http://depot.universaal.org/maven-repo/thirdparty/</url>
+      <url>https://depot.universaal.org/maven-repo/thirdparty/</url>
     </repository>
     <repository>
       <snapshots>
@@ -131,7 +131,7 @@
       </snapshots>
       <id>uaal-thirdparty</id>
       <name>universAAL thirdparty Repositories</name>
-      <url>http://depot.universaal.org/maven-repo/thirdparty/</url>
+      <url>https://depot.universaal.org/maven-repo/thirdparty/</url>
     </pluginRepository>
     <pluginRepository>
       <snapshots>
@@ -139,12 +139,12 @@
       </snapshots>
       <id>uaal</id>
       <name>universAAL Repositories</name>
-      <url>http://depot.universaal.org/maven-repo/releases/</url>
+      <url>https://depot.universaal.org/maven-repo/releases/</url>
     </pluginRepository>
     <pluginRepository>
       <id>uaal-snapshots</id>
       <name>universAAL Snapshot Repositories</name>
-      <url>http://depot.universaal.org/maven-repo/snapshots/</url>
+      <url>https://depot.universaal.org/maven-repo/snapshots/</url>
     </pluginRepository>
   </pluginRepositories>
   <build>
@@ -486,7 +486,7 @@
           <plugin>
             <artifactId>maven-checkstyle-plugin</artifactId>
             <configuration>
-              <configLocation>http://depot.universaal.org/Resources/Checkstyle/uaal-checkstyle-config.xml</configLocation>
+              <configLocation>https://depot.universaal.org/Resources/Checkstyle/uaal-checkstyle-config.xml</configLocation>
             </configuration>
           </plugin>
           <plugin>
@@ -587,7 +587,7 @@
           <plugin>
             <artifactId>maven-checkstyle-plugin</artifactId>
             <configuration>
-              <configLocation>http://depot.universaal.org/Resources/Checkstyle/uaal-checkstyle-config.xml</configLocation>
+              <configLocation>https://depot.universaal.org/Resources/Checkstyle/uaal-checkstyle-config.xml</configLocation>
             </configuration>
           </plugin>
           <plugin>
