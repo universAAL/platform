@@ -10,15 +10,15 @@
   <description>The universAAL Super POM (from Maven: Project Object Model) defines common rules for all universAAL projects for,
 		e.g., building, reporting (e.g. Javadoc, unit test results), and repository location.
 		The export as Maven Site combines all reports for all universAAL projects in form of a website.</description>
-  <url>http://www.universaal.org/</url>
+  <url>https://www.universaal.info/</url>
   <organization>
-    <name>universAAL Consortium</name>
-    <url>http://www.universAAL.org/</url>
+    <name>universAAL IoT</name>
+    <url>https://www.universAAL.info/</url>
   </organization>
   <licenses>
     <license>
       <name>The Apache Software License, Version 2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
       <distribution>repo</distribution>
     </license>
   </licenses>
@@ -110,7 +110,7 @@
       </snapshots>
       <id>apache-snapshots</id>
       <name>Apache Snapshots</name>
-      <url>http://repository.apache.org/snapshots</url>
+      <url>https://repository.apache.org/snapshots</url>
     </repository>
   </repositories>
   <pluginRepositories>
